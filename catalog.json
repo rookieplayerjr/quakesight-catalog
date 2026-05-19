@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T17:08:46Z",
+  "generated_utc": "2026-05-19T17:17:18Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 69,
   "events": [
@@ -1944,28 +1944,27 @@
       "n_tracks": 3,
       "aoi_half_km": 28.5,
       "result": {
-        "L_km": 7.75,
-        "W_km": 7.27,
-        "Z_top_km": 11.98,
-        "dip": -70.4,
-        "strike": 143.2,
-        "Mw_post": 6.12,
+        "L_km": 7.78,
+        "W_km": 7.29,
+        "Z_top_km": 11.99,
+        "dip": -64.9,
+        "strike": 147.9,
+        "Mw_post": 6.29,
         "VR": {
-          "t159_asc": 0.24,
-          "t166_dsc": -4.17,
-          "t64_dsc": 0.42
+          "t159_asc": 0.37,
+          "t64_dsc": 0.55
         }
       },
       "diagnostics": {
-        "acceptance": 0.207,
-        "ess": 1897,
-        "geweke": 1.77,
+        "acceptance": 0.211,
+        "ess": 2481,
+        "geweke": 0.62,
         "verdict": "FAIL"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-19T12:52:42Z",
-      "stale": true,
+      "pipeline_run_utc": "2026-05-19T17:17:18Z",
+      "stale": false,
       "has_report": true,
       "links": {
         "report": "events/us7000e3n6/REPORT.html"
