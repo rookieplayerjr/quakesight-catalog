@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-19T20:37:01Z",
+  "generated_utc": "2026-05-19T20:46:07Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 69,
+  "n_events": 71,
   "events": [
     {
       "event_id": "ci38443183",
@@ -17,6 +17,31 @@
       "data_used": [],
       "n_tracks": 0,
       "aoi_half_km": 72.7,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "nc73584926",
+      "place": "Antelope Valley, CA",
+      "origin_utc": "2021-07-08T22:49:48Z",
+      "epi_lat": 38.5075,
+      "epi_lon": -119.4998333,
+      "depth_km": 7.45,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 55.5,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -64,8 +89,31 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "64",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.769,
+          "status": "ready"
+        },
+        {
+          "track": "71",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.824,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 80.0,
       "result": null,
       "diagnostics": null,
@@ -545,6 +593,31 @@
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
       "pipeline_run_utc": "2026-05-19T19:21:14Z",
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us60007anp",
+      "place": "104 km ENE of Kashgar, China",
+      "origin_utc": "2020-01-19T13:27:56Z",
+      "epi_lat": 39.8353,
+      "epi_lon": 77.1084,
+      "depth_km": 5.55,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 61.5,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
       "stale": false,
       "has_report": false,
       "links": {
@@ -1841,6 +1914,17 @@
       "magnitude_band": "6p5_to_7",
       "data_used": [
         {
+          "track": "20",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-03-27",
+            "2020-04-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.224,
+          "status": ""
+        },
+        {
           "track": "71",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -1852,7 +1936,7 @@
           "status": ""
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 72.8,
       "result": null,
       "diagnostics": null,
