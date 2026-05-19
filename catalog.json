@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-19T16:56:56Z",
-  "critical_fix_utc": "2026-05-19T13:30:00Z",
+  "generated_utc": "2026-05-19T17:08:46Z",
+  "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 69,
   "events": [
     {
@@ -136,7 +136,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:29:58Z",
-      "stale": false,
+      "stale": true,
       "has_report": true,
       "links": {
         "report": "events/nn00914068/REPORT.html"
@@ -210,7 +210,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:20:30Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -274,7 +274,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:29:24Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -338,7 +338,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:19:18Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -424,7 +424,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:32:35Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -662,7 +662,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:16:58Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -726,7 +726,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_tracks_failed",
       "pipeline_run_utc": "2026-05-19T16:17:59Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -965,7 +965,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:51:55Z",
-      "stale": false,
+      "stale": true,
       "has_report": true,
       "links": {
         "report": "events/us6000ldpm/REPORT.html"
@@ -1275,7 +1275,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:34:31Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -1385,7 +1385,7 @@
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
       "pipeline_run_utc": "2026-05-19T16:21:24Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -1437,7 +1437,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:30:55Z",
-      "stale": false,
+      "stale": true,
       "has_report": true,
       "links": {
         "report": "events/us6000ssxt/REPORT.html"
@@ -1651,7 +1651,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:45:52Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -1889,7 +1889,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:44:39Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -2213,7 +2213,7 @@
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
       "pipeline_run_utc": "2026-05-19T16:48:48Z",
-      "stale": false,
+      "stale": true,
       "has_report": false,
       "links": {
         "report": null
@@ -2352,7 +2352,7 @@
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-19T16:56:54Z",
-      "stale": false,
+      "stale": true,
       "has_report": true,
       "links": {
         "report": "events/us7000rfgy/REPORT.html"
