@@ -30,11 +30,13 @@
   input#filter{padding:5px 9px;font-size:13px;border:1px solid #aab;border-radius:4px}
   a{color:#1a3a6e}
   .hidden{display:none}
-  .leaflet-tooltip.bb-tip{padding:6px 7px;border:1px solid #777;border-radius:5px;
-       background:#fff;box-shadow:0 2px 9px rgba(0,0,0,.32);white-space:normal}
-  .bb-tip img{max-width:400px;display:block;margin-top:3px}
-  .bb-tip b{font-size:12px}
-  .bb-tip .nobb{font-size:11px;color:#666}
+  .pop{font-size:12.5px;line-height:1.5}
+  .pop .eid{font-size:13.5px;font-weight:700}
+  .pop .place{color:#555}
+  .pop .st{font-weight:700}
+  .pop .stale{color:#d62728;font-weight:600}
+  .pop .esc{color:#b06000}
+  .pop a{display:inline-block;margin-top:3px;font-weight:600}
 </style>
 </head>
 <body>
@@ -85,21 +87,22 @@ function show(which){
 
 function popupHtml(e){
   const r = e.result || {};
-  const d = e.diagnostics || {};
-  let h = `<b>${e.event_id}</b> &nbsp; Mw ${e.Mw} &nbsp; ${e.depth_km} km<br>`;
-  h += `${e.place||''}<br>`;
-  h += `<b>${statusLabel(e)}</b>`;
-  if (e.escalation_reason) h += ` — ${e.escalation_reason}`;
+  let h = '<div class="pop">';
+  h += `<span class="eid">${e.event_id}</span> &nbsp; Mw ${e.Mw} · ${e.depth_km} km<br>`;
+  h += `<span class="place">${e.place||''}</span><br>`;
+  h += `<span class="st" style="color:${statusColor(e)}">${statusLabel(e)}</span>`;
+  if (e.faulting_class) h += ` &nbsp;·&nbsp; ${e.faulting_class}`;
   h += '<br>';
-  if (e.faulting_class) h += `faulting: ${e.faulting_class}<br>`;
-  h += `tracks: ${e.n_tracks}`;
-  if (r.Mw_post) h += ` &nbsp; Mw_post ${r.Mw_post}`;
-  if (d.verdict) h += ` &nbsp; ESS ${d.ess} · Gw ${d.geweke}`;
-  h += '<br>';
+  // escalation reason only when the event genuinely stopped (not for done)
+  if (e.status === 'escalated' && e.escalation_reason)
+    h += `<span class="esc">stopped: ${e.escalation_reason}</span><br>`;
+  else if (r.Mw_post != null)
+    h += `GBIS: Mw ${r.Mw_post} · ${e.n_tracks} track${e.n_tracks>1?'s':''}<br>`;
+  if (e.stale)
+    h += '<span class="stale">⚠ predates critical fix — re-run</span><br>';
   if (e.links && e.links.report)
     h += `<a href="${e.links.report}" target="_blank">→ open REPORT</a>`;
-  if (e.stale) h += `<br><span style="color:#d62728">⚠ predates a critical fix — re-run</span>`;
-  return h;
+  return h + '</div>';
 }
 
 function buildMap(){
@@ -114,14 +117,7 @@ function buildMap(){
       color:'#333', weight:1,
       fillColor: statusColor(e), fillOpacity:.85
     }).addTo(MAP);
-    m.bindPopup(popupHtml(e));
-    // hover → multi-source beachball (USGS / GCMT / GBIS) comparison
-    let tip = `<b>${e.event_id}</b> · Mw ${e.Mw}`;
-    if (e.links && e.links.beachball)
-      tip += `<img src="${e.links.beachball}" alt="beachball">`;
-    else
-      tip += `<div class="nobb">no beachball — event not yet inverted</div>`;
-    m.bindTooltip(tip, {direction:'top', opacity:1, className:'bb-tip'});
+    m.bindPopup(popupHtml(e), {maxWidth: 270});
     pts.push([e.epi_lat, e.epi_lon]);
   });
   if (pts.length) MAP.fitBounds(pts, {padding:[40,40], maxZoom:6});
