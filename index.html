@@ -102,11 +102,11 @@
       <input id="filter" placeholder="Filter by id, place, mechanism…"
              oninput="render()">
       <div class="legend">
-        <span><i class="dot" style="background:#1a9850"></i>done·PASS</span>
-        <span><i class="dot" style="background:#e0a008"></i>done·FAIL</span>
-        <span><i class="dot" style="background:#f0820a"></i>escalated</span>
-        <span><i class="dot" style="background:#9aa5b1"></i>partial</span>
-        <span><i class="dot" style="background:#d64545"></i>stale</span>
+        <span><i class="dot" style="background:#1a9850"></i>Validated</span>
+        <span><i class="dot" style="background:#e0a008"></i>Needs review</span>
+        <span><i class="dot" style="background:#f0820a"></i>No model</span>
+        <span><i class="dot" style="background:#9aa5b1"></i>In progress</span>
+        <span><i class="dot" style="background:#d64545"></i>Re-run needed</span>
       </div>
     </div>
     <div class="side-count" id="count"></div>
@@ -126,10 +126,10 @@ function statusColor(e){
   return '#e0a008';
 }
 function statusLabel(e){
-  if(e.status==='escalated') return 'escalated';
-  if(e.status==='partial') return 'partial';
-  const v=(e.diagnostics&&e.diagnostics.verdict)||'?';
-  return 'done · '+v;
+  if(e.status==='escalated') return 'No model';
+  if(e.status==='partial') return 'In progress';
+  const v=(e.diagnostics&&e.diagnostics.verdict);
+  return v==='PASS' ? 'Validated' : 'Needs review';
 }
 function fmtTime(s){ return (s||'').replace('T',' ').replace(/:\d\d\.?\d*Z?$/,''); }
 
@@ -201,7 +201,9 @@ function filtered(){
   return rows;
 }
 function renderList(){
-  const rows=filtered().sort((a,b)=>(b.Mw||0)-(a.Mw||0));
+  // sidebar sorted by origin time, most recent first
+  const rows=filtered().sort((a,b)=>
+    (b.origin_utc||'').localeCompare(a.origin_utc||''));
   document.getElementById('count').textContent=
     `${rows.length} event${rows.length!==1?'s':''} shown`;
   const list=document.getElementById('list');
@@ -220,7 +222,7 @@ function renderList(){
       +`<div class="it-sub">${fmtTime(e.origin_utc)||''} UTC</div>`
       +`<div class="it-status" style="color:${col}">`
       +`<i class="dot" style="background:${col}"></i>${statusLabel(e)}`
-      +(e.stale?'<span class="stale">· STALE</span>':'')+`</div>`
+      +(e.stale?'<span class="stale">· re-run</span>':'')+`</div>`
       +`</div>`;
     d.onclick=()=>selectEvent(e.event_id,true);
     d.onmouseenter=()=>{const m=MARKERS[e.event_id];
@@ -253,7 +255,7 @@ function renderTable(){
     h+=`<td>${e.faulting_class||''}</td><td>${fmtTime(e.origin_utc)}</td>`;
     h+=`<td>${e.place||''}</td>`;
     h+=`<td><span class="pill" style="background:${statusColor(e)}">`
-      +`${statusLabel(e)}${e.stale?' · STALE':''}</span></td>`;
+      +`${statusLabel(e)}${e.stale?' · re-run':''}</span></td>`;
     h+=`<td>${(e.diagnostics||{}).verdict||'—'}</td>`;
     h+=e.links&&e.links.report
       ?`<td><a href="${e.links.report}" target="_blank">report →</a></td>`
