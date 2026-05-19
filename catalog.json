@@ -1,0 +1,797 @@
+{
+  "generated_utc": "2026-05-19T06:14:02Z",
+  "critical_fix_utc": "2026-05-19T05:30:00Z",
+  "n_events": 14,
+  "events": [
+    {
+      "event_id": "nn00914068",
+      "place": "20 km ESE of Silver Springs, Nevada",
+      "origin_utc": "2026-04-14T01:29:12Z",
+      "epi_lat": 39.3345,
+      "epi_lon": -119.0075,
+      "depth_km": 5.0,
+      "Mw": 5.68,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "144",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2026-04-09",
+            "2026-04-15"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.469,
+          "status": "ready"
+        },
+        {
+          "track": "64",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2026-04-10",
+            "2026-04-16"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.673,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 43.8,
+      "result": {
+        "L_km": 10.47,
+        "W_km": 8.25,
+        "Z_top_km": 0.41,
+        "dip": -80.6,
+        "strike": 67.0,
+        "Mw_post": 5.74,
+        "VR": {
+          "t144_dsc": 0.55,
+          "t64_asc": 0.43
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.203,
+        "ess": 605,
+        "geweke": 1.55,
+        "verdict": "PASS"
+      },
+      "status": "done",
+      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "pipeline_run_utc": "2026-05-19T05:56:45Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/nn00914068/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us10005j6b",
+      "place": "89 km NE of Lobujya, Nepal",
+      "origin_utc": "2016-05-22T01:48:48Z",
+      "epi_lat": 28.4538,
+      "epi_lon": 87.5326,
+      "depth_km": 9.36,
+      "Mw": 5.4,
+      "Mw_type": "Mwc",
+      "faulting_class": "normal",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [
+        {
+          "track": "121",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.659,
+          "status": "ready"
+        },
+        {
+          "track": 12,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.137,
+          "status": "ready"
+        },
+        {
+          "track": 48,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.173,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
+      "aoi_half_km": 24.8,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us100086gw",
+      "place": "5 km NW of Samsat, Turkey",
+      "origin_utc": "2017-03-02T11:07:26Z",
+      "epi_lat": 37.616,
+      "epi_lon": 38.4305,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "123",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2017-03-02",
+            "2017-03-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.603,
+          "status": "ready"
+        },
+        {
+          "track": "21",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2017-03-01",
+            "2017-03-07"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.56,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 29.9,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us10008m7l",
+      "place": "17 km SW of Maca, Peru",
+      "origin_utc": "2017-04-30T13:29:10Z",
+      "epi_lat": -15.7425,
+      "epi_lon": -71.8941,
+      "depth_km": 10.0,
+      "Mw": 5.1,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [
+        {
+          "track": "127",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.71,
+          "status": "ready"
+        },
+        {
+          "track": "25",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.655,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 16.8,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us2000a65e",
+      "place": "102 km NNW of Xinyuan, China",
+      "origin_utc": "2017-08-08T23:27:53Z",
+      "epi_lat": 44.3023,
+      "epi_lon": 82.8317,
+      "depth_km": 20.0,
+      "Mw": 6.3,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "12",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.553,
+          "status": "ready"
+        },
+        {
+          "track": 165,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.482,
+          "status": "ready"
+        },
+        {
+          "track": 63,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.322,
+          "status": "ready"
+        },
+        {
+          "track": 85,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.306,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 4,
+      "aoi_half_km": 44.7,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us6000dxge",
+      "place": "western Xizang",
+      "origin_utc": "2021-03-29T17:27:23Z",
+      "epi_lat": 34.3549,
+      "epi_lon": 87.6921,
+      "depth_km": 8.0,
+      "Mw": 5.5,
+      "Mw_type": "Mwb",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "114",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2021-03-22",
+            "2021-04-03"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.317,
+          "status": ""
+        },
+        {
+          "track": "121",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2021-03-23",
+            "2021-04-04"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.765,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 30.2,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us6000e2k3",
+      "place": "24 km NE of Bandar-e Gen?veh, Iran",
+      "origin_utc": "2021-04-18T06:41:49Z",
+      "epi_lat": 29.7531,
+      "epi_lon": 50.6784,
+      "depth_km": 8.0,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "101",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2021-04-14",
+            "2021-04-26"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.472,
+          "status": ""
+        },
+        {
+          "track": "35",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2021-04-10",
+            "2021-04-22"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.551,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 42.7,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us6000ldpm",
+      "place": "25 km NNE of Zindah J\u0101n, Afghanistan",
+      "origin_utc": "2023-10-07T07:12:49Z",
+      "epi_lat": 34.5442,
+      "epi_lon": 61.8891,
+      "depth_km": 8.0,
+      "Mw": 6.3,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "13",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-10-07",
+            "2023-10-19"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.739,
+          "status": "ready"
+        },
+        {
+          "track": "20",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-09-26",
+            "2023-10-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.663,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 75.9,
+      "result": {
+        "L_km": 20.39,
+        "W_km": 10.93,
+        "Z_top_km": 3.46,
+        "dip": -36.6,
+        "strike": 103.2,
+        "Mw_post": 6.51,
+        "VR": {
+          "t13_asc": 0.36,
+          "t20_dsc": 0.78
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.196,
+        "ess": 408,
+        "geweke": 39.46,
+        "verdict": "FAIL"
+      },
+      "status": "done",
+      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "pipeline_run_utc": "2026-05-18T19:03:10Z",
+      "stale": true,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000ldpm/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000rjsu",
+      "place": "7 km SE of S\u0131nd\u0131rg\u0131, Turkey",
+      "origin_utc": "2025-10-27T19:48:28Z",
+      "epi_lat": 39.1937,
+      "epi_lon": 28.2425,
+      "depth_km": 8.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "131",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-10-22",
+            "2025-10-28"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.382,
+          "status": ""
+        },
+        {
+          "track": "138",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-10-23",
+            "2025-10-29"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.411,
+          "status": ""
+        },
+        {
+          "track": "36",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-10-22",
+            "2025-10-28"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.338,
+          "status": ""
+        },
+        {
+          "track": "58",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-10-23",
+            "2025-10-29"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.29,
+          "status": ""
+        }
+      ],
+      "n_tracks": 4,
+      "aoi_half_km": 53.8,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-19T01:05:05Z",
+      "stale": true,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us6000sshc",
+      "place": "9 km E of Kentr\u00ed, Greece",
+      "origin_utc": "2026-04-24T03:18:54Z",
+      "epi_lat": 35.032,
+      "epi_lon": 25.8606,
+      "depth_km": 16.429,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "29",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2026-04-19",
+            "2026-04-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.177,
+          "status": ""
+        },
+        {
+          "track": "36",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2026-04-20",
+            "2026-04-26"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.186,
+          "status": ""
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 22.4,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-19T00:50:13Z",
+      "stale": true,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us6000ssxt",
+      "place": "170 km SE of Khovd, Mongolia",
+      "origin_utc": "2026-04-26T04:23:24Z",
+      "epi_lat": 46.8137,
+      "epi_lon": 93.0533,
+      "depth_km": 11.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "48",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2026-04-26",
+            "2026-05-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.72,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 24.9,
+      "result": {
+        "L_km": 8.62,
+        "W_km": 7.59,
+        "Z_top_km": 15.93,
+        "dip": -5.1,
+        "strike": 242.3,
+        "Mw_post": 6.14,
+        "VR": {
+          "t48_dsc": -1.34
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.214,
+        "ess": 231,
+        "geweke": 33.92,
+        "verdict": "FAIL"
+      },
+      "status": "done",
+      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "pipeline_run_utc": "2026-05-19T00:36:31Z",
+      "stale": true,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000ssxt/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us700070sc",
+      "place": "83 km SE of Kuqa, China",
+      "origin_utc": "2020-01-16T08:32:38Z",
+      "epi_lat": 41.2486,
+      "epi_lon": 83.7069,
+      "depth_km": 10.0,
+      "Mw": 5.2,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [
+        {
+          "track": "12",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.624,
+          "status": "ready"
+        },
+        {
+          "track": "85",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.663,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 18.9,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us7000dkv0",
+      "place": "95 km ENE of Nagqu, China",
+      "origin_utc": "2021-03-19T06:11:27Z",
+      "epi_lat": 31.9246,
+      "epi_lon": 92.9151,
+      "depth_km": 8.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "143",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2021-03-12",
+            "2021-03-24"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.685,
+          "status": "ready"
+        },
+        {
+          "track": "77",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2021-03-19",
+            "2021-03-31"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.394,
+          "status": ""
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 38.1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us7000e3n6",
+      "place": "57 km WSW of Bojn?rd, Iran",
+      "origin_utc": "2021-05-17T00:54:01Z",
+      "epi_lat": 37.3349,
+      "epi_lon": 56.7058,
+      "depth_km": 7.0,
+      "Mw": 5.4,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [
+        {
+          "track": "159",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.651,
+          "status": "ready"
+        },
+        {
+          "track": "166",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.667,
+          "status": "ready"
+        },
+        {
+          "track": "64",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.533,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
+      "aoi_half_km": 28.5,
+      "result": {
+        "L_km": 7.13,
+        "W_km": 6.69,
+        "Z_top_km": 11.5,
+        "dip": -74.1,
+        "strike": 97.5,
+        "Mw_post": 5.97,
+        "VR": {
+          "t159_asc": 0.05,
+          "t166_dsc": 0.21
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.143,
+        "ess": 123,
+        "geweke": 67.27,
+        "verdict": "FAIL"
+      },
+      "status": "done",
+      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "pipeline_run_utc": "2026-05-18T05:54:23Z",
+      "stale": true,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000e3n6/REPORT.html"
+      }
+    }
+  ]
+}

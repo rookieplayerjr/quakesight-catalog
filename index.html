@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuakeSight — processed-event catalog</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  body{font-family:-apple-system,Helvetica,Arial,sans-serif;margin:0;color:#222}
+  header{background:#1a3a6e;color:#fff;padding:12px 20px}
+  header h1{margin:0;font-size:18px}
+  header .meta{font-size:12px;opacity:.85;margin-top:3px}
+  .bar{padding:8px 20px;background:#f2f4f8;border-bottom:1px solid #d4d9e2;
+       display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  .bar button{font-size:13px;padding:5px 14px;border:1px solid #1a3a6e;
+       background:#fff;color:#1a3a6e;border-radius:4px;cursor:pointer}
+  .bar button.on{background:#1a3a6e;color:#fff}
+  .legend{font-size:12px;display:flex;gap:12px;flex-wrap:wrap}
+  .legend span{display:inline-flex;align-items:center;gap:4px}
+  .dot{width:11px;height:11px;border-radius:50%;display:inline-block;border:1px solid #555}
+  #map{height:calc(100vh - 150px)}
+  #table{padding:0 20px 40px}
+  table{border-collapse:collapse;font-size:12.5px;width:100%;margin-top:10px}
+  th,td{border:1px solid #ccc;padding:4px 8px;text-align:left}
+  th{background:#1a3a6e;color:#fff;cursor:pointer;position:sticky;top:0}
+  th:hover{background:#27508f}
+  tr:nth-child(even){background:#f6f8fb}
+  .pill{padding:1px 7px;border-radius:9px;font-size:11px;color:#fff;font-weight:600}
+  input#filter{padding:5px 9px;font-size:13px;border:1px solid #aab;border-radius:4px}
+  a{color:#1a3a6e}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>QuakeSight — processed-event catalog</h1>
+  <div class="meta" id="meta">loading…</div>
+</header>
+<div class="bar">
+  <button id="btnMap" class="on" onclick="show('map')">🗺 Map</button>
+  <button id="btnTable" onclick="show('table')">▦ Table</button>
+  <input id="filter" placeholder="filter: event id / place / faulting…"
+         oninput="renderTable()">
+  <div class="legend">
+    <span><i class="dot" style="background:#2ca02c"></i>done · PASS</span>
+    <span><i class="dot" style="background:#e6c000"></i>done · FAIL</span>
+    <span><i class="dot" style="background:#ff7f0e"></i>escalated</span>
+    <span><i class="dot" style="background:#888"></i>partial</span>
+    <span><i class="dot" style="background:#d62728"></i>STALE — re-run</span>
+  </div>
+</div>
+<div id="map"></div>
+<div id="table" class="hidden"></div>
+
+<script>
+let CAT = null, MAP = null, SORT = {key:'Mw', dir:-1};
+
+function statusColor(e){
+  if (e.stale) return '#d62728';
+  if (e.status === 'escalated') return '#ff7f0e';
+  if (e.status === 'partial')  return '#888';
+  if (e.diagnostics && e.diagnostics.verdict === 'PASS') return '#2ca02c';
+  return '#e6c000';
+}
+function statusLabel(e){
+  if (e.stale) return 'STALE';
+  if (e.status === 'escalated') return 'escalated';
+  if (e.status === 'partial')  return 'partial';
+  return 'done · ' + ((e.diagnostics && e.diagnostics.verdict) || '?');
+}
+
+function show(which){
+  document.getElementById('map').classList.toggle('hidden', which!=='map');
+  document.getElementById('table').classList.toggle('hidden', which!=='table');
+  document.getElementById('btnMap').classList.toggle('on', which==='map');
+  document.getElementById('btnTable').classList.toggle('on', which==='table');
+  if (which==='map' && MAP) setTimeout(()=>MAP.invalidateSize(), 50);
+}
+
+function popupHtml(e){
+  const r = e.result || {};
+  const d = e.diagnostics || {};
+  let h = `<b>${e.event_id}</b> &nbsp; Mw ${e.Mw} &nbsp; ${e.depth_km} km<br>`;
+  h += `${e.place||''}<br>`;
+  h += `<b>${statusLabel(e)}</b>`;
+  if (e.escalation_reason) h += ` — ${e.escalation_reason}`;
+  h += '<br>';
+  if (e.faulting_class) h += `faulting: ${e.faulting_class}<br>`;
+  h += `tracks: ${e.n_tracks}`;
+  if (r.Mw_post) h += ` &nbsp; Mw_post ${r.Mw_post}`;
+  if (d.verdict) h += ` &nbsp; ESS ${d.ess} · Gw ${d.geweke}`;
+  h += '<br>';
+  if (e.links && e.links.report)
+    h += `<a href="${e.links.report}" target="_blank">→ open REPORT</a>`;
+  if (e.stale) h += `<br><span style="color:#d62728">⚠ predates a critical fix — re-run</span>`;
+  return h;
+}
+
+function buildMap(){
+  MAP = L.map('map').setView([20,10], 2);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {attribution:'© OpenStreetMap', maxZoom:12}).addTo(MAP);
+  const pts = [];
+  CAT.events.forEach(e=>{
+    if (e.epi_lat==null || e.epi_lon==null) return;
+    const m = L.circleMarker([e.epi_lat, e.epi_lon], {
+      radius: 4 + Math.max(0,(e.Mw||4)-4)*3.2,
+      color:'#333', weight:1,
+      fillColor: statusColor(e), fillOpacity:.85
+    }).addTo(MAP);
+    m.bindPopup(popupHtml(e));
+    pts.push([e.epi_lat, e.epi_lon]);
+  });
+  if (pts.length) MAP.fitBounds(pts, {padding:[40,40], maxZoom:6});
+}
+
+function renderTable(){
+  const q = (document.getElementById('filter').value||'').toLowerCase();
+  let rows = CAT.events.filter(e=>{
+    if (!q) return true;
+    return (e.event_id+' '+(e.place||'')+' '+(e.faulting_class||'')
+            +' '+statusLabel(e)).toLowerCase().includes(q);
+  });
+  const k = SORT.key;
+  rows.sort((a,b)=>{
+    let va=a[k], vb=b[k];
+    if (k==='verdict'){va=(a.diagnostics||{}).verdict||''; vb=(b.diagnostics||{}).verdict||'';}
+    if (va==null) va=''; if (vb==null) vb='';
+    return (va<vb?-1:va>vb?1:0)*SORT.dir;
+  });
+  const cols = [['event_id','event'],['Mw','Mw'],['depth_km','depth'],
+    ['faulting_class','faulting'],['place','place'],['status','status'],
+    ['verdict','verdict'],['n_tracks','tracks'],['pipeline_run_utc','run (UTC)']];
+  let h = '<table><tr>';
+  cols.forEach(c=> h+=`<th onclick="sortBy('${c[0]}')">${c[1]}</th>`);
+  h += '<th>report</th></tr>';
+  rows.forEach(e=>{
+    const r=e.result||{}, d=e.diagnostics||{};
+    h += '<tr>';
+    h += `<td>${e.event_id}</td><td>${e.Mw??''}</td><td>${e.depth_km??''}</td>`;
+    h += `<td>${e.faulting_class||''}</td><td>${e.place||''}</td>`;
+    h += `<td><span class="pill" style="background:${statusColor(e)}">`
+       + `${statusLabel(e)}</span></td>`;
+    h += `<td>${d.verdict||''}</td><td>${e.n_tracks}</td>`;
+    h += `<td>${(e.pipeline_run_utc||'').replace('T',' ').replace('Z','')}</td>`;
+    h += e.links&&e.links.report
+       ? `<td><a href="${e.links.report}" target="_blank">REPORT</a></td>`
+       : '<td>—</td>';
+    h += '</tr>';
+  });
+  h += '</table>';
+  document.getElementById('table').innerHTML = h;
+}
+function sortBy(k){ SORT.dir = (SORT.key===k)? -SORT.dir : 1; SORT.key=k; renderTable(); }
+
+fetch('catalog.json').then(r=>r.json()).then(c=>{
+  CAT = c;
+  const ns = c.events.filter(e=>e.stale).length;
+  document.getElementById('meta').textContent =
+    `${c.n_events} events · generated ${c.generated_utc} · ${ns} stale (predate `
+    + `critical fix ${c.critical_fix_utc})`;
+  buildMap();
+  renderTable();
+}).catch(e=>{
+  document.getElementById('meta').textContent = 'failed to load catalog.json: '+e;
+});
+</script>
+</body>
+</html>

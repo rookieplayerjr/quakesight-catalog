@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>us7000e3n6 report (partial)</title>
+<style>
+  body { font-family: -apple-system, Helvetica, Arial, sans-serif;
+         max-width: 1200px; margin: 28px auto; padding: 0 22px; color: #222; line-height: 1.5; }
+  h1 { font-size: 22px; border-bottom: 2px solid #333; padding-bottom: 6px; }
+  h2 { font-size: 16px; margin-top: 26px; color: #1a3a6e;
+       padding: 5px 9px; background: #f5f8fc; border-left: 4px solid #1a3a6e; }
+  img { width: 100%; border: 1px solid #ddd; margin: 6px 0; }
+  table { border-collapse: collapse; font-size: 12.5px; margin: 8px 0; }
+  th, td { border: 1px solid #ccc; padding: 4px 8px; }
+  th { background: #f2f2f2; text-align: left; }
+  td.c { text-align: center; }
+  .summary { background: #fff7d6; border-left: 4px solid #c47800;
+             padding: 11px 14px; margin: 14px 0; font-size: 13px; }
+  .pending { background: #eef0f8; border-left: 4px solid #8890b8;
+             padding: 9px 13px; margin: 8px 0; font-size: 13px; color: #445; }
+  code { background: #f0f0f0; padding: 1px 5px; border-radius: 3px; font-size: 11.5px; }
+</style>
+</head><body>
+
+<h1>us7000e3n6 — Mw 5.4 — GBIS report (PARTIAL)</h1>
+
+<div class="summary">
+<b>Event:</b> 57 km WSW of Bojn?rd, Iran · (37.335°N, 56.706°E, depth 7.0 km)<br>
+<b>USGS NP1:</b> strike 290.6° / dip 39.3° / rake 68.7°<br>
+<b>USGS NP2:</b> strike 137.4° / dip 53.9° / rake 106.6°<br>
+<b>Status:</b> partial report — observations + two-round downsample done; GBIS inversion pending.
+</div>
+
+
+
+<h2>1. Raw observations (deramped + cropped)</h2>
+<div class="pending">Figure not available.</div>
+
+<h2>2. Two-round iterative downsampling (Pass-1 zoned → Pass-2 synth-quadtree)</h2>
+<img src="gbis/_partial/figures/02_ds_two_pass.png"><table><tr><th>track</th><th>Pass-1 zoned (pts)</th><th>Pass-2 synth-QT (pts)</th></tr><tr><td>t159_asc</td><td class='c'>1485</td><td class='c'>463</td></tr><tr><td>t166_dsc</td><td class='c'>1499</td><td class='c'>713</td></tr></table><p style="font-size:12px;color:#666">Two-round iterative downsample (Luo+21). <b>Pass-1</b>: zoned uniform DS (near dense / far sparse) → short GBIS → initial model. <b>Pass-2</b>: GBIS-forward the initial model → smooth synthetic LOS field → variance quadtree on the <i>synthetic</i> field → mesh applied to real data. Sampling follows real deformation gradient, not noise — fewer but better-placed points than a noisy-data quadtree.</p>
+
+<h2>3. Initial start, search range, and GBIS-reported optimum</h2>
+<div class="pending">⏳ Pending — GBIS MCMC still running. Re-run <code>event_report.py us7000e3n6 --gbis-run &lt;run&gt;</code> after completion to fill the prior/optimum table.</div>
+
+<h2>4. Beachball comparison</h2>
+<div class="pending">⏳ Pending — GBIS MCMC still running. Re-run <code>event_report.py us7000e3n6 --gbis-run &lt;run&gt;</code> after completion to fill the beachball.</div>
+
+<h2>5. Triplet — data / model / residual</h2>
+<div class="pending">⏳ Pending — GBIS MCMC still running. Re-run <code>event_report.py us7000e3n6 --gbis-run &lt;run&gt;</code> after completion to fill the data/model/residual triplet.</div>
+
+<h2>6. Joint-posterior corner plot</h2>
+<div class="pending">⏳ Pending — GBIS MCMC still running. Re-run <code>event_report.py us7000e3n6 --gbis-run &lt;run&gt;</code> after completion to fill the corner plot.</div>
+
+<h2>7. Burn-in / chain trace</h2>
+<div class="pending">⏳ Pending — GBIS MCMC still running. Re-run <code>event_report.py us7000e3n6 --gbis-run &lt;run&gt;</code> after completion to fill the chain trace.</div>
+
+</body></html>
