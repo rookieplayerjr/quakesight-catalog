@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T16:48:49Z",
+  "generated_utc": "2026-05-19T16:51:55Z",
   "critical_fix_utc": "2026-05-19T13:30:00Z",
   "n_events": 69,
   "events": [
@@ -964,8 +964,8 @@
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-19T12:50:45Z",
-      "stale": true,
+      "pipeline_run_utc": "2026-05-19T16:51:55Z",
+      "stale": false,
       "has_report": true,
       "links": {
         "report": "events/us6000ldpm/REPORT.html"
