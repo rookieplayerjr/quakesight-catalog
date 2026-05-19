@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T06:14:02Z",
+  "generated_utc": "2026-05-19T06:19:44Z",
   "critical_fix_utc": "2026-05-19T05:30:00Z",
   "n_events": 14,
   "events": [
@@ -64,7 +64,8 @@
       "stale": false,
       "has_report": true,
       "links": {
-        "report": "events/nn00914068/REPORT.html"
+        "report": "events/nn00914068/REPORT.html",
+        "beachball": "events/nn00914068/figures/04_beachball.png"
       }
     },
     {
@@ -123,7 +124,8 @@
       "stale": false,
       "has_report": false,
       "links": {
-        "report": null
+        "report": null,
+        "beachball": null
       }
     },
     {
@@ -171,7 +173,8 @@
       "stale": false,
       "has_report": false,
       "links": {
-        "report": null
+        "report": null,
+        "beachball": null
       }
     },
     {
@@ -219,7 +222,8 @@
       "stale": false,
       "has_report": false,
       "links": {
-        "report": null
+        "report": null,
+        "beachball": null
       }
     },
     {
@@ -289,7 +293,8 @@
       "stale": false,
       "has_report": false,
       "links": {
-        "report": null
+        "report": null,
+        "beachball": null
       }
     },
     {
@@ -337,7 +342,8 @@
       "stale": false,
       "has_report": false,
       "links": {
-        "report": null
+        "report": null,
+        "beachball": null
       }
     },
     {
@@ -385,7 +391,8 @@
       "stale": false,
       "has_report": false,
       "links": {
-        "report": null
+        "report": null,
+        "beachball": null
       }
     },
     {
@@ -449,7 +456,8 @@
       "stale": true,
       "has_report": true,
       "links": {
-        "report": "events/us6000ldpm/REPORT.html"
+        "report": "events/us6000ldpm/REPORT.html",
+        "beachball": "events/us6000ldpm/figures/04_beachball.png"
       }
     },
     {
@@ -519,7 +527,8 @@
       "stale": true,
       "has_report": false,
       "links": {
-        "report": null
+        "report": null,
+        "beachball": null
       }
     },
     {
@@ -567,7 +576,8 @@
       "stale": true,
       "has_report": false,
       "links": {
-        "report": null
+        "report": null,
+        "beachball": null
       }
     },
     {
@@ -619,7 +629,8 @@
       "stale": true,
       "has_report": true,
       "links": {
-        "report": "events/us6000ssxt/REPORT.html"
+        "report": "events/us6000ssxt/REPORT.html",
+        "beachball": "events/us6000ssxt/figures/04_beachball.png"
       }
     },
     {
@@ -667,7 +678,8 @@
       "stale": false,
       "has_report": false,
       "links": {
-        "report": null
+        "report": null,
+        "beachball": null
       }
     },
     {
@@ -715,7 +727,8 @@
       "stale": false,
       "has_report": false,
       "links": {
-        "report": null
+        "report": null,
+        "beachball": null
       }
     },
     {
@@ -790,7 +803,8 @@
       "stale": true,
       "has_report": true,
       "links": {
-        "report": "events/us7000e3n6/REPORT.html"
+        "report": "events/us7000e3n6/REPORT.html",
+        "beachball": null
       }
     }
   ]

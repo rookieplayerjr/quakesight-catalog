@@ -30,6 +30,11 @@
   input#filter{padding:5px 9px;font-size:13px;border:1px solid #aab;border-radius:4px}
   a{color:#1a3a6e}
   .hidden{display:none}
+  .leaflet-tooltip.bb-tip{padding:6px 7px;border:1px solid #777;border-radius:5px;
+       background:#fff;box-shadow:0 2px 9px rgba(0,0,0,.32);white-space:normal}
+  .bb-tip img{max-width:400px;display:block;margin-top:3px}
+  .bb-tip b{font-size:12px}
+  .bb-tip .nobb{font-size:11px;color:#666}
 </style>
 </head>
 <body>
@@ -110,6 +115,13 @@ function buildMap(){
       fillColor: statusColor(e), fillOpacity:.85
     }).addTo(MAP);
     m.bindPopup(popupHtml(e));
+    // hover → multi-source beachball (USGS / GCMT / GBIS) comparison
+    let tip = `<b>${e.event_id}</b> · Mw ${e.Mw}`;
+    if (e.links && e.links.beachball)
+      tip += `<img src="${e.links.beachball}" alt="beachball">`;
+    else
+      tip += `<div class="nobb">no beachball — event not yet inverted</div>`;
+    m.bindTooltip(tip, {direction:'top', opacity:1, className:'bb-tip'});
     pts.push([e.epi_lat, e.epi_lon]);
   });
   if (pts.length) MAP.fitBounds(pts, {padding:[40,40], maxZoom:6});
