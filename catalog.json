@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T07:36:06Z",
+  "generated_utc": "2026-05-19T08:37:35Z",
   "critical_fix_utc": "2026-05-19T05:30:00Z",
   "n_events": 15,
   "events": [
@@ -813,7 +813,7 @@
             "2025-12-09"
           ],
           "backend": "sp2",
-          "median_coh": 0.588,
+          "median_coh": 0.576,
           "status": "ready"
         },
         {
@@ -824,33 +824,33 @@
             "2025-12-10"
           ],
           "backend": "sp2",
-          "median_coh": 0.72,
+          "median_coh": 0.709,
           "status": "ready"
         }
       ],
       "n_tracks": 2,
       "aoi_half_km": 40.2,
       "result": {
-        "L_km": 13.41,
-        "W_km": 9.81,
-        "Z_top_km": 13.99,
-        "dip": -56.6,
-        "strike": 325.2,
-        "Mw_post": 6.38,
+        "L_km": 11.76,
+        "W_km": 8.6,
+        "Z_top_km": 12.89,
+        "dip": -34.1,
+        "strike": 293.2,
+        "Mw_post": 6.01,
         "VR": {
-          "t34_dsc": -0.79,
-          "t56_asc": -0.88
+          "t34_dsc": 0.19,
+          "t56_asc": 0.54
         }
       },
       "diagnostics": {
-        "acceptance": 0.214,
-        "ess": 3575,
-        "geweke": 4.07,
+        "acceptance": 0.215,
+        "ess": 218,
+        "geweke": 2.95,
         "verdict": "FAIL"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-19T07:36:05Z",
+      "pipeline_run_utc": "2026-05-19T08:37:35Z",
       "stale": false,
       "has_report": true,
       "links": {
