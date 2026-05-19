@@ -30,13 +30,15 @@
   input#filter{padding:5px 9px;font-size:13px;border:1px solid #aab;border-radius:4px}
   a{color:#1a3a6e}
   .hidden{display:none}
-  .pop{font-size:12.5px;line-height:1.5}
-  .pop .eid{font-size:13.5px;font-weight:700}
-  .pop .place{color:#555}
+  .pop{font-size:12.5px;line-height:1.55}
+  .pop .eid{font-size:14px;font-weight:700;color:#1a3a6e}
+  .pop .place{font-weight:600}
+  .pop .time{color:#555}
   .pop .st{font-weight:700}
   .pop .stale{color:#d62728;font-weight:600}
   .pop .esc{color:#b06000}
-  .pop a{display:inline-block;margin-top:3px;font-weight:600}
+  .pop hr{border:0;border-top:1px solid #ddd;margin:5px 0}
+  .pop a{display:inline-block;margin-top:2px;font-weight:600}
 </style>
 </head>
 <body>
@@ -86,18 +88,19 @@ function show(which){
 }
 
 function popupHtml(e){
-  const r = e.result || {};
+  // origin time: "2026-04-14T01:29:12Z" -> "2026-04-14 01:29"
+  const t = (e.origin_utc||'').replace('T',' ').replace(/:\d\d\.?\d*Z?$/,'');
   let h = '<div class="pop">';
-  h += `<span class="eid">${e.event_id}</span> &nbsp; Mw ${e.Mw} · ${e.depth_km} km<br>`;
-  h += `<span class="place">${e.place||''}</span><br>`;
-  h += `<span class="st" style="color:${statusColor(e)}">${statusLabel(e)}</span>`;
-  if (e.faulting_class) h += ` &nbsp;·&nbsp; ${e.faulting_class}`;
+  h += `<span class="eid">${e.event_id}</span><br>`;                 // 序号
+  h += `M ${e.Mw}`;                                                  // 震级
+  if (e.faulting_class) h += ` · ${e.faulting_class}`;               // 机制
   h += '<br>';
-  // escalation reason only when the event genuinely stopped (not for done)
+  h += `<span class="place">${e.place||''}</span><br>`;              // 名称
+  if (t) h += `<span class="time">${t} UTC</span><br>`;              // 时间
+  h += '<hr>';
+  h += `<span class="st" style="color:${statusColor(e)}">${statusLabel(e)}</span><br>`;
   if (e.status === 'escalated' && e.escalation_reason)
     h += `<span class="esc">stopped: ${e.escalation_reason}</span><br>`;
-  else if (r.Mw_post != null)
-    h += `GBIS: Mw ${r.Mw_post} · ${e.n_tracks} track${e.n_tracks>1?'s':''}<br>`;
   if (e.stale)
     h += '<span class="stale">⚠ predates critical fix — re-run</span><br>';
   if (e.links && e.links.report)
