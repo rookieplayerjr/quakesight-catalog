@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T18:28:30Z",
+  "generated_utc": "2026-05-19T18:29:40Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 69,
   "events": [
@@ -1330,6 +1330,17 @@
           "status": ""
         },
         {
+          "track": "123",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-11-15",
+            "2025-12-09"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.186,
+          "status": ""
+        },
+        {
           "track": "50",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -1341,13 +1352,13 @@
           "status": ""
         }
       ],
-      "n_tracks": 2,
+      "n_tracks": 3,
       "aoi_half_km": 80.0,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-19T18:29:40Z",
       "stale": false,
       "has_report": false,
       "links": {
