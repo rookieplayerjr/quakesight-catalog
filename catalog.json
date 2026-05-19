@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T18:57:59Z",
+  "generated_utc": "2026-05-19T19:08:50Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 69,
   "events": [
@@ -2212,8 +2212,42 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "154",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.855,
+          "status": "ready"
+        },
+        {
+          "track": 45,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.765,
+          "status": "ready"
+        },
+        {
+          "track": 52,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.792,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
       "aoi_half_km": 79.4,
       "result": null,
       "diagnostics": null,
