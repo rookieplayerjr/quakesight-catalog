@@ -2267,7 +2267,7 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T18:30:44Z",
+      "pipeline_run_utc": "2026-05-19T18:56:20Z",
       "stale": false,
       "has_report": false,
       "links": {
