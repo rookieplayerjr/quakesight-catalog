@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T20:46:07Z",
+  "generated_utc": "2026-05-19T20:54:43Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 71,
   "events": [
@@ -14,8 +14,31 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "64",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.686,
+          "status": "ready"
+        },
+        {
+          "track": 71,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.71,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 72.7,
       "result": null,
       "diagnostics": null,
@@ -544,11 +567,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T20:05:46Z",
+      "pipeline_run_utc": "2026-05-19T20:54:09Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000645n/REPORT.html"
       }
     },
     {
@@ -592,11 +615,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T19:21:14Z",
+      "pipeline_run_utc": "2026-05-19T20:54:10Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us60006rp9/REPORT.html"
       }
     },
     {
@@ -610,8 +633,31 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "129",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.741,
+          "status": "ready"
+        },
+        {
+          "track": "34",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.667,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 61.5,
       "result": null,
       "diagnostics": null,
@@ -763,11 +809,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T19:25:39Z",
+      "pipeline_run_utc": "2026-05-19T20:54:10Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000d7ix/REPORT.html"
       }
     },
     {
@@ -1074,11 +1120,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T20:00:05Z",
+      "pipeline_run_utc": "2026-05-19T20:54:11Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000jqxc/REPORT.html"
       }
     },
     {
@@ -1557,11 +1603,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T18:56:20Z",
+      "pipeline_run_utc": "2026-05-19T20:54:11Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000rsy1/REPORT.html"
       }
     },
     {
@@ -1605,11 +1651,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T18:48:48Z",
+      "pipeline_run_utc": "2026-05-19T20:54:12Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000sshc/REPORT.html"
       }
     },
     {
@@ -1730,11 +1776,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T20:36:31Z",
+      "pipeline_run_utc": "2026-05-19T20:54:12Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us700061e9/REPORT.html"
       }
     },
     {
@@ -2289,11 +2335,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T18:57:59Z",
+      "pipeline_run_utc": "2026-05-19T20:54:13Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000f93v/REPORT.html"
       }
     },
     {
@@ -2432,11 +2478,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T20:23:22Z",
+      "pipeline_run_utc": "2026-05-19T20:54:14Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000i59t/REPORT.html"
       }
     },
     {
@@ -2480,11 +2526,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T19:10:23Z",
+      "pipeline_run_utc": "2026-05-19T20:54:14Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000i90q/REPORT.html"
       }
     },
     {
@@ -2539,11 +2585,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T19:20:01Z",
+      "pipeline_run_utc": "2026-05-19T20:54:15Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000ia36/REPORT.html"
       }
     },
     {
@@ -2671,11 +2717,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T18:56:20Z",
+      "pipeline_run_utc": "2026-05-19T20:54:15Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000lsze/REPORT.html"
       }
     },
     {
@@ -2892,11 +2938,11 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-19T20:28:07Z",
+      "pipeline_run_utc": "2026-05-19T20:54:16Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000rm3k/REPORT.html"
       }
     }
   ]
