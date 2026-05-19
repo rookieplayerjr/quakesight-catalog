@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T19:29:11Z",
+  "generated_utc": "2026-05-19T19:31:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 69,
   "events": [
@@ -541,6 +541,28 @@
       "magnitude_band": "6p5_to_7",
       "data_used": [
         {
+          "track": 116,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.502,
+          "status": "ready"
+        },
+        {
+          "track": "123",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.549,
+          "status": "ready"
+        },
+        {
           "track": "43",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -552,7 +574,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 3,
       "aoi_half_km": 80.0,
       "result": null,
       "diagnostics": null,
@@ -2171,8 +2193,31 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "128",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-09-02",
+            "2022-09-14"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.203,
+          "status": ""
+        },
+        {
+          "track": "135",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2022-09-02",
+            "2022-09-14"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.274,
+          "status": ""
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 80.0,
       "result": null,
       "diagnostics": null,
@@ -2571,27 +2616,27 @@
       "n_tracks": 2,
       "aoi_half_km": 40.2,
       "result": {
-        "L_km": 11.76,
-        "W_km": 8.6,
-        "Z_top_km": 12.89,
-        "dip": -34.1,
-        "strike": 293.2,
-        "Mw_post": 6.01,
+        "L_km": 13.06,
+        "W_km": 9.55,
+        "Z_top_km": 8.65,
+        "dip": -37.4,
+        "strike": 283.9,
+        "Mw_post": 5.94,
         "VR": {
-          "t34_dsc": 0.19,
-          "t56_asc": 0.54
+          "t34_dsc": 0.2,
+          "t56_asc": 0.65
         }
       },
       "diagnostics": {
-        "acceptance": 0.215,
-        "ess": 218,
+        "acceptance": 0.209,
+        "ess": 1216,
         "geweke": 2.95,
         "verdict": "FAIL"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-19T16:56:54Z",
-      "stale": true,
+      "pipeline_run_utc": "2026-05-19T19:31:55Z",
+      "stale": false,
       "has_report": true,
       "links": {
         "report": "events/us7000rfgy/REPORT.html"
