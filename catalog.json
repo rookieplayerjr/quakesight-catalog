@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T16:51:56Z",
+  "generated_utc": "2026-05-19T16:56:54Z",
   "critical_fix_utc": "2026-05-19T13:30:00Z",
   "n_events": 69,
   "events": [
@@ -1317,8 +1317,20 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "116",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-11-20",
+            "2025-12-14"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.177,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 80.0,
       "result": null,
       "diagnostics": null,
@@ -2339,8 +2351,8 @@
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-19T08:37:35Z",
-      "stale": true,
+      "pipeline_run_utc": "2026-05-19T16:56:54Z",
+      "stale": false,
       "has_report": true,
       "links": {
         "report": "events/us7000rfgy/REPORT.html"
