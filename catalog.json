@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T11:07:09Z",
+  "generated_utc": "2026-05-19T11:08:31Z",
   "critical_fix_utc": "2026-05-19T05:30:00Z",
   "n_events": 15,
   "events": [
@@ -660,26 +660,26 @@
       "n_tracks": 1,
       "aoi_half_km": 24.9,
       "result": {
-        "L_km": 8.62,
-        "W_km": 7.59,
-        "Z_top_km": 15.93,
-        "dip": -5.1,
-        "strike": 242.3,
-        "Mw_post": 6.14,
+        "L_km": 8.88,
+        "W_km": 7.83,
+        "Z_top_km": 15.98,
+        "dip": -52.4,
+        "strike": 361.6,
+        "Mw_post": 6.2,
         "VR": {
-          "t48_dsc": -1.34
+          "t48_dsc": -1.69
         }
       },
       "diagnostics": {
-        "acceptance": 0.214,
-        "ess": 231,
-        "geweke": 33.92,
+        "acceptance": 0.215,
+        "ess": 4697,
+        "geweke": 1.47,
         "verdict": "FAIL"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-19T00:36:31Z",
-      "stale": true,
+      "pipeline_run_utc": "2026-05-19T11:08:31Z",
+      "stale": false,
       "has_report": true,
       "links": {
         "report": "events/us6000ssxt/REPORT.html"
