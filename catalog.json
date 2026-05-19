@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T17:17:19Z",
+  "generated_utc": "2026-05-19T17:40:30Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 69,
   "events": [
@@ -1328,9 +1328,20 @@
           "backend": "sp2",
           "median_coh": 0.177,
           "status": ""
+        },
+        {
+          "track": "50",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-11-28",
+            "2025-12-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.192,
+          "status": ""
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 80.0,
       "result": null,
       "diagnostics": null,
