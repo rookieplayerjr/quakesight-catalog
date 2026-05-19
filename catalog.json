@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T18:07:23Z",
+  "generated_utc": "2026-05-19T18:20:21Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 69,
   "events": [
@@ -116,10 +116,10 @@
       "n_tracks": 2,
       "aoi_half_km": 43.8,
       "result": {
-        "L_km": 10.47,
-        "W_km": 8.25,
+        "L_km": 10.45,
+        "W_km": 8.23,
         "Z_top_km": 0.41,
-        "dip": -80.6,
+        "dip": -80.7,
         "strike": 67.0,
         "Mw_post": 5.74,
         "VR": {
@@ -128,15 +128,15 @@
         }
       },
       "diagnostics": {
-        "acceptance": 0.203,
-        "ess": 605,
-        "geweke": 1.55,
+        "acceptance": 0.207,
+        "ess": 1169,
+        "geweke": 1.47,
         "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-19T16:29:58Z",
-      "stale": true,
+      "pipeline_run_utc": "2026-05-19T18:12:37Z",
+      "stale": false,
       "has_report": true,
       "links": {
         "report": "events/nn00914068/REPORT.html"
@@ -1429,26 +1429,26 @@
       "n_tracks": 1,
       "aoi_half_km": 24.9,
       "result": {
-        "L_km": 8.88,
-        "W_km": 7.83,
-        "Z_top_km": 15.98,
-        "dip": -52.4,
-        "strike": 361.6,
-        "Mw_post": 6.2,
+        "L_km": 8.87,
+        "W_km": 7.82,
+        "Z_top_km": 10.98,
+        "dip": -64.1,
+        "strike": 360.6,
+        "Mw_post": 6.04,
         "VR": {
-          "t48_dsc": -1.69
+          "t48_dsc": -3.39
         }
       },
       "diagnostics": {
-        "acceptance": 0.215,
-        "ess": 4697,
-        "geweke": 1.47,
+        "acceptance": 0.216,
+        "ess": 6088,
+        "geweke": 1.78,
         "verdict": "FAIL"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-19T16:30:55Z",
-      "stale": true,
+      "pipeline_run_utc": "2026-05-19T18:20:21Z",
+      "stale": false,
       "has_report": true,
       "links": {
         "report": "events/us6000ssxt/REPORT.html"
