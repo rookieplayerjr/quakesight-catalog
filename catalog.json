@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T20:54:43Z",
+  "generated_utc": "2026-05-19T21:07:05Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 71,
   "events": [
@@ -114,6 +114,17 @@
       "magnitude_band": "6p5_to_7",
       "data_used": [
         {
+          "track": "144",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.725,
+          "status": "ready"
+        },
+        {
           "track": "64",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -136,7 +147,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 2,
+      "n_tracks": 3,
       "aoi_half_km": 80.0,
       "result": null,
       "diagnostics": null,
