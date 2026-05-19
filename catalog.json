@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-19T09:13:10Z",
+  "generated_utc": "2026-05-19T09:42:36Z",
   "critical_fix_utc": "2026-05-19T05:30:00Z",
   "n_events": 15,
   "events": [
@@ -163,11 +163,27 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 29.9,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "result": {
+        "L_km": 7.09,
+        "W_km": 5.87,
+        "Z_top_km": 10.18,
+        "dip": -67.9,
+        "strike": 152.8,
+        "Mw_post": 6.04,
+        "VR": {
+          "t123_dsc": 0.39,
+          "t21_dsc": 0.36
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.187,
+        "ess": 290,
+        "geweke": 3.01,
+        "verdict": "FAIL"
+      },
+      "status": "done",
+      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "pipeline_run_utc": "2026-05-19T09:42:36Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -368,25 +384,25 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": "101",
+          "track": 101,
           "orbit_dir": "asc",
           "pair_dates": [
-            "2021-04-14",
-            "2021-04-26"
+            null,
+            null
           ],
-          "backend": "sp2",
-          "median_coh": 0.472,
+          "backend": "licsar",
+          "median_coh": 0.639,
           "status": "ready"
         },
         {
-          "track": "35",
+          "track": 35,
           "orbit_dir": "dsc",
           "pair_dates": [
-            "2021-04-10",
-            "2021-04-22"
+            null,
+            null
           ],
-          "backend": "sp2",
-          "median_coh": 0.551,
+          "backend": "licsar",
+          "median_coh": 0.592,
           "status": "ready"
         }
       ],
@@ -411,8 +427,8 @@
         "verdict": "FAIL"
       },
       "status": "done",
-      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-19T09:13:10Z",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-19T09:18:43Z",
       "stale": false,
       "has_report": false,
       "links": {
