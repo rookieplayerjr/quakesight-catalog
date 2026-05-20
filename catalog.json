@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-20T00:06:57Z",
+  "generated_utc": "2026-05-20T00:36:41Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 77,
   "events": [
@@ -1428,6 +1428,17 @@
           "status": ""
         },
         {
+          "track": "72",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-01-20",
+            "2023-02-01"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.51,
+          "status": "ready"
+        },
+        {
           "track": "79",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -1439,7 +1450,7 @@
           "status": ""
         }
       ],
-      "n_tracks": 3,
+      "n_tracks": 4,
       "aoi_half_km": 28.2,
       "result": null,
       "diagnostics": null,
