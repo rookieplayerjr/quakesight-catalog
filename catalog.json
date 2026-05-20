@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-19T23:51:03Z",
+  "generated_utc": "2026-05-20T00:06:57Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 76,
+  "n_events": 77,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1176,6 +1176,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "130",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-06-22",
+            "2022-07-04"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.774,
+          "status": "ready"
+        },
+        {
           "track": "166",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -1187,7 +1198,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 31.6,
       "result": null,
       "diagnostics": null,
@@ -1213,6 +1224,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "130",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-06-22",
+            "2022-07-04"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.721,
+          "status": "ready"
+        },
+        {
           "track": "166",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -1224,7 +1246,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 50.6,
       "result": null,
       "diagnostics": null,
@@ -1384,6 +1406,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "152",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-01-26",
+            "2023-02-07"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.35,
+          "status": ""
+        },
+        {
           "track": "174",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -1393,9 +1426,20 @@
           "backend": "sp2",
           "median_coh": 0.335,
           "status": ""
+        },
+        {
+          "track": "79",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-01-21",
+            "2023-02-14"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.388,
+          "status": ""
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 3,
       "aoi_half_km": 28.2,
       "result": null,
       "diagnostics": null,
@@ -1625,6 +1669,65 @@
       "has_report": true,
       "links": {
         "report": "events/us6000ldpm/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000ldpv",
+      "place": "35 km NNW of Her\u0101t, Afghanistan",
+      "origin_utc": "2023-10-07T07:40:30Z",
+      "epi_lat": 34.6262,
+      "epi_lon": 62.0006,
+      "depth_km": 12.48,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "122",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-10-03",
+            "2023-10-15"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.574,
+          "status": "ready"
+        },
+        {
+          "track": "13",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-10-07",
+            "2023-10-19"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.688,
+          "status": "ready"
+        },
+        {
+          "track": "20",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-09-26",
+            "2023-10-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.618,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
+      "aoi_half_km": 35.3,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
