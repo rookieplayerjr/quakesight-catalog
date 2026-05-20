@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-20T21:11:57Z",
+  "generated_utc": "2026-05-20T22:27:54Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 78,
   "events": [
@@ -1906,7 +1906,7 @@
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-20T08:02:23Z",
+      "pipeline_run_utc": "2026-05-20T22:27:54Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3517,38 +3517,22 @@
           "status": "ready"
         },
         {
-          "track": 52,
+          "track": "52",
           "orbit_dir": "dsc",
           "pair_dates": [
-            null,
-            null
+            "2023-09-04",
+            "2023-09-16"
           ],
-          "backend": "licsar",
-          "median_coh": 0.792,
+          "backend": "sp2",
+          "median_coh": 0.771,
           "status": "ready"
         }
       ],
       "n_tracks": 3,
       "aoi_half_km": 79.4,
-      "result": {
-        "L_km": 42.83,
-        "W_km": 16.82,
-        "Z_top_km": 17.69,
-        "dip": -64.0,
-        "strike": 252.4,
-        "Mw_post": 6.8,
-        "VR": {
-          "t154_dsc": 0.71,
-          "t52_dsc": 0.54
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.211,
-        "ess": 115,
-        "geweke": 1.09,
-        "verdict": "FAIL"
-      },
-      "status": "done",
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-20T21:11:57Z",
       "stale": false,
