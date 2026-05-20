@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-20T04:43:11Z",
+  "generated_utc": "2026-05-20T07:08:26Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 78,
   "events": [
@@ -1056,7 +1056,7 @@
         "acceptance": 0.209,
         "ess": 278,
         "geweke": 1.77,
-        "verdict": "FAIL"
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_tracks_failed",
@@ -1886,27 +1886,27 @@
       "n_tracks": 3,
       "aoi_half_km": 75.9,
       "result": {
-        "L_km": 13.94,
-        "W_km": 7.47,
-        "Z_top_km": 2.73,
-        "dip": -43.1,
-        "strike": 61.8,
-        "Mw_post": 6.37,
+        "L_km": 13.97,
+        "W_km": 7.48,
+        "Z_top_km": 2.79,
+        "dip": -45.7,
+        "strike": 61.2,
+        "Mw_post": 6.38,
         "VR": {
-          "t122_dsc": 0.56,
-          "t13_asc": 0.83,
-          "t20_dsc": 0.59
+          "t122_dsc": 0.58,
+          "t13_asc": 0.81,
+          "t20_dsc": 0.6
         }
       },
       "diagnostics": {
-        "acceptance": 0.207,
-        "ess": 1744,
-        "geweke": 2.25,
-        "verdict": "FAIL"
+        "acceptance": 0.205,
+        "ess": 1028,
+        "geweke": 1.3,
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-20T04:43:03Z",
+      "pipeline_run_utc": "2026-05-20T07:08:26Z",
       "stale": false,
       "has_report": true,
       "links": {
