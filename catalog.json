@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-20T01:36:41Z",
+  "generated_utc": "2026-05-20T02:10:27Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 78,
   "events": [
@@ -1200,25 +1200,9 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 31.6,
-      "result": {
-        "L_km": 17.54,
-        "W_km": 11.33,
-        "Z_top_km": 15.96,
-        "dip": -18.1,
-        "strike": 161.9,
-        "Mw_post": 6.66,
-        "VR": {
-          "t130_asc": -0.15,
-          "t166_dsc": -0.1
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.213,
-        "ess": 5156,
-        "geweke": 1.26,
-        "verdict": "FAIL"
-      },
-      "status": "done",
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
       "pipeline_run_utc": "2026-05-20T00:56:23Z",
       "stale": false,
