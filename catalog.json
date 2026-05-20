@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-20T22:53:13Z",
+  "generated_utc": "2026-05-20T23:08:48Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 78,
+  "n_events": 79,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3530,11 +3530,27 @@
       ],
       "n_tracks": 3,
       "aoi_half_km": 79.4,
-      "result": null,
-      "diagnostics": null,
-      "status": "escalated",
+      "result": {
+        "L_km": 27.27,
+        "W_km": 10.71,
+        "Z_top_km": 18.72,
+        "dip": -52.7,
+        "strike": 361.1,
+        "Mw_post": 6.75,
+        "VR": {
+          "t154_dsc": 0.56,
+          "t52_dsc": 0.57
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.201,
+        "ess": 125,
+        "geweke": 4.71,
+        "verdict": "FAIL"
+      },
+      "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-20T21:11:57Z",
+      "pipeline_run_utc": "2026-05-20T23:08:48Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3662,6 +3678,76 @@
       ],
       "n_tracks": 3,
       "aoi_half_km": 80.0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us7000qsvj",
+      "place": "35 km WSW of Asad\u0101b\u0101d, Afghanistan",
+      "origin_utc": "2025-08-31T19:17:34Z",
+      "epi_lat": 34.7106,
+      "epi_lon": 70.8087,
+      "depth_km": 8.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "173",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-08-20",
+            "2025-09-01"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.36,
+          "status": ""
+        },
+        {
+          "track": "5",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-08-21",
+            "2025-09-02"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.389,
+          "status": ""
+        },
+        {
+          "track": "71",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-08-25",
+            "2025-09-06"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.665,
+          "status": "ready"
+        },
+        {
+          "track": "78",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-08-26",
+            "2025-09-07"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.594,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 4,
+      "aoi_half_km": 53.8,
       "result": null,
       "diagnostics": null,
       "status": "partial",
