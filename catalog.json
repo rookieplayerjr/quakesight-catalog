@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-20T08:02:26Z",
+  "generated_utc": "2026-05-20T09:01:48Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 78,
   "events": [
@@ -3530,15 +3530,31 @@
       ],
       "n_tracks": 3,
       "aoi_half_km": 79.4,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "result": {
+        "L_km": 42.83,
+        "W_km": 16.82,
+        "Z_top_km": 17.69,
+        "dip": -64.0,
+        "strike": 252.4,
+        "Mw_post": 6.8,
+        "VR": {
+          "t154_dsc": 0.71,
+          "t52_dsc": 0.54
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.211,
+        "ess": 115,
+        "geweke": 1.09,
+        "verdict": "FAIL"
+      },
+      "status": "done",
+      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "pipeline_run_utc": "2026-05-20T09:01:47Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000kufc/REPORT.html"
       }
     },
     {
