@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-20T04:26:57Z",
+  "generated_utc": "2026-05-20T04:29:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 78,
   "events": [
@@ -1972,15 +1972,32 @@
       ],
       "n_tracks": 4,
       "aoi_half_km": 71.5,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "result": {
+        "L_km": 8.2,
+        "W_km": 4.39,
+        "Z_top_km": 2.87,
+        "dip": -52.3,
+        "strike": 68.3,
+        "Mw_post": 6.22,
+        "VR": {
+          "t115_asc": 0.48,
+          "t122_dsc": 0.86,
+          "t20_dsc": 0.71
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.205,
+        "ess": 1991,
+        "geweke": 2.55,
+        "verdict": "FAIL"
+      },
+      "status": "done",
+      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "pipeline_run_utc": "2026-05-20T04:29:55Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000lfn5/REPORT.html"
       }
     },
     {
