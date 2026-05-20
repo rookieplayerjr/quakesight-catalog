@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-20T00:56:25Z",
+  "generated_utc": "2026-05-20T01:00:18Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 77,
+  "n_events": 78,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1264,15 +1264,31 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 50.6,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "result": {
+        "L_km": 15.53,
+        "W_km": 10.03,
+        "Z_top_km": 2.71,
+        "dip": -43.9,
+        "strike": 282.6,
+        "Mw_post": 6.3,
+        "VR": {
+          "t130_asc": 0.26,
+          "t166_dsc": 0.78
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.204,
+        "ess": 1219,
+        "geweke": 0.72,
+        "verdict": "PASS"
+      },
+      "status": "done",
+      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "pipeline_run_utc": "2026-05-20T01:00:18Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000hz9v/REPORT.html"
       }
     },
     {
@@ -1875,6 +1891,43 @@
       "data_used": [],
       "n_tracks": 0,
       "aoi_half_km": 53.2,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us6000nyzk",
+      "place": "19 km W of Do\u011fanyol, Turkey",
+      "origin_utc": "2024-10-16T07:46:32Z",
+      "epi_lat": 38.3115,
+      "epi_lon": 38.8059,
+      "depth_km": 10.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "43",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2024-10-15",
+            "2024-10-27"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.732,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 47.4,
       "result": null,
       "diagnostics": null,
       "status": "partial",
