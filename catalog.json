@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-20T00:36:41Z",
+  "generated_utc": "2026-05-20T00:54:31Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 77,
   "events": [
@@ -1452,15 +1452,30 @@
       ],
       "n_tracks": 4,
       "aoi_half_km": 28.2,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "result": {
+        "L_km": 13.07,
+        "W_km": 8.98,
+        "Z_top_km": 14.53,
+        "dip": -72.3,
+        "strike": 94.4,
+        "Mw_post": 6.32,
+        "VR": {
+          "t72_asc": 0.61
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 527,
+        "geweke": 2.69,
+        "verdict": "FAIL"
+      },
+      "status": "done",
+      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "pipeline_run_utc": "2026-05-20T00:54:30Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000jk0t/REPORT.html"
       }
     },
     {
@@ -1500,11 +1515,27 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 44.7,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 17.53,
+        "W_km": 9.4,
+        "Z_top_km": 4.88,
+        "dip": -42.2,
+        "strike": 47.5,
+        "Mw_post": 6.39,
+        "VR": {
+          "t14_asc": 0.52,
+          "t21_dsc": 0.81
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.206,
+        "ess": 832,
+        "geweke": 1.18,
+        "verdict": "PASS"
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-20T00:48:39Z",
       "stale": false,
       "has_report": false,
       "links": {
