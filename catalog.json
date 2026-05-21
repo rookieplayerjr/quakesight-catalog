@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T21:45:57Z",
+  "generated_utc": "2026-05-21T21:54:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -2747,11 +2747,28 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 49.1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 9.85,
+        "W_km": 5.28,
+        "Z_top_km": 13.46,
+        "dip": -33.3,
+        "strike": 264.9,
+        "Mw_post": 6.14,
+        "VR": {
+          "t155_asc": 0.19,
+          "t2_dsc": 0.34
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 130,
+        "geweke": 2.1,
+        "zone": null,
+        "verdict": "FAIL"
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-21T21:54:34Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -2771,6 +2788,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "171",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-09-19",
+            "2025-09-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.189,
+          "status": "ready"
+        },
+        {
           "track": "4",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -2782,7 +2810,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 63.7,
       "result": null,
       "diagnostics": null,
@@ -2815,8 +2843,8 @@
             "2025-10-07"
           ],
           "backend": "sp2",
-          "median_coh": 0.187,
-          "status": ""
+          "median_coh": 0.189,
+          "status": "ready"
         }
       ],
       "n_tracks": 1,
@@ -2843,8 +2871,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "2",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-10-07",
+            "2025-10-19"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.175,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 50.1,
       "result": null,
       "diagnostics": null,
