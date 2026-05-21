@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T04:40:25Z",
+  "generated_utc": "2026-05-21T04:56:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -292,6 +292,7 @@
         "acceptance": 0.207,
         "ess": 1169,
         "geweke": 1.47,
+        "zone": "GREEN",
         "verdict": "PASS"
       },
       "status": "done",
@@ -366,6 +367,7 @@
         "acceptance": 0.212,
         "ess": 3384,
         "geweke": 2.6,
+        "zone": null,
         "verdict": "FAIL"
       },
       "status": "done",
@@ -430,6 +432,7 @@
         "acceptance": 0.212,
         "ess": 601,
         "geweke": 1.62,
+        "zone": null,
         "verdict": "FAIL"
       },
       "status": "done",
@@ -494,6 +497,7 @@
         "acceptance": 0.192,
         "ess": 2976,
         "geweke": 1.81,
+        "zone": null,
         "verdict": "FAIL"
       },
       "status": "done",
@@ -580,6 +584,7 @@
         "acceptance": 0.21,
         "ess": 1432,
         "geweke": 1.5,
+        "zone": null,
         "verdict": "FAIL"
       },
       "status": "done",
@@ -992,6 +997,7 @@
         "acceptance": 0.198,
         "ess": 864,
         "geweke": 1.49,
+        "zone": null,
         "verdict": "FAIL"
       },
       "status": "done",
@@ -1056,6 +1062,7 @@
         "acceptance": 0.209,
         "ess": 278,
         "geweke": 1.77,
+        "zone": null,
         "verdict": "PASS"
       },
       "status": "done",
@@ -1216,6 +1223,7 @@
         "acceptance": 0.203,
         "ess": 756,
         "geweke": 1.28,
+        "zone": "GREEN",
         "verdict": "PASS"
       },
       "status": "done",
@@ -1280,6 +1288,7 @@
         "acceptance": 0.204,
         "ess": 1219,
         "geweke": 0.72,
+        "zone": "YELLOW",
         "verdict": "PASS"
       },
       "status": "done",
@@ -1499,7 +1508,8 @@
         "acceptance": 0.208,
         "ess": 527,
         "geweke": 2.69,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
@@ -1563,6 +1573,7 @@
         "acceptance": 0.206,
         "ess": 832,
         "geweke": 1.18,
+        "zone": "GREEN",
         "verdict": "PASS"
       },
       "status": "done",
@@ -1686,6 +1697,7 @@
         "acceptance": 0.209,
         "ess": 1460,
         "geweke": 1.83,
+        "zone": null,
         "verdict": "PASS"
       },
       "status": "done",
@@ -1750,7 +1762,8 @@
         "acceptance": 0.204,
         "ess": 1873,
         "geweke": 3.09,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
@@ -1826,10 +1839,11 @@
         "acceptance": 0.207,
         "ess": 2818,
         "geweke": 1.96,
+        "zone": "RED",
         "verdict": "FAIL"
       },
-      "status": "done",
-      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "status": "partial",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-21T03:27:50Z",
       "stale": false,
       "has_report": true,
@@ -1902,6 +1916,7 @@
         "acceptance": 0.205,
         "ess": 1028,
         "geweke": 1.3,
+        "zone": "GREEN",
         "verdict": "PASS"
       },
       "status": "done",
@@ -1989,10 +2004,11 @@
         "acceptance": 0.197,
         "ess": 188,
         "geweke": 4.3,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
-      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-21T04:40:25Z",
       "stale": false,
       "has_report": true,
@@ -2100,7 +2116,8 @@
         "acceptance": 0.196,
         "ess": 576,
         "geweke": 2.35,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
@@ -2380,6 +2397,7 @@
         "acceptance": 0.205,
         "ess": 1255,
         "geweke": 1.46,
+        "zone": null,
         "verdict": "FAIL"
       },
       "status": "done",
@@ -2564,11 +2582,12 @@
         "acceptance": 0.216,
         "ess": 6088,
         "geweke": 1.78,
+        "zone": "RED",
         "verdict": "FAIL"
       },
-      "status": "done",
-      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-21T03:29:57Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-05-21T04:50:19Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2801,6 +2820,7 @@
         "acceptance": 0.195,
         "ess": 660,
         "geweke": 1.2,
+        "zone": null,
         "verdict": "FAIL"
       },
       "status": "done",
@@ -3062,6 +3082,7 @@
         "acceptance": 0.213,
         "ess": 4113,
         "geweke": 1.36,
+        "zone": null,
         "verdict": "FAIL"
       },
       "status": "done",
@@ -3137,7 +3158,8 @@
         "acceptance": 0.209,
         "ess": 444,
         "geweke": 2.97,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
@@ -3531,26 +3553,27 @@
       "n_tracks": 3,
       "aoi_half_km": 79.4,
       "result": {
-        "L_km": 27.27,
-        "W_km": 10.71,
-        "Z_top_km": 18.72,
-        "dip": -52.7,
-        "strike": 361.1,
-        "Mw_post": 6.75,
+        "L_km": 18.25,
+        "W_km": 7.17,
+        "Z_top_km": 23.57,
+        "dip": -50.6,
+        "strike": 391.1,
+        "Mw_post": 6.7,
         "VR": {
-          "t154_dsc": 0.56,
-          "t52_dsc": 0.57
+          "t154_dsc": 0.67,
+          "t52_dsc": 0.69
         }
       },
       "diagnostics": {
-        "acceptance": 0.201,
-        "ess": 125,
-        "geweke": 4.71,
+        "acceptance": 0.207,
+        "ess": 120,
+        "geweke": 2.25,
+        "zone": "RED",
         "verdict": "FAIL"
       },
-      "status": "done",
-      "escalation_reason": "Escalation: all_runs_bad_diagnostics",
-      "pipeline_run_utc": "2026-05-21T03:31:15Z",
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-05-21T04:56:34Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3764,7 +3787,8 @@
         "acceptance": 0.214,
         "ess": 341,
         "geweke": 2.43,
-        "verdict": "FAIL"
+        "zone": "GREEN",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
@@ -3853,7 +3877,8 @@
         "acceptance": 0.209,
         "ess": 1216,
         "geweke": 2.95,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": "Escalation: all_runs_bad_diagnostics",
