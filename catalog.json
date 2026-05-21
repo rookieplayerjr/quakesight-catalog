@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T22:52:01Z",
+  "generated_utc": "2026-05-21T23:08:11Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -2957,8 +2957,8 @@
         "acceptance": 0.209,
         "ess": 215,
         "geweke": 2.09,
-        "zone": null,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": null,
@@ -3464,11 +3464,27 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 59.7,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 8.96,
+        "W_km": 5.11,
+        "Z_top_km": 9.38,
+        "dip": -99.3,
+        "strike": 373.3,
+        "Mw_post": 6.26,
+        "VR": {
+          "t62_dsc": 0.88
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.203,
+        "ess": 158,
+        "geweke": 1.25,
+        "zone": null,
+        "verdict": "FAIL"
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-21T23:08:11Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -3488,6 +3504,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "153",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2019-11-25",
+            "2019-12-01"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.203,
+          "status": "ready"
+        },
+        {
           "track": "73",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -3499,7 +3526,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 50.1,
       "result": null,
       "diagnostics": null,
@@ -3523,8 +3550,31 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "135",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-01-04",
+            "2020-01-16"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.163,
+          "status": "ready"
+        },
+        {
+          "track": "41",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2019-12-29",
+            "2020-01-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.166,
+          "status": ""
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 44.7,
       "result": null,
       "diagnostics": null,
@@ -3548,8 +3598,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "154",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-01-06",
+            "2020-01-18"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.0,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 75.2,
       "result": null,
       "diagnostics": null,
