@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T19:47:44Z",
+  "generated_utc": "2026-05-21T19:51:46Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -298,8 +298,8 @@
         "acceptance": 0.204,
         "ess": 469,
         "geweke": 1.36,
-        "zone": null,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": null,
@@ -882,11 +882,28 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 61.5,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 14.67,
+        "W_km": 9.47,
+        "Z_top_km": 5.4,
+        "dip": -4.1,
+        "strike": 100.0,
+        "Mw_post": 5.99,
+        "VR": {
+          "t129_asc": 0.87,
+          "t34_dsc": 0.83
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.207,
+        "ess": 272,
+        "geweke": 3.15,
+        "zone": null,
+        "verdict": "FAIL"
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-21T19:51:46Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -963,8 +980,42 @@
       "Mw_type": "Mww",
       "faulting_class": "normal",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "121",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.624,
+          "status": "ready"
+        },
+        {
+          "track": "12",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.557,
+          "status": "ready"
+        },
+        {
+          "track": "19",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.6,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
       "aoi_half_km": 67.0,
       "result": null,
       "diagnostics": null,
