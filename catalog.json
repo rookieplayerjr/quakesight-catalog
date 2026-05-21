@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T09:45:55Z",
+  "generated_utc": "2026-05-21T10:26:43Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -1016,11 +1016,11 @@
         "acceptance": 0.209,
         "ess": 233,
         "geweke": 2.58,
-        "zone": null,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
-      "escalation_reason": "Escalation: all_tracks_failed",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-21T09:45:54Z",
       "stale": false,
       "has_report": true,
@@ -1170,14 +1170,14 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": 29,
+          "track": "29",
           "orbit_dir": "asc",
           "pair_dates": [
-            null,
-            null
+            "2021-10-12",
+            "2021-10-18"
           ],
-          "backend": "licsar",
-          "median_coh": 0.031,
+          "backend": "sp2",
+          "median_coh": 0.173,
           "status": "ready"
         },
         {
@@ -1705,8 +1705,8 @@
             "2023-02-27"
           ],
           "backend": "sp2",
-          "median_coh": 0.223,
-          "status": ""
+          "median_coh": 0.221,
+          "status": "ready"
         },
         {
           "track": "107",
@@ -1733,11 +1733,28 @@
       ],
       "n_tracks": 3,
       "aoi_half_km": 80.0,
-      "result": null,
-      "diagnostics": null,
-      "status": "escalated",
+      "result": {
+        "L_km": 34.79,
+        "W_km": 12.84,
+        "Z_top_km": 3.69,
+        "dip": -56.3,
+        "strike": 27.3,
+        "Mw_post": 6.61,
+        "VR": {
+          "t107_dsc": 0.27,
+          "t5_dsc": 0.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.204,
+        "ess": 222,
+        "geweke": 1.62,
+        "zone": null,
+        "verdict": "FAIL"
+      },
+      "status": "done",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-21T03:27:04Z",
+      "pipeline_run_utc": "2026-05-21T10:26:42Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2565,8 +2582,8 @@
             "2025-12-09"
           ],
           "backend": "sp2",
-          "median_coh": 0.186,
-          "status": ""
+          "median_coh": 0.19,
+          "status": "ready"
         },
         {
           "track": "50",
@@ -2576,8 +2593,8 @@
             "2025-12-10"
           ],
           "backend": "sp2",
-          "median_coh": 0.192,
-          "status": ""
+          "median_coh": 0.193,
+          "status": "ready"
         }
       ],
       "n_tracks": 3,
@@ -2596,10 +2613,10 @@
     {
       "event_id": "us6000sshc",
       "place": "9 km E of Kentr\u00ed, Greece",
-      "origin_utc": "2026-04-24T03:18:54Z",
-      "epi_lat": 35.032,
-      "epi_lon": 25.8606,
-      "depth_km": 16.429,
+      "origin_utc": "2026-04-24T03:18:53Z",
+      "epi_lat": 35.0303,
+      "epi_lon": 25.8598,
+      "depth_km": 14.725,
       "Mw": 5.7,
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
@@ -2613,8 +2630,8 @@
             "2026-04-25"
           ],
           "backend": "sp2",
-          "median_coh": 0.177,
-          "status": ""
+          "median_coh": 0.174,
+          "status": "ready"
         },
         {
           "track": "36",
@@ -2624,12 +2641,12 @@
             "2026-04-26"
           ],
           "backend": "sp2",
-          "median_coh": 0.186,
-          "status": ""
+          "median_coh": 0.184,
+          "status": "ready"
         }
       ],
       "n_tracks": 2,
-      "aoi_half_km": 22.4,
+      "aoi_half_km": 23.0,
       "result": null,
       "diagnostics": null,
       "status": "escalated",
