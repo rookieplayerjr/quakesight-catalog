@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T04:58:34Z",
+  "generated_utc": "2026-05-21T05:32:13Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -1395,7 +1395,7 @@
             "2022-12-21"
           ],
           "backend": "sp2",
-          "median_coh": 0.188,
+          "median_coh": 0.191,
           "status": ""
         },
         {
@@ -1417,7 +1417,7 @@
             "2022-12-16"
           ],
           "backend": "sp2",
-          "median_coh": 0.185,
+          "median_coh": 0.192,
           "status": ""
         }
       ],
@@ -1427,7 +1427,7 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-21T03:26:37Z",
+      "pipeline_run_utc": "2026-05-21T05:32:13Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3333,7 +3333,7 @@
             "2022-09-14"
           ],
           "backend": "sp2",
-          "median_coh": 0.274,
+          "median_coh": 0.266,
           "status": ""
         },
         {
@@ -3462,7 +3462,7 @@
             "2022-10-03"
           ],
           "backend": "sp2",
-          "median_coh": 0.17,
+          "median_coh": 0.175,
           "status": ""
         }
       ],
