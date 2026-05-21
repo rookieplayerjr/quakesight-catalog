@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T20:24:14Z",
+  "generated_utc": "2026-05-21T20:49:36Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -2195,28 +2195,29 @@
       "n_tracks": 3,
       "aoi_half_km": 35.3,
       "result": {
-        "L_km": 15.37,
-        "W_km": 10.56,
-        "Z_top_km": 4.52,
-        "dip": -42.7,
-        "strike": 98.7,
-        "Mw_post": 6.53,
+        "L_km": 19.05,
+        "W_km": 13.09,
+        "Z_top_km": 2.9,
+        "dip": -32.8,
+        "strike": 102.1,
+        "Mw_post": 6.49,
         "VR": {
-          "t122_dsc": 0.52,
-          "t13_asc": 0.4,
-          "t20_dsc": 0.9
+          "t115_asc": -24.14,
+          "t122_dsc": 0.51,
+          "t13_asc": 0.32,
+          "t20_dsc": 0.87
         }
       },
       "diagnostics": {
-        "acceptance": 0.207,
-        "ess": 2818,
+        "acceptance": 0.201,
+        "ess": 264,
         "geweke": 1.96,
         "zone": "RED",
         "verdict": "FAIL"
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T03:27:50Z",
+      "pipeline_run_utc": "2026-05-21T20:49:35Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2399,8 +2400,31 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "105",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2024-04-22",
+            "2024-05-04"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.187,
+          "status": "ready"
+        },
+        {
+          "track": "69",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2024-04-20",
+            "2024-05-02"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.181,
+          "status": ""
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 53.2,
       "result": null,
       "diagnostics": null,
@@ -2511,8 +2535,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "171",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-06-03",
+            "2025-06-09"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.236,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 71.5,
       "result": null,
       "diagnostics": null,
