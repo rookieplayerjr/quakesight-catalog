@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T21:34:42Z",
+  "generated_utc": "2026-05-21T21:45:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -2595,11 +2595,28 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 71.5,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 25.44,
+        "W_km": 13.63,
+        "Z_top_km": 6.77,
+        "dip": -59.0,
+        "strike": 235.5,
+        "Mw_post": 6.39,
+        "VR": {
+          "t171_dsc": 0.79,
+          "t77_asc": -0.8
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.205,
+        "ess": 182,
+        "geweke": 2.16,
+        "zone": null,
+        "verdict": "FAIL"
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-21T21:45:55Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -2681,8 +2698,8 @@
         "acceptance": 0.211,
         "ess": 197,
         "geweke": 1.79,
-        "zone": null,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": null,
@@ -2761,8 +2778,8 @@
             "2025-09-25"
           ],
           "backend": "sp2",
-          "median_coh": 0.192,
-          "status": ""
+          "median_coh": 0.193,
+          "status": "ready"
         }
       ],
       "n_tracks": 1,
@@ -2789,8 +2806,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "4",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-09-25",
+            "2025-10-07"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.187,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 49.1,
       "result": null,
       "diagnostics": null,
