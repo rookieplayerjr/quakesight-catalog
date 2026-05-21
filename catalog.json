@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T21:54:36Z",
+  "generated_utc": "2026-05-21T22:14:43Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -2836,6 +2836,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "171",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-09-25",
+            "2025-10-01"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.19,
+          "status": "ready"
+        },
+        {
           "track": "4",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -2847,7 +2858,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 49.1,
       "result": null,
       "diagnostics": null,
@@ -2873,6 +2884,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "155",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-10-06",
+            "2025-10-18"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.18,
+          "status": ""
+        },
+        {
           "track": "2",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -2880,11 +2902,11 @@
             "2025-10-19"
           ],
           "backend": "sp2",
-          "median_coh": 0.175,
-          "status": ""
+          "median_coh": 0.177,
+          "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 50.1,
       "result": null,
       "diagnostics": null,
@@ -2994,8 +3016,20 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "151",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-10-30",
+            "2025-11-11"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.615,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 39.8,
       "result": null,
       "diagnostics": null,
@@ -4265,7 +4299,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T04:57:20Z",
+      "pipeline_run_utc": "2026-05-21T22:14:43Z",
       "stale": false,
       "has_report": true,
       "links": {
