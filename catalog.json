@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T04:56:35Z",
+  "generated_utc": "2026-05-21T04:57:20Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -3568,12 +3568,12 @@
         "acceptance": 0.207,
         "ess": 120,
         "geweke": 2.25,
-        "zone": "RED",
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
-      "status": "partial",
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T04:56:34Z",
+      "pipeline_run_utc": "2026-05-21T04:57:20Z",
       "stale": false,
       "has_report": true,
       "links": {
