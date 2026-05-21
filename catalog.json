@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T09:09:02Z",
+  "generated_utc": "2026-05-21T09:22:28Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -740,11 +740,28 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 79.4,
-      "result": null,
-      "diagnostics": null,
-      "status": "escalated",
+      "result": {
+        "L_km": 24.93,
+        "W_km": 9.79,
+        "Z_top_km": 3.41,
+        "dip": -46.9,
+        "strike": 174.4,
+        "Mw_post": 6.53,
+        "VR": {
+          "t163_dsc": 0.18,
+          "t69_asc": 0.24
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.213,
+        "ess": 285,
+        "geweke": 1.84,
+        "zone": null,
+        "verdict": "FAIL"
+      },
+      "status": "done",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-21T03:25:27Z",
+      "pipeline_run_utc": "2026-05-21T09:22:28Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -971,14 +988,14 @@
       "magnitude_band": "6p5_to_7",
       "data_used": [
         {
-          "track": 4,
+          "track": "4",
           "orbit_dir": "dsc",
           "pair_dates": [
-            null,
-            null
+            "2021-01-07",
+            "2021-01-19"
           ],
-          "backend": "licsar",
-          "median_coh": 0.459,
+          "backend": "sp2",
+          "median_coh": 0.479,
           "status": "ready"
         }
       ],
@@ -1694,8 +1711,8 @@
             "2023-03-05"
           ],
           "backend": "sp2",
-          "median_coh": 0.297,
-          "status": ""
+          "median_coh": 0.298,
+          "status": "ready"
         }
       ],
       "n_tracks": 3,
