@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T23:20:22Z",
+  "generated_utc": "2026-05-22T23:20:48Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -1148,11 +1148,11 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T21:21:15Z",
+      "pipeline_run_utc": "2026-05-22T23:20:47Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000b26j/REPORT.html"
       }
     },
     {
