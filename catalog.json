@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T20:42:37Z",
+  "generated_utc": "2026-05-22T20:42:58Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -4963,30 +4963,30 @@
       "result": {
         "L_km": 11.38,
         "W_km": 5.06,
-        "Z_top_km": 2.05,
-        "dip": -93.5,
-        "strike": 214.8,
-        "Mw_post": 6.51,
+        "Z_top_km": 0.78,
+        "dip": -85.6,
+        "strike": 133.0,
+        "Mw_post": 6.39,
         "VR": {
           "t128_asc": 0.48,
           "t33_dsc": 0.15
         },
         "fmech": {
-          "strike": 34.8,
-          "dip": 93.5,
-          "rake": -167.1
+          "strike": 313.0,
+          "dip": 85.6,
+          "rake": 3.4
         }
       },
       "diagnostics": {
-        "acceptance": 0.199,
-        "ess": 424,
-        "geweke": 1.72,
+        "acceptance": 0.209,
+        "ess": 486,
+        "geweke": 2.0,
         "zone": "RED",
         "verdict": "FAIL"
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T10:10:48Z",
+      "pipeline_run_utc": "2026-05-22T20:42:58Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5210,8 +5210,8 @@
         "strike": 82.4,
         "Mw_post": 6.94,
         "VR": {
-          "t114_dsc": 0.31,
-          "t151_asc": -0.8
+          "t114_dsc": 0.8,
+          "t151_asc": 0.66
         },
         "fmech": {
           "strike": 262.4,
@@ -5223,11 +5223,11 @@
         "acceptance": 0.206,
         "ess": 159,
         "geweke": 1.23,
-        "zone": "RED",
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_coherence_collapse_after_pass3",
+      "status": "done",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-22T20:42:36Z",
       "stale": false,
       "has_report": true,
