@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T06:43:05Z",
+  "generated_utc": "2026-05-22T07:17:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -50,6 +50,11 @@
         "VR": {
           "t64_asc": 0.3,
           "t71_dsc": 0.38
+        },
+        "fmech": {
+          "strike": 220.3,
+          "dip": 99.1,
+          "rake": -3.5
         }
       },
       "diagnostics": {
@@ -139,6 +144,11 @@
           "t144_dsc": 0.29,
           "t42_dsc": 0.86,
           "t64_asc": -0.41
+        },
+        "fmech": {
+          "strike": 206.1,
+          "dip": 58.4,
+          "rake": -77.2
         }
       },
       "diagnostics": {
@@ -215,6 +225,11 @@
         "VR": {
           "t13_dsc": 0.3,
           "t35_asc": 0.2
+        },
+        "fmech": {
+          "strike": 76.2,
+          "dip": 52.9,
+          "rake": 168.5
         }
       },
       "diagnostics": {
@@ -292,6 +307,11 @@
           "t144_dsc": 0.67,
           "t64_asc": 0.79,
           "t71_dsc": 0.71
+        },
+        "fmech": {
+          "strike": 169.8,
+          "dip": 73.6,
+          "rake": -171.8
         }
       },
       "diagnostics": {
@@ -357,6 +377,11 @@
         "VR": {
           "t144_dsc": 0.55,
           "t64_asc": 0.43
+        },
+        "fmech": {
+          "strike": 247.0,
+          "dip": 80.7,
+          "rake": -176.3
         }
       },
       "diagnostics": {
@@ -434,6 +459,11 @@
           "t121_dsc": 0.78,
           "t12_asc": 0.84,
           "t48_dsc": 0.92
+        },
+        "fmech": {
+          "strike": 332.5,
+          "dip": 37.1,
+          "rake": -120.1
         }
       },
       "diagnostics": {
@@ -499,6 +529,11 @@
         "VR": {
           "t123_dsc": 0.41,
           "t21_dsc": 0.35
+        },
+        "fmech": {
+          "strike": 333.2,
+          "dip": 66.5,
+          "rake": 163.9
         }
       },
       "diagnostics": {
@@ -564,6 +599,11 @@
         "VR": {
           "t127_dsc": 0.1,
           "t25_dsc": -0.2
+        },
+        "fmech": {
+          "strike": 191.9,
+          "dip": 38.8,
+          "rake": 143.6
         }
       },
       "diagnostics": {
@@ -651,6 +691,11 @@
         "VR": {
           "t12_asc": 0.9,
           "t165_dsc": 0.39
+        },
+        "fmech": {
+          "strike": 215.8,
+          "dip": 46.3,
+          "rake": -10.3
         }
       },
       "diagnostics": {
@@ -716,6 +761,11 @@
         "VR": {
           "t155_asc": 0.65,
           "t2_dsc": 0.31
+        },
+        "fmech": {
+          "strike": 57.2,
+          "dip": 119.2,
+          "rake": 78.7
         }
       },
       "diagnostics": {
@@ -781,6 +831,11 @@
         "VR": {
           "t163_dsc": 0.48,
           "t69_asc": 0.07
+        },
+        "fmech": {
+          "strike": 145.5,
+          "dip": 83.6,
+          "rake": 174.0
         }
       },
       "diagnostics": {
@@ -846,6 +901,11 @@
         "VR": {
           "t163_dsc": 0.18,
           "t69_asc": 0.24
+        },
+        "fmech": {
+          "strike": 354.4,
+          "dip": 46.9,
+          "rake": 162.4
         }
       },
       "diagnostics": {
@@ -911,6 +971,11 @@
         "VR": {
           "t129_asc": 0.85,
           "t34_dsc": 0.84
+        },
+        "fmech": {
+          "strike": 281.8,
+          "dip": 4.3,
+          "rake": 111.0
         }
       },
       "diagnostics": {
@@ -988,6 +1053,11 @@
           "t116_asc": 0.68,
           "t123_dsc": 0.64,
           "t43_asc": 0.46
+        },
+        "fmech": {
+          "strike": 341.7,
+          "dip": 86.9,
+          "rake": -177.8
         }
       },
       "diagnostics": {
@@ -1065,6 +1135,11 @@
           "t121_dsc": 0.91,
           "t12_asc": 0.88,
           "t19_dsc": 0.95
+        },
+        "fmech": {
+          "strike": 203.1,
+          "dip": 37.7,
+          "rake": -95.4
         }
       },
       "diagnostics": {
@@ -1140,6 +1215,11 @@
         "Mw_post": 6.22,
         "VR": {
           "t73_asc": 0.78
+        },
+        "fmech": {
+          "strike": 74.2,
+          "dip": 62.5,
+          "rake": 155.6
         }
       },
       "diagnostics": {
@@ -1193,6 +1273,11 @@
         "Mw_post": 6.34,
         "VR": {
           "t4_dsc": 0.74
+        },
+        "fmech": {
+          "strike": 317.1,
+          "dip": 23.0,
+          "rake": -156.4
         }
       },
       "diagnostics": {
@@ -1257,6 +1342,11 @@
         "Mw_post": 5.3,
         "VR": {
           "t121_dsc": 0.69
+        },
+        "fmech": {
+          "strike": 349.4,
+          "dip": 60.8,
+          "rake": -133.0
         }
       },
       "diagnostics": {
@@ -1322,6 +1412,11 @@
         "VR": {
           "t101_asc": 0.57,
           "t35_dsc": 0.58
+        },
+        "fmech": {
+          "strike": 279.7,
+          "dip": 35.0,
+          "rake": 40.5
         }
       },
       "diagnostics": {
@@ -1387,6 +1482,11 @@
         "VR": {
           "t29_asc": 0.17,
           "t36_dsc": 0.15
+        },
+        "fmech": {
+          "strike": 226.4,
+          "dip": 33.1,
+          "rake": -12.6
         }
       },
       "diagnostics": {
@@ -1452,6 +1552,11 @@
         "VR": {
           "t130_asc": 0.07,
           "t166_dsc": -0.1
+        },
+        "fmech": {
+          "strike": 71.6,
+          "dip": 90.6,
+          "rake": 131.5
         }
       },
       "diagnostics": {
@@ -1517,6 +1622,11 @@
         "VR": {
           "t130_asc": 0.39,
           "t166_dsc": 0.83
+        },
+        "fmech": {
+          "strike": 277.6,
+          "dip": 24.6,
+          "rake": 72.8
         }
       },
       "diagnostics": {
@@ -1582,6 +1692,11 @@
         "VR": {
           "t130_asc": 0.26,
           "t166_dsc": 0.78
+        },
+        "fmech": {
+          "strike": 102.6,
+          "dip": 43.9,
+          "rake": 132.0
         }
       },
       "diagnostics": {
@@ -1791,6 +1906,11 @@
         "VR": {
           "t151_asc": 0.44,
           "t78_asc": -0.16
+        },
+        "fmech": {
+          "strike": 269.5,
+          "dip": 4.3,
+          "rake": 87.1
         }
       },
       "diagnostics": {
@@ -1877,6 +1997,11 @@
         "Mw_post": 5.92,
         "VR": {
           "t72_asc": 0.69
+        },
+        "fmech": {
+          "strike": 255.2,
+          "dip": 48.9,
+          "rake": 57.1
         }
       },
       "diagnostics": {
@@ -1942,6 +2067,11 @@
         "VR": {
           "t14_asc": 0.52,
           "t21_dsc": 0.81
+        },
+        "fmech": {
+          "strike": 227.5,
+          "dip": 42.2,
+          "rake": -13.9
         }
       },
       "diagnostics": {
@@ -2018,6 +2148,11 @@
         "VR": {
           "t107_dsc": 0.27,
           "t5_dsc": 0.2
+        },
+        "fmech": {
+          "strike": 207.3,
+          "dip": 56.3,
+          "rake": -13.5
         }
       },
       "diagnostics": {
@@ -2083,6 +2218,11 @@
         "VR": {
           "t13_asc": 0.75,
           "t20_dsc": 0.91
+        },
+        "fmech": {
+          "strike": 279.9,
+          "dip": 49.8,
+          "rake": 101.4
         }
       },
       "diagnostics": {
@@ -2148,6 +2288,11 @@
         "VR": {
           "t13_asc": 0.67,
           "t20_dsc": 0.77
+        },
+        "fmech": {
+          "strike": 263.8,
+          "dip": 47.9,
+          "rake": 72.3
         }
       },
       "diagnostics": {
@@ -2226,6 +2371,11 @@
           "t122_dsc": 0.51,
           "t13_asc": 0.32,
           "t20_dsc": 0.87
+        },
+        "fmech": {
+          "strike": 282.1,
+          "dip": 32.8,
+          "rake": 82.1
         }
       },
       "diagnostics": {
@@ -2303,6 +2453,11 @@
           "t122_dsc": 0.58,
           "t13_asc": 0.81,
           "t20_dsc": 0.6
+        },
+        "fmech": {
+          "strike": 241.2,
+          "dip": 45.7,
+          "rake": 93.3
         }
       },
       "diagnostics": {
@@ -2391,6 +2546,11 @@
           "t115_asc": 0.47,
           "t122_dsc": 0.86,
           "t20_dsc": 0.73
+        },
+        "fmech": {
+          "strike": 246.5,
+          "dip": 53.2,
+          "rake": 58.8
         }
       },
       "diagnostics": {
@@ -2455,6 +2615,11 @@
         "Mw_post": 6.07,
         "VR": {
           "t105_dsc": 0.68
+        },
+        "fmech": {
+          "strike": 166.0,
+          "dip": 43.8,
+          "rake": 178.1
         }
       },
       "diagnostics": {
@@ -2542,6 +2707,11 @@
         "VR": {
           "t116_asc": 0.23,
           "t43_asc": 0.38
+        },
+        "fmech": {
+          "strike": 350.5,
+          "dip": 101.5,
+          "rake": -34.4
         }
       },
       "diagnostics": {
@@ -2607,6 +2777,11 @@
         "VR": {
           "t171_dsc": 0.79,
           "t77_asc": -0.8
+        },
+        "fmech": {
+          "strike": 55.5,
+          "dip": 59.0,
+          "rake": -41.3
         }
       },
       "diagnostics": {
@@ -2694,6 +2869,11 @@
         "VR": {
           "t138_dsc": 0.72,
           "t36_dsc": 0.7
+        },
+        "fmech": {
+          "strike": 90.6,
+          "dip": 12.7,
+          "rake": 10.8
         }
       },
       "diagnostics": {
@@ -2759,6 +2939,11 @@
         "VR": {
           "t155_asc": 0.19,
           "t2_dsc": 0.34
+        },
+        "fmech": {
+          "strike": 84.9,
+          "dip": 33.3,
+          "rake": 41.3
         }
       },
       "diagnostics": {
@@ -2824,6 +3009,11 @@
         "VR": {
           "t171_dsc": 0.18,
           "t4_asc": 0.68
+        },
+        "fmech": {
+          "strike": 86.4,
+          "dip": 43.3,
+          "rake": 25.9
         }
       },
       "diagnostics": {
@@ -2889,6 +3079,11 @@
         "VR": {
           "t171_dsc": 0.2,
           "t4_asc": -0.02
+        },
+        "fmech": {
+          "strike": 338.6,
+          "dip": 64.7,
+          "rake": 32.0
         }
       },
       "diagnostics": {
@@ -2953,6 +3148,11 @@
         "Mw_post": 6.59,
         "VR": {
           "t155_asc": 0.67
+        },
+        "fmech": {
+          "strike": 207.3,
+          "dip": 25.3,
+          "rake": 48.6
         }
       },
       "diagnostics": {
@@ -3039,6 +3239,11 @@
         "Mw_post": 6.33,
         "VR": {
           "t138_dsc": 0.76
+        },
+        "fmech": {
+          "strike": 80.4,
+          "dip": 46.2,
+          "rake": 5.7
         }
       },
       "diagnostics": {
@@ -3104,6 +3309,11 @@
         "VR": {
           "t144_asc": 0.11,
           "t151_dsc": 0.57
+        },
+        "fmech": {
+          "strike": 234.9,
+          "dip": 92.7,
+          "rake": -160.4
         }
       },
       "diagnostics": {
@@ -3180,6 +3390,11 @@
         "VR": {
           "t116_dsc": 0.13,
           "t50_asc": 0.34
+        },
+        "fmech": {
+          "strike": 38.2,
+          "dip": 26.6,
+          "rake": 37.1
         }
       },
       "diagnostics": {
@@ -3245,6 +3460,11 @@
         "VR": {
           "t29_asc": 0.6,
           "t36_dsc": 0.31
+        },
+        "fmech": {
+          "strike": 330.0,
+          "dip": 74.7,
+          "rake": 7.0
         }
       },
       "diagnostics": {
@@ -3298,6 +3518,11 @@
         "Mw_post": 6.04,
         "VR": {
           "t48_dsc": -3.39
+        },
+        "fmech": {
+          "strike": 180.6,
+          "dip": 64.1,
+          "rake": -64.6
         }
       },
       "diagnostics": {
@@ -3411,6 +3636,11 @@
         "VR": {
           "t163_dsc": 0.49,
           "t69_asc": 0.4
+        },
+        "fmech": {
+          "strike": 313.7,
+          "dip": 93.3,
+          "rake": -171.5
         }
       },
       "diagnostics": {
@@ -3475,6 +3705,11 @@
         "Mw_post": 6.26,
         "VR": {
           "t62_dsc": 0.88
+        },
+        "fmech": {
+          "strike": 193.3,
+          "dip": 99.3,
+          "rake": -30.4
         }
       },
       "diagnostics": {
@@ -3551,6 +3786,11 @@
         "VR": {
           "t153_dsc": 0.44,
           "t73_asc": 0.72
+        },
+        "fmech": {
+          "strike": 318.1,
+          "dip": 41.0,
+          "rake": 78.3
         }
       },
       "diagnostics": {
@@ -3616,6 +3856,11 @@
         "VR": {
           "t135_dsc": -0.21,
           "t41_asc": 0.26
+        },
+        "fmech": {
+          "strike": 260.1,
+          "dip": 36.2,
+          "rake": 70.5
         }
       },
       "diagnostics": {
@@ -3692,6 +3937,11 @@
         "VR": {
           "t118_dsc": 0.42,
           "t125_asc": -0.07
+        },
+        "fmech": {
+          "strike": 34.6,
+          "dip": 112.1,
+          "rake": -13.6
         }
       },
       "diagnostics": {
@@ -3757,6 +4007,11 @@
         "VR": {
           "t12_asc": 0.83,
           "t85_asc": 0.65
+        },
+        "fmech": {
+          "strike": 204.8,
+          "dip": 47.1,
+          "rake": -115.0
         }
       },
       "diagnostics": {
@@ -3833,6 +4088,11 @@
         "VR": {
           "t20_asc": -0.2,
           "t93_asc": 0.16
+        },
+        "fmech": {
+          "strike": 241.5,
+          "dip": 64.6,
+          "rake": -152.6
         }
       },
       "diagnostics": {
@@ -3909,6 +4169,11 @@
         "VR": {
           "t158_asc": 0.61,
           "t165_dsc": 0.42
+        },
+        "fmech": {
+          "strike": 13.2,
+          "dip": 43.0,
+          "rake": -81.9
         }
       },
       "diagnostics": {
@@ -4083,6 +4348,11 @@
         "VR": {
           "t120_asc": 0.07,
           "t83_dsc": 0.15
+        },
+        "fmech": {
+          "strike": 233.3,
+          "dip": 33.6,
+          "rake": -21.2
         }
       },
       "diagnostics": {
@@ -4171,6 +4441,11 @@
           "t175_asc": 0.55,
           "t7_dsc": 0.46,
           "t80_dsc": 0.71
+        },
+        "fmech": {
+          "strike": 303.2,
+          "dip": 51.1,
+          "rake": -95.3
         }
       },
       "diagnostics": {
@@ -4235,6 +4510,11 @@
         "Mw_post": 6.12,
         "VR": {
           "t143_asc": -3.15
+        },
+        "fmech": {
+          "strike": 76.1,
+          "dip": 58.1,
+          "rake": -163.5
         }
       },
       "diagnostics": {
@@ -4311,6 +4591,11 @@
         "VR": {
           "t159_asc": 0.4,
           "t166_dsc": 0.62
+        },
+        "fmech": {
+          "strike": 349.0,
+          "dip": 43.8,
+          "rake": 153.9
         }
       },
       "diagnostics": {
@@ -4387,6 +4672,11 @@
         "VR": {
           "t41_dsc": 0.75,
           "t78_asc": 0.75
+        },
+        "fmech": {
+          "strike": 280.8,
+          "dip": 40.1,
+          "rake": 124.5
         }
       },
       "diagnostics": {
@@ -4452,6 +4742,11 @@
         "VR": {
           "t166_dsc": 0.84,
           "t57_asc": 0.84
+        },
+        "fmech": {
+          "strike": 263.4,
+          "dip": 67.2,
+          "rake": 81.3
         }
       },
       "diagnostics": {
@@ -4517,6 +4812,11 @@
         "VR": {
           "t128_asc": 0.49,
           "t33_dsc": 0.34
+        },
+        "fmech": {
+          "strike": 313.0,
+          "dip": 85.6,
+          "rake": 3.4
         }
       },
       "diagnostics": {
@@ -4604,6 +4904,11 @@
         "VR": {
           "t135_dsc": 0.52,
           "t26_asc": 0.33
+        },
+        "fmech": {
+          "strike": 254.1,
+          "dip": 94.1,
+          "rake": 11.6
         }
       },
       "diagnostics": {
@@ -4668,6 +4973,11 @@
         "Mw_post": 7.36,
         "VR": {
           "t69_asc": -0.22
+        },
+        "fmech": {
+          "strike": 43.0,
+          "dip": 57.1,
+          "rake": 45.4
         }
       },
       "diagnostics": {
@@ -4744,6 +5054,11 @@
         "VR": {
           "t114_dsc": 0.8,
           "t151_asc": 0.66
+        },
+        "fmech": {
+          "strike": 262.4,
+          "dip": 51.8,
+          "rake": -175.8
         }
       },
       "diagnostics": {
@@ -4845,6 +5160,11 @@
         "VR": {
           "t154_dsc": 0.67,
           "t52_dsc": 0.69
+        },
+        "fmech": {
+          "strike": 211.1,
+          "dip": 50.6,
+          "rake": 51.9
         }
       },
       "diagnostics": {
@@ -4910,6 +5230,11 @@
         "VR": {
           "t34_dsc": 0.96,
           "t56_asc": 0.97
+        },
+        "fmech": {
+          "strike": 227.5,
+          "dip": 64.4,
+          "rake": 39.3
         }
       },
       "diagnostics": {
@@ -5023,6 +5348,11 @@
         "VR": {
           "t143_asc": 0.05,
           "t70_asc": 0.03
+        },
+        "fmech": {
+          "strike": 156.5,
+          "dip": 84.4,
+          "rake": 138.5
         }
       },
       "diagnostics": {
@@ -5110,6 +5440,11 @@
         "VR": {
           "t71_asc": 0.79,
           "t78_dsc": 0.4
+        },
+        "fmech": {
+          "strike": 65.5,
+          "dip": 43.6,
+          "rake": 41.3
         }
       },
       "diagnostics": {
@@ -5175,6 +5510,11 @@
         "VR": {
           "t135_dsc": -0.51,
           "t41_asc": 0.24
+        },
+        "fmech": {
+          "strike": 79.6,
+          "dip": 46.1,
+          "rake": 72.3
         }
       },
       "diagnostics": {
@@ -5240,6 +5580,11 @@
         "VR": {
           "t34_dsc": 0.41,
           "t56_asc": 0.54
+        },
+        "fmech": {
+          "strike": 79.2,
+          "dip": 66.0,
+          "rake": 117.0
         }
       },
       "diagnostics": {
@@ -5305,6 +5650,11 @@
         "VR": {
           "t143_dsc": 0.46,
           "t78_asc": 0.74
+        },
+        "fmech": {
+          "strike": 90.0,
+          "dip": 69.5,
+          "rake": 179.7
         }
       },
       "diagnostics": {

@@ -133,6 +133,37 @@ function statusLabel(e){
 }
 function fmtTime(s){ return (s||'').replace('T',' ').replace(/:\d\d\.?\d*Z?$/,''); }
 
+/* ---------- beachball (focal mechanism from InSAR strike/dip/rake) ---------- */
+function _hexRgb(h){h=h.replace('#','');if(h.length===3)h=h.split('').map(c=>c+c).join('');
+  return [parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)];}
+// Lower-hemisphere equal-area beachball drawn by P-wave first-motion polarity
+// (Aki & Richards): compressional quadrants filled with `fill`, dilatational
+// white. strike/dip/rake in degrees (USGS convention). Returns a dataURL.
+function beachballDataURL(strike,dip,rake,size,fill){
+  const c=document.createElement('canvas');c.width=size;c.height=size;
+  const ctx=c.getContext('2d');const R=size/2,cx=R,cy=R,d2r=Math.PI/180;
+  const ph=strike*d2r,dl=dip*d2r,lm=rake*d2r;
+  // x=North, y=East, z=Down
+  const n=[-Math.sin(dl)*Math.sin(ph), Math.sin(dl)*Math.cos(ph), -Math.cos(dl)];
+  const s=[Math.cos(lm)*Math.cos(ph)+Math.cos(dl)*Math.sin(lm)*Math.sin(ph),
+           Math.cos(lm)*Math.sin(ph)-Math.cos(dl)*Math.sin(lm)*Math.cos(ph),
+           -Math.sin(lm)*Math.sin(dl)];
+  const fc=_hexRgb(fill),img=ctx.createImageData(size,size);
+  for(let py=0;py<size;py++)for(let px=0;px<size;px++){
+    const dx=px-cx,dy=py-cy,rho=Math.hypot(dx,dy),idx=(py*size+px)*4;
+    if(rho>R-0.5){img.data[idx+3]=0;continue;}
+    const ih=2*Math.asin(Math.min(1,rho/(R*Math.SQRT2)));   // takeoff from vertical
+    const az=Math.atan2(dx,-dy);                            // clockwise from North(up)
+    const r=[Math.sin(ih)*Math.cos(az),Math.sin(ih)*Math.sin(az),Math.cos(ih)];
+    const pol=(r[0]*n[0]+r[1]*n[1]+r[2]*n[2])*(r[0]*s[0]+r[1]*s[1]+r[2]*s[2]);
+    const col=pol>=0?fc:[255,255,255];
+    img.data[idx]=col[0];img.data[idx+1]=col[1];img.data[idx+2]=col[2];img.data[idx+3]=255;
+  }
+  ctx.putImageData(img,0,0);
+  ctx.beginPath();ctx.arc(cx,cy,R-0.6,0,2*Math.PI);ctx.strokeStyle='#1b2733';ctx.lineWidth=1.1;ctx.stroke();
+  return c.toDataURL();
+}
+
 /* ---------- map ---------- */
 function buildMap(){
   MAP=L.map('map',{zoomControl:true}).setView([25,5],2);
@@ -142,10 +173,19 @@ function buildMap(){
   const pts=[];
   CAT.events.forEach(e=>{
     if(e.epi_lat==null||e.epi_lon==null) return;
-    const m=L.circleMarker([e.epi_lat,e.epi_lon],{
-      radius:4+Math.max(0,(e.Mw||4)-4)*3.4,
-      color:'#2b3640',weight:1,fillColor:statusColor(e),fillOpacity:.85
-    }).addTo(MAP);
+    const fm=e.result&&e.result.fmech;
+    let m;
+    if(fm&&isFinite(fm.strike)&&isFinite(fm.dip)&&isFinite(fm.rake)){
+      const sz=Math.round(18+Math.max(0,(e.Mw||4)-4)*7);
+      m=L.marker([e.epi_lat,e.epi_lon],{icon:L.icon({
+        iconUrl:beachballDataURL(fm.strike,fm.dip,fm.rake,sz,statusColor(e)),
+        iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]})}).addTo(MAP);
+    }else{
+      m=L.circleMarker([e.epi_lat,e.epi_lon],{
+        radius:4+Math.max(0,(e.Mw||4)-4)*3.4,
+        color:'#2b3640',weight:1,fillColor:statusColor(e),fillOpacity:.85
+      }).addTo(MAP);
+    }
     m.bindPopup(popupHtml(e),{maxWidth:265});
     m.on('click',()=>selectEvent(e.event_id,false));
     MARKERS[e.event_id]=m;
@@ -177,7 +217,8 @@ function selectEvent(id, fromList){
   SEL=id;
   Object.entries(MARKERS).forEach(([k,m])=>{
     const e=CAT.events.find(x=>x.event_id===k);
-    m.setStyle({weight:k===id?3:1,color:k===id?'#1b4b73':'#2b3640'});
+    if(m.setStyle)m.setStyle({weight:k===id?3:1,color:k===id?'#1b4b73':'#2b3640'});
+    else if(k===id)m.setZIndexOffset(1000);else m.setZIndexOffset(0);
     if(k===id) m.bringToFront();
   });
   document.querySelectorAll('.item').forEach(el=>
@@ -226,9 +267,9 @@ function renderList(){
       +`</div>`;
     d.onclick=()=>selectEvent(e.event_id,true);
     d.onmouseenter=()=>{const m=MARKERS[e.event_id];
-      if(m&&e.event_id!==SEL) m.setStyle({weight:2.5,color:'#1b4b73'});};
+      if(m&&m.setStyle&&e.event_id!==SEL) m.setStyle({weight:2.5,color:'#1b4b73'});};
     d.onmouseleave=()=>{const m=MARKERS[e.event_id];
-      if(m&&e.event_id!==SEL) m.setStyle({weight:1,color:'#2b3640'});};
+      if(m&&m.setStyle&&e.event_id!==SEL) m.setStyle({weight:1,color:'#2b3640'});};
     list.appendChild(d);
   });
 }
