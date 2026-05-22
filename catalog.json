@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T11:33:54Z",
+  "generated_utc": "2026-05-22T11:33:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -4355,12 +4355,12 @@
         "acceptance": 0.203,
         "ess": 113,
         "geweke": 1.75,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL"
       },
-      "status": "done",
-      "escalation_reason": "Escalation: asf_query_failed",
-      "pipeline_run_utc": "2026-05-22T11:33:53Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_multiple_critical_railed",
+      "pipeline_run_utc": "2026-05-22T11:33:55Z",
       "stale": false,
       "has_report": false,
       "links": {
