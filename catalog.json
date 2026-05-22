@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T04:30:55Z",
+  "generated_utc": "2026-05-22T04:30:57Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -4177,8 +4177,8 @@
         "acceptance": 0.205,
         "ess": 159,
         "geweke": 2.99,
-        "zone": null,
-        "verdict": "FAIL"
+        "zone": "GREEN",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": null,
