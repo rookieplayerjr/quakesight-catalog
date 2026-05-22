@@ -181,11 +181,12 @@ function buildMap(){
   const pts=[];
   CAT.events.forEach(e=>{
     if(e.epi_lat==null||e.epi_lon==null) return;
-    // Beachball ONLY for a validated solution (GREEN / verdict PASS) — a
-    // focal mechanism implies a trustworthy model. YELLOW (needs review) and
-    // RED / escalated / partial show a plain status dot instead.
+    // Beachball for any event with a GBIS model (GREEN validated or YELLOW
+    // needs-review) — both have a usable focal mechanism, colored by zone.
+    // RED (failed fit, no trustworthy model), escalated and partial → status dot.
     const fm=e.result&&e.result.fmech;
-    const validated=e.diagnostics&&e.diagnostics.zone==='GREEN';
+    const z=e.diagnostics&&e.diagnostics.zone;
+    const validated=(z==='GREEN'||z==='YELLOW');
     let m;
     if(validated&&fm&&isFinite(fm.strike)&&isFinite(fm.dip)&&isFinite(fm.rake)){
       const sz=Math.round(18+Math.max(0,(e.Mw||4)-4)*7);
