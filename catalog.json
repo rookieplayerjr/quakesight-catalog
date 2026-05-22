@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T21:05:03Z",
+  "generated_utc": "2026-05-22T21:23:56Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -41,19 +41,19 @@
       "n_tracks": 2,
       "aoi_half_km": 72.7,
       "result": {
-        "L_km": 20.5,
-        "W_km": 10.32,
-        "Z_top_km": 1.65,
-        "dip": -99.1,
-        "strike": 40.3,
+        "L_km": 20.12,
+        "W_km": 10.13,
+        "Z_top_km": 1.71,
+        "dip": -98.8,
+        "strike": 40.5,
         "Mw_post": 6.66,
         "VR": {
           "t64_asc": 0.3,
           "t71_dsc": 0.38
         },
         "fmech": {
-          "strike": 220.3,
-          "dip": 99.1,
+          "strike": 220.5,
+          "dip": 98.8,
           "rake": -3.5
         }
       },
@@ -66,7 +66,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T19:17:03Z",
+      "pipeline_run_utc": "2026-05-22T21:22:01Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -216,20 +216,20 @@
       "n_tracks": 3,
       "aoi_half_km": 39.8,
       "result": {
-        "L_km": 14.94,
-        "W_km": 8.52,
-        "Z_top_km": 10.3,
-        "dip": -52.9,
-        "strike": 256.2,
+        "L_km": 22.89,
+        "W_km": 13.05,
+        "Z_top_km": 5.45,
+        "dip": -45.2,
+        "strike": 244.0,
         "Mw_post": 5.96,
         "VR": {
           "t13_dsc": 0.3,
           "t35_asc": 0.2
         },
         "fmech": {
-          "strike": 76.2,
-          "dip": 52.9,
-          "rake": 168.5
+          "strike": 64.0,
+          "dip": 45.2,
+          "rake": 160.2
         }
       },
       "diagnostics": {
@@ -241,7 +241,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T08:47:47Z",
+      "pipeline_run_utc": "2026-05-22T21:21:59Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -297,11 +297,11 @@
       "n_tracks": 3,
       "aoi_half_km": 80.0,
       "result": {
-        "L_km": 9.94,
+        "L_km": 9.93,
         "W_km": 4.7,
-        "Z_top_km": 4.5,
-        "dip": -73.6,
-        "strike": 349.8,
+        "Z_top_km": 4.49,
+        "dip": -73.7,
+        "strike": 349.7,
         "Mw_post": 6.37,
         "VR": {
           "t144_dsc": 0.67,
@@ -309,9 +309,9 @@
           "t71_dsc": 0.71
         },
         "fmech": {
-          "strike": 169.8,
-          "dip": 73.6,
-          "rake": -171.7
+          "strike": 169.7,
+          "dip": 73.7,
+          "rake": -171.9
         }
       },
       "diagnostics": {
@@ -323,7 +323,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T08:36:12Z",
+      "pipeline_run_utc": "2026-05-22T21:22:00Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -368,20 +368,20 @@
       "n_tracks": 2,
       "aoi_half_km": 43.8,
       "result": {
-        "L_km": 10.45,
-        "W_km": 8.23,
+        "L_km": 10.61,
+        "W_km": 8.36,
         "Z_top_km": 0.41,
-        "dip": -80.7,
-        "strike": 67.0,
+        "dip": -81.1,
+        "strike": 67.1,
         "Mw_post": 5.74,
         "VR": {
           "t144_dsc": 0.55,
           "t64_asc": 0.43
         },
         "fmech": {
-          "strike": 247.0,
-          "dip": 80.7,
-          "rake": -176.3
+          "strike": 247.1,
+          "dip": 81.1,
+          "rake": -176.1
         }
       },
       "diagnostics": {
@@ -393,7 +393,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T03:25:20Z",
+      "pipeline_run_utc": "2026-05-22T21:22:01Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -449,11 +449,11 @@
       "n_tracks": 3,
       "aoi_half_km": 24.8,
       "result": {
-        "L_km": 2.37,
-        "W_km": 2.22,
-        "Z_top_km": 3.32,
-        "dip": -37.1,
-        "strike": 152.5,
+        "L_km": 2.28,
+        "W_km": 2.14,
+        "Z_top_km": 3.37,
+        "dip": -36.9,
+        "strike": 154.0,
         "Mw_post": 5.45,
         "VR": {
           "t121_dsc": 0.78,
@@ -461,9 +461,9 @@
           "t48_dsc": 0.92
         },
         "fmech": {
-          "strike": 332.5,
-          "dip": 37.1,
-          "rake": -120.1
+          "strike": 334.0,
+          "dip": 36.9,
+          "rake": -120.5
         }
       },
       "diagnostics": {
@@ -475,7 +475,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T10:42:21Z",
+      "pipeline_run_utc": "2026-05-22T21:21:08Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -520,20 +520,20 @@
       "n_tracks": 2,
       "aoi_half_km": 29.9,
       "result": {
-        "L_km": 3.9,
-        "W_km": 3.23,
-        "Z_top_km": 8.09,
-        "dip": -62.6,
-        "strike": 197.0,
+        "L_km": 4.77,
+        "W_km": 3.95,
+        "Z_top_km": 7.67,
+        "dip": -63.0,
+        "strike": 200.5,
         "Mw_post": 5.72,
         "VR": {
           "t123_dsc": 0.55,
           "t21_dsc": 0.56
         },
         "fmech": {
-          "strike": 17.0,
-          "dip": 62.6,
-          "rake": 113.6
+          "strike": 20.5,
+          "dip": 63.0,
+          "rake": 104.2
         }
       },
       "diagnostics": {
@@ -545,7 +545,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T08:34:36Z",
+      "pipeline_run_utc": "2026-05-22T21:21:08Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -590,20 +590,20 @@
       "n_tracks": 2,
       "aoi_half_km": 16.8,
       "result": {
-        "L_km": 5.02,
-        "W_km": 5.67,
-        "Z_top_km": 9.94,
-        "dip": -38.8,
-        "strike": 371.9,
+        "L_km": 5.13,
+        "W_km": 5.79,
+        "Z_top_km": 9.98,
+        "dip": -39.6,
+        "strike": 372.7,
         "Mw_post": 5.78,
         "VR": {
           "t127_dsc": 0.1,
           "t25_dsc": -0.2
         },
         "fmech": {
-          "strike": 191.9,
-          "dip": 38.8,
-          "rake": 143.6
+          "strike": 192.7,
+          "dip": 39.6,
+          "rake": 143.7
         }
       },
       "diagnostics": {
@@ -615,7 +615,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-22T06:35:59Z",
+      "pipeline_run_utc": "2026-05-22T21:21:09Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -682,20 +682,20 @@
       "n_tracks": 4,
       "aoi_half_km": 44.7,
       "result": {
-        "L_km": 22.94,
-        "W_km": 12.29,
-        "Z_top_km": 19.32,
-        "dip": -64.8,
-        "strike": 35.2,
+        "L_km": 22.41,
+        "W_km": 12.01,
+        "Z_top_km": 19.63,
+        "dip": -64.9,
+        "strike": 35.3,
         "Mw_post": 6.76,
         "VR": {
           "t12_asc": 0.85,
           "t165_dsc": 0.39
         },
         "fmech": {
-          "strike": 215.2,
-          "dip": 64.8,
-          "rake": -12.2
+          "strike": 215.3,
+          "dip": 64.9,
+          "rake": -12.3
         }
       },
       "diagnostics": {
@@ -707,7 +707,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T20:43:30Z",
+      "pipeline_run_utc": "2026-05-22T21:21:10Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -752,20 +752,20 @@
       "n_tracks": 2,
       "aoi_half_km": 67.0,
       "result": {
-        "L_km": 23.72,
-        "W_km": 12.71,
-        "Z_top_km": 8.68,
-        "dip": -115.9,
-        "strike": 244.3,
+        "L_km": 26.04,
+        "W_km": 13.95,
+        "Z_top_km": 8.01,
+        "dip": -121.5,
+        "strike": 241.6,
         "Mw_post": 6.19,
         "VR": {
           "t155_asc": 0.65,
           "t2_dsc": 0.39
         },
         "fmech": {
-          "strike": 64.3,
-          "dip": 115.9,
-          "rake": 58.0
+          "strike": 61.6,
+          "dip": 121.5,
+          "rake": 58.8
         }
       },
       "diagnostics": {
@@ -777,7 +777,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T08:34:35Z",
+      "pipeline_run_utc": "2026-05-22T21:21:10Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -822,20 +822,20 @@
       "n_tracks": 2,
       "aoi_half_km": 63.1,
       "result": {
-        "L_km": 22.92,
-        "W_km": 10.19,
-        "Z_top_km": 5.3,
-        "dip": -83.6,
-        "strike": 325.5,
+        "L_km": 23.23,
+        "W_km": 10.33,
+        "Z_top_km": 5.36,
+        "dip": -83.9,
+        "strike": 325.9,
         "Mw_post": 6.48,
         "VR": {
           "t163_dsc": 0.48,
           "t69_asc": 0.07
         },
         "fmech": {
-          "strike": 145.5,
-          "dip": 83.6,
-          "rake": 174.0
+          "strike": 145.9,
+          "dip": 83.9,
+          "rake": 174.2
         }
       },
       "diagnostics": {
@@ -847,7 +847,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-22T06:36:00Z",
+      "pipeline_run_utc": "2026-05-22T21:21:11Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -962,20 +962,20 @@
       "n_tracks": 2,
       "aoi_half_km": 61.5,
       "result": {
-        "L_km": 13.86,
-        "W_km": 8.95,
-        "Z_top_km": 5.66,
-        "dip": -4.3,
-        "strike": 101.8,
+        "L_km": 14.04,
+        "W_km": 9.07,
+        "Z_top_km": 5.65,
+        "dip": -4.6,
+        "strike": 101.3,
         "Mw_post": 5.98,
         "VR": {
           "t129_asc": 0.85,
           "t34_dsc": 0.84
         },
         "fmech": {
-          "strike": 281.8,
-          "dip": 4.3,
-          "rake": 111.0
+          "strike": 281.3,
+          "dip": 4.6,
+          "rake": 110.9
         }
       },
       "diagnostics": {
@@ -987,7 +987,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T06:43:05Z",
+      "pipeline_run_utc": "2026-05-22T21:21:13Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1045,9 +1045,9 @@
       "result": {
         "L_km": 13.04,
         "W_km": 5.45,
-        "Z_top_km": 2.91,
-        "dip": -89.0,
-        "strike": 159.6,
+        "Z_top_km": 2.94,
+        "dip": -88.9,
+        "strike": 159.5,
         "Mw_post": 6.52,
         "VR": {
           "t116_asc": 0.69,
@@ -1055,9 +1055,9 @@
           "t43_asc": 0.63
         },
         "fmech": {
-          "strike": 339.6,
-          "dip": 89.0,
-          "rake": -176.5
+          "strike": 339.5,
+          "dip": 88.9,
+          "rake": -176.6
         }
       },
       "diagnostics": {
@@ -1069,7 +1069,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T09:07:21Z",
+      "pipeline_run_utc": "2026-05-22T21:21:14Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1125,11 +1125,11 @@
       "n_tracks": 3,
       "aoi_half_km": 67.0,
       "result": {
-        "L_km": 11.53,
-        "W_km": 6.18,
-        "Z_top_km": 5.12,
-        "dip": -37.7,
-        "strike": 23.1,
+        "L_km": 11.65,
+        "W_km": 6.24,
+        "Z_top_km": 5.09,
+        "dip": -37.4,
+        "strike": 22.9,
         "Mw_post": 6.25,
         "VR": {
           "t121_dsc": 0.91,
@@ -1137,9 +1137,9 @@
           "t19_dsc": 0.95
         },
         "fmech": {
-          "strike": 203.1,
-          "dip": 37.7,
-          "rake": -95.4
+          "strike": 202.9,
+          "dip": 37.4,
+          "rake": -94.9
         }
       },
       "diagnostics": {
@@ -1151,7 +1151,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T20:51:21Z",
+      "pipeline_run_utc": "2026-05-22T21:21:15Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -1207,19 +1207,19 @@
       "n_tracks": 3,
       "aoi_half_km": 75.2,
       "result": {
-        "L_km": 8.69,
+        "L_km": 8.67,
         "W_km": 4.37,
-        "Z_top_km": 4.41,
-        "dip": -70.1,
-        "strike": 344.8,
+        "Z_top_km": 4.49,
+        "dip": -70.5,
+        "strike": 344.7,
         "Mw_post": 6.32,
         "VR": {
           "t73_asc": 0.73
         },
         "fmech": {
-          "strike": 164.8,
-          "dip": 70.1,
-          "rake": 14.0
+          "strike": 164.7,
+          "dip": 70.5,
+          "rake": 14.1
         }
       },
       "diagnostics": {
@@ -1231,7 +1231,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T09:06:20Z",
+      "pipeline_run_utc": "2026-05-22T21:21:15Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1265,19 +1265,19 @@
       "n_tracks": 1,
       "aoi_half_km": 80.0,
       "result": {
-        "L_km": 20.81,
-        "W_km": 8.69,
-        "Z_top_km": 5.99,
-        "dip": -23.0,
-        "strike": 137.1,
+        "L_km": 20.41,
+        "W_km": 8.53,
+        "Z_top_km": 5.9,
+        "dip": -23.5,
+        "strike": 136.4,
         "Mw_post": 6.34,
         "VR": {
           "t4_dsc": 0.74
         },
         "fmech": {
-          "strike": 317.1,
-          "dip": 23.0,
-          "rake": -156.4
+          "strike": 316.4,
+          "dip": 23.5,
+          "rake": -157.5
         }
       },
       "diagnostics": {
@@ -1289,7 +1289,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T08:36:29Z",
+      "pipeline_run_utc": "2026-05-22T21:21:16Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1334,19 +1334,19 @@
       "n_tracks": 2,
       "aoi_half_km": 30.2,
       "result": {
-        "L_km": 4.08,
-        "W_km": 3.59,
-        "Z_top_km": 1.43,
-        "dip": -56.4,
-        "strike": 165.3,
+        "L_km": 8.2,
+        "W_km": 7.22,
+        "Z_top_km": 0.45,
+        "dip": -34.1,
+        "strike": 177.8,
         "Mw_post": 5.41,
         "VR": {
           "t121_dsc": 0.85
         },
         "fmech": {
-          "strike": 345.3,
-          "dip": 56.4,
-          "rake": -131.3
+          "strike": 357.8,
+          "dip": 34.1,
+          "rake": -40.3
         }
       },
       "diagnostics": {
@@ -1358,7 +1358,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T09:07:44Z",
+      "pipeline_run_utc": "2026-05-22T21:21:17Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1403,20 +1403,20 @@
       "n_tracks": 2,
       "aoi_half_km": 42.7,
       "result": {
-        "L_km": 10.17,
-        "W_km": 7.44,
-        "Z_top_km": 5.59,
-        "dip": -35.0,
-        "strike": 99.7,
+        "L_km": 10.18,
+        "W_km": 7.45,
+        "Z_top_km": 5.61,
+        "dip": -34.8,
+        "strike": 99.8,
         "Mw_post": 6.21,
         "VR": {
           "t101_asc": 0.57,
           "t35_dsc": 0.58
         },
         "fmech": {
-          "strike": 279.7,
-          "dip": 35.0,
-          "rake": 40.5
+          "strike": 279.8,
+          "dip": 34.8,
+          "rake": 40.7
         }
       },
       "diagnostics": {
@@ -1428,8 +1428,8 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-19T09:45:31Z",
-      "stale": true,
+      "pipeline_run_utc": "2026-05-22T21:21:17Z",
+      "stale": false,
       "has_report": false,
       "links": {
         "report": null
@@ -1473,20 +1473,20 @@
       "n_tracks": 2,
       "aoi_half_km": 50.1,
       "result": {
-        "L_km": 14.4,
-        "W_km": 7.25,
-        "Z_top_km": 9.53,
-        "dip": -33.1,
-        "strike": 46.4,
+        "L_km": 12.98,
+        "W_km": 6.53,
+        "Z_top_km": 8.53,
+        "dip": -39.4,
+        "strike": 19.8,
         "Mw_post": 6.32,
         "VR": {
           "t29_asc": 0.17,
           "t36_dsc": 0.15
         },
         "fmech": {
-          "strike": 226.4,
-          "dip": 33.1,
-          "rake": -12.6
+          "strike": 199.8,
+          "dip": 39.4,
+          "rake": -42.1
         }
       },
       "diagnostics": {
@@ -1498,7 +1498,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-22T06:36:01Z",
+      "pipeline_run_utc": "2026-05-22T21:21:18Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1543,20 +1543,20 @@
       "n_tracks": 2,
       "aoi_half_km": 28.2,
       "result": {
-        "L_km": 11.87,
-        "W_km": 8.16,
-        "Z_top_km": 18.1,
-        "dip": -90.6,
-        "strike": 251.6,
+        "L_km": 15.38,
+        "W_km": 10.56,
+        "Z_top_km": 17.38,
+        "dip": -88.5,
+        "strike": 250.5,
         "Mw_post": 6.14,
         "VR": {
           "t130_asc": 0.07,
           "t166_dsc": -0.1
         },
         "fmech": {
-          "strike": 71.6,
-          "dip": 90.6,
-          "rake": 131.5
+          "strike": 70.5,
+          "dip": 88.5,
+          "rake": 138.5
         }
       },
       "diagnostics": {
@@ -1568,7 +1568,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_weak_signal",
-      "pipeline_run_utc": "2026-05-22T06:36:01Z",
+      "pipeline_run_utc": "2026-05-22T21:21:19Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -1613,19 +1613,19 @@
       "n_tracks": 2,
       "aoi_half_km": 31.6,
       "result": {
-        "L_km": 11.07,
-        "W_km": 7.15,
-        "Z_top_km": 3.95,
-        "dip": -24.6,
-        "strike": 97.6,
+        "L_km": 10.83,
+        "W_km": 6.99,
+        "Z_top_km": 3.96,
+        "dip": -25.6,
+        "strike": 98.0,
         "Mw_post": 6.22,
         "VR": {
           "t130_asc": 0.39,
           "t166_dsc": 0.83
         },
         "fmech": {
-          "strike": 277.6,
-          "dip": 24.6,
+          "strike": 278.0,
+          "dip": 25.6,
           "rake": 72.8
         }
       },
@@ -1638,7 +1638,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T03:26:10Z",
+      "pipeline_run_utc": "2026-05-22T21:21:22Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1683,19 +1683,19 @@
       "n_tracks": 2,
       "aoi_half_km": 50.6,
       "result": {
-        "L_km": 15.53,
-        "W_km": 10.03,
-        "Z_top_km": 2.71,
-        "dip": -43.9,
-        "strike": 282.6,
+        "L_km": 15.63,
+        "W_km": 10.09,
+        "Z_top_km": 2.64,
+        "dip": -43.8,
+        "strike": 282.8,
         "Mw_post": 6.3,
         "VR": {
           "t130_asc": 0.26,
           "t166_dsc": 0.78
         },
         "fmech": {
-          "strike": 102.6,
-          "dip": 43.9,
+          "strike": 102.8,
+          "dip": 43.8,
           "rake": 132.0
         }
       },
@@ -1708,7 +1708,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T03:26:33Z",
+      "pipeline_run_utc": "2026-05-22T21:21:24Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1897,20 +1897,20 @@
       "n_tracks": 3,
       "aoi_half_km": 31.6,
       "result": {
-        "L_km": 16.55,
-        "W_km": 10.69,
-        "Z_top_km": 17.16,
-        "dip": -4.3,
-        "strike": 89.5,
+        "L_km": 17.55,
+        "W_km": 11.33,
+        "Z_top_km": 17.31,
+        "dip": -1.3,
+        "strike": 77.3,
         "Mw_post": 6.22,
         "VR": {
           "t151_asc": 0.44,
           "t78_asc": -0.16
         },
         "fmech": {
-          "strike": 269.5,
-          "dip": 4.3,
-          "rake": 87.1
+          "strike": 257.3,
+          "dip": 1.3,
+          "rake": 75.8
         }
       },
       "diagnostics": {
@@ -1922,7 +1922,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-22T06:36:02Z",
+      "pipeline_run_utc": "2026-05-22T21:21:26Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1989,19 +1989,19 @@
       "n_tracks": 4,
       "aoi_half_km": 28.2,
       "result": {
-        "L_km": 10.4,
-        "W_km": 7.15,
-        "Z_top_km": 8.32,
-        "dip": -48.9,
-        "strike": 75.2,
+        "L_km": 15.14,
+        "W_km": 10.4,
+        "Z_top_km": 6.86,
+        "dip": -46.9,
+        "strike": 72.3,
         "Mw_post": 5.92,
         "VR": {
           "t72_asc": 0.69
         },
         "fmech": {
-          "strike": 255.2,
-          "dip": 48.9,
-          "rake": 57.1
+          "strike": 252.3,
+          "dip": 46.9,
+          "rake": 55.7
         }
       },
       "diagnostics": {
@@ -2013,7 +2013,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T10:42:14Z",
+      "pipeline_run_utc": "2026-05-22T21:21:26Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2058,20 +2058,20 @@
       "n_tracks": 2,
       "aoi_half_km": 44.7,
       "result": {
-        "L_km": 17.53,
-        "W_km": 9.4,
-        "Z_top_km": 4.88,
-        "dip": -42.2,
-        "strike": 47.5,
+        "L_km": 17.69,
+        "W_km": 9.48,
+        "Z_top_km": 4.86,
+        "dip": -42.3,
+        "strike": 47.1,
         "Mw_post": 6.39,
         "VR": {
           "t14_asc": 0.52,
           "t21_dsc": 0.81
         },
         "fmech": {
-          "strike": 227.5,
-          "dip": 42.2,
-          "rake": -13.9
+          "strike": 227.1,
+          "dip": 42.3,
+          "rake": -14.0
         }
       },
       "diagnostics": {
@@ -2083,7 +2083,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-20T00:48:39Z",
+      "pipeline_run_utc": "2026-05-22T21:21:29Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -2139,19 +2139,19 @@
       "n_tracks": 3,
       "aoi_half_km": 80.0,
       "result": {
-        "L_km": 34.79,
-        "W_km": 12.84,
-        "Z_top_km": 3.69,
-        "dip": -56.3,
-        "strike": 27.3,
+        "L_km": 34.59,
+        "W_km": 12.76,
+        "Z_top_km": 3.66,
+        "dip": -56.7,
+        "strike": 27.4,
         "Mw_post": 6.61,
         "VR": {
           "t107_dsc": 0.27,
           "t5_dsc": 0.2
         },
         "fmech": {
-          "strike": 207.3,
-          "dip": 56.3,
+          "strike": 207.4,
+          "dip": 56.7,
           "rake": -13.5
         }
       },
@@ -2164,7 +2164,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-22T21:05:03Z",
+      "pipeline_run_utc": "2026-05-22T21:21:29Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2209,18 +2209,18 @@
       "n_tracks": 2,
       "aoi_half_km": 49.1,
       "result": {
-        "L_km": 17.23,
+        "L_km": 17.24,
         "W_km": 9.23,
         "Z_top_km": 4.11,
         "dip": -49.8,
-        "strike": 99.9,
+        "strike": 100.0,
         "Mw_post": 6.47,
         "VR": {
           "t13_asc": 0.75,
           "t20_dsc": 0.91
         },
         "fmech": {
-          "strike": 279.9,
+          "strike": 280.0,
           "dip": 49.8,
           "rake": 101.4
         }
@@ -2234,7 +2234,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-20T04:18:43Z",
+      "pipeline_run_utc": "2026-05-22T21:21:30Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -2279,20 +2279,20 @@
       "n_tracks": 2,
       "aoi_half_km": 75.9,
       "result": {
-        "L_km": 12.91,
-        "W_km": 6.92,
-        "Z_top_km": 5.19,
+        "L_km": 12.89,
+        "W_km": 6.91,
+        "Z_top_km": 5.2,
         "dip": -46.9,
-        "strike": 86.8,
+        "strike": 87.0,
         "Mw_post": 6.46,
         "VR": {
           "t13_asc": 0.67,
           "t20_dsc": 0.78
         },
         "fmech": {
-          "strike": 266.8,
+          "strike": 267.0,
           "dip": 46.9,
-          "rake": 76.7
+          "rake": 76.8
         }
       },
       "diagnostics": {
@@ -2304,7 +2304,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T09:08:47Z",
+      "pipeline_run_utc": "2026-05-22T21:21:31Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2360,11 +2360,11 @@
       "n_tracks": 3,
       "aoi_half_km": 35.3,
       "result": {
-        "L_km": 19.05,
-        "W_km": 13.09,
-        "Z_top_km": 2.9,
-        "dip": -32.8,
-        "strike": 102.1,
+        "L_km": 19.0,
+        "W_km": 13.05,
+        "Z_top_km": 2.87,
+        "dip": -32.5,
+        "strike": 102.0,
         "Mw_post": 6.49,
         "VR": {
           "t122_dsc": 0.51,
@@ -2372,9 +2372,9 @@
           "t20_dsc": 0.87
         },
         "fmech": {
-          "strike": 282.1,
-          "dip": 32.8,
-          "rake": 82.1
+          "strike": 282.0,
+          "dip": 32.5,
+          "rake": 81.4
         }
       },
       "diagnostics": {
@@ -2386,7 +2386,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T20:49:35Z",
+      "pipeline_run_utc": "2026-05-22T21:21:31Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2442,10 +2442,10 @@
       "n_tracks": 3,
       "aoi_half_km": 75.9,
       "result": {
-        "L_km": 13.97,
+        "L_km": 13.96,
         "W_km": 7.48,
-        "Z_top_km": 2.79,
-        "dip": -45.7,
+        "Z_top_km": 2.82,
+        "dip": -45.8,
         "strike": 61.2,
         "Mw_post": 6.38,
         "VR": {
@@ -2455,8 +2455,8 @@
         },
         "fmech": {
           "strike": 241.2,
-          "dip": 45.7,
-          "rake": 93.3
+          "dip": 45.8,
+          "rake": 93.4
         }
       },
       "diagnostics": {
@@ -2468,7 +2468,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T03:28:14Z",
+      "pipeline_run_utc": "2026-05-22T21:21:31Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2535,11 +2535,11 @@
       "n_tracks": 4,
       "aoi_half_km": 71.5,
       "result": {
-        "L_km": 8.15,
-        "W_km": 4.37,
+        "L_km": 8.12,
+        "W_km": 4.35,
         "Z_top_km": 3.07,
         "dip": -53.2,
-        "strike": 66.5,
+        "strike": 66.7,
         "Mw_post": 6.25,
         "VR": {
           "t115_asc": 0.47,
@@ -2547,9 +2547,9 @@
           "t20_dsc": 0.73
         },
         "fmech": {
-          "strike": 246.5,
+          "strike": 246.7,
           "dip": 53.2,
-          "rake": 58.8
+          "rake": 59.0
         }
       },
       "diagnostics": {
@@ -2561,7 +2561,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T04:40:25Z",
+      "pipeline_run_utc": "2026-05-22T21:21:32Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2606,19 +2606,19 @@
       "n_tracks": 2,
       "aoi_half_km": 53.2,
       "result": {
-        "L_km": 13.29,
-        "W_km": 8.06,
-        "Z_top_km": 9.59,
-        "dip": -43.8,
-        "strike": -14.0,
+        "L_km": 14.66,
+        "W_km": 8.9,
+        "Z_top_km": 9.94,
+        "dip": -38.7,
+        "strike": -13.3,
         "Mw_post": 6.07,
         "VR": {
           "t105_dsc": 0.68
         },
         "fmech": {
-          "strike": 166.0,
-          "dip": 43.8,
-          "rake": 178.1
+          "strike": 166.7,
+          "dip": 38.7,
+          "rake": 174.6
         }
       },
       "diagnostics": {
@@ -2630,7 +2630,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T21:16:21Z",
+      "pipeline_run_utc": "2026-05-22T21:21:33Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -2697,10 +2697,10 @@
       "n_tracks": 4,
       "aoi_half_km": 47.4,
       "result": {
-        "L_km": 15.52,
-        "W_km": 10.02,
-        "Z_top_km": 9.63,
-        "dip": -101.5,
+        "L_km": 17.45,
+        "W_km": 11.27,
+        "Z_top_km": 10.0,
+        "dip": -102.7,
         "strike": 170.5,
         "Mw_post": 6.19,
         "VR": {
@@ -2709,8 +2709,8 @@
         },
         "fmech": {
           "strike": 350.5,
-          "dip": 101.5,
-          "rake": -34.4
+          "dip": 102.7,
+          "rake": -26.0
         }
       },
       "diagnostics": {
@@ -2722,7 +2722,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T03:29:20Z",
+      "pipeline_run_utc": "2026-05-22T21:21:33Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2749,7 +2749,7 @@
             "2025-06-09"
           ],
           "backend": "sp2",
-          "median_coh": 0.236,
+          "median_coh": 0.239,
           "status": "ready"
         },
         {
@@ -2760,27 +2760,27 @@
             "2025-06-20"
           ],
           "backend": "sp2",
-          "median_coh": 0.228,
+          "median_coh": 0.231,
           "status": "ready"
         }
       ],
       "n_tracks": 2,
       "aoi_half_km": 71.5,
       "result": {
-        "L_km": 25.44,
-        "W_km": 13.63,
-        "Z_top_km": 6.77,
-        "dip": -59.0,
-        "strike": 235.5,
+        "L_km": 25.2,
+        "W_km": 13.5,
+        "Z_top_km": 6.67,
+        "dip": -58.7,
+        "strike": 234.9,
         "Mw_post": 6.39,
         "VR": {
           "t171_dsc": 0.79,
           "t77_asc": -0.8
         },
         "fmech": {
-          "strike": 55.5,
-          "dip": 59.0,
-          "rake": -41.3
+          "strike": 54.9,
+          "dip": 58.7,
+          "rake": -41.8
         }
       },
       "diagnostics": {
@@ -2792,7 +2792,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-22T10:44:58Z",
+      "pipeline_run_utc": "2026-05-22T21:21:34Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2859,20 +2859,20 @@
       "n_tracks": 4,
       "aoi_half_km": 53.2,
       "result": {
-        "L_km": 8.29,
-        "W_km": 5.03,
-        "Z_top_km": 7.33,
-        "dip": -48.5,
-        "strike": 289.7,
+        "L_km": 8.55,
+        "W_km": 5.19,
+        "Z_top_km": 7.19,
+        "dip": -47.6,
+        "strike": 288.0,
         "Mw_post": 6.14,
         "VR": {
           "t138_dsc": 0.66,
           "t36_dsc": 0.78
         },
         "fmech": {
-          "strike": 109.7,
-          "dip": 48.5,
-          "rake": -104.4
+          "strike": 108.0,
+          "dip": 47.6,
+          "rake": -104.8
         }
       },
       "diagnostics": {
@@ -2884,7 +2884,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T07:48:37Z",
+      "pipeline_run_utc": "2026-05-22T21:21:34Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2929,20 +2929,20 @@
       "n_tracks": 2,
       "aoi_half_km": 49.1,
       "result": {
-        "L_km": 9.85,
-        "W_km": 5.28,
-        "Z_top_km": 13.46,
-        "dip": -33.3,
-        "strike": 264.9,
+        "L_km": 9.47,
+        "W_km": 5.07,
+        "Z_top_km": 13.94,
+        "dip": -32.2,
+        "strike": 261.4,
         "Mw_post": 6.14,
         "VR": {
           "t155_asc": 0.19,
           "t2_dsc": 0.34
         },
         "fmech": {
-          "strike": 84.9,
-          "dip": 33.3,
-          "rake": 41.3
+          "strike": 81.4,
+          "dip": 32.2,
+          "rake": 36.1
         }
       },
       "diagnostics": {
@@ -2954,7 +2954,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-22T06:36:04Z",
+      "pipeline_run_utc": "2026-05-22T21:21:35Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -2992,7 +2992,7 @@
             "2025-09-25"
           ],
           "backend": "sp2",
-          "median_coh": 0.193,
+          "median_coh": 0.194,
           "status": "ready"
         }
       ],
@@ -3139,19 +3139,19 @@
       "n_tracks": 2,
       "aoi_half_km": 50.1,
       "result": {
-        "L_km": 27.72,
-        "W_km": 13.96,
-        "Z_top_km": 25.1,
-        "dip": -19.9,
-        "strike": 407.7,
+        "L_km": 30.12,
+        "W_km": 15.16,
+        "Z_top_km": 25.34,
+        "dip": -19.3,
+        "strike": 410.4,
         "Mw_post": 6.64,
         "VR": {
           "t155_asc": 0.68
         },
         "fmech": {
-          "strike": 227.7,
-          "dip": 19.9,
-          "rake": 73.6
+          "strike": 230.4,
+          "dip": 19.3,
+          "rake": 76.5
         }
       },
       "diagnostics": {
@@ -3163,7 +3163,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T09:37:42Z",
+      "pipeline_run_utc": "2026-05-22T21:21:36Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3230,19 +3230,19 @@
       "n_tracks": 4,
       "aoi_half_km": 53.8,
       "result": {
-        "L_km": 16.56,
-        "W_km": 10.69,
-        "Z_top_km": 5.65,
+        "L_km": 16.52,
+        "W_km": 10.66,
+        "Z_top_km": 5.61,
         "dip": -62.8,
-        "strike": 285.2,
+        "strike": 285.7,
         "Mw_post": 6.21,
         "VR": {
           "t138_dsc": 0.87
         },
         "fmech": {
-          "strike": 105.2,
+          "strike": 105.7,
           "dip": 62.8,
-          "rake": -114.4
+          "rake": -114.8
         }
       },
       "diagnostics": {
@@ -3254,7 +3254,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T09:38:50Z",
+      "pipeline_run_utc": "2026-05-22T21:21:37Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3299,20 +3299,20 @@
       "n_tracks": 2,
       "aoi_half_km": 39.8,
       "result": {
-        "L_km": 22.33,
-        "W_km": 12.73,
-        "Z_top_km": 5.85,
-        "dip": -92.7,
-        "strike": 54.9,
+        "L_km": 22.88,
+        "W_km": 13.04,
+        "Z_top_km": 5.64,
+        "dip": -92.4,
+        "strike": 56.7,
         "Mw_post": 6.01,
         "VR": {
           "t144_asc": 0.11,
           "t151_dsc": 0.57
         },
         "fmech": {
-          "strike": 234.9,
-          "dip": 92.7,
-          "rake": -160.4
+          "strike": 236.7,
+          "dip": 92.4,
+          "rake": -158.7
         }
       },
       "diagnostics": {
@@ -3324,7 +3324,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T22:50:16Z",
+      "pipeline_run_utc": "2026-05-22T21:21:37Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -3380,20 +3380,20 @@
       "n_tracks": 3,
       "aoi_half_km": 80.0,
       "result": {
-        "L_km": 26.19,
-        "W_km": 16.94,
-        "Z_top_km": 0.96,
-        "dip": -26.6,
-        "strike": 218.2,
+        "L_km": 27.13,
+        "W_km": 22.85,
+        "Z_top_km": 0.65,
+        "dip": -25.2,
+        "strike": 221.8,
         "Mw_post": 6.81,
         "VR": {
           "t116_dsc": 0.13,
           "t50_asc": 0.34
         },
         "fmech": {
-          "strike": 38.2,
-          "dip": 26.6,
-          "rake": 37.1
+          "strike": 41.8,
+          "dip": 25.2,
+          "rake": 41.0
         }
       },
       "diagnostics": {
@@ -3405,7 +3405,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-22T06:36:05Z",
+      "pipeline_run_utc": "2026-05-22T21:21:38Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3509,19 +3509,19 @@
       "n_tracks": 1,
       "aoi_half_km": 24.9,
       "result": {
-        "L_km": 8.87,
-        "W_km": 7.82,
-        "Z_top_km": 10.98,
-        "dip": -64.1,
-        "strike": 360.6,
+        "L_km": 8.93,
+        "W_km": 7.87,
+        "Z_top_km": 11.0,
+        "dip": -65.4,
+        "strike": 362.0,
         "Mw_post": 6.04,
         "VR": {
           "t48_dsc": -3.39
         },
         "fmech": {
-          "strike": 180.6,
-          "dip": 64.1,
-          "rake": -64.6
+          "strike": 182.0,
+          "dip": 65.4,
+          "rake": -63.3
         }
       },
       "diagnostics": {
@@ -3533,7 +3533,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-22T06:36:05Z",
+      "pipeline_run_utc": "2026-05-22T21:21:39Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3578,19 +3578,19 @@
       "n_tracks": 2,
       "aoi_half_km": 19.1,
       "result": {
-        "L_km": 1.83,
-        "W_km": 2.07,
-        "Z_top_km": 1.94,
-        "dip": -55.8,
-        "strike": 185.6,
+        "L_km": 1.51,
+        "W_km": 1.7,
+        "Z_top_km": 1.91,
+        "dip": -53.7,
+        "strike": 182.5,
         "Mw_post": 5.54,
         "VR": {
           "t55_asc": 0.63
         },
         "fmech": {
-          "strike": 5.6,
-          "dip": 55.8,
-          "rake": 41.8
+          "strike": 2.5,
+          "dip": 53.7,
+          "rake": 43.5
         }
       },
       "diagnostics": {
@@ -3602,7 +3602,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T08:03:54Z",
+      "pipeline_run_utc": "2026-05-22T21:21:40Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3695,10 +3695,10 @@
       "n_tracks": 2,
       "aoi_half_km": 80.0,
       "result": {
-        "L_km": 10.0,
-        "W_km": 4.73,
+        "L_km": 9.94,
+        "W_km": 4.7,
         "Z_top_km": 3.87,
-        "dip": -93.4,
+        "dip": -93.7,
         "strike": 133.5,
         "Mw_post": 6.31,
         "VR": {
@@ -3707,8 +3707,8 @@
         },
         "fmech": {
           "strike": 313.5,
-          "dip": 93.4,
-          "rake": -171.6
+          "dip": 93.7,
+          "rake": -172.0
         }
       },
       "diagnostics": {
@@ -3720,7 +3720,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T09:39:02Z",
+      "pipeline_run_utc": "2026-05-22T21:21:41Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3765,19 +3765,19 @@
       "n_tracks": 2,
       "aoi_half_km": 59.7,
       "result": {
-        "L_km": 8.96,
-        "W_km": 5.11,
-        "Z_top_km": 9.38,
-        "dip": -99.3,
-        "strike": 373.3,
+        "L_km": 8.7,
+        "W_km": 4.96,
+        "Z_top_km": 9.44,
+        "dip": -99.6,
+        "strike": 374.5,
         "Mw_post": 6.26,
         "VR": {
           "t62_dsc": 0.88
         },
         "fmech": {
-          "strike": 193.3,
-          "dip": 99.3,
-          "rake": -30.4
+          "strike": 194.5,
+          "dip": 99.6,
+          "rake": -29.9
         }
       },
       "diagnostics": {
@@ -3789,7 +3789,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T23:08:11Z",
+      "pipeline_run_utc": "2026-05-22T21:21:41Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -3845,20 +3845,20 @@
       "n_tracks": 3,
       "aoi_half_km": 50.1,
       "result": {
-        "L_km": 23.67,
-        "W_km": 11.92,
-        "Z_top_km": 12.49,
-        "dip": -41.0,
-        "strike": 138.1,
+        "L_km": 25.02,
+        "W_km": 12.6,
+        "Z_top_km": 12.28,
+        "dip": -41.5,
+        "strike": 136.2,
         "Mw_post": 6.31,
         "VR": {
           "t153_dsc": 0.44,
           "t73_asc": 0.72
         },
         "fmech": {
-          "strike": 318.1,
-          "dip": 41.0,
-          "rake": 78.3
+          "strike": 316.2,
+          "dip": 41.5,
+          "rake": 76.5
         }
       },
       "diagnostics": {
@@ -3870,7 +3870,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T23:53:10Z",
+      "pipeline_run_utc": "2026-05-22T21:21:42Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -3915,20 +3915,20 @@
       "n_tracks": 2,
       "aoi_half_km": 44.7,
       "result": {
-        "L_km": 23.74,
-        "W_km": 12.72,
-        "Z_top_km": 14.66,
-        "dip": -36.2,
-        "strike": 80.1,
+        "L_km": 25.81,
+        "W_km": 13.83,
+        "Z_top_km": 16.78,
+        "dip": -9.9,
+        "strike": 55.5,
         "Mw_post": 6.13,
         "VR": {
           "t135_dsc": -0.21,
           "t41_asc": 0.26
         },
         "fmech": {
-          "strike": 260.1,
-          "dip": 36.2,
-          "rake": 70.5
+          "strike": 235.5,
+          "dip": 9.9,
+          "rake": 58.3
         }
       },
       "diagnostics": {
@@ -3940,7 +3940,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-22T06:36:06Z",
+      "pipeline_run_utc": "2026-05-22T21:21:42Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -4066,20 +4066,20 @@
       "n_tracks": 2,
       "aoi_half_km": 18.9,
       "result": {
-        "L_km": 2.18,
-        "W_km": 2.31,
-        "Z_top_km": 3.44,
-        "dip": -47.1,
-        "strike": 384.8,
+        "L_km": 2.95,
+        "W_km": 3.13,
+        "Z_top_km": 2.64,
+        "dip": -39.3,
+        "strike": 398.5,
         "Mw_post": 5.19,
         "VR": {
           "t12_asc": 0.83,
           "t85_asc": 0.65
         },
         "fmech": {
-          "strike": 204.8,
-          "dip": 47.1,
-          "rake": -115.0
+          "strike": 218.5,
+          "dip": 39.3,
+          "rake": -130.8
         }
       },
       "diagnostics": {
@@ -4091,7 +4091,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T03:48:50Z",
+      "pipeline_run_utc": "2026-05-22T21:21:43Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -4228,20 +4228,20 @@
       "n_tracks": 3,
       "aoi_half_km": 67.0,
       "result": {
-        "L_km": 10.37,
-        "W_km": 5.56,
-        "Z_top_km": 5.21,
-        "dip": -43.0,
-        "strike": 193.2,
+        "L_km": 10.64,
+        "W_km": 5.7,
+        "Z_top_km": 5.09,
+        "dip": -42.6,
+        "strike": 192.7,
         "Mw_post": 6.07,
         "VR": {
           "t158_asc": 0.61,
           "t165_dsc": 0.42
         },
         "fmech": {
-          "strike": 13.2,
-          "dip": 43.0,
-          "rake": -81.9
+          "strike": 12.7,
+          "dip": 42.6,
+          "rake": -82.7
         }
       },
       "diagnostics": {
@@ -4253,7 +4253,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T01:12:46Z",
+      "pipeline_run_utc": "2026-05-22T21:21:44Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -4346,20 +4346,20 @@
       "n_tracks": 2,
       "aoi_half_km": 44.7,
       "result": {
-        "L_km": 22.97,
-        "W_km": 12.31,
-        "Z_top_km": 23.8,
-        "dip": -66.5,
-        "strike": 154.4,
+        "L_km": 26.07,
+        "W_km": 13.97,
+        "Z_top_km": 20.9,
+        "dip": -66.9,
+        "strike": 157.3,
         "Mw_post": 6.45,
         "VR": {
           "t156_dsc": -0.18,
           "t18_asc": -0.05
         },
         "fmech": {
-          "strike": 334.4,
-          "dip": 66.5,
-          "rake": 156.0
+          "strike": 337.3,
+          "dip": 66.9,
+          "rake": 154.1
         }
       },
       "diagnostics": {
@@ -4371,7 +4371,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-05-22T11:33:55Z",
+      "pipeline_run_utc": "2026-05-22T21:21:45Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -4497,20 +4497,20 @@
       "n_tracks": 3,
       "aoi_half_km": 50.1,
       "result": {
-        "L_km": 30.09,
-        "W_km": 15.15,
-        "Z_top_km": 20.7,
-        "dip": -33.6,
-        "strike": 53.3,
+        "L_km": 30.34,
+        "W_km": 15.28,
+        "Z_top_km": 20.78,
+        "dip": -33.3,
+        "strike": 54.5,
         "Mw_post": 6.53,
         "VR": {
           "t120_asc": 0.07,
           "t83_dsc": 0.15
         },
         "fmech": {
-          "strike": 233.3,
-          "dip": 33.6,
-          "rake": -21.2
+          "strike": 234.5,
+          "dip": 33.3,
+          "rake": -20.7
         }
       },
       "diagnostics": {
@@ -4522,7 +4522,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-05-22T06:36:07Z",
+      "pipeline_run_utc": "2026-05-22T21:21:47Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -4589,11 +4589,11 @@
       "n_tracks": 4,
       "aoi_half_km": 75.9,
       "result": {
-        "L_km": 11.93,
-        "W_km": 6.39,
-        "Z_top_km": 4.37,
-        "dip": -51.1,
-        "strike": 123.2,
+        "L_km": 11.9,
+        "W_km": 6.37,
+        "Z_top_km": 4.38,
+        "dip": -51.5,
+        "strike": 123.3,
         "Mw_post": 6.22,
         "VR": {
           "t175_asc": 0.55,
@@ -4601,9 +4601,9 @@
           "t80_dsc": 0.71
         },
         "fmech": {
-          "strike": 303.2,
-          "dip": 51.1,
-          "rake": -95.3
+          "strike": 303.3,
+          "dip": 51.5,
+          "rake": -94.6
         }
       },
       "diagnostics": {
@@ -4615,7 +4615,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T04:30:55Z",
+      "pipeline_run_utc": "2026-05-22T21:21:48Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -4660,19 +4660,19 @@
       "n_tracks": 2,
       "aoi_half_km": 38.1,
       "result": {
-        "L_km": 11.69,
-        "W_km": 9.1,
-        "Z_top_km": 7.98,
+        "L_km": 11.72,
+        "W_km": 9.12,
+        "Z_top_km": 8.0,
         "dip": -58.1,
-        "strike": 256.1,
+        "strike": 256.9,
         "Mw_post": 6.12,
         "VR": {
           "t143_asc": -3.15
         },
         "fmech": {
-          "strike": 76.1,
+          "strike": 76.9,
           "dip": 58.1,
-          "rake": -163.5
+          "rake": -164.7
         }
       },
       "diagnostics": {
@@ -4684,7 +4684,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-05-22T06:36:07Z",
+      "pipeline_run_utc": "2026-05-22T21:21:48Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -4740,20 +4740,20 @@
       "n_tracks": 3,
       "aoi_half_km": 28.5,
       "result": {
-        "L_km": 7.66,
-        "W_km": 7.18,
-        "Z_top_km": 6.94,
-        "dip": -46.0,
-        "strike": 158.2,
+        "L_km": 7.78,
+        "W_km": 7.3,
+        "Z_top_km": 6.98,
+        "dip": -45.8,
+        "strike": 158.0,
         "Mw_post": 6.07,
         "VR": {
           "t159_asc": 0.05,
           "t64_dsc": 0.19
         },
         "fmech": {
-          "strike": 338.2,
-          "dip": 46.0,
-          "rake": 8.1
+          "strike": 338.0,
+          "dip": 45.8,
+          "rake": 7.1
         }
       },
       "diagnostics": {
@@ -4765,7 +4765,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_oscillation",
-      "pipeline_run_utc": "2026-05-22T20:43:22Z",
+      "pipeline_run_utc": "2026-05-22T21:21:49Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -4821,20 +4821,20 @@
       "n_tracks": 3,
       "aoi_half_km": 80.0,
       "result": {
-        "L_km": 24.12,
-        "W_km": 35.62,
-        "Z_top_km": 7.47,
-        "dip": -30.0,
-        "strike": 35.0,
+        "L_km": 24.32,
+        "W_km": 35.65,
+        "Z_top_km": 7.44,
+        "dip": -29.8,
+        "strike": 34.7,
         "Mw_post": 6.83,
         "VR": {
           "t41_dsc": 0.76,
           "t78_asc": 0.34
         },
         "fmech": {
-          "strike": 215.0,
-          "dip": 30.0,
-          "rake": 58.1
+          "strike": 214.7,
+          "dip": 29.8,
+          "rake": 57.7
         }
       },
       "diagnostics": {
@@ -4846,7 +4846,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T10:09:08Z",
+      "pipeline_run_utc": "2026-05-22T21:21:49Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -4891,20 +4891,20 @@
       "n_tracks": 2,
       "aoi_half_km": 75.2,
       "result": {
-        "L_km": 11.72,
-        "W_km": 5.9,
+        "L_km": 11.6,
+        "W_km": 5.84,
         "Z_top_km": 4.99,
         "dip": -67.2,
-        "strike": 83.4,
+        "strike": 84.0,
         "Mw_post": 6.36,
         "VR": {
           "t166_dsc": 0.84,
           "t57_asc": 0.84
         },
         "fmech": {
-          "strike": 263.4,
+          "strike": 264.0,
           "dip": 67.2,
-          "rake": 81.3
+          "rake": 81.5
         }
       },
       "diagnostics": {
@@ -4916,7 +4916,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T01:04:52Z",
+      "pipeline_run_utc": "2026-05-22T21:21:50Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -4963,8 +4963,8 @@
       "result": {
         "L_km": 11.38,
         "W_km": 5.06,
-        "Z_top_km": 0.78,
-        "dip": -85.6,
+        "Z_top_km": 0.77,
+        "dip": -85.3,
         "strike": 133.0,
         "Mw_post": 6.39,
         "VR": {
@@ -4973,7 +4973,7 @@
         },
         "fmech": {
           "strike": 313.0,
-          "dip": 85.6,
+          "dip": 85.3,
           "rake": 3.4
         }
       },
@@ -4986,7 +4986,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T20:43:19Z",
+      "pipeline_run_utc": "2026-05-22T21:21:50Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5053,19 +5053,19 @@
       "n_tracks": 4,
       "aoi_half_km": 80.0,
       "result": {
-        "L_km": 87.53,
-        "W_km": 38.92,
-        "Z_top_km": 8.46,
-        "dip": -94.1,
-        "strike": 74.1,
+        "L_km": 89.21,
+        "W_km": 39.67,
+        "Z_top_km": 8.29,
+        "dip": -93.8,
+        "strike": 74.0,
         "Mw_post": 6.95,
         "VR": {
           "t135_dsc": 0.52,
           "t26_asc": 0.33
         },
         "fmech": {
-          "strike": 254.1,
-          "dip": 94.1,
+          "strike": 254.0,
+          "dip": 93.8,
           "rake": 11.6
         }
       },
@@ -5078,7 +5078,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-22T06:36:08Z",
+      "pipeline_run_utc": "2026-05-22T21:21:51Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5203,20 +5203,20 @@
       "n_tracks": 3,
       "aoi_half_km": 79.4,
       "result": {
-        "L_km": 51.97,
-        "W_km": 20.41,
-        "Z_top_km": 19.94,
-        "dip": -51.8,
-        "strike": 82.4,
+        "L_km": 52.25,
+        "W_km": 20.51,
+        "Z_top_km": 19.95,
+        "dip": -52.2,
+        "strike": 81.6,
         "Mw_post": 6.94,
         "VR": {
           "t114_dsc": 0.8,
           "t151_asc": 0.66
         },
         "fmech": {
-          "strike": 262.4,
-          "dip": 51.8,
-          "rake": -175.8
+          "strike": 261.6,
+          "dip": 52.2,
+          "rake": -176.4
         }
       },
       "diagnostics": {
@@ -5228,7 +5228,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T20:42:59Z",
+      "pipeline_run_utc": "2026-05-22T21:21:52Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5273,19 +5273,19 @@
       "n_tracks": 2,
       "aoi_half_km": 39.8,
       "result": {
-        "L_km": 21.91,
-        "W_km": 12.49,
-        "Z_top_km": 23.38,
-        "dip": -29.0,
-        "strike": 265.2,
+        "L_km": 23.02,
+        "W_km": 13.12,
+        "Z_top_km": 23.77,
+        "dip": -15.1,
+        "strike": 220.9,
         "Mw_post": 6.37,
         "VR": {
           "t60_dsc": -0.03
         },
         "fmech": {
-          "strike": 85.2,
-          "dip": 29.0,
-          "rake": 159.4
+          "strike": 40.9,
+          "dip": 15.1,
+          "rake": 116.5
         }
       },
       "diagnostics": {
@@ -5297,7 +5297,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-22T11:23:42Z",
+      "pipeline_run_utc": "2026-05-22T21:21:53Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5353,20 +5353,20 @@
       "n_tracks": 3,
       "aoi_half_km": 79.4,
       "result": {
-        "L_km": 18.25,
-        "W_km": 7.17,
-        "Z_top_km": 23.57,
-        "dip": -50.6,
-        "strike": 391.1,
+        "L_km": 16.9,
+        "W_km": 6.63,
+        "Z_top_km": 23.87,
+        "dip": -50.4,
+        "strike": 391.3,
         "Mw_post": 6.7,
         "VR": {
           "t154_dsc": 0.67,
           "t52_dsc": 0.69
         },
         "fmech": {
-          "strike": 211.1,
-          "dip": 50.6,
-          "rake": 51.9
+          "strike": 211.3,
+          "dip": 50.4,
+          "rake": 55.7
         }
       },
       "diagnostics": {
@@ -5378,7 +5378,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T09:41:42Z",
+      "pipeline_run_utc": "2026-05-22T21:21:53Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5423,10 +5423,10 @@
       "n_tracks": 2,
       "aoi_half_km": 80.0,
       "result": {
-        "L_km": 34.33,
-        "W_km": 15.06,
+        "L_km": 34.49,
+        "W_km": 15.1,
         "Z_top_km": 6.7,
-        "dip": -64.4,
+        "dip": -64.3,
         "strike": 47.5,
         "Mw_post": 7.03,
         "VR": {
@@ -5435,8 +5435,8 @@
         },
         "fmech": {
           "strike": 227.5,
-          "dip": 64.4,
-          "rake": 39.3
+          "dip": 64.3,
+          "rake": 39.5
         }
       },
       "diagnostics": {
@@ -5448,7 +5448,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T17:26:27Z",
+      "pipeline_run_utc": "2026-05-22T21:21:54Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5633,20 +5633,20 @@
       "n_tracks": 4,
       "aoi_half_km": 53.8,
       "result": {
-        "L_km": 12.12,
-        "W_km": 7.83,
-        "Z_top_km": 2.26,
-        "dip": -43.6,
-        "strike": 245.5,
+        "L_km": 12.14,
+        "W_km": 7.84,
+        "Z_top_km": 2.29,
+        "dip": -43.5,
+        "strike": 245.6,
         "Mw_post": 6.05,
         "VR": {
           "t71_asc": 0.79,
           "t78_dsc": 0.4
         },
         "fmech": {
-          "strike": 65.5,
-          "dip": 43.6,
-          "rake": 41.3
+          "strike": 65.6,
+          "dip": 43.5,
+          "rake": 41.5
         }
       },
       "diagnostics": {
@@ -5658,7 +5658,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-21T03:31:46Z",
+      "pipeline_run_utc": "2026-05-22T21:21:56Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5773,20 +5773,20 @@
       "n_tracks": 2,
       "aoi_half_km": 40.2,
       "result": {
-        "L_km": 9.43,
-        "W_km": 6.9,
-        "Z_top_km": 3.97,
-        "dip": -66.0,
-        "strike": 259.2,
+        "L_km": 10.47,
+        "W_km": 7.66,
+        "Z_top_km": 3.58,
+        "dip": -61.0,
+        "strike": 260.3,
         "Mw_post": 5.71,
         "VR": {
           "t34_dsc": 0.41,
           "t56_asc": 0.54
         },
         "fmech": {
-          "strike": 79.2,
-          "dip": 66.0,
-          "rake": 117.0
+          "strike": 80.3,
+          "dip": 61.0,
+          "rake": 113.1
         }
       },
       "diagnostics": {
@@ -5798,7 +5798,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T06:32:36Z",
+      "pipeline_run_utc": "2026-05-22T21:21:57Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5843,20 +5843,20 @@
       "n_tracks": 2,
       "aoi_half_km": 56.2,
       "result": {
-        "L_km": 38.79,
-        "W_km": 18.35,
-        "Z_top_km": 14.31,
-        "dip": -66.0,
-        "strike": 269.0,
+        "L_km": 38.38,
+        "W_km": 18.16,
+        "Z_top_km": 14.32,
+        "dip": -67.3,
+        "strike": 269.3,
         "Mw_post": 6.73,
         "VR": {
           "t143_dsc": 0.5,
           "t78_asc": 0.76
         },
         "fmech": {
-          "strike": 89.0,
-          "dip": 66.0,
-          "rake": 180.0
+          "strike": 89.3,
+          "dip": 67.3,
+          "rake": 179.7
         }
       },
       "diagnostics": {
@@ -5868,7 +5868,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T10:13:12Z",
+      "pipeline_run_utc": "2026-05-22T21:21:58Z",
       "stale": false,
       "has_report": true,
       "links": {
