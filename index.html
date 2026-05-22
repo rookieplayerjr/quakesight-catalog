@@ -118,18 +118,26 @@
 <script>
 let CAT=null, MAP=null, MARKERS={}, SORT={key:'Mw',dir:-1}, SEL=null;
 
+// Colors/labels are driven by the grader ZONE (single source of truth), so the
+// map matches GREEN/YELLOW/RED exactly. Only GREEN is a validated model.
 function statusColor(e){
   if(e.stale) return '#d64545';
-  if(e.status==='escalated') return '#f0820a';
+  const z=e.diagnostics&&e.diagnostics.zone;
+  if(z==='GREEN') return '#1a9850';
+  if(z==='YELLOW') return '#e0a008';
+  if(z==='RED') return '#f0820a';            // failed fit → no usable model
   if(e.status==='partial') return '#9aa5b1';
-  if(e.diagnostics && e.diagnostics.verdict==='PASS') return '#1a9850';
-  return '#e0a008';
+  if(e.status==='escalated') return '#f0820a'; // pre-GBIS failure → no model
+  return '#9aa5b1';
 }
 function statusLabel(e){
+  const z=e.diagnostics&&e.diagnostics.zone;
+  if(z==='GREEN') return 'Validated';
+  if(z==='YELLOW') return 'Needs review';
+  if(z==='RED') return 'No model (low fit)';
   if(e.status==='escalated') return 'No model';
   if(e.status==='partial') return 'In progress';
-  const v=(e.diagnostics&&e.diagnostics.verdict);
-  return v==='PASS' ? 'Validated' : 'Needs review';
+  return 'In progress';
 }
 function fmtTime(s){ return (s||'').replace('T',' ').replace(/:\d\d\.?\d*Z?$/,''); }
 
@@ -177,7 +185,7 @@ function buildMap(){
     // focal mechanism implies a trustworthy model. YELLOW (needs review) and
     // RED / escalated / partial show a plain status dot instead.
     const fm=e.result&&e.result.fmech;
-    const validated=e.diagnostics&&e.diagnostics.verdict==='PASS';
+    const validated=e.diagnostics&&e.diagnostics.zone==='GREEN';
     let m;
     if(validated&&fm&&isFinite(fm.strike)&&isFinite(fm.dip)&&isFinite(fm.rake)){
       const sz=Math.round(18+Math.max(0,(e.Mw||4)-4)*7);
