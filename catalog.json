@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T09:07:26Z",
+  "generated_utc": "2026-05-22T09:07:44Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -1341,7 +1341,7 @@
         "strike": 165.3,
         "Mw_post": 5.41,
         "VR": {
-          "t121_dsc": 0.69
+          "t121_dsc": 0.85
         },
         "fmech": {
           "strike": 345.3,
@@ -1358,11 +1358,11 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T09:07:25Z",
+      "pipeline_run_utc": "2026-05-22T09:07:44Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000dxge/REPORT.html"
       }
     },
     {
