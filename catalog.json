@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T08:34:43Z",
+  "generated_utc": "2026-05-22T08:35:11Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -689,8 +689,8 @@
         "strike": 123.1,
         "Mw_post": 6.89,
         "VR": {
-          "t12_asc": 0.9,
-          "t165_dsc": 0.39
+          "t12_asc": 0.81,
+          "t165_dsc": -0.48
         },
         "fmech": {
           "strike": 303.1,
@@ -702,16 +702,16 @@
         "acceptance": 0.201,
         "ess": 117,
         "geweke": 3.56,
-        "zone": "YELLOW",
-        "verdict": "PASS"
+        "zone": "RED",
+        "verdict": "FAIL"
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T08:34:43Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-05-22T08:35:11Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000a65e/REPORT.html"
       }
     },
     {
