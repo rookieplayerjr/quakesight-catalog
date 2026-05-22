@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T00:31:29Z",
+  "generated_utc": "2026-05-22T01:04:52Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -4028,9 +4028,31 @@
           "backend": "sp2",
           "median_coh": 0.56,
           "status": "ready"
+        },
+        {
+          "track": "47",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2021-01-10",
+            "2021-01-22"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.714,
+          "status": "ready"
+        },
+        {
+          "track": "83",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2021-01-19",
+            "2021-01-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.732,
+          "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 3,
       "aoi_half_km": 50.1,
       "result": null,
       "diagnostics": null,
@@ -4056,6 +4078,28 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "102",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2021-03-03",
+            "2021-03-09"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.462,
+          "status": "ready"
+        },
+        {
+          "track": "175",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2021-03-02",
+            "2021-03-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.597,
+          "status": "ready"
+        },
+        {
           "track": "7",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -4063,11 +4107,22 @@
             "2021-03-09"
           ],
           "backend": "sp2",
-          "median_coh": 0.331,
-          "status": ""
+          "median_coh": 0.372,
+          "status": "ready"
+        },
+        {
+          "track": "80",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2021-03-02",
+            "2021-03-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.506,
+          "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 4,
       "aoi_half_km": 75.9,
       "result": null,
       "diagnostics": null,
@@ -4307,14 +4362,54 @@
       "Mw_type": "Mwb",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "166",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.725,
+          "status": "ready"
+        },
+        {
+          "track": 57,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.831,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 75.2,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 11.72,
+        "W_km": 5.9,
+        "Z_top_km": 4.99,
+        "dip": -67.2,
+        "strike": 83.4,
+        "Mw_post": 6.36,
+        "VR": {
+          "t166_dsc": 0.84,
+          "t57_asc": 0.84
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.211,
+        "ess": 311,
+        "geweke": 1.55,
+        "zone": null,
+        "verdict": "FAIL"
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-22T01:04:52Z",
       "stale": false,
       "has_report": false,
       "links": {
