@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T09:39:51Z",
+  "generated_utc": "2026-05-22T09:40:12Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -4646,8 +4646,8 @@
         "strike": 95.3,
         "Mw_post": 5.91,
         "VR": {
-          "t159_asc": 0.4,
-          "t166_dsc": 0.62
+          "t159_asc": 0.01,
+          "t166_dsc": -0.0
         },
         "fmech": {
           "strike": 275.3,
@@ -4659,12 +4659,12 @@
         "acceptance": 0.204,
         "ess": 110,
         "geweke": 4.38,
-        "zone": "YELLOW",
-        "verdict": "PASS"
+        "zone": "RED",
+        "verdict": "FAIL"
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T09:39:51Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-05-22T09:40:12Z",
       "stale": false,
       "has_report": true,
       "links": {
