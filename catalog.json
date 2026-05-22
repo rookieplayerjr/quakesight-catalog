@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T00:10:35Z",
+  "generated_utc": "2026-05-22T00:20:32Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -3680,11 +3680,28 @@
       ],
       "n_tracks": 3,
       "aoi_half_km": 75.2,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 8.91,
+        "W_km": 4.49,
+        "Z_top_km": 7.24,
+        "dip": -112.1,
+        "strike": 214.6,
+        "Mw_post": 6.21,
+        "VR": {
+          "t118_dsc": 0.42,
+          "t125_asc": -0.07
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.207,
+        "ess": 227,
+        "geweke": 1.65,
+        "zone": null,
+        "verdict": "FAIL"
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-22T00:20:31Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -3856,6 +3873,17 @@
           "status": "ready"
         },
         {
+          "track": "165",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-06-17",
+            "2020-06-29"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.523,
+          "status": "ready"
+        },
+        {
           "track": "85",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -3867,7 +3895,7 @@
           "status": ""
         }
       ],
-      "n_tracks": 2,
+      "n_tracks": 3,
       "aoi_half_km": 67.0,
       "result": null,
       "diagnostics": null,
@@ -3891,8 +3919,20 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "16",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-08-23",
+            "2020-09-04"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.17,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 39.8,
       "result": null,
       "diagnostics": null,
