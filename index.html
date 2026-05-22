@@ -118,22 +118,23 @@
 <script>
 let CAT=null, MAP=null, MARKERS={}, SORT={key:'Mw',dir:-1}, SEL=null;
 
-// Colors/labels are driven by the grader ZONE (single source of truth), so the
-// map matches GREEN/YELLOW/RED exactly. Only GREEN is a validated model.
+// Colors/labels: GREEN and YELLOW are both pass (shippable deliverable), only
+// the QUALITY label differs. So the beachball/dot color is GREEN for both —
+// the label below it tells users whether the result is pristine ("Validated")
+// or carries caveats ("Validated · caveats"). RED = no usable model.
 function statusColor(e){
   if(e.stale) return '#d64545';
   const z=e.diagnostics&&e.diagnostics.zone;
-  if(z==='GREEN') return '#1a9850';
-  if(z==='YELLOW') return '#e0a008';
-  if(z==='RED') return '#f0820a';            // failed fit → no usable model
+  if(z==='GREEN'||z==='YELLOW') return '#1a9850';   // both pass = green
+  if(z==='RED') return '#f0820a';                   // failed fit → no usable model
   if(e.status==='partial') return '#9aa5b1';
-  if(e.status==='escalated') return '#f0820a'; // pre-GBIS failure → no model
+  if(e.status==='escalated') return '#f0820a';      // pre-GBIS failure → no model
   return '#9aa5b1';
 }
 function statusLabel(e){
   const z=e.diagnostics&&e.diagnostics.zone;
   if(z==='GREEN') return 'Validated';
-  if(z==='YELLOW') return 'Needs review';
+  if(z==='YELLOW') return 'Validated · caveats';
   if(z==='RED') return 'No model (low fit)';
   if(e.status==='escalated') return 'No model';
   if(e.status==='partial') return 'In progress';
