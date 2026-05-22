@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-21T23:53:11Z",
+  "generated_utc": "2026-05-22T00:08:29Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 79,
   "events": [
@@ -3555,8 +3555,8 @@
         "acceptance": 0.2,
         "ess": 127,
         "geweke": 1.18,
-        "zone": null,
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "PASS"
       },
       "status": "done",
       "escalation_reason": null,
@@ -3804,11 +3804,28 @@
       ],
       "n_tracks": 3,
       "aoi_half_km": 72.8,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 31.87,
+        "W_km": 15.08,
+        "Z_top_km": 12.02,
+        "dip": -64.6,
+        "strike": 61.5,
+        "Mw_post": 6.61,
+        "VR": {
+          "t20_asc": -0.2,
+          "t93_asc": 0.16
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.205,
+        "ess": 175,
+        "geweke": 2.29,
+        "zone": null,
+        "verdict": "FAIL"
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-22T00:08:29Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -3826,8 +3843,31 @@
       "Mw_type": "Mww",
       "faulting_class": "normal",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "158",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-06-22",
+            "2020-07-04"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.491,
+          "status": "ready"
+        },
+        {
+          "track": "85",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-06-17",
+            "2020-06-29"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.556,
+          "status": ""
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 67.0,
       "result": null,
       "diagnostics": null,
