@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T21:52:23Z",
+  "generated_utc": "2026-05-22T21:52:45Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -3006,8 +3006,8 @@
         "strike": 160.4,
         "Mw_post": 6.58,
         "VR": {
-          "t171_dsc": -0.15,
-          "t4_asc": 0.66
+          "t171_dsc": 0.16,
+          "t4_asc": 0.32
         },
         "fmech": {
           "strike": 340.4,
@@ -3024,7 +3024,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-22T21:52:22Z",
+      "pipeline_run_utc": "2026-05-22T21:52:45Z",
       "stale": false,
       "has_report": true,
       "links": {
