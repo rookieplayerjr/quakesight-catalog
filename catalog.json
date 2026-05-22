@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T21:55:15Z",
+  "generated_utc": "2026-05-22T21:55:37Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -2774,8 +2774,8 @@
         "strike": 240.5,
         "Mw_post": 6.38,
         "VR": {
-          "t171_dsc": 0.79,
-          "t77_asc": -0.8
+          "t171_dsc": 0.8,
+          "t77_asc": -0.37
         },
         "fmech": {
           "strike": 60.5,
@@ -2792,7 +2792,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-22T21:55:14Z",
+      "pipeline_run_utc": "2026-05-22T21:55:36Z",
       "stale": false,
       "has_report": true,
       "links": {
