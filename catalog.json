@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T23:24:57Z",
+  "generated_utc": "2026-05-22T23:25:19Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -4017,11 +4017,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-22T21:24:52Z",
+      "pipeline_run_utc": "2026-05-22T23:25:18Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us70006wuf/REPORT.html"
       }
     },
     {
