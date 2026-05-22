@@ -173,9 +173,13 @@ function buildMap(){
   const pts=[];
   CAT.events.forEach(e=>{
     if(e.epi_lat==null||e.epi_lon==null) return;
+    // Beachball ONLY for a validated solution (GREEN / verdict PASS) — a
+    // focal mechanism implies a trustworthy model. YELLOW (needs review) and
+    // RED / escalated / partial show a plain status dot instead.
     const fm=e.result&&e.result.fmech;
+    const validated=e.diagnostics&&e.diagnostics.verdict==='PASS';
     let m;
-    if(fm&&isFinite(fm.strike)&&isFinite(fm.dip)&&isFinite(fm.rake)){
+    if(validated&&fm&&isFinite(fm.strike)&&isFinite(fm.dip)&&isFinite(fm.rake)){
       const sz=Math.round(18+Math.max(0,(e.Mw||4)-4)*7);
       m=L.marker([e.epi_lat,e.epi_lon],{icon:L.icon({
         iconUrl:beachballDataURL(fm.strike,fm.dip,fm.rake,sz,statusColor(e)),
