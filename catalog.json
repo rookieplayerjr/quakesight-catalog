@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-22T23:21:11Z",
+  "generated_utc": "2026-05-22T23:21:33Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -1565,11 +1565,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_weak_signal",
-      "pipeline_run_utc": "2026-05-22T21:24:48Z",
+      "pipeline_run_utc": "2026-05-22T23:21:33Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000h58x/REPORT.html"
       }
     },
     {
