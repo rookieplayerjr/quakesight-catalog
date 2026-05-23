@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-23T05:33:52Z",
+  "generated_utc": "2026-05-23T05:36:43Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 82,
   "events": [
@@ -5393,7 +5393,7 @@
         "acceptance": 0.203,
         "ess": 287,
         "geweke": 2.15,
-        "zone": "YELLOW",
+        "zone": "RED",
         "verdict": "FAIL",
         "grades": {
           "ess": "B",
@@ -5405,12 +5405,11 @@
           "delta_mw": "D",
           "delta_strike": "B"
         },
-        "catalog_disagreement": true,
-        "zone_override_reason": "router_done_with_caveats"
+        "catalog_disagreement": true
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-23T05:00:05Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
+      "pipeline_run_utc": "2026-05-23T05:36:26Z",
       "stale": false,
       "has_report": true,
       "links": {
