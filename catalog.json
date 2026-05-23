@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-23T16:02:16Z",
+  "generated_utc": "2026-05-23T16:02:37Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 82,
   "events": [
@@ -6334,8 +6334,8 @@
         "strike": 261.8,
         "Mw_post": 6.68,
         "VR": {
-          "t154_dsc": 0.67,
-          "t52_dsc": 0.69
+          "t154_dsc": 0.91,
+          "t52_dsc": 0.91
         },
         "fmech": {
           "strike": 81.8,
@@ -6352,12 +6352,12 @@
         "grades": {
           "ess": "C",
           "acceptance": "B",
-          "geweke": "B",
+          "geweke": "D",
           "vr_min": "A",
-          "vr_mean": "B",
-          "railed": "D",
+          "vr_mean": "A",
+          "railed": "A",
           "delta_mw": "A",
-          "delta_strike": "C"
+          "delta_strike": "A"
         },
         "catalog_disagreement": false,
         "in_sequence": false,
@@ -6365,7 +6365,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-23T16:02:15Z",
+      "pipeline_run_utc": "2026-05-23T16:02:37Z",
       "stale": false,
       "has_report": true,
       "links": {
