@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-23T17:18:19Z",
+  "generated_utc": "2026-05-23T18:59:24Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 86,
+  "n_events": 87,
   "events": [
     {
       "event_id": "ci38443183",
@@ -5074,6 +5074,69 @@
       "has_report": true,
       "links": {
         "report": "events/us70008jr5/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us700098qd",
+      "place": "91 km S of N\u00e9a Anatol\u00ed, Greece",
+      "origin_utc": "2020-05-02T12:51:05Z",
+      "epi_lat": 34.1818,
+      "epi_lon": 25.7101,
+      "depth_km": 10.0,
+      "Mw": 6.5,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": "102",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-05-01",
+            "2020-05-07"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.173,
+          "status": "ready"
+        },
+        {
+          "track": "29",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-05-02",
+            "2020-05-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.166,
+          "status": "ready"
+        },
+        {
+          "track": "36",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-04-27",
+            "2020-05-03"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.172,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 11,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: prep_no_tracks",
+      "pipeline_run_utc": "2026-05-23T18:59:24Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us700098qd/REPORT.html"
       }
     },
     {
