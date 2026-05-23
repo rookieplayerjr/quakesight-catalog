@@ -26,20 +26,20 @@
 </head><body>
 
 <h1>us7000pn9z — Mw 6.7 — GBIS report</h1>
-<div class="verdict"><b>⛔ FAILED-CASE REPORT — unreliable inversion.</b><br>Failing axes: <b>vr_min, vr_mean, railed</b>. The optimum below is for diagnostics only; do NOT use as a source model.<br>Pipeline halted — see <code>escalation.md</code> (<b>gbis_retry_exhausted</b>).</div>
+<div class="verdict"><b>⛔ FAILED-CASE REPORT — unreliable inversion.</b><br>Failing axes: <b>vr_min, vr_mean</b>. The optimum below is for diagnostics only; do NOT use as a source model.</div>
 
 <div class="summary">
 <b>Event:</b> Burma (Myanmar) · (21.698°N, 95.969°E, depth 10.0 km)<br>
 <b>USGS NP1:</b> strike 176.8° / dip 56.2° / rake -170.2°<br>
 <b>USGS NP2:</b> strike 81.3° / dip 81.9° / rake -34.2°<br>
-<b>GBIS optimum:</b> strike 149.5° / dip 21.2° / rake -15.2° / Mw 6.96 (best logP -23174.8438)
+<b>GBIS optimum:</b> strike 348.2° / dip 88.9° / rake -20.3° / Mw 6.91 (best logP -23983.7051)
 </div>
 
 
 
 <h2>1. Raw observations (deramped + cropped)</h2>
 <img src="gbis/np1/figures/01_raw_obs.png">
-<div class="verdict"><b>⚠ Pass-3 track filter dropped a track.</b><br><code></code><br><code>decision: ITER — drop 1 outliers + 0 weak, keep 2 (max VR=0.11, gap=0.25, abs<0.20)</code><br>A dropped track has a low forward-model correlation — its observed LOS carries no co-seismic signal consistent with the source that fits the surviving track(s) (atmosphere / decorrelation noise). It is shown in Sections 1–2 for inspection but is EXCLUDED from the GBIS inversion (Sections 3–7).</div>
+<div class="verdict"><b>⚠ Pass-3 track filter dropped a track.</b><br><code></code><br><code>decision: ITER — drop 1 outliers + 0 weak, keep 2 (max VR=0.27, gap=0.25, abs<0.20)</code><br>A dropped track has a low forward-model correlation — its observed LOS carries no co-seismic signal consistent with the source that fits the surviving track(s) (atmosphere / decorrelation noise). It is shown in Sections 1–2 for inspection but is EXCLUDED from the GBIS inversion (Sections 3–7).</div>
 
 <h2>2. Two-round iterative downsampling (Pass-1 zoned → Pass-2 synth-quadtree)</h2>
 <img src="gbis/np1/figures/02_ds_two_pass.png">
@@ -47,25 +47,25 @@
 <h2>3. Initial start, search range, and GBIS-reported optimum</h2>
 <table>
 <tr><th>parameter</th><th>start</th><th>lower</th><th>upper</th><th>USGS NP1 / W&C</th><th>GBIS optimum</th></tr>
-<tr><td>L (km)</td><td class="c">32.58</td><td class="c">13.03</td><td class="c">102.64</td><td class="c">32.58</td><td class="c"><b>56.04</b></td></tr>
-<tr><td>W (km)</td><td class="c">13.61</td><td class="c">5.45</td><td class="c">42.89</td><td class="c">13.61</td><td class="c"><b>23.41</b></td></tr>
-<tr><td>Z_top (km)</td><td class="c">4.34</td><td class="c">0.10</td><td class="c">10.00</td><td class="c">4.34</td><td class="c"><b>3.82</b></td></tr>
-<tr><td>dip (°)</td><td class="c">56.2</td><td class="c">21.2</td><td class="c">90.0</td><td class="c">56.2</td><td class="c"><b>21.2</b></td></tr>
-<tr><td>strike (°)</td><td class="c">176.8</td><td class="c">116.8</td><td class="c">236.8</td><td class="c">176.8</td><td class="c"><b>149.5</b></td></tr>
-<tr><td>X (km)</td><td class="c">0</td><td class="c">-32.6</td><td class="c">32.6</td><td class="c">0</td><td class="c"><b>15.08</b></td></tr>
-<tr><td>Y (km)</td><td class="c">0</td><td class="c">-32.6</td><td class="c">32.6</td><td class="c">0</td><td class="c"><b>-25.24</b></td></tr>
-<tr><td>SS (m)</td><td class="c">-0.971</td><td class="c">-2.96</td><td class="c">+2.96</td><td class="c">-0.971</td><td class="c"><b>+0.781</b></td></tr>
-<tr><td>DS (m)</td><td class="c">-0.168</td><td class="c">-2.96</td><td class="c">+2.96</td><td class="c">-0.168</td><td class="c"><b>-0.212</b></td></tr>
+<tr><td>L (km)</td><td class="c">32.58</td><td class="c">13.03</td><td class="c">102.64</td><td class="c">32.58</td><td class="c"><b>27.34</b></td></tr>
+<tr><td>W (km)</td><td class="c">13.61</td><td class="c">5.45</td><td class="c">42.89</td><td class="c">13.61</td><td class="c"><b>11.43</b></td></tr>
+<tr><td>Z_top (km)</td><td class="c">4.34</td><td class="c">0.10</td><td class="c">10.00</td><td class="c">4.34</td><td class="c"><b>8.87</b></td></tr>
+<tr><td>dip (°)</td><td class="c">56.2</td><td class="c">21.2</td><td class="c">90.0</td><td class="c">56.2</td><td class="c"><b>88.9</b></td></tr>
+<tr><td>strike (°)</td><td class="c">176.8</td><td class="c">116.8</td><td class="c">236.8</td><td class="c">176.8</td><td class="c"><b>348.2</b></td></tr>
+<tr><td>X (km)</td><td class="c">0</td><td class="c">-32.6</td><td class="c">32.6</td><td class="c">0</td><td class="c"><b>19.63</b></td></tr>
+<tr><td>Y (km)</td><td class="c">0</td><td class="c">-32.6</td><td class="c">32.6</td><td class="c">0</td><td class="c"><b>20.91</b></td></tr>
+<tr><td>SS (m)</td><td class="c">-0.971</td><td class="c">-2.96</td><td class="c">+2.96</td><td class="c">-0.971</td><td class="c"><b>+2.707</b></td></tr>
+<tr><td>DS (m)</td><td class="c">-0.168</td><td class="c">-2.96</td><td class="c">+2.96</td><td class="c">-0.168</td><td class="c"><b>-1.001</b></td></tr>
 <tr><th colspan=4>derived</th><th class="c">USGS</th><th class="c">GBIS</th></tr>
-<tr><td>|slip| (m)</td><td colspan=3></td><td class="c">0.986</td><td class="c"><b>0.809</b></td></tr>
-<tr><td>rake (°)</td><td colspan=3></td><td class="c">-170.2</td><td class="c"><b>-15.2</b></td></tr>
-<tr><td>Mw</td><td colspan=3></td><td class="c">6.70</td><td class="c"><b>6.96</b></td></tr>
-<tr><td>Z_bot (km)</td><td colspan=3></td><td class="c">15.66</td><td class="c"><b>12.29</b></td></tr>
-<tr><td><b>震源深度 / centroid depth (km)</b></td><td colspan=3></td><td class="c">10.00</td><td class="c"><b>8.05</b></td></tr>
+<tr><td>|slip| (m)</td><td colspan=3></td><td class="c">0.986</td><td class="c"><b>2.886</b></td></tr>
+<tr><td>rake (°)</td><td colspan=3></td><td class="c">-170.2</td><td class="c"><b>-20.3</b></td></tr>
+<tr><td>Mw</td><td colspan=3></td><td class="c">6.70</td><td class="c"><b>6.91</b></td></tr>
+<tr><td>Z_bot (km)</td><td colspan=3></td><td class="c">15.66</td><td class="c"><b>20.29</b></td></tr>
+<tr><td><b>震源深度 / centroid depth (km)</b></td><td colspan=3></td><td class="c">10.00</td><td class="c"><b>14.58</b></td></tr>
 </table>
 <p style="font-size:12px;color:#666">震源深度对比：USGS = 报告的震源（hypocenter）深度；GBIS = 断层质心深度 (Z_top+Z_bot)/2。</p>
 <p style="font-size:12px;color:#666">Note: GBIS optimum = single MAP sample reported by GBIS in <code>invResults.model.optimal</code>, NOT a chain median.</p>
-<div class="verdict"><b>Adaptive grade — zone RED</b><br>acceptance 0.21 (0.20–0.45) · ESS 210 (≥250) · Geweke |z| 2.79 (≤2) · VR_min 0.03<br>grades: ess=C · acceptance=B · geweke=B · vr_min=D · vr_mean=D · railed=D · delta_mw=A · delta_strike=B</div>
+<div class="verdict"><b>Adaptive grade — zone RED</b><br>acceptance 0.20 (0.20–0.45) · ESS 154 (≥250) · Geweke |z| 1.37 (≤2) · VR_min -0.04<br>grades: ess=C · acceptance=B · geweke=A · vr_min=D · vr_mean=D · railed=C · delta_mw=B · delta_strike=A</div>
 
 <h2>4. Beachball comparison</h2>
 <img src="gbis/np1/figures/04_beachball.png">
