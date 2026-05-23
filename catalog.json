@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-23T03:11:44Z",
+  "generated_utc": "2026-05-23T04:25:46Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 80,
+  "n_events": 82,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4736,32 +4736,32 @@
       "n_tracks": 3,
       "aoi_half_km": 28.5,
       "result": {
-        "L_km": 7.78,
-        "W_km": 7.3,
-        "Z_top_km": 6.98,
-        "dip": -45.8,
-        "strike": 158.0,
-        "Mw_post": 6.07,
+        "L_km": 7.8,
+        "W_km": 7.31,
+        "Z_top_km": 7.0,
+        "dip": -43.1,
+        "strike": 153.1,
+        "Mw_post": 6.0,
         "VR": {
           "t159_asc": 0.05,
           "t64_dsc": 0.19
         },
         "fmech": {
-          "strike": 338.0,
-          "dip": 45.8,
-          "rake": 7.1
+          "strike": 333.1,
+          "dip": 43.1,
+          "rake": 1.1
         }
       },
       "diagnostics": {
-        "acceptance": 0.206,
-        "ess": 248,
-        "geweke": 2.15,
+        "acceptance": 0.213,
+        "ess": 241,
+        "geweke": 2.06,
         "zone": "RED",
         "verdict": "FAIL"
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T21:21:49Z",
+      "pipeline_run_utc": "2026-05-23T04:25:45Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5382,6 +5382,31 @@
       }
     },
     {
+      "event_id": "us7000ljvg",
+      "place": "38 km WNW of Linxia Chengguanzhen, China",
+      "origin_utc": "2023-12-18T15:59:30Z",
+      "epi_lat": 35.7386,
+      "epi_lon": 102.8149,
+      "depth_km": 12.0,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 36.6,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us7000lsze",
       "place": "128 km WNW of Aykol, China",
       "origin_utc": "2024-01-22T18:09:04Z",
@@ -5567,6 +5592,65 @@
       "has_report": true,
       "links": {
         "report": "events/us7000pn9z/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000pyq7",
+      "place": "126 km W of Rikaze, China",
+      "origin_utc": "2025-05-11T21:11:22Z",
+      "epi_lat": 29.0536,
+      "epi_lon": 87.6068,
+      "depth_km": 9.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "121",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-05-01",
+            "2025-05-13"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.127,
+          "status": "ready"
+        },
+        {
+          "track": "12",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-05-05",
+            "2025-05-17"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.559,
+          "status": "ready"
+        },
+        {
+          "track": "48",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-05-08",
+            "2025-06-01"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.595,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
+      "aoi_half_km": 28.5,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
