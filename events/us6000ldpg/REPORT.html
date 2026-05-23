@@ -32,40 +32,40 @@
 <b>Event:</b> 32 km NNE of Zindah Jān, Afghanistan · (34.598°N, 61.926°E, depth 14.0 km)<br>
 <b>USGS NP1:</b> strike 253.1° / dip 26.2° / rake 74.9°<br>
 <b>USGS NP2:</b> strike 89.8° / dip 64.8° / rake 97.3°<br>
-<b>GBIS optimum:</b> strike 280.0° / dip 49.8° / rake 101.4° / Mw 6.47 (best logP -3406.4824)
+<b>GBIS optimum:</b> strike 281.7° / dip 30.7° / rake 115.9° / Mw 6.61 (best logP -1595.4155)
 </div>
 
 
 
 <h2>1. Raw observations (deramped + cropped)</h2>
 <img src="gbis/np1/figures/01_raw_obs.png">
-<div class="verdict"><b>⚠ Pass-3 track filter dropped a track.</b><br><code>per-track forward corr: t115_asc=-0.09 t122_dsc=+0.10 t13_asc=+0.85 t20_dsc=+0.96</code><br><code>decision: ITER — drop 2 outliers + 0 weak, keep 2 (max corr=0.96, gap=0.50, abs<0.50)</code><br>A dropped track has a low forward-model correlation — its observed LOS carries no co-seismic signal consistent with the source that fits the surviving track(s) (atmosphere / decorrelation noise). It is shown in Sections 1–2 for inspection but is EXCLUDED from the GBIS inversion (Sections 3–7).</div>
+
 
 <h2>2. Two-round iterative downsampling (Pass-1 zoned → Pass-2 synth-quadtree)</h2>
-<div class="pending">⏳ Two-round downsample — figure not available (helper failed or inputs missing).</div>
+<img src="gbis/np1/figures/02_ds_two_pass.png">
 
 <h2>3. Initial start, search range, and GBIS-reported optimum</h2>
 <table>
 <tr><th>parameter</th><th>start</th><th>lower</th><th>upper</th><th>USGS NP1 / W&C</th><th>GBIS optimum</th></tr>
-<tr><td>L (km)</td><td class="c">18.92</td><td class="c">7.57</td><td class="c">26.49</td><td class="c">18.92</td><td class="c"><b>17.24</b></td></tr>
-<tr><td>W (km)</td><td class="c">10.14</td><td class="c">4.06</td><td class="c">14.20</td><td class="c">10.14</td><td class="c"><b>9.23</b></td></tr>
-<tr><td>Z_top (km)</td><td class="c">11.76</td><td class="c">0.10</td><td class="c">14.00</td><td class="c">11.76</td><td class="c"><b>4.11</b></td></tr>
-<tr><td>dip (°)</td><td class="c">26.2</td><td class="c">0.1</td><td class="c">61.2</td><td class="c">26.2</td><td class="c"><b>49.8</b></td></tr>
-<tr><td>strike (°)</td><td class="c">253.1</td><td class="c">193.1</td><td class="c">313.1</td><td class="c">253.1</td><td class="c"><b>280.0</b></td></tr>
-<tr><td>X (km)</td><td class="c">0</td><td class="c">-18.9</td><td class="c">18.9</td><td class="c">0</td><td class="c"><b>-0.20</b></td></tr>
-<tr><td>Y (km)</td><td class="c">0</td><td class="c">-18.9</td><td class="c">18.9</td><td class="c">0</td><td class="c"><b>-6.20</b></td></tr>
-<tr><td>SS (m)</td><td class="c">+0.149</td><td class="c">-2.00</td><td class="c">+2.00</td><td class="c">+0.149</td><td class="c"><b>-0.246</b></td></tr>
-<tr><td>DS (m)</td><td class="c">+0.553</td><td class="c">-2.00</td><td class="c">+2.00</td><td class="c">+0.553</td><td class="c"><b>+1.217</b></td></tr>
+<tr><td>L (km)</td><td class="c">18.92</td><td class="c">7.57</td><td class="c">26.49</td><td class="c">18.92</td><td class="c"><b>25.18</b></td></tr>
+<tr><td>W (km)</td><td class="c">10.14</td><td class="c">4.06</td><td class="c">14.20</td><td class="c">10.14</td><td class="c"><b>13.49</b></td></tr>
+<tr><td>Z_top (km)</td><td class="c">11.76</td><td class="c">0.10</td><td class="c">14.00</td><td class="c">11.76</td><td class="c"><b>2.98</b></td></tr>
+<tr><td>dip (°)</td><td class="c">26.2</td><td class="c">0.1</td><td class="c">61.2</td><td class="c">26.2</td><td class="c"><b>30.7</b></td></tr>
+<tr><td>strike (°)</td><td class="c">253.1</td><td class="c">193.1</td><td class="c">313.1</td><td class="c">253.1</td><td class="c"><b>281.7</b></td></tr>
+<tr><td>X (km)</td><td class="c">0</td><td class="c">-20.0</td><td class="c">20.0</td><td class="c">0</td><td class="c"><b>0.92</b></td></tr>
+<tr><td>Y (km)</td><td class="c">0</td><td class="c">-20.0</td><td class="c">20.0</td><td class="c">0</td><td class="c"><b>-5.31</b></td></tr>
+<tr><td>SS (m)</td><td class="c">+0.149</td><td class="c">-2.00</td><td class="c">+2.00</td><td class="c">+0.149</td><td class="c"><b>-0.407</b></td></tr>
+<tr><td>DS (m)</td><td class="c">+0.553</td><td class="c">-2.00</td><td class="c">+2.00</td><td class="c">+0.553</td><td class="c"><b>+0.837</b></td></tr>
 <tr><th colspan=4>derived</th><th class="c">USGS</th><th class="c">GBIS</th></tr>
-<tr><td>|slip| (m)</td><td colspan=3></td><td class="c">0.573</td><td class="c"><b>1.242</b></td></tr>
-<tr><td>rake (°)</td><td colspan=3></td><td class="c">74.9</td><td class="c"><b>101.4</b></td></tr>
-<tr><td>Mw</td><td colspan=3></td><td class="c">6.30</td><td class="c"><b>6.47</b></td></tr>
-<tr><td>Z_bot (km)</td><td colspan=3></td><td class="c">16.24</td><td class="c"><b>11.16</b></td></tr>
-<tr><td><b>震源深度 / centroid depth (km)</b></td><td colspan=3></td><td class="c">14.00</td><td class="c"><b>7.64</b></td></tr>
+<tr><td>|slip| (m)</td><td colspan=3></td><td class="c">0.573</td><td class="c"><b>0.931</b></td></tr>
+<tr><td>rake (°)</td><td colspan=3></td><td class="c">74.9</td><td class="c"><b>115.9</b></td></tr>
+<tr><td>Mw</td><td colspan=3></td><td class="c">6.30</td><td class="c"><b>6.61</b></td></tr>
+<tr><td>Z_bot (km)</td><td colspan=3></td><td class="c">16.24</td><td class="c"><b>9.86</b></td></tr>
+<tr><td><b>震源深度 / centroid depth (km)</b></td><td colspan=3></td><td class="c">14.00</td><td class="c"><b>6.42</b></td></tr>
 </table>
 <p style="font-size:12px;color:#666">震源深度对比：USGS = 报告的震源（hypocenter）深度；GBIS = 断层质心深度 (Z_top+Z_bot)/2。</p>
 <p style="font-size:12px;color:#666">Note: GBIS optimum = single MAP sample reported by GBIS in <code>invResults.model.optimal</code>, NOT a chain median.</p>
-<div class="summary"><b>Adaptive grade — zone GREEN</b><br>acceptance 0.21 (0.20–0.45) · ESS 1460 (≥250) · Geweke |z| 1.83 (≤2) · VR_min 0.75<br>grades: ess=A · acceptance=B · geweke=B · vr_min=A · vr_mean=A · railed=A · delta_mw=B · delta_strike=A</div>
+<div class="summary"><b>Adaptive grade — zone GREEN</b><br>acceptance 0.20 (0.20–0.45) · ESS 208 (≥250) · Geweke |z| 3.30 (≤2) · VR_min 0.84<br>grades: ess=B · acceptance=B · geweke=B · vr_min=A · vr_mean=A · railed=A · delta_mw=C · delta_strike=A</div>
 
 <h2>4. Beachball comparison</h2>
 <img src="gbis/np1/figures/04_beachball.png">
