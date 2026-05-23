@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-23T17:04:12Z",
+  "generated_utc": "2026-05-23T17:18:19Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 85,
+  "n_events": 86,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1418,6 +1418,47 @@
       "has_report": true,
       "links": {
         "report": "events/us6000b26j/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000d3i9",
+      "place": "146 km WNW of Corral, Chile",
+      "origin_utc": "2020-12-27T21:39:14Z",
+      "epi_lat": -39.3398,
+      "epi_lon": -74.9849,
+      "depth_km": 10.0,
+      "Mw": 6.7,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 156,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.043,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 3,
+      "pair_contam_max": 3,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-23T17:18:19Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000d3i9/REPORT.html"
       }
     },
     {
