@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-23T16:55:24Z",
+  "generated_utc": "2026-05-23T17:04:12Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 84,
+  "n_events": 85,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4315,6 +4315,47 @@
       "has_report": true,
       "links": {
         "report": "events/us6000syik/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us70005nie",
+      "place": "70 km WSW of Constituci\u00f3n, Chile",
+      "origin_utc": "2019-09-29T15:57:53Z",
+      "epi_lat": -35.4758,
+      "epi_lon": -73.163,
+      "depth_km": 11.0,
+      "Mw": 6.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 156,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.188,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 5,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-23T17:04:12Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us70005nie/REPORT.html"
       }
     },
     {
