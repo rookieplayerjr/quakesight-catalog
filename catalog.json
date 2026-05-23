@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-23T18:59:24Z",
+  "generated_utc": "2026-05-23T19:10:01Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 87,
+  "n_events": 88,
   "events": [
     {
       "event_id": "ci38443183",
@@ -5324,6 +5324,47 @@
       "has_report": true,
       "links": {
         "report": "events/us7000bfjr/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000bg4v",
+      "place": "94 km NW of Vallenar, Chile",
+      "origin_utc": "2020-09-01T21:09:17Z",
+      "epi_lat": -27.9162,
+      "epi_lon": -71.3701,
+      "depth_km": 16.0,
+      "Mw": 6.5,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 120,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.835,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 56.2,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 22,
+      "pair_contam_max": 22,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-23T19:10:01Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000bg4v/REPORT.html"
       }
     },
     {
