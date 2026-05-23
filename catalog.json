@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-23T19:10:01Z",
+  "generated_utc": "2026-05-23T19:20:16Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 88,
+  "n_events": 89,
   "events": [
     {
       "event_id": "ci38443183",
@@ -6458,6 +6458,47 @@
       "has_report": true,
       "links": {
         "report": "events/us7000ia36/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000k3n3",
+      "place": "45 km NE of Puerto Obald\u00eda, Panama",
+      "origin_utc": "2023-05-25T03:05:32Z",
+      "epi_lat": 8.9223,
+      "epi_lon": -77.0904,
+      "depth_km": 13.0,
+      "Mw": 6.5,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 48,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 67.5,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 5,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-23T19:20:16Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000k3n3/REPORT.html"
       }
     },
     {
