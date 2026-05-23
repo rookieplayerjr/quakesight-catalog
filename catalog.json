@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-23T16:36:12Z",
+  "generated_utc": "2026-05-23T16:48:12Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 82,
+  "n_events": 83,
   "events": [
     {
       "event_id": "ci38443183",
@@ -928,6 +928,47 @@
       "has_report": true,
       "links": {
         "report": "events/us6000434e/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us60004yps",
+      "place": "96 km SW of San Antonio, Chile",
+      "origin_utc": "2019-08-01T18:28:07Z",
+      "epi_lat": -34.2364,
+      "epi_lon": -72.3102,
+      "depth_km": 25.0,
+      "Mw": 6.8,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 156,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.373,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 79.4,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 5,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-23T16:48:12Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us60004yps/REPORT.html"
       }
     },
     {
