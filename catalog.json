@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-23T05:36:43Z",
+  "generated_utc": "2026-05-23T06:10:45Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 82,
   "events": [
@@ -2676,27 +2676,27 @@
       "n_tracks": 3,
       "aoi_half_km": 35.3,
       "result": {
-        "L_km": 19.0,
-        "W_km": 13.05,
-        "Z_top_km": 2.87,
-        "dip": -32.5,
-        "strike": 102.0,
-        "Mw_post": 6.49,
+        "L_km": 15.9,
+        "W_km": 10.92,
+        "Z_top_km": 3.4,
+        "dip": -41.7,
+        "strike": 102.9,
+        "Mw_post": 6.55,
         "VR": {
           "t122_dsc": 0.51,
           "t13_asc": 0.32,
           "t20_dsc": 0.87
         },
         "fmech": {
-          "strike": 282.0,
-          "dip": 32.5,
-          "rake": 81.4
+          "strike": 282.9,
+          "dip": 41.7,
+          "rake": 100.5
         }
       },
       "diagnostics": {
-        "acceptance": 0.201,
-        "ess": 264,
-        "geweke": 1.96,
+        "acceptance": 0.206,
+        "ess": 290,
+        "geweke": 1.87,
         "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
@@ -2713,7 +2713,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T21:21:31Z",
+      "pipeline_run_utc": "2026-05-23T06:10:44Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5373,40 +5373,8 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 28.5,
-      "result": {
-        "L_km": 7.78,
-        "W_km": 7.29,
-        "Z_top_km": 6.98,
-        "dip": -74.0,
-        "strike": 91.3,
-        "Mw_post": 6.02,
-        "VR": {
-          "t159_asc": 0.66
-        },
-        "fmech": {
-          "strike": 271.3,
-          "dip": 74.0,
-          "rake": 11.6
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.203,
-        "ess": 287,
-        "geweke": 2.15,
-        "zone": "RED",
-        "verdict": "FAIL",
-        "grades": {
-          "ess": "B",
-          "acceptance": "B",
-          "geweke": "B",
-          "vr_min": "A",
-          "vr_mean": "B",
-          "railed": "D",
-          "delta_mw": "D",
-          "delta_strike": "B"
-        },
-        "catalog_disagreement": true
-      },
+      "result": null,
+      "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
       "pipeline_run_utc": "2026-05-23T05:36:26Z",
