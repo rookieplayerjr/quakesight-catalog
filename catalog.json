@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-23T07:18:49Z",
+  "generated_utc": "2026-05-23T07:31:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 82,
   "events": [
@@ -41,7 +41,7 @@
       "n_tracks": 2,
       "aoi_half_km": 72.7,
       "in_sequence": true,
-      "sequence_n_ge_5": 4,
+      "sequence_n_significant": 1,
       "result": {
         "L_km": 20.12,
         "W_km": 10.13,
@@ -148,7 +148,7 @@
       "n_tracks": 4,
       "aoi_half_km": 55.5,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 5.14,
         "W_km": 3.32,
@@ -243,7 +243,7 @@
       "n_tracks": 3,
       "aoi_half_km": 39.8,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 22.89,
         "W_km": 13.05,
@@ -339,7 +339,7 @@
       "n_tracks": 3,
       "aoi_half_km": 80.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 3,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 9.93,
         "W_km": 4.7,
@@ -425,7 +425,7 @@
       "n_tracks": 2,
       "aoi_half_km": 43.8,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 10.61,
         "W_km": 8.36,
@@ -520,8 +520,8 @@
       ],
       "n_tracks": 3,
       "aoi_half_km": 24.8,
-      "in_sequence": true,
-      "sequence_n_ge_5": 1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 2.28,
         "W_km": 2.14,
@@ -557,7 +557,7 @@
           "delta_strike": "A"
         },
         "catalog_disagreement": false,
-        "in_sequence": true,
+        "in_sequence": false,
         "sequence_n_ge_5": 1
       },
       "status": "done",
@@ -607,7 +607,7 @@
       "n_tracks": 2,
       "aoi_half_km": 29.9,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 4.77,
         "W_km": 3.95,
@@ -691,8 +691,8 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 16.8,
-      "in_sequence": true,
-      "sequence_n_ge_5": 0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 5.13,
         "W_km": 5.79,
@@ -727,7 +727,7 @@
           "delta_strike": "C"
         },
         "catalog_disagreement": true,
-        "in_sequence": true,
+        "in_sequence": false,
         "sequence_n_ge_5": 0
       },
       "status": "escalated",
@@ -799,7 +799,7 @@
       "n_tracks": 4,
       "aoi_half_km": 44.7,
       "in_sequence": false,
-      "sequence_n_ge_5": 2,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 22.41,
         "W_km": 12.01,
@@ -884,7 +884,7 @@
       "n_tracks": 2,
       "aoi_half_km": 67.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 14,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 26.04,
         "W_km": 13.95,
@@ -969,7 +969,7 @@
       "n_tracks": 2,
       "aoi_half_km": 63.1,
       "in_sequence": true,
-      "sequence_n_ge_5": 18,
+      "sequence_n_significant": 2,
       "result": {
         "L_km": 23.23,
         "W_km": 10.33,
@@ -1054,7 +1054,7 @@
       "n_tracks": 2,
       "aoi_half_km": 79.4,
       "in_sequence": false,
-      "sequence_n_ge_5": 10,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 24.93,
         "W_km": 9.79,
@@ -1139,7 +1139,7 @@
       "n_tracks": 2,
       "aoi_half_km": 61.5,
       "in_sequence": false,
-      "sequence_n_ge_5": 2,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 14.04,
         "W_km": 9.07,
@@ -1235,7 +1235,7 @@
       "n_tracks": 3,
       "aoi_half_km": 80.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 13.04,
         "W_km": 5.45,
@@ -1332,7 +1332,7 @@
       "n_tracks": 3,
       "aoi_half_km": 67.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 2,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 11.65,
         "W_km": 6.24,
@@ -1429,7 +1429,7 @@
       "n_tracks": 3,
       "aoi_half_km": 75.2,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 8.67,
         "W_km": 4.37,
@@ -1502,7 +1502,7 @@
       "n_tracks": 1,
       "aoi_half_km": 80.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 5,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 20.41,
         "W_km": 8.53,
@@ -1586,7 +1586,7 @@
       "n_tracks": 2,
       "aoi_half_km": 30.2,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 8.2,
         "W_km": 7.22,
@@ -1670,7 +1670,7 @@
       "n_tracks": 2,
       "aoi_half_km": 42.7,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 10.18,
         "W_km": 7.45,
@@ -1755,7 +1755,7 @@
       "n_tracks": 2,
       "aoi_half_km": 50.1,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 12.98,
         "W_km": 6.53,
@@ -1840,7 +1840,7 @@
       "n_tracks": 2,
       "aoi_half_km": 28.2,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 15.38,
         "W_km": 10.56,
@@ -1925,7 +1925,7 @@
       "n_tracks": 2,
       "aoi_half_km": 31.6,
       "in_sequence": true,
-      "sequence_n_ge_5": 5,
+      "sequence_n_significant": 1,
       "result": {
         "L_km": 10.83,
         "W_km": 6.99,
@@ -2010,7 +2010,7 @@
       "n_tracks": 2,
       "aoi_half_km": 50.6,
       "in_sequence": true,
-      "sequence_n_ge_5": 5,
+      "sequence_n_significant": 1,
       "result": {
         "L_km": 15.63,
         "W_km": 10.09,
@@ -2095,7 +2095,7 @@
       "n_tracks": 2,
       "aoi_half_km": 39.8,
       "in_sequence": true,
-      "sequence_n_ge_5": 3,
+      "sequence_n_significant": 1,
       "result": null,
       "diagnostics": null,
       "status": "escalated",
@@ -2145,7 +2145,7 @@
       "n_tracks": 2,
       "aoi_half_km": 39.8,
       "in_sequence": true,
-      "sequence_n_ge_5": 3,
+      "sequence_n_significant": 1,
       "result": null,
       "diagnostics": null,
       "status": "escalated",
@@ -2184,7 +2184,7 @@
       "n_tracks": 1,
       "aoi_half_km": 80.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
       "status": "escalated",
@@ -2245,7 +2245,7 @@
       "n_tracks": 3,
       "aoi_half_km": 31.6,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 17.55,
         "W_km": 11.33,
@@ -2351,8 +2351,8 @@
       ],
       "n_tracks": 4,
       "aoi_half_km": 28.2,
-      "in_sequence": true,
-      "sequence_n_ge_5": 2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 15.14,
         "W_km": 10.4,
@@ -2386,7 +2386,7 @@
           "delta_strike": "C"
         },
         "catalog_disagreement": false,
-        "in_sequence": true,
+        "in_sequence": false,
         "sequence_n_ge_5": 2
       },
       "status": "partial",
@@ -2436,7 +2436,7 @@
       "n_tracks": 2,
       "aoi_half_km": 44.7,
       "in_sequence": false,
-      "sequence_n_ge_5": 2,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 17.69,
         "W_km": 9.48,
@@ -2532,7 +2532,7 @@
       "n_tracks": 3,
       "aoi_half_km": 80.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 3,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 34.59,
         "W_km": 12.76,
@@ -2617,7 +2617,7 @@
       "n_tracks": 2,
       "aoi_half_km": 49.1,
       "in_sequence": true,
-      "sequence_n_ge_5": 10,
+      "sequence_n_significant": 3,
       "result": {
         "L_km": 17.24,
         "W_km": 9.23,
@@ -2702,7 +2702,7 @@
       "n_tracks": 2,
       "aoi_half_km": 75.9,
       "in_sequence": true,
-      "sequence_n_ge_5": 10,
+      "sequence_n_significant": 3,
       "result": {
         "L_km": 12.89,
         "W_km": 6.91,
@@ -2776,7 +2776,7 @@
       "n_tracks": 1,
       "aoi_half_km": 35.3,
       "in_sequence": true,
-      "sequence_n_ge_5": 10,
+      "sequence_n_significant": 4,
       "result": {
         "L_km": 15.97,
         "W_km": 10.97,
@@ -2871,7 +2871,7 @@
       "n_tracks": 3,
       "aoi_half_km": 75.9,
       "in_sequence": true,
-      "sequence_n_ge_5": 10,
+      "sequence_n_significant": 3,
       "pair_contam_min": 9,
       "pair_contam_max": 19,
       "result": {
@@ -2981,7 +2981,7 @@
       "n_tracks": 4,
       "aoi_half_km": 71.5,
       "in_sequence": true,
-      "sequence_n_ge_5": 10,
+      "sequence_n_significant": 3,
       "result": {
         "L_km": 8.12,
         "W_km": 4.35,
@@ -3067,7 +3067,7 @@
       "n_tracks": 2,
       "aoi_half_km": 53.2,
       "in_sequence": true,
-      "sequence_n_ge_5": 53,
+      "sequence_n_significant": 3,
       "result": {
         "L_km": 14.66,
         "W_km": 8.9,
@@ -3173,7 +3173,7 @@
       "n_tracks": 4,
       "aoi_half_km": 47.4,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 17.45,
         "W_km": 11.27,
@@ -3258,7 +3258,7 @@
       "n_tracks": 2,
       "aoi_half_km": 71.5,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 18.81,
         "W_km": 10.08,
@@ -3364,7 +3364,7 @@
       "n_tracks": 4,
       "aoi_half_km": 53.2,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 8.55,
         "W_km": 5.19,
@@ -3449,7 +3449,7 @@
       "n_tracks": 2,
       "aoi_half_km": 49.1,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 9.47,
         "W_km": 5.07,
@@ -3534,7 +3534,7 @@
       "n_tracks": 2,
       "aoi_half_km": 63.7,
       "in_sequence": true,
-      "sequence_n_ge_5": 2,
+      "sequence_n_significant": 1,
       "result": {
         "L_km": 23.12,
         "W_km": 13.18,
@@ -3619,7 +3619,7 @@
       "n_tracks": 2,
       "aoi_half_km": 49.1,
       "in_sequence": true,
-      "sequence_n_ge_5": 2,
+      "sequence_n_significant": 1,
       "result": {
         "L_km": 26.43,
         "W_km": 14.16,
@@ -3704,7 +3704,7 @@
       "n_tracks": 2,
       "aoi_half_km": 50.1,
       "in_sequence": false,
-      "sequence_n_ge_5": 4,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 30.12,
         "W_km": 15.16,
@@ -3810,7 +3810,7 @@
       "n_tracks": 4,
       "aoi_half_km": 53.8,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 16.52,
         "W_km": 10.66,
@@ -3894,7 +3894,7 @@
       "n_tracks": 2,
       "aoi_half_km": 39.8,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 22.88,
         "W_km": 13.04,
@@ -3990,7 +3990,7 @@
       "n_tracks": 3,
       "aoi_half_km": 80.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 8,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 27.13,
         "W_km": 22.85,
@@ -4075,7 +4075,7 @@
       "n_tracks": 2,
       "aoi_half_km": 23.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 3.74,
         "W_km": 2.91,
@@ -4149,7 +4149,7 @@
       "n_tracks": 1,
       "aoi_half_km": 24.9,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 8.93,
         "W_km": 7.87,
@@ -4232,8 +4232,8 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 19.1,
-      "in_sequence": true,
-      "sequence_n_ge_5": 1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 1.51,
         "W_km": 1.7,
@@ -4267,7 +4267,7 @@
           "delta_strike": "C"
         },
         "catalog_disagreement": false,
-        "in_sequence": true,
+        "in_sequence": false,
         "sequence_n_ge_5": 1
       },
       "status": "done",
@@ -4317,7 +4317,7 @@
       "n_tracks": 2,
       "aoi_half_km": 50.1,
       "in_sequence": true,
-      "sequence_n_ge_5": 18,
+      "sequence_n_significant": 2,
       "result": null,
       "diagnostics": null,
       "status": "escalated",
@@ -4367,7 +4367,7 @@
       "n_tracks": 2,
       "aoi_half_km": 80.0,
       "in_sequence": true,
-      "sequence_n_ge_5": 18,
+      "sequence_n_significant": 2,
       "result": {
         "L_km": 9.94,
         "W_km": 4.7,
@@ -4451,8 +4451,8 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 59.7,
-      "in_sequence": true,
-      "sequence_n_ge_5": 1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 8.7,
         "W_km": 4.96,
@@ -4486,7 +4486,7 @@
           "delta_strike": "B"
         },
         "catalog_disagreement": false,
-        "in_sequence": true,
+        "in_sequence": false,
         "sequence_n_ge_5": 1
       },
       "status": "done",
@@ -4547,7 +4547,7 @@
       "n_tracks": 3,
       "aoi_half_km": 50.1,
       "in_sequence": false,
-      "sequence_n_ge_5": 5,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 25.02,
         "W_km": 12.6,
@@ -4632,7 +4632,7 @@
       "n_tracks": 2,
       "aoi_half_km": 44.7,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 25.81,
         "W_km": 13.83,
@@ -4728,7 +4728,7 @@
       "n_tracks": 3,
       "aoi_half_km": 75.2,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 8.91,
         "W_km": 4.49,
@@ -4813,7 +4813,7 @@
       "n_tracks": 2,
       "aoi_half_km": 18.9,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 2.95,
         "W_km": 3.13,
@@ -4909,7 +4909,7 @@
       "n_tracks": 3,
       "aoi_half_km": 72.8,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 31.87,
         "W_km": 15.08,
@@ -5005,7 +5005,7 @@
       "n_tracks": 3,
       "aoi_half_km": 67.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 10.64,
         "W_km": 5.7,
@@ -5090,7 +5090,7 @@
       "n_tracks": 2,
       "aoi_half_km": 39.8,
       "in_sequence": true,
-      "sequence_n_ge_5": 6,
+      "sequence_n_significant": 1,
       "result": null,
       "diagnostics": null,
       "status": "escalated",
@@ -5140,7 +5140,7 @@
       "n_tracks": 2,
       "aoi_half_km": 44.7,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 26.07,
         "W_km": 13.97,
@@ -5224,8 +5224,8 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 39.8,
-      "in_sequence": true,
-      "sequence_n_ge_5": 2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 19.42,
         "W_km": 11.07,
@@ -5260,7 +5260,7 @@
           "delta_strike": "A"
         },
         "catalog_disagreement": false,
-        "in_sequence": true,
+        "in_sequence": false,
         "sequence_n_ge_5": 2
       },
       "status": "escalated",
@@ -5321,7 +5321,7 @@
       "n_tracks": 3,
       "aoi_half_km": 50.1,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 30.34,
         "W_km": 15.28,
@@ -5427,8 +5427,8 @@
       ],
       "n_tracks": 4,
       "aoi_half_km": 75.9,
-      "in_sequence": true,
-      "sequence_n_ge_5": 6,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 11.9,
         "W_km": 6.37,
@@ -5464,7 +5464,7 @@
           "delta_strike": "A"
         },
         "catalog_disagreement": false,
-        "in_sequence": true,
+        "in_sequence": false,
         "sequence_n_ge_5": 6
       },
       "status": "done",
@@ -5514,7 +5514,7 @@
       "n_tracks": 2,
       "aoi_half_km": 38.1,
       "in_sequence": false,
-      "sequence_n_ge_5": 2,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 11.72,
         "W_km": 9.12,
@@ -5597,8 +5597,8 @@
       ],
       "n_tracks": 2,
       "aoi_half_km": 28.5,
-      "in_sequence": true,
-      "sequence_n_ge_5": 1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 7.78,
         "W_km": 7.29,
@@ -5632,7 +5632,7 @@
           "delta_strike": "B"
         },
         "catalog_disagreement": true,
-        "in_sequence": true,
+        "in_sequence": false,
         "sequence_n_ge_5": 1
       },
       "status": "escalated",
@@ -5693,7 +5693,7 @@
       "n_tracks": 3,
       "aoi_half_km": 80.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 24.32,
         "W_km": 35.65,
@@ -5778,7 +5778,7 @@
       "n_tracks": 2,
       "aoi_half_km": 75.2,
       "in_sequence": true,
-      "sequence_n_ge_5": 2,
+      "sequence_n_significant": 1,
       "result": {
         "L_km": 11.6,
         "W_km": 5.84,
@@ -5863,7 +5863,7 @@
       "n_tracks": 2,
       "aoi_half_km": 75.7,
       "in_sequence": false,
-      "sequence_n_ge_5": 4,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 11.38,
         "W_km": 5.06,
@@ -5970,7 +5970,7 @@
       "n_tracks": 4,
       "aoi_half_km": 80.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 89.21,
         "W_km": 39.67,
@@ -6055,7 +6055,7 @@
       "n_tracks": 2,
       "aoi_half_km": 80.0,
       "in_sequence": true,
-      "sequence_n_ge_5": 10,
+      "sequence_n_significant": 1,
       "result": {
         "L_km": 46.95,
         "W_km": 17.32,
@@ -6150,7 +6150,7 @@
       "n_tracks": 3,
       "aoi_half_km": 79.4,
       "in_sequence": true,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 1,
       "result": {
         "L_km": 52.25,
         "W_km": 20.51,
@@ -6235,7 +6235,7 @@
       "n_tracks": 2,
       "aoi_half_km": 39.8,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 23.02,
         "W_km": 13.12,
@@ -6330,7 +6330,7 @@
       "n_tracks": 3,
       "aoi_half_km": 79.4,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 16.9,
         "W_km": 6.63,
@@ -6392,7 +6392,7 @@
       "n_tracks": 0,
       "aoi_half_km": 36.6,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -6442,7 +6442,7 @@
       "n_tracks": 2,
       "aoi_half_km": 80.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 12,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 34.49,
         "W_km": 15.1,
@@ -6516,7 +6516,7 @@
       "n_tracks": 1,
       "aoi_half_km": 67.0,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
       "status": "escalated",
@@ -6577,7 +6577,7 @@
       "n_tracks": 3,
       "aoi_half_km": 80.0,
       "in_sequence": true,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 1,
       "result": {
         "L_km": 27.34,
         "W_km": 11.43,
@@ -6673,7 +6673,7 @@
       "n_tracks": 3,
       "aoi_half_km": 28.5,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 8.72,
         "W_km": 7.68,
@@ -6779,8 +6779,8 @@
       ],
       "n_tracks": 4,
       "aoi_half_km": 53.8,
-      "in_sequence": true,
-      "sequence_n_ge_5": 6,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 12.14,
         "W_km": 7.84,
@@ -6815,7 +6815,7 @@
           "delta_strike": "A"
         },
         "catalog_disagreement": false,
-        "in_sequence": true,
+        "in_sequence": false,
         "sequence_n_ge_5": 6
       },
       "status": "done",
@@ -6865,7 +6865,7 @@
       "n_tracks": 2,
       "aoi_half_km": 50.1,
       "in_sequence": false,
-      "sequence_n_ge_5": 1,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 29.67,
         "W_km": 14.94,
@@ -6950,7 +6950,7 @@
       "n_tracks": 2,
       "aoi_half_km": 40.2,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 10.47,
         "W_km": 7.66,
@@ -7035,7 +7035,7 @@
       "n_tracks": 2,
       "aoi_half_km": 56.2,
       "in_sequence": false,
-      "sequence_n_ge_5": 0,
+      "sequence_n_significant": 0,
       "result": {
         "L_km": 38.38,
         "W_km": 18.16,

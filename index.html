@@ -230,8 +230,8 @@ function popupHtml(e){
   h+='<hr>';
   h+=`<span class="st" style="color:${statusColor(e)}">${statusLabel(e)}</span>`;
   if(e.in_sequence){
-    const n=e.sequence_n_ge_5||0;
-    h+=` <span style="color:#2a76d2;font-weight:600" title="${n} other Mw≥5 events within ±30d ±50km">🔗 sequence (${n})</span>`;
+    const n=e.sequence_n_significant||0;
+    h+=` <span style="color:#2a76d2;font-weight:600" title="${n} other InSAR-observable events (Mw ≥ 5.5 or within 0.3 of target) within ±30d ±50km">🔗 sequence (${n})</span>`;
   }
   if(e.diagnostics&&e.diagnostics.catalog_disagreement){
     h+=` <span style="color:#d138ab;font-weight:600">⚠ USGS Δ</span>`;
