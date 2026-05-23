@@ -229,8 +229,8 @@ function popupHtml(e){
   if(t) h+=`<span class="time">${t} UTC</span>`;
   h+='<hr>';
   h+=`<span class="st" style="color:${statusColor(e)}">${statusLabel(e)}</span>`;
-  if(e.diagnostics&&e.diagnostics.in_sequence){
-    const n=e.diagnostics.sequence_n_ge_5||0;
+  if(e.in_sequence){
+    const n=e.sequence_n_ge_5||0;
     h+=` <span style="color:#2a76d2;font-weight:600" title="${n} other Mw≥5 events within ±30d ±50km">🔗 sequence (${n})</span>`;
   }
   if(e.diagnostics&&e.diagnostics.catalog_disagreement){
