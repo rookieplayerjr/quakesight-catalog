@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-23T07:00:53Z",
+  "generated_utc": "2026-05-23T07:18:49Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 82,
   "events": [
@@ -2872,6 +2872,8 @@
       "aoi_half_km": 75.9,
       "in_sequence": true,
       "sequence_n_ge_5": 10,
+      "pair_contam_min": 9,
+      "pair_contam_max": 19,
       "result": {
         "L_km": 13.96,
         "W_km": 7.48,
