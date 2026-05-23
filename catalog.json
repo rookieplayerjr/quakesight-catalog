@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-23T05:02:07Z",
+  "generated_utc": "2026-05-23T05:03:41Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 82,
   "events": [
@@ -4744,10 +4744,11 @@
         "acceptance": 0.203,
         "ess": 287,
         "geweke": 2.15,
-        "zone": "RED",
-        "verdict": "FAIL"
+        "zone": "YELLOW",
+        "verdict": "FAIL",
+        "zone_override_reason": "router_done_with_caveats"
       },
-      "status": "partial",
+      "status": "done",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-23T05:00:05Z",
       "stale": false,
