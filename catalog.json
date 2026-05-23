@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-23T04:25:46Z",
+  "generated_utc": "2026-05-23T04:26:08Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 82,
   "events": [
@@ -4743,8 +4743,8 @@
         "strike": 153.1,
         "Mw_post": 6.0,
         "VR": {
-          "t159_asc": 0.05,
-          "t64_dsc": 0.19
+          "t159_asc": 0.42,
+          "t64_dsc": 0.75
         },
         "fmech": {
           "strike": 333.1,
@@ -4761,7 +4761,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-23T04:25:45Z",
+      "pipeline_run_utc": "2026-05-23T04:26:08Z",
       "stale": false,
       "has_report": true,
       "links": {
