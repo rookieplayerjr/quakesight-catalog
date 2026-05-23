@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-23T09:44:11Z",
+  "generated_utc": "2026-05-23T09:44:39Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 82,
   "events": [
@@ -367,7 +367,7 @@
         "grades": {
           "ess": "B",
           "acceptance": "B",
-          "geweke": "C",
+          "geweke": "B",
           "vr_min": "A",
           "vr_mean": "A",
           "railed": "D",
@@ -380,7 +380,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-23T09:44:11Z",
+      "pipeline_run_utc": "2026-05-23T09:44:39Z",
       "stale": false,
       "has_report": true,
       "links": {
