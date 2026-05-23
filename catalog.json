@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-23T06:12:06Z",
+  "generated_utc": "2026-05-23T06:46:24Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 82,
   "events": [
@@ -73,7 +73,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 4
       },
       "status": "done",
       "escalation_reason": null,
@@ -175,7 +177,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
@@ -267,7 +271,9 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "partial",
       "escalation_reason": null,
@@ -360,7 +366,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 3
       },
       "status": "done",
       "escalation_reason": null,
@@ -441,7 +449,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
@@ -534,7 +544,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
@@ -615,7 +627,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -696,7 +710,9 @@
           "delta_mw": "D",
           "delta_strike": "C"
         },
-        "catalog_disagreement": true
+        "catalog_disagreement": true,
+        "in_sequence": true,
+        "sequence_n_ge_5": 0
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
@@ -799,7 +815,9 @@
           "delta_mw": "C",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
       },
       "status": "partial",
       "escalation_reason": null,
@@ -880,7 +898,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 14
       },
       "status": "done",
       "escalation_reason": null,
@@ -961,7 +981,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 18
       },
       "status": "partial",
       "escalation_reason": null,
@@ -1042,7 +1064,9 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 10
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
@@ -1123,7 +1147,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
       },
       "status": "done",
       "escalation_reason": null,
@@ -1216,7 +1242,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
@@ -1309,7 +1337,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
       },
       "status": "done",
       "escalation_reason": null,
@@ -1400,7 +1430,9 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -1469,7 +1501,9 @@
           "delta_mw": "C",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 5
       },
       "status": "done",
       "escalation_reason": null,
@@ -1549,7 +1583,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -1630,7 +1666,9 @@
           "delta_mw": "C",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -1711,7 +1749,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "partial",
       "escalation_reason": null,
@@ -1792,7 +1832,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "escalated",
       "escalation_reason": "gbis_weak_signal",
@@ -1873,7 +1915,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 5
       },
       "status": "done",
       "escalation_reason": null,
@@ -1954,7 +1998,9 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 5
       },
       "status": "done",
       "escalation_reason": null,
@@ -2179,7 +2225,9 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "partial",
       "escalation_reason": null,
@@ -2281,7 +2329,9 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 2
       },
       "status": "partial",
       "escalation_reason": null,
@@ -2362,7 +2412,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
       },
       "status": "done",
       "escalation_reason": null,
@@ -2454,7 +2506,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 3
       },
       "status": "partial",
       "escalation_reason": null,
@@ -2535,7 +2589,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 10
       },
       "status": "done",
       "escalation_reason": null,
@@ -2616,7 +2672,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 10
       },
       "status": "done",
       "escalation_reason": null,
@@ -2640,28 +2698,6 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": "122",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            "2023-10-03",
-            "2023-10-15"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.574,
-          "status": "ready"
-        },
-        {
-          "track": "13",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            "2023-10-07",
-            "2023-10-19"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.688,
-          "status": "ready"
-        },
-        {
           "track": "20",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -2673,42 +2709,10 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 3,
+      "n_tracks": 1,
       "aoi_half_km": 35.3,
-      "result": {
-        "L_km": 15.9,
-        "W_km": 10.92,
-        "Z_top_km": 3.4,
-        "dip": -41.7,
-        "strike": 102.9,
-        "Mw_post": 6.55,
-        "VR": {
-          "t20_dsc": 0.95
-        },
-        "fmech": {
-          "strike": 282.9,
-          "dip": 41.7,
-          "rake": 100.5
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.206,
-        "ess": 290,
-        "geweke": 1.87,
-        "zone": "YELLOW",
-        "verdict": "PASS",
-        "grades": {
-          "ess": "B",
-          "acceptance": "B",
-          "geweke": "A",
-          "vr_min": "A",
-          "vr_mean": "A",
-          "railed": "A",
-          "delta_mw": "D",
-          "delta_strike": "B"
-        },
-        "catalog_disagreement": true
-      },
+      "result": null,
+      "diagnostics": null,
       "status": "done",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-23T06:11:11Z",
@@ -2800,7 +2804,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 10
       },
       "status": "done",
       "escalation_reason": null,
@@ -2904,7 +2910,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 10
       },
       "status": "done",
       "escalation_reason": null,
@@ -2984,7 +2992,9 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 53
       },
       "status": "done",
       "escalation_reason": null,
@@ -3087,7 +3097,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -3167,7 +3179,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -3270,7 +3284,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -3351,7 +3367,9 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "partial",
       "escalation_reason": null,
@@ -3432,7 +3450,9 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 2
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
@@ -3513,7 +3533,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 2
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
@@ -3593,7 +3615,9 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 4
       },
       "status": "done",
       "escalation_reason": null,
@@ -3695,7 +3719,9 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
@@ -3776,7 +3802,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -3868,7 +3896,9 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 8
       },
       "status": "partial",
       "escalation_reason": null,
@@ -3949,7 +3979,9 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
@@ -4018,7 +4050,9 @@
           "delta_mw": "D",
           "delta_strike": "D"
         },
-        "catalog_disagreement": true
+        "catalog_disagreement": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
@@ -4098,7 +4132,9 @@
           "delta_mw": "C",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
@@ -4227,7 +4263,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 18
       },
       "status": "done",
       "escalation_reason": null,
@@ -4307,7 +4345,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
@@ -4399,7 +4439,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 5
       },
       "status": "done",
       "escalation_reason": null,
@@ -4480,7 +4522,9 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "partial",
       "escalation_reason": null,
@@ -4572,7 +4616,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
@@ -4653,7 +4699,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -4745,7 +4793,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
@@ -4837,7 +4887,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
@@ -4966,7 +5018,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
@@ -5047,7 +5101,9 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 2
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
@@ -5139,7 +5195,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
@@ -5243,7 +5301,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 6
       },
       "status": "done",
       "escalation_reason": null,
@@ -5323,7 +5383,9 @@
           "delta_mw": "C",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
@@ -5403,7 +5465,9 @@
           "delta_mw": "D",
           "delta_strike": "B"
         },
-        "catalog_disagreement": true
+        "catalog_disagreement": true,
+        "in_sequence": true,
+        "sequence_n_ge_5": 1
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
@@ -5495,7 +5559,9 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -5576,7 +5642,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 2
       },
       "status": "done",
       "escalation_reason": null,
@@ -5657,7 +5725,9 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 4
       },
       "status": "done",
       "escalation_reason": null,
@@ -5760,7 +5830,9 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
@@ -5840,7 +5912,9 @@
           "delta_mw": "C",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 10
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
@@ -5932,7 +6006,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
@@ -6012,7 +6088,9 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
@@ -6104,7 +6182,9 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -6210,7 +6290,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 12
       },
       "status": "done",
       "escalation_reason": null,
@@ -6339,7 +6421,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 1
       },
       "status": "partial",
       "escalation_reason": null,
@@ -6431,7 +6515,9 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "partial",
       "escalation_reason": null,
@@ -6534,7 +6620,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 6
       },
       "status": "done",
       "escalation_reason": null,
@@ -6615,7 +6703,9 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
@@ -6696,7 +6786,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
@@ -6777,7 +6869,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "catalog_disagreement": false
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
       },
       "status": "done",
       "escalation_reason": null,
