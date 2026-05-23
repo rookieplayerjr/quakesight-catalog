@@ -200,6 +200,17 @@ function buildMap(){
         color:'#2b3640',weight:1,fillColor:statusColor(e),fillOpacity:.85
       }).addTo(MAP);
     }
+    // USGS-disagreement halo: events where InSAR Mw or strike differs from
+    // USGS by ≥0.5 / ≥60° (delta grade D) get a magenta ring marker for
+    // visual triage — these are FOLLOW-UP candidates (real-Mw underestimated,
+    // multi-source signal, or wrong catalog FM). Drawn under the beachball.
+    if(e.diagnostics&&e.diagnostics.catalog_disagreement){
+      L.circleMarker([e.epi_lat,e.epi_lon],{
+        radius:14+Math.max(0,(e.Mw||4)-4)*4,
+        color:'#d138ab',weight:2.5,fillOpacity:0,
+        interactive:false,pane:'shadowPane'
+      }).addTo(MAP);
+    }
     m.bindPopup(popupHtml(e),{maxWidth:265});
     m.on('click',()=>selectEvent(e.event_id,false));
     MARKERS[e.event_id]=m;
@@ -217,7 +228,11 @@ function popupHtml(e){
   h+=`<span class="place">${e.place||''}</span><br>`;
   if(t) h+=`<span class="time">${t} UTC</span>`;
   h+='<hr>';
-  h+=`<span class="st" style="color:${statusColor(e)}">${statusLabel(e)}</span><br>`;
+  h+=`<span class="st" style="color:${statusColor(e)}">${statusLabel(e)}</span>`;
+  if(e.diagnostics&&e.diagnostics.catalog_disagreement){
+    h+=` <span style="color:#d138ab;font-weight:600">⚠ USGS Δ</span>`;
+  }
+  h+='<br>';
   if(e.status==='escalated'&&e.escalation_reason)
     h+=`<span class="esc">stopped: ${e.escalation_reason}</span><br>`;
   if(e.stale) h+='<span class="stale">⚠ predates critical fix — re-run</span><br>';
