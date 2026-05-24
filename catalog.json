@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T09:02:51Z",
+  "generated_utc": "2026-05-24T09:40:53Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 118,
+  "n_events": 119,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1928,6 +1928,17 @@
           "status": "ready"
         },
         {
+          "track": "43",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-06-14",
+            "2020-06-20"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.397,
+          "status": "ready"
+        },
+        {
           "track": "50",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -1939,17 +1950,43 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 3,
+      "n_tracks": 4,
       "aoi_half_km": 42.3,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 5,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 4.8,
+        "W_km": 3.3,
+        "Z_top_km": 3.73,
+        "dip": -93.3,
+        "strike": 53.9,
+        "Mw_post": 5.79,
+        "VR": {
+          "t123_dsc": 0.67,
+          "t50_dsc": 0.75
+        },
+        "fmech": {
+          "strike": 233.9,
+          "dip": 93.3,
+          "rake": 60.6
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.211,
+        "ess": 130,
+        "geweke": 1.51,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-24T09:40:52Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -2470,6 +2507,47 @@
       "has_report": true,
       "links": {
         "report": "events/us6000e2k3/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000fsg9",
+      "place": "11 km NNE of Harnai, Pakistan",
+      "origin_utc": "2021-10-06T22:01:08Z",
+      "epi_lat": 30.1933,
+      "epi_lon": 67.9948,
+      "depth_km": 9.0,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "144",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2021-10-02",
+            "2021-10-14"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.635,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 45.1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 2,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
