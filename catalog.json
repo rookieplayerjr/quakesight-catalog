@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T15:29:06Z",
+  "generated_utc": "2026-05-24T15:31:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 121,
+  "n_events": 122,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1618,12 +1618,12 @@
         "sequence_n_ge_5": 0
       },
       "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-24T09:02:35Z",
+      "escalation_reason": "Escalation: slipinv_timeout",
+      "pipeline_run_utc": "2026-05-24T15:31:35Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us600068w0/REPORT.html"
       }
     },
     {
@@ -8251,6 +8251,35 @@
       "has_report": true,
       "links": {
         "report": "events/us7000iam0/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000il1g",
+      "place": "62 km SW of Santiago, Peru",
+      "origin_utc": "2022-10-28T20:22:05Z",
+      "epi_lat": -14.5218,
+      "epi_lon": -76.1705,
+      "depth_km": 14.0,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 31.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 20,
+      "pair_contam_max": 20,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
