@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-24T07:45:47Z",
+  "generated_utc": "2026-05-24T07:50:22Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 115,
   "events": [
@@ -8399,20 +8399,29 @@
         "acceptance": 0.2,
         "ess": 106,
         "geweke": 8.31,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "C",
+          "delta_strike": "B"
+        },
         "catalog_disagreement": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-24T07:45:46Z",
+      "pipeline_run_utc": "2026-05-24T07:50:21Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000pv06/REPORT.html"
       }
     },
     {
