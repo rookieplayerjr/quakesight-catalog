@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T08:41:48Z",
+  "generated_utc": "2026-05-24T09:00:54Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 117,
+  "n_events": 118,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1581,11 +1581,36 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 15.31,
+        "W_km": 10.52,
+        "Z_top_km": 5.05,
+        "dip": -107.8,
+        "strike": 150.1,
+        "Mw_post": 6.02,
+        "VR": {
+          "t6_dsc": 0.64
+        },
+        "fmech": {
+          "strike": 330.1,
+          "dip": 107.8,
+          "rake": 38.8
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 116,
+        "geweke": 4.2,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-24T09:00:54Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -1870,8 +1895,42 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "123",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-06-14",
+            "2020-06-20"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.416,
+          "status": "ready"
+        },
+        {
+          "track": "145",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-06-09",
+            "2020-06-15"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.485,
+          "status": "ready"
+        },
+        {
+          "track": "50",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-06-09",
+            "2020-06-15"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.403,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
       "aoi_half_km": 42.3,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -7068,6 +7127,47 @@
       "has_report": true,
       "links": {
         "report": "events/us7000e3n6/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000eijq",
+      "place": "75 km WSW of Vallenar, Chile",
+      "origin_utc": "2021-07-04T01:01:37Z",
+      "epi_lat": -28.7349,
+      "epi_lon": -71.5121,
+      "depth_km": 24.0,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 120,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.749,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 28.2,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 5,
+      "pair_contam_max": 7,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
