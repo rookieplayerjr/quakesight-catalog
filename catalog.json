@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T18:12:19Z",
+  "generated_utc": "2026-05-24T18:47:11Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 126,
+  "n_events": 127,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1555,8 +1555,8 @@
             "2019-06-26"
           ],
           "backend": "sp2",
-          "median_coh": 0.0,
-          "status": ""
+          "median_coh": 0.222,
+          "status": "ready"
         },
         {
           "track": "164",
@@ -1587,11 +1587,36 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 10,
       "pair_contam_max": 15,
-      "result": null,
-      "diagnostics": null,
-      "status": "escalated",
+      "result": {
+        "L_km": 12.5,
+        "W_km": 9.14,
+        "Z_top_km": 6.0,
+        "dip": -50.9,
+        "strike": 30.5,
+        "Mw_post": 5.92,
+        "VR": {
+          "t164_dsc": 0.7
+        },
+        "fmech": {
+          "strike": 210.5,
+          "dip": 50.9,
+          "rake": 9.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 134,
+        "geweke": 0.67,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 3
+      },
+      "status": "done",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-24T18:12:19Z",
+      "pipeline_run_utc": "2026-05-24T18:47:11Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -6420,6 +6445,69 @@
       "has_report": true,
       "links": {
         "report": "events/us700070sc/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us70007v29",
+      "place": "41 km NW of Salm?s, Iran",
+      "origin_utc": "2020-02-23T05:53:01Z",
+      "epi_lat": 38.4465,
+      "epi_lon": 44.4168,
+      "depth_km": 10.0,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "152",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-02-23",
+            "2020-02-29"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.289,
+          "status": "ready"
+        },
+        {
+          "track": "72",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-02-23",
+            "2020-03-06"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.249,
+          "status": "ready"
+        },
+        {
+          "track": "79",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-02-18",
+            "2020-03-01"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.248,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
+      "aoi_half_km": 37.7,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 2,
+      "pair_contam_max": 2,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
