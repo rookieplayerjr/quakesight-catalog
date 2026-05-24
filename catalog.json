@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T06:48:14Z",
+  "generated_utc": "2026-05-24T06:48:39Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 105,
+  "n_events": 108,
   "events": [
     {
       "event_id": "ci38443183",
@@ -737,6 +737,62 @@
       "has_report": true,
       "links": {
         "report": "events/us10008m7l/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us1000ghda",
+      "place": "32 km SW of Jav?nr?d, Iran",
+      "origin_utc": "2018-08-25T22:13:25Z",
+      "epi_lat": 34.6111,
+      "epi_lon": 46.2422,
+      "depth_km": 10.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 47.4,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us1000hwaj",
+      "place": "36 km SE of Mountain, Colombia",
+      "origin_utc": "2018-11-25T03:40:50Z",
+      "epi_lat": 13.1817,
+      "epi_lon": -81.0931,
+      "depth_km": 10.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -3644,6 +3700,33 @@
       "has_report": true,
       "links": {
         "report": "events/us6000mt0s/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000n948",
+      "place": "34 km SW of Atiquipa, Peru",
+      "origin_utc": "2024-06-29T07:05:32Z",
+      "epi_lat": -16.0485,
+      "epi_lon": -74.556,
+      "depth_km": 18.0,
+      "Mw": 6.1,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-24T06:48:39Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000n948/REPORT.html"
       }
     },
     {
