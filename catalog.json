@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T15:33:11Z",
+  "generated_utc": "2026-05-24T15:34:37Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 122,
+  "n_events": 123,
   "events": [
     {
       "event_id": "ci38443183",
@@ -8264,8 +8264,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 171,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.404,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 31.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -8273,13 +8285,13 @@
       "pair_contam_max": 20,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-24T15:34:36Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000il1g/REPORT.html"
       }
     },
     {
@@ -8823,6 +8835,35 @@
       "has_report": true,
       "links": {
         "report": "events/us7000lsze/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000mpe2",
+      "place": "western Xizang",
+      "origin_utc": "2024-06-01T00:46:38Z",
+      "epi_lat": 34.1381,
+      "epi_lon": 86.3128,
+      "depth_km": 20.71,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 28.2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 2,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
