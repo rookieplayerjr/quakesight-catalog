@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-24T16:55:47Z",
+  "generated_utc": "2026-05-24T17:20:25Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 125,
   "events": [
@@ -1243,11 +1243,37 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 13.39,
+        "W_km": 9.79,
+        "Z_top_km": 9.88,
+        "dip": -80.5,
+        "strike": 51.8,
+        "Mw_post": 5.9,
+        "VR": {
+          "t174_asc": -0.14,
+          "t6_dsc": 0.54
+        },
+        "fmech": {
+          "strike": 231.8,
+          "dip": 80.5,
+          "rake": -178.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.213,
+        "ess": 125,
+        "geweke": 3.74,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-24T17:20:25Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -1265,8 +1291,31 @@
       "Mw_type": "Mww",
       "faulting_class": "normal",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "121",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2018-12-16",
+            "2018-12-28"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.636,
+          "status": "ready"
+        },
+        {
+          "track": "12",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2018-12-20",
+            "2019-01-01"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.624,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 37.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -8441,15 +8490,24 @@
         "acceptance": 0.209,
         "ess": 176,
         "geweke": 2.09,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "A",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "A"
+        },
         "catalog_disagreement": false,
         "in_sequence": false,
         "sequence_n_ge_5": 5
       },
       "status": "done",
-      "escalation_reason": "Escalation: all_tracks_failed",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-24T16:55:47Z",
       "stale": false,
       "has_report": true,
