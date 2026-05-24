@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T14:46:40Z",
+  "generated_utc": "2026-05-24T15:26:37Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 120,
+  "n_events": 121,
   "events": [
     {
       "event_id": "ci38443183",
@@ -7284,26 +7284,26 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": 120,
+          "track": "120",
           "orbit_dir": "asc",
           "pair_dates": [
-            null,
-            null
+            "2021-07-02",
+            "2021-07-14"
           ],
-          "backend": "licsar",
-          "median_coh": 0.749,
+          "backend": "sp2",
+          "median_coh": 0.195,
           "status": "ready"
         },
         {
-          "track": 156,
+          "track": "156",
           "orbit_dir": "dsc",
           "pair_dates": [
-            null,
-            null
+            "2021-06-23",
+            "2021-07-05"
           ],
-          "backend": "licsar",
-          "median_coh": 0.741,
-          "status": "ready"
+          "backend": "sp2",
+          "median_coh": 0.758,
+          "status": ""
         }
       ],
       "n_tracks": 2,
@@ -7312,11 +7312,36 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 5,
       "pair_contam_max": 7,
-      "result": null,
-      "diagnostics": null,
-      "status": "escalated",
+      "result": {
+        "L_km": 15.25,
+        "W_km": 10.48,
+        "Z_top_km": 23.82,
+        "dip": -56.2,
+        "strike": 168.7,
+        "Mw_post": 6.46,
+        "VR": {
+          "t120_asc": 0.12
+        },
+        "fmech": {
+          "strike": 348.7,
+          "dip": 56.2,
+          "rake": -72.8
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 151,
+        "geweke": 2.83,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 2
+      },
+      "status": "done",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-24T09:02:51Z",
+      "pipeline_run_utc": "2026-05-24T15:26:37Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7739,6 +7764,69 @@
       "has_report": true,
       "links": {
         "report": "events/us7000ga3i/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000hg9p",
+      "place": "249 km NW of Tianpeng, China",
+      "origin_utc": "2022-06-09T17:28:35Z",
+      "epi_lat": 32.3726,
+      "epi_lon": 101.8721,
+      "depth_km": 7.0,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "128",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-05-29",
+            "2022-06-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.368,
+          "status": "ready"
+        },
+        {
+          "track": "135",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2022-05-17",
+            "2022-06-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.209,
+          "status": ""
+        },
+        {
+          "track": "26",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-06-03",
+            "2022-06-15"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.276,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
+      "aoi_half_km": 50.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 6,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
