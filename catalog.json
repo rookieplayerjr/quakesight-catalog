@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-24T19:10:48Z",
+  "generated_utc": "2026-05-24T23:10:12Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 127,
   "events": [
@@ -6529,9 +6529,18 @@
         "acceptance": 0.208,
         "ess": 208,
         "geweke": 2.65,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "C"
+        },
         "catalog_disagreement": false,
         "in_sequence": true,
         "sequence_n_ge_5": 1
@@ -9366,12 +9375,12 @@
         "sequence_n_ge_5": 0
       },
       "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-24T16:37:17Z",
+      "escalation_reason": "Escalation: slipinv_timeout",
+      "pipeline_run_utc": "2026-05-24T23:10:12Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000mpe2/REPORT.html"
       }
     },
     {
