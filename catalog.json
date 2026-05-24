@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T06:58:01Z",
+  "generated_utc": "2026-05-24T07:00:47Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 112,
+  "n_events": 113,
   "events": [
     {
       "event_id": "ci38443183",
@@ -750,8 +750,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "6",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2018-08-22",
+            "2018-08-28"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.804,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 47.4,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -7029,6 +7041,35 @@
       }
     },
     {
+      "event_id": "us7000hj3u",
+      "place": "55 km SW of Kh?st, Afghanistan",
+      "origin_utc": "2022-06-21T20:54:34Z",
+      "epi_lat": 33.0203,
+      "epi_lon": 69.4639,
+      "depth_km": 4.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 66.4,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us7000i59t",
       "place": "44 km SE of Kangding, China",
       "origin_utc": "2022-09-05T04:52:19Z",
@@ -7477,7 +7518,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-24T06:57:21Z",
+      "pipeline_run_utc": "2026-05-24T07:00:46Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8045,8 +8086,20 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "40",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-04-25",
+            "2025-05-01"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.187,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 44.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
