@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-24T07:34:32Z",
+  "generated_utc": "2026-05-24T07:45:47Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 115,
   "events": [
@@ -774,6 +774,17 @@
           "status": "ready"
         },
         {
+          "track": "72",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2018-08-20",
+            "2018-08-26"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.751,
+          "status": "ready"
+        },
+        {
           "track": "79",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -785,7 +796,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 3,
+      "n_tracks": 4,
       "aoi_half_km": 47.4,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -5063,8 +5074,31 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "143",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2019-04-16",
+            "2019-04-28"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.205,
+          "status": ""
+        },
+        {
+          "track": "70",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2019-04-23",
+            "2019-05-05"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.188,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 31.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -5790,14 +5824,14 @@
           "status": "ready"
         },
         {
-          "track": 79,
+          "track": "79",
           "orbit_dir": "dsc",
           "pair_dates": [
-            null,
-            null
+            "2020-02-18",
+            "2020-03-01"
           ],
-          "backend": "licsar",
-          "median_coh": 0.102,
+          "backend": "sp2",
+          "median_coh": 0.25,
           "status": "ready"
         }
       ],
@@ -6839,14 +6873,14 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": 120,
+          "track": "120",
           "orbit_dir": "asc",
           "pair_dates": [
-            null,
-            null
+            "2021-07-02",
+            "2021-07-14"
           ],
-          "backend": "licsar",
-          "median_coh": 0.749,
+          "backend": "sp2",
+          "median_coh": 0.195,
           "status": "ready"
         },
         {
@@ -7245,14 +7279,23 @@
         "acceptance": 0.209,
         "ess": 317,
         "geweke": 2.39,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "C"
+        },
         "catalog_disagreement": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-24T07:34:31Z",
       "stale": false,
@@ -8335,11 +8378,37 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 19.89,
+        "W_km": 10.66,
+        "Z_top_km": 1.29,
+        "dip": -36.2,
+        "strike": 205.5,
+        "Mw_post": 5.98,
+        "VR": {
+          "t18_asc": 0.18,
+          "t40_dsc": 0.05
+        },
+        "fmech": {
+          "strike": 25.5,
+          "dip": 36.2,
+          "rake": 151.5
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.2,
+        "ess": 106,
+        "geweke": 8.31,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-24T07:45:46Z",
       "stale": false,
       "has_report": false,
       "links": {
