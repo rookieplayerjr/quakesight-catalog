@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-24T08:07:40Z",
+  "generated_utc": "2026-05-24T08:15:38Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 116,
   "events": [
@@ -5200,9 +5200,18 @@
         "acceptance": 0.207,
         "ess": 166,
         "geweke": 1.47,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "B",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
         "catalog_disagreement": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
@@ -5977,11 +5986,38 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
-      "result": null,
-      "diagnostics": null,
-      "status": "escalated",
+      "result": {
+        "L_km": 12.27,
+        "W_km": 7.92,
+        "Z_top_km": 0.52,
+        "dip": -92.4,
+        "strike": 209.2,
+        "Mw_post": 5.95,
+        "VR": {
+          "t152_dsc": 0.27,
+          "t72_asc": 0.46,
+          "t79_dsc": 0.48
+        },
+        "fmech": {
+          "strike": 29.2,
+          "dip": 92.4,
+          "rake": 179.8
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.202,
+        "ess": 201,
+        "geweke": 1.97,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-24T07:30:16Z",
+      "pipeline_run_utc": "2026-05-24T08:15:37Z",
       "stale": false,
       "has_report": true,
       "links": {
