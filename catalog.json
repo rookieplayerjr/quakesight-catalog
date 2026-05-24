@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T07:21:15Z",
+  "generated_utc": "2026-05-24T07:21:37Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 113,
+  "n_events": 114,
   "events": [
     {
       "event_id": "ci38443183",
@@ -8042,6 +8042,33 @@
       "has_report": true,
       "links": {
         "report": "events/us7000lsze/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000mstj",
+      "place": "10 km SW of Atiquipa, Peru",
+      "origin_utc": "2024-06-16T14:47:33Z",
+      "epi_lat": -15.8557,
+      "epi_lon": -74.4353,
+      "depth_km": 27.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-24T07:21:36Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000mstj/REPORT.html"
       }
     },
     {
