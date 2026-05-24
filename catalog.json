@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-24T08:15:38Z",
+  "generated_utc": "2026-05-24T08:26:52Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 116,
   "events": [
@@ -6008,15 +6008,24 @@
         "acceptance": 0.202,
         "ess": 201,
         "geweke": 1.97,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "A",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
         "catalog_disagreement": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
       "status": "done",
-      "escalation_reason": "Escalation: all_tracks_failed",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-24T08:15:37Z",
       "stale": false,
       "has_report": true,
@@ -7073,11 +7082,36 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 7,
-      "result": null,
-      "diagnostics": null,
-      "status": "escalated",
+      "result": {
+        "L_km": 17.6,
+        "W_km": 11.37,
+        "Z_top_km": 21.93,
+        "dip": -46.5,
+        "strike": 194.1,
+        "Mw_post": 6.41,
+        "VR": {
+          "t120_asc": 0.04
+        },
+        "fmech": {
+          "strike": 14.1,
+          "dip": 46.5,
+          "rake": -59.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.203,
+        "ess": 156,
+        "geweke": 2.02,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
+      },
+      "status": "done",
       "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-05-24T07:21:15Z",
+      "pipeline_run_utc": "2026-05-24T08:26:51Z",
       "stale": false,
       "has_report": true,
       "links": {
