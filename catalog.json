@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-24T08:29:43Z",
+  "generated_utc": "2026-05-24T08:30:31Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 116,
   "events": [
@@ -841,11 +841,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-24T08:07:00Z",
+      "pipeline_run_utc": "2026-05-24T08:30:30Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us1000ghda/REPORT.html"
       }
     },
     {
