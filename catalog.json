@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-24T12:18:38Z",
+  "generated_utc": "2026-05-24T12:19:02Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 119,
   "events": [
@@ -991,8 +991,8 @@
         "sequence_n_ge_5": 2
       },
       "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-24T06:35:25Z",
+      "escalation_reason": "Escalation: slipinv_timeout",
+      "pipeline_run_utc": "2026-05-24T12:19:02Z",
       "stale": false,
       "has_report": true,
       "links": {
