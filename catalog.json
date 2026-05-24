@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T15:34:37Z",
+  "generated_utc": "2026-05-24T15:43:16Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 123,
+  "n_events": 124,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1178,6 +1178,35 @@
       "has_report": true,
       "links": {
         "report": "events/us2000cl83/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us2000gb4d",
+      "place": "31 km ENE of Sarpol-e Z?ah?b, Iran",
+      "origin_utc": "2018-07-22T10:07:27Z",
+      "epi_lat": 34.5909,
+      "epi_lon": 46.1661,
+      "depth_km": 12.0,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 32.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -7827,11 +7856,37 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 6,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 15.3,
+        "W_km": 10.51,
+        "Z_top_km": 6.99,
+        "dip": -81.5,
+        "strike": 144.4,
+        "Mw_post": 5.82,
+        "VR": {
+          "t128_asc": -0.29,
+          "t26_asc": 0.27
+        },
+        "fmech": {
+          "strike": 324.4,
+          "dip": 81.5,
+          "rake": -28.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.212,
+        "ess": 113,
+        "geweke": 2.73,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-24T15:43:16Z",
       "stale": false,
       "has_report": false,
       "links": {
