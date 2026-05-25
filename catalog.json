@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T11:54:42Z",
+  "generated_utc": "2026-05-25T12:06:39Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 163,
+  "n_events": 164,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4049,11 +4049,51 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 11.65,
+        "W_km": 9.06,
+        "Z_top_km": 5.0,
+        "dip": -69.8,
+        "strike": 140.5,
+        "Mw_post": 5.9,
+        "VR": {
+          "t143_asc": 0.45,
+          "t150_dsc": -1.1
+        },
+        "fmech": {
+          "strike": 320.5,
+          "dip": 69.8,
+          "rake": 161.5
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.204,
+        "ess": 581,
+        "geweke": 2.2,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t150_dsc"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T12:06:38Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -4406,6 +4446,35 @@
       "has_report": true,
       "links": {
         "report": "events/us6000jk0t/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000jk82",
+      "place": "southern Xinjiang, China",
+      "origin_utc": "2023-01-29T23:49:38Z",
+      "epi_lat": 40.0166,
+      "epi_lon": 82.3702,
+      "depth_km": 28.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 22.4,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
