@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T12:18:53Z",
+  "generated_utc": "2026-05-25T12:19:10Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 165,
   "events": [
@@ -11315,22 +11315,31 @@
         "acceptance": 0.199,
         "ess": 243,
         "geweke": 2.88,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "B",
+          "acceptance": "C",
+          "geweke": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
         "flags": [],
-        "catalog_disagreement": false,
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 2
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T12:18:53Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_retry_exhausted",
+      "pipeline_run_utc": "2026-05-25T12:19:09Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000j56z/REPORT.html"
       }
     },
     {
