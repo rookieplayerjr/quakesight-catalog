@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T14:00:40Z",
+  "generated_utc": "2026-05-25T14:10:09Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 169,
+  "n_events": 170,
   "events": [
     {
       "event_id": "ci38443183",
@@ -12044,13 +12044,13 @@
       "pair_contam_max": 1,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_runs_failed",
+      "pipeline_run_utc": "2026-05-25T14:10:08Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000l8p5/REPORT.html"
       }
     },
     {
@@ -12269,6 +12269,35 @@
       "has_report": true,
       "links": {
         "report": "events/us7000lsze/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000luuy",
+      "place": "128 km WNW of Aykol, China",
+      "origin_utc": "2024-01-29T22:27:41Z",
+      "epi_lat": 41.1985,
+      "epi_lon": 78.6388,
+      "depth_km": 10.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 33.6,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 12,
+      "pair_contam_max": 16,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
