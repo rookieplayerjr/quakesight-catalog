@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T11:36:01Z",
+  "generated_utc": "2026-05-25T11:43:40Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 162,
+  "n_events": 163,
   "events": [
     {
       "event_id": "ci38443183",
@@ -10975,11 +10975,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 11.73,
+        "W_km": 9.12,
+        "Z_top_km": 2.36,
+        "dip": -13.6,
+        "strike": 220.6,
+        "Mw_post": 6.5,
+        "VR": {
+          "t165_dsc": 0.05,
+          "t56_asc": 0.08
+        },
+        "fmech": {
+          "strike": 40.6,
+          "dip": 13.6,
+          "rake": 136.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.274,
+        "ess": 100,
+        "geweke": 2885.89,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T11:43:39Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -11114,6 +11142,35 @@
       "has_report": true,
       "links": {
         "report": "events/us7000irjd/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000j56z",
+      "place": "12 km S of Khowy, Iran",
+      "origin_utc": "2023-01-18T10:08:14Z",
+      "epi_lat": 38.4334,
+      "epi_lon": 44.9458,
+      "depth_km": 19.102,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 22.4,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
