@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T09:22:17Z",
+  "generated_utc": "2026-05-25T09:22:32Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 155,
   "events": [
@@ -7738,18 +7738,29 @@
         "acceptance": 0.203,
         "ess": 286,
         "geweke": 1.92,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
-      "escalation_reason": "Escalation: hpc_submit_failed",
-      "pipeline_run_utc": "2026-05-25T09:22:17Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_multiple_critical_railed",
+      "pipeline_run_utc": "2026-05-25T09:22:20Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8343,14 +8354,14 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": "120",
+          "track": 120,
           "orbit_dir": "asc",
           "pair_dates": [
-            "2020-08-24",
-            "2020-09-05"
+            null,
+            null
           ],
-          "backend": "sp2",
-          "median_coh": 0.184,
+          "backend": "licsar",
+          "median_coh": 0.835,
           "status": "ready"
         }
       ],
@@ -8363,8 +8374,8 @@
       "result": null,
       "diagnostics": null,
       "status": "escalated",
-      "escalation_reason": "Escalation: prep_no_tracks",
-      "pipeline_run_utc": "2026-05-25T08:08:19Z",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-25T09:22:32Z",
       "stale": false,
       "has_report": true,
       "links": {
