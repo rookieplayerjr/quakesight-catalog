@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-24T23:50:33Z",
+  "generated_utc": "2026-05-25T00:05:31Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 128,
+  "n_events": 129,
   "events": [
     {
       "event_id": "ci38443183",
@@ -6935,6 +6935,35 @@
       "has_report": true,
       "links": {
         "report": "events/us7000abmk/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000apd0",
+      "place": "69 km WSW of R\u00edo Grande, Panama",
+      "origin_utc": "2020-07-15T21:39:40Z",
+      "epi_lat": 7.4645,
+      "epi_lon": -81.91,
+      "depth_km": 6.59,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 46.2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-25T00:05:31Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000apd0/REPORT.html"
       }
     },
     {
