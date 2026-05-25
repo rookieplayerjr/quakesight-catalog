@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T23:32:09Z",
+  "generated_utc": "2026-05-25T23:37:19Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 200,
   "events": [
@@ -271,8 +271,8 @@
         "acceptance": 0.21,
         "ess": 124,
         "geweke": 4.54,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "GREEN",
+        "verdict": "PASS",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -283,15 +283,13 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [
-          "demoted_atm_dominates_signal"
-        ],
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "escalated",
+      "status": "done",
       "escalation_reason": "gbis_ambiguous",
       "pipeline_run_utc": "2026-05-25T06:14:36Z",
       "stale": false,
@@ -6804,8 +6802,8 @@
         "acceptance": 0.214,
         "ess": 131,
         "geweke": 2.4,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "GREEN",
+        "verdict": "PASS",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -6816,15 +6814,13 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [
-          "demoted_atm_dominates_signal"
-        ],
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "escalated",
+      "status": "done",
       "escalation_reason": "gbis_ambiguous",
       "pipeline_run_utc": "2026-05-25T06:14:44Z",
       "stale": false,
@@ -8058,7 +8054,7 @@
         },
         "flags": [
           "single_los_pattern_D",
-          "demoted_critical_rail"
+          "demoted_all_coh_subnoise"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
@@ -15332,8 +15328,8 @@
         "acceptance": 0.214,
         "ess": 341,
         "geweke": 2.43,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "GREEN",
+        "verdict": "PASS",
         "grades": {
           "ess": "A",
           "acceptance": "B",
@@ -15344,15 +15340,13 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [
-          "demoted_atm_dominates_signal"
-        ],
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 6
       },
-      "status": "partial",
+      "status": "done",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-22T21:21:56Z",
       "stale": false,
