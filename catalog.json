@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T05:42:34Z",
+  "generated_utc": "2026-05-25T05:43:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 141,
   "events": [
@@ -75,6 +75,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -174,6 +175,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -281,6 +283,10 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [
+          "demoted_single_los_geom",
+          "demoted_atm_dominates_signal"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -378,6 +384,7 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -476,6 +483,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -562,6 +570,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -660,6 +669,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -746,6 +756,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -832,6 +845,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -942,6 +958,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -1094,6 +1111,9 @@
           "delta_mw": "C",
           "delta_strike": "C"
         },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -1201,6 +1221,7 @@
           "delta_mw": "D",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -1277,6 +1298,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -1439,6 +1463,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -1526,6 +1551,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -1614,6 +1640,7 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -1688,6 +1715,9 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -1786,6 +1816,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -1872,6 +1903,7 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -1999,6 +2031,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -2075,6 +2108,10 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_single_los_geom"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -2161,6 +2198,7 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -2247,6 +2285,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -2345,6 +2384,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -2455,6 +2495,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -2553,6 +2594,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -2731,6 +2773,7 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -2805,6 +2848,10 @@
           "delta_mw": "C",
           "delta_strike": "C"
         },
+        "flags": [
+          "single_los_pattern_D",
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -2890,6 +2937,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -2976,6 +3024,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -3105,6 +3154,9 @@
           "delta_mw": "C",
           "delta_strike": "B"
         },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -3191,6 +3243,7 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -3277,6 +3330,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -3363,6 +3417,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -3449,6 +3504,7 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -3712,6 +3768,7 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -3819,6 +3876,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -3904,6 +3962,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [
+          "demoted_single_los_geom"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -4001,6 +4062,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -4127,6 +4189,9 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
+        "flags": [
+          "demoted_in_sequence"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -4213,6 +4278,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [
+          "demoted_in_sequence"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": true,
@@ -4287,6 +4355,10 @@
           "delta_mw": "D",
           "delta_strike": "B"
         },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_in_sequence_complex"
+        ],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -4387,6 +4459,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [
+          "demoted_in_sequence"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -4496,6 +4571,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [
+          "demoted_in_sequence"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -4581,6 +4659,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -4716,6 +4795,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -4804,6 +4884,9 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -4889,6 +4972,10 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [
+          "demoted_single_los_geom",
+          "demoted_atm_dominates_signal"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -4997,6 +5084,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -5083,6 +5171,7 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -5169,6 +5258,7 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": true,
@@ -5255,6 +5345,7 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -5340,6 +5431,7 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -5447,6 +5539,9 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
+        "flags": [
+          "demoted_single_los_geom"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -5533,6 +5628,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -5630,6 +5726,7 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -5740,6 +5837,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -5826,6 +5924,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -5900,6 +5999,9 @@
           "delta_mw": "D",
           "delta_strike": "D"
         },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -5985,6 +6087,10 @@
           "delta_mw": "C",
           "delta_strike": "C"
         },
+        "flags": [
+          "single_los_pattern_D",
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -6072,6 +6178,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -6249,6 +6358,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -6334,6 +6444,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [
+          "demoted_single_los_geom"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -6431,6 +6544,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -6519,6 +6633,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -6605,6 +6720,7 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -6702,6 +6818,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -6788,6 +6905,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -6887,6 +7007,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -6987,6 +7108,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -7084,6 +7206,7 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -7244,6 +7367,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -7504,6 +7628,9 @@
           "delta_mw": "D",
           "delta_strike": "C"
         },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -7631,6 +7758,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -7757,6 +7885,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -7843,6 +7972,9 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -7940,6 +8072,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -8049,6 +8182,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -8134,6 +8268,9 @@
           "delta_mw": "C",
           "delta_strike": "C"
         },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -8219,6 +8356,7 @@
           "delta_mw": "D",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -8306,6 +8444,7 @@
           "delta_mw": "D",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": true,
         "np_likely_wrong": true,
         "in_sequence": true,
@@ -8393,6 +8532,9 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -8490,6 +8632,7 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -8616,6 +8759,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -8701,6 +8845,7 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -8867,6 +9012,7 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -8966,6 +9112,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -9054,6 +9201,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -9162,6 +9310,9 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -9247,6 +9398,7 @@
           "delta_mw": "C",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": true,
@@ -9344,6 +9496,7 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": true,
@@ -9461,6 +9614,10 @@
           "delta_mw": "C",
           "delta_strike": "A"
         },
+        "flags": [
+          "single_los_pattern_D",
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -9537,6 +9694,10 @@
           "delta_mw": "C",
           "delta_strike": "C"
         },
+        "flags": [
+          "single_los_pattern_D",
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -9666,6 +9827,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -9817,6 +9979,9 @@
           "delta_mw": "C",
           "delta_strike": "B"
         },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -9943,6 +10108,9 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -10081,6 +10249,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -10246,6 +10415,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -10334,6 +10504,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -10422,6 +10593,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -10525,6 +10697,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -10661,6 +10836,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -10749,6 +10925,9 @@
           "delta_mw": "C",
           "delta_strike": "B"
         },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -10846,6 +11025,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -10954,6 +11134,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [
+          "demoted_atm_dominates_signal"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -11040,6 +11223,7 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -11126,6 +11310,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -11212,6 +11397,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
