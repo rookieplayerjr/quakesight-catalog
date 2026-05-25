@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T16:06:44Z",
+  "generated_utc": "2026-05-25T16:07:59Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 179,
+  "n_events": 180,
   "events": [
     {
       "event_id": "ci38443183",
@@ -2082,11 +2082,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T15:48:31Z",
+      "pipeline_run_utc": "2026-05-25T16:07:58Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000j0th/REPORT.html"
       }
     },
     {
@@ -2294,9 +2294,11 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [],
       "n_tracks": 0,
-      "aoi_half_km": null,
+      "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7510,6 +7512,35 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us70004ejm",
+      "place": "31 km SE of Masjed Soleym?n, Iran",
+      "origin_utc": "2019-07-08T07:00:32Z",
+      "epi_lat": 31.7564,
+      "epi_lon": 49.5611,
+      "depth_km": 19.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 20.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
       "result": null,
       "diagnostics": null,
       "status": "partial",
