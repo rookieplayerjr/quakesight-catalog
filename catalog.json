@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T14:54:13Z",
+  "generated_utc": "2026-05-25T15:03:59Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 175,
+  "n_events": 176,
   "events": [
     {
       "event_id": "ci38443183",
@@ -539,11 +539,38 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 3.4,
+        "W_km": 2.65,
+        "Z_top_km": 4.48,
+        "dip": -106.6,
+        "strike": 331.0,
+        "Mw_post": 5.69,
+        "VR": {
+          "t64_asc": 0.83
+        },
+        "fmech": {
+          "strike": 331.0,
+          "dip": 73.4,
+          "rake": -175.7
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.207,
+        "ess": 275,
+        "geweke": 2.71,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T15:03:58Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -939,6 +966,47 @@
       "has_report": true,
       "links": {
         "report": "events/us1000er8i/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us1000gcek",
+      "place": "23 km NE of Puerto Obald\u00eda, Panama",
+      "origin_utc": "2018-08-18T19:39:07Z",
+      "epi_lat": 8.802,
+      "epi_lon": -77.2506,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "48",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2018-07-31",
+            "2018-08-24"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.176,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 29.9,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -1745,9 +1813,31 @@
           "backend": "sp2",
           "median_coh": 0.647,
           "status": "ready"
+        },
+        {
+          "track": "166",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2018-07-16",
+            "2018-07-28"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.913,
+          "status": "ready"
+        },
+        {
+          "track": "57",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2018-07-20",
+            "2018-08-01"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.812,
+          "status": ""
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 3,
       "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
