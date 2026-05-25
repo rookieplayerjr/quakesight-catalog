@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T03:16:07Z",
+  "generated_utc": "2026-05-25T03:47:21Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 139,
+  "n_events": 140,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4630,6 +4630,47 @@
       "has_report": true,
       "links": {
         "report": "events/us6000nyzk/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000q5q8",
+      "place": "42 km ESE of Rasht, Tajikistan",
+      "origin_utc": "2025-04-13T04:24:00Z",
+      "epi_lat": 38.8992,
+      "epi_lon": 70.8325,
+      "depth_km": 8.0,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "173",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-04-10",
+            "2025-04-22"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.257,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 42.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -9931,7 +9972,7 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: prep_no_tracks",
-      "pipeline_run_utc": "2026-05-25T03:14:34Z",
+      "pipeline_run_utc": "2026-05-25T03:47:21Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -10034,8 +10075,31 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "120",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2024-02-11",
+            "2024-02-23"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.741,
+          "status": "ready"
+        },
+        {
+          "track": "156",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2024-02-14",
+            "2024-02-26"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.836,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 25.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -10177,8 +10241,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "98",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2024-07-03",
+            "2024-07-27"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.2,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 25.1,
       "in_sequence": true,
       "sequence_n_significant": 1,
