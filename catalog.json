@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T11:34:50Z",
+  "generated_utc": "2026-05-25T11:35:29Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 162,
   "events": [
@@ -4032,17 +4032,6 @@
           "status": "ready"
         },
         {
-          "track": "150",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            "2022-08-10",
-            "2022-08-22"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.683,
-          "status": "ready"
-        },
-        {
           "track": "77",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -4054,45 +4043,17 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 3,
+      "n_tracks": 2,
       "aoi_half_km": 44.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": {
-        "L_km": 11.68,
-        "W_km": 9.09,
-        "Z_top_km": 5.0,
-        "dip": -67.4,
-        "strike": 138.9,
-        "Mw_post": 5.89,
-        "VR": {
-          "t143_asc": 0.45,
-          "t150_dsc": -1.1
-        },
-        "fmech": {
-          "strike": 318.9,
-          "dip": 67.4,
-          "rake": 158.8
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.202,
-        "ess": 378,
-        "geweke": 1.74,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
-        "in_sequence": false,
-        "sequence_n_ge_5": 0
-      },
-      "status": "done",
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T11:34:49Z",
+      "pipeline_run_utc": null,
       "stale": false,
       "has_report": false,
       "links": {
@@ -10386,11 +10347,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 3.42,
+        "W_km": 2.66,
+        "Z_top_km": 0.1,
+        "dip": -75.2,
+        "strike": 2.6,
+        "Mw_post": 5.32,
+        "VR": {
+          "t120_asc": 0.39,
+          "t142_dsc": 0.41
+        },
+        "fmech": {
+          "strike": 182.6,
+          "dip": 75.2,
+          "rake": -178.4
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.213,
+        "ess": 644,
+        "geweke": 1.15,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T11:35:24Z",
       "stale": false,
       "has_report": false,
       "links": {
