@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T17:12:30Z",
+  "generated_utc": "2026-05-25T17:56:45Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 184,
+  "n_events": 185,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3420,6 +3420,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "115",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-08-06",
+            "2020-08-18"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.709,
+          "status": "ready"
+        },
+        {
           "track": "151",
           "orbit_dir": "dsc",
           "pair_dates": [
@@ -3429,19 +3440,57 @@
           "backend": "sp2",
           "median_coh": 0.65,
           "status": "ready"
+        },
+        {
+          "track": "42",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-08-01",
+            "2020-08-13"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.694,
+          "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 3,
       "aoi_half_km": 22.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 10.19,
+        "W_km": 8.44,
+        "Z_top_km": 13.58,
+        "dip": -78.6,
+        "strike": 156.6,
+        "Mw_post": 6.05,
+        "VR": {
+          "t151_dsc": 0.59
+        },
+        "fmech": {
+          "strike": 336.6,
+          "dip": 78.6,
+          "rake": 177.7
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.21,
+        "ess": 136,
+        "geweke": 3.02,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T17:56:44Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -9872,6 +9921,69 @@
       "has_report": true,
       "links": {
         "report": "events/us7000biqb/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000c6p3",
+      "place": "60 km WSW of Changuillo, Peru",
+      "origin_utc": "2020-10-28T09:02:33Z",
+      "epi_lat": -14.9365,
+      "epi_lon": -75.7131,
+      "depth_km": 22.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "171",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-10-27",
+            "2020-11-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.163,
+          "status": "ready"
+        },
+        {
+          "track": "18",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-10-28",
+            "2020-11-09"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.187,
+          "status": "ready"
+        },
+        {
+          "track": "98",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-10-22",
+            "2020-11-03"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.347,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
+      "aoi_half_km": 20.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
