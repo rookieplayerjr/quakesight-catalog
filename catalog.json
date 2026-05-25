@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T12:06:39Z",
+  "generated_utc": "2026-05-25T12:07:06Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 164,
   "events": [
@@ -4057,8 +4057,8 @@
         "strike": 140.5,
         "Mw_post": 5.9,
         "VR": {
-          "t143_asc": 0.45,
-          "t150_dsc": -1.1
+          "t143_asc": 0.35,
+          "t77_dsc": -0.83
         },
         "fmech": {
           "strike": 320.5,
@@ -4075,29 +4075,26 @@
         "grades": {
           "ess": "A",
           "acceptance": "B",
-          "geweke": "A",
+          "geweke": "B",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
           "delta_mw": "B",
           "delta_strike": "B"
         },
-        "flags": [
-          "bad_track_contaminates",
-          "drop_candidate:t150_dsc"
-        ],
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T12:06:38Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-05-25T12:07:05Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000iaqi/REPORT.html"
       }
     },
     {
