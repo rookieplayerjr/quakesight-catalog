@@ -338,19 +338,29 @@ function renderTable(){
     h+=`<td><span class="pill" style="background:${statusColor(e)}">`
       +`${statusLabel(e)}${e.stale?' · re-run':''}</span></td>`;
     h+=`<td>${(e.diagnostics||{}).verdict||'—'}</td>`;
-    // flags column: badges for sequence / USGS-Δ / bad-track / dual-NP / np-wrong
+    // flags column: badges for all notable conditions
     let badges='';
-    if(e.in_sequence) badges+=`<span title="in sequence" style="color:#2a76d2;font-weight:600">🔗</span> `;
-    if((e.diagnostics||{}).catalog_disagreement) badges+=`<span title="USGS Δ" style="color:#d138ab;font-weight:600">⚠</span> `;
     const flags=((e.diagnostics||{}).flags)||[];
+    if(e.in_sequence){
+      const n=e.sequence_n_significant||0;
+      badges+=`<span title="in sequence (${n} significant)" style="color:#2a76d2;font-weight:600">🔗</span> `;
+    }
+    if((e.diagnostics||{}).catalog_disagreement)
+      badges+=`<span title="catalog Δ (|ΔMw|≥0.5 or Δstrike≥60°)" style="color:#d138ab;font-weight:600">⚠</span> `;
+    if(flags.includes('mw_disagreement_review'))
+      badges+=`<span title="Mw disagreement 0.3-0.5 (soft)" style="color:#b87333;font-weight:600">m</span> `;
     if(flags.includes('bad_track_contaminates')){
       const drops=flags.filter(f=>f.startsWith('drop_candidate:')).map(f=>f.split(':')[1]).join(',');
-      badges+=`<span title="bad track: drop ${drops}" style="color:#c47800;font-weight:600">🪓</span> `;
+      badges+=`<span title="bad track — drop ${drops}" style="color:#c47800;font-weight:600">🪓</span> `;
     }
     if(flags.includes('normal_fault_dual_plane_ambiguous'))
-      badges+=`<span title="dual NP ambiguous" style="color:#7d3c98;font-weight:600">⚖</span> `;
+      badges+=`<span title="dual NP ambiguous (normal fault)" style="color:#7d3c98;font-weight:600">⚖</span> `;
     if((e.diagnostics||{}).np_likely_wrong)
       badges+=`<span title="NP likely wrong — retry_np2 needed" style="color:#a04000;font-weight:600">↻</span> `;
+    if(flags.includes('single_los_pattern_D')||flags.includes('demoted_single_los_geom'))
+      badges+=`<span title="single LOS — strike ambiguous" style="color:#555555;font-weight:600">1L</span> `;
+    if(flags.includes('demoted_atm_dominates_signal'))
+      badges+=`<span title="atmosphere ≥ signal — noise dominates" style="color:#c0392b;font-weight:600">☁</span> `;
     h+=`<td>${badges||'—'}</td>`;
     h+=e.links&&e.links.report
       ?`<td><a href="${e.links.report}" target="_blank">report →</a></td>`
