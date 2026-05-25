@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T22:58:04Z",
+  "generated_utc": "2026-05-25T23:32:09Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 200,
   "events": [
@@ -284,7 +284,6 @@
           "delta_strike": "A"
         },
         "flags": [
-          "demoted_single_los_geom",
           "demoted_atm_dominates_signal"
         ],
         "catalog_disagreement": false,
@@ -559,8 +558,8 @@
         "acceptance": 0.207,
         "ess": 275,
         "geweke": 2.71,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -571,7 +570,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "demoted_critical_rail"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -646,7 +647,7 @@
         "acceptance": 0.207,
         "ess": 1169,
         "geweke": 1.47,
-        "zone": "GREEN",
+        "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
           "ess": "A",
@@ -745,7 +746,7 @@
         "acceptance": 0.204,
         "ess": 143,
         "geweke": 6.74,
-        "zone": "YELLOW",
+        "zone": "GREEN",
         "verdict": "PASS",
         "grades": {
           "ess": "C",
@@ -921,8 +922,8 @@
         "acceptance": 0.196,
         "ess": 101,
         "geweke": 62.44,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "C",
           "acceptance": "C",
@@ -941,7 +942,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "escalated",
+      "status": "done",
       "escalation_reason": "gbis_single_los_pattern_D",
       "pipeline_run_utc": "2026-05-25T06:14:37Z",
       "stale": false,
@@ -1102,8 +1103,8 @@
         "acceptance": 0.209,
         "ess": 105,
         "geweke": 5.41,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -1120,7 +1121,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "escalated",
+      "status": "done",
       "escalation_reason": "gbis_retry_exhausted",
       "pipeline_run_utc": "2026-05-25T06:14:37Z",
       "stale": false,
@@ -1447,8 +1448,8 @@
         "acceptance": 0.202,
         "ess": 188,
         "geweke": 1.9,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -1465,7 +1466,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 2
       },
-      "status": "escalated",
+      "status": "done",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
       "pipeline_run_utc": "2026-05-25T06:14:37Z",
       "stale": false,
@@ -1974,8 +1975,8 @@
         "acceptance": 0.201,
         "ess": 127,
         "geweke": 3.22,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -1986,7 +1987,9 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "demoted_critical_rail"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -2569,8 +2572,8 @@
         "acceptance": 0.21,
         "ess": 174,
         "geweke": 2.72,
-        "zone": "GREEN",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -2581,13 +2584,15 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "flags": [],
+        "flags": [
+          "demoted_all_coh_subnoise"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 14
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-22T21:21:10Z",
       "stale": false,
@@ -2818,7 +2823,7 @@
         "acceptance": 0.208,
         "ess": 116,
         "geweke": 4.2,
-        "zone": "YELLOW",
+        "zone": "GREEN",
         "verdict": "PASS",
         "grades": {
           "ess": "C",
@@ -2831,8 +2836,7 @@
           "delta_strike": "B"
         },
         "flags": [
-          "single_los_pattern_D",
-          "demoted_single_los_geom"
+          "single_los_pattern_D"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
@@ -3094,8 +3098,8 @@
         "acceptance": 0.207,
         "ess": 100,
         "geweke": 62.06,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -3112,7 +3116,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "partial",
+      "status": "done",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-23T11:20:14Z",
       "stale": false,
@@ -3429,7 +3433,9 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "flags": [],
+        "flags": [
+          "demoted_critical_rail"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -3529,6 +3535,7 @@
           "delta_strike": "C"
         },
         "flags": [
+          "demoted_single_los_geom",
           "mw_disagreement_review"
         ],
         "catalog_disagreement": false,
@@ -4795,7 +4802,7 @@
         "acceptance": 0.204,
         "ess": 1219,
         "geweke": 0.72,
-        "zone": "YELLOW",
+        "zone": "GREEN",
         "verdict": "PASS",
         "grades": {
           "ess": "A",
@@ -5397,8 +5404,8 @@
         "acceptance": 0.216,
         "ess": 112,
         "geweke": 5.01,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -5415,7 +5422,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 2
       },
-      "status": "partial",
+      "status": "done",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-22T23:00:51Z",
       "stale": false,
@@ -5583,7 +5590,7 @@
         "acceptance": 0.206,
         "ess": 194,
         "geweke": 2.91,
-        "zone": "YELLOW",
+        "zone": "GREEN",
         "verdict": "PASS",
         "grades": {
           "ess": "B",
@@ -5595,9 +5602,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [
-          "demoted_single_los_geom"
-        ],
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -5824,9 +5829,7 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "flags": [
-          "demoted_single_los_geom"
-        ],
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -6458,8 +6461,8 @@
         "acceptance": 0.199,
         "ess": 123,
         "geweke": 5.2,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "C",
           "acceptance": "C",
@@ -6470,7 +6473,10 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "flags": [],
+        "flags": [
+          "demoted_in_sequence",
+          "demoted_all_coh_subnoise"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -6811,7 +6817,6 @@
           "delta_strike": "A"
         },
         "flags": [
-          "demoted_single_los_geom",
           "demoted_atm_dominates_signal"
         ],
         "catalog_disagreement": false,
@@ -7286,8 +7291,8 @@
         "acceptance": 0.209,
         "ess": 122,
         "geweke": 2.99,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -7298,13 +7303,16 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
-        "flags": [],
+        "flags": [
+          "demoted_single_los_geom",
+          "demoted_all_coh_subnoise"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 4
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T07:13:06Z",
       "stale": false,
@@ -7394,7 +7402,7 @@
         "acceptance": 0.207,
         "ess": 179,
         "geweke": 1.58,
-        "zone": "YELLOW",
+        "zone": "GREEN",
         "verdict": "PASS",
         "grades": {
           "ess": "B",
@@ -7406,9 +7414,7 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
-        "flags": [
-          "demoted_single_los_geom"
-        ],
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -7483,8 +7489,8 @@
         "acceptance": 0.218,
         "ess": 281,
         "geweke": 2.68,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -7504,7 +7510,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "partial",
+      "status": "done",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-22T23:23:57Z",
       "stale": false,
@@ -7782,8 +7788,8 @@
         "acceptance": 0.207,
         "ess": 190,
         "geweke": 3.46,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -7794,7 +7800,9 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "flags": [],
+        "flags": [
+          "demoted_all_coh_subnoise"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -8036,8 +8044,8 @@
         "acceptance": 0.207,
         "ess": 166,
         "geweke": 1.47,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -8049,14 +8057,15 @@
           "delta_strike": "A"
         },
         "flags": [
-          "single_los_pattern_D"
+          "single_los_pattern_D",
+          "demoted_critical_rail"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T06:42:00Z",
       "stale": false,
@@ -8449,7 +8458,8 @@
           "delta_strike": "A"
         },
         "flags": [
-          "single_los_pattern_D"
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
         ],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
@@ -8804,8 +8814,8 @@
         "acceptance": 0.213,
         "ess": 435,
         "geweke": 1.57,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "A",
           "acceptance": "B",
@@ -8816,7 +8826,9 @@
           "delta_mw": "C",
           "delta_strike": "B"
         },
-        "flags": [],
+        "flags": [
+          "demoted_critical_rail"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -8928,6 +8940,7 @@
           "delta_strike": "A"
         },
         "flags": [
+          "demoted_critical_rail",
           "normal_fault_dual_plane_ambiguous"
         ],
         "catalog_disagreement": false,
@@ -10093,7 +10106,8 @@
           "delta_strike": "C"
         },
         "flags": [
-          "single_los_pattern_D"
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
         ],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
@@ -10363,7 +10377,9 @@
           "delta_mw": "D",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "demoted_critical_rail"
+        ],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -10953,8 +10969,8 @@
         "acceptance": 0.203,
         "ess": 287,
         "geweke": 2.15,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -10971,7 +10987,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "escalated",
+      "status": "done",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
       "pipeline_run_utc": "2026-05-25T06:14:51Z",
       "stale": false,
@@ -11318,8 +11334,8 @@
         "acceptance": 0.207,
         "ess": 124,
         "geweke": 2.97,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -11330,13 +11346,15 @@
           "delta_mw": "B",
           "delta_strike": "C"
         },
-        "flags": [],
+        "flags": [
+          "demoted_all_coh_subnoise"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-22T21:21:49Z",
       "stale": false,
@@ -12327,8 +12345,8 @@
         "acceptance": 0.213,
         "ess": 644,
         "geweke": 1.15,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "A",
           "acceptance": "B",
@@ -12340,6 +12358,7 @@
           "delta_strike": "B"
         },
         "flags": [
+          "demoted_critical_rail",
           "mw_disagreement_review"
         ],
         "catalog_disagreement": false,
@@ -12438,8 +12457,8 @@
         "acceptance": 0.205,
         "ess": 127,
         "geweke": 3.39,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -12458,7 +12477,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "escalated",
+      "status": "done",
       "escalation_reason": "gbis_retry_exhausted",
       "pipeline_run_utc": "2026-05-25T06:14:53Z",
       "stale": false,
@@ -12624,8 +12643,8 @@
         "acceptance": 0.206,
         "ess": 159,
         "geweke": 1.23,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -12636,7 +12655,9 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "flags": [],
+        "flags": [
+          "demoted_all_coh_subnoise"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": true,
@@ -12742,8 +12763,8 @@
         "acceptance": 0.209,
         "ess": 176,
         "geweke": 2.09,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -12756,6 +12777,7 @@
         },
         "flags": [
           "single_los_pattern_D",
+          "demoted_all_coh_subnoise",
           "mw_disagreement_review"
         ],
         "catalog_disagreement": false,
@@ -12763,7 +12785,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 5
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T06:51:36Z",
       "stale": false,
@@ -12836,6 +12858,8 @@
         },
         "flags": [
           "single_los_pattern_D",
+          "demoted_single_los_geom",
+          "demoted_all_coh_subnoise",
           "mw_disagreement_review"
         ],
         "catalog_disagreement": false,
@@ -13307,8 +13331,8 @@
         "acceptance": 0.202,
         "ess": 284,
         "geweke": 2.52,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -13320,6 +13344,7 @@
           "delta_strike": "B"
         },
         "flags": [
+          "demoted_critical_rail",
           "mw_disagreement_review"
         ],
         "catalog_disagreement": false,
@@ -13672,7 +13697,8 @@
           "delta_strike": "C"
         },
         "flags": [
-          "single_los_pattern_D"
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
         ],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
@@ -14297,9 +14323,7 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [
-          "demoted_single_los_geom"
-        ],
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": true,
@@ -14488,7 +14512,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "demoted_critical_rail"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -14658,6 +14684,7 @@
         },
         "flags": [
           "single_los_pattern_D",
+          "demoted_all_coh_subnoise",
           "mw_disagreement_review"
         ],
         "catalog_disagreement": false,
@@ -14853,7 +14880,8 @@
           "delta_strike": "A"
         },
         "flags": [
-          "single_los_pattern_D"
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
@@ -15407,8 +15435,8 @@
         "acceptance": 0.2,
         "ess": 161,
         "geweke": 2.32,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -15425,7 +15453,7 @@
         "in_sequence": true,
         "sequence_n_ge_5": 6
       },
-      "status": "escalated",
+      "status": "done",
       "escalation_reason": "gbis_retry_exhausted",
       "pipeline_run_utc": "2026-05-25T22:58:03Z",
       "stale": false,
