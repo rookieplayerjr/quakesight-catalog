@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T14:53:50Z",
+  "generated_utc": "2026-05-25T14:54:13Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 175,
   "events": [
@@ -12543,22 +12543,33 @@
         "acceptance": 0.213,
         "ess": 234,
         "geweke": 2.63,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "A",
+          "vr_mean": "A",
+          "railed": "C",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "demoted_single_los_geom"
+        ],
         "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "np_likely_wrong": true,
         "in_sequence": true,
         "sequence_n_ge_5": 14
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T14:53:50Z",
+      "pipeline_run_utc": "2026-05-25T14:54:12Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000luuy/REPORT.html"
       }
     },
     {
