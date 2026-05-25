@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T19:21:33Z",
+  "generated_utc": "2026-05-25T19:58:16Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 192,
+  "n_events": 193,
   "events": [
     {
       "event_id": "ci38443183",
@@ -5078,6 +5078,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "152",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2022-09-28",
+            "2022-10-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.727,
+          "status": "ready"
+        },
+        {
           "track": "174",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -5098,9 +5109,20 @@
           "backend": "sp2",
           "median_coh": 0.56,
           "status": "ready"
+        },
+        {
+          "track": "79",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2022-10-05",
+            "2022-10-17"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.697,
+          "status": "ready"
         }
       ],
-      "n_tracks": 2,
+      "n_tracks": 4,
       "aoi_half_km": 20.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -5690,6 +5712,58 @@
       "has_report": true,
       "links": {
         "report": "events/us6000k0xf/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000kx3e",
+      "place": "Eritrea",
+      "origin_utc": "2023-08-01T17:15:25Z",
+      "epi_lat": 15.2211,
+      "epi_lon": 39.5264,
+      "depth_km": 7.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "14",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-07-27",
+            "2023-08-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.276,
+          "status": "ready"
+        },
+        {
+          "track": "152",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-07-25",
+            "2023-08-06"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.503,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 35.9,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 5,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -13146,6 +13220,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "152",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-03-15",
+            "2023-03-27"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.329,
+          "status": "ready"
+        },
+        {
           "track": "174",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -13179,17 +13264,45 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 3,
+      "n_tracks": 4,
       "aoi_half_km": 27.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 9.4,
+        "W_km": 7.78,
+        "Z_top_km": 10.71,
+        "dip": -31.4,
+        "strike": 16.3,
+        "Mw_post": 5.65,
+        "VR": {
+          "t72_asc": 0.12,
+          "t79_dsc": 0.42
+        },
+        "fmech": {
+          "strike": 196.3,
+          "dip": 31.4,
+          "rake": 90.5
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.209,
+        "ess": 140,
+        "geweke": 1.41,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T19:58:15Z",
       "stale": false,
       "has_report": false,
       "links": {
