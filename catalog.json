@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T01:47:54Z",
+  "generated_utc": "2026-05-25T01:47:57Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 133,
   "events": [
@@ -7269,16 +7269,25 @@
         "acceptance": 0.206,
         "ess": 130,
         "geweke": 4.07,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "catalog_disagreement": false,
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "C",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "A",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "catalog_disagreement": true,
         "in_sequence": true,
         "sequence_n_ge_5": 8
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T01:47:54Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-05-25T01:47:57Z",
       "stale": false,
       "has_report": false,
       "links": {
