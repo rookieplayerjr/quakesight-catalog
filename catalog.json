@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T16:14:30Z",
+  "generated_utc": "2026-05-25T16:30:27Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 181,
+  "n_events": 182,
   "events": [
     {
       "event_id": "ci38443183",
@@ -2292,8 +2292,31 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "156",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2019-03-30",
+            "2019-04-11"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.189,
+          "status": "ready"
+        },
+        {
+          "track": "91",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2019-04-06",
+            "2019-04-18"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.174,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -2301,13 +2324,13 @@
       "pair_contam_max": 0,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: prep_no_tracks",
+      "pipeline_run_utc": "2026-05-25T16:30:27Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000kbs5/REPORT.html"
       }
     },
     {
@@ -7575,8 +7598,31 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "108",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.71,
+          "status": "ready"
+        },
+        {
+          "track": "35",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.733,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 20.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -8225,6 +8271,58 @@
       "has_report": true,
       "links": {
         "report": "events/us70006qp1/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us70006sj8",
+      "place": "46 km SE of Gilgit, Pakistan",
+      "origin_utc": "2019-12-30T17:18:57Z",
+      "epi_lat": 35.5909,
+      "epi_lon": 74.628,
+      "depth_km": 13.82,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "27",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2019-12-28",
+            "2020-01-09"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.264,
+          "status": "ready"
+        },
+        {
+          "track": "34",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2019-12-29",
+            "2020-01-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.283,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 22.3,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
