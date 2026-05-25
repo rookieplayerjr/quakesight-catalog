@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T08:29:23Z",
+  "generated_utc": "2026-05-25T09:12:31Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 154,
+  "n_events": 155,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3550,6 +3550,35 @@
       }
     },
     {
+      "event_id": "us6000h0lw",
+      "place": "66 km WNW of Arauco, Chile",
+      "origin_utc": "2022-02-28T01:15:16Z",
+      "epi_lat": -36.9801,
+      "epi_lon": -73.993,
+      "depth_km": 9.93,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 33.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us6000h58x",
       "place": "59 km NNW of Bandar-e Lengeh, Iran",
       "origin_utc": "2022-03-16T23:15:47Z",
@@ -6726,25 +6755,25 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": "10",
+          "track": 10,
           "orbit_dir": "dsc",
           "pair_dates": [
-            "2019-11-15",
-            "2019-11-27"
+            null,
+            null
           ],
-          "backend": "sp2",
-          "median_coh": 0.332,
+          "backend": "licsar",
+          "median_coh": 0.016,
           "status": "ready"
         },
         {
           "track": "112",
           "orbit_dir": "dsc",
           "pair_dates": [
-            "2019-11-10",
-            "2019-11-22"
+            null,
+            null
           ],
-          "backend": "sp2",
-          "median_coh": 0.253,
+          "backend": "licsar",
+          "median_coh": 0.196,
           "status": "ready"
         }
       ],
@@ -7084,11 +7113,38 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 4,
       "pair_contam_max": 9,
-      "result": null,
-      "diagnostics": null,
-      "status": "escalated",
+      "result": {
+        "L_km": 11.7,
+        "W_km": 9.1,
+        "Z_top_km": 9.96,
+        "dip": -54.7,
+        "strike": 81.8,
+        "Mw_post": 6.15,
+        "VR": {
+          "t150_asc": 0.66
+        },
+        "fmech": {
+          "strike": 261.8,
+          "dip": 54.7,
+          "rake": -15.8
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.213,
+        "ess": 435,
+        "geweke": 1.57,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 4
+      },
+      "status": "done",
       "escalation_reason": "Escalation: hpc_submit_failed",
-      "pipeline_run_utc": "2026-05-25T08:08:29Z",
+      "pipeline_run_utc": "2026-05-25T09:12:30Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7589,22 +7645,22 @@
           "track": "121",
           "orbit_dir": "dsc",
           "pair_dates": [
-            null,
-            null
+            "2020-03-16",
+            "2020-03-28"
           ],
-          "backend": "licsar",
-          "median_coh": 0.737,
+          "backend": "sp2",
+          "median_coh": 0.663,
           "status": "ready"
         },
         {
           "track": "12",
           "orbit_dir": "asc",
           "pair_dates": [
-            null,
-            null
+            "2020-03-20",
+            "2020-04-01"
           ],
-          "backend": "licsar",
-          "median_coh": 0.749,
+          "backend": "sp2",
+          "median_coh": 0.703,
           "status": "ready"
         }
       ],
