@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T13:21:20Z",
+  "generated_utc": "2026-05-25T14:00:17Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 168,
+  "n_events": 169,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4813,11 +4813,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 5,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 11.71,
+        "W_km": 9.11,
+        "Z_top_km": 12.95,
+        "dip": -5.4,
+        "strike": 225.6,
+        "Mw_post": 6.22,
+        "VR": {
+          "t56_asc": 0.59,
+          "t92_dsc": 0.09
+        },
+        "fmech": {
+          "strike": 45.6,
+          "dip": 5.4,
+          "rake": 45.7
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.203,
+        "ess": 173,
+        "geweke": 4.12,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T14:00:16Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -11967,6 +11995,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "158",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-10-17",
+            "2023-11-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.204,
+          "status": "ready"
+        },
+        {
           "track": "56",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -11976,14 +12015,77 @@
           "backend": "sp2",
           "median_coh": 0.357,
           "status": "ready"
+        },
+        {
+          "track": "92",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-10-25",
+            "2023-11-06"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.352,
+          "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 3,
       "aoi_half_km": 29.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us7000lhwv",
+      "place": "53 km SSW of Paracas, Peru",
+      "origin_utc": "2023-12-10T11:52:50Z",
+      "epi_lat": -14.3228,
+      "epi_lon": -76.4362,
+      "depth_km": 14.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "171",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-12-05",
+            "2023-12-17"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.172,
+          "status": "ready"
+        },
+        {
+          "track": "18",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-12-06",
+            "2023-12-18"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.176,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 24.6,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 2,
+      "pair_contam_max": 2,
       "result": null,
       "diagnostics": null,
       "status": "partial",
