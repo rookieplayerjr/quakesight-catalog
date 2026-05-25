@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T20:02:48Z",
+  "generated_utc": "2026-05-25T20:10:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 193,
+  "n_events": 194,
   "events": [
     {
       "event_id": "ci38443183",
@@ -5792,11 +5792,38 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 9.97,
+        "W_km": 8.26,
+        "Z_top_km": 6.97,
+        "dip": -46.3,
+        "strike": 309.2,
+        "Mw_post": 5.84,
+        "VR": {
+          "t152_dsc": 0.75
+        },
+        "fmech": {
+          "strike": 129.2,
+          "dip": 46.3,
+          "rake": -105.6
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.205,
+        "ess": 151,
+        "geweke": 1.72,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T20:10:54Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -13475,6 +13502,47 @@
       "has_report": true,
       "links": {
         "report": "events/us7000kp2i/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000kp2j",
+      "place": "3 km E of Restrepo, Colombia",
+      "origin_utc": "2023-08-17T17:17:17Z",
+      "epi_lat": 4.258,
+      "epi_lon": -73.5289,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "69",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-08-12",
+            "2023-08-24"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.192,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 29.9,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 3,
+      "pair_contam_max": 3,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
