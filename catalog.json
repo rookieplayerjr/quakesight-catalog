@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T09:48:57Z",
+  "generated_utc": "2026-05-25T10:09:02Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 155,
+  "n_events": 156,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3422,11 +3422,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 5,
-      "result": null,
-      "diagnostics": null,
-      "status": "escalated",
+      "result": {
+        "L_km": 11.73,
+        "W_km": 9.12,
+        "Z_top_km": 0.1,
+        "dip": -0.1,
+        "strike": 319.8,
+        "Mw_post": 6.3,
+        "VR": {
+          "t127_dsc": 0.01,
+          "t47_asc": -166.43
+        },
+        "fmech": {
+          "strike": 139.8,
+          "dip": 0.1,
+          "rake": -130.6
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 100,
+        "geweke": 54.62,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": "Escalation: hpc_submit_failed",
-      "pipeline_run_utc": "2026-05-25T08:29:22Z",
+      "pipeline_run_utc": "2026-05-25T10:09:01Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9672,6 +9700,47 @@
       "has_report": true,
       "links": {
         "report": "events/us7000ga3i/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000gx8m",
+      "place": "148 km SSW of Laojunmiao, China",
+      "origin_utc": "2022-03-25T16:21:03Z",
+      "epi_lat": 38.5365,
+      "epi_lon": 97.2898,
+      "depth_km": 10.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "4",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2022-03-21",
+            "2022-04-02"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.716,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 33.6,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
