@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T14:19:09Z",
+  "generated_utc": "2026-05-25T14:28:12Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 172,
+  "n_events": 173,
   "events": [
     {
       "event_id": "ci38443183",
@@ -509,8 +509,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "144",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2024-12-09",
+            "2024-12-21"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.702,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 35.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -1503,6 +1515,58 @@
       "has_report": true,
       "links": {
         "report": "events/us2000cqgn/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us2000crtj",
+      "place": "53 km SE of Pedas\u00ed, Panama",
+      "origin_utc": "2018-01-31T16:37:05Z",
+      "epi_lat": 7.2401,
+      "epi_lon": -79.6427,
+      "depth_km": 7.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "113",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2018-01-25",
+            "2018-02-06"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.167,
+          "status": "ready"
+        },
+        {
+          "track": "121",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2018-01-25",
+            "2018-02-06"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.165,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 35.9,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 3,
+      "pair_contam_max": 3,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: prep_no_tracks",
+      "pipeline_run_utc": "2026-05-25T14:28:12Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us2000crtj/REPORT.html"
       }
     },
     {
@@ -12350,6 +12414,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "34",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2024-01-25",
+            "2024-02-06"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.476,
+          "status": "ready"
+        },
+        {
           "track": "56",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -12361,7 +12436,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 33.6,
       "in_sequence": true,
       "sequence_n_significant": 1,
