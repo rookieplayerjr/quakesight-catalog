@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T04:22:29Z",
+  "generated_utc": "2026-05-25T04:43:52Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 141,
   "events": [
@@ -830,7 +830,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-23T08:06:40Z",
+      "pipeline_run_utc": "2026-05-25T04:43:34Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -939,7 +939,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T03:48:57Z",
+      "pipeline_run_utc": "2026-05-25T04:43:34Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1089,7 +1089,7 @@
         "sequence_n_ge_5": 2
       },
       "status": "done",
-      "escalation_reason": "Escalation: slipinv_timeout",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-24T12:19:02Z",
       "stale": false,
       "has_report": true,
@@ -1196,7 +1196,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-05-23T08:07:05Z",
+      "pipeline_run_utc": "2026-05-25T04:43:35Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1253,8 +1253,8 @@
         "acceptance": 0.21,
         "ess": 120,
         "geweke": 2.38,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -1269,9 +1269,9 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
-      "escalation_reason": "Escalation: slipinv_timeout",
-      "pipeline_run_utc": "2026-05-24T12:18:38Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-05-25T04:43:35Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1432,7 +1432,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T03:49:41Z",
+      "pipeline_run_utc": "2026-05-25T04:43:35Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1605,7 +1605,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T03:50:09Z",
+      "pipeline_run_utc": "2026-05-25T04:43:35Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1678,7 +1678,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T02:40:32Z",
+      "pipeline_run_utc": "2026-05-25T04:43:35Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2060,7 +2060,7 @@
         "sequence_n_ge_5": 0
       },
       "status": "done",
-      "escalation_reason": "Escalation: slipinv_timeout",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-24T15:33:11Z",
       "stale": false,
       "has_report": true,
@@ -2146,7 +2146,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T03:52:03Z",
+      "pipeline_run_utc": "2026-05-25T04:43:36Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2436,7 +2436,7 @@
         "sequence_n_ge_5": 1
       },
       "status": "done",
-      "escalation_reason": "Escalation: slipinv_timeout",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-24T16:11:36Z",
       "stale": false,
       "has_report": true,
@@ -3080,7 +3080,7 @@
         "sequence_n_ge_5": 0
       },
       "status": "done",
-      "escalation_reason": "Escalation: slipinv_timeout",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-24T16:44:05Z",
       "stale": false,
       "has_report": true,
@@ -3251,7 +3251,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_weak_signal",
-      "pipeline_run_utc": "2026-05-23T05:31:53Z",
+      "pipeline_run_utc": "2026-05-25T04:43:38Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -4764,7 +4764,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T04:22:28Z",
+      "pipeline_run_utc": "2026-05-25T04:43:41Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5125,7 +5125,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-23T05:31:55Z",
+      "pipeline_run_utc": "2026-05-25T04:43:41Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5210,7 +5210,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-23T05:31:55Z",
+      "pipeline_run_utc": "2026-05-25T04:43:42Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5467,8 +5467,8 @@
         "acceptance": 0.218,
         "ess": 281,
         "geweke": 2.68,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -5483,7 +5483,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-22T23:23:57Z",
       "stale": false,
@@ -5690,7 +5690,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T02:41:08Z",
+      "pipeline_run_utc": "2026-05-25T04:43:42Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5848,7 +5848,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-23T05:31:55Z",
+      "pipeline_run_utc": "2026-05-25T04:43:43Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -6017,7 +6017,7 @@
         "sequence_n_ge_5": 0
       },
       "status": "done",
-      "escalation_reason": "Escalation: slipinv_timeout",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-24T14:38:17Z",
       "stale": false,
       "has_report": true,
@@ -6461,7 +6461,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T03:55:31Z",
+      "pipeline_run_utc": "2026-05-25T04:43:44Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -6642,7 +6642,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-23T05:31:56Z",
+      "pipeline_run_utc": "2026-05-25T04:43:44Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -6923,7 +6923,7 @@
         "sequence_n_ge_5": 1
       },
       "status": "done",
-      "escalation_reason": "Escalation: slipinv_timeout",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-24T14:46:16Z",
       "stale": false,
       "has_report": true,
@@ -7020,7 +7020,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-23T05:31:56Z",
+      "pipeline_run_utc": "2026-05-25T04:43:44Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7438,7 +7438,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T02:42:12Z",
+      "pipeline_run_utc": "2026-05-25T04:43:45Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7564,7 +7564,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-05-23T05:31:56Z",
+      "pipeline_run_utc": "2026-05-25T04:43:46Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7689,7 +7689,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T03:56:41Z",
+      "pipeline_run_utc": "2026-05-25T04:43:46Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7774,7 +7774,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-23T05:31:56Z",
+      "pipeline_run_utc": "2026-05-25T04:43:46Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7870,7 +7870,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-05-23T05:31:56Z",
+      "pipeline_run_utc": "2026-05-25T04:43:46Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8062,7 +8062,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-05-23T05:31:57Z",
+      "pipeline_run_utc": "2026-05-25T04:43:47Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8146,7 +8146,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-05-23T06:12:06Z",
+      "pipeline_run_utc": "2026-05-25T04:43:47Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8231,8 +8231,8 @@
         "sequence_n_ge_5": 2
       },
       "status": "escalated",
-      "escalation_reason": "Escalation: asf_query_failed",
-      "pipeline_run_utc": "2026-05-25T00:14:17Z",
+      "escalation_reason": "gbis_coherence_collapse_after_pass3",
+      "pipeline_run_utc": "2026-05-25T04:43:47Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8317,8 +8317,8 @@
         "sequence_n_ge_5": 2
       },
       "status": "escalated",
-      "escalation_reason": "Escalation: asf_query_failed",
-      "pipeline_run_utc": "2026-05-25T00:13:02Z",
+      "escalation_reason": "gbis_coherence_collapse_after_pass3",
+      "pipeline_run_utc": "2026-05-25T04:43:47Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8770,8 +8770,8 @@
         "acceptance": 0.202,
         "ess": 151,
         "geweke": 2.71,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -8786,7 +8786,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T03:51:35Z",
       "stale": false,
@@ -8886,7 +8886,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T03:57:36Z",
+      "pipeline_run_utc": "2026-05-25T04:43:48Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8972,8 +8972,8 @@
         "sequence_n_ge_5": 1
       },
       "status": "escalated",
-      "escalation_reason": "Escalation: asf_query_failed",
-      "pipeline_run_utc": "2026-05-25T00:13:09Z",
+      "escalation_reason": "gbis_retry_exhausted",
+      "pipeline_run_utc": "2026-05-25T04:43:48Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9080,7 +9080,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T03:58:17Z",
+      "pipeline_run_utc": "2026-05-25T04:43:48Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9164,7 +9164,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T03:58:53Z",
+      "pipeline_run_utc": "2026-05-25T04:43:48Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9451,7 +9451,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-25T03:52:13Z",
+      "pipeline_run_utc": "2026-05-25T04:43:49Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9579,7 +9579,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-05-25T04:00:17Z",
+      "pipeline_run_utc": "2026-05-25T04:43:49Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9854,7 +9854,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T04:01:02Z",
+      "pipeline_run_utc": "2026-05-25T04:43:50Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -10242,7 +10242,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-25T04:11:07Z",
+      "pipeline_run_utc": "2026-05-25T04:43:51Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -10311,8 +10311,8 @@
         "acceptance": 0.211,
         "ess": 136,
         "geweke": 3.17,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "C",
           "acceptance": "B",
@@ -10327,7 +10327,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T04:01:46Z",
       "stale": false,
@@ -10431,7 +10431,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T03:56:38Z",
+      "pipeline_run_utc": "2026-05-25T04:43:51Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -10653,7 +10653,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T04:02:33Z",
+      "pipeline_run_utc": "2026-05-25T04:43:51Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -10749,7 +10749,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-25T02:42:49Z",
+      "pipeline_run_utc": "2026-05-25T04:43:52Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -10941,7 +10941,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-23T05:31:58Z",
+      "pipeline_run_utc": "2026-05-25T04:43:52Z",
       "stale": false,
       "has_report": true,
       "links": {
