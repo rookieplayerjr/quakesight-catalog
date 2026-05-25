@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T02:32:46Z",
+  "generated_utc": "2026-05-25T02:38:26Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 135,
+  "n_events": 136,
   "events": [
     {
       "event_id": "ci38443183",
@@ -9240,11 +9240,36 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 20,
       "pair_contam_max": 20,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 12.63,
+        "W_km": 9.23,
+        "Z_top_km": 1.42,
+        "dip": -12.1,
+        "strike": 91.6,
+        "Mw_post": 6.17,
+        "VR": {
+          "t171_dsc": 0.53
+        },
+        "fmech": {
+          "strike": 271.6,
+          "dip": 12.1,
+          "rake": -161.1
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.214,
+        "ess": 121,
+        "geweke": 4.94,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 5
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T02:38:25Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -9412,6 +9437,35 @@
       "result": null,
       "diagnostics": null,
       "status": "done",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us7000jm0r",
+      "place": "46 km NNW of Novobod, Tajikistan",
+      "origin_utc": "2023-03-22T20:07:44Z",
+      "epi_lat": 39.383,
+      "epi_lon": 69.8931,
+      "depth_km": 12.0,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 32.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": null,
       "stale": false,
