@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T03:56:41Z",
+  "generated_utc": "2026-05-25T03:56:46Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 140,
+  "n_events": 141,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1276,6 +1276,33 @@
       "has_report": true,
       "links": {
         "report": "events/us2000cl83/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us2000cqgn",
+      "place": "47 km SE of Pedas\u00ed, Panama",
+      "origin_utc": "2018-01-27T21:45:12Z",
+      "epi_lat": 7.2827,
+      "epi_lon": -79.6764,
+      "depth_km": 9.8,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -8368,7 +8395,7 @@
       "diagnostics": null,
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-23T20:27:23Z",
+      "pipeline_run_utc": "2026-05-25T03:56:46Z",
       "stale": false,
       "has_report": true,
       "links": {
