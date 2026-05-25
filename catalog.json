@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T21:23:01Z",
+  "generated_utc": "2026-05-25T21:37:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 199,
+  "n_events": 200,
   "events": [
     {
       "event_id": "ci38443183",
@@ -14544,11 +14544,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 10.05,
+        "W_km": 8.32,
+        "Z_top_km": 15.19,
+        "dip": -88.7,
+        "strike": 30.9,
+        "Mw_post": 6.09,
+        "VR": {
+          "t14_asc": 0.08,
+          "t94_dsc": -0.13
+        },
+        "fmech": {
+          "strike": 210.9,
+          "dip": 88.7,
+          "rake": 13.7
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.214,
+        "ess": 143,
+        "geweke": 2.18,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T21:37:55Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -14566,8 +14594,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "129",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2024-04-12",
+            "2024-04-24"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.165,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -15241,6 +15281,80 @@
       "has_report": true,
       "links": {
         "report": "events/us7000qsvj/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000qtst",
+      "place": "40 km WSW of Asad\u0101b\u0101d, Afghanistan",
+      "origin_utc": "2025-09-04T16:56:26Z",
+      "epi_lat": 34.6972,
+      "epi_lon": 70.758,
+      "depth_km": 16.505,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "173",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-09-01",
+            "2025-09-07"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.523,
+          "status": "ready"
+        },
+        {
+          "track": "5",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-09-02",
+            "2025-09-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.66,
+          "status": "ready"
+        },
+        {
+          "track": "71",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-08-25",
+            "2025-09-06"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.644,
+          "status": "ready"
+        },
+        {
+          "track": "78",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-08-26",
+            "2025-09-07"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.601,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 4,
+      "aoi_half_km": 20.0,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 9,
+      "pair_contam_max": 15,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
