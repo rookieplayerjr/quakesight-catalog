@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T06:08:57Z",
+  "generated_utc": "2026-05-25T06:14:58Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 141,
   "events": [
@@ -294,7 +294,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-25T06:08:37Z",
+      "pipeline_run_utc": "2026-05-25T06:14:36Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -855,7 +855,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T06:08:38Z",
+      "pipeline_run_utc": "2026-05-25T06:14:37Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -966,7 +966,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:38Z",
+      "pipeline_run_utc": "2026-05-25T06:14:37Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1229,7 +1229,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-05-25T06:08:39Z",
+      "pipeline_run_utc": "2026-05-25T06:14:37Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1308,7 +1308,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T06:08:39Z",
+      "pipeline_run_utc": "2026-05-25T06:14:38Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1471,7 +1471,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:39Z",
+      "pipeline_run_utc": "2026-05-25T06:14:38Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1646,9 +1646,9 @@
         "in_sequence": false,
         "sequence_n_ge_5": 2
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T06:08:39Z",
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-05-25T03:50:09Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1725,7 +1725,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T06:08:40Z",
+      "pipeline_run_utc": "2026-05-25T06:14:38Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -2206,7 +2206,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:41Z",
+      "pipeline_run_utc": "2026-05-25T06:14:39Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3338,7 +3338,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_weak_signal",
-      "pipeline_run_utc": "2026-05-25T06:08:43Z",
+      "pipeline_run_utc": "2026-05-25T06:14:41Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -4366,7 +4366,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-25T06:08:45Z",
+      "pipeline_run_utc": "2026-05-25T06:14:43Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -4894,7 +4894,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T06:08:45Z",
+      "pipeline_run_utc": "2026-05-25T06:14:44Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -4983,7 +4983,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-25T06:08:45Z",
+      "pipeline_run_utc": "2026-05-25T06:14:44Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5266,7 +5266,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:46Z",
+      "pipeline_run_utc": "2026-05-25T06:14:45Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5353,7 +5353,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:46Z",
+      "pipeline_run_utc": "2026-05-25T06:14:45Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5845,7 +5845,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T06:08:47Z",
+      "pipeline_run_utc": "2026-05-25T06:14:46Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -6009,7 +6009,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T06:08:47Z",
+      "pipeline_run_utc": "2026-05-25T06:14:46Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -6641,7 +6641,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:48Z",
+      "pipeline_run_utc": "2026-05-25T06:14:47Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -6826,7 +6826,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:48Z",
+      "pipeline_run_utc": "2026-05-25T06:14:48Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7214,7 +7214,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:49Z",
+      "pipeline_run_utc": "2026-05-25T06:14:48Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7638,7 +7638,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T06:08:50Z",
+      "pipeline_run_utc": "2026-05-25T06:14:49Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7893,7 +7893,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T06:08:51Z",
+      "pipeline_run_utc": "2026-05-25T06:14:50Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7982,7 +7982,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:51Z",
+      "pipeline_run_utc": "2026-05-25T06:14:50Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8080,7 +8080,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-05-25T06:08:51Z",
+      "pipeline_run_utc": "2026-05-25T06:14:50Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8278,7 +8278,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-05-25T06:08:51Z",
+      "pipeline_run_utc": "2026-05-25T06:14:50Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8364,7 +8364,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-05-25T06:08:51Z",
+      "pipeline_run_utc": "2026-05-25T06:14:51Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8452,7 +8452,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T06:08:51Z",
+      "pipeline_run_utc": "2026-05-25T06:14:51Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8542,7 +8542,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T06:08:52Z",
+      "pipeline_run_utc": "2026-05-25T06:14:51Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9120,7 +9120,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:53Z",
+      "pipeline_run_utc": "2026-05-25T06:14:52Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9209,7 +9209,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:53Z",
+      "pipeline_run_utc": "2026-05-25T06:14:52Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9320,7 +9320,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:53Z",
+      "pipeline_run_utc": "2026-05-25T06:14:53Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9406,7 +9406,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:53Z",
+      "pipeline_run_utc": "2026-05-25T06:14:53Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9705,7 +9705,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-25T06:08:54Z",
+      "pipeline_run_utc": "2026-05-25T06:14:53Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9835,7 +9835,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-05-25T06:08:54Z",
+      "pipeline_run_utc": "2026-05-25T06:14:54Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -10118,7 +10118,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T06:08:54Z",
+      "pipeline_run_utc": "2026-05-25T06:14:54Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -10512,7 +10512,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-25T06:08:55Z",
+      "pipeline_run_utc": "2026-05-25T06:14:55Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -10707,7 +10707,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T06:08:56Z",
+      "pipeline_run_utc": "2026-05-25T06:14:56Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -10935,7 +10935,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T06:08:56Z",
+      "pipeline_run_utc": "2026-05-25T06:14:56Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -11033,7 +11033,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-25T06:08:56Z",
+      "pipeline_run_utc": "2026-05-25T06:14:57Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -11231,7 +11231,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T06:08:57Z",
+      "pipeline_run_utc": "2026-05-25T06:14:57Z",
       "stale": false,
       "has_report": true,
       "links": {
