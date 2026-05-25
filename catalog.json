@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T07:24:59Z",
+  "generated_utc": "2026-05-25T07:25:24Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 141,
+  "n_events": 142,
   "events": [
     {
       "event_id": "ci38443183",
@@ -860,6 +860,33 @@
       "has_report": true,
       "links": {
         "report": "events/us10008m7l/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us1000er8i",
+      "place": "Off the coast of Aisen, Chile",
+      "origin_utc": "2018-06-14T06:27:39Z",
+      "epi_lat": -45.8429,
+      "epi_lon": -76.3048,
+      "depth_km": 10.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-25T07:25:24Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us1000er8i/REPORT.html"
       }
     },
     {
@@ -4845,7 +4872,7 @@
           ],
           "backend": "sp2",
           "median_coh": 0.257,
-          "status": ""
+          "status": "ready"
         },
         {
           "track": "78",
