@@ -340,6 +340,7 @@ function _mwPost(e){return e.result&&e.result.Mw_post;}
 function _nTr(e){const v=(e.diagnostics||{}).raw;return v?v.n_tracks_in_gbis:null;}
 function _zone(e){return (e.diagnostics||{}).zone||null;}
 function _dMw(e){const mp=_mwPost(e);if(mp==null||e.Mw==null)return null;return +(mp-e.Mw).toFixed(2);}
+function _seqN(e){return e.in_sequence?(e.sequence_n_significant||1):0;}
 function _f1(v,n){if(v==null||!isFinite(v))return '—';return Number(v).toFixed(n);}
 function _zonePill(z){
   if(!z) return '—';
@@ -352,6 +353,7 @@ function renderTable(){
     ['depth_km','dep km'],['faulting_class','mech'],
     ['_strike','strike'],['_dip','dip'],['_rake','rake'],
     ['_vrMin','vr_min'],['_vrMean','vr_mean'],['_nTr','n_tr'],
+    ['_seqN','obs⊇seq'],
     ['_zone','zone'],['origin_utc','origin (UTC)'],['place','place']
   ];
   const getVal=(e,k)=>{
@@ -364,6 +366,7 @@ function renderTable(){
       case '_vrMin':  return _vrMin(e);
       case '_vrMean': return _vrMean(e);
       case '_nTr':    return _nTr(e);
+      case '_seqN':   return _seqN(e);
       case '_zone':   return _zone(e);
       default:        return e[k];
     }
@@ -376,8 +379,24 @@ function renderTable(){
     if(vb==null)vb=(typeof va==='number')?-1e9:'';
     return (va<vb?-1:va>vb?1:0)*SORT.dir;
   });
+  // tooltips for any column whose meaning isn't self-evident
+  const COL_TIPS={
+    '_dMw':'Mw_post − Mw_USGS; |Δ|≥0.3 highlighted',
+    '_vrMin':'min per-track variance reduction',
+    '_vrMean':'mean per-track variance reduction',
+    '_nTr':'tracks actually used inside GBIS (after internal cull)',
+    '_seqN':'InSAR co-seismic observation captures the target event PLUS '+
+            'N additional events within the same SAR window '+
+            '(±30d, ±50km, Mw≥5.5 or within 0.3 of target). '+
+            'When N>0 the recovered model is a sum of multiple sources — '+
+            'interpret strike/Mw_post with care.',
+    '_zone':'quality zone: GREEN/YELLOW pass, RED low-fit',
+  };
   let h='<table><thead><tr>';
-  cols.forEach(c=>h+=`<th onclick="sortBy('${c[0]}')">${c[1]}</th>`);
+  cols.forEach(c=>{
+    const tip=COL_TIPS[c[0]]?` title="${COL_TIPS[c[0]]}"`:'';
+    h+=`<th${tip} onclick="sortBy('${c[0]}')">${c[1]}</th>`;
+  });
   h+='<th>flags</th><th>report</th></tr></thead><tbody>';
   rows.forEach(e=>{
     h+='<tr>';
@@ -395,6 +414,16 @@ function renderTable(){
     h+=`<td>${_f1(_vrMin(e),2)}</td>`;
     h+=`<td>${_f1(_vrMean(e),2)}</td>`;
     h+=`<td>${_nTr(e)??'—'}</td>`;
+    // obs⊇seq column: shows "+N" with explicit tooltip when InSAR captures
+    // the target plus N other significant events; "single" otherwise
+    const seqN=_seqN(e);
+    if(seqN>0){
+      h+=`<td title="InSAR observation = target + ${seqN} other significant event(s) in window" `
+        +`style="color:#2a76d2;font-weight:600">🔗 +${seqN}</td>`;
+    } else {
+      h+=`<td title="single-event observation (no other significant EQ in SAR window)" `
+        +`style="color:#5c6b7a">single</td>`;
+    }
     h+=`<td>${_zonePill(_zone(e))}${e.stale?' <span style="color:#c0392b">⟲</span>':''}</td>`;
     h+=`<td>${fmtTime(e.origin_utc)}</td>`;
     h+=`<td>${e.place||''}</td>`;
