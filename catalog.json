@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T05:43:35Z",
+  "generated_utc": "2026-05-25T05:50:03Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 141,
   "events": [
@@ -56,7 +56,7 @@
         "fmech": {
           "strike": 40.4,
           "dip": 81.7,
-          "rake": 176.5
+          "rake": -3.5
         }
       },
       "diagnostics": {
@@ -156,7 +156,7 @@
         "fmech": {
           "strike": 231.9,
           "dip": 21.7,
-          "rake": -26.2
+          "rake": 153.8
         }
       },
       "diagnostics": {
@@ -264,7 +264,7 @@
         "fmech": {
           "strike": 218.0,
           "dip": 69.2,
-          "rake": -58.3
+          "rake": 121.7
         }
       },
       "diagnostics": {
@@ -365,7 +365,7 @@
         "fmech": {
           "strike": 64.0,
           "dip": 45.2,
-          "rake": 160.2
+          "rake": -19.8
         }
       },
       "diagnostics": {
@@ -464,7 +464,7 @@
         "fmech": {
           "strike": 169.8,
           "dip": 73.6,
-          "rake": -171.8
+          "rake": 8.2
         }
       },
       "diagnostics": {
@@ -551,7 +551,7 @@
         "fmech": {
           "strike": 247.1,
           "dip": 81.1,
-          "rake": -176.1
+          "rake": 3.9
         }
       },
       "diagnostics": {
@@ -650,7 +650,7 @@
         "fmech": {
           "strike": 330.8,
           "dip": 36.8,
-          "rake": -122.6
+          "rake": 57.4
         }
       },
       "diagnostics": {
@@ -737,7 +737,7 @@
         "fmech": {
           "strike": 20.5,
           "dip": 63.0,
-          "rake": 104.2
+          "rake": -75.8
         }
       },
       "diagnostics": {
@@ -826,7 +826,7 @@
         "fmech": {
           "strike": 121.9,
           "dip": 47.8,
-          "rake": -123.5
+          "rake": 56.5
         }
       },
       "diagnostics": {
@@ -939,7 +939,7 @@
         "fmech": {
           "strike": 301.0,
           "dip": 85.0,
-          "rake": -37.9
+          "rake": 142.1
         }
       },
       "diagnostics": {
@@ -1092,7 +1092,7 @@
         "fmech": {
           "strike": 89.7,
           "dip": 64.8,
-          "rake": 135.3
+          "rake": -44.7
         }
       },
       "diagnostics": {
@@ -1202,7 +1202,7 @@
         "fmech": {
           "strike": 312.2,
           "dip": 64.8,
-          "rake": -173.3
+          "rake": 6.7
         }
       },
       "diagnostics": {
@@ -1279,7 +1279,7 @@
         "fmech": {
           "strike": 322.1,
           "dip": 65.4,
-          "rake": -35.7
+          "rake": 144.3
         }
       },
       "diagnostics": {
@@ -1444,7 +1444,7 @@
         "fmech": {
           "strike": 231.8,
           "dip": 80.5,
-          "rake": -178.9
+          "rake": 1.1
         }
       },
       "diagnostics": {
@@ -1532,7 +1532,7 @@
         "fmech": {
           "strike": 200.2,
           "dip": 64.8,
-          "rake": -88.5
+          "rake": 91.5
         }
       },
       "diagnostics": {
@@ -1621,7 +1621,7 @@
         "fmech": {
           "strike": 16.5,
           "dip": 52.2,
-          "rake": -15.4
+          "rake": 164.6
         }
       },
       "diagnostics": {
@@ -1696,7 +1696,7 @@
         "fmech": {
           "strike": 54.4,
           "dip": 5.1,
-          "rake": 81.0
+          "rake": -99.0
         }
       },
       "diagnostics": {
@@ -1797,7 +1797,7 @@
         "fmech": {
           "strike": 210.5,
           "dip": 50.9,
-          "rake": 9.2
+          "rake": -170.8
         }
       },
       "diagnostics": {
@@ -1884,7 +1884,7 @@
         "fmech": {
           "strike": 241.6,
           "dip": 58.5,
-          "rake": -121.2
+          "rake": 58.8
         }
       },
       "diagnostics": {
@@ -2012,7 +2012,7 @@
         "fmech": {
           "strike": 145.9,
           "dip": 83.9,
-          "rake": 174.2
+          "rake": -5.8
         }
       },
       "diagnostics": {
@@ -2089,7 +2089,7 @@
         "fmech": {
           "strike": 150.1,
           "dip": 72.2,
-          "rake": -141.2
+          "rake": 38.8
         }
       },
       "diagnostics": {
@@ -2179,7 +2179,7 @@
         "fmech": {
           "strike": 354.4,
           "dip": 46.9,
-          "rake": 162.4
+          "rake": -17.6
         }
       },
       "diagnostics": {
@@ -2266,7 +2266,7 @@
         "fmech": {
           "strike": 130.7,
           "dip": 0.3,
-          "rake": -38.1
+          "rake": 141.9
         }
       },
       "diagnostics": {
@@ -2365,7 +2365,7 @@
         "fmech": {
           "strike": 340.9,
           "dip": 88.2,
-          "rake": -177.2
+          "rake": 2.8
         }
       },
       "diagnostics": {
@@ -2476,7 +2476,7 @@
         "fmech": {
           "strike": 53.9,
           "dip": 86.7,
-          "rake": -119.4
+          "rake": 60.6
         }
       },
       "diagnostics": {
@@ -2575,7 +2575,7 @@
         "fmech": {
           "strike": 203.1,
           "dip": 37.7,
-          "rake": -94.8
+          "rake": 85.2
         }
       },
       "diagnostics": {
@@ -2754,7 +2754,7 @@
         "fmech": {
           "strike": 72.6,
           "dip": 70.5,
-          "rake": 157.9
+          "rake": -22.1
         }
       },
       "diagnostics": {
@@ -2829,7 +2829,7 @@
         "fmech": {
           "strike": 316.4,
           "dip": 23.5,
-          "rake": -157.5
+          "rake": 22.5
         }
       },
       "diagnostics": {
@@ -2918,7 +2918,7 @@
         "fmech": {
           "strike": 357.8,
           "dip": 34.1,
-          "rake": -40.3
+          "rake": 139.7
         }
       },
       "diagnostics": {
@@ -3005,7 +3005,7 @@
         "fmech": {
           "strike": 309.0,
           "dip": 20.1,
-          "rake": 87.3
+          "rake": -92.7
         }
       },
       "diagnostics": {
@@ -3135,7 +3135,7 @@
         "fmech": {
           "strike": 313.2,
           "dip": 24.1,
-          "rake": 110.9
+          "rake": -69.1
         }
       },
       "diagnostics": {
@@ -3224,7 +3224,7 @@
         "fmech": {
           "strike": 199.8,
           "dip": 39.4,
-          "rake": -42.1
+          "rake": 137.9
         }
       },
       "diagnostics": {
@@ -3311,7 +3311,7 @@
         "fmech": {
           "strike": 70.5,
           "dip": 88.5,
-          "rake": 138.5
+          "rake": -41.5
         }
       },
       "diagnostics": {
@@ -3398,7 +3398,7 @@
         "fmech": {
           "strike": 278.0,
           "dip": 25.6,
-          "rake": 72.8
+          "rake": -107.2
         }
       },
       "diagnostics": {
@@ -3485,7 +3485,7 @@
         "fmech": {
           "strike": 102.8,
           "dip": 43.8,
-          "rake": 132.0
+          "rake": -48.0
         }
       },
       "diagnostics": {
@@ -3749,7 +3749,7 @@
         "fmech": {
           "strike": 257.3,
           "dip": 1.3,
-          "rake": 75.8
+          "rake": -104.2
         }
       },
       "diagnostics": {
@@ -3857,7 +3857,7 @@
         "fmech": {
           "strike": 252.3,
           "dip": 46.9,
-          "rake": 55.7
+          "rake": -124.3
         }
       },
       "diagnostics": {
@@ -3943,7 +3943,7 @@
         "fmech": {
           "strike": 223.1,
           "dip": 51.6,
-          "rake": -15.9
+          "rake": 164.1
         }
       },
       "diagnostics": {
@@ -4043,7 +4043,7 @@
         "fmech": {
           "strike": 207.4,
           "dip": 56.7,
-          "rake": -13.5
+          "rake": 166.5
         }
       },
       "diagnostics": {
@@ -4170,7 +4170,7 @@
         "fmech": {
           "strike": 281.7,
           "dip": 30.7,
-          "rake": 115.9
+          "rake": -64.1
         }
       },
       "diagnostics": {
@@ -4259,7 +4259,7 @@
         "fmech": {
           "strike": 267.0,
           "dip": 46.9,
-          "rake": 76.8
+          "rake": -103.2
         }
       },
       "diagnostics": {
@@ -4336,7 +4336,7 @@
         "fmech": {
           "strike": 283.3,
           "dip": 40.9,
-          "rake": 99.6
+          "rake": -80.4
         }
       },
       "diagnostics": {
@@ -4440,7 +4440,7 @@
         "fmech": {
           "strike": 241.2,
           "dip": 45.8,
-          "rake": 93.4
+          "rake": -86.6
         }
       },
       "diagnostics": {
@@ -4552,7 +4552,7 @@
         "fmech": {
           "strike": 246.7,
           "dip": 53.2,
-          "rake": 59.0
+          "rake": -121.0
         }
       },
       "diagnostics": {
@@ -4640,7 +4640,7 @@
         "fmech": {
           "strike": 166.7,
           "dip": 38.7,
-          "rake": 174.6
+          "rake": -5.4
         }
       },
       "diagnostics": {
@@ -4776,7 +4776,7 @@
         "fmech": {
           "strike": 170.5,
           "dip": 77.3,
-          "rake": 154.0
+          "rake": -26.0
         }
       },
       "diagnostics": {
@@ -4865,7 +4865,7 @@
         "fmech": {
           "strike": 67.8,
           "dip": 73.6,
-          "rake": 166.1
+          "rake": -13.9
         }
       },
       "diagnostics": {
@@ -4953,7 +4953,7 @@
         "fmech": {
           "strike": 45.1,
           "dip": 55.3,
-          "rake": -43.9
+          "rake": 136.1
         }
       },
       "diagnostics": {
@@ -5065,7 +5065,7 @@
         "fmech": {
           "strike": 108.0,
           "dip": 47.6,
-          "rake": -104.8
+          "rake": 75.2
         }
       },
       "diagnostics": {
@@ -5152,7 +5152,7 @@
         "fmech": {
           "strike": 81.4,
           "dip": 32.2,
-          "rake": 36.1
+          "rake": -143.9
         }
       },
       "diagnostics": {
@@ -5239,7 +5239,7 @@
         "fmech": {
           "strike": 340.4,
           "dip": 88.2,
-          "rake": 88.0
+          "rake": -92.0
         }
       },
       "diagnostics": {
@@ -5326,7 +5326,7 @@
         "fmech": {
           "strike": 338.6,
           "dip": 64.7,
-          "rake": 32.0
+          "rake": -148.0
         }
       },
       "diagnostics": {
@@ -5412,7 +5412,7 @@
         "fmech": {
           "strike": 230.4,
           "dip": 19.3,
-          "rake": 76.5
+          "rake": -103.5
         }
       },
       "diagnostics": {
@@ -5520,7 +5520,7 @@
         "fmech": {
           "strike": 105.7,
           "dip": 62.8,
-          "rake": -114.8
+          "rake": 65.2
         }
       },
       "diagnostics": {
@@ -5609,7 +5609,7 @@
         "fmech": {
           "strike": 56.7,
           "dip": 87.6,
-          "rake": 21.3
+          "rake": -158.7
         }
       },
       "diagnostics": {
@@ -5707,7 +5707,7 @@
         "fmech": {
           "strike": 41.8,
           "dip": 25.2,
-          "rake": 41.0
+          "rake": -139.0
         }
       },
       "diagnostics": {
@@ -5818,7 +5818,7 @@
         "fmech": {
           "strike": 196.7,
           "dip": 76.0,
-          "rake": 59.9
+          "rake": -120.1
         }
       },
       "diagnostics": {
@@ -5905,7 +5905,7 @@
         "fmech": {
           "strike": 330.0,
           "dip": 74.7,
-          "rake": 7.0
+          "rake": -173.0
         }
       },
       "diagnostics": {
@@ -5980,7 +5980,7 @@
         "fmech": {
           "strike": 182.0,
           "dip": 65.4,
-          "rake": -63.3
+          "rake": 116.7
         }
       },
       "diagnostics": {
@@ -6068,7 +6068,7 @@
         "fmech": {
           "strike": 2.5,
           "dip": 53.7,
-          "rake": 43.5
+          "rake": -136.5
         }
       },
       "diagnostics": {
@@ -6159,7 +6159,7 @@
         "fmech": {
           "strike": 279.9,
           "dip": 10.5,
-          "rake": 112.7
+          "rake": -67.3
         }
       },
       "diagnostics": {
@@ -6339,7 +6339,7 @@
         "fmech": {
           "strike": 133.5,
           "dip": 86.3,
-          "rake": 8.0
+          "rake": -172.0
         }
       },
       "diagnostics": {
@@ -6425,7 +6425,7 @@
         "fmech": {
           "strike": 14.5,
           "dip": 80.4,
-          "rake": 150.1
+          "rake": -29.9
         }
       },
       "diagnostics": {
@@ -6525,7 +6525,7 @@
         "fmech": {
           "strike": 316.2,
           "dip": 41.5,
-          "rake": 76.5
+          "rake": -103.5
         }
       },
       "diagnostics": {
@@ -6614,7 +6614,7 @@
         "fmech": {
           "strike": 13.4,
           "dip": 60.9,
-          "rake": -105.7
+          "rake": 74.3
         }
       },
       "diagnostics": {
@@ -6701,7 +6701,7 @@
         "fmech": {
           "strike": 235.5,
           "dip": 9.9,
-          "rake": 58.3
+          "rake": -121.7
         }
       },
       "diagnostics": {
@@ -6799,7 +6799,7 @@
         "fmech": {
           "strike": 214.6,
           "dip": 67.9,
-          "rake": 166.4
+          "rake": -13.6
         }
       },
       "diagnostics": {
@@ -6886,7 +6886,7 @@
         "fmech": {
           "strike": 216.0,
           "dip": 45.8,
-          "rake": -124.8
+          "rake": 55.2
         }
       },
       "diagnostics": {
@@ -6988,7 +6988,7 @@
         "fmech": {
           "strike": 262.4,
           "dip": 7.4,
-          "rake": -151.4
+          "rake": 28.6
         }
       },
       "diagnostics": {
@@ -7089,7 +7089,7 @@
         "fmech": {
           "strike": 209.2,
           "dip": 87.6,
-          "rake": -0.2
+          "rake": 179.8
         }
       },
       "diagnostics": {
@@ -7187,7 +7187,7 @@
         "fmech": {
           "strike": 241.5,
           "dip": 64.6,
-          "rake": -152.6
+          "rake": 27.4
         }
       },
       "diagnostics": {
@@ -7348,7 +7348,7 @@
         "fmech": {
           "strike": 12.7,
           "dip": 42.6,
-          "rake": -82.7
+          "rake": 97.3
         }
       },
       "diagnostics": {
@@ -7609,7 +7609,7 @@
         "fmech": {
           "strike": 40.6,
           "dip": 0.7,
-          "rake": -135.4
+          "rake": 44.6
         }
       },
       "diagnostics": {
@@ -7739,7 +7739,7 @@
         "fmech": {
           "strike": 337.3,
           "dip": 66.9,
-          "rake": 154.1
+          "rake": -25.9
         }
       },
       "diagnostics": {
@@ -7866,7 +7866,7 @@
         "fmech": {
           "strike": 172.4,
           "dip": 63.2,
-          "rake": -174.6
+          "rake": 5.4
         }
       },
       "diagnostics": {
@@ -7953,7 +7953,7 @@
         "fmech": {
           "strike": 17.5,
           "dip": 9.5,
-          "rake": -115.1
+          "rake": 64.9
         }
       },
       "diagnostics": {
@@ -8053,7 +8053,7 @@
         "fmech": {
           "strike": 234.5,
           "dip": 33.3,
-          "rake": -20.7
+          "rake": 159.3
         }
       },
       "diagnostics": {
@@ -8163,7 +8163,7 @@
         "fmech": {
           "strike": 303.3,
           "dip": 51.5,
-          "rake": -94.6
+          "rake": 85.4
         }
       },
       "diagnostics": {
@@ -8249,7 +8249,7 @@
         "fmech": {
           "strike": 76.9,
           "dip": 58.1,
-          "rake": -164.7
+          "rake": 15.3
         }
       },
       "diagnostics": {
@@ -8337,7 +8337,7 @@
         "fmech": {
           "strike": 271.3,
           "dip": 74.0,
-          "rake": 11.6
+          "rake": -168.4
         }
       },
       "diagnostics": {
@@ -8425,7 +8425,7 @@
         "fmech": {
           "strike": 348.7,
           "dip": 56.2,
-          "rake": -72.8
+          "rake": 107.2
         }
       },
       "diagnostics": {
@@ -8513,7 +8513,7 @@
         "fmech": {
           "strike": 14.1,
           "dip": 46.5,
-          "rake": -59.0
+          "rake": 121.0
         }
       },
       "diagnostics": {
@@ -8613,7 +8613,7 @@
         "fmech": {
           "strike": 214.7,
           "dip": 29.8,
-          "rake": 57.7
+          "rake": -122.3
         }
       },
       "diagnostics": {
@@ -8740,7 +8740,7 @@
         "fmech": {
           "strike": 264.1,
           "dip": 69.2,
-          "rake": 86.5
+          "rake": -93.5
         }
       },
       "diagnostics": {
@@ -8826,7 +8826,7 @@
         "fmech": {
           "strike": 313.0,
           "dip": 88.3,
-          "rake": 42.9
+          "rake": -137.1
         }
       },
       "diagnostics": {
@@ -8993,7 +8993,7 @@
         "fmech": {
           "strike": 353.6,
           "dip": 46.4,
-          "rake": -43.4
+          "rake": 136.6
         }
       },
       "diagnostics": {
@@ -9093,7 +9093,7 @@
         "fmech": {
           "strike": 324.4,
           "dip": 81.5,
-          "rake": -28.0
+          "rake": 152.0
         }
       },
       "diagnostics": {
@@ -9182,7 +9182,7 @@
         "fmech": {
           "strike": 234.5,
           "dip": 44.1,
-          "rake": 157.1
+          "rake": -22.9
         }
       },
       "diagnostics": {
@@ -9291,7 +9291,7 @@
         "fmech": {
           "strike": 74.0,
           "dip": 86.2,
-          "rake": -168.4
+          "rake": 11.6
         }
       },
       "diagnostics": {
@@ -9379,7 +9379,7 @@
         "fmech": {
           "strike": 43.0,
           "dip": 57.1,
-          "rake": 45.4
+          "rake": -134.6
         }
       },
       "diagnostics": {
@@ -9477,7 +9477,7 @@
         "fmech": {
           "strike": 261.6,
           "dip": 52.2,
-          "rake": -176.4
+          "rake": 3.6
         }
       },
       "diagnostics": {
@@ -9595,7 +9595,7 @@
         "fmech": {
           "strike": 310.7,
           "dip": 33.6,
-          "rake": 146.5
+          "rake": -33.5
         }
       },
       "diagnostics": {
@@ -9675,7 +9675,7 @@
         "fmech": {
           "strike": 271.6,
           "dip": 12.1,
-          "rake": -161.1
+          "rake": 18.9
         }
       },
       "diagnostics": {
@@ -9808,7 +9808,7 @@
         "fmech": {
           "strike": 295.1,
           "dip": 51.3,
-          "rake": -86.5
+          "rake": 93.5
         }
       },
       "diagnostics": {
@@ -9960,7 +9960,7 @@
         "fmech": {
           "strike": 235.3,
           "dip": 39.7,
-          "rake": -24.1
+          "rake": 155.9
         }
       },
       "diagnostics": {
@@ -10089,7 +10089,7 @@
         "fmech": {
           "strike": 40.9,
           "dip": 15.1,
-          "rake": 116.5
+          "rake": -63.5
         }
       },
       "diagnostics": {
@@ -10230,7 +10230,7 @@
         "fmech": {
           "strike": 81.8,
           "dip": 4.9,
-          "rake": 106.2
+          "rake": -73.8
         }
       },
       "diagnostics": {
@@ -10396,7 +10396,7 @@
         "fmech": {
           "strike": 227.8,
           "dip": 64.0,
-          "rake": 39.9
+          "rake": -140.1
         }
       },
       "diagnostics": {
@@ -10485,7 +10485,7 @@
         "fmech": {
           "strike": 12.4,
           "dip": 67.3,
-          "rake": -32.8
+          "rake": 147.2
         }
       },
       "diagnostics": {
@@ -10574,7 +10574,7 @@
         "fmech": {
           "strike": 229.3,
           "dip": 40.4,
-          "rake": -138.0
+          "rake": 42.0
         }
       },
       "diagnostics": {
@@ -10678,7 +10678,7 @@
         "fmech": {
           "strike": 348.3,
           "dip": 73.6,
-          "rake": -91.9
+          "rake": 88.1
         }
       },
       "diagnostics": {
@@ -10817,7 +10817,7 @@
         "fmech": {
           "strike": 348.2,
           "dip": 88.9,
-          "rake": -159.7
+          "rake": 20.3
         }
       },
       "diagnostics": {
@@ -10906,7 +10906,7 @@
         "fmech": {
           "strike": 25.5,
           "dip": 36.2,
-          "rake": 151.5
+          "rake": -28.5
         }
       },
       "diagnostics": {
@@ -11006,7 +11006,7 @@
         "fmech": {
           "strike": 240.7,
           "dip": 7.8,
-          "rake": -107.3
+          "rake": 72.7
         }
       },
       "diagnostics": {
@@ -11115,7 +11115,7 @@
         "fmech": {
           "strike": 65.6,
           "dip": 43.5,
-          "rake": 41.5
+          "rake": -138.5
         }
       },
       "diagnostics": {
@@ -11204,7 +11204,7 @@
         "fmech": {
           "strike": 79.6,
           "dip": 46.1,
-          "rake": 72.3
+          "rake": -107.7
         }
       },
       "diagnostics": {
@@ -11291,7 +11291,7 @@
         "fmech": {
           "strike": 80.3,
           "dip": 61.0,
-          "rake": 113.1
+          "rake": -66.9
         }
       },
       "diagnostics": {
@@ -11378,7 +11378,7 @@
         "fmech": {
           "strike": 89.3,
           "dip": 67.3,
-          "rake": 179.7
+          "rake": -0.3
         }
       },
       "diagnostics": {
