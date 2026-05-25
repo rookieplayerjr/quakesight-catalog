@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T14:28:12Z",
+  "generated_utc": "2026-05-25T14:37:45Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 173,
+  "n_events": 174,
   "events": [
     {
       "event_id": "ci38443183",
@@ -520,9 +520,20 @@
           "backend": "sp2",
           "median_coh": 0.702,
           "status": "ready"
+        },
+        {
+          "track": "64",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2024-12-04",
+            "2024-12-16"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.715,
+          "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 35.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -1567,6 +1578,35 @@
       "has_report": true,
       "links": {
         "report": "events/us2000crtj/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us2000cz4c",
+      "place": "34 km WNW of Lebu, Chile",
+      "origin_utc": "2018-02-08T21:19:24Z",
+      "epi_lat": -37.4387,
+      "epi_lon": -73.9794,
+      "depth_km": 4.3,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 41.3,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-25T14:37:45Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us2000cz4c/REPORT.html"
       }
     },
     {
