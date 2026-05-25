@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T03:51:25Z",
+  "generated_utc": "2026-05-25T03:51:36Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 140,
   "events": [
@@ -2094,7 +2094,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-23T05:31:52Z",
+      "pipeline_run_utc": "2026-05-25T03:51:28Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8701,11 +8701,11 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T02:58:19Z",
+      "pipeline_run_utc": "2026-05-25T03:51:35Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000he1h/REPORT.html"
       }
     },
     {
