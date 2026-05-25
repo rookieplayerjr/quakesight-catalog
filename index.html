@@ -102,11 +102,17 @@
       <input id="filter" placeholder="Filter by id, place, mechanism…"
              oninput="render()">
       <div class="legend">
-        <span><i class="dot" style="background:#1a9850"></i>Validated</span>
-        <span><i class="dot" style="background:#e0a008"></i>Needs review</span>
-        <span><i class="dot" style="background:#f0820a"></i>No model</span>
+        <b style="color:#1b252f;width:100%;margin-top:2px">Mechanism (beachball)</b>
+        <span><i class="dot" style="background:#fbc02d"></i>Strike-slip</span>
+        <span><i class="dot" style="background:#1976d2"></i>Normal</span>
+        <span><i class="dot" style="background:#d32f2f"></i>Reverse</span>
+        <span><i class="dot" style="background:#7b1fa2"></i>Oblique</span>
+        <b style="color:#1b252f;width:100%;margin-top:5px">Status (dot · pill)</b>
+        <span><i class="dot" style="background:#1a9850"></i>GREEN</span>
+        <span><i class="dot" style="background:#e0a008"></i>YELLOW</span>
+        <span><i class="dot" style="background:#d64545"></i>RED</span>
+        <span><i class="dot" style="background:#f0820a"></i>Escalated</span>
         <span><i class="dot" style="background:#9aa5b1"></i>In progress</span>
-        <span><i class="dot" style="background:#d64545"></i>Re-run needed</span>
       </div>
     </div>
     <div class="side-count" id="count"></div>
@@ -118,24 +124,46 @@
 <script>
 let CAT=null, MAP=null, MARKERS={}, SORT={key:'Mw',dir:-1}, SEL=null;
 
-// Colors/labels: GREEN and YELLOW are both pass (shippable deliverable), only
-// the QUALITY label differs. So the beachball/dot color is GREEN for both —
-// the label below it tells users whether the result is pristine ("Validated")
-// or carries caveats ("Validated · caveats"). RED = no usable model.
+// Coloring policy (2026-05-25):
+//   • Map marker: beachball whenever GBIS produced a focal mechanism (any
+//     zone). Beachball color = faulting mechanism. No-GBIS events get a
+//     neutral dot. mechColor() classifies by GBIS rake, else faulting_class.
+//   • statusColor()/statusLabel() drive the sidebar/table status pill and
+//     the no-GBIS dot, so users still see GREEN/YELLOW/RED quality.
+function mechColor(e){
+  let m=e.faulting_class||null;
+  const r=e.result&&e.result.fmech&&e.result.fmech.rake;
+  if(r!=null&&isFinite(r)){
+    const a=Math.abs(r);
+    if(a<=30||a>=150) m='strike-slip';
+    else if(r>30&&r<150) m='reverse';
+    else if(r<-30&&r>-150) m='normal';
+    else m='oblique';
+  }
+  switch((m||'').toLowerCase()){
+    case 'strike-slip': return '#fbc02d';
+    case 'normal':      return '#1976d2';
+    case 'reverse':
+    case 'thrust':      return '#d32f2f';
+    case 'oblique':     return '#7b1fa2';
+    default:            return '#9aa5b1';
+  }
+}
 function statusColor(e){
   if(e.stale) return '#d64545';
   const z=e.diagnostics&&e.diagnostics.zone;
-  if(z==='GREEN'||z==='YELLOW') return '#1a9850';   // both pass = green
-  if(z==='RED') return '#f0820a';                   // failed fit → no usable model
+  if(z==='GREEN') return '#1a9850';
+  if(z==='YELLOW') return '#e0a008';
+  if(z==='RED') return '#d64545';
+  if(e.status==='escalated') return '#f0820a';
   if(e.status==='partial') return '#9aa5b1';
-  if(e.status==='escalated') return '#f0820a';      // pre-GBIS failure → no model
   return '#9aa5b1';
 }
 function statusLabel(e){
   const z=e.diagnostics&&e.diagnostics.zone;
   if(z==='GREEN') return 'Validated';
   if(z==='YELLOW') return 'Validated · caveats';
-  if(z==='RED') return 'No model (low fit)';
+  if(z==='RED') return 'Model · low fit';
   if(e.status==='escalated') return 'No model';
   if(e.status==='partial') return 'In progress';
   return 'In progress';
@@ -182,33 +210,22 @@ function buildMap(){
   const pts=[];
   CAT.events.forEach(e=>{
     if(e.epi_lat==null||e.epi_lon==null) return;
-    // Beachball for any event with a GBIS model (GREEN validated or YELLOW
-    // needs-review) — both have a usable focal mechanism, colored by zone.
-    // RED (failed fit, no trustworthy model), escalated and partial → status dot.
+    // Beachball whenever GBIS produced a focal mechanism (any zone — GREEN,
+    // YELLOW, or RED). Color = faulting MECHANISM (mechColor), not the
+    // quality zone — zone is shown in popup, sidebar pill, and table pill.
+    // Events with no GBIS fmech (escalated / partial) → status-color dot.
     const fm=e.result&&e.result.fmech;
-    const z=e.diagnostics&&e.diagnostics.zone;
-    const validated=(z==='GREEN'||z==='YELLOW');
+    const hasFm=fm&&isFinite(fm.strike)&&isFinite(fm.dip)&&isFinite(fm.rake);
     let m;
-    if(validated&&fm&&isFinite(fm.strike)&&isFinite(fm.dip)&&isFinite(fm.rake)){
+    if(hasFm){
       const sz=Math.round(18+Math.max(0,(e.Mw||4)-4)*7);
       m=L.marker([e.epi_lat,e.epi_lon],{icon:L.icon({
-        iconUrl:beachballDataURL(fm.strike,fm.dip,fm.rake,sz,statusColor(e)),
+        iconUrl:beachballDataURL(fm.strike,fm.dip,fm.rake,sz,mechColor(e)),
         iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]})}).addTo(MAP);
     }else{
       m=L.circleMarker([e.epi_lat,e.epi_lon],{
         radius:4+Math.max(0,(e.Mw||4)-4)*3.4,
         color:'#2b3640',weight:1,fillColor:statusColor(e),fillOpacity:.85
-      }).addTo(MAP);
-    }
-    // USGS-disagreement halo: events where InSAR Mw or strike differs from
-    // USGS by ≥0.5 / ≥60° (delta grade D) get a magenta ring marker for
-    // visual triage — these are FOLLOW-UP candidates (real-Mw underestimated,
-    // multi-source signal, or wrong catalog FM). Drawn under the beachball.
-    if(e.diagnostics&&e.diagnostics.catalog_disagreement){
-      L.circleMarker([e.epi_lat,e.epi_lon],{
-        radius:14+Math.max(0,(e.Mw||4)-4)*4,
-        color:'#d138ab',weight:2.5,fillOpacity:0,
-        interactive:false,pane:'shadowPane'
       }).addTo(MAP);
     }
     m.bindPopup(popupHtml(e),{maxWidth:265});
@@ -315,16 +332,48 @@ function renderList(){
 }
 
 /* ---------- table ---------- */
+// helpers to read GBIS detail fields safely
+function _fm(e,k){return e.result&&e.result.fmech&&e.result.fmech[k];}
+function _vrMin(e){const v=(e.diagnostics||{}).raw;return v?v.vr_min:null;}
+function _vrMean(e){const v=(e.diagnostics||{}).raw;return v?v.vr_mean:null;}
+function _mwPost(e){return e.result&&e.result.Mw_post;}
+function _nTr(e){const v=(e.diagnostics||{}).raw;return v?v.n_tracks_in_gbis:null;}
+function _zone(e){return (e.diagnostics||{}).zone||null;}
+function _dMw(e){const mp=_mwPost(e);if(mp==null||e.Mw==null)return null;return +(mp-e.Mw).toFixed(2);}
+function _f1(v,n){if(v==null||!isFinite(v))return '—';return Number(v).toFixed(n);}
+function _zonePill(z){
+  if(!z) return '—';
+  const c={GREEN:'#1a9850',YELLOW:'#e0a008',RED:'#d64545'}[z]||'#9aa5b1';
+  return `<span class="pill" style="background:${c}">${z}</span>`;
+}
 function renderTable(){
-  const cols=[['event_id','event'],['Mw','Mw'],['depth_km','depth km'],
-    ['faulting_class','mechanism'],['origin_utc','origin (UTC)'],
-    ['place','place'],['status','status'],['verdict','verdict']];
+  const cols=[
+    ['event_id','event'],['Mw','Mw'],['_mwPost','Mw_post'],['_dMw','ΔMw'],
+    ['depth_km','dep km'],['faulting_class','mech'],
+    ['_strike','strike'],['_dip','dip'],['_rake','rake'],
+    ['_vrMin','vr_min'],['_vrMean','vr_mean'],['_nTr','n_tr'],
+    ['_zone','zone'],['origin_utc','origin (UTC)'],['place','place']
+  ];
+  const getVal=(e,k)=>{
+    switch(k){
+      case '_mwPost': return _mwPost(e);
+      case '_dMw':    return _dMw(e);
+      case '_strike': return _fm(e,'strike');
+      case '_dip':    return _fm(e,'dip');
+      case '_rake':   return _fm(e,'rake');
+      case '_vrMin':  return _vrMin(e);
+      case '_vrMean': return _vrMean(e);
+      case '_nTr':    return _nTr(e);
+      case '_zone':   return _zone(e);
+      default:        return e[k];
+    }
+  };
   let rows=filtered();
   const k=SORT.key;
   rows.sort((a,b)=>{
-    let va=a[k],vb=b[k];
-    if(k==='verdict'){va=(a.diagnostics||{}).verdict||'';vb=(b.diagnostics||{}).verdict||'';}
-    if(va==null)va='';if(vb==null)vb='';
+    let va=getVal(a,k),vb=getVal(b,k);
+    if(va==null)va=(typeof vb==='number')?-1e9:'';
+    if(vb==null)vb=(typeof va==='number')?-1e9:'';
     return (va<vb?-1:va>vb?1:0)*SORT.dir;
   });
   let h='<table><thead><tr>';
@@ -332,12 +381,23 @@ function renderTable(){
   h+='<th>flags</th><th>report</th></tr></thead><tbody>';
   rows.forEach(e=>{
     h+='<tr>';
-    h+=`<td>${e.event_id}</td><td>${e.Mw??''}</td><td>${e.depth_km??''}</td>`;
-    h+=`<td>${e.faulting_class||''}</td><td>${fmtTime(e.origin_utc)}</td>`;
+    h+=`<td><b>${e.event_id}</b></td>`;
+    h+=`<td>${e.Mw??''}</td>`;
+    h+=`<td>${_f1(_mwPost(e),2)}</td>`;
+    const dmw=_dMw(e);
+    h+=`<td style="color:${dmw!=null&&Math.abs(dmw)>=0.3?'#c47800':'inherit'}">${dmw!=null?(dmw>0?'+'+dmw:dmw):'—'}</td>`;
+    h+=`<td>${e.depth_km??''}</td>`;
+    const mcol=mechColor(e);
+    h+=`<td><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${mcol};margin-right:5px;vertical-align:middle"></span>${e.faulting_class||'—'}</td>`;
+    h+=`<td>${_f1(_fm(e,'strike'),0)}°</td>`;
+    h+=`<td>${_f1(_fm(e,'dip'),0)}°</td>`;
+    h+=`<td>${_f1(_fm(e,'rake'),0)}°</td>`;
+    h+=`<td>${_f1(_vrMin(e),2)}</td>`;
+    h+=`<td>${_f1(_vrMean(e),2)}</td>`;
+    h+=`<td>${_nTr(e)??'—'}</td>`;
+    h+=`<td>${_zonePill(_zone(e))}${e.stale?' <span style="color:#c0392b">⟲</span>':''}</td>`;
+    h+=`<td>${fmtTime(e.origin_utc)}</td>`;
     h+=`<td>${e.place||''}</td>`;
-    h+=`<td><span class="pill" style="background:${statusColor(e)}">`
-      +`${statusLabel(e)}${e.stale?' · re-run':''}</span></td>`;
-    h+=`<td>${(e.diagnostics||{}).verdict||'—'}</td>`;
     // flags column: badges for all notable conditions
     let badges='';
     const flags=((e.diagnostics||{}).flags)||[];
