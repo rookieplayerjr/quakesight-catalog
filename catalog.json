@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T18:31:09Z",
+  "generated_utc": "2026-05-25T18:56:18Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 189,
+  "n_events": 190,
   "events": [
     {
       "event_id": "ci38443183",
@@ -10944,11 +10944,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 4.05,
+        "W_km": 3.35,
+        "Z_top_km": 3.82,
+        "dip": -38.5,
+        "strike": 134.2,
+        "Mw_post": 5.71,
+        "VR": {
+          "t120_asc": 0.21,
+          "t156_dsc": -0.04
+        },
+        "fmech": {
+          "strike": 314.2,
+          "dip": 38.5,
+          "rake": -161.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.209,
+        "ess": 111,
+        "geweke": 2.07,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T18:56:18Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -11342,9 +11370,20 @@
           "backend": "sp2",
           "median_coh": 0.81,
           "status": "ready"
+        },
+        {
+          "track": "99",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-01-15",
+            "2022-01-27"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.795,
+          "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -11588,6 +11627,69 @@
       "has_report": true,
       "links": {
         "report": "events/us7000he1h/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000hg8b",
+      "place": "247 km NW of Tianpeng, China",
+      "origin_utc": "2022-06-09T16:03:26Z",
+      "epi_lat": 32.3152,
+      "epi_lon": 101.8363,
+      "depth_km": 10.14,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "128",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-05-29",
+            "2022-06-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.342,
+          "status": "ready"
+        },
+        {
+          "track": "135",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2022-05-17",
+            "2022-06-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.201,
+          "status": ""
+        },
+        {
+          "track": "26",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-06-03",
+            "2022-06-15"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.272,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
+      "aoi_half_km": 29.6,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 6,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
