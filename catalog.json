@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T21:22:22Z",
+  "generated_utc": "2026-05-25T21:22:42Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 197,
+  "n_events": 198,
   "events": [
     {
       "event_id": "ci38443183",
@@ -6619,6 +6619,33 @@
       "has_report": true,
       "links": {
         "report": "events/us6000nyzk/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000pj4s",
+      "place": "31 km SSW of Bah\u00eda Solano, Colombia",
+      "origin_utc": "2025-01-10T08:14:32Z",
+      "epi_lat": 5.9461,
+      "epi_lon": -77.4683,
+      "depth_km": 18.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-25T21:22:42Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000pj4s/REPORT.html"
       }
     },
     {
@@ -14514,9 +14541,11 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [],
       "n_tracks": 0,
-      "aoi_half_km": null,
+      "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
       "result": null,
       "diagnostics": null,
       "status": "partial",
