@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T03:56:57Z",
+  "generated_utc": "2026-05-25T03:57:36Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 141,
   "events": [
@@ -1291,9 +1291,11 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [],
       "n_tracks": 0,
-      "aoi_half_km": null,
+      "aoi_half_km": 34.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "pair_contam_min": 3,
+      "pair_contam_max": 3,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8826,7 +8828,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T00:58:06Z",
+      "pipeline_run_utc": "2026-05-25T03:57:36Z",
       "stale": false,
       "has_report": true,
       "links": {
