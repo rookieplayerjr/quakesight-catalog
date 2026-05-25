@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T03:52:13Z",
+  "generated_utc": "2026-05-25T03:52:14Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 140,
   "events": [
@@ -9364,11 +9364,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-25T03:51:39Z",
+      "pipeline_run_utc": "2026-05-25T03:52:13Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000il35/REPORT.html"
       }
     },
     {
