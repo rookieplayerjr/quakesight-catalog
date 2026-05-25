@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T06:14:58Z",
+  "generated_utc": "2026-05-25T06:16:58Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 141,
   "events": [
@@ -1463,7 +1463,10 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t174_asc"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -1640,7 +1643,10 @@
           "delta_mw": "A",
           "delta_strike": "B"
         },
-        "flags": [],
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t40_dsc"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -2031,7 +2037,10 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t69_asc"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": true,
@@ -2594,7 +2603,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "normal_fault_dual_plane_ambiguous"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -3768,7 +3779,10 @@
           "delta_mw": "B",
           "delta_strike": "B"
         },
-        "flags": [],
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t78_asc"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -5084,7 +5098,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "normal_fault_dual_plane_ambiguous"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -5628,7 +5644,10 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t144_asc"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -6633,7 +6652,10 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t69_dsc"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -6818,7 +6840,10 @@
           "delta_mw": "B",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t125_asc"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -7973,7 +7998,9 @@
           "delta_strike": "A"
         },
         "flags": [
-          "mw_disagreement_review"
+          "mw_disagreement_review",
+          "bad_track_contaminates",
+          "drop_candidate:t10_asc"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
@@ -8182,7 +8209,9 @@
           "delta_mw": "A",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "normal_fault_dual_plane_ambiguous"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -9201,7 +9230,10 @@
           "delta_mw": "A",
           "delta_strike": "C"
         },
-        "flags": [],
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t78_dsc"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,

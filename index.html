@@ -236,6 +236,13 @@ function popupHtml(e){
   if(e.diagnostics&&e.diagnostics.catalog_disagreement){
     h+=` <span style="color:#d138ab;font-weight:600">⚠ USGS Δ</span>`;
   }
+  if(e.diagnostics&&e.diagnostics.flags&&e.diagnostics.flags.includes('bad_track_contaminates')){
+    const drops=(e.diagnostics.flags||[]).filter(f=>f.startsWith('drop_candidate:')).map(f=>f.split(':')[1]);
+    h+=` <span style="color:#c47800;font-weight:600" title="One or more tracks have very low VR; suggest drop+retry: ${drops.join(', ')}">🪓 bad track</span>`;
+  }
+  if(e.diagnostics&&e.diagnostics.flags&&e.diagnostics.flags.includes('normal_fault_dual_plane_ambiguous')){
+    h+=` <span style="color:#7d3c98;font-weight:600" title="Normal fault: both NP1 and NP2 fit the data — needs dual-plane review">⚖ dual-NP</span>`;
+  }
   h+='<br>';
   if(e.status==='escalated'&&e.escalation_reason)
     h+=`<span class="esc">stopped: ${e.escalation_reason}</span><br>`;
