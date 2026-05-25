@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T06:51:37Z",
+  "generated_utc": "2026-05-25T06:56:07Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 141,
   "events": [
@@ -8413,26 +8413,26 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": "120",
+          "track": 120,
           "orbit_dir": "asc",
           "pair_dates": [
-            "2021-07-02",
-            "2021-07-14"
+            null,
+            null
           ],
-          "backend": "sp2",
-          "median_coh": 0.195,
+          "backend": "licsar",
+          "median_coh": 0.749,
           "status": "ready"
         },
         {
-          "track": "156",
+          "track": 156,
           "orbit_dir": "dsc",
           "pair_dates": [
-            "2021-06-23",
-            "2021-07-05"
+            null,
+            null
           ],
-          "backend": "sp2",
-          "median_coh": 0.758,
-          "status": ""
+          "backend": "licsar",
+          "median_coh": 0.741,
+          "status": "ready"
         }
       ],
       "n_tracks": 2,
@@ -8479,9 +8479,9 @@
         "in_sequence": true,
         "sequence_n_ge_5": 2
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T06:14:51Z",
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-05-25T06:56:06Z",
       "stale": false,
       "has_report": true,
       "links": {
