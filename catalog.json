@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T02:41:44Z",
+  "generated_utc": "2026-05-25T02:42:13Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 137,
   "events": [
@@ -7299,11 +7299,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-25T01:47:57Z",
+      "pipeline_run_utc": "2026-05-25T02:42:12Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000bfmj/REPORT.html"
       }
     },
     {
