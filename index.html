@@ -329,7 +329,7 @@ function renderTable(){
   });
   let h='<table><thead><tr>';
   cols.forEach(c=>h+=`<th onclick="sortBy('${c[0]}')">${c[1]}</th>`);
-  h+='<th>report</th></tr></thead><tbody>';
+  h+='<th>flags</th><th>report</th></tr></thead><tbody>';
   rows.forEach(e=>{
     h+='<tr>';
     h+=`<td>${e.event_id}</td><td>${e.Mw??''}</td><td>${e.depth_km??''}</td>`;
@@ -338,6 +338,20 @@ function renderTable(){
     h+=`<td><span class="pill" style="background:${statusColor(e)}">`
       +`${statusLabel(e)}${e.stale?' · re-run':''}</span></td>`;
     h+=`<td>${(e.diagnostics||{}).verdict||'—'}</td>`;
+    // flags column: badges for sequence / USGS-Δ / bad-track / dual-NP / np-wrong
+    let badges='';
+    if(e.in_sequence) badges+=`<span title="in sequence" style="color:#2a76d2;font-weight:600">🔗</span> `;
+    if((e.diagnostics||{}).catalog_disagreement) badges+=`<span title="USGS Δ" style="color:#d138ab;font-weight:600">⚠</span> `;
+    const flags=((e.diagnostics||{}).flags)||[];
+    if(flags.includes('bad_track_contaminates')){
+      const drops=flags.filter(f=>f.startsWith('drop_candidate:')).map(f=>f.split(':')[1]).join(',');
+      badges+=`<span title="bad track: drop ${drops}" style="color:#c47800;font-weight:600">🪓</span> `;
+    }
+    if(flags.includes('normal_fault_dual_plane_ambiguous'))
+      badges+=`<span title="dual NP ambiguous" style="color:#7d3c98;font-weight:600">⚖</span> `;
+    if((e.diagnostics||{}).np_likely_wrong)
+      badges+=`<span title="NP likely wrong — retry_np2 needed" style="color:#a04000;font-weight:600">↻</span> `;
+    h+=`<td>${badges||'—'}</td>`;
     h+=e.links&&e.links.report
       ?`<td><a href="${e.links.report}" target="_blank">report →</a></td>`
       :'<td>—</td>';
