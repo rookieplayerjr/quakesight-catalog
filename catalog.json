@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T02:42:19Z",
+  "generated_utc": "2026-05-25T02:42:50Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 137,
   "events": [
@@ -10309,13 +10309,13 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-23T04:33:19Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-05-25T02:42:49Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000pyq7/REPORT.html"
       }
     },
     {
