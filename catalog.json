@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T22:01:46Z",
+  "generated_utc": "2026-05-25T22:07:08Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 200,
   "events": [
@@ -14624,11 +14624,38 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 5.5,
+        "W_km": 4.55,
+        "Z_top_km": 5.94,
+        "dip": -63.0,
+        "strike": 158.5,
+        "Mw_post": 6.03,
+        "VR": {
+          "t129_dsc": 0.38
+        },
+        "fmech": {
+          "strike": 338.5,
+          "dip": 63.0,
+          "rake": -57.4
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 127,
+        "geweke": 2.22,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T22:07:08Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -15338,58 +15365,19 @@
           "backend": "sp2",
           "median_coh": 0.644,
           "status": "ready"
-        },
-        {
-          "track": "78",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            "2025-08-26",
-            "2025-09-07"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.601,
-          "status": "ready"
         }
       ],
-      "n_tracks": 4,
+      "n_tracks": 3,
       "aoi_half_km": 20.0,
       "in_sequence": true,
       "sequence_n_significant": 1,
       "pair_contam_min": 9,
       "pair_contam_max": 15,
-      "result": {
-        "L_km": 10.23,
-        "W_km": 8.47,
-        "Z_top_km": 2.57,
-        "dip": -33.7,
-        "strike": 92.5,
-        "Mw_post": 6.03,
-        "VR": {
-          "t71_asc": 0.72,
-          "t78_dsc": 0.12
-        },
-        "fmech": {
-          "strike": 272.5,
-          "dip": 33.7,
-          "rake": 127.1
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.21,
-        "ess": 369,
-        "geweke": 0.61,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
-        "in_sequence": true,
-        "sequence_n_ge_5": 6
-      },
-      "status": "done",
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T22:01:45Z",
+      "pipeline_run_utc": null,
       "stale": false,
       "has_report": false,
       "links": {
