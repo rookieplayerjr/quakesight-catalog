@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T16:06:23Z",
+  "generated_utc": "2026-05-25T16:06:44Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 178,
+  "n_events": 179,
   "events": [
     {
       "event_id": "ci38443183",
@@ -2162,9 +2162,18 @@
         "acceptance": 0.213,
         "ess": 225,
         "geweke": 1.92,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "C",
+          "delta_mw": "B",
+          "delta_strike": "B"
+        },
         "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
@@ -2173,11 +2182,11 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T16:06:20Z",
+      "pipeline_run_utc": "2026-05-25T16:06:44Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000j967/REPORT.html"
       }
     },
     {
@@ -2270,6 +2279,33 @@
       "has_report": true,
       "links": {
         "report": "events/us2000k7vu/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us2000kbs5",
+      "place": "86 km WSW of San Antonio, Chile",
+      "origin_utc": "2019-04-07T10:52:41Z",
+      "epi_lat": -33.7588,
+      "epi_lon": -72.5153,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
