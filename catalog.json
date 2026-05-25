@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T16:30:27Z",
+  "generated_utc": "2026-05-25T16:50:42Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 182,
+  "n_events": 183,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3331,6 +3331,35 @@
       "has_report": true,
       "links": {
         "report": "events/us6000b26j/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000b930",
+      "place": "18 km NNE of Sincik, Turkey",
+      "origin_utc": "2020-08-04T09:37:37Z",
+      "epi_lat": 38.1878,
+      "epi_lon": 38.698,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 29.9,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -7628,11 +7657,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 10.24,
+        "W_km": 8.47,
+        "Z_top_km": 0.99,
+        "dip": -29.8,
+        "strike": 134.8,
+        "Mw_post": 6.29,
+        "VR": {
+          "t108_dsc": 0.08,
+          "t35_dsc": 0.07
+        },
+        "fmech": {
+          "strike": 314.8,
+          "dip": 29.8,
+          "rake": 115.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.207,
+        "ess": 100,
+        "geweke": 47.44,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T16:50:42Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -8286,6 +8343,28 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "100",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2019-12-21",
+            "2020-01-02"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.509,
+          "status": "ready"
+        },
+        {
+          "track": "107",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2019-12-22",
+            "2020-01-03"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.391,
+          "status": "ready"
+        },
+        {
           "track": "27",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -8308,7 +8387,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 2,
+      "n_tracks": 4,
       "aoi_half_km": 22.3,
       "in_sequence": false,
       "sequence_n_significant": 0,
