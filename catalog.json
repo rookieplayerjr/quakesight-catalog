@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T10:43:07Z",
+  "generated_utc": "2026-05-25T10:51:26Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 159,
   "events": [
@@ -9806,11 +9806,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 4,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 11.7,
+        "W_km": 9.1,
+        "Z_top_km": 9.97,
+        "dip": -107.6,
+        "strike": 320.2,
+        "Mw_post": 5.8,
+        "VR": {
+          "t4_dsc": 0.09,
+          "t99_asc": 0.2
+        },
+        "fmech": {
+          "strike": 320.2,
+          "dip": 72.4,
+          "rake": -10.1
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.205,
+        "ess": 103,
+        "geweke": 114.28,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 3
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T10:51:25Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -10201,8 +10229,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "142",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2022-07-17",
+            "2022-07-29"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.222,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 50.3,
       "in_sequence": false,
       "sequence_n_significant": 0,
