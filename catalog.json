@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T12:07:36Z",
+  "generated_utc": "2026-05-25T12:18:53Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 164,
+  "n_events": 165,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4456,8 +4456,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "165",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-01-27",
+            "2023-02-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.328,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 22.4,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -11282,11 +11294,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 11.69,
+        "W_km": 9.09,
+        "Z_top_km": 18.99,
+        "dip": -78.2,
+        "strike": 75.9,
+        "Mw_post": 6.46,
+        "VR": {
+          "t152_dsc": -0.09,
+          "t79_dsc": -1.03
+        },
+        "fmech": {
+          "strike": 255.9,
+          "dip": 78.2,
+          "rake": 175.4
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.199,
+        "ess": 243,
+        "geweke": 2.88,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T12:18:53Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -11574,6 +11614,47 @@
       "has_report": true,
       "links": {
         "report": "events/us7000kp2i/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000kre0",
+      "place": "5 km E of El Cant\u00f3n de San Pablo, Colombia",
+      "origin_utc": "2023-08-27T21:45:00Z",
+      "epi_lat": 5.3394,
+      "epi_lon": -76.6839,
+      "depth_km": 24.036,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "142",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-08-17",
+            "2023-08-29"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.201,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 22.4,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
