@@ -26,61 +26,77 @@
 </head><body>
 
 <h1>us7000eijt — Mw 6.0 — GBIS report</h1>
-
+<div class="verdict"><b>⛔ FAILED-CASE REPORT — unreliable inversion.</b><br>Failing axes: <b>vr_min, vr_mean</b>. The optimum below is for diagnostics only; do NOT use as a source model.<br>Pipeline halted — see <code>escalation.md</code> (<b>Escalation: asf_query_failed</b>).</div>
 
 <div class="summary">
 <b>Event:</b> 72 km WSW of Vallenar, Chile · (-28.736°N, -71.482°E, depth 22.0 km)<br>
 <b>USGS NP1:</b> strike 28.6° / dip 11.7° / rake 115.2°<br>
 <b>USGS NP2:</b> strike 182.9° / dip 79.5° / rake 85.0°<br>
-<b>GBIS optimum:</b> strike 156.9° / dip 45.7° / rake -111.8° / Mw 6.39 (best logP -112.4264)
+<b>GBIS optimum:</b> strike 14.1° / dip 46.5° / rake -59.0° / Mw 6.42 (best logP -94.4125)
 </div>
 
 
 
 <h2>1. Raw observations (deramped + cropped)</h2>
-<img src="gbis/np2/figures/01_raw_obs.png">
+<img src="gbis/np1/figures/01_raw_obs.png">
 
 
 <h2>2. Two-round iterative downsampling (Pass-1 zoned → Pass-2 synth-quadtree)</h2>
-<img src="gbis/np2/figures/02_ds_two_pass.png">
+<img src="gbis/np1/figures/02_ds_two_pass.png">
 
 <h2>3. Initial start, search range, and GBIS-reported optimum</h2>
 <table>
 <tr><th>parameter</th><th>start</th><th>lower</th><th>upper</th><th>USGS NP1 / W&C</th><th>GBIS optimum</th></tr>
-<tr><td>L (km)</td><td class="c">12.59</td><td class="c">5.04</td><td class="c">17.62</td><td class="c">12.59</td><td class="c"><b>17.46</b></td></tr>
-<tr><td>W (km)</td><td class="c">8.13</td><td class="c">3.25</td><td class="c">11.38</td><td class="c">8.13</td><td class="c"><b>11.27</b></td></tr>
-<tr><td>Z_top (km)</td><td class="c">21.18</td><td class="c">0.10</td><td class="c">22.00</td><td class="c">21.18</td><td class="c"><b>21.94</b></td></tr>
-<tr><td>dip (°)</td><td class="c">11.7</td><td class="c">44.5</td><td class="c">90.0</td><td class="c">11.7</td><td class="c"><b>45.7</b></td></tr>
-<tr><td>strike (°)</td><td class="c">28.6</td><td class="c">122.9</td><td class="c">242.9</td><td class="c">28.6</td><td class="c"><b>156.9</b></td></tr>
-<tr><td>X (km)</td><td class="c">0</td><td class="c">-15.0</td><td class="c">15.0</td><td class="c">0</td><td class="c"><b>2.19</b></td></tr>
-<tr><td>Y (km)</td><td class="c">0</td><td class="c">-15.0</td><td class="c">15.0</td><td class="c">0</td><td class="c"><b>-14.93</b></td></tr>
-<tr><td>SS (m)</td><td class="c">-0.162</td><td class="c">-2.00</td><td class="c">+2.00</td><td class="c">-0.162</td><td class="c"><b>-0.286</b></td></tr>
-<tr><td>DS (m)</td><td class="c">+0.345</td><td class="c">-2.00</td><td class="c">+2.00</td><td class="c">+0.345</td><td class="c"><b>-0.715</b></td></tr>
+<tr><td>L (km)</td><td class="c">12.59</td><td class="c">5.04</td><td class="c">17.62</td><td class="c">12.59</td><td class="c"><b>17.60</b></td></tr>
+<tr><td>W (km)</td><td class="c">8.13</td><td class="c">3.25</td><td class="c">11.38</td><td class="c">8.13</td><td class="c"><b>11.37</b></td></tr>
+<tr><td>Z_top (km)</td><td class="c">21.18</td><td class="c">0.10</td><td class="c">22.00</td><td class="c">21.18</td><td class="c"><b>21.93</b></td></tr>
+<tr><td>dip (°)</td><td class="c">11.7</td><td class="c">0.1</td><td class="c">46.6</td><td class="c">11.7</td><td class="c"><b>46.5</b></td></tr>
+<tr><td>strike (°)</td><td class="c">28.6</td><td class="c">328.6</td><td class="c">88.6</td><td class="c">28.6</td><td class="c"><b>14.1</b></td></tr>
+<tr><td>X (km)</td><td class="c">0</td><td class="c">-15.0</td><td class="c">15.0</td><td class="c">0</td><td class="c"><b>-3.08</b></td></tr>
+<tr><td>Y (km)</td><td class="c">0</td><td class="c">-15.0</td><td class="c">15.0</td><td class="c">0</td><td class="c"><b>-14.96</b></td></tr>
+<tr><td>SS (m)</td><td class="c">-0.162</td><td class="c">-2.00</td><td class="c">+2.00</td><td class="c">-0.162</td><td class="c"><b>+0.426</b></td></tr>
+<tr><td>DS (m)</td><td class="c">+0.345</td><td class="c">-2.00</td><td class="c">+2.00</td><td class="c">+0.345</td><td class="c"><b>-0.708</b></td></tr>
 <tr><th colspan=4>derived</th><th class="c">USGS</th><th class="c">GBIS</th></tr>
-<tr><td>|slip| (m)</td><td colspan=3></td><td class="c">0.381</td><td class="c"><b>0.771</b></td></tr>
-<tr><td>rake (°)</td><td colspan=3></td><td class="c">115.2</td><td class="c"><b>-111.8</b></td></tr>
-<tr><td>Mw</td><td colspan=3></td><td class="c">6.00</td><td class="c"><b>6.39</b></td></tr>
-<tr><td>Z_bot (km)</td><td colspan=3></td><td class="c">22.82</td><td class="c"><b>30.00</b></td></tr>
-<tr><td><b>震源深度 / centroid depth (km)</b></td><td colspan=3></td><td class="c">22.00</td><td class="c"><b>25.97</b></td></tr>
+<tr><td>|slip| (m)</td><td colspan=3></td><td class="c">0.381</td><td class="c"><b>0.827</b></td></tr>
+<tr><td>rake (°)</td><td colspan=3></td><td class="c">115.2</td><td class="c"><b>-59.0</b></td></tr>
+<tr><td>Mw</td><td colspan=3></td><td class="c">6.00</td><td class="c"><b>6.42</b></td></tr>
+<tr><td>Z_bot (km)</td><td colspan=3></td><td class="c">22.82</td><td class="c"><b>30.17</b></td></tr>
+<tr><td><b>震源深度 / centroid depth (km)</b></td><td colspan=3></td><td class="c">22.00</td><td class="c"><b>26.05</b></td></tr>
 </table>
 <p style="font-size:12px;color:#666">震源深度对比：USGS = 报告的震源（hypocenter）深度；GBIS = 断层质心深度 (Z_top+Z_bot)/2。</p>
 <p style="font-size:12px;color:#666">Note: GBIS optimum = single MAP sample reported by GBIS in <code>invResults.model.optimal</code>, NOT a chain median.</p>
-
+<div class="verdict"><b>Adaptive grade — zone RED</b><br>acceptance 0.20 (0.20–0.45) · ESS 156 (≥250) · Geweke |z| 2.02 (≤2) · VR_min 0.04<br>grades: ess=B · acceptance=B · geweke=B · vr_min=D · vr_mean=D · railed=C · delta_mw=C · delta_strike=A</div>
 
 <h2>4. Beachball comparison</h2>
-<img src="gbis/np2/figures/04_beachball.png">
+<img src="gbis/np1/figures/04_beachball.png">
 
 <h2>5. Triplet — data / model / residual using GBIS optimum</h2>
-<img src="gbis/np2/figures/05_triplet_optimum.png">
+<img src="gbis/np1/figures/05_triplet_optimum.png">
 
 <h2>6. Joint-posterior corner plot</h2>
-<img src="gbis/np2/figures/06_corner.png">
+<img src="gbis/np1/figures/06_corner.png">
 <p style="font-size:12px;color:#666">Red truth lines = USGS NP1 (W&amp;C scaled). Density contours = 39%, 68%, 95% credible regions.</p>
 
 <h2>7. Burn-in / chain trace</h2>
-<img src="gbis/np2/figures/07_trace.png">
+<img src="gbis/np1/figures/07_trace.png">
 <p style="font-size:12px;color:#666">Blue shading = SA cooling (first 50k iterations). Gray = post-burnin MCMC. Red horizontal = GBIS reported optimum. Dashed orange = USGS NP1 W&amp;C value.</p>
 
 
+<h2>8. Agent Review (LLM advisory)</h2>
+<div style="background:#f5f8fc;border-left:4px solid #666;
+            padding:11px 14px;margin:12px 0;font-size:13px;line-height:1.55">
+  <div style="font-size:15px"><b style="color:#666">Rating: ?</b>
+   &nbsp;·&nbsp; <i>LLM advisor not invoked</i></div>
+  <div style="margin-top:8px"><b>Recommendation:</b> <code>manual_review</code>
+   &nbsp; <b>Confidence:</b> low</div>
+  
+  <div><b>Concerns:</b><ul style="margin:4px 0"><li>ANTHROPIC_API_KEY not set — to enable LLM advisory, export ANTHROPIC_API_KEY and re-run</li></ul></div>
+  <div><b>Rationale:</b> ANTHROPIC_API_KEY not set — to enable LLM advisory, export ANTHROPIC_API_KEY and re-run</div>
+  
+  <div style="margin-top:10px;color:#777;font-size:11.5px">
+    Advisory only. Generated by claude ?
+    (0 tokens) — not used to drive pipeline actions.
+  </div>
+</div>
 
 </body></html>
