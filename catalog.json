@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T02:58:20Z",
+  "generated_utc": "2026-05-25T02:58:23Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 137,
   "events": [
@@ -8631,9 +8631,18 @@
         "acceptance": 0.202,
         "ess": 151,
         "geweke": 2.71,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "C",
+          "vr_mean": "D",
+          "railed": "C",
+          "delta_mw": "B",
+          "delta_strike": "B"
+        },
         "catalog_disagreement": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
