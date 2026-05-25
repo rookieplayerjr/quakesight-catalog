@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T00:11:59Z",
+  "generated_utc": "2026-05-25T00:12:46Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 133,
   "events": [
@@ -7310,8 +7310,8 @@
       "result": null,
       "diagnostics": null,
       "status": "escalated",
-      "escalation_reason": "Escalation: no_sar_coverage",
-      "pipeline_run_utc": "2026-05-24T07:30:38Z",
+      "escalation_reason": "Escalation: asf_query_failed",
+      "pipeline_run_utc": "2026-05-25T00:12:46Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -7966,8 +7966,8 @@
         "sequence_n_ge_5": 2
       },
       "status": "escalated",
-      "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-24T08:29:20Z",
+      "escalation_reason": "Escalation: asf_query_failed",
+      "pipeline_run_utc": "2026-05-25T00:12:42Z",
       "stale": false,
       "has_report": true,
       "links": {
