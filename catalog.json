@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T10:54:23Z",
+  "generated_utc": "2026-05-25T11:00:52Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 160,
+  "n_events": 161,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4006,6 +4006,35 @@
       "has_report": true,
       "links": {
         "report": "events/us6000i9br/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000iaqi",
+      "place": "194 km NNE of Nagqu, China",
+      "origin_utc": "2022-08-14T08:20:00Z",
+      "epi_lat": 33.1157,
+      "epi_lon": 92.7977,
+      "depth_km": 5.0,
+      "Mw": 5.7,
+      "Mw_type": "Mwb",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 44.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -9874,11 +9903,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T10:51:25Z",
+      "pipeline_run_utc": "2026-05-25T11:00:52Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000gx8m/REPORT.html"
       }
     },
     {
