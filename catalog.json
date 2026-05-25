@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T07:56:16Z",
+  "generated_utc": "2026-05-25T08:08:20Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 149,
+  "n_events": 150,
   "events": [
     {
       "event_id": "ci38443183",
@@ -6883,8 +6883,31 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "150",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2019-12-18",
+            "2019-12-30"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.214,
+          "status": "ready"
+        },
+        {
+          "track": "69",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2019-12-13",
+            "2019-12-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.201,
+          "status": ""
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 33.6,
       "in_sequence": true,
       "sequence_n_significant": 1,
@@ -7605,9 +7628,11 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [],
       "n_tracks": 0,
-      "aoi_half_km": null,
+      "aoi_half_km": 33.6,
       "in_sequence": true,
       "sequence_n_significant": 1,
+      "pair_contam_min": 4,
+      "pair_contam_max": 9,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7978,6 +8003,47 @@
       "has_report": true,
       "links": {
         "report": "events/us7000bfmj/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000bfq3",
+      "place": "99 km NW of Vallenar, Chile",
+      "origin_utc": "2020-09-01T10:31:52Z",
+      "epi_lat": -27.8691,
+      "epi_lon": -71.3922,
+      "depth_km": 22.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "120",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2020-08-24",
+            "2020-09-05"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.184,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 22.4,
+      "in_sequence": true,
+      "sequence_n_significant": 3,
+      "pair_contam_min": 22,
+      "pair_contam_max": 22,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: prep_no_tracks",
+      "pipeline_run_utc": "2026-05-25T08:08:19Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000bfq3/REPORT.html"
       }
     },
     {
