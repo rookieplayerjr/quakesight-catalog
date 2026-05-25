@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T03:53:10Z",
+  "generated_utc": "2026-05-25T03:53:45Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 140,
   "events": [
@@ -3631,7 +3631,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-22T21:21:26Z",
+      "pipeline_run_utc": "2026-05-25T03:53:44Z",
       "stale": false,
       "has_report": true,
       "links": {
