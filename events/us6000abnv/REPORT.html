@@ -26,7 +26,7 @@
 </head><body>
 
 <h1>us6000abnv — Mw 5.9 — GBIS report</h1>
-<div class="summary" style="border-left-color:#c47800"><b style="color:#c47800">🟡 USABLE — with caveats</b><br>Marginal axes: <b>ess, delta_strike, railed</b>. Inversion is acceptable but review the flagged metrics before downstream use.</div>
+
 
 <div class="summary">
 <b>Event:</b> 14 km E of Yedisu, Turkey · (39.423°N, 40.707°E, depth 10.0 km)<br>
@@ -39,7 +39,7 @@
 
 <h2>1. Raw observations (deramped + cropped)</h2>
 <img src="gbis/np1/figures/01_raw_obs.png">
-<div class="verdict"><b>⚠ Pass-3 track filter dropped a track.</b><br><code></code><br><code>decision: ITER — drop 2 outliers + 0 weak, keep 2 (max VR=0.54, gap=0.25, abs<0.20)</code><br>A dropped track has a low forward-model correlation — its observed LOS carries no co-seismic signal consistent with the source that fits the surviving track(s) (atmosphere / decorrelation noise). It is shown in Sections 1–2 for inspection but is EXCLUDED from the GBIS inversion (Sections 3–7).</div>
+
 
 <h2>2. Two-round iterative downsampling (Pass-1 zoned → Pass-2 synth-quadtree)</h2>
 <img src="gbis/np1/figures/02_ds_two_pass.png">
@@ -65,7 +65,7 @@
 </table>
 <p style="font-size:12px;color:#666">震源深度对比：USGS = 报告的震源（hypocenter）深度；GBIS = 断层质心深度 (Z_top+Z_bot)/2。</p>
 <p style="font-size:12px;color:#666">Note: GBIS optimum = single MAP sample reported by GBIS in <code>invResults.model.optimal</code>, NOT a chain median.</p>
-<div class="summary"><b>Adaptive grade — zone YELLOW</b><br>acceptance 0.21 (0.20–0.45) · ESS 130 (≥250) · Geweke |z| 1.51 (≤2) · VR_min 0.67<br>grades: ess=C · acceptance=B · geweke=A · vr_min=A · vr_mean=A · railed=D · delta_mw=A · delta_strike=C</div>
+
 
 <h2>4. Beachball comparison</h2>
 <img src="gbis/np1/figures/04_beachball.png">
