@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T12:31:43Z",
+  "generated_utc": "2026-05-25T12:48:17Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 166,
+  "n_events": 167,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4733,6 +4733,35 @@
       "has_report": true,
       "links": {
         "report": "events/us6000k0xf/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000lcgj",
+      "place": "39 km NE of Dipayal, Nepal",
+      "origin_utc": "2023-10-03T09:21:03Z",
+      "epi_lat": 29.4973,
+      "epi_lon": 81.242,
+      "depth_km": 13.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 26.9,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 4,
+      "pair_contam_max": 5,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -11677,11 +11706,38 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 11.57,
+        "W_km": 9.0,
+        "Z_top_km": 21.95,
+        "dip": -76.4,
+        "strike": 195.4,
+        "Mw_post": 6.4,
+        "VR": {
+          "t142_dsc": -0.12
+        },
+        "fmech": {
+          "strike": 15.4,
+          "dip": 76.4,
+          "rake": 7.4
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.204,
+        "ess": 142,
+        "geweke": 4.01,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T12:48:17Z",
       "stale": false,
       "has_report": false,
       "links": {
