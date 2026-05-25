@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T21:21:51Z",
+  "generated_utc": "2026-05-25T21:21:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 196,
   "events": [
@@ -13627,11 +13627,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-05-25T21:21:32Z",
+      "pipeline_run_utc": "2026-05-25T21:21:54Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000kp2j/REPORT.html"
       }
     },
     {
@@ -14422,16 +14422,25 @@
         "acceptance": 0.212,
         "ess": 117,
         "geweke": 5.72,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
         "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 2
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T21:21:51Z",
       "stale": false,
