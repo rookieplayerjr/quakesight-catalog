@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T09:40:08Z",
+  "generated_utc": "2026-05-25T09:48:57Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 155,
   "events": [
@@ -3199,14 +3199,14 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": 173,
+          "track": "173",
           "orbit_dir": "asc",
           "pair_dates": [
-            null,
-            null
+            "2021-06-30",
+            "2021-07-12"
           ],
-          "backend": "licsar",
-          "median_coh": 0.298,
+          "backend": "sp2",
+          "median_coh": 0.265,
           "status": "ready"
         },
         {
@@ -3572,8 +3572,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "164",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-02-24",
+            "2022-03-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.166,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 33.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -3581,13 +3593,13 @@
       "pair_contam_max": 0,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-25T09:48:57Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000h0lw/REPORT.html"
       }
     },
     {
