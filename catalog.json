@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T14:37:45Z",
+  "generated_utc": "2026-05-25T14:53:50Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 174,
+  "n_events": 175,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1721,6 +1721,47 @@
       "has_report": true,
       "links": {
         "report": "events/us2000gb4d/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us2000gbea",
+      "place": "39 km ENE of Kerman, Iran",
+      "origin_utc": "2018-07-22T20:39:17Z",
+      "epi_lat": 30.4313,
+      "epi_lon": 57.4531,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "159",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2018-07-21",
+            "2018-07-27"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.647,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 29.9,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -12482,11 +12523,38 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 12,
       "pair_contam_max": 16,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 5.2,
+        "W_km": 4.05,
+        "Z_top_km": 1.82,
+        "dip": -1.3,
+        "strike": 84.0,
+        "Mw_post": 5.74,
+        "VR": {
+          "t34_dsc": 0.82
+        },
+        "fmech": {
+          "strike": 264.0,
+          "dip": 1.3,
+          "rake": -49.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.213,
+        "ess": 234,
+        "geweke": 2.63,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 14
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T14:53:50Z",
       "stale": false,
       "has_report": false,
       "links": {
