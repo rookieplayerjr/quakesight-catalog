@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T20:46:33Z",
+  "generated_utc": "2026-05-25T20:50:45Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 195,
+  "n_events": 196,
   "events": [
     {
       "event_id": "ci38443183",
@@ -13596,11 +13596,39 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 10.23,
+        "W_km": 8.47,
+        "Z_top_km": 10.0,
+        "dip": -39.1,
+        "strike": 90.6,
+        "Mw_post": 6.12,
+        "VR": {
+          "t171_dsc": -0.34,
+          "t69_dsc": 0.46
+        },
+        "fmech": {
+          "strike": 270.6,
+          "dip": 39.1,
+          "rake": 2.3
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.21,
+        "ess": 226,
+        "geweke": 1.78,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 2
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T20:50:44Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -14363,6 +14391,35 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us7000mcxc",
+      "place": "11 km W of Sulusaray, Turkey",
+      "origin_utc": "2024-04-18T15:11:25Z",
+      "epi_lat": 39.9894,
+      "epi_lon": 35.9451,
+      "depth_km": 16.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 20.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
       "result": null,
       "diagnostics": null,
       "status": "partial",
