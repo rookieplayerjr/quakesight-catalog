@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T05:39:45Z",
+  "generated_utc": "2026-05-25T05:41:01Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 141,
   "events": [
@@ -54,9 +54,9 @@
           "t71_dsc": 0.39
         },
         "fmech": {
-          "strike": 220.4,
-          "dip": 98.3,
-          "rake": -3.5
+          "strike": 40.4,
+          "dip": 81.7,
+          "rake": 176.5
         }
       },
       "diagnostics": {
@@ -1851,9 +1851,9 @@
           "t2_dsc": 0.39
         },
         "fmech": {
-          "strike": 61.6,
-          "dip": 121.5,
-          "rake": 58.8
+          "strike": 241.6,
+          "dip": 58.5,
+          "rake": -121.2
         }
       },
       "diagnostics": {
@@ -2054,9 +2054,9 @@
           "t6_dsc": 0.64
         },
         "fmech": {
-          "strike": 330.1,
-          "dip": 107.8,
-          "rake": 38.8
+          "strike": 150.1,
+          "dip": 72.2,
+          "rake": -141.2
         }
       },
       "diagnostics": {
@@ -2434,9 +2434,9 @@
           "t50_dsc": 0.75
         },
         "fmech": {
-          "strike": 233.9,
-          "dip": 93.3,
-          "rake": 60.6
+          "strike": 53.9,
+          "dip": 86.7,
+          "rake": -119.4
         }
       },
       "diagnostics": {
@@ -4695,9 +4695,9 @@
           "t43_asc": 0.38
         },
         "fmech": {
-          "strike": 350.5,
-          "dip": 102.7,
-          "rake": -26.0
+          "strike": 170.5,
+          "dip": 77.3,
+          "rake": 154.0
         }
       },
       "diagnostics": {
@@ -5512,9 +5512,9 @@
           "t151_dsc": 0.57
         },
         "fmech": {
-          "strike": 236.7,
-          "dip": 92.4,
-          "rake": -158.7
+          "strike": 56.7,
+          "dip": 87.6,
+          "rake": 21.3
         }
       },
       "diagnostics": {
@@ -6228,9 +6228,9 @@
           "t69_asc": 0.39
         },
         "fmech": {
-          "strike": 313.5,
-          "dip": 93.7,
-          "rake": -172.0
+          "strike": 133.5,
+          "dip": 86.3,
+          "rake": 8.0
         }
       },
       "diagnostics": {
@@ -6313,9 +6313,9 @@
           "t62_dsc": 0.88
         },
         "fmech": {
-          "strike": 194.5,
-          "dip": 99.6,
-          "rake": -29.9
+          "strike": 14.5,
+          "dip": 80.4,
+          "rake": 150.1
         }
       },
       "diagnostics": {
@@ -6681,9 +6681,9 @@
           "t125_asc": -0.07
         },
         "fmech": {
-          "strike": 34.6,
-          "dip": 112.1,
-          "rake": -13.6
+          "strike": 214.6,
+          "dip": 67.9,
+          "rake": 166.4
         }
       },
       "diagnostics": {
@@ -6966,9 +6966,9 @@
           "t79_dsc": 0.48
         },
         "fmech": {
-          "strike": 29.2,
-          "dip": 92.4,
-          "rake": 179.8
+          "strike": 209.2,
+          "dip": 87.6,
+          "rake": -0.2
         }
       },
       "diagnostics": {
@@ -9141,9 +9141,9 @@
           "t26_asc": 0.33
         },
         "fmech": {
-          "strike": 254.0,
-          "dip": 93.8,
-          "rake": 11.6
+          "strike": 74.0,
+          "dip": 86.2,
+          "rake": -168.4
         }
       },
       "diagnostics": {
@@ -10504,9 +10504,9 @@
           "t98_dsc": 0.3
         },
         "fmech": {
-          "strike": 168.3,
-          "dip": 106.4,
-          "rake": 88.1
+          "strike": 348.3,
+          "dip": 73.6,
+          "rake": -91.9
         }
       },
       "diagnostics": {
@@ -10640,9 +10640,9 @@
           "t143_asc": -0.04
         },
         "fmech": {
-          "strike": 168.2,
-          "dip": 91.1,
-          "rake": 20.3
+          "strike": 348.2,
+          "dip": 88.9,
+          "rake": -159.7
         }
       },
       "diagnostics": {
