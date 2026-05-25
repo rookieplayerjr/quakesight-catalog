@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T03:50:49Z",
+  "generated_utc": "2026-05-25T03:51:01Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 140,
   "events": [
@@ -9795,13 +9795,13 @@
       "pair_contam_max": 3,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T03:51:01Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000kp2i/REPORT.html"
       }
     },
     {
