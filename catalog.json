@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T13:02:27Z",
+  "generated_utc": "2026-05-25T13:20:56Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 168,
   "events": [
@@ -4518,22 +4518,31 @@
         "acceptance": 0.209,
         "ess": 184,
         "geweke": 3.19,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "A",
+          "delta_strike": "B"
+        },
         "flags": [],
         "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T13:02:26Z",
+      "pipeline_run_utc": "2026-05-25T13:20:55Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000jk82/REPORT.html"
       }
     },
     {
@@ -11956,8 +11965,20 @@
       "Mw_type": "Mwb",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "56",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-11-03",
+            "2023-11-15"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.357,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 29.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
