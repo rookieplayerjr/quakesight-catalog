@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-25T07:25:24Z",
+  "generated_utc": "2026-05-25T07:25:47Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 142,
+  "n_events": 143,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1153,6 +1153,35 @@
       "has_report": true,
       "links": {
         "report": "events/us1000hwdw/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us1000hwg8",
+      "place": "41 km ESE of Mountain, Colombia",
+      "origin_utc": "2018-11-25T20:56:36Z",
+      "epi_lat": 13.1647,
+      "epi_lon": -81.046,
+      "depth_km": 10.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 33.6,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 9,
+      "pair_contam_max": 9,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -4935,7 +4964,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-25T06:14:44Z",
+      "pipeline_run_utc": "2026-05-25T07:25:47Z",
       "stale": false,
       "has_report": true,
       "links": {
