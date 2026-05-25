@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T01:45:35Z",
+  "generated_utc": "2026-05-25T01:47:54Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 133,
   "events": [
@@ -2921,9 +2921,11 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [],
       "n_tracks": 0,
-      "aoi_half_km": null,
+      "aoi_half_km": 25.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "pair_contam_min": 2,
+      "pair_contam_max": 2,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7247,11 +7249,36 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 21,
       "pair_contam_max": 21,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 13.33,
+        "W_km": 9.75,
+        "Z_top_km": 2.76,
+        "dip": -0.7,
+        "strike": 220.6,
+        "Mw_post": 6.54,
+        "VR": {
+          "t120_asc": 0.32
+        },
+        "fmech": {
+          "strike": 40.6,
+          "dip": 0.7,
+          "rake": -135.4
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.206,
+        "ess": 130,
+        "geweke": 4.07,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "catalog_disagreement": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 8
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-05-25T01:47:54Z",
       "stale": false,
       "has_report": false,
       "links": {
