@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-25T11:43:40Z",
+  "generated_utc": "2026-05-25T11:54:13Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 163,
   "events": [
@@ -10996,22 +10996,31 @@
         "acceptance": 0.274,
         "ess": 100,
         "geweke": 2885.89,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "C",
+          "acceptance": "A",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
         "flags": [],
-        "catalog_disagreement": false,
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T11:43:39Z",
+      "pipeline_run_utc": "2026-05-25T11:54:13Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000incn/REPORT.html"
       }
     },
     {
@@ -11155,8 +11164,53 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "152",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-01-14",
+            "2023-01-26"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.402,
+          "status": "ready"
+        },
+        {
+          "track": "174",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-01-15",
+            "2023-01-27"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.595,
+          "status": "ready"
+        },
+        {
+          "track": "72",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-01-08",
+            "2023-01-20"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.696,
+          "status": "ready"
+        },
+        {
+          "track": "79",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-01-09",
+            "2023-01-21"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.683,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 4,
       "aoi_half_km": 22.4,
       "in_sequence": false,
       "sequence_n_significant": 0,
