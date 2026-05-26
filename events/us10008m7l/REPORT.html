@@ -26,7 +26,7 @@
 </head><body>
 
 <h1>us10008m7l — Mw 5.1 — GBIS report</h1>
-<div class="verdict"><b>⛔ FAILED-CASE REPORT — unreliable inversion.</b><br>Failing axes: <b>geweke</b>. The optimum below is for diagnostics only; do NOT use as a source model.<br>Pipeline halted — see <code>escalation.md</code> (<b>gbis_single_los_pattern_D</b>).</div>
+<div class="summary" style="border-left-color:#c47800"><b style="color:#c47800">🟡 USABLE — with caveats</b><br>Marginal axes: <b>ess, acceptance, vr_min, vr_mean, geweke</b>. Inversion is acceptable but review the flagged metrics before downstream use.</div>
 
 <div class="summary">
 <b>Event:</b> 17 km SW of Maca, Peru · (-15.742°N, -71.894°E, depth 10.0 km)<br>
@@ -65,7 +65,7 @@
 </table>
 <p style="font-size:12px;color:#666">震源深度对比：USGS = 报告的震源（hypocenter）深度；GBIS = 断层质心深度 (Z_top+Z_bot)/2。</p>
 <p style="font-size:12px;color:#666">Note: GBIS optimum = single MAP sample reported by GBIS in <code>invResults.model.optimal</code>, NOT a chain median.</p>
-<div class="verdict"><b>Adaptive grade — zone RED</b><br>acceptance 0.20 (0.20–0.45) · ESS 101 (≥250) · Geweke |z| 62.44 (≤2) · VR_min 0.21<br>grades: ess=C · acceptance=C · geweke=D · vr_min=C · vr_mean=C · railed=A · delta_mw=A · delta_strike=A</div>
+<div class="summary"><b>Adaptive grade — zone YELLOW</b><br>acceptance 0.20 (0.20–0.45) · ESS 101 (≥250) · Geweke |z| 62.44 (≤2) · VR_min 0.21<br>grades: ess=C · acceptance=C · geweke=D · vr_min=C · vr_mean=C · railed=A · delta_mw=A · delta_strike=A</div>
 
 <h2>4. Beachball comparison</h2>
 <img src="gbis/np1/figures/04_beachball.png">

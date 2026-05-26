@@ -26,7 +26,7 @@
 </head><body>
 
 <h1>us6000ssxt — Mw 5.5 — GBIS report</h1>
-<div class="verdict"><b>⛔ FAILED-CASE REPORT — unreliable inversion.</b><br>Failing axes: <b>vr_min, vr_mean, railed, delta_mw</b>. The optimum below is for diagnostics only; do NOT use as a source model.<br>Pipeline halted — see <code>escalation.md</code> (<b>Escalation: all_runs_bad_diagnostics</b>).</div>
+<div class="verdict"><b>⛔ FAILED-CASE REPORT — unreliable inversion.</b><br>Failing axes: <b>vr_min, vr_mean, railed, delta_mw, delta_strike</b>. The optimum below is for diagnostics only; do NOT use as a source model.<br>Pipeline halted — see <code>escalation.md</code> (<b>gbis_single_los_pattern_D</b>).</div>
 
 <div class="summary">
 <b>Event:</b> 170 km SE of Khovd, Mongolia · (46.814°N, 93.053°E, depth 11.0 km)<br>
@@ -65,7 +65,7 @@
 </table>
 <p style="font-size:12px;color:#666">震源深度对比：USGS = 报告的震源（hypocenter）深度；GBIS = 断层质心深度 (Z_top+Z_bot)/2。</p>
 <p style="font-size:12px;color:#666">Note: GBIS optimum = single MAP sample reported by GBIS in <code>invResults.model.optimal</code>, NOT a chain median.</p>
-<div class="verdict"><b>Adaptive grade — zone RED</b><br>acceptance 0.22 (0.20–0.45) · ESS 6088 (≥250) · Geweke |z| 1.78 (≤2) · VR_min -3.39<br>grades: ess=A · acceptance=B · geweke=B · vr_min=D · vr_mean=D · railed=D · delta_mw=D · delta_strike=C</div>
+<div class="verdict"><b>Adaptive grade — zone RED</b><br>acceptance 0.22 (0.20–0.45) · ESS 6088 (≥250) · Geweke |z| 1.78 (≤2) · VR_min -3.39<br>grades: ess=A · acceptance=B · geweke=A · vr_min=D · vr_mean=D · railed=D · delta_mw=D · delta_strike=D</div>
 
 <h2>4. Beachball comparison</h2>
 <img src="gbis/np1/figures/04_beachball.png">
