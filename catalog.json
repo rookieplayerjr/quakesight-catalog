@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-26T05:19:30Z",
+  "generated_utc": "2026-05-26T05:21:11Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 200,
   "events": [
@@ -1925,16 +1925,27 @@
         "acceptance": 0.203,
         "ess": 104,
         "geweke": 14.92,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "demoted_critical_rail"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T05:19:29Z",
       "stale": false,
@@ -8753,17 +8764,29 @@
         "acceptance": 0.203,
         "ess": 131,
         "geweke": 2.0,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t69_dsc"
+        ],
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": true,
         "sequence_n_ge_5": 4
       },
-      "status": "done",
-      "escalation_reason": "gbis_multiple_critical_railed",
+      "status": "partial",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T05:19:26Z",
       "stale": false,
       "has_report": true,
@@ -12685,16 +12708,29 @@
         "acceptance": 0.212,
         "ess": 117,
         "geweke": 2.64,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise",
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 5
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T05:19:24Z",
       "stale": false,
