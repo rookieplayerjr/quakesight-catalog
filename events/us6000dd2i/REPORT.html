@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><title>nn00888580 report (partial)</title>
+<html lang="en"><head><meta charset="utf-8"><title>us6000dd2i report (partial)</title>
 <style>
   body { font-family: -apple-system, Helvetica, Arial, sans-serif;
          max-width: 1200px; margin: 28px auto; padding: 0 22px; color: #222; line-height: 1.5; }
@@ -23,22 +23,22 @@
 </style>
 </head><body>
 
-<h1>nn00888580 — Mw 5.7 — GBIS report</h1>
+<h1>us6000dd2i — Mw 5.7 — GBIS report</h1>
 
 <div class="summary">
-<b>Event:</b> 2024 Parker Butte, Nevada Earthquake · (39.167°N, -119.024°E, depth 9.3 km)<br>
-<b>USGS NP1:</b> strike 154.3° / dip 71.6° / rake -169.6°<br>
-<b>USGS NP2:</b> strike 61.0° / dip 80.1° / rake -18.7°<br>
-<b>Status:</b> observations + two-round downsample done; GBIS inversion pending.
+<b>Event:</b> northwest of Australia · (-13.967°N, 121.864°E, depth 10.0 km)<br>
+<b>USGS NP1:</b> strike 227.2° / dip 78.7° / rake 179.7°<br>
+<b>USGS NP2:</b> strike 317.3° / dip 89.7° / rake 11.3°<br>
+<b>Status:</b> <span class="bad">ESCALATED at stage 2 — epicenter_not_covered</span>. Sections below show whatever the pipeline produced before it stopped; the rest are left blank. See §3 / escalation.md.
 </div>
 
 
 
 <h2>1. Raw observations (deramped + cropped)</h2>
-<img src="gbis/_partial/figures/01_raw_obs.png">
+<div class="pending">Figure not available.</div>
 
 <h2>2. Two-round iterative downsampling (Pass-1 zoned → Pass-2 synth-quadtree)</h2>
-<img src="gbis/_partial/figures/02_ds_two_pass.png"><table><tr><th>track</th><th>Pass-1 zoned (pts)</th><th>Pass-2 synth-QT (pts)</th></tr><tr><td>t144_dsc</td><td class='c'>1567</td><td class='c'>507</td></tr><tr><td>t64_asc</td><td class='c'>1567</td><td class='c'>669</td></tr></table><p style="font-size:12px;color:#666">Two-round iterative downsample (Luo+21). <b>Pass-1</b>: zoned uniform DS (near dense / far sparse) → short GBIS → initial model. <b>Pass-2</b>: GBIS-forward the initial model → smooth synthetic LOS field → variance quadtree on the <i>synthetic</i> field → mesh applied to real data. Sampling follows real deformation gradient, not noise — fewer but better-placed points than a noisy-data quadtree.</p>
+<div class="pending">No <code>subsample_v9_zoned.mat</code> found — run Stage 4 (<code>qsRunFullEvent</code>) first.</div>
 
 <h2>3. GBIS inversion result — posterior + diagnostics</h2>
 <div class="pending">⏳ Pending — GBIS MCMC not yet complete. Re-run after qsRunFullEvent finishes.</div>
