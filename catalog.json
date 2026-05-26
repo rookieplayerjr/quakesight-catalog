@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-26T02:23:17Z",
+  "generated_utc": "2026-05-26T02:23:43Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 200,
   "events": [
@@ -6689,7 +6689,7 @@
         "strike": 231.3,
         "Mw_post": 6.11,
         "VR": {
-          "t173_asc": 0.11,
+          "t173_asc": 0.46,
           "t78_dsc": 0.17
         },
         "fmech": {
@@ -6707,14 +6707,15 @@
         "grades": {
           "ess": "A",
           "acceptance": "B",
-          "geweke": "A",
+          "geweke": "B",
           "vr_min": "D",
-          "vr_mean": "D",
+          "vr_mean": "C",
           "railed": "D",
           "delta_mw": "C",
           "delta_strike": "A"
         },
         "flags": [
+          "demoted_critical_rail",
           "mw_disagreement_review"
         ],
         "catalog_disagreement": false,
@@ -6722,8 +6723,8 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_coherence_collapse_after_pass3",
+      "status": "partial",
+      "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T02:23:16Z",
       "stale": false,
       "has_report": true,
@@ -10321,11 +10322,50 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 9.27,
+        "W_km": 7.68,
+        "Z_top_km": 12.36,
+        "dip": -57.9,
+        "strike": 136.8,
+        "Mw_post": 6.33,
+        "VR": {
+          "t171_dsc": 0.35,
+          "t98_dsc": 0.34
+        },
+        "fmech": {
+          "strike": 316.8,
+          "dip": 57.9,
+          "rake": 155.1
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.205,
+        "ess": 123,
+        "geweke": 4.94,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "demoted_critical_rail"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T18:11:27Z",
+      "pipeline_run_utc": "2026-05-26T02:23:43Z",
       "stale": false,
       "has_report": true,
       "links": {
