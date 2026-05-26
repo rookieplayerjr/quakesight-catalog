@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-26T22:01:37Z",
+  "generated_utc": "2026-05-26T22:02:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 757,
   "events": [
@@ -6444,8 +6444,8 @@
         "strike": 105.6,
         "Mw_post": 5.99,
         "VR": {
-          "t129_asc": 0.83,
-          "t34_dsc": 0.82
+          "t129_asc": 0.85,
+          "t34_dsc": 0.81
         },
         "fmech": {
           "strike": 285.6,
@@ -6457,8 +6457,8 @@
         "acceptance": 0.206,
         "ess": 216,
         "geweke": 1.87,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "B",
           "acceptance": "B",
@@ -6467,17 +6467,19 @@
           "vr_mean": "A",
           "railed": "D",
           "delta_mw": "A",
-          "delta_strike": "C"
+          "delta_strike": "B"
         },
-        "flags": [],
+        "flags": [
+          "demoted_critical_rail"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 2
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T22:01:36Z",
+      "pipeline_run_utc": "2026-05-26T22:02:34Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -28754,11 +28756,47 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 12,
       "pair_contam_max": 16,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 6.09,
+        "W_km": 4.74,
+        "Z_top_km": 2.04,
+        "dip": -71.0,
+        "strike": 54.5,
+        "Mw_post": 5.84,
+        "VR": {
+          "t34_dsc": 0.82
+        },
+        "fmech": {
+          "strike": 234.5,
+          "dip": 71.0,
+          "rake": 90.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.212,
+        "ess": 187,
+        "geweke": 1.48,
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "A",
+          "vr_mean": "A",
+          "railed": "C",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": true,
+        "in_sequence": true,
+        "sequence_n_ge_5": 14
+      },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T14:54:12Z",
+      "pipeline_run_utc": "2026-05-26T22:02:35Z",
       "stale": false,
       "has_report": true,
       "links": {
