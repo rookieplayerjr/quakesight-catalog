@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-26T07:59:22Z",
+  "generated_utc": "2026-05-26T08:00:21Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 260,
+  "n_events": 265,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1876,6 +1876,60 @@
       }
     },
     {
+      "event_id": "us2000g5b4",
+      "place": "214 km NNW of Kilmia, Yemen",
+      "origin_utc": "2018-07-15T01:57:19Z",
+      "epi_lat": 14.0625,
+      "epi_lon": 51.7365,
+      "depth_km": 10.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-26T07:59:51Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us2000g5b4/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us2000g5mh",
+      "place": "192 km NNW of Kilmia, Yemen",
+      "origin_utc": "2018-07-15T13:09:16Z",
+      "epi_lat": 13.8484,
+      "epi_lon": 51.717,
+      "depth_km": 10.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-26T08:00:07Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us2000g5mh/REPORT.html"
+      }
+    },
+    {
       "event_id": "us2000gb4d",
       "place": "31 km ENE of Sarpol-e Z?ah?b, Iran",
       "origin_utc": "2018-07-22T10:07:27Z",
@@ -2798,11 +2852,50 @@
       "aoi_half_km": 67.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 26.09,
+        "W_km": 13.98,
+        "Z_top_km": 1.47,
+        "dip": -52.8,
+        "strike": 249.3,
+        "Mw_post": 6.11,
+        "VR": {
+          "t155_asc": 0.4,
+          "t2_dsc": 0.45
+        },
+        "fmech": {
+          "strike": 69.3,
+          "dip": 52.8,
+          "rake": 119.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.204,
+        "ess": 103,
+        "geweke": 10.2,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "B",
+          "vr_mean": "C",
+          "railed": "A",
+          "delta_mw": "B",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "demoted_all_coh_subnoise"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 14
+      },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-05-26T04:30:03Z",
+      "pipeline_run_utc": "2026-05-26T08:00:20Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8851,6 +8944,33 @@
       }
     },
     {
+      "event_id": "us700034d3",
+      "place": "143 km NE of Miyako, Japan",
+      "origin_utc": "2019-04-11T08:18:21Z",
+      "epi_lat": 40.4096,
+      "epi_lon": 143.2985,
+      "depth_km": 18.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us70003axc",
       "place": "22 km SE of Shi Yomi, India",
       "origin_utc": "2019-04-23T20:15:50Z",
@@ -9596,6 +9716,33 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 15,
       "pair_contam_max": 16,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us70006q8n",
+      "place": "201 km W of Port McNeill, Canada",
+      "origin_utc": "2019-12-23T19:49:43Z",
+      "epi_lat": 50.6071,
+      "epi_lon": -129.9372,
+      "depth_km": 10.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -16520,6 +16667,35 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us7000ppfy",
+      "place": "56 km ENE of Nishinoomote, Japan",
+      "origin_utc": "2025-04-02T14:03:57Z",
+      "epi_lat": 30.9792,
+      "epi_lon": 131.522,
+      "depth_km": 29.0,
+      "Mw": 6.1,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 35.5,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 2,
+      "pair_contam_max": 2,
       "result": null,
       "diagnostics": null,
       "status": "partial",
