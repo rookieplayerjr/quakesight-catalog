@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-26T02:55:56Z",
+  "generated_utc": "2026-05-26T02:56:28Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 200,
   "events": [
@@ -4267,7 +4267,7 @@
         "Mw_post": 6.79,
         "VR": {
           "t127_dsc": 0.01,
-          "t47_asc": -166.43
+          "t47_asc": -3050.84
         },
         "fmech": {
           "strike": 160.1,
@@ -4289,7 +4289,7 @@
           "vr_mean": "D",
           "railed": "D",
           "delta_mw": "D",
-          "delta_strike": "A"
+          "delta_strike": "B"
         },
         "flags": [],
         "catalog_disagreement": true,
@@ -4299,7 +4299,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-26T02:55:55Z",
+      "pipeline_run_utc": "2026-05-26T02:56:25Z",
       "stale": false,
       "has_report": true,
       "links": {
