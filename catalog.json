@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-26T01:52:22Z",
+  "generated_utc": "2026-05-26T01:52:51Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 200,
   "events": [
@@ -6605,47 +6605,8 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": {
-        "L_km": 13.41,
-        "W_km": 9.81,
-        "Z_top_km": 7.99,
-        "dip": -73.6,
-        "strike": 247.8,
-        "Mw_post": 6.27,
-        "VR": {
-          "t173_asc": 0.11,
-          "t78_dsc": 0.17
-        },
-        "fmech": {
-          "strike": 67.8,
-          "dip": 73.6,
-          "rake": 166.1
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.205,
-        "ess": 312,
-        "geweke": 1.13,
-        "zone": "RED",
-        "verdict": "FAIL",
-        "grades": {
-          "ess": "A",
-          "acceptance": "B",
-          "geweke": "A",
-          "vr_min": "D",
-          "vr_mean": "D",
-          "railed": "D",
-          "delta_mw": "C",
-          "delta_strike": "A"
-        },
-        "flags": [
-          "mw_disagreement_review"
-        ],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
-        "in_sequence": false,
-        "sequence_n_ge_5": 0
-      },
+      "result": null,
+      "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
       "pipeline_run_utc": "2026-05-25T07:25:47Z",
@@ -7596,8 +7557,8 @@
         "strike": 16.7,
         "Mw_post": 6.48,
         "VR": {
-          "t120_asc": -0.39,
-          "t54_dsc": 0.13
+          "t120_asc": -0.38,
+          "t54_dsc": 0.24
         },
         "fmech": {
           "strike": 196.7,
@@ -7629,7 +7590,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-05-26T01:52:21Z",
+      "pipeline_run_utc": "2026-05-26T01:52:50Z",
       "stale": false,
       "has_report": true,
       "links": {
