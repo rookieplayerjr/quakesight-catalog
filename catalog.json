@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-26T07:00:35Z",
+  "generated_utc": "2026-05-26T07:03:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 214,
+  "n_events": 215,
   "events": [
     {
       "event_id": "ci38443183",
@@ -565,7 +565,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T07:00:35Z",
+      "pipeline_run_utc": "2026-05-26T07:03:35Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -8903,6 +8903,35 @@
       "has_report": true,
       "links": {
         "report": "events/us70006d0m/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us70006d2z",
+      "place": "22 km W of Mamurras, Albania",
+      "origin_utc": "2019-11-26T06:08:21Z",
+      "epi_lat": 41.5708,
+      "epi_lon": 19.4242,
+      "depth_km": 10.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 26.7,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 15,
+      "pair_contam_max": 16,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
