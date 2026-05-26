@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-26T08:40:54Z",
+  "generated_utc": "2026-05-26T08:41:44Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 337,
   "events": [
@@ -3087,7 +3087,8 @@
         "strike": 130.7,
         "Mw_post": 6.01,
         "VR": {
-          "t164_dsc": 0.7
+          "t128_asc": 0.38,
+          "t164_dsc": 0.48
         },
         "fmech": {
           "strike": 310.7,
@@ -3102,24 +3103,24 @@
         "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
-          "geweke": "A",
-          "vr_min": "A",
-          "vr_mean": "A",
-          "railed": "C",
-          "delta_mw": "A",
+          "geweke": "B",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "B",
           "delta_strike": "A"
         },
         "flags": [],
         "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 3
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T08:40:54Z",
+      "pipeline_run_utc": "2026-05-26T08:41:43Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -19032,9 +19033,11 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [],
       "n_tracks": 0,
-      "aoi_half_km": null,
+      "aoi_half_km": 33.6,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 5,
       "result": null,
       "diagnostics": null,
       "status": "partial",
