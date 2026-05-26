@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-26T08:00:54Z",
+  "generated_utc": "2026-05-26T08:01:07Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 265,
+  "n_events": 266,
   "events": [
     {
       "event_id": "ci38443183",
@@ -9453,7 +9453,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T08:00:41Z",
+      "pipeline_run_utc": "2026-05-26T08:01:06Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9784,6 +9784,33 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 4,
       "pair_contam_max": 6,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us70006q96",
+      "place": "189 km W of Port McNeill, Canada",
+      "origin_utc": "2019-12-23T20:56:23Z",
+      "epi_lat": 50.5169,
+      "epi_lon": -129.7573,
+      "depth_km": 10.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
       "status": "partial",
