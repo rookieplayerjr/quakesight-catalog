@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-26T02:56:28Z",
+  "generated_utc": "2026-05-26T03:25:59Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 200,
   "events": [
@@ -4566,45 +4566,8 @@
       "aoi_half_km": 28.2,
       "in_sequence": false,
       "sequence_n_significant": 0,
-      "result": {
-        "L_km": 15.38,
-        "W_km": 10.56,
-        "Z_top_km": 17.38,
-        "dip": -88.5,
-        "strike": 250.5,
-        "Mw_post": 6.14,
-        "VR": {
-          "t130_asc": 0.07,
-          "t166_dsc": -0.1
-        },
-        "fmech": {
-          "strike": 70.5,
-          "dip": 88.5,
-          "rake": 138.5
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.2,
-        "ess": 109,
-        "geweke": 12.0,
-        "zone": "RED",
-        "verdict": "FAIL",
-        "grades": {
-          "ess": "C",
-          "acceptance": "B",
-          "geweke": "D",
-          "vr_min": "D",
-          "vr_mean": "D",
-          "railed": "D",
-          "delta_mw": "B",
-          "delta_strike": "A"
-        },
-        "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
-        "in_sequence": false,
-        "sequence_n_ge_5": 0
-      },
+      "result": null,
+      "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "gbis_weak_signal",
       "pipeline_run_utc": "2026-05-25T23:49:31Z",
@@ -10223,11 +10186,48 @@
       "aoi_half_km": 44.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 25.63,
+        "W_km": 13.73,
+        "Z_top_km": 24.35,
+        "dip": -65.9,
+        "strike": 246.2,
+        "Mw_post": 6.57,
+        "VR": {
+          "t156_dsc": -0.18,
+          "t18_asc": -0.05
+        },
+        "fmech": {
+          "strike": 66.2,
+          "dip": 65.9,
+          "rake": 8.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.21,
+        "ess": 149,
+        "geweke": 1.04,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T23:49:29Z",
+      "pipeline_run_utc": "2026-05-26T03:25:59Z",
       "stale": false,
       "has_report": true,
       "links": {
