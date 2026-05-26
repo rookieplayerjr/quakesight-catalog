@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-26T08:00:40Z",
+  "generated_utc": "2026-05-26T08:00:54Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 265,
   "events": [
@@ -2895,7 +2895,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T08:00:20Z",
+      "pipeline_run_utc": "2026-05-26T08:00:53Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -9412,11 +9412,48 @@
       "aoi_half_km": 80.0,
       "in_sequence": true,
       "sequence_n_significant": 2,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 19.16,
+        "W_km": 9.06,
+        "Z_top_km": 4.14,
+        "dip": -71.2,
+        "strike": 222.7,
+        "Mw_post": 6.77,
+        "VR": {
+          "t163_dsc": 0.32,
+          "t69_asc": 0.3
+        },
+        "fmech": {
+          "strike": 42.7,
+          "dip": 71.2,
+          "rake": -25.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.206,
+        "ess": 123,
+        "geweke": 3.42,
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "C",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "A",
+          "delta_mw": "B",
+          "delta_strike": "A"
+        },
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": true,
+        "in_sequence": true,
+        "sequence_n_ge_5": 18
+      },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T23:42:35Z",
+      "pipeline_run_utc": "2026-05-26T08:00:41Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -15975,8 +16012,8 @@
         "strike": 31.2,
         "Mw_post": 5.72,
         "VR": {
-          "t150_dsc": 0.72,
-          "t77_dsc": 0.81
+          "t150_dsc": 0.65,
+          "t77_dsc": 0.72
         },
         "fmech": {
           "strike": 31.2,
@@ -15993,12 +16030,12 @@
         "grades": {
           "ess": "C",
           "acceptance": "B",
-          "geweke": "D",
-          "vr_min": "A",
-          "vr_mean": "A",
-          "railed": "A",
+          "geweke": "A",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "D",
           "delta_mw": "A",
-          "delta_strike": "A"
+          "delta_strike": "C"
         },
         "flags": [],
         "catalog_disagreement": false,
