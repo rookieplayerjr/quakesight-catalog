@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-26T07:03:35Z",
+  "generated_utc": "2026-05-26T07:58:57Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 215,
+  "n_events": 260,
   "events": [
     {
       "event_id": "ci38443183",
@@ -383,6 +383,64 @@
       "has_report": true,
       "links": {
         "report": "events/nc73666231/REPORT.html"
+      }
+    },
+    {
+      "event_id": "nc73821036",
+      "place": "15km WSW of Ferndale, CA",
+      "origin_utc": "2022-12-20T10:34:24Z",
+      "epi_lat": 40.525,
+      "epi_lon": -124.423,
+      "depth_km": 17.91,
+      "Mw": 6.4,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 50.1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "nc75095651",
+      "place": "2024 Offshore Cape Mendocino, California Earthquake",
+      "origin_utc": "2024-12-05T18:44:21Z",
+      "epi_lat": 40.374,
+      "epi_lon": -125.021666666667,
+      "depth_km": 10.0,
+      "Mw": 7.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -1034,6 +1092,35 @@
       }
     },
     {
+      "event_id": "us1000gf8u",
+      "place": "272 km W of Bandon, Oregon",
+      "origin_utc": "2018-08-22T09:31:45Z",
+      "epi_lat": 43.5637,
+      "epi_lon": -127.7166,
+      "depth_km": 10.0,
+      "Mw": 6.2,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 59.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us1000ghda",
       "place": "32 km SW of Jav?nr?d, Iran",
       "origin_utc": "2018-08-25T22:13:25Z",
@@ -1142,6 +1229,93 @@
       "has_report": true,
       "links": {
         "report": "events/us1000ghda/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us1000hfgn",
+      "place": "223 km SW of Port McNeill, Canada",
+      "origin_utc": "2018-10-22T05:39:39Z",
+      "epi_lat": 49.2586,
+      "epi_lon": -129.4124,
+      "depth_km": 10.0,
+      "Mw": 6.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 80.0,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 6,
+      "pair_contam_max": 6,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us1000hfgv",
+      "place": "210 km SW of Port McNeill, Canada",
+      "origin_utc": "2018-10-22T06:16:26Z",
+      "epi_lat": 49.3346,
+      "epi_lon": -129.289,
+      "depth_km": 10.0,
+      "Mw": 6.8,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 80.0,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 6,
+      "pair_contam_max": 6,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us1000hfh3",
+      "place": "237 km SW of Port McNeill, Canada",
+      "origin_utc": "2018-10-22T06:22:48Z",
+      "epi_lat": 49.297,
+      "epi_lon": -129.7237,
+      "depth_km": 10.0,
+      "Mw": 6.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 80.0,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -2557,6 +2731,35 @@
       }
     },
     {
+      "event_id": "us600042fx",
+      "place": "31 km WSW of Tsuruoka, Japan",
+      "origin_utc": "2019-06-18T13:22:19Z",
+      "epi_lat": 38.6391,
+      "epi_lon": 139.4769,
+      "depth_km": 12.0,
+      "Mw": 6.4,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 65.2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us6000434e",
       "place": "244 km W of Abepura, Indonesia",
       "origin_utc": "2019-06-19T17:24:48Z",
@@ -2595,47 +2798,8 @@
       "aoi_half_km": 67.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
-      "result": {
-        "L_km": 22.18,
-        "W_km": 11.88,
-        "Z_top_km": 2.64,
-        "dip": -107.2,
-        "strike": 239.1,
-        "Mw_post": 6.13,
-        "VR": {
-          "t155_asc": 0.4,
-          "t2_dsc": 0.45
-        },
-        "fmech": {
-          "strike": 239.1,
-          "dip": 72.8,
-          "rake": -54.9
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.203,
-        "ess": 127,
-        "geweke": 2.57,
-        "zone": "RED",
-        "verdict": "FAIL",
-        "grades": {
-          "ess": "C",
-          "acceptance": "B",
-          "geweke": "B",
-          "vr_min": "B",
-          "vr_mean": "C",
-          "railed": "A",
-          "delta_mw": "B",
-          "delta_strike": "B"
-        },
-        "flags": [
-          "demoted_all_coh_subnoise"
-        ],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
-        "in_sequence": false,
-        "sequence_n_ge_5": 14
-      },
+      "result": null,
+      "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
       "pipeline_run_utc": "2026-05-26T04:30:03Z",
@@ -2877,25 +3041,25 @@
       "pair_contam_min": 1,
       "pair_contam_max": 1,
       "result": {
-        "L_km": 15.31,
-        "W_km": 10.52,
-        "Z_top_km": 5.05,
-        "dip": -107.8,
-        "strike": 150.1,
-        "Mw_post": 6.02,
+        "L_km": 4.55,
+        "W_km": 3.13,
+        "Z_top_km": 7.21,
+        "dip": -45.6,
+        "strike": 71.4,
+        "Mw_post": 5.96,
         "VR": {
           "t6_dsc": 0.64
         },
         "fmech": {
-          "strike": 150.1,
-          "dip": 72.2,
-          "rake": -38.8
+          "strike": 251.4,
+          "dip": 45.6,
+          "rake": 7.8
         }
       },
       "diagnostics": {
-        "acceptance": 0.208,
-        "ess": 116,
-        "geweke": 4.2,
+        "acceptance": 0.21,
+        "ess": 164,
+        "geweke": 3.64,
         "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
@@ -2918,7 +3082,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T06:42:59Z",
+      "pipeline_run_utc": "2026-05-26T07:58:56Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3225,6 +3389,64 @@
       "has_report": true,
       "links": {
         "report": "events/us60007ewc/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us60007i7j",
+      "place": "69 km ESE of Karpathos, Greece",
+      "origin_utc": "2020-01-28T15:38:34Z",
+      "epi_lat": 35.2183,
+      "epi_lon": 27.8918,
+      "depth_km": 10.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 26.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 3,
+      "pair_contam_max": 7,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us60007jpa",
+      "place": "72 km ESE of Karpathos, Greece",
+      "origin_utc": "2020-01-30T01:28:05Z",
+      "epi_lat": 35.1565,
+      "epi_lon": 27.8845,
+      "depth_km": 10.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 26.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 3,
+      "pair_contam_max": 7,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -3957,11 +4179,69 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: epicenter_not_covered",
-      "pipeline_run_utc": "2026-05-26T06:53:24Z",
+      "pipeline_run_utc": "2026-05-26T07:21:18Z",
       "stale": false,
       "has_report": true,
       "links": {
         "report": "events/us6000dd2i/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000diae",
+      "place": "11 km N of Kam\u00e1rai, Greece",
+      "origin_utc": "2021-02-17T03:36:07Z",
+      "epi_lat": 38.4057,
+      "epi_lon": 22.019,
+      "depth_km": 5.29,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 35.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us6000dx0m",
+      "place": "55 km N of Peschici, Italy",
+      "origin_utc": "2021-03-27T13:47:55Z",
+      "epi_lat": 42.4479,
+      "epi_lon": 16.0496,
+      "depth_km": 7.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 32.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -4048,6 +4328,33 @@
       "has_report": true,
       "links": {
         "report": "events/us6000dxge/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000dz3c",
+      "place": "194 km NE of Gisborne, New Zealand",
+      "origin_utc": "2021-04-05T07:37:52Z",
+      "epi_lat": -37.46,
+      "epi_lon": 179.6324,
+      "depth_km": 24.0,
+      "Mw": 6.1,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-26T07:57:20Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000dz3c/REPORT.html"
       }
     },
     {
@@ -4815,6 +5122,33 @@
       }
     },
     {
+      "event_id": "us6000h6ne",
+      "place": "northern Mid-Atlantic Ridge",
+      "origin_utc": "2022-03-22T16:35:08Z",
+      "epi_lat": 10.7447,
+      "epi_lon": -43.382,
+      "depth_km": 10.0,
+      "Mw": 6.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-26T07:42:03Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000h6ne/REPORT.html"
+      }
+    },
+    {
       "event_id": "us6000hfqj",
       "place": "15 km NNE of Ljubinje, Bosnia and Herzegovina",
       "origin_utc": "2022-04-22T21:07:48Z",
@@ -4868,6 +5202,35 @@
       "has_report": true,
       "links": {
         "report": "events/us6000hmkd/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000hmld",
+      "place": "Strait of Gibraltar",
+      "origin_utc": "2022-05-20T12:35:49Z",
+      "epi_lat": 35.5176,
+      "epi_lon": -3.4789,
+      "depth_km": 10.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 26.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -5185,6 +5548,35 @@
       "has_report": true,
       "links": {
         "report": "events/us6000iaqi/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000ii2v",
+      "place": "45 km SW of Lixo\u00fari, Greece",
+      "origin_utc": "2022-09-08T07:36:23Z",
+      "epi_lat": 37.8942,
+      "epi_lon": 20.0987,
+      "depth_km": 10.482,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 25.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -6001,6 +6393,64 @@
       }
     },
     {
+      "event_id": "us6000k67y",
+      "place": "108 km SE of Bir\u017cebbu\u0121a, Malta",
+      "origin_utc": "2023-04-21T22:19:48Z",
+      "epi_lat": 35.0264,
+      "epi_lon": 15.2188,
+      "depth_km": 13.812,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 19.9,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us6000k9mb",
+      "place": "49 km NE of Anamizu, Japan",
+      "origin_utc": "2023-05-05T05:42:04Z",
+      "epi_lat": 37.5476,
+      "epi_lon": 137.2994,
+      "depth_km": 10.0,
+      "Mw": 6.2,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 59.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 6,
+      "pair_contam_max": 6,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us6000kx3e",
       "place": "Eritrea",
       "origin_utc": "2023-08-01T17:15:25Z",
@@ -6174,6 +6624,33 @@
       "has_report": true,
       "links": {
         "report": "events/us6000lcgj/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000ldbb",
+      "place": "Izu Islands, Japan region",
+      "origin_utc": "2023-10-06T01:31:17Z",
+      "epi_lat": 30.1409,
+      "epi_lon": 139.9683,
+      "depth_km": 10.0,
+      "Mw": 6.1,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-26T07:57:38Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000ldbb/REPORT.html"
       }
     },
     {
@@ -7763,6 +8240,64 @@
       }
     },
     {
+      "event_id": "us6000rmea",
+      "place": "122 km E of Yamada, Japan",
+      "origin_utc": "2025-11-09T08:03:39Z",
+      "epi_lat": 39.485,
+      "epi_lon": 143.3782,
+      "depth_km": 18.0,
+      "Mw": 6.8,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 79.4,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 56,
+      "pair_contam_max": 56,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us6000rmep",
+      "place": "117 km E of Yamada, Japan",
+      "origin_utc": "2025-11-09T08:54:36Z",
+      "epi_lat": 39.4971,
+      "epi_lon": 143.3097,
+      "depth_km": 10.0,
+      "Mw": 6.4,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 75.2,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 55,
+      "pair_contam_max": 55,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us6000rsy1",
       "place": "2025 Hubbard Glacier Earthquake",
       "origin_utc": "2025-12-06T20:41:49Z",
@@ -7858,6 +8393,64 @@
       "has_report": true,
       "links": {
         "report": "events/us6000rsy1/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000rtie",
+      "place": "129 km S of Honch\u014d, Japan",
+      "origin_utc": "2025-12-08T21:52:41Z",
+      "epi_lat": 40.9761,
+      "epi_lon": 143.1504,
+      "depth_km": 19.0,
+      "Mw": 6.6,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 63.1,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 20,
+      "pair_contam_max": 20,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us6000ruc4",
+      "place": "117 km NE of Kuji, Japan",
+      "origin_utc": "2025-12-12T02:44:12Z",
+      "epi_lat": 40.8899,
+      "epi_lon": 142.8131,
+      "depth_km": 19.0,
+      "Mw": 6.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 70.8,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 24,
+      "pair_contam_max": 24,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -7969,6 +8562,35 @@
       "has_report": true,
       "links": {
         "report": "events/us6000sg0y/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000smm5",
+      "place": "82 km SSW of Yulara, Australia",
+      "origin_utc": "2026-04-04T18:26:13Z",
+      "epi_lat": -25.9745,
+      "epi_lon": 130.828,
+      "depth_km": 10.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 26.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -8360,6 +8982,64 @@
       }
     },
     {
+      "event_id": "us70003j46",
+      "place": "43 km ESE of Miyazaki, Japan",
+      "origin_utc": "2019-05-09T23:48:42Z",
+      "epi_lat": 31.7772,
+      "epi_lon": 131.8483,
+      "depth_km": 22.0,
+      "Mw": 6.2,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 39.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us700049sf",
+      "place": "250 km WNW of Port McNeill, Canada",
+      "origin_utc": "2019-07-04T04:30:44Z",
+      "epi_lat": 51.2369,
+      "epi_lon": -130.5005,
+      "depth_km": 10.0,
+      "Mw": 6.2,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 59.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 3,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us70004ejm",
       "place": "31 km SE of Masjed Soleym?n, Iran",
       "origin_utc": "2019-07-08T07:00:32Z",
@@ -8448,6 +9128,35 @@
       "has_report": true,
       "links": {
         "report": "events/us70004ejm/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us700059qh",
+      "place": "285 km W of Bandon, Oregon",
+      "origin_utc": "2019-08-29T15:07:58Z",
+      "epi_lat": 43.5425,
+      "epi_lon": -127.8817,
+      "depth_km": 10.0,
+      "Mw": 6.3,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 67.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -8580,45 +9289,8 @@
       "aoi_half_km": 80.0,
       "in_sequence": true,
       "sequence_n_significant": 2,
-      "result": {
-        "L_km": 9.94,
-        "W_km": 4.7,
-        "Z_top_km": 3.87,
-        "dip": -93.7,
-        "strike": 133.5,
-        "Mw_post": 6.31,
-        "VR": {
-          "t163_dsc": 0.51,
-          "t69_asc": 0.39
-        },
-        "fmech": {
-          "strike": 133.5,
-          "dip": 86.3,
-          "rake": 172.0
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.208,
-        "ess": 174,
-        "geweke": 2.5,
-        "zone": "YELLOW",
-        "verdict": "PASS",
-        "grades": {
-          "ess": "C",
-          "acceptance": "B",
-          "geweke": "B",
-          "vr_min": "C",
-          "vr_mean": "C",
-          "railed": "D",
-          "delta_mw": "B",
-          "delta_strike": "A"
-        },
-        "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
-        "in_sequence": true,
-        "sequence_n_ge_5": 18
-      },
+      "result": null,
+      "diagnostics": null,
       "status": "done",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:35Z",
@@ -9116,6 +9788,35 @@
       "has_report": true,
       "links": {
         "report": "events/us70006qp1/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us70006qt7",
+      "place": "203 km W of Port McNeill, Canada",
+      "origin_utc": "2019-12-25T03:36:01Z",
+      "epi_lat": 50.6106,
+      "epi_lon": -129.963,
+      "depth_km": 6.58,
+      "Mw": 6.3,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 80.0,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 1,
+      "pair_contam_max": 6,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -10057,6 +10758,35 @@
       }
     },
     {
+      "event_id": "us70009n5p",
+      "place": "173 km ESE of La Playa, Mexico",
+      "origin_utc": "2020-05-22T08:46:06Z",
+      "epi_lat": 22.4152,
+      "epi_lon": -108.1275,
+      "depth_km": 10.0,
+      "Mw": 6.1,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 53.2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us7000abmk",
       "place": "278 km SE of Hotan, China",
       "origin_utc": "2020-06-25T21:05:18Z",
@@ -10585,6 +11315,33 @@
       "has_report": true,
       "links": {
         "report": "events/us7000biqb/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000biu8",
+      "place": "central Mid-Atlantic Ridge",
+      "origin_utc": "2020-09-06T06:51:18Z",
+      "epi_lat": 7.6829,
+      "epi_lon": -37.1544,
+      "depth_km": 10.0,
+      "Mw": 6.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-26T07:41:44Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000biu8/REPORT.html"
       }
     },
     {
@@ -11119,6 +11876,33 @@
       }
     },
     {
+      "event_id": "us7000dg8x",
+      "place": "183 km NE of Gisborne, New Zealand",
+      "origin_utc": "2021-03-06T00:16:22Z",
+      "epi_lat": -37.5763,
+      "epi_lon": 179.5947,
+      "depth_km": 13.0,
+      "Mw": 6.3,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-26T07:53:42Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000dg8x/REPORT.html"
+      }
+    },
+    {
       "event_id": "us7000dimf",
       "place": "8 km W of Elass\u00f3na, Greece",
       "origin_utc": "2021-03-12T12:57:50Z",
@@ -11319,6 +12103,64 @@
       "has_report": true,
       "links": {
         "report": "events/us7000e3n6/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000e532",
+      "place": "25 km NW of Dali, China",
+      "origin_utc": "2021-05-21T13:48:37Z",
+      "epi_lat": 25.7274,
+      "epi_lon": 100.0082,
+      "depth_km": 9.0,
+      "Mw": 6.1,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 56.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 9,
+      "pair_contam_max": 9,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us7000ef1g",
+      "place": "20 km SSW of Mandr\u00e1ki, Greece",
+      "origin_utc": "2021-06-21T22:14:13Z",
+      "epi_lat": 36.4391,
+      "epi_lon": 27.0416,
+      "depth_km": 9.03,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 28.4,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -11816,6 +12658,33 @@
       }
     },
     {
+      "event_id": "us7000fxyq",
+      "place": "Izu Islands, Japan region",
+      "origin_utc": "2021-11-29T12:40:44Z",
+      "epi_lat": 31.196,
+      "epi_lon": 142.5026,
+      "depth_km": 11.0,
+      "Mw": 6.3,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-26T07:53:56Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000fxyq/REPORT.html"
+      }
+    },
+    {
       "event_id": "us7000g9zq",
       "place": "northern Qinghai, China",
       "origin_utc": "2022-01-07T17:45:30Z",
@@ -11929,6 +12798,62 @@
       }
     },
     {
+      "event_id": "us7000gaex",
+      "place": "5 km NNW of Fl\u00f3rina, Greece",
+      "origin_utc": "2022-01-09T21:43:47Z",
+      "epi_lat": 40.8272,
+      "epi_lon": 21.3919,
+      "depth_km": 13.45,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 20.5,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 3,
+      "pair_contam_max": 3,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us7000gag3",
+      "place": "south of the Kermadec Islands",
+      "origin_utc": "2022-01-10T00:06:30Z",
+      "epi_lat": -33.7823,
+      "epi_lon": 179.574,
+      "depth_km": 7.0,
+      "Mw": 6.2,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-26T07:54:12Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000gag3/REPORT.html"
+      }
+    },
+    {
       "event_id": "us7000gai4",
       "place": "23 km NW of Trancas, Argentina",
       "origin_utc": "2022-01-10T08:36:02Z",
@@ -11953,6 +12878,35 @@
       "has_report": true,
       "links": {
         "report": "events/us7000gai4/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000gcfq",
+      "place": "25 km SSE of Karyes, Greece",
+      "origin_utc": "2022-01-16T11:48:05Z",
+      "epi_lat": 40.0413,
+      "epi_lon": 24.361,
+      "depth_km": 7.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 32.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -13859,6 +14813,35 @@
       }
     },
     {
+      "event_id": "us7000k9f0",
+      "place": "Gulf of California",
+      "origin_utc": "2023-06-18T20:30:21Z",
+      "epi_lat": 23.1671,
+      "epi_lon": -108.6922,
+      "depth_km": 4.0,
+      "Mw": 6.4,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us7000k9jv",
       "place": "96 km ESE of Angoram, Papua New Guinea",
       "origin_utc": "2023-06-19T11:18:11Z",
@@ -14832,45 +15815,8 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
-      "result": {
-        "L_km": 8.77,
-        "W_km": 7.26,
-        "Z_top_km": 3.52,
-        "dip": -70.8,
-        "strike": 236.8,
-        "Mw_post": 5.66,
-        "VR": {
-          "t150_dsc": 0.72,
-          "t77_dsc": 0.81
-        },
-        "fmech": {
-          "strike": 56.8,
-          "dip": 70.8,
-          "rake": 159.7
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.203,
-        "ess": 107,
-        "geweke": 5.34,
-        "zone": "YELLOW",
-        "verdict": "PASS",
-        "grades": {
-          "ess": "C",
-          "acceptance": "B",
-          "geweke": "D",
-          "vr_min": "A",
-          "vr_mean": "A",
-          "railed": "A",
-          "delta_mw": "A",
-          "delta_strike": "A"
-        },
-        "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
-        "in_sequence": false,
-        "sequence_n_ge_5": 2
-      },
+      "result": null,
+      "diagnostics": null,
       "status": "done",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T00:19:08Z",
@@ -14878,6 +15824,33 @@
       "has_report": true,
       "links": {
         "report": "events/us7000m3ur/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000m9sq",
+      "place": "77 km E of Minami-S\u014dma, Japan",
+      "origin_utc": "2024-04-04T03:16:30Z",
+      "epi_lat": 37.7104,
+      "epi_lon": 141.856,
+      "depth_km": 29.0,
+      "Mw": 6.1,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-26T07:57:55Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000m9sq/REPORT.html"
       }
     },
     {
@@ -15169,6 +16142,35 @@
       }
     },
     {
+      "event_id": "us7000mykj",
+      "place": "209 km WSW of Tofino, Canada",
+      "origin_utc": "2024-07-11T15:08:47Z",
+      "epi_lat": 48.7877,
+      "epi_lon": -128.7103,
+      "depth_km": 10.0,
+      "Mw": 6.4,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 75.2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 9,
+      "pair_contam_max": 9,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us7000mytc",
       "place": "24 km SW of Acar\u00ed, Peru",
       "origin_utc": "2024-07-12T09:30:31Z",
@@ -15249,6 +16251,35 @@
       }
     },
     {
+      "event_id": "us7000ne51",
+      "place": "271 km WNW of Port McNeill, Canada",
+      "origin_utc": "2024-09-15T22:22:48Z",
+      "epi_lat": 51.6088,
+      "epi_lon": -130.6121,
+      "depth_km": 3.766,
+      "Mw": 6.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us7000nql2",
       "place": "239 km WNW of Cochrane, Chile",
       "origin_utc": "2024-11-08T11:38:00Z",
@@ -15288,6 +16319,35 @@
       }
     },
     {
+      "event_id": "us7000nu90",
+      "place": "38 km WNW of Hakui, Japan",
+      "origin_utc": "2024-11-26T13:47:03Z",
+      "epi_lat": 36.9549,
+      "epi_lon": 136.3653,
+      "depth_km": 8.0,
+      "Mw": 6.1,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 60.3,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us7000pdvt",
       "place": "32 km W of Kosh-Agach, Russia",
       "origin_utc": "2025-02-15T01:48:11Z",
@@ -15312,6 +16372,35 @@
       "has_report": true,
       "links": {
         "report": "events/us7000pdvt/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000pmem",
+      "place": "170 km WSW of Riverton, New Zealand",
+      "origin_utc": "2025-03-25T01:43:11Z",
+      "epi_lat": -46.7305,
+      "epi_lon": 165.8632,
+      "depth_km": 21.0,
+      "Mw": 6.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 70.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -15628,6 +16717,33 @@
       "has_report": true,
       "links": {
         "report": "events/us7000pyq7/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000qb4s",
+      "place": "213 km WSW of Riverton, New Zealand",
+      "origin_utc": "2025-07-07T12:53:44Z",
+      "epi_lat": -47.1735,
+      "epi_lon": 165.4962,
+      "depth_km": 22.0,
+      "Mw": 6.2,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-26T07:56:41Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000qb4s/REPORT.html"
       }
     },
     {
@@ -16131,6 +17247,64 @@
       "has_report": true,
       "links": {
         "report": "events/us7000rm3k/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000s2x6",
+      "place": "1 km NW of Rodot\u00f3pi, Greece",
+      "origin_utc": "2026-03-08T03:32:31Z",
+      "epi_lat": 39.7204,
+      "epi_lon": 20.7101,
+      "depth_km": 10.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 26.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us7000s7u4",
+      "place": "123 km E of Yamada, Japan",
+      "origin_utc": "2026-03-26T14:18:51Z",
+      "epi_lat": 39.4377,
+      "epi_lon": 143.3826,
+      "depth_km": 16.0,
+      "Mw": 6.5,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 56.2,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 9,
+      "pair_contam_max": 9,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     }
   ]
