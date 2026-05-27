@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T06:57:33Z",
+  "generated_utc": "2026-05-27T06:57:47Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 823,
+  "n_events": 824,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3840,6 +3840,33 @@
       "has_report": true,
       "links": {
         "report": "events/us20002xx1/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us20003lsq",
+      "place": "66 km SW of Ovalle, Chile",
+      "origin_utc": "2015-09-19T09:07:09Z",
+      "epi_lat": -31.0999,
+      "epi_lon": -71.5902,
+      "depth_km": 28.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -16603,7 +16630,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T23:49:52Z",
+      "pipeline_run_utc": "2026-05-27T06:57:45Z",
       "stale": false,
       "has_report": true,
       "links": {
