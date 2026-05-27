@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T06:50:22Z",
+  "generated_utc": "2026-05-27T06:50:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 809,
+  "n_events": 811,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1158,13 +1158,13 @@
       "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-27T06:50:26Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us10002ke8/REPORT.html"
       }
     },
     {
@@ -3545,6 +3545,60 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 30,
       "pair_contam_max": 31,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20002nwm",
+      "place": "120 km E of Miyako, Japan",
+      "origin_utc": "2015-06-11T04:51:24Z",
+      "epi_lat": 39.608,
+      "epi_lon": 143.3457,
+      "depth_km": 5.72,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20002pyz",
+      "place": "47 km S of Suai, Timor Leste",
+      "origin_utc": "2015-06-15T17:40:53Z",
+      "epi_lat": -9.742,
+      "epi_lon": 125.2517,
+      "depth_km": 20.0,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -6551,7 +6605,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T06:49:07Z",
+      "pipeline_run_utc": "2026-05-27T06:50:31Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -18259,7 +18313,7 @@
         "strike": 354.0,
         "Mw_post": 4.92,
         "VR": {
-          "t55_asc": 0.63
+          "t55_asc": 0.12
         },
         "fmech": {
           "strike": 174.0,
@@ -18271,30 +18325,29 @@
         "acceptance": 0.199,
         "ess": 476,
         "geweke": 1.52,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
-          "ess": "B",
-          "acceptance": "B",
-          "geweke": "B",
-          "vr_min": "B",
-          "vr_mean": "B",
+          "ess": "A",
+          "acceptance": "C",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
           "railed": "D",
-          "delta_mw": "C",
+          "delta_mw": "B",
           "delta_strike": "C"
         },
         "flags": [
-          "single_los_pattern_D",
-          "mw_disagreement_review"
+          "single_los_pattern_D"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T06:50:20Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-05-27T06:50:26Z",
       "stale": false,
       "has_report": true,
       "links": {
