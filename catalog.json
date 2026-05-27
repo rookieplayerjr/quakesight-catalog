@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T07:08:09Z",
+  "generated_utc": "2026-05-27T07:10:41Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 835,
+  "n_events": 839,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3855,6 +3855,122 @@
       }
     },
     {
+      "event_id": "us20003j4t",
+      "place": "99 km SSW of Topolobampo, Mexico",
+      "origin_utc": "2015-09-13T07:57:33Z",
+      "epi_lat": 24.8094,
+      "epi_lon": -109.5138,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 29.9,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20003j4u",
+      "place": "95 km SW of Topolobampo, Mexico",
+      "origin_utc": "2015-09-13T08:14:08Z",
+      "epi_lat": 24.913,
+      "epi_lon": -109.6226,
+      "depth_km": 10.0,
+      "Mw": 6.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20003k7w",
+      "place": "25 km WNW of Illapel, Chile",
+      "origin_utc": "2015-09-16T23:18:41Z",
+      "epi_lat": -31.5622,
+      "epi_lon": -71.4262,
+      "depth_km": 28.41,
+      "Mw": 7.0,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 80.0,
+      "in_sequence": true,
+      "sequence_n_significant": 9,
+      "pair_contam_min": 11,
+      "pair_contam_max": 50,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20003kc5",
+      "place": "82 km W of Illapel, Chile",
+      "origin_utc": "2015-09-17T01:33:02Z",
+      "epi_lat": -31.7363,
+      "epi_lon": -72.0265,
+      "depth_km": 9.29,
+      "Mw": 5.8,
+      "Mw_type": "Mwr",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 39.5,
+      "in_sequence": true,
+      "sequence_n_significant": 7,
+      "pair_contam_min": 87,
+      "pair_contam_max": 87,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us20003kfj",
       "place": "54 km WNW of Illapel, Chile",
       "origin_utc": "2015-09-17T03:55:15Z",
@@ -4412,7 +4528,7 @@
         "strike": 127.8,
         "Mw_post": 6.86,
         "VR": {
-          "t12_asc": 0.79
+          "t12_asc": 0.77
         },
         "fmech": {
           "strike": 307.8,
@@ -4427,12 +4543,12 @@
         "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
-          "ess": "B",
+          "ess": "C",
           "acceptance": "B",
-          "geweke": "A",
+          "geweke": "B",
           "vr_min": "A",
           "vr_mean": "A",
-          "railed": "D",
+          "railed": "A",
           "delta_mw": "D",
           "delta_strike": "C"
         },
@@ -4443,8 +4559,8 @@
         "sequence_n_ge_5": 2
       },
       "status": "done",
-      "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-05-27T07:08:06Z",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-05-27T07:10:34Z",
       "stale": false,
       "has_report": true,
       "links": {
