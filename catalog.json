@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-27T10:51:16Z",
+  "generated_utc": "2026-05-27T10:51:47Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 1098,
   "events": [
@@ -6770,8 +6770,8 @@
         "strike": 269.6,
         "Mw_post": 5.74,
         "VR": {
-          "t6_dsc": 0.71,
-          "t79_dsc": 0.82
+          "t6_dsc": 0.77,
+          "t79_dsc": 0.6
         },
         "fmech": {
           "strike": 89.6,
@@ -6787,13 +6787,13 @@
         "verdict": "PASS",
         "grades": {
           "ess": "C",
-          "acceptance": "B",
-          "geweke": "D",
-          "vr_min": "A",
-          "vr_mean": "A",
+          "acceptance": "C",
+          "geweke": "A",
+          "vr_min": "B",
+          "vr_mean": "B",
           "railed": "D",
-          "delta_mw": "A",
-          "delta_strike": "C"
+          "delta_mw": "B",
+          "delta_strike": "A"
         },
         "flags": [],
         "catalog_disagreement": false,
@@ -6802,8 +6802,8 @@
         "sequence_n_ge_5": 1
       },
       "status": "done",
-      "escalation_reason": "Escalation: stack_helper_failed",
-      "pipeline_run_utc": "2026-05-27T10:51:15Z",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-05-27T10:51:46Z",
       "stale": false,
       "has_report": true,
       "links": {
