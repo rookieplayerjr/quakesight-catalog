@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T07:40:58Z",
+  "generated_utc": "2026-05-27T07:42:03Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 898,
+  "n_events": 902,
   "events": [
     {
       "event_id": "ci38443183",
@@ -2409,6 +2409,89 @@
       "has_report": true,
       "links": {
         "report": "events/us10004rn7/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us10005dz1",
+      "place": "182 km NNW of Kilmia, Yemen",
+      "origin_utc": "2016-05-05T07:01:47Z",
+      "epi_lat": 13.7719,
+      "epi_lon": 51.7683,
+      "depth_km": 10.0,
+      "Mw": 5.5,
+      "Mw_type": "Mwb",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-27T07:41:59Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10005dz1/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us10005el7",
+      "place": "115 km SW of Barra de Navidad, Mexico",
+      "origin_utc": "2016-05-07T00:18:36Z",
+      "epi_lat": 18.3754,
+      "epi_lon": -105.3371,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mwb",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-27T07:41:44Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10005el7/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us10005ftw",
+      "place": "3 km WNW of San Agust\u00edn Chayuco, Mexico",
+      "origin_utc": "2016-05-08T07:34:00Z",
+      "epi_lat": 16.4107,
+      "epi_lon": -97.8416,
+      "depth_km": 22.0,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 25.1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -6107,6 +6190,33 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20005l3v",
+      "place": "26 km W of Muisne, Ecuador",
+      "origin_utc": "2016-04-23T01:24:33Z",
+      "epi_lat": 0.6128,
+      "epi_lon": -80.2522,
+      "depth_km": 10.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -27748,7 +27858,7 @@
         "strike": 102.2,
         "Mw_post": 6.57,
         "VR": {
-          "t128_asc": 0.7
+          "t128_asc": 0.95
         },
         "fmech": {
           "strike": 102.2,
@@ -27763,14 +27873,14 @@
         "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
-          "ess": "B",
+          "ess": "C",
           "acceptance": "B",
-          "geweke": "B",
+          "geweke": "C",
           "vr_min": "A",
-          "vr_mean": "B",
-          "railed": "D",
+          "vr_mean": "A",
+          "railed": "B",
           "delta_mw": "A",
-          "delta_strike": "B"
+          "delta_strike": "A"
         },
         "flags": [],
         "catalog_disagreement": false,
@@ -27780,7 +27890,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T07:40:55Z",
+      "pipeline_run_utc": "2026-05-27T07:42:00Z",
       "stale": false,
       "has_report": true,
       "links": {
