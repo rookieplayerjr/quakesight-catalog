@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-27T05:23:15Z",
+  "generated_utc": "2026-05-27T06:00:18Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 758,
   "events": [
@@ -8074,11 +8074,49 @@
       "aoi_half_km": 80.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 22.52,
+        "W_km": 9.41,
+        "Z_top_km": 13.04,
+        "dip": -43.7,
+        "strike": 316.1,
+        "Mw_post": 6.54,
+        "VR": {
+          "t4_dsc": 0.77
+        },
+        "fmech": {
+          "strike": 136.1,
+          "dip": 43.7,
+          "rake": -32.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.213,
+        "ess": 143,
+        "geweke": 1.66,
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "A",
+          "vr_mean": "A",
+          "railed": "C",
+          "delta_mw": "A",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 5
+      },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T23:06:57Z",
+      "pipeline_run_utc": "2026-05-27T06:00:17Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -24246,6 +24284,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": 104,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.043,
+          "status": "ready"
+        },
+        {
           "track": 155,
           "orbit_dir": "asc",
           "pair_dates": [
@@ -24255,9 +24304,20 @@
           "backend": "licsar",
           "median_coh": 0.039,
           "status": "ready"
+        },
+        {
+          "track": 82,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.043,
+          "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 3,
       "aoi_half_km": 20.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -24265,13 +24325,13 @@
       "pair_contam_max": 2,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-27T05:41:40Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000f57q/REPORT.html"
       }
     },
     {
@@ -25558,8 +25618,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 20.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -25567,13 +25639,13 @@
       "pair_contam_max": 13,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-27T05:51:23Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000gzcf/REPORT.html"
       }
     },
     {
