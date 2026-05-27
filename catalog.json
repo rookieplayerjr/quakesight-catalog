@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T06:42:23Z",
+  "generated_utc": "2026-05-27T06:44:34Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 793,
+  "n_events": 798,
   "events": [
     {
       "event_id": "ci38443183",
@@ -615,8 +615,8 @@
         "strike": 349.7,
         "Mw_post": 6.36,
         "VR": {
-          "t144_dsc": 0.67,
-          "t64_asc": 0.74,
+          "t144_dsc": 0.64,
+          "t64_asc": 0.78,
           "t71_dsc": 0.68
         },
         "fmech": {
@@ -635,7 +635,7 @@
           "ess": "B",
           "acceptance": "B",
           "geweke": "B",
-          "vr_min": "A",
+          "vr_min": "B",
           "vr_mean": "B",
           "railed": "C",
           "delta_mw": "A",
@@ -649,7 +649,7 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T06:42:18Z",
+      "pipeline_run_utc": "2026-05-27T06:44:30Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -1082,6 +1082,62 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us100029rn",
+      "place": "45 km SSE of Kod?ri??, Nepal",
+      "origin_utc": "2015-05-16T11:34:09Z",
+      "epi_lat": 27.5603,
+      "epi_lon": 86.0734,
+      "depth_km": 7.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 32.0,
+      "in_sequence": true,
+      "sequence_n_significant": 3,
+      "pair_contam_min": 1,
+      "pair_contam_max": 30,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us10002c8s",
+      "place": "96 km NNW of Insrom, Indonesia",
+      "origin_utc": "2015-05-26T16:42:33Z",
+      "epi_lat": -0.3277,
+      "epi_lon": 135.7341,
+      "depth_km": 15.0,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-27T06:42:39Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10002c8s/REPORT.html"
       }
     },
     {
@@ -3068,6 +3124,147 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us200029gw",
+      "place": "76 km WSW of Santiago de Cao, Peru",
+      "origin_utc": "2015-04-26T23:35:29Z",
+      "epi_lat": -8.3237,
+      "epi_lon": -79.8322,
+      "depth_km": 22.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 20.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20002avl",
+      "place": "Izu Islands, Japan region",
+      "origin_utc": "2015-05-02T16:50:42Z",
+      "epi_lat": 31.5293,
+      "epi_lon": 140.213,
+      "depth_km": 10.0,
+      "Mw": 5.7,
+      "Mw_type": "Mwc",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-27T06:43:46Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us20002avl/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us20002b38",
+      "place": "28 km NW of Wanaka, New Zealand",
+      "origin_utc": "2015-05-04T02:29:11Z",
+      "epi_lat": -44.5226,
+      "epi_lon": 168.8833,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 29.9,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20002e96",
+      "place": "Izu Islands, Japan region",
+      "origin_utc": "2015-05-10T21:25:46Z",
+      "epi_lat": 31.2373,
+      "epi_lon": 142.0157,
+      "depth_km": 6.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-27T06:43:30Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us20002e96/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us20002ek5",
+      "place": "42 km SSE of Kod?ri??, Nepal",
+      "origin_utc": "2015-05-12T07:36:54Z",
+      "epi_lat": 27.625,
+      "epi_lon": 86.1617,
+      "depth_km": 15.0,
+      "Mw": 6.3,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 44.7,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 30,
+      "pair_contam_max": 31,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -19928,98 +20125,6 @@
       }
     },
     {
-      "event_id": "us70006qp1",
-      "place": "9 km NW of Mesetas, Colombia",
-      "origin_utc": "2019-12-24T19:19:03Z",
-      "epi_lat": 3.4502,
-      "epi_lon": -74.1034,
-      "depth_km": 10.0,
-      "Mw": 5.7,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "150",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            "2019-12-18",
-            "2019-12-30"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.214,
-          "status": "ready"
-        },
-        {
-          "track": "69",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            "2019-12-13",
-            "2019-12-25"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.201,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 2,
-      "aoi_half_km": 33.6,
-      "in_sequence": true,
-      "sequence_n_significant": 1,
-      "pair_contam_min": 4,
-      "pair_contam_max": 9,
-      "result": {
-        "L_km": 11.66,
-        "W_km": 9.07,
-        "Z_top_km": 24.93,
-        "dip": -87.6,
-        "strike": 93.1,
-        "Mw_post": 6.46,
-        "VR": {
-          "t150_asc": 0.52,
-          "t69_dsc": 0.02
-        },
-        "fmech": {
-          "strike": 273.1,
-          "dip": 87.6,
-          "rake": -16.4
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.216,
-        "ess": 160,
-        "geweke": 2.38,
-        "zone": "RED",
-        "verdict": "FAIL",
-        "grades": {
-          "ess": "B",
-          "acceptance": "B",
-          "geweke": "B",
-          "vr_min": "D",
-          "vr_mean": "D",
-          "railed": "D",
-          "delta_mw": "D",
-          "delta_strike": "B"
-        },
-        "flags": [
-          "bad_track_contaminates",
-          "drop_candidate:t69_dsc"
-        ],
-        "catalog_disagreement": true,
-        "np_likely_wrong": false,
-        "in_sequence": true,
-        "sequence_n_ge_5": 4
-      },
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T16:43:39Z",
-      "stale": false,
-      "has_report": true,
-      "links": {
-        "report": "events/us70006qp1/REPORT.html"
-      }
-    },
-    {
       "event_id": "us70006qt7",
       "place": "203 km W of Port McNeill, Canada",
       "origin_utc": "2019-12-25T03:36:01Z",
@@ -22676,97 +22781,6 @@
       "has_report": false,
       "links": {
         "report": null
-      }
-    },
-    {
-      "event_id": "us7000d030",
-      "place": "32 km S of Mamuju, Indonesia",
-      "origin_utc": "2021-01-14T18:28:18Z",
-      "epi_lat": -2.9717,
-      "epi_lon": 118.8899,
-      "depth_km": 18.0,
-      "Mw": 6.2,
-      "Mw_type": "Mww",
-      "faulting_class": "oblique",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "10",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            "2021-01-14",
-            "2021-01-20"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.188,
-          "status": "ready"
-        },
-        {
-          "track": "134",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            "2021-01-10",
-            "2021-01-16"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.19,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 2,
-      "aoi_half_km": 39.8,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "result": {
-        "L_km": 19.42,
-        "W_km": 11.07,
-        "Z_top_km": 6.29,
-        "dip": -9.5,
-        "strike": 197.5,
-        "Mw_post": 5.9,
-        "VR": {
-          "t10_asc": 0.08,
-          "t134_dsc": 0.46
-        },
-        "fmech": {
-          "strike": 17.5,
-          "dip": 9.5,
-          "rake": -115.1
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.208,
-        "ess": 178,
-        "geweke": 1.04,
-        "zone": "RED",
-        "verdict": "FAIL",
-        "grades": {
-          "ess": "B",
-          "acceptance": "B",
-          "geweke": "A",
-          "vr_min": "D",
-          "vr_mean": "D",
-          "railed": "D",
-          "delta_mw": "C",
-          "delta_strike": "A"
-        },
-        "flags": [
-          "mw_disagreement_review",
-          "bad_track_contaminates",
-          "drop_candidate:t10_asc"
-        ],
-        "catalog_disagreement": false,
-        "np_likely_wrong": true,
-        "in_sequence": false,
-        "sequence_n_ge_5": 2
-      },
-      "status": "escalated",
-      "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-05-25T23:49:04Z",
-      "stale": false,
-      "has_report": true,
-      "links": {
-        "report": "events/us7000d030/REPORT.html"
       }
     },
     {
@@ -33026,9 +33040,11 @@
       "magnitude_band": "6p5_to_7",
       "data_used": [],
       "n_tracks": 0,
-      "aoi_half_km": null,
+      "aoi_half_km": 70.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
       "result": null,
       "diagnostics": null,
       "status": "partial",
