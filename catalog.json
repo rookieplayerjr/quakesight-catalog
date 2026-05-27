@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T06:51:24Z",
+  "generated_utc": "2026-05-27T06:52:41Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 812,
+  "n_events": 818,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3557,6 +3557,114 @@
       }
     },
     {
+      "event_id": "us20002kpm",
+      "place": "Izu Islands, Japan region",
+      "origin_utc": "2015-05-30T18:49:07Z",
+      "epi_lat": 30.7856,
+      "epi_lon": 142.9722,
+      "depth_km": 6.05,
+      "Mw": 6.2,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-27T06:52:28Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us20002kpm/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us20002kxa",
+      "place": "off the coast of Oregon",
+      "origin_utc": "2015-06-01T06:52:41Z",
+      "epi_lat": 44.4584,
+      "epi_lon": -129.8114,
+      "depth_km": 10.0,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-27T06:52:17Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us20002kxa/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us20002l3n",
+      "place": "off the coast of Oregon",
+      "origin_utc": "2015-06-01T20:11:30Z",
+      "epi_lat": 44.4971,
+      "epi_lon": -129.9582,
+      "depth_km": 10.0,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_sar_coverage",
+      "pipeline_run_utc": "2026-05-27T06:52:11Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us20002l3n/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us20002m5s",
+      "place": "14 km WNW of Ranau, Malaysia",
+      "origin_utc": "2015-06-04T23:15:43Z",
+      "epi_lat": 5.9867,
+      "epi_lon": 116.5409,
+      "depth_km": 10.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-27T06:52:01Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us20002m5s/REPORT.html"
+      }
+    },
+    {
       "event_id": "us20002nwl",
       "place": "119 km E of Miyako, Japan",
       "origin_utc": "2015-06-11T04:45:29Z",
@@ -3695,6 +3803,62 @@
       "has_report": true,
       "links": {
         "report": "events/us20002xx1/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us20003nmz",
+      "place": "221 km W of Port McNeill, Canada",
+      "origin_utc": "2015-09-24T13:48:58Z",
+      "epi_lat": 50.7832,
+      "epi_lon": -130.2084,
+      "depth_km": 10.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20003nqr",
+      "place": "28 km N of Sorong, Indonesia",
+      "origin_utc": "2015-09-24T15:53:27Z",
+      "epi_lat": -0.6212,
+      "epi_lon": 131.2622,
+      "depth_km": 18.0,
+      "Mw": 6.6,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 63.1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
@@ -26491,11 +26655,51 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 3.35,
+        "W_km": 2.61,
+        "Z_top_km": 0.1,
+        "dip": -75.2,
+        "strike": 174.3,
+        "Mw_post": 5.28,
+        "VR": {
+          "t120_asc": 0.39,
+          "t142_dsc": 0.41
+        },
+        "fmech": {
+          "strike": 354.3,
+          "dip": 75.2,
+          "rake": 173.6
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.211,
+        "ess": 440,
+        "geweke": 1.66,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "demoted_critical_rail",
+          "mw_disagreement_review"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T11:35:55Z",
+      "pipeline_run_utc": "2026-05-27T06:52:40Z",
       "stale": false,
       "has_report": true,
       "links": {
