@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T07:43:20Z",
+  "generated_utc": "2026-05-27T07:44:59Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 903,
+  "n_events": 904,
   "events": [
     {
       "event_id": "ci38443183",
@@ -6190,6 +6190,33 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20005kqh",
+      "place": "34 km NNW of Bah\u00eda de Car\u00e1quez, Ecuador",
+      "origin_utc": "2016-04-22T03:03:41Z",
+      "epi_lat": -0.2921,
+      "epi_lon": -80.5039,
+      "depth_km": 10.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -23863,8 +23890,8 @@
         "strike": 45.3,
         "Mw_post": 5.93,
         "VR": {
-          "t152_dsc": 0.59,
-          "t79_dsc": 0.64
+          "t152_dsc": 0.48,
+          "t79_dsc": 0.71
         },
         "fmech": {
           "strike": 225.3,
@@ -23884,13 +23911,13 @@
           "geweke": "B",
           "vr_min": "B",
           "vr_mean": "B",
-          "railed": "D",
+          "railed": "C",
           "delta_mw": "A",
-          "delta_strike": "C"
+          "delta_strike": "B"
         },
         "flags": [],
         "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "np_likely_wrong": true,
         "in_sequence": true,
         "sequence_n_ge_5": 1
       },
@@ -26001,11 +26028,51 @@
       "aoi_half_km": 50.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 30.34,
+        "W_km": 15.28,
+        "Z_top_km": 29.99,
+        "dip": -86.0,
+        "strike": 169.7,
+        "Mw_post": 6.94,
+        "VR": {
+          "t120_asc": 0.12,
+          "t83_dsc": 0.41
+        },
+        "fmech": {
+          "strike": 349.7,
+          "dip": 86.0,
+          "rake": 155.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 154,
+        "geweke": 2.95,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t120_asc"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T04:28:14Z",
+      "pipeline_run_utc": "2026-05-27T07:44:56Z",
       "stale": false,
       "has_report": true,
       "links": {
