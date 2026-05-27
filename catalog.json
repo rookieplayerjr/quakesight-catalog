@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-27T06:00:54Z",
+  "generated_utc": "2026-05-27T06:26:28Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 758,
   "events": [
@@ -2147,7 +2147,7 @@
       "diagnostics": null,
       "status": "done",
       "escalation_reason": "Escalation: stack_helper_failed",
-      "pipeline_run_utc": "2026-05-27T01:08:00Z",
+      "pipeline_run_utc": "2026-05-27T06:21:07Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -6636,11 +6636,49 @@
       "aoi_half_km": 80.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 14.95,
+        "W_km": 6.25,
+        "Z_top_km": 3.12,
+        "dip": -89.1,
+        "strike": 159.8,
+        "Mw_post": 6.57,
+        "VR": {
+          "t116_asc": 0.69,
+          "t123_dsc": 0.66,
+          "t43_asc": 0.59
+        },
+        "fmech": {
+          "strike": 339.8,
+          "dip": 89.1,
+          "rake": -176.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.202,
+        "ess": 378,
+        "geweke": 2.67,
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "A"
+        },
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T22:34:23Z",
+      "pipeline_run_utc": "2026-05-27T06:26:27Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -12289,8 +12327,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 134,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.035,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 28.2,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -12298,13 +12348,13 @@
       "pair_contam_max": 0,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-27T06:20:35Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000k1gl/REPORT.html"
       }
     },
     {
@@ -27331,8 +27381,31 @@
       "Mw_type": "Mwb",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 47,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.047,
+          "status": "ready"
+        },
+        {
+          "track": 98,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.078,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -27340,13 +27413,13 @@
       "pair_contam_max": 0,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-27T06:16:30Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000ir9t/REPORT.html"
       }
     },
     {
@@ -27582,8 +27655,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -27591,13 +27676,13 @@
       "pair_contam_max": 4,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-27T06:02:35Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000jhuv/REPORT.html"
       }
     },
     {
