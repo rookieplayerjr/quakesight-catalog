@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T06:52:41Z",
+  "generated_utc": "2026-05-27T06:54:14Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 818,
+  "n_events": 821,
   "events": [
     {
       "event_id": "ci38443183",
@@ -783,11 +783,48 @@
       "aoi_half_km": 43.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 11.39,
+        "W_km": 8.97,
+        "Z_top_km": 23.95,
+        "dip": -97.6,
+        "strike": 29.4,
+        "Mw_post": 6.46,
+        "VR": {
+          "t144_dsc": 0.55,
+          "t64_asc": 0.43
+        },
+        "fmech": {
+          "strike": 29.4,
+          "dip": 82.4,
+          "rake": -179.1
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 195,
+        "geweke": 1.59,
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "B",
+          "vr_mean": "C",
+          "railed": "A",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T23:42:34Z",
+      "pipeline_run_utc": "2026-05-27T06:54:14Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -3806,6 +3843,93 @@
       }
     },
     {
+      "event_id": "us20003mcj",
+      "place": "54 km W of Illapel, Chile",
+      "origin_utc": "2015-09-21T05:39:34Z",
+      "epi_lat": -31.5757,
+      "epi_lon": -71.7431,
+      "depth_km": 30.0,
+      "Mw": 6.1,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 35.5,
+      "in_sequence": true,
+      "sequence_n_significant": 9,
+      "pair_contam_min": 21,
+      "pair_contam_max": 107,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20003mis",
+      "place": "77 km SW of Ovalle, Chile",
+      "origin_utc": "2015-09-21T18:36:53Z",
+      "epi_lat": -31.0458,
+      "epi_lon": -71.82,
+      "depth_km": 26.95,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 17.8,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "pair_contam_min": 18,
+      "pair_contam_max": 88,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
+      "event_id": "us20003mjn",
+      "place": "47 km WSW of Illapel, Chile",
+      "origin_utc": "2015-09-21T19:56:08Z",
+      "epi_lat": -31.7819,
+      "epi_lon": -71.6407,
+      "depth_km": 28.36,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 20.0,
+      "in_sequence": true,
+      "sequence_n_significant": 9,
+      "pair_contam_min": 14,
+      "pair_contam_max": 77,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us20003nmz",
       "place": "221 km W of Port McNeill, Canada",
       "origin_utc": "2015-09-24T13:48:58Z",
@@ -3823,13 +3947,13 @@
       "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: epicenter_not_covered",
+      "pipeline_run_utc": "2026-05-27T06:52:45Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us20003nmz/REPORT.html"
       }
     },
     {
@@ -26663,8 +26787,8 @@
         "strike": 174.3,
         "Mw_post": 5.28,
         "VR": {
-          "t120_asc": 0.39,
-          "t142_dsc": 0.41
+          "t120_asc": 0.53,
+          "t142_dsc": 0.22
         },
         "fmech": {
           "strike": 354.3,
@@ -26697,9 +26821,9 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T06:52:40Z",
+      "pipeline_run_utc": "2026-05-27T06:54:10Z",
       "stale": false,
       "has_report": true,
       "links": {
