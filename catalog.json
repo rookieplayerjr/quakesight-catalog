@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-27T06:54:14Z",
+  "generated_utc": "2026-05-27T06:54:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 821,
   "events": [
@@ -791,8 +791,8 @@
         "strike": 29.4,
         "Mw_post": 6.46,
         "VR": {
-          "t144_dsc": 0.55,
-          "t64_asc": 0.43
+          "t144_dsc": -0.02,
+          "t64_asc": 0.14
         },
         "fmech": {
           "strike": 29.4,
@@ -804,25 +804,25 @@
         "acceptance": 0.208,
         "ess": 195,
         "geweke": 1.59,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
-          "ess": "A",
+          "ess": "B",
           "acceptance": "B",
           "geweke": "A",
-          "vr_min": "B",
-          "vr_mean": "C",
-          "railed": "A",
-          "delta_mw": "A",
-          "delta_strike": "A"
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
         },
         "flags": [],
-        "catalog_disagreement": false,
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-27T06:54:14Z",
       "stale": false,
@@ -6926,7 +6926,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T06:50:31Z",
+      "pipeline_run_utc": "2026-05-27T06:54:30Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -15858,8 +15858,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.051,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -15867,13 +15879,13 @@
       "pair_contam_max": 4,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: all_tracks_failed",
+      "pipeline_run_utc": "2026-05-27T06:54:32Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000q6br/REPORT.html"
       }
     },
     {
@@ -18668,7 +18680,7 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-27T06:51:21Z",
+      "pipeline_run_utc": "2026-05-27T06:54:34Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -26823,7 +26835,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T06:54:10Z",
+      "pipeline_run_utc": "2026-05-27T06:54:34Z",
       "stale": false,
       "has_report": true,
       "links": {
