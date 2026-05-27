@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T07:42:03Z",
+  "generated_utc": "2026-05-27T07:43:20Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 902,
+  "n_events": 903,
   "events": [
     {
       "event_id": "ci38443183",
@@ -6202,6 +6202,35 @@
       }
     },
     {
+      "event_id": "us20005kqp",
+      "place": "36 km NNW of Bah\u00eda de Car\u00e1quez, Ecuador",
+      "origin_utc": "2016-04-22T03:20:13Z",
+      "epi_lat": -0.2814,
+      "epi_lon": -80.5039,
+      "depth_km": 10.29,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 41.5,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 5,
+      "pair_contam_max": 17,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "us20005l3v",
       "place": "26 km W of Muisne, Ecuador",
       "origin_utc": "2016-04-23T01:24:33Z",
@@ -6214,9 +6243,11 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [],
       "n_tracks": 0,
-      "aoi_half_km": null,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
+      "aoi_half_km": 33.6,
+      "in_sequence": true,
+      "sequence_n_significant": 3,
+      "pair_contam_min": 1,
+      "pair_contam_max": 14,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -23824,11 +23855,48 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 4.63,
+        "W_km": 3.39,
+        "Z_top_km": 5.29,
+        "dip": -47.2,
+        "strike": 45.3,
+        "Mw_post": 5.93,
+        "VR": {
+          "t152_dsc": 0.59,
+          "t79_dsc": 0.64
+        },
+        "fmech": {
+          "strike": 225.3,
+          "dip": 47.2,
+          "rake": 171.8
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.216,
+        "ess": 187,
+        "geweke": 2.79,
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "C"
+        },
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 1
+      },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T07:04:13Z",
+      "pipeline_run_utc": "2026-05-27T07:43:13Z",
       "stale": false,
       "has_report": true,
       "links": {
