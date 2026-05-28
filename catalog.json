@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-28T22:56:15Z",
+  "generated_utc": "2026-05-28T22:59:03Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 1148,
   "events": [
@@ -43874,22 +43874,31 @@
         "acceptance": 0.209,
         "ess": 139,
         "geweke": 1.05,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
         "flags": [],
-        "catalog_disagreement": false,
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-28T22:56:14Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-05-28T22:59:02Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000rs2q/REPORT.html"
       }
     },
     {
