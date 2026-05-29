@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-28T22:59:03Z",
+  "generated_utc": "2026-05-29T00:38:22Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 1148,
+  "n_events": 1149,
   "events": [
     {
       "event_id": "ci38443183",
@@ -43524,6 +43524,86 @@
       "has_report": true,
       "links": {
         "report": "events/us7000rfgy/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000rkjm",
+      "place": "2025 Taitung, Taiwan Earthquake",
+      "origin_utc": "2025-12-24T09:47:06Z",
+      "epi_lat": 22.8982,
+      "epi_lon": 121.2494,
+      "depth_km": 8.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "105",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-12-19",
+            "2025-12-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.191,
+          "status": "ready"
+        },
+        {
+          "track": "69",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-12-11",
+            "2026-01-04"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.183,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 53.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": {
+        "L_km": 17.6,
+        "W_km": 11.37,
+        "Z_top_km": 29.95,
+        "dip": -77.7,
+        "strike": 61.3,
+        "Mw_post": 6.73,
+        "VR": {
+          "t105_dsc": 0.42,
+          "t69_asc": -0.0
+        },
+        "fmech": {
+          "strike": 241.3,
+          "dip": 77.7,
+          "rake": 143.6
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 193,
+        "geweke": 1.54,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-05-29T00:38:20Z",
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
       }
     },
     {
