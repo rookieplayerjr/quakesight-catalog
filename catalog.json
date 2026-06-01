@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T23:02:25Z",
+  "generated_utc": "2026-06-01T23:02:59Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 543,
+  "n_events": 544,
   "events": [
     {
       "event_id": "ci38443183",
@@ -5259,6 +5259,85 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us10008w1z",
+      "place": "37 km WNW of Poso, Indonesia",
+      "origin_utc": "2017-05-29T14:35:21Z",
+      "epi_lat": -1.2923,
+      "epi_lon": 120.4313,
+      "depth_km": 12.0,
+      "Mw": 6.6,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 134,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 14,
+      "pair_contam_max": 14,
+      "result": {
+        "L_km": 39.82,
+        "W_km": 17.71,
+        "Z_top_km": 0.1,
+        "dip": -56.9,
+        "strike": 255.4,
+        "Mw_post": 6.43,
+        "VR": {
+          "t134_dsc": 0.04
+        },
+        "fmech": {
+          "strike": 75.4,
+          "dip": 56.9,
+          "rake": -153.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.271,
+        "ess": 100,
+        "geweke": 21.46,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "A",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 6
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-01T23:02:56Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10008w1z/REPORT.html"
       }
     },
     {
