@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T22:40:00Z",
+  "generated_utc": "2026-06-01T22:40:39Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 539,
+  "n_events": 540,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4707,6 +4707,85 @@
       "has_report": true,
       "links": {
         "report": "events/us10008jvr/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us10008kce",
+      "place": "40 km W of Valpara\u00edso, Chile",
+      "origin_utc": "2017-04-24T21:38:30Z",
+      "epi_lat": -33.0375,
+      "epi_lon": -72.0617,
+      "depth_km": 28.0,
+      "Mw": 6.9,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 156,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.235,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 80.0,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 25,
+      "pair_contam_max": 25,
+      "result": {
+        "L_km": 59.86,
+        "W_km": 22.09,
+        "Z_top_km": 0.1,
+        "dip": -111.0,
+        "strike": 45.3,
+        "Mw_post": 6.61,
+        "VR": {
+          "t156_dsc": 0.0
+        },
+        "fmech": {
+          "strike": 45.3,
+          "dip": 69.0,
+          "rake": -161.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.147,
+        "ess": 103,
+        "geweke": 20.54,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "D",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 14
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-01T22:40:37Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10008kce/REPORT.html"
       }
     },
     {
