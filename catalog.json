@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-01T17:54:30Z",
+  "generated_utc": "2026-06-01T17:54:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 517,
   "events": [
@@ -1474,22 +1474,34 @@
         "acceptance": 0.213,
         "ess": 341,
         "geweke": 1.83,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "C",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-01T17:54:27Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-01T17:54:53Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us10003yzt/REPORT.html"
       }
     },
     {
