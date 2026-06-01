@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T18:02:17Z",
+  "generated_utc": "2026-06-01T18:02:44Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 517,
+  "n_events": 518,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1237,6 +1237,85 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us10002zzn",
+      "place": "37 km N of Cyangugu, Rwanda",
+      "origin_utc": "2015-08-07T01:25:02Z",
+      "epi_lat": -2.1412,
+      "epi_lon": 28.8973,
+      "depth_km": 11.0,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 174,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.086,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 35.2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": {
+        "L_km": 13.43,
+        "W_km": 9.82,
+        "Z_top_km": 0.1,
+        "dip": -53.1,
+        "strike": 317.8,
+        "Mw_post": 6.59,
+        "VR": {
+          "t174_asc": -0.0
+        },
+        "fmech": {
+          "strike": 137.8,
+          "dip": 53.1,
+          "rake": 136.4
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.209,
+        "ess": 101,
+        "geweke": 17.89,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-01T18:02:42Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10002zzn/REPORT.html"
       }
     },
     {
