@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T22:15:21Z",
+  "generated_utc": "2026-06-01T22:15:48Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 534,
+  "n_events": 535,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4241,6 +4241,95 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us10008fsc",
+      "place": "3 km S of Talaga, Philippines",
+      "origin_utc": "2017-04-08T07:07:56Z",
+      "epi_lat": 13.7049,
+      "epi_lon": 120.9305,
+      "depth_km": 10.22,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 142,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.063,
+          "status": "ready"
+        },
+        {
+          "track": 32,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.055,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 26.3,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 7,
+      "pair_contam_max": 7,
+      "result": {
+        "L_km": 8.94,
+        "W_km": 7.87,
+        "Z_top_km": 0.1,
+        "dip": -60.8,
+        "strike": 225.5,
+        "Mw_post": 6.15,
+        "VR": {
+          "t142_asc": 0.03,
+          "t32_dsc": 0.0
+        },
+        "fmech": {
+          "strike": 45.5,
+          "dip": 60.8,
+          "rake": 135.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.197,
+        "ess": 100,
+        "geweke": 16.59,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "C",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 5
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-01T22:15:46Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10008fsc/REPORT.html"
       }
     },
     {
