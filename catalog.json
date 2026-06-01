@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T21:30:48Z",
+  "generated_utc": "2026-06-01T21:39:38Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 530,
+  "n_events": 531,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3437,6 +3437,58 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us10007b88",
+      "place": "35 km ESE of Namie, Japan",
+      "origin_utc": "2016-11-21T20:59:49Z",
+      "epi_lat": 37.3931,
+      "epi_lon": 141.387,
+      "depth_km": 9.0,
+      "Mw": 6.9,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 141,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.188,
+          "status": "ready"
+        },
+        {
+          "track": 46,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.078,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 52,
+      "pair_contam_max": 61,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: prep_failed",
+      "pipeline_run_utc": "2026-06-01T21:30:55Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10007b88/REPORT.html"
       }
     },
     {
