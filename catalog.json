@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T22:07:44Z",
+  "generated_utc": "2026-06-01T22:08:33Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 532,
+  "n_events": 533,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3665,6 +3665,95 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us10007e55",
+      "place": "22 km SW of Vilavila, Peru",
+      "origin_utc": "2016-12-01T22:40:26Z",
+      "epi_lat": -15.3122,
+      "epi_lon": -70.827,
+      "depth_km": 12.0,
+      "Mw": 6.2,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 127,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.6,
+          "status": "ready"
+        },
+        {
+          "track": "149",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2016-11-15",
+            "2016-12-09"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.455,
+          "status": ""
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 51.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 2,
+      "pair_contam_max": 3,
+      "result": {
+        "L_km": 23.13,
+        "W_km": 13.19,
+        "Z_top_km": 1.23,
+        "dip": -21.0,
+        "strike": 83.0,
+        "Mw_post": 6.81,
+        "VR": {
+          "t127_dsc": -0.27,
+          "t149_asc": -54.82
+        },
+        "fmech": {
+          "strike": 263.0,
+          "dip": 21.0,
+          "rake": -35.5
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.19,
+        "ess": 100,
+        "geweke": 205.23,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "C",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-01T22:08:31Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10007e55/REPORT.html"
       }
     },
     {
