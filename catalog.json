@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T23:08:41Z",
+  "generated_utc": "2026-06-01T23:09:10Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 544,
+  "n_events": 545,
   "events": [
     {
       "event_id": "ci38443183",
@@ -5396,6 +5396,86 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us1000976a",
+      "place": "2 km S of Lim-oo, Philippines",
+      "origin_utc": "2017-07-06T08:03:57Z",
+      "epi_lat": 11.1269,
+      "epi_lon": 124.6286,
+      "depth_km": 9.0,
+      "Mw": 6.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 61,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.09,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 3,
+      "pair_contam_max": 3,
+      "result": {
+        "L_km": 34.76,
+        "W_km": 16.45,
+        "Z_top_km": 0.1,
+        "dip": -49.3,
+        "strike": 167.9,
+        "Mw_post": 6.99,
+        "VR": {
+          "t61_dsc": 0.07
+        },
+        "fmech": {
+          "strike": 347.9,
+          "dip": 49.3,
+          "rake": 159.1
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.201,
+        "ess": 101,
+        "geweke": 32.72,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "mw_disagreement_review"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-01T23:09:07Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us1000976a/REPORT.html"
       }
     },
     {
