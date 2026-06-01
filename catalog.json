@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-30T00:28:39Z",
+  "generated_utc": "2026-06-01T07:14:36Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 518,
+  "n_events": 517,
   "events": [
     {
       "event_id": "ci38443183",
@@ -21508,104 +21508,6 @@
       "has_report": false,
       "links": {
         "report": null
-      }
-    },
-    {
-      "event_id": "us7000kufc",
-      "place": "Al Haouz, Morocco",
-      "origin_utc": "2023-09-08T22:11:01Z",
-      "epi_lat": 31.058,
-      "epi_lon": -8.3847,
-      "depth_km": 19.0,
-      "Mw": 6.8,
-      "Mw_type": "Mww",
-      "faulting_class": "oblique",
-      "magnitude_band": "6p5_to_7",
-      "data_used": [
-        {
-          "track": "154",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            "2023-08-30",
-            "2023-09-11"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.794,
-          "status": "ready"
-        },
-        {
-          "track": 45,
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.765,
-          "status": "ready"
-        },
-        {
-          "track": "52",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            "2023-09-04",
-            "2023-09-16"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.771,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 3,
-      "aoi_half_km": 79.4,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "result": {
-        "L_km": 52.09,
-        "W_km": 20.45,
-        "Z_top_km": 10.5,
-        "dip": -0.4,
-        "strike": 31.6,
-        "Mw_post": 6.77,
-        "VR": {
-          "t154_dsc": 0.75,
-          "t52_dsc": 0.77
-        },
-        "fmech": {
-          "strike": 211.6,
-          "dip": 0.4,
-          "rake": -0.1
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.21,
-        "ess": 332,
-        "geweke": 1.44,
-        "zone": "YELLOW",
-        "verdict": "PASS",
-        "grades": {
-          "ess": "B",
-          "acceptance": "B",
-          "geweke": "A",
-          "vr_min": "A",
-          "vr_mean": "A",
-          "railed": "D",
-          "delta_mw": "A",
-          "delta_strike": "C"
-        },
-        "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": true,
-        "in_sequence": false,
-        "sequence_n_ge_5": 0
-      },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-30T00:28:37Z",
-      "stale": false,
-      "has_report": true,
-      "links": {
-        "report": "events/us7000kufc/REPORT.html"
       }
     },
     {
