@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T18:14:17Z",
+  "generated_utc": "2026-06-01T18:14:45Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 520,
+  "n_events": 521,
   "events": [
     {
       "event_id": "ci38443183",
@@ -1884,6 +1884,85 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us10004gy9",
+      "place": "49 km NNE of Al Hoce\u00efma, Morocco",
+      "origin_utc": "2016-01-25T04:22:02Z",
+      "epi_lat": 35.6493,
+      "epi_lon": -3.6818,
+      "depth_km": 12.0,
+      "Mw": 6.3,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 74,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.278,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 58.1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 10,
+      "pair_contam_max": 11,
+      "result": {
+        "L_km": 26.41,
+        "W_km": 14.15,
+        "Z_top_km": 7.67,
+        "dip": -63.5,
+        "strike": 27.5,
+        "Mw_post": 6.92,
+        "VR": {
+          "t74_asc": -0.39
+        },
+        "fmech": {
+          "strike": 207.5,
+          "dip": 63.5,
+          "rake": 135.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.204,
+        "ess": 142,
+        "geweke": 3.6,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "C",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 6
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-01T18:14:42Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10004gy9/REPORT.html"
       }
     },
     {
