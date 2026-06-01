@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T23:31:57Z",
+  "generated_utc": "2026-06-01T23:32:24Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 547,
+  "n_events": 548,
   "events": [
     {
       "event_id": "ci38443183",
@@ -6852,6 +6852,86 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us200029bt",
+      "place": "21 km SSE of Kod?ri??, Nepal",
+      "origin_utc": "2015-04-26T07:09:10Z",
+      "epi_lat": 27.7711,
+      "epi_lon": 86.0173,
+      "depth_km": 22.91,
+      "Mw": 6.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 121,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.11,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 70.8,
+      "in_sequence": true,
+      "sequence_n_significant": 3,
+      "pair_contam_min": 33,
+      "pair_contam_max": 33,
+      "result": {
+        "L_km": 45.62,
+        "W_km": 19.06,
+        "Z_top_km": 0.59,
+        "dip": -43.0,
+        "strike": 297.4,
+        "Mw_post": 7.23,
+        "VR": {
+          "t121_dsc": 0.6
+        },
+        "fmech": {
+          "strike": 117.4,
+          "dip": 43.0,
+          "rake": -21.1
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.219,
+        "ess": 219,
+        "geweke": 2.44,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 18
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
+      "pipeline_run_utc": "2026-06-01T23:32:22Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us200029bt/REPORT.html"
       }
     },
     {
