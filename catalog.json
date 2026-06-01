@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T22:26:38Z",
+  "generated_utc": "2026-06-01T22:27:08Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 536,
+  "n_events": 537,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4418,6 +4418,96 @@
       "has_report": true,
       "links": {
         "report": "events/us10008fsd/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us10008gsq",
+      "place": "8 km N of Osias, Philippines",
+      "origin_utc": "2017-04-11T21:21:00Z",
+      "epi_lat": 7.6766,
+      "epi_lon": 124.8119,
+      "depth_km": 8.28,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.047,
+          "status": "ready"
+        },
+        {
+          "track": 61,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 42.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 6,
+      "result": {
+        "L_km": 13.43,
+        "W_km": 9.82,
+        "Z_top_km": 0.1,
+        "dip": -55.4,
+        "strike": 230.3,
+        "Mw_post": 6.52,
+        "VR": {
+          "t163_dsc": 0.02
+        },
+        "fmech": {
+          "strike": 50.3,
+          "dip": 55.4,
+          "rake": -161.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.242,
+        "ess": 100,
+        "geweke": 42.26,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-01T22:27:06Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10008gsq/REPORT.html"
       }
     },
     {
