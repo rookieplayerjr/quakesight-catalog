@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-01T18:47:34Z",
+  "generated_utc": "2026-06-01T18:48:02Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 523,
   "events": [
@@ -2728,22 +2728,34 @@
         "acceptance": 0.209,
         "ess": 535,
         "geweke": 0.95,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "A",
+          "vr_mean": "A",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "normal_fault_dual_plane_ambiguous"
+        ],
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": true,
         "sequence_n_ge_5": 2
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-01T18:47:32Z",
+      "pipeline_run_utc": "2026-06-01T18:47:58Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us1000725y/REPORT.html"
       }
     },
     {
