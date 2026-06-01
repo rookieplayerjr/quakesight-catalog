@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T22:20:28Z",
+  "generated_utc": "2026-06-01T22:20:56Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 535,
+  "n_events": 536,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4330,6 +4330,94 @@
       "has_report": true,
       "links": {
         "report": "events/us10008fsc/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us10008fsd",
+      "place": "1 km NNW of Mabini, Philippines",
+      "origin_utc": "2017-04-08T07:09:23Z",
+      "epi_lat": 13.7701,
+      "epi_lon": 120.9354,
+      "depth_km": 14.26,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 142,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.063,
+          "status": "ready"
+        },
+        {
+          "track": 32,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.035,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 30.3,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 7,
+      "pair_contam_max": 7,
+      "result": {
+        "L_km": 15.39,
+        "W_km": 10.57,
+        "Z_top_km": 0.1,
+        "dip": -42.5,
+        "strike": 243.1,
+        "Mw_post": 6.48,
+        "VR": {
+          "t142_asc": 0.03
+        },
+        "fmech": {
+          "strike": 63.1,
+          "dip": 42.5,
+          "rake": 134.5
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.206,
+        "ess": 100,
+        "geweke": 52.09,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "B"
+        },
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 5
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_coherence_collapse_after_pass3",
+      "pipeline_run_utc": "2026-06-01T22:20:54Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us10008fsd/REPORT.html"
       }
     },
     {
