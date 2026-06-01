@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T23:53:35Z",
+  "generated_utc": "2026-06-01T23:54:07Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 550,
+  "n_events": 551,
   "events": [
     {
       "event_id": "ci38443183",
@@ -7264,6 +7264,85 @@
       "has_report": true,
       "links": {
         "report": "events/us20003kfj/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us20003kfv",
+      "place": "61 km WNW of Illapel, Chile",
+      "origin_utc": "2015-09-17T04:10:27Z",
+      "epi_lat": -31.5173,
+      "epi_lon": -71.804,
+      "depth_km": 23.0,
+      "Mw": 6.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 18,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.263,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 70.8,
+      "in_sequence": true,
+      "sequence_n_significant": 9,
+      "pair_contam_min": 100,
+      "pair_contam_max": 100,
+      "result": {
+        "L_km": 45.62,
+        "W_km": 19.06,
+        "Z_top_km": 0.64,
+        "dip": -97.0,
+        "strike": 354.6,
+        "Mw_post": 7.15,
+        "VR": {
+          "t18_asc": 0.11
+        },
+        "fmech": {
+          "strike": 354.6,
+          "dip": 83.0,
+          "rake": -14.1
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.193,
+        "ess": 100,
+        "geweke": 21.38,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "C",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 39
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-01T23:54:04Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us20003kfv/REPORT.html"
       }
     },
     {
