@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T21:27:02Z",
+  "generated_utc": "2026-06-01T21:27:33Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 528,
+  "n_events": 529,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3226,6 +3226,97 @@
       "has_report": true,
       "links": {
         "report": "events/us100077ky/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us100077l5",
+      "place": "39 km SE of Blenheim, New Zealand",
+      "origin_utc": "2016-11-14T07:21:04Z",
+      "epi_lat": -41.7598,
+      "epi_lon": 174.2992,
+      "depth_km": 17.21,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 154,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.047,
+          "status": "ready"
+        },
+        {
+          "track": 52,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.2,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 17.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 43,
+      "pair_contam_max": 49,
+      "result": {
+        "L_km": 8.94,
+        "W_km": 7.87,
+        "Z_top_km": 0.1,
+        "dip": -105.6,
+        "strike": 325.0,
+        "Mw_post": 6.43,
+        "VR": {
+          "t154_asc": 0.03,
+          "t52_asc": -0.31
+        },
+        "fmech": {
+          "strike": 325.0,
+          "dip": 74.4,
+          "rake": -141.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.213,
+        "ess": 101,
+        "geweke": 8.95,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 13
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-01T21:27:31Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us100077l5/REPORT.html"
       }
     },
     {
