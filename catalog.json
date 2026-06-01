@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T21:20:37Z",
+  "generated_utc": "2026-06-01T21:21:19Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 526,
+  "n_events": 527,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3057,6 +3057,85 @@
       "has_report": true,
       "links": {
         "report": "events/us100077aj/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us100077hw",
+      "place": "74 km NE of Amberley, New Zealand",
+      "origin_utc": "2016-11-14T00:34:22Z",
+      "epi_lat": -42.6058,
+      "epi_lon": 173.2543,
+      "depth_km": 9.0,
+      "Mw": 6.5,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 52,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.2,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 80.0,
+      "in_sequence": true,
+      "sequence_n_significant": 3,
+      "pair_contam_min": 32,
+      "pair_contam_max": 32,
+      "result": {
+        "L_km": 34.76,
+        "W_km": 16.45,
+        "Z_top_km": 0.1,
+        "dip": -50.0,
+        "strike": 240.4,
+        "Mw_post": 6.5,
+        "VR": {
+          "t52_asc": 0.07
+        },
+        "fmech": {
+          "strike": 60.4,
+          "dip": 50.0,
+          "rake": -30.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.204,
+        "ess": 100,
+        "geweke": 34.79,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 15
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-01T21:21:16Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us100077hw/REPORT.html"
       }
     },
     {
