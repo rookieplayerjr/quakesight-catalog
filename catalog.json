@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T00:33:14Z",
+  "generated_utc": "2026-06-02T00:33:42Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 557,
+  "n_events": 558,
   "events": [
     {
       "event_id": "ci38443183",
@@ -9076,6 +9076,86 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us20009ynd",
+      "place": "11 km ENE of Kos, Greece",
+      "origin_utc": "2017-07-20T22:31:11Z",
+      "epi_lat": 36.9293,
+      "epi_lon": 27.4139,
+      "depth_km": 7.0,
+      "Mw": 6.6,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 36,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.306,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 5,
+      "result": {
+        "L_km": 39.82,
+        "W_km": 17.71,
+        "Z_top_km": 0.1,
+        "dip": -42.6,
+        "strike": 92.9,
+        "Mw_post": 6.49,
+        "VR": {
+          "t36_dsc": 0.03
+        },
+        "fmech": {
+          "strike": 272.9,
+          "dip": 42.6,
+          "rake": 123.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.24,
+        "ess": 101,
+        "geweke": 12.56,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "normal_fault_dual_plane_ambiguous"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-02T00:33:40Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us20009ynd/REPORT.html"
       }
     },
     {
