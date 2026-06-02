@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T00:51:43Z",
+  "generated_utc": "2026-06-02T00:52:14Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 558,
+  "n_events": 559,
   "events": [
     {
       "event_id": "ci38443183",
@@ -10235,6 +10235,95 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us2000dwh6",
+      "place": "8 km NNE of ?dach?-?da, Japan",
+      "origin_utc": "2018-04-08T16:32:31Z",
+      "epi_lat": 35.2588,
+      "epi_lon": 132.5528,
+      "depth_km": 10.34,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 83,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.063,
+          "status": "ready"
+        },
+        {
+          "track": 90,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.059,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 32.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 3,
+      "pair_contam_max": 3,
+      "result": {
+        "L_km": 11.72,
+        "W_km": 9.12,
+        "Z_top_km": 0.1,
+        "dip": -118.6,
+        "strike": 243.3,
+        "Mw_post": 6.23,
+        "VR": {
+          "t83_asc": -0.03,
+          "t90_dsc": 0.02
+        },
+        "fmech": {
+          "strike": 243.3,
+          "dip": 61.4,
+          "rake": -34.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.241,
+        "ess": 101,
+        "geweke": 93.73,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_coherence_collapse_after_pass3",
+      "pipeline_run_utc": "2026-06-02T00:52:11Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us2000dwh6/REPORT.html"
       }
     },
     {
