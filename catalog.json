@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T03:47:32Z",
+  "generated_utc": "2026-06-02T03:48:02Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 566,
+  "n_events": 567,
   "events": [
     {
       "event_id": "ci38443183",
@@ -13725,6 +13725,95 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us6000diae",
+      "place": "11 km N of Kam\u00e1rai, Greece",
+      "origin_utc": "2021-02-17T03:36:07Z",
+      "epi_lat": 38.4057,
+      "epi_lon": 22.019,
+      "depth_km": 5.29,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 175,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.165,
+          "status": "ready"
+        },
+        {
+          "track": 80,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.047,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 35.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": {
+        "L_km": 8.94,
+        "W_km": 7.87,
+        "Z_top_km": 0.16,
+        "dip": -6.8,
+        "strike": 126.5,
+        "Mw_post": 6.38,
+        "VR": {
+          "t175_asc": 0.16,
+          "t80_dsc": -0.13
+        },
+        "fmech": {
+          "strike": 306.5,
+          "dip": 6.8,
+          "rake": 50.1
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.204,
+        "ess": 100,
+        "geweke": 39.98,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-02T03:47:59Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000diae/REPORT.html"
       }
     },
     {
