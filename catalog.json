@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T05:06:05Z",
+  "generated_utc": "2026-06-02T05:06:38Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 577,
+  "n_events": 578,
   "events": [
     {
       "event_id": "ci38443183",
@@ -20793,6 +20793,95 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us70005ulm",
+      "place": "7 km ENE of Columbio, Philippines",
+      "origin_utc": "2019-10-16T11:37:06Z",
+      "epi_lat": 6.7147,
+      "epi_lon": 125.007,
+      "depth_km": 16.12,
+      "Mw": 6.4,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.047,
+          "status": "ready"
+        },
+        {
+          "track": 69,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 50.1,
+      "in_sequence": true,
+      "sequence_n_significant": 2,
+      "result": {
+        "L_km": 25.91,
+        "W_km": 13.05,
+        "Z_top_km": 4.7,
+        "dip": -103.7,
+        "strike": 219.4,
+        "Mw_post": 6.54,
+        "VR": {
+          "t163_dsc": 0.58,
+          "t69_asc": 0.33
+        },
+        "fmech": {
+          "strike": 219.4,
+          "dip": 76.3,
+          "rake": -176.8
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.201,
+        "ess": 180,
+        "geweke": 2.24,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "A",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "demoted_all_coh_subnoise"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 18
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-02T05:06:36Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us70005ulm/REPORT.html"
       }
     },
     {
