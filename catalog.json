@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T04:26:48Z",
+  "generated_utc": "2026-06-02T04:27:19Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 575,
+  "n_events": 576,
   "events": [
     {
       "event_id": "ci38443183",
@@ -17581,6 +17581,86 @@
       "has_report": true,
       "links": {
         "report": "events/us6000mt0s/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000mvya",
+      "place": "27 km SSW of Balangiga, Philippines",
+      "origin_utc": "2024-05-03T10:16:23Z",
+      "epi_lat": 10.8644,
+      "epi_lon": 125.3349,
+      "depth_km": 10.208,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 61,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.09,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 33.1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": {
+        "L_km": 11.67,
+        "W_km": 9.08,
+        "Z_top_km": 3.24,
+        "dip": -42.2,
+        "strike": 288.0,
+        "Mw_post": 6.51,
+        "VR": {
+          "t61_dsc": 0.72
+        },
+        "fmech": {
+          "strike": 108.0,
+          "dip": 42.2,
+          "rake": 45.6
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.207,
+        "ess": 127,
+        "geweke": 2.34,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "A",
+          "vr_mean": "A",
+          "railed": "A",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-06-02T04:27:17Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000mvya/REPORT.html"
       }
     },
     {

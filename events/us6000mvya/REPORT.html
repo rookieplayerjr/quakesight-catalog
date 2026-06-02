@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><title>us6000mvya report (partial)</title>
+<html lang="en"><head><meta charset="utf-8"><title>us6000mvya report</title>
 <style>
   body { font-family: -apple-system, Helvetica, Arial, sans-serif;
          max-width: 1200px; margin: 28px auto; padding: 0 22px; color: #222; line-height: 1.5; }
@@ -10,50 +10,76 @@
   table { border-collapse: collapse; font-size: 12.5px; margin: 8px 0; }
   th, td { border: 1px solid #ccc; padding: 4px 8px; }
   th { background: #f2f2f2; text-align: left; }
+  td.r { text-align: right; }
   td.c { text-align: center; }
+  .ok { color: #1a7a2a; font-weight: 600; }
+  .warn { color: #c47800; font-weight: 600; }
+  .bad { color: #b22222; font-weight: 600; }
   .summary { background: #fff7d6; border-left: 4px solid #c47800;
+             padding: 11px 14px; margin: 14px 0; font-size: 13px; }
+  .verdict { background: #fbe3e3; border-left: 4px solid #b22222;
              padding: 11px 14px; margin: 14px 0; font-size: 13px; }
   .pending { background: #eef0f8; border-left: 4px solid #8890b8;
              padding: 9px 13px; margin: 8px 0; font-size: 13px; color: #445; }
-  .verdict { background: #fbe3e3; border-left: 4px solid #b22222;
-             padding: 11px 14px; margin: 14px 0; font-size: 13px; }
-  .ok { color: #1a7a2a; font-weight: 600; }
-  .bad { color: #b22222; font-weight: 600; }
   code { background: #f0f0f0; padding: 1px 5px; border-radius: 3px; font-size: 11.5px; }
 </style>
 </head><body>
 
 <h1>us6000mvya — Mw 5.7 — GBIS report</h1>
 
+
 <div class="summary">
 <b>Event:</b> 27 km SSW of Balangiga, Philippines · (10.864°N, 125.335°E, depth 10.208 km)<br>
 <b>USGS NP1:</b> strike 76.9° / dip 40.1° / rake -60.0°<br>
 <b>USGS NP2:</b> strike 219.8° / dip 56.1° / rake -112.9°<br>
-<b>Status:</b> <span class="bad">ESCALATED at stage 3 — all_tracks_failed</span>. Sections below show whatever the pipeline produced before it stopped; the rest are left blank. See §3 / escalation.md.
+<b>GBIS optimum:</b> strike 108.0° / dip 42.2° / rake 45.6° / Mw 6.58 (best logP -83.9054)
 </div>
 
 
 
 <h2>1. Raw observations (deramped + cropped)</h2>
-<img src="gbis/_partial/figures/01_raw_obs.png">
+<img src="gbis/np1/figures/01_raw_obs.png">
+
 
 <h2>2. Two-round iterative downsampling (Pass-1 zoned → Pass-2 synth-quadtree)</h2>
-<div class="pending">No <code>subsample_v9_zoned.mat</code> found — run Stage 4 (<code>qsRunFullEvent</code>) first.</div>
+<img src="gbis/np1/figures/02_ds_two_pass.png">
 
-<h2>3. GBIS inversion result — posterior + diagnostics</h2>
-<div class="pending">⏳ Pending — GBIS MCMC not yet complete. Re-run after qsRunFullEvent finishes.</div>
+<h2>3. Initial start, search range, and GBIS-reported optimum</h2>
+<table>
+<tr><th>parameter</th><th>start</th><th>lower</th><th>upper</th><th>USGS NP1 / W&C</th><th>GBIS optimum</th></tr>
+<tr><td>L (km)</td><td class="c">8.38</td><td class="c">3.35</td><td class="c">11.72</td><td class="c">8.38</td><td class="c"><b>11.67</b></td></tr>
+<tr><td>W (km)</td><td class="c">6.52</td><td class="c">2.61</td><td class="c">9.12</td><td class="c">6.52</td><td class="c"><b>9.08</b></td></tr>
+<tr><td>Z_top (km)</td><td class="c">8.11</td><td class="c">0.10</td><td class="c">30.00</td><td class="c">8.11</td><td class="c"><b>3.24</b></td></tr>
+<tr><td>dip (°)</td><td class="c">40.1</td><td class="c">5.1</td><td class="c">75.1</td><td class="c">40.1</td><td class="c"><b>42.2</b></td></tr>
+<tr><td>strike (°)</td><td class="c">76.9</td><td class="c">16.9</td><td class="c">136.9</td><td class="c">76.9</td><td class="c"><b>108.0</b></td></tr>
+<tr><td>X (km)</td><td class="c">0</td><td class="c">-25.0</td><td class="c">25.0</td><td class="c">0</td><td class="c"><b>4.01</b></td></tr>
+<tr><td>Y (km)</td><td class="c">0</td><td class="c">-25.0</td><td class="c">25.0</td><td class="c">0</td><td class="c"><b>22.36</b></td></tr>
+<tr><td>SS (m)</td><td class="c">+0.127</td><td class="c">-2.00</td><td class="c">+2.00</td><td class="c">+0.127</td><td class="c"><b>+1.939</b></td></tr>
+<tr><td>DS (m)</td><td class="c">-0.219</td><td class="c">-2.00</td><td class="c">+2.00</td><td class="c">-0.219</td><td class="c"><b>+1.982</b></td></tr>
+<tr><th colspan=4>derived</th><th class="c">USGS</th><th class="c">GBIS</th></tr>
+<tr><td>|slip| (m)</td><td colspan=3></td><td class="c">0.253</td><td class="c"><b>2.773</b></td></tr>
+<tr><td>rake (°)</td><td colspan=3></td><td class="c">-60.0</td><td class="c"><b>45.6</b></td></tr>
+<tr><td>Mw</td><td colspan=3></td><td class="c">5.70</td><td class="c"><b>6.58</b></td></tr>
+<tr><td>Z_bot (km)</td><td colspan=3></td><td class="c">12.31</td><td class="c"><b>9.34</b></td></tr>
+<tr><td><b>震源深度 / centroid depth (km)</b></td><td colspan=3></td><td class="c">10.21</td><td class="c"><b>6.29</b></td></tr>
+</table>
+<p style="font-size:12px;color:#666">震源深度对比：USGS = 报告的震源（hypocenter）深度；GBIS = 断层质心深度 (Z_top+Z_bot)/2。</p>
+<p style="font-size:12px;color:#666">Note: GBIS optimum = single MAP sample reported by GBIS in <code>invResults.model.optimal</code>, NOT a chain median.</p>
+
 
 <h2>4. Beachball comparison</h2>
-<div class="pending">⏳ Not generated — needs the full-mode figure helper. the beachball (full-mode figure helper).</div>
+<img src="gbis/np1/figures/04_beachball.png">
 
-<h2>5. Triplet — data / model / residual</h2>
-<div class="pending">⏳ Not generated — needs the full-mode figure helper. the data/model/residual triplet (full-mode figure helper).</div>
+<h2>5. Triplet — data / model / residual using GBIS optimum</h2>
+<img src="gbis/np1/figures/05_triplet_optimum.png">
 
 <h2>6. Joint-posterior corner plot</h2>
-<div class="pending">⏳ Not generated — needs the full-mode figure helper. the corner plot (full-mode figure helper).</div>
+<img src="gbis/np1/figures/06_corner.png">
+<p style="font-size:12px;color:#666">Red truth lines = USGS NP1 (W&amp;C scaled). Density contours = 39%, 68%, 95% credible regions.</p>
 
 <h2>7. Burn-in / chain trace</h2>
-<div class="pending">⏳ Not generated — needs the full-mode figure helper. the chain trace (full-mode figure helper).</div>
+<img src="gbis/np1/figures/07_trace.png">
+<p style="font-size:12px;color:#666">Blue shading = SA cooling (first 50k iterations). Gray = post-burnin MCMC. Red horizontal = GBIS reported optimum. Dashed orange = USGS NP1 W&amp;C value.</p>
 
 
 
