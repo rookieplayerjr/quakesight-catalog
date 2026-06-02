@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T00:14:06Z",
+  "generated_utc": "2026-06-02T00:14:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 554,
+  "n_events": 555,
   "events": [
     {
       "event_id": "ci38443183",
@@ -8421,6 +8421,85 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us200062bu",
+      "place": "15 km SW of Coquimbo, Chile",
+      "origin_utc": "2016-06-06T13:16:02Z",
+      "epi_lat": -30.0433,
+      "epi_lon": -71.4636,
+      "depth_km": 28.31,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 156,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.208,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 17.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 2,
+      "pair_contam_max": 2,
+      "result": {
+        "L_km": 2.55,
+        "W_km": 2.25,
+        "Z_top_km": 0.1,
+        "dip": -37.0,
+        "strike": 321.9,
+        "Mw_post": 5.74,
+        "VR": {
+          "t156_dsc": 0.09
+        },
+        "fmech": {
+          "strike": 141.9,
+          "dip": 37.0,
+          "rake": -135.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.194,
+        "ess": 101,
+        "geweke": 29.85,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "C",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-02T00:14:32Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us200062bu/REPORT.html"
       }
     },
     {
