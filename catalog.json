@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T00:05:27Z",
+  "generated_utc": "2026-06-02T00:05:56Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 552,
+  "n_events": 553,
   "events": [
     {
       "event_id": "ci38443183",
@@ -7712,6 +7712,85 @@
       "has_report": true,
       "links": {
         "report": "events/us20005019/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us200050iw",
+      "place": "26 km S of Atico, Peru",
+      "origin_utc": "2016-02-16T10:46:30Z",
+      "epi_lat": -16.4442,
+      "epi_lon": -73.6045,
+      "depth_km": 29.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 25,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.471,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 22.4,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": {
+        "L_km": 11.72,
+        "W_km": 9.12,
+        "Z_top_km": 0.1,
+        "dip": -111.0,
+        "strike": 290.0,
+        "Mw_post": 6.59,
+        "VR": {
+          "t25_dsc": -0.07
+        },
+        "fmech": {
+          "strike": 290.0,
+          "dip": 69.0,
+          "rake": -45.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.222,
+        "ess": 1724,
+        "geweke": 1.91,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-02T00:05:53Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us200050iw/REPORT.html"
       }
     },
     {
