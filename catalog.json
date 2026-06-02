@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T00:56:03Z",
+  "generated_utc": "2026-06-02T00:56:33Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 559,
+  "n_events": 560,
   "events": [
     {
       "event_id": "ci38443183",
@@ -10667,6 +10667,95 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us2000gi03",
+      "place": "23 km NE of Iwaki, Japan",
+      "origin_utc": "2018-07-31T08:42:20Z",
+      "epi_lat": 37.1788,
+      "epi_lon": 141.0967,
+      "depth_km": 10.9,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 141,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.11,
+          "status": "ready"
+        },
+        {
+          "track": 46,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.063,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 25.1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 2,
+      "result": {
+        "L_km": 8.9,
+        "W_km": 7.84,
+        "Z_top_km": 0.1,
+        "dip": -0.1,
+        "strike": 25.9,
+        "Mw_post": 6.39,
+        "VR": {
+          "t141_asc": -0.01,
+          "t46_dsc": -0.01
+        },
+        "fmech": {
+          "strike": 205.9,
+          "dip": 0.1,
+          "rake": -35.5
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.217,
+        "ess": 100,
+        "geweke": 447.33,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "B"
+        },
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_coherence_collapse_after_pass3",
+      "pipeline_run_utc": "2026-06-02T00:56:30Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us2000gi03/REPORT.html"
       }
     },
     {
