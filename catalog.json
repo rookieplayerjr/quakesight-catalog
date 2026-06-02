@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T23:23:41Z",
+  "generated_utc": "2026-06-02T23:24:08Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 579,
+  "n_events": 580,
   "events": [
     {
       "event_id": "ci38443183",
@@ -22633,6 +22633,97 @@
       "has_report": true,
       "links": {
         "report": "events/us7000aabt/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000aag4",
+      "place": "87 km NNW of Te Anau, New Zealand",
+      "origin_utc": "2020-06-24T22:20:02Z",
+      "epi_lat": -44.6494,
+      "epi_lon": 167.4756,
+      "depth_km": 10.8,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 169,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.18,
+          "status": "ready"
+        },
+        {
+          "track": 96,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.125,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 28.3,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": {
+        "L_km": 10.24,
+        "W_km": 8.47,
+        "Z_top_km": 0.1,
+        "dip": -40.0,
+        "strike": 51.3,
+        "Mw_post": 6.53,
+        "VR": {
+          "t169_asc": -0.29,
+          "t96_asc": 0.03
+        },
+        "fmech": {
+          "strike": 231.3,
+          "dip": 40.0,
+          "rake": -135.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.213,
+        "ess": 101,
+        "geweke": 72.27,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-02T23:24:05Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000aag4/REPORT.html"
       }
     },
     {
