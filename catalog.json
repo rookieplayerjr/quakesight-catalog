@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T00:03:08Z",
+  "generated_utc": "2026-06-02T00:04:02Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 551,
+  "n_events": 552,
   "events": [
     {
       "event_id": "ci38443183",
@@ -7633,6 +7633,85 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us20005019",
+      "place": "12 km ENE of Christchurch, New Zealand",
+      "origin_utc": "2016-02-14T00:13:44Z",
+      "epi_lat": -43.4798,
+      "epi_lon": 172.7715,
+      "depth_km": 7.63,
+      "Mw": 5.8,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 125,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.122,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 43.6,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": {
+        "L_km": 13.43,
+        "W_km": 9.82,
+        "Z_top_km": 0.1,
+        "dip": -45.0,
+        "strike": 251.8,
+        "Mw_post": 6.48,
+        "VR": {
+          "t125_asc": 0.0
+        },
+        "fmech": {
+          "strike": 71.8,
+          "dip": 45.0,
+          "rake": 159.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.22,
+        "ess": 100,
+        "geweke": 44.35,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-02T00:03:59Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us20005019/REPORT.html"
       }
     },
     {
