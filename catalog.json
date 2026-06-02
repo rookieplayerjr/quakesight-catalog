@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T04:02:44Z",
+  "generated_utc": "2026-06-02T04:03:14Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 568,
+  "n_events": 569,
   "events": [
     {
       "event_id": "ci38443183",
@@ -15406,6 +15406,84 @@
       "has_report": true,
       "links": {
         "report": "events/us6000iqx6/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000iwds",
+      "place": "11 km E of Dolores, Philippines",
+      "origin_utc": "2022-10-25T14:59:00Z",
+      "epi_lat": 17.6609,
+      "epi_lon": 120.8147,
+      "depth_km": 6.0,
+      "Mw": 6.4,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 32,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.047,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "L_km": 21.46,
+        "W_km": 10.8,
+        "Z_top_km": 17.21,
+        "dip": -0.2,
+        "strike": 175.2,
+        "Mw_post": 6.42,
+        "VR": {
+          "t32_dsc": 0.64
+        },
+        "fmech": {
+          "strike": 355.2,
+          "dip": 0.2,
+          "rake": 8.7
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.188,
+        "ess": 114,
+        "geweke": 0.5,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "C",
+          "geweke": "A",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "C",
+          "delta_mw": "A",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-02T04:03:12Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000iwds/REPORT.html"
       }
     },
     {
