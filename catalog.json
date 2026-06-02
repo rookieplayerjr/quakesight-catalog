@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T00:27:44Z",
+  "generated_utc": "2026-06-02T00:28:13Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 556,
+  "n_events": 557,
   "events": [
     {
       "event_id": "ci38443183",
@@ -8724,6 +8724,97 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us20007fta",
+      "place": "6 km S of Kurayoshi, Japan",
+      "origin_utc": "2016-10-21T05:07:22Z",
+      "epi_lat": 35.3743,
+      "epi_lon": 133.8092,
+      "depth_km": 5.63,
+      "Mw": 6.2,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 83,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.063,
+          "status": "ready"
+        },
+        {
+          "track": 90,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.043,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 77.1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": {
+        "L_km": 23.13,
+        "W_km": 13.19,
+        "Z_top_km": 0.1,
+        "dip": -46.0,
+        "strike": 168.8,
+        "Mw_post": 6.62,
+        "VR": {
+          "t83_asc": 0.05,
+          "t90_dsc": 0.01
+        },
+        "fmech": {
+          "strike": 348.8,
+          "dip": 46.0,
+          "rake": 135.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.229,
+        "ess": 100,
+        "geweke": 19.66,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "mw_disagreement_review"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_coherence_collapse_after_pass3",
+      "pipeline_run_utc": "2026-06-02T00:28:10Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us20007fta/REPORT.html"
       }
     },
     {
