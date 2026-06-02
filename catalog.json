@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T04:17:01Z",
+  "generated_utc": "2026-06-02T04:17:41Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 572,
+  "n_events": 573,
   "events": [
     {
       "event_id": "ci38443183",
@@ -16451,6 +16451,97 @@
       "has_report": true,
       "links": {
         "report": "events/us6000k9mb/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000k9rh",
+      "place": "43 km NE of Anamizu, Japan",
+      "origin_utc": "2023-05-05T12:58:03Z",
+      "epi_lat": 37.4872,
+      "epi_lon": 137.2752,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mwb",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 119,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.035,
+          "status": "ready"
+        },
+        {
+          "track": 17,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.043,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 29.9,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 6,
+      "pair_contam_max": 6,
+      "result": {
+        "L_km": 6.88,
+        "W_km": 5.7,
+        "Z_top_km": 6.62,
+        "dip": -45.2,
+        "strike": 42.4,
+        "Mw_post": 6.21,
+        "VR": {
+          "t17_dsc": 0.97
+        },
+        "fmech": {
+          "strike": 222.4,
+          "dip": 45.2,
+          "rake": 95.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.21,
+        "ess": 119,
+        "geweke": 4.08,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "C",
+          "vr_min": "A",
+          "vr_mean": "A",
+          "railed": "A",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 1
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-06-02T04:17:38Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000k9rh/REPORT.html"
       }
     },
     {
