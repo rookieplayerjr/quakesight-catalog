@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T04:50:42Z",
+  "generated_utc": "2026-06-02T04:56:41Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 578,
+  "n_events": 577,
   "events": [
     {
       "event_id": "ci38443183",
@@ -20422,47 +20422,6 @@
       }
     },
     {
-      "event_id": "us70003ib5",
-      "place": "46 km S of San Juan, Peru",
-      "origin_utc": "2019-05-08T13:47:19Z",
-      "epi_lat": -15.7761,
-      "epi_lon": -75.0959,
-      "depth_km": 15.34,
-      "Mw": 5.7,
-      "Mw_type": "Mww",
-      "faulting_class": "oblique",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "18",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            "2019-05-07",
-            "2019-05-19"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.178,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 1,
-      "aoi_half_km": 22.4,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 0,
-      "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
       "event_id": "us70003j46",
       "place": "43 km ESE of Miyazaki, Japan",
       "origin_utc": "2019-05-09T23:48:42Z",
@@ -20758,11 +20717,38 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 45.62,
+        "W_km": 19.06,
+        "Z_top_km": 0.1,
+        "dip": -36.6,
+        "strike": 136.2,
+        "Mw_post": 7.31,
+        "VR": {
+          "t156_dsc": -0.08
+        },
+        "fmech": {
+          "strike": 316.2,
+          "dip": 36.6,
+          "rake": 135.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.191,
+        "ess": 335,
+        "geweke": 2.83,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T03:54:47Z",
+      "pipeline_run_utc": "2026-06-02T04:56:39Z",
       "stale": false,
       "has_report": true,
       "links": {
