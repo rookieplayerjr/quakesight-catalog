@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T03:14:00Z",
+  "generated_utc": "2026-06-02T03:14:28Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 563,
+  "n_events": 564,
   "events": [
     {
       "event_id": "ci38443183",
@@ -12815,6 +12815,85 @@
       "has_report": true,
       "links": {
         "report": "events/us6000abnv/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000ag4u",
+      "place": "22 km E of North Vanlaiphai, India",
+      "origin_utc": "2020-06-21T22:40:52Z",
+      "epi_lat": 23.1449,
+      "epi_lon": 93.2856,
+      "depth_km": 10.84,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 41,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.063,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 28.3,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 2,
+      "pair_contam_max": 2,
+      "result": {
+        "L_km": 10.1,
+        "W_km": 8.37,
+        "Z_top_km": 28.74,
+        "dip": -46.8,
+        "strike": 39.4,
+        "Mw_post": 6.35,
+        "VR": {
+          "t41_asc": -0.18
+        },
+        "fmech": {
+          "strike": 219.4,
+          "dip": 46.8,
+          "rake": 155.5
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.216,
+        "ess": 119,
+        "geweke": 21.44,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "D",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-02T03:14:25Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000ag4u/REPORT.html"
       }
     },
     {
