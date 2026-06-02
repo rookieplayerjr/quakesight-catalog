@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T03:04:35Z",
+  "generated_utc": "2026-06-02T03:05:03Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 562,
+  "n_events": 563,
   "events": [
     {
       "event_id": "ci38443183",
@@ -12293,6 +12293,85 @@
       "has_report": true,
       "links": {
         "report": "events/us60006rp9/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us60006rpn",
+      "place": "9 km SSE of Kiblawan, Philippines",
+      "origin_utc": "2019-12-15T07:09:20Z",
+      "epi_lat": 6.5335,
+      "epi_lon": 125.2599,
+      "depth_km": 10.0,
+      "Mw": 5.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.059,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 29.9,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 46,
+      "pair_contam_max": 55,
+      "result": {
+        "L_km": 10.24,
+        "W_km": 8.47,
+        "Z_top_km": 0.1,
+        "dip": -40.7,
+        "strike": 97.1,
+        "Mw_post": 6.53,
+        "VR": {
+          "t163_dsc": 0.08
+        },
+        "fmech": {
+          "strike": 277.1,
+          "dip": 40.7,
+          "rake": 135.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.187,
+        "ess": 100,
+        "geweke": 320.6,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "C",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 10
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-02T03:05:00Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us60006rpn/REPORT.html"
       }
     },
     {
