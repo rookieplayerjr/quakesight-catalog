@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-02T03:10:41Z",
+  "generated_utc": "2026-06-02T03:11:09Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 563,
   "events": [
@@ -12522,22 +12522,31 @@
         "acceptance": 0.211,
         "ess": 100,
         "geweke": 40.68,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "B"
+        },
         "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "catalog_disagreement": true,
+        "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-02T03:10:39Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_coherence_collapse_after_pass3",
+      "pipeline_run_utc": "2026-06-02T03:11:07Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us60007d2r/REPORT.html"
       }
     },
     {
