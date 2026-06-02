@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T23:19:00Z",
+  "generated_utc": "2026-06-02T23:19:25Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 578,
+  "n_events": 579,
   "events": [
     {
       "event_id": "ci38443183",
@@ -22544,6 +22544,95 @@
       "has_report": true,
       "links": {
         "report": "events/us70008xhp/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000aabt",
+      "place": "36 km SE of Hasaki, Japan",
+      "origin_utc": "2020-06-24T19:47:45Z",
+      "epi_lat": 35.4711,
+      "epi_lon": 141.0738,
+      "depth_km": 29.05,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 141,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.145,
+          "status": "ready"
+        },
+        {
+          "track": 46,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.055,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 28.2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": {
+        "L_km": 15.38,
+        "W_km": 10.57,
+        "Z_top_km": 4.94,
+        "dip": -84.4,
+        "strike": 292.7,
+        "Mw_post": 6.71,
+        "VR": {
+          "t141_asc": -0.02,
+          "t46_dsc": -0.01
+        },
+        "fmech": {
+          "strike": 112.7,
+          "dip": 84.4,
+          "rake": 135.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.214,
+        "ess": 220,
+        "geweke": 11.44,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_multiple_critical_railed",
+      "pipeline_run_utc": "2026-06-02T23:19:23Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000aabt/REPORT.html"
       }
     },
     {
