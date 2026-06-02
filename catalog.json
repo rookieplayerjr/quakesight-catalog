@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T03:29:24Z",
+  "generated_utc": "2026-06-02T03:29:50Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 565,
+  "n_events": 566,
   "events": [
     {
       "event_id": "ci38443183",
@@ -13617,6 +13617,85 @@
       "has_report": true,
       "links": {
         "report": "events/us6000d7ix/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000ddge",
+      "place": "82 km SSE of Lethem, Guyana",
+      "origin_utc": "2021-01-31T19:05:14Z",
+      "epi_lat": 2.6675,
+      "epi_lon": -59.5879,
+      "depth_km": 5.21,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 164,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.09,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 35.2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": {
+        "L_km": 8.94,
+        "W_km": 7.87,
+        "Z_top_km": 4.11,
+        "dip": -7.0,
+        "strike": 83.5,
+        "Mw_post": 6.47,
+        "VR": {
+          "t164_asc": 0.25
+        },
+        "fmech": {
+          "strike": 263.5,
+          "dip": 7.0,
+          "rake": -135.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.22,
+        "ess": 500,
+        "geweke": 2.45,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "C",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-02T03:29:48Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000ddge/REPORT.html"
       }
     },
     {
