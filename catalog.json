@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T03:23:12Z",
+  "generated_utc": "2026-06-02T03:23:42Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 564,
+  "n_events": 565,
   "events": [
     {
       "event_id": "ci38443183",
@@ -13296,6 +13296,95 @@
       "has_report": true,
       "links": {
         "report": "events/us6000bdq8/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000bgbr",
+      "place": "13 km E of San Pedro, Philippines",
+      "origin_utc": "2020-08-18T00:03:48Z",
+      "epi_lat": 12.0257,
+      "epi_lon": 124.1272,
+      "depth_km": 10.0,
+      "Mw": 6.6,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 61,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.102,
+          "status": "ready"
+        },
+        {
+          "track": 69,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 80.0,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 7,
+      "pair_contam_max": 7,
+      "result": {
+        "L_km": 39.82,
+        "W_km": 17.71,
+        "Z_top_km": 0.1,
+        "dip": -93.6,
+        "strike": 117.1,
+        "Mw_post": 6.85,
+        "VR": {
+          "t61_dsc": 0.01,
+          "t69_asc": 0.01
+        },
+        "fmech": {
+          "strike": 117.1,
+          "dip": 86.4,
+          "rake": -65.8
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.23,
+        "ess": 100,
+        "geweke": 149.02,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "D",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "B"
+        },
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-02T03:23:39Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000bgbr/REPORT.html"
       }
     },
     {
