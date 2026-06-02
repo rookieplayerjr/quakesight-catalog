@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-02T23:16:22Z",
+  "generated_utc": "2026-06-02T23:16:47Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 578,
   "events": [
@@ -22517,22 +22517,33 @@
         "acceptance": 0.205,
         "ess": 755,
         "geweke": 8.63,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-02T23:16:20Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-02T23:16:45Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us70008xhp/REPORT.html"
       }
     },
     {
