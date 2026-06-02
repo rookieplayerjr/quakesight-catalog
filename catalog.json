@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T04:20:23Z",
+  "generated_utc": "2026-06-02T04:20:56Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 573,
+  "n_events": 574,
   "events": [
     {
       "event_id": "ci38443183",
@@ -17217,6 +17217,85 @@
       "has_report": true,
       "links": {
         "report": "events/us6000lfn5/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us6000lgpg",
+      "place": "18 km WSW of Batiano, Philippines",
+      "origin_utc": "2023-10-19T18:58:51Z",
+      "epi_lat": 7.4623,
+      "epi_lon": 126.3516,
+      "depth_km": 8.494,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.043,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 46.5,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": {
+        "L_km": 13.57,
+        "W_km": 9.33,
+        "Z_top_km": 0.22,
+        "dip": -74.3,
+        "strike": 12.0,
+        "Mw_post": 5.97,
+        "VR": {
+          "t163_dsc": 0.08
+        },
+        "fmech": {
+          "strike": 192.0,
+          "dip": 74.3,
+          "rake": 12.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 109,
+        "geweke": 7.9,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-02T04:20:54Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000lgpg/REPORT.html"
       }
     },
     {
