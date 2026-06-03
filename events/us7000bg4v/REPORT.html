@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><title>us7000bg4v report (partial)</title>
+<html lang="en"><head><meta charset="utf-8"><title>us7000bg4v report</title>
 <style>
   body { font-family: -apple-system, Helvetica, Arial, sans-serif;
          max-width: 1200px; margin: 28px auto; padding: 0 22px; color: #222; line-height: 1.5; }
@@ -10,67 +10,77 @@
   table { border-collapse: collapse; font-size: 12.5px; margin: 8px 0; }
   th, td { border: 1px solid #ccc; padding: 4px 8px; }
   th { background: #f2f2f2; text-align: left; }
+  td.r { text-align: right; }
   td.c { text-align: center; }
+  .ok { color: #1a7a2a; font-weight: 600; }
+  .warn { color: #c47800; font-weight: 600; }
+  .bad { color: #b22222; font-weight: 600; }
   .summary { background: #fff7d6; border-left: 4px solid #c47800;
+             padding: 11px 14px; margin: 14px 0; font-size: 13px; }
+  .verdict { background: #fbe3e3; border-left: 4px solid #b22222;
              padding: 11px 14px; margin: 14px 0; font-size: 13px; }
   .pending { background: #eef0f8; border-left: 4px solid #8890b8;
              padding: 9px 13px; margin: 8px 0; font-size: 13px; color: #445; }
-  .verdict { background: #fbe3e3; border-left: 4px solid #b22222;
-             padding: 11px 14px; margin: 14px 0; font-size: 13px; }
-  .ok { color: #1a7a2a; font-weight: 600; }
-  .bad { color: #b22222; font-weight: 600; }
   code { background: #f0f0f0; padding: 1px 5px; border-radius: 3px; font-size: 11.5px; }
 </style>
 </head><body>
 
 <h1>us7000bg4v — Mw 6.5 — GBIS report</h1>
 
+
 <div class="summary">
 <b>Event:</b> 94 km NW of Vallenar, Chile · (-27.916°N, -71.370°E, depth 16.0 km)<br>
 <b>USGS NP1:</b> strike 28.8° / dip 18.8° / rake 122.1°<br>
 <b>USGS NP2:</b> strike 175.2° / dip 74.2° / rake 79.7°<br>
-<b>Status:</b> observations + two-round downsample done; GBIS inversion pending.
+<b>GBIS optimum:</b> strike 17.1° / dip 0.1° / rake -28.7° / Mw 6.50 (best logP -14195695.0000)
 </div>
 
 
 
 <h2>1. Raw observations (deramped + cropped)</h2>
-<img src="gbis/_partial/figures/01_raw_obs.png">
+<img src="gbis/np1/figures/01_raw_obs.png">
+
 
 <h2>2. Two-round iterative downsampling (Pass-1 zoned → Pass-2 synth-quadtree)</h2>
-<div class="pending">No <code>subsample_v9_zoned.mat</code> found — run Stage 4 (<code>qsRunFullEvent</code>) first.</div>
+<img src="gbis/np1/figures/02_ds_two_pass.png">
 
-<h2>3. GBIS inversion result — posterior + diagnostics</h2>
-<div class="pending">⏳ Pending — GBIS MCMC not yet complete. Re-run after qsRunFullEvent finishes.</div>
+<h2>3. Initial start, search range, and GBIS-reported optimum</h2>
+<table>
+<tr><th>parameter</th><th>start</th><th>lower</th><th>upper</th><th>USGS NP1 / W&C</th><th>GBIS optimum</th></tr>
+<tr><td>L (km)</td><td class="c">24.83</td><td class="c">9.93</td><td class="c">34.76</td><td class="c">24.83</td><td class="c"><b>34.76</b></td></tr>
+<tr><td>W (km)</td><td class="c">11.75</td><td class="c">4.70</td><td class="c">16.45</td><td class="c">11.75</td><td class="c"><b>16.45</b></td></tr>
+<tr><td>Z_top (km)</td><td class="c">14.11</td><td class="c">0.10</td><td class="c">30.00</td><td class="c">14.11</td><td class="c"><b>0.10</b></td></tr>
+<tr><td>dip (°)</td><td class="c">18.8</td><td class="c">0.1</td><td class="c">53.8</td><td class="c">18.8</td><td class="c"><b>0.1</b></td></tr>
+<tr><td>strike (°)</td><td class="c">28.8</td><td class="c">328.8</td><td class="c">88.8</td><td class="c">28.8</td><td class="c"><b>17.1</b></td></tr>
+<tr><td>X (km)</td><td class="c">0</td><td class="c">-24.8</td><td class="c">24.8</td><td class="c">0</td><td class="c"><b>19.40</b></td></tr>
+<tr><td>Y (km)</td><td class="c">0</td><td class="c">-24.8</td><td class="c">24.8</td><td class="c">0</td><td class="c"><b>-15.97</b></td></tr>
+<tr><td>SS (m)</td><td class="c">-0.400</td><td class="c">-2.25</td><td class="c">+2.25</td><td class="c">-0.400</td><td class="c"><b>+0.340</b></td></tr>
+<tr><td>DS (m)</td><td class="c">+0.636</td><td class="c">-2.25</td><td class="c">+2.25</td><td class="c">+0.636</td><td class="c"><b>-0.186</b></td></tr>
+<tr><th colspan=4>derived</th><th class="c">USGS</th><th class="c">GBIS</th></tr>
+<tr><td>|slip| (m)</td><td colspan=3></td><td class="c">0.751</td><td class="c"><b>0.388</b></td></tr>
+<tr><td>rake (°)</td><td colspan=3></td><td class="c">122.1</td><td class="c"><b>-28.7</b></td></tr>
+<tr><td>Mw</td><td colspan=3></td><td class="c">6.50</td><td class="c"><b>6.50</b></td></tr>
+<tr><td>Z_bot (km)</td><td colspan=3></td><td class="c">17.89</td><td class="c"><b>0.13</b></td></tr>
+<tr><td><b>震源深度 / centroid depth (km)</b></td><td colspan=3></td><td class="c">16.00</td><td class="c"><b>0.11</b></td></tr>
+</table>
+<p style="font-size:12px;color:#666">震源深度对比：USGS = 报告的震源（hypocenter）深度；GBIS = 断层质心深度 (Z_top+Z_bot)/2。</p>
+<p style="font-size:12px;color:#666">Note: GBIS optimum = single MAP sample reported by GBIS in <code>invResults.model.optimal</code>, NOT a chain median.</p>
+
 
 <h2>4. Beachball comparison</h2>
-<div class="pending">⏳ Not generated — needs the full-mode figure helper. the beachball (full-mode figure helper).</div>
+<img src="gbis/np1/figures/04_beachball.png">
 
-<h2>5. Triplet — data / model / residual</h2>
-<div class="pending">⏳ Not generated — needs the full-mode figure helper. the data/model/residual triplet (full-mode figure helper).</div>
+<h2>5. Triplet — data / model / residual using GBIS optimum</h2>
+<img src="gbis/np1/figures/05_triplet_optimum.png">
 
 <h2>6. Joint-posterior corner plot</h2>
-<div class="pending">⏳ Not generated — needs the full-mode figure helper. the corner plot (full-mode figure helper).</div>
+<img src="gbis/np1/figures/06_corner.png">
+<p style="font-size:12px;color:#666">Red truth lines = USGS NP1 (W&amp;C scaled). Density contours = 39%, 68%, 95% credible regions.</p>
 
 <h2>7. Burn-in / chain trace</h2>
-<div class="pending">⏳ Not generated — needs the full-mode figure helper. the chain trace (full-mode figure helper).</div>
+<img src="gbis/np1/figures/07_trace.png">
+<p style="font-size:12px;color:#666">Blue shading = SA cooling (first 50k iterations). Gray = post-burnin MCMC. Red horizontal = GBIS reported optimum. Dashed orange = USGS NP1 W&amp;C value.</p>
 
 
-<h2>8. Agent Review (LLM advisory)</h2>
-<div style="background:#f5f8fc;border-left:4px solid #666;
-            padding:11px 14px;margin:12px 0;font-size:13px;line-height:1.55">
-  <div style="font-size:15px"><b style="color:#666">Rating: ?</b>
-   &nbsp;·&nbsp; <i>LLM advisor not invoked</i></div>
-  <div style="margin-top:8px"><b>Recommendation:</b> <code>manual_review</code>
-   &nbsp; <b>Confidence:</b> low</div>
-  
-  <div><b>Concerns:</b><ul style="margin:4px 0"><li>ANTHROPIC_API_KEY not set — to enable LLM advisory, export ANTHROPIC_API_KEY and re-run</li></ul></div>
-  <div><b>Rationale:</b> ANTHROPIC_API_KEY not set — to enable LLM advisory, export ANTHROPIC_API_KEY and re-run</div>
-  
-  <div style="margin-top:10px;color:#777;font-size:11.5px">
-    Advisory only. Generated by claude ?
-    (0 tokens) — not used to drive pipeline actions.
-  </div>
-</div>
 
 </body></html>
