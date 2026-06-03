@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-03T04:26:04Z",
+  "generated_utc": "2026-06-03T04:26:33Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 587,
+  "n_events": 588,
   "events": [
     {
       "event_id": "ci38443183",
@@ -29134,6 +29134,97 @@
       "has_report": true,
       "links": {
         "report": "events/us7000mpe2/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000mppu",
+      "place": "40 km NE of Anamizu, Japan",
+      "origin_utc": "2024-06-02T21:31:39Z",
+      "epi_lat": 37.4476,
+      "epi_lon": 137.2681,
+      "depth_km": 9.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 119,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        },
+        {
+          "track": 17,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 35.8,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "result": {
+        "L_km": 4.24,
+        "W_km": 3.3,
+        "Z_top_km": 8.34,
+        "dip": -63.2,
+        "strike": 24.2,
+        "Mw_post": 5.73,
+        "VR": {
+          "t119_dsc": 0.26,
+          "t17_dsc": -0.09
+        },
+        "fmech": {
+          "strike": 204.2,
+          "dip": 63.2,
+          "rake": -23.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.2,
+        "ess": 149,
+        "geweke": 2.32,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "C",
+          "geweke": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-03T04:26:30Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000mppu/REPORT.html"
       }
     },
     {
