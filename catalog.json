@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-03T04:15:49Z",
+  "generated_utc": "2026-06-03T04:16:18Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 585,
+  "n_events": 586,
   "events": [
     {
       "event_id": "ci38443183",
@@ -28119,6 +28119,85 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us7000lftp",
+      "place": "47 km ENE of Hinatuan, Philippines",
+      "origin_utc": "2023-12-03T10:35:52Z",
+      "epi_lat": 8.488,
+      "epi_lon": 126.7454,
+      "depth_km": 19.0,
+      "Mw": 6.6,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 63.1,
+      "in_sequence": true,
+      "sequence_n_significant": 6,
+      "pair_contam_min": 242,
+      "pair_contam_max": 242,
+      "result": {
+        "L_km": 18.99,
+        "W_km": 8.44,
+        "Z_top_km": 22.34,
+        "dip": -83.6,
+        "strike": 35.5,
+        "Mw_post": 6.69,
+        "VR": {
+          "t163_dsc": -0.56
+        },
+        "fmech": {
+          "strike": 215.5,
+          "dip": 83.6,
+          "rake": 29.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 127,
+        "geweke": 5.99,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "A",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 100
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-03T04:16:16Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000lftp/REPORT.html"
       }
     },
     {
