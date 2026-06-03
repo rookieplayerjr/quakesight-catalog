@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-03T03:07:43Z",
+  "generated_utc": "2026-06-03T03:11:57Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 580,
+  "n_events": 579,
   "events": [
     {
       "event_id": "ci38443183",
@@ -24598,47 +24598,6 @@
       "has_report": true,
       "links": {
         "report": "events/us7000f93v/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us7000fd4k",
-      "place": "73 km W of Talcahuano, Chile",
-      "origin_utc": "2021-09-21T13:14:32Z",
-      "epi_lat": -36.7771,
-      "epi_lon": -73.9329,
-      "depth_km": 18.8,
-      "Mw": 6.4,
-      "Mw_type": "Mww",
-      "faulting_class": "reverse",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": 156,
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.243,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 1,
-      "aoi_half_km": 50.1,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 4,
-      "pair_contam_max": 4,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T03:56:46Z",
-      "stale": false,
-      "has_report": true,
-      "links": {
-        "report": "events/us7000fd4k/REPORT.html"
       }
     },
     {
