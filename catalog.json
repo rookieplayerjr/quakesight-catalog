@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-03T04:41:36Z",
+  "generated_utc": "2026-06-03T04:42:00Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 589,
+  "n_events": 590,
   "events": [
     {
       "event_id": "ci38443183",
@@ -29557,6 +29557,87 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us7000nu90",
+      "place": "38 km WNW of Hakui, Japan",
+      "origin_utc": "2024-11-26T13:47:03Z",
+      "epi_lat": 36.9549,
+      "epi_lon": 136.3653,
+      "depth_km": 8.0,
+      "Mw": 6.1,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 17,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 60.3,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
+      "result": {
+        "L_km": 17.0,
+        "W_km": 10.31,
+        "Z_top_km": 26.97,
+        "dip": -44.1,
+        "strike": 137.6,
+        "Mw_post": 6.47,
+        "VR": {
+          "t17_dsc": 0.43
+        },
+        "fmech": {
+          "strike": 317.6,
+          "dip": 44.1,
+          "rake": 55.3
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.205,
+        "ess": 105,
+        "geweke": 3.42,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "B",
+          "vr_mean": "C",
+          "railed": "A",
+          "delta_mw": "C",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise",
+          "mw_disagreement_review"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-06-03T04:41:58Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000nu90/REPORT.html"
       }
     },
     {
