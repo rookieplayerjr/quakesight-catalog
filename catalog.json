@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-03T04:20:51Z",
+  "generated_utc": "2026-06-03T04:21:20Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 586,
+  "n_events": 587,
   "events": [
     {
       "event_id": "ci38443183",
@@ -28198,6 +28198,85 @@
       "has_report": true,
       "links": {
         "report": "events/us7000lftp/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000lfxx",
+      "place": "34 km ENE of Aras-asan, Philippines",
+      "origin_utc": "2023-12-03T19:49:35Z",
+      "epi_lat": 8.9705,
+      "epi_lon": 126.6121,
+      "depth_km": 20.0,
+      "Mw": 6.9,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 80.0,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "pair_contam_min": 65,
+      "pair_contam_max": 65,
+      "result": {
+        "L_km": 59.49,
+        "W_km": 21.95,
+        "Z_top_km": 9.58,
+        "dip": -13.9,
+        "strike": 312.0,
+        "Mw_post": 6.95,
+        "VR": {
+          "t163_dsc": 0.02
+        },
+        "fmech": {
+          "strike": 132.0,
+          "dip": 13.9,
+          "rake": 39.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.203,
+        "ess": 105,
+        "geweke": 4.1,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "A",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 43
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-03T04:21:16Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000lfxx/REPORT.html"
       }
     },
     {
