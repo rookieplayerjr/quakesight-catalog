@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-03T22:41:23Z",
+  "generated_utc": "2026-06-03T22:41:54Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 592,
   "events": [
@@ -28400,7 +28400,7 @@
         "strike": 14.2,
         "Mw_post": 7.06,
         "VR": {
-          "t163_dsc": 0.02
+          "t163_dsc": 0.19
         },
         "fmech": {
           "strike": 194.2,
@@ -28417,12 +28417,12 @@
         "grades": {
           "ess": "C",
           "acceptance": "B",
-          "geweke": "D",
+          "geweke": "B",
           "vr_min": "D",
           "vr_mean": "D",
-          "railed": "A",
-          "delta_mw": "A",
-          "delta_strike": "C"
+          "railed": "C",
+          "delta_mw": "B",
+          "delta_strike": "A"
         },
         "flags": [
           "single_los_pattern_D"
@@ -28432,13 +28432,13 @@
         "in_sequence": true,
         "sequence_n_ge_5": 43
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T22:41:20Z",
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-03T22:41:50Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000lfxx/REPORT.html"
       }
     },
     {
