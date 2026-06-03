@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-03T05:05:31Z",
+  "generated_utc": "2026-06-03T21:58:12Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 590,
   "events": [
@@ -3221,11 +3221,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T21:21:16Z",
+      "pipeline_run_utc": "2026-06-01T21:20:41Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us100077hw/REPORT.html"
+        "report": null
       }
     },
     {
@@ -3574,7 +3574,7 @@
       "diagnostics": null,
       "status": "escalated",
       "escalation_reason": "Escalation: prep_failed",
-      "pipeline_run_utc": "2026-06-02T23:03:29Z",
+      "pipeline_run_utc": "2026-06-03T21:56:29Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -5423,11 +5423,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T23:02:56Z",
+      "pipeline_run_utc": "2026-06-01T23:02:30Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10008w1z/REPORT.html"
+        "report": null
       }
     },
     {
@@ -5561,11 +5561,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T23:09:07Z",
+      "pipeline_run_utc": "2026-06-01T23:08:45Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us1000976a/REPORT.html"
+        "report": null
       }
     },
     {
@@ -9241,11 +9241,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T00:33:40Z",
+      "pipeline_run_utc": "2026-06-02T00:33:19Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us20009ynd/REPORT.html"
+        "report": null
       }
     },
     {
@@ -9603,11 +9603,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T00:42:59Z",
+      "pipeline_run_utc": "2026-06-02T00:42:39Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us2000bqsn/REPORT.html"
+        "report": null
       }
     },
     {
@@ -12092,11 +12092,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T06:56:12Z",
+      "pipeline_run_utc": "2026-05-27T06:54:30Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000645n/REPORT.html"
+        "report": null
       }
     },
     {
@@ -12290,9 +12290,9 @@
       "escalation_reason": "gbis_retry_exhausted",
       "pipeline_run_utc": "2026-05-26T16:24:58Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us60006rp9/REPORT.html"
+        "report": null
       }
     },
     {
@@ -13380,11 +13380,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-02T03:23:39Z",
+      "pipeline_run_utc": "2026-06-02T03:23:09Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000bgbr/REPORT.html"
+        "report": null
       }
     },
     {
@@ -15479,11 +15479,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-02T04:03:12Z",
+      "pipeline_run_utc": "2026-06-02T04:02:41Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000iwds/REPORT.html"
+        "report": null
       }
     },
     {
@@ -16366,11 +16366,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T10:20:26Z",
+      "pipeline_run_utc": "2026-05-27T10:19:44Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000jqxc/REPORT.html"
+        "report": null
       }
     },
     {
@@ -19497,11 +19497,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T03:54:40Z",
+      "pipeline_run_utc": "2026-05-22T21:21:38Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000rsy1/REPORT.html"
+        "report": null
       }
     },
     {
@@ -20759,11 +20759,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T04:57:13Z",
+      "pipeline_run_utc": "2026-06-02T04:56:46Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us70005nie/REPORT.html"
+        "report": null
       }
     },
     {
@@ -24593,11 +24593,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T22:33:30Z",
+      "pipeline_run_utc": "2026-05-26T22:32:52Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000f93v/REPORT.html"
+        "report": null
       }
     },
     {
@@ -26134,9 +26134,9 @@
       "escalation_reason": "gbis_retry_exhausted",
       "pipeline_run_utc": "2026-05-25T06:14:53Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000i90q/REPORT.html"
+        "report": null
       }
     },
     {
@@ -28272,11 +28272,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T04:21:16Z",
+      "pipeline_run_utc": "2026-06-03T04:20:56Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000lfxx/REPORT.html"
+        "report": null
       }
     },
     {
@@ -29847,11 +29847,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T23:49:51Z",
+      "pipeline_run_utc": "2026-05-23T00:15:26Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000pn9z/REPORT.html"
+        "report": null
       }
     },
     {
