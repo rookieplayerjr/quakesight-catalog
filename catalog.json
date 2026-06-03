@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-03T03:47:13Z",
+  "generated_utc": "2026-06-03T03:52:47Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 584,
+  "n_events": 583,
   "events": [
     {
       "event_id": "ci38443183",
@@ -27371,47 +27371,6 @@
       }
     },
     {
-      "event_id": "us7000k3n3",
-      "place": "45 km NE of Puerto Obald\u00eda, Panama",
-      "origin_utc": "2023-05-25T03:05:32Z",
-      "epi_lat": 8.9223,
-      "epi_lon": -77.0904,
-      "depth_km": 13.0,
-      "Mw": 6.5,
-      "Mw_type": "Mww",
-      "faulting_class": "oblique",
-      "magnitude_band": "6p5_to_7",
-      "data_used": [
-        {
-          "track": 48,
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.039,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 1,
-      "aoi_half_km": 67.5,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 5,
-      "pair_contam_max": 5,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T04:00:29Z",
-      "stale": false,
-      "has_report": true,
-      "links": {
-        "report": "events/us7000k3n3/REPORT.html"
-      }
-    },
-    {
       "event_id": "us7000k58h",
       "place": "121 km WSW of Myitkyina, Myanmar",
       "origin_utc": "2023-05-31T11:20:14Z",
@@ -27616,11 +27575,38 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 15.71,
+        "W_km": 9.53,
+        "Z_top_km": 28.21,
+        "dip": -31.2,
+        "strike": 355.2,
+        "Mw_post": 6.64,
+        "VR": {
+          "t69_dsc": 0.16
+        },
+        "fmech": {
+          "strike": 175.2,
+          "dip": 31.2,
+          "rake": 54.1
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.215,
+        "ess": 107,
+        "geweke": 5.73,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T03:51:01Z",
+      "pipeline_run_utc": "2026-06-03T03:52:44Z",
       "stale": false,
       "has_report": true,
       "links": {
