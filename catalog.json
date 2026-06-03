@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-03T03:07:13Z",
+  "generated_utc": "2026-06-03T03:07:43Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 580,
   "events": [
@@ -23829,22 +23829,31 @@
         "acceptance": 0.197,
         "ess": 102,
         "geweke": 26.86,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "C",
+          "acceptance": "C",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
         "flags": [],
-        "catalog_disagreement": false,
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": true,
         "sequence_n_ge_5": 6
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-03T02:02:22Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_multiple_critical_railed",
+      "pipeline_run_utc": "2026-06-03T03:07:39Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000dimf/REPORT.html"
       }
     },
     {
