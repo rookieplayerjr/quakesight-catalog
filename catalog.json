@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-03T03:57:50Z",
+  "generated_utc": "2026-06-03T03:58:21Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 583,
+  "n_events": 584,
   "events": [
     {
       "event_id": "ci38443183",
@@ -27839,6 +27839,86 @@
       "has_report": false,
       "links": {
         "report": null
+      }
+    },
+    {
+      "event_id": "us7000kulj",
+      "place": "101 km N of Palu, Indonesia",
+      "origin_utc": "2023-09-09T14:43:24Z",
+      "epi_lat": 0.0018,
+      "epi_lon": 119.7663,
+      "depth_km": 13.0,
+      "Mw": 6.0,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 134,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.035,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 37.9,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": {
+        "L_km": 11.22,
+        "W_km": 7.24,
+        "Z_top_km": 0.11,
+        "dip": -28.5,
+        "strike": 176.5,
+        "Mw_post": 5.69,
+        "VR": {
+          "t134_dsc": 0.08
+        },
+        "fmech": {
+          "strike": 356.5,
+          "dip": 28.5,
+          "rake": 56.3
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.2,
+        "ess": 104,
+        "geweke": 6.39,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "C",
+          "delta_mw": "C",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "mw_disagreement_review"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-03T03:58:18Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000kulj/REPORT.html"
       }
     },
     {
