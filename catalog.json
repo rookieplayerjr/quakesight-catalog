@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-03T04:12:13Z",
+  "generated_utc": "2026-06-03T04:12:44Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 584,
+  "n_events": 585,
   "events": [
     {
       "event_id": "ci38443183",
@@ -28011,6 +28011,85 @@
       "has_report": true,
       "links": {
         "report": "events/us7000kwrq/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000l76s",
+      "place": "98 km N of Manatutu, Timor Leste",
+      "origin_utc": "2023-10-28T13:04:53Z",
+      "epi_lat": -7.6305,
+      "epi_lon": 125.8938,
+      "depth_km": 10.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 17,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.035,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 26.7,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 3,
+      "pair_contam_max": 3,
+      "result": {
+        "L_km": 6.12,
+        "W_km": 5.39,
+        "Z_top_km": 11.22,
+        "dip": -35.0,
+        "strike": 326.1,
+        "Mw_post": 6.11,
+        "VR": {
+          "t17_dsc": -0.1
+        },
+        "fmech": {
+          "strike": 146.1,
+          "dip": 35.0,
+          "rake": -16.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.202,
+        "ess": 110,
+        "geweke": 4.41,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "C",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "D",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-03T04:12:42Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000l76s/REPORT.html"
       }
     },
     {
