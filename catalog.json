@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-03T03:44:48Z",
+  "generated_utc": "2026-06-03T03:44:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 582,
+  "n_events": 583,
   "events": [
     {
       "event_id": "ci38443183",
@@ -913,7 +913,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T06:55:58Z",
+      "pipeline_run_utc": "2026-06-03T03:44:53Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -26993,6 +26993,85 @@
       "has_report": true,
       "links": {
         "report": "events/us7000j56z/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000jhtd",
+      "place": "6 km SE of Manat, Philippines",
+      "origin_utc": "2023-03-07T06:02:31Z",
+      "epi_lat": 7.4941,
+      "epi_lon": 126.0567,
+      "depth_km": 16.051,
+      "Mw": 5.9,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 28.2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 4,
+      "pair_contam_max": 4,
+      "result": {
+        "L_km": 5.75,
+        "W_km": 3.95,
+        "Z_top_km": 3.29,
+        "dip": -103.3,
+        "strike": 294.4,
+        "Mw_post": 6.05,
+        "VR": {
+          "t163_dsc": -0.15
+        },
+        "fmech": {
+          "strike": 294.4,
+          "dip": 76.7,
+          "rake": -153.4
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.212,
+        "ess": 104,
+        "geweke": 36.25,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "A",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-03T03:44:46Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000jhtd/REPORT.html"
       }
     },
     {
