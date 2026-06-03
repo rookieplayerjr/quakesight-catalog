@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-03T04:58:43Z",
+  "generated_utc": "2026-06-03T04:59:10Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 589,
   "events": [
@@ -31337,22 +31337,33 @@
         "acceptance": 0.209,
         "ess": 617,
         "geweke": 8.72,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-03T04:58:41Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-03T04:59:07Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/usb000szw2/REPORT.html"
       }
     },
     {
