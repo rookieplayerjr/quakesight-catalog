@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-03T22:07:20Z",
+  "generated_utc": "2026-06-03T22:07:43Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 591,
+  "n_events": 592,
   "events": [
     {
       "event_id": "ci38443183",
@@ -27998,6 +27998,86 @@
       "has_report": true,
       "links": {
         "report": "events/us7000kulj/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000kw0l",
+      "place": "122 km W of Copiap\u00f3, Chile",
+      "origin_utc": "2023-09-15T18:07:39Z",
+      "epi_lat": -27.3052,
+      "epi_lon": -71.5671,
+      "depth_km": 8.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "120",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-09-08",
+            "2023-09-20"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.172,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 38.1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 2,
+      "pair_contam_max": 2,
+      "result": {
+        "L_km": 7.79,
+        "W_km": 6.06,
+        "Z_top_km": 16.68,
+        "dip": -22.7,
+        "strike": 227.9,
+        "Mw_post": 6.25,
+        "VR": {
+          "t120_asc": 0.44
+        },
+        "fmech": {
+          "strike": 47.9,
+          "dip": 22.7,
+          "rake": -52.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.216,
+        "ess": 105,
+        "geweke": 9.6,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "B",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-03T22:07:40Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000kw0l/REPORT.html"
       }
     },
     {
