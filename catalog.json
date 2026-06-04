@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-04T00:22:13Z",
+  "generated_utc": "2026-06-04T00:22:52Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 592,
+  "n_events": 593,
   "events": [
     {
       "event_id": "ci38443183",
@@ -27453,6 +27453,86 @@
       "has_report": true,
       "links": {
         "report": "events/us7000jmbi/REPORT.html"
+      }
+    },
+    {
+      "event_id": "us7000k3n3",
+      "place": "45 km NE of Puerto Obald\u00eda, Panama",
+      "origin_utc": "2023-05-25T03:05:32Z",
+      "epi_lat": 8.9223,
+      "epi_lon": -77.0904,
+      "depth_km": 13.0,
+      "Mw": 6.5,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 48,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.039,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": 67.5,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 5,
+      "pair_contam_max": 5,
+      "result": {
+        "L_km": 34.36,
+        "W_km": 16.26,
+        "Z_top_km": 3.65,
+        "dip": -47.3,
+        "strike": 264.0,
+        "Mw_post": 6.76,
+        "VR": {
+          "t48_asc": 0.39
+        },
+        "fmech": {
+          "strike": 84.0,
+          "dip": 47.3,
+          "rake": -106.3
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.21,
+        "ess": 127,
+        "geweke": 2.15,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-04T00:22:49Z",
+      "stale": false,
+      "has_report": true,
+      "links": {
+        "report": "events/us7000k3n3/REPORT.html"
       }
     },
     {
