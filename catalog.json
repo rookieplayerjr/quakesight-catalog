@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-04T08:32:52Z",
+  "generated_utc": "2026-06-04T08:33:31Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -9566,7 +9566,7 @@
         "strike": 127.8,
         "Mw_post": 6.32,
         "VR": {
-          "t70_asc": 0.01
+          "t70_asc": 0.02
         },
         "fmech": {
           "strike": 307.8,
@@ -9587,12 +9587,11 @@
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
-          "delta_mw": "C",
+          "delta_mw": "A",
           "delta_strike": "A"
         },
         "flags": [
-          "single_los_pattern_D",
-          "mw_disagreement_review"
+          "single_los_pattern_D"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
@@ -9601,11 +9600,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-04T08:32:49Z",
+      "pipeline_run_utc": "2026-06-04T08:33:29Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000bqsn/REPORT.html"
       }
     },
     {
