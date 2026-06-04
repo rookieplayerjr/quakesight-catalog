@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-04T07:38:18Z",
+  "generated_utc": "2026-06-04T07:38:53Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -24565,8 +24565,7 @@
         "strike": 34.7,
         "Mw_post": 7.09,
         "VR": {
-          "t41_dsc": 0.73,
-          "t78_asc": 0.81
+          "t78_asc": 0.86
         },
         "fmech": {
           "strike": 214.7,
@@ -24583,11 +24582,11 @@
         "grades": {
           "ess": "C",
           "acceptance": "B",
-          "geweke": "B",
+          "geweke": "C",
           "vr_min": "A",
           "vr_mean": "A",
           "railed": "D",
-          "delta_mw": "B",
+          "delta_mw": "A",
           "delta_strike": "C"
         },
         "flags": [
@@ -24600,11 +24599,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-04T07:38:13Z",
+      "pipeline_run_utc": "2026-06-04T07:38:49Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000f93v/REPORT.html"
       }
     },
     {
