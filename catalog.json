@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-04T06:27:40Z",
+  "generated_utc": "2026-06-04T06:28:11Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -30064,8 +30064,8 @@
         "strike": 19.3,
         "Mw_post": 7.15,
         "VR": {
-          "t106_dsc": 0.37,
-          "t143_asc": -0.04
+          "t143_asc": 0.34,
+          "t70_asc": 0.45
         },
         "fmech": {
           "strike": 199.3,
@@ -30077,17 +30077,17 @@
         "acceptance": 0.211,
         "ess": 180,
         "geweke": 1.75,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "C",
           "acceptance": "B",
-          "geweke": "A",
-          "vr_min": "D",
-          "vr_mean": "D",
+          "geweke": "B",
+          "vr_min": "C",
+          "vr_mean": "C",
           "railed": "C",
-          "delta_mw": "B",
-          "delta_strike": "A"
+          "delta_mw": "C",
+          "delta_strike": "B"
         },
         "flags": [],
         "catalog_disagreement": false,
@@ -30095,13 +30095,13 @@
         "in_sequence": true,
         "sequence_n_ge_5": 1
       },
-      "status": "partial",
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-04T06:27:37Z",
+      "pipeline_run_utc": "2026-06-04T06:28:07Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000pn9z/REPORT.html"
       }
     },
     {
