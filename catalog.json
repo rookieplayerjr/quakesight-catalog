@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-04T00:16:45Z",
+  "generated_utc": "2026-06-04T00:17:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 592,
   "events": [
@@ -12254,8 +12254,8 @@
         "strike": 218.4,
         "Mw_post": 6.56,
         "VR": {
-          "t163_dsc": 0.18,
-          "t69_asc": 0.24
+          "t163_dsc": 0.12,
+          "t69_asc": 0.48
         },
         "fmech": {
           "strike": 38.4,
@@ -12272,26 +12272,29 @@
         "grades": {
           "ess": "B",
           "acceptance": "B",
-          "geweke": "B",
+          "geweke": "A",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
           "delta_mw": "B",
-          "delta_strike": "C"
+          "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t163_dsc"
+        ],
         "catalog_disagreement": false,
-        "np_likely_wrong": true,
+        "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 10
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-06-04T00:16:42Z",
+      "pipeline_run_utc": "2026-06-04T00:17:30Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us60006rp9/REPORT.html"
       }
     },
     {
