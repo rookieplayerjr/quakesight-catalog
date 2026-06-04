@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-04T06:33:33Z",
+  "generated_utc": "2026-06-04T06:33:58Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -9205,7 +9205,7 @@
         "strike": 157.2,
         "Mw_post": 6.49,
         "VR": {
-          "t36_dsc": 0.03
+          "t36_dsc": 0.05
         },
         "fmech": {
           "strike": 337.2,
@@ -9227,11 +9227,10 @@
           "vr_mean": "D",
           "railed": "D",
           "delta_mw": "A",
-          "delta_strike": "A"
+          "delta_strike": "C"
         },
         "flags": [
-          "single_los_pattern_D",
-          "normal_fault_dual_plane_ambiguous"
+          "single_los_pattern_D"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
@@ -9240,11 +9239,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-04T06:33:31Z",
+      "pipeline_run_utc": "2026-06-04T06:33:55Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us20009ynd/REPORT.html"
       }
     },
     {
