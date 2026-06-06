@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-06T23:40:13Z",
+  "generated_utc": "2026-06-06T23:40:36Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -25163,8 +25163,8 @@
         "strike": 354.7,
         "Mw_post": 6.5,
         "VR": {
-          "t4_dsc": 0.05,
-          "t99_asc": -1.13
+          "t4_dsc": -0.41,
+          "t99_asc": -1.14
         },
         "fmech": {
           "strike": 174.7,
@@ -25179,30 +25179,28 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
-          "geweke": "C",
+          "geweke": "B",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
-          "delta_mw": "C",
-          "delta_strike": "C"
+          "delta_mw": "D",
+          "delta_strike": "A"
         },
-        "flags": [
-          "mw_disagreement_review"
-        ],
-        "catalog_disagreement": false,
-        "np_likely_wrong": true,
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
       "status": "escalated",
-      "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-06-06T23:40:10Z",
+      "escalation_reason": "gbis_weak_signal",
+      "pipeline_run_utc": "2026-06-06T23:40:33Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000gebb/REPORT.html"
       }
     },
     {
