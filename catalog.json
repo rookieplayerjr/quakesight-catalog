@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-06T20:20:30Z",
+  "generated_utc": "2026-06-06T20:20:53Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -13896,7 +13896,7 @@
         "strike": 176.0,
         "Mw_post": 5.41,
         "VR": {
-          "t121_dsc": 0.85
+          "t121_dsc": 0.74
         },
         "fmech": {
           "strike": 356.0,
@@ -13911,12 +13911,12 @@
         "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
-          "ess": "C",
+          "ess": "A",
           "acceptance": "B",
-          "geweke": "D",
+          "geweke": "A",
           "vr_min": "A",
           "vr_mean": "A",
-          "railed": "A",
+          "railed": "B",
           "delta_mw": "A",
           "delta_strike": "A"
         },
@@ -13928,11 +13928,11 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-06T20:20:28Z",
+      "pipeline_run_utc": "2026-06-06T20:20:50Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000dxge/REPORT.html"
       }
     },
     {
