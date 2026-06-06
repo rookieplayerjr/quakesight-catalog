@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-06T18:23:37Z",
+  "generated_utc": "2026-06-06T18:24:03Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -24659,7 +24659,7 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
           "geweke": "D",
           "vr_min": "D",
@@ -24679,11 +24679,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-06T18:23:35Z",
+      "pipeline_run_utc": "2026-06-06T18:24:00Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000fd4k/REPORT.html"
       }
     },
     {
