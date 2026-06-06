@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-06T20:05:56Z",
+  "generated_utc": "2026-06-06T20:06:20Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -15659,8 +15659,9 @@
         "strike": 72.3,
         "Mw_post": 6.08,
         "VR": {
-          "t151_asc": 0.44,
-          "t78_asc": -0.16
+          "t151_asc": 0.28,
+          "t41_dsc": 0.22,
+          "t78_asc": 0.26
         },
         "fmech": {
           "strike": 252.3,
@@ -15675,19 +15676,16 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
-          "geweke": "D",
-          "vr_min": "D",
+          "geweke": "B",
+          "vr_min": "C",
           "vr_mean": "D",
-          "railed": "A",
-          "delta_mw": "B",
+          "railed": "D",
+          "delta_mw": "A",
           "delta_strike": "B"
         },
-        "flags": [
-          "bad_track_contaminates",
-          "drop_candidate:t78_asc"
-        ],
+        "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -15695,11 +15693,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-06T20:05:54Z",
+      "pipeline_run_utc": "2026-06-06T20:06:18Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000j8lp/REPORT.html"
       }
     },
     {
