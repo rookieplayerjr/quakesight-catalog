@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-06T18:38:30Z",
+  "generated_utc": "2026-06-06T18:38:54Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -9566,7 +9566,7 @@
         "strike": 128.5,
         "Mw_post": 6.47,
         "VR": {
-          "t70_asc": 0.02
+          "t70_asc": 0.05
         },
         "fmech": {
           "strike": 308.5,
@@ -9581,7 +9581,7 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
           "geweke": "D",
           "vr_min": "D",
@@ -9600,11 +9600,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-06T18:38:27Z",
+      "pipeline_run_utc": "2026-06-06T18:38:51Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000bqsn/REPORT.html"
       }
     },
     {
