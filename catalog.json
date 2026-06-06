@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-06T19:46:07Z",
+  "generated_utc": "2026-06-06T19:46:31Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -25345,8 +25345,8 @@
         "strike": 318.5,
         "Mw_post": 6.16,
         "VR": {
-          "t4_dsc": 0.09,
-          "t99_asc": 0.2
+          "t4_dsc": 0.01,
+          "t99_asc": 0.14
         },
         "fmech": {
           "strike": 318.5,
@@ -25361,16 +25361,18 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
           "geweke": "D",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
-          "delta_mw": "A",
+          "delta_mw": "C",
           "delta_strike": "C"
         },
-        "flags": [],
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": true,
         "in_sequence": false,
@@ -25378,11 +25380,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_weak_signal",
-      "pipeline_run_utc": "2026-06-06T19:46:04Z",
+      "pipeline_run_utc": "2026-06-06T19:46:28Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000gx8m/REPORT.html"
       }
     },
     {
