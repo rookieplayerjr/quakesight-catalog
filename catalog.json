@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-06T21:07:19Z",
+  "generated_utc": "2026-06-06T21:07:42Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -29846,7 +29846,7 @@
         "strike": 179.4,
         "Mw_post": 6.2,
         "VR": {
-          "t17_dsc": 0.43
+          "t17_dsc": 0.5
         },
         "fmech": {
           "strike": 359.4,
@@ -29861,19 +29861,18 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
-          "geweke": "B",
+          "geweke": "A",
           "vr_min": "B",
-          "vr_mean": "C",
+          "vr_mean": "B",
           "railed": "A",
-          "delta_mw": "C",
-          "delta_strike": "C"
+          "delta_mw": "A",
+          "delta_strike": "A"
         },
         "flags": [
           "single_los_pattern_D",
-          "demoted_all_coh_subnoise",
-          "mw_disagreement_review"
+          "demoted_all_coh_subnoise"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
@@ -29882,11 +29881,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-06-06T21:07:16Z",
+      "pipeline_run_utc": "2026-06-06T21:07:39Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000nu90/REPORT.html"
       }
     },
     {
