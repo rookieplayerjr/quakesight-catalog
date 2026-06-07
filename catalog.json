@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T03:46:40Z",
+  "generated_utc": "2026-06-07T03:47:04Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -9823,7 +9823,7 @@
         "strike": 68.9,
         "Mw_post": 6.56,
         "VR": {
-          "t129_dsc": 0.26
+          "t129_dsc": 0.25
         },
         "fmech": {
           "strike": 68.9,
@@ -9838,30 +9838,30 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "A",
           "acceptance": "B",
           "geweke": "B",
           "vr_min": "C",
           "vr_mean": "D",
-          "railed": "A",
-          "delta_mw": "A",
-          "delta_strike": "A"
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "B"
         },
         "flags": [
           "single_los_pattern_D"
         ],
         "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-07T03:46:37Z",
+      "pipeline_run_utc": "2026-06-07T03:47:00Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000cl83/REPORT.html"
       }
     },
     {
