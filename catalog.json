@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T14:33:33Z",
+  "generated_utc": "2026-06-07T14:33:58Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -29440,8 +29440,8 @@
         "strike": 25.7,
         "Mw_post": 5.6,
         "VR": {
-          "t119_dsc": 0.26,
-          "t17_dsc": -0.09
+          "t119_dsc": 0.22,
+          "t17_dsc": -0.19
         },
         "fmech": {
           "strike": 205.7,
@@ -29456,9 +29456,9 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "C",
-          "geweke": "B",
+          "geweke": "C",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "A",
@@ -29475,11 +29475,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-07T14:33:31Z",
+      "pipeline_run_utc": "2026-06-07T14:33:55Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000mppu/REPORT.html"
       }
     },
     {
