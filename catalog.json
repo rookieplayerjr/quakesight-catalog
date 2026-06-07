@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T01:13:46Z",
+  "generated_utc": "2026-06-07T01:14:09Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -11529,7 +11529,7 @@
         "strike": 152.7,
         "Mw_post": 6.31,
         "VR": {
-          "t91_asc": 0.54
+          "t91_asc": 0.67
         },
         "fmech": {
           "strike": 332.7,
@@ -11544,18 +11544,17 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "A",
           "acceptance": "B",
           "geweke": "B",
-          "vr_min": "B",
+          "vr_min": "A",
           "vr_mean": "B",
-          "railed": "A",
-          "delta_mw": "B",
-          "delta_strike": "C"
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "A"
         },
         "flags": [
           "single_los_pattern_D",
-          "demoted_single_los_geom",
           "demoted_all_coh_subnoise"
         ],
         "catalog_disagreement": false,
@@ -11563,13 +11562,13 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-06-07T01:13:43Z",
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-07T01:14:07Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000k7vu/REPORT.html"
       }
     },
     {
