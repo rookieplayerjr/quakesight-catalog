@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T04:48:15Z",
+  "generated_utc": "2026-06-07T04:48:39Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -19114,7 +19114,8 @@
         "strike": 58.9,
         "Mw_post": 6.17,
         "VR": {
-          "t155_asc": 0.68
+          "t155_asc": 0.58,
+          "t2_dsc": -0.22
         },
         "fmech": {
           "strike": 238.9,
@@ -19129,31 +19130,31 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "A",
           "acceptance": "B",
-          "geweke": "B",
-          "vr_min": "A",
-          "vr_mean": "B",
-          "railed": "A",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
           "delta_mw": "B",
-          "delta_strike": "C"
+          "delta_strike": "D"
         },
         "flags": [
-          "demoted_single_los_geom",
-          "demoted_all_coh_subnoise"
+          "bad_track_contaminates",
+          "drop_candidate:t2_dsc"
         ],
-        "catalog_disagreement": false,
+        "catalog_disagreement": true,
         "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 4
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T04:48:13Z",
+      "pipeline_run_utc": "2026-06-07T04:48:36Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000rhg5/REPORT.html"
       }
     },
     {
