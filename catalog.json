@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T15:53:10Z",
+  "generated_utc": "2026-06-07T15:53:36Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -16886,8 +16886,8 @@
         "strike": 177.3,
         "Mw_post": 6.38,
         "VR": {
-          "t13_asc": 0.67,
-          "t20_dsc": 0.78
+          "t13_asc": 0.44,
+          "t20_dsc": 0.51
         },
         "fmech": {
           "strike": 357.3,
@@ -16902,30 +16902,28 @@
         "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
-          "ess": "B",
+          "ess": "A",
           "acceptance": "B",
           "geweke": "B",
-          "vr_min": "A",
-          "vr_mean": "A",
-          "railed": "A",
-          "delta_mw": "B",
-          "delta_strike": "A"
+          "vr_min": "B",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "C"
         },
-        "flags": [
-          "demoted_in_sequence"
-        ],
+        "flags": [],
         "catalog_disagreement": false,
-        "np_likely_wrong": true,
+        "np_likely_wrong": false,
         "in_sequence": true,
         "sequence_n_ge_5": 10
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T15:53:07Z",
+      "pipeline_run_utc": "2026-06-07T15:53:32Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000ldpm/REPORT.html"
       }
     },
     {
