@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T23:49:14Z",
+  "generated_utc": "2026-06-07T23:49:39Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -22092,8 +22092,8 @@
         "strike": 262.4,
         "Mw_post": 6.03,
         "VR": {
-          "t152_dsc": 0.48,
-          "t79_dsc": 0.71
+          "t152_dsc": 0.5,
+          "t79_dsc": 0.7
         },
         "fmech": {
           "strike": 82.4,
@@ -22110,26 +22110,26 @@
         "grades": {
           "ess": "B",
           "acceptance": "B",
-          "geweke": "B",
+          "geweke": "A",
           "vr_min": "B",
           "vr_mean": "B",
-          "railed": "C",
-          "delta_mw": "A",
-          "delta_strike": "B"
+          "railed": "D",
+          "delta_mw": "B",
+          "delta_strike": "C"
         },
         "flags": [],
         "catalog_disagreement": false,
-        "np_likely_wrong": true,
+        "np_likely_wrong": false,
         "in_sequence": true,
         "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T23:49:12Z",
+      "pipeline_run_utc": "2026-06-07T23:49:37Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us70007v29/REPORT.html"
       }
     },
     {
