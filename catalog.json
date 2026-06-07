@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T06:45:18Z",
+  "generated_utc": "2026-06-07T06:45:44Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -10575,8 +10575,8 @@
         "strike": 12.7,
         "Mw_post": 6.35,
         "VR": {
-          "t174_asc": -0.14,
-          "t6_dsc": 0.54
+          "t174_asc": 0.53,
+          "t72_asc": 0.21
         },
         "fmech": {
           "strike": 192.7,
@@ -10588,34 +10588,31 @@
         "acceptance": 0.214,
         "ess": 177,
         "geweke": 1.6,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
-          "geweke": "C",
-          "vr_min": "D",
-          "vr_mean": "D",
-          "railed": "A",
-          "delta_mw": "A",
-          "delta_strike": "A"
+          "geweke": "A",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
         },
-        "flags": [
-          "bad_track_contaminates",
-          "drop_candidate:t174_asc"
-        ],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-06-07T06:45:16Z",
+      "status": "done",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-07T06:45:40Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000gb4d/REPORT.html"
       }
     },
     {
