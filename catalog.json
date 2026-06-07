@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T16:13:03Z",
+  "generated_utc": "2026-06-07T16:13:26Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -16595,7 +16595,8 @@
         "strike": 328.7,
         "Mw_post": 6.45,
         "VR": {
-          "t152_dsc": 0.75
+          "t14_asc": -0.03,
+          "t152_dsc": 0.26
         },
         "fmech": {
           "strike": 148.7,
@@ -16607,31 +16608,33 @@
         "acceptance": 0.201,
         "ess": 200,
         "geweke": 1.15,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
           "ess": "B",
           "acceptance": "B",
           "geweke": "A",
-          "vr_min": "A",
-          "vr_mean": "A",
-          "railed": "A",
-          "delta_mw": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
           "delta_strike": "A"
         },
-        "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": true,
+        "flags": [
+          "normal_fault_dual_plane_ambiguous"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T16:13:01Z",
+      "pipeline_run_utc": "2026-06-07T16:13:23Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000kx3e/REPORT.html"
       }
     },
     {
