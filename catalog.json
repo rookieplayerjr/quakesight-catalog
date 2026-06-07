@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T05:40:06Z",
+  "generated_utc": "2026-06-07T05:40:29Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -30847,8 +30847,8 @@
         "strike": 257.3,
         "Mw_post": 6.25,
         "VR": {
-          "t34_dsc": 0.41,
-          "t56_asc": 0.54
+          "t34_dsc": 0.55,
+          "t56_asc": 0.44
         },
         "fmech": {
           "strike": 77.3,
@@ -30860,31 +30860,34 @@
         "acceptance": 0.205,
         "ess": 182,
         "geweke": 7.88,
-        "zone": "YELLOW",
-        "verdict": "PASS",
+        "zone": "RED",
+        "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
-          "geweke": "A",
+          "geweke": "D",
           "vr_min": "B",
           "vr_mean": "C",
-          "railed": "A",
-          "delta_mw": "A",
+          "railed": "D",
+          "delta_mw": "C",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "demoted_critical_rail",
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T05:40:04Z",
+      "pipeline_run_utc": "2026-06-07T05:40:26Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000rfgy/REPORT.html"
       }
     },
     {
