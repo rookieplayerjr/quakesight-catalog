@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T20:35:10Z",
+  "generated_utc": "2026-06-07T20:35:33Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -23515,7 +23515,7 @@
         "strike": 213.5,
         "Mw_post": 6.19,
         "VR": {
-          "t134_dsc": 0.63
+          "t134_dsc": 0.55
         },
         "fmech": {
           "strike": 33.5,
@@ -23530,18 +23530,17 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "B",
+          "ess": "A",
           "acceptance": "B",
-          "geweke": "C",
+          "geweke": "A",
           "vr_min": "B",
           "vr_mean": "B",
-          "railed": "A",
+          "railed": "D",
           "delta_mw": "A",
-          "delta_strike": "C"
+          "delta_strike": "B"
         },
         "flags": [
           "single_los_pattern_D",
-          "demoted_single_los_geom",
           "demoted_all_coh_subnoise"
         ],
         "catalog_disagreement": false,
@@ -23551,11 +23550,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T20:35:07Z",
+      "pipeline_run_utc": "2026-06-07T20:35:30Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000d030/REPORT.html"
       }
     },
     {
