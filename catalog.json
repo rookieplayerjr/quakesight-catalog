@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T12:03:57Z",
+  "generated_utc": "2026-06-07T12:04:22Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -18263,7 +18263,7 @@
         "strike": 223.6,
         "Mw_post": 6.44,
         "VR": {
-          "t171_dsc": 0.9
+          "t171_dsc": 0.86
         },
         "fmech": {
           "strike": 43.6,
@@ -18278,7 +18278,7 @@
         "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
-          "ess": "C",
+          "ess": "A",
           "acceptance": "B",
           "geweke": "B",
           "vr_min": "A",
@@ -18294,12 +18294,12 @@
         "sequence_n_ge_5": 0
       },
       "status": "done",
-      "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-06-07T12:03:54Z",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-07T12:04:18Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000qixr/REPORT.html"
       }
     },
     {
