@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T10:57:39Z",
+  "generated_utc": "2026-06-07T10:58:04Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -27418,8 +27418,8 @@
         "strike": 52.4,
         "Mw_post": 6.09,
         "VR": {
-          "t174_asc": -0.27,
-          "t79_dsc": 0.56
+          "t174_asc": 0.21,
+          "t79_dsc": 0.58
         },
         "fmech": {
           "strike": 232.4,
@@ -27431,34 +27431,33 @@
         "acceptance": 0.205,
         "ess": 231,
         "geweke": 4.45,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
-          "geweke": "B",
-          "vr_min": "D",
-          "vr_mean": "D",
+          "geweke": "C",
+          "vr_min": "C",
+          "vr_mean": "C",
           "railed": "A",
-          "delta_mw": "B",
-          "delta_strike": "B"
+          "delta_mw": "C",
+          "delta_strike": "A"
         },
         "flags": [
-          "bad_track_contaminates",
-          "drop_candidate:t174_asc"
+          "mw_disagreement_review"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-06-07T10:57:37Z",
+      "status": "done",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-07T10:58:00Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000jmbi/REPORT.html"
       }
     },
     {
