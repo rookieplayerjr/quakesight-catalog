@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T22:53:27Z",
+  "generated_utc": "2026-06-07T22:53:53Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -16006,8 +16006,8 @@
         "strike": 277.6,
         "Mw_post": 5.68,
         "VR": {
-          "t63_dsc": 0.08,
-          "t85_asc": -0.14
+          "t63_dsc": -0.1,
+          "t85_asc": -0.92
         },
         "fmech": {
           "strike": 277.6,
@@ -16039,11 +16039,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_weak_signal",
-      "pipeline_run_utc": "2026-06-07T22:53:25Z",
+      "pipeline_run_utc": "2026-06-07T22:53:49Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000jk82/REPORT.html"
       }
     },
     {
