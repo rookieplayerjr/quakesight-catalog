@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T16:42:42Z",
+  "generated_utc": "2026-06-07T16:43:06Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -21235,7 +21235,7 @@
         "strike": 15.4,
         "Mw_post": 6.28,
         "VR": {
-          "t62_dsc": 0.88
+          "t62_dsc": 0.82
         },
         "fmech": {
           "strike": 15.4,
@@ -21250,7 +21250,7 @@
         "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
-          "ess": "B",
+          "ess": "A",
           "acceptance": "B",
           "geweke": "A",
           "vr_min": "A",
@@ -21269,11 +21269,11 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T16:42:39Z",
+      "pipeline_run_utc": "2026-06-07T16:43:03Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us70006ara/REPORT.html"
       }
     },
     {
