@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T20:48:58Z",
+  "generated_utc": "2026-06-07T20:49:22Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -14802,8 +14802,8 @@
         "strike": 291.3,
         "Mw_post": 5.85,
         "VR": {
-          "t130_asc": 0.21,
-          "t166_dsc": 0.11
+          "t130_asc": 0.2,
+          "t166_dsc": 0.19
         },
         "fmech": {
           "strike": 111.3,
@@ -14818,14 +14818,14 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "B",
+          "ess": "A",
           "acceptance": "B",
           "geweke": "A",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
           "delta_mw": "A",
-          "delta_strike": "B"
+          "delta_strike": "C"
         },
         "flags": [],
         "catalog_disagreement": false,
@@ -14835,11 +14835,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T20:48:55Z",
+      "pipeline_run_utc": "2026-06-07T20:49:19Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000h58x/REPORT.html"
       }
     },
     {
