@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T20:17:24Z",
+  "generated_utc": "2026-06-07T20:17:48Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -23407,8 +23407,8 @@
         "strike": 0.5,
         "Mw_post": 6.39,
         "VR": {
-          "t10_dsc": 0.39,
-          "t3_asc": 0.19
+          "t10_dsc": 0.12,
+          "t76_asc": 0.48
         },
         "fmech": {
           "strike": 180.5,
@@ -23420,31 +23420,34 @@
         "acceptance": 0.211,
         "ess": 265,
         "geweke": 1.52,
-        "zone": "RED",
-        "verdict": "FAIL",
+        "zone": "YELLOW",
+        "verdict": "PASS",
         "grades": {
           "ess": "B",
           "acceptance": "B",
           "geweke": "A",
           "vr_min": "D",
-          "vr_mean": "D",
+          "vr_mean": "C",
           "railed": "A",
-          "delta_mw": "A",
+          "delta_mw": "D",
           "delta_strike": "C"
         },
-        "flags": [],
-        "catalog_disagreement": false,
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t10_dsc"
+        ],
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-07T20:17:22Z",
+      "status": "done",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-07T20:17:46Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000ckx5/REPORT.html"
       }
     },
     {
