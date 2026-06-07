@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T19:21:16Z",
+  "generated_utc": "2026-06-07T19:21:40Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -30757,8 +30757,8 @@
         "strike": 281.6,
         "Mw_post": 6.71,
         "VR": {
-          "t135_dsc": -0.68,
-          "t41_asc": 0.53
+          "t135_dsc": -0.04,
+          "t41_asc": 0.33
         },
         "fmech": {
           "strike": 101.6,
@@ -30775,16 +30775,15 @@
         "grades": {
           "ess": "B",
           "acceptance": "B",
-          "geweke": "A",
+          "geweke": "B",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
-          "delta_mw": "A",
-          "delta_strike": "C"
+          "delta_mw": "C",
+          "delta_strike": "A"
         },
         "flags": [
-          "bad_track_contaminates",
-          "drop_candidate:t135_dsc"
+          "mw_disagreement_review"
         ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
@@ -30793,11 +30792,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_retry_exhausted",
-      "pipeline_run_utc": "2026-06-07T19:21:13Z",
+      "pipeline_run_utc": "2026-06-07T19:21:38Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000re2g/REPORT.html"
       }
     },
     {
