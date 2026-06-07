@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T08:55:48Z",
+  "generated_utc": "2026-06-07T08:56:13Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -6448,8 +6448,8 @@
         "strike": 214.2,
         "Mw_post": 5.89,
         "VR": {
-          "t6_dsc": 0.77,
-          "t79_dsc": 0.6
+          "t6_dsc": 0.72,
+          "t79_dsc": 0.69
         },
         "fmech": {
           "strike": 34.2,
@@ -6461,31 +6461,31 @@
         "acceptance": 0.207,
         "ess": 207,
         "geweke": 1.36,
-        "zone": "YELLOW",
+        "zone": "GREEN",
         "verdict": "PASS",
         "grades": {
-          "ess": "C",
-          "acceptance": "C",
+          "ess": "B",
+          "acceptance": "B",
           "geweke": "A",
-          "vr_min": "B",
-          "vr_mean": "B",
-          "railed": "D",
-          "delta_mw": "B",
-          "delta_strike": "A"
+          "vr_min": "A",
+          "vr_mean": "A",
+          "railed": "A",
+          "delta_mw": "A",
+          "delta_strike": "C"
         },
         "flags": [],
         "catalog_disagreement": false,
-        "np_likely_wrong": true,
+        "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T08:55:45Z",
+      "pipeline_run_utc": "2026-06-07T08:56:09Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us1000ghda/REPORT.html"
       }
     },
     {
