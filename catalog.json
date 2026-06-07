@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T23:13:58Z",
+  "generated_utc": "2026-06-07T23:14:22Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -12419,8 +12419,8 @@
         "strike": 99.4,
         "Mw_post": 5.97,
         "VR": {
-          "t129_asc": 0.84,
-          "t34_dsc": 0.83
+          "t129_asc": 0.83,
+          "t34_dsc": 0.81
         },
         "fmech": {
           "strike": 279.4,
@@ -12437,10 +12437,10 @@
         "grades": {
           "ess": "B",
           "acceptance": "B",
-          "geweke": "A",
+          "geweke": "D",
           "vr_min": "A",
           "vr_mean": "A",
-          "railed": "A",
+          "railed": "D",
           "delta_mw": "A",
           "delta_strike": "B"
         },
@@ -12452,11 +12452,11 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T23:13:55Z",
+      "pipeline_run_utc": "2026-06-07T23:14:20Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us60007anp/REPORT.html"
       }
     },
     {
