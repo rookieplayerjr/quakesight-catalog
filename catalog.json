@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T21:18:44Z",
+  "generated_utc": "2026-06-07T21:19:12Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -20851,8 +20851,8 @@
         "strike": 212.7,
         "Mw_post": 6.56,
         "VR": {
-          "t163_dsc": 0.58,
-          "t69_asc": 0.33
+          "t163_dsc": 0.59,
+          "t69_asc": 0.47
         },
         "fmech": {
           "strike": 212.7,
@@ -20867,13 +20867,13 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "B",
+          "ess": "A",
           "acceptance": "B",
-          "geweke": "B",
-          "vr_min": "C",
-          "vr_mean": "C",
-          "railed": "A",
-          "delta_mw": "A",
+          "geweke": "A",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "B",
           "delta_strike": "A"
         },
         "flags": [
@@ -20886,11 +20886,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T21:18:41Z",
+      "pipeline_run_utc": "2026-06-07T21:19:08Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us70005ulm/REPORT.html"
       }
     },
     {
