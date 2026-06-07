@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T13:58:50Z",
+  "generated_utc": "2026-06-07T13:59:18Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -21629,8 +21629,8 @@
         "strike": 248.3,
         "Mw_post": 5.39,
         "VR": {
-          "t100_asc": 0.26,
-          "t107_dsc": 0.52
+          "t100_asc": 0.23,
+          "t107_dsc": 0.54
         },
         "fmech": {
           "strike": 68.3,
@@ -21645,9 +21645,9 @@
         "zone": "YELLOW",
         "verdict": "PASS",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
-          "geweke": "A",
+          "geweke": "C",
           "vr_min": "C",
           "vr_mean": "C",
           "railed": "A",
@@ -21662,11 +21662,11 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T13:58:47Z",
+      "pipeline_run_utc": "2026-06-07T13:59:15Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us70006sj8/REPORT.html"
       }
     },
     {
