@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T12:53:46Z",
+  "generated_utc": "2026-06-07T12:54:10Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -29349,8 +29349,8 @@
         "strike": 63.1,
         "Mw_post": 6.22,
         "VR": {
-          "t12_asc": 0.25,
-          "t19_dsc": 0.22
+          "t12_asc": 0.26,
+          "t19_dsc": -0.01
         },
         "fmech": {
           "strike": 63.1,
@@ -29365,16 +29365,18 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
+          "ess": "B",
           "acceptance": "B",
           "geweke": "B",
-          "vr_min": "C",
+          "vr_min": "D",
           "vr_mean": "D",
           "railed": "A",
-          "delta_mw": "A",
+          "delta_mw": "C",
           "delta_strike": "A"
         },
-        "flags": [],
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -29382,11 +29384,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T12:53:43Z",
+      "pipeline_run_utc": "2026-06-07T12:54:08Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000mpe2/REPORT.html"
       }
     },
     {
