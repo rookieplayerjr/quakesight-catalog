@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T19:47:35Z",
+  "generated_utc": "2026-06-07T19:47:59Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -20308,7 +20308,7 @@
         "strike": 112.2,
         "Mw_post": 6.08,
         "VR": {
-          "t70_asc": 0.47
+          "t70_asc": 0.5
         },
         "fmech": {
           "strike": 292.2,
@@ -20323,14 +20323,14 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "B",
+          "ess": "A",
           "acceptance": "B",
           "geweke": "A",
           "vr_min": "B",
-          "vr_mean": "C",
+          "vr_mean": "B",
           "railed": "D",
-          "delta_mw": "A",
-          "delta_strike": "A"
+          "delta_mw": "B",
+          "delta_strike": "B"
         },
         "flags": [
           "single_los_pattern_D",
@@ -20343,11 +20343,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T19:47:33Z",
+      "pipeline_run_utc": "2026-06-07T19:47:55Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us70003axc/REPORT.html"
       }
     },
     {
