@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T21:53:36Z",
+  "generated_utc": "2026-06-07T21:54:02Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -10686,8 +10686,8 @@
         "strike": 162.4,
         "Mw_post": 6.28,
         "VR": {
-          "t57_asc": -0.03,
-          "t93_dsc": 0.09
+          "t159_asc": -1.15,
+          "t93_dsc": 0.42
         },
         "fmech": {
           "strike": 342.4,
@@ -10704,28 +10704,29 @@
         "grades": {
           "ess": "B",
           "acceptance": "B",
-          "geweke": "A",
+          "geweke": "D",
           "vr_min": "D",
           "vr_mean": "D",
-          "railed": "A",
-          "delta_mw": "C",
-          "delta_strike": "C"
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "B"
         },
         "flags": [
-          "mw_disagreement_review"
+          "bad_track_contaminates",
+          "drop_candidate:t159_asc"
         ],
-        "catalog_disagreement": false,
-        "np_likely_wrong": true,
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_ambiguous",
-      "pipeline_run_utc": "2026-06-07T21:53:33Z",
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-07T21:53:58Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000gbea/REPORT.html"
       }
     },
     {
