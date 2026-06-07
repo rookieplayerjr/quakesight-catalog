@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-07T18:33:19Z",
+  "generated_utc": "2026-06-07T18:34:30Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -28224,7 +28224,7 @@
         "Mw_post": 5.82,
         "VR": {
           "t125_asc": 0.01,
-          "t23_asc": 0.29
+          "t23_asc": 0.34
         },
         "fmech": {
           "strike": 176.6,
@@ -28240,13 +28240,13 @@
         "verdict": "FAIL",
         "grades": {
           "ess": "B",
-          "acceptance": "B",
+          "acceptance": "C",
           "geweke": "B",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "A",
           "delta_mw": "C",
-          "delta_strike": "B"
+          "delta_strike": "A"
         },
         "flags": [
           "single_los_pattern_D",
@@ -28259,11 +28259,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-07T18:33:16Z",
+      "pipeline_run_utc": "2026-06-07T18:34:26Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000kwrq/REPORT.html"
       }
     },
     {
