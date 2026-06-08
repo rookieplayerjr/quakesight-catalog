@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T04:50:10Z",
+  "generated_utc": "2026-06-08T05:31:23Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -1473,11 +1473,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T18:09:16Z",
+      "pipeline_run_utc": "2026-06-01T18:08:56Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us100031b7/REPORT.html"
+        "report": null
       }
     },
     {
@@ -2874,11 +2874,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T18:54:35Z",
+      "pipeline_run_utc": "2026-06-01T18:54:13Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10007795/REPORT.html"
+        "report": null
       }
     },
     {
@@ -2965,11 +2965,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T19:04:31Z",
+      "pipeline_run_utc": "2026-06-01T19:03:55Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us1000779b/REPORT.html"
+        "report": null
       }
     },
     {
@@ -3056,11 +3056,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T19:24:49Z",
+      "pipeline_run_utc": "2026-06-01T19:16:50Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us100077aj/REPORT.html"
+        "report": null
       }
     },
     {
@@ -3146,11 +3146,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T02:52:19Z",
+      "pipeline_run_utc": "2026-06-02T02:51:40Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us100077ef/REPORT.html"
+        "report": null
       }
     },
     {
@@ -3225,11 +3225,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-04T08:14:53Z",
+      "pipeline_run_utc": "2026-06-04T08:13:49Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us100077hw/REPORT.html"
+        "report": null
       }
     },
     {
@@ -3315,11 +3315,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T21:23:40Z",
+      "pipeline_run_utc": "2026-06-01T21:23:12Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us100077ky/REPORT.html"
+        "report": null
       }
     },
     {
@@ -3497,11 +3497,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T21:30:46Z",
+      "pipeline_run_utc": "2026-06-01T21:30:20Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us1000780y/REPORT.html"
+        "report": null
       }
     },
     {
@@ -3696,11 +3696,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-01T21:40:04Z",
+      "pipeline_run_utc": "2026-06-01T21:39:42Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10007bwb/REPORT.html"
+        "report": null
       }
     },
     {
@@ -4419,11 +4419,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-01T22:15:46Z",
+      "pipeline_run_utc": "2026-06-01T22:15:19Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10008fsc/REPORT.html"
+        "report": null
       }
     },
     {
@@ -4507,11 +4507,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-01T22:20:54Z",
+      "pipeline_run_utc": "2026-06-01T22:20:33Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10008fsd/REPORT.html"
+        "report": null
       }
     },
     {
@@ -4597,11 +4597,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T22:27:06Z",
+      "pipeline_run_utc": "2026-06-01T22:26:42Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10008gsq/REPORT.html"
+        "report": null
       }
     },
     {
@@ -4688,11 +4688,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T22:32:15Z",
+      "pipeline_run_utc": "2026-06-01T22:31:55Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10008h1u/REPORT.html"
+        "report": null
       }
     },
     {
@@ -4875,11 +4875,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T22:40:37Z",
+      "pipeline_run_utc": "2026-06-01T22:40:04Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10008kce/REPORT.html"
+        "report": null
       }
     },
     {
@@ -4955,11 +4955,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T22:43:59Z",
+      "pipeline_run_utc": "2026-06-01T22:43:31Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10008llg/REPORT.html"
+        "report": null
       }
     },
     {
@@ -5114,11 +5114,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T22:52:50Z",
+      "pipeline_run_utc": "2026-06-01T22:52:23Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10008ls4/REPORT.html"
+        "report": null
       }
     },
     {
@@ -5427,11 +5427,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T22:54:07Z",
+      "pipeline_run_utc": "2026-06-03T22:53:47Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us10008w1z/REPORT.html"
+        "report": null
       }
     },
     {
@@ -5564,11 +5564,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T22:07:17Z",
+      "pipeline_run_utc": "2026-06-03T22:06:59Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us1000976a/REPORT.html"
+        "report": null
       }
     },
     {
@@ -5643,11 +5643,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T23:16:48Z",
+      "pipeline_run_utc": "2026-06-01T23:16:26Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us100098gc/REPORT.html"
+        "report": null
       }
     },
     {
@@ -7020,11 +7020,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-06-01T23:32:22Z",
+      "pipeline_run_utc": "2026-06-01T23:32:01Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us200029bt/REPORT.html"
+        "report": null
       }
     },
     {
@@ -7128,11 +7128,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T23:41:49Z",
+      "pipeline_run_utc": "2026-06-01T23:41:19Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us20002b38/REPORT.html"
+        "report": null
       }
     },
     {
@@ -7352,11 +7352,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T23:47:07Z",
+      "pipeline_run_utc": "2026-06-01T23:46:45Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us20003kfj/REPORT.html"
+        "report": null
       }
     },
     {
@@ -7431,11 +7431,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-01T23:54:04Z",
+      "pipeline_run_utc": "2026-06-01T23:53:40Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us20003kfv/REPORT.html"
+        "report": null
       }
     },
     {
@@ -7800,11 +7800,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T00:03:59Z",
+      "pipeline_run_utc": "2026-06-02T00:03:13Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us20005019/REPORT.html"
+        "report": null
       }
     },
     {
@@ -7987,11 +7987,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T00:11:03Z",
+      "pipeline_run_utc": "2026-06-02T00:10:41Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us20005ate/REPORT.html"
+        "report": null
       }
     },
     {
@@ -8783,11 +8783,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T00:18:50Z",
+      "pipeline_run_utc": "2026-06-02T00:18:31Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us20006fpn/REPORT.html"
+        "report": null
       }
     },
     {
@@ -8903,11 +8903,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-02T00:28:10Z",
+      "pipeline_run_utc": "2026-06-02T00:27:49Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us20007fta/REPORT.html"
+        "report": null
       }
     },
     {
@@ -9243,11 +9243,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-04T06:33:55Z",
+      "pipeline_run_utc": "2026-06-04T06:33:38Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us20009ynd/REPORT.html"
+        "report": null
       }
     },
     {
@@ -9604,11 +9604,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-06T18:38:51Z",
+      "pipeline_run_utc": "2026-06-06T18:38:33Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us2000bqsn/REPORT.html"
+        "report": null
       }
     },
     {
@@ -9857,11 +9857,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-07T03:47:00Z",
+      "pipeline_run_utc": "2026-06-07T03:46:45Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us2000cl83/REPORT.html"
+        "report": null
       }
     },
     {
@@ -10938,23 +10938,23 @@
       "result": {
         "L_km": 15.39,
         "W_km": 10.57,
-        "Z_top_km": 9.67,
-        "dip": -3.7,
-        "strike": 264.6,
+        "Z_top_km": 0.1,
+        "dip": -28.9,
+        "strike": 199.3,
         "Mw_post": 6.71,
         "VR": {
           "t97_asc": 0.03
         },
         "fmech": {
-          "strike": 84.6,
-          "dip": 3.7,
-          "rake": -135.0
+          "strike": 19.3,
+          "dip": 28.9,
+          "rake": 135.0
         }
       },
       "diagnostics": {
-        "acceptance": 0.224,
-        "ess": 1380,
-        "geweke": 15.35,
+        "acceptance": 0.213,
+        "ess": 1393,
+        "geweke": 18.87,
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
@@ -10977,11 +10977,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T01:00:38Z",
+      "pipeline_run_utc": "2026-06-08T05:31:20Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us2000i6sc/REPORT.html"
+        "report": null
       }
     },
     {
@@ -11564,11 +11564,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T01:14:07Z",
+      "pipeline_run_utc": "2026-06-07T01:13:43Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us2000k7vu/REPORT.html"
+        "report": null
       }
     },
     {
@@ -11890,11 +11890,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-06T19:32:41Z",
+      "pipeline_run_utc": "2026-06-06T19:32:18Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000434e/REPORT.html"
+        "report": null
       }
     },
     {
@@ -12365,11 +12365,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T03:05:00Z",
+      "pipeline_run_utc": "2026-06-02T03:04:40Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us60006rpn/REPORT.html"
+        "report": null
       }
     },
     {
@@ -12540,11 +12540,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-02T03:11:07Z",
+      "pipeline_run_utc": "2026-06-02T03:10:45Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us60007d2r/REPORT.html"
+        "report": null
       }
     },
     {
@@ -13693,11 +13693,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T03:29:48Z",
+      "pipeline_run_utc": "2026-06-02T03:29:28Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000ddge/REPORT.html"
+        "report": null
       }
     },
     {
@@ -14607,11 +14607,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-08T03:13:35Z",
+      "pipeline_run_utc": "2026-06-08T03:13:08Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000ftxu/REPORT.html"
+        "report": null
       }
     },
     {
@@ -15487,11 +15487,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-03T22:29:43Z",
+      "pipeline_run_utc": "2026-06-03T22:29:13Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000iwds/REPORT.html"
+        "report": null
       }
     },
     {
@@ -15695,11 +15695,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-06T20:06:18Z",
+      "pipeline_run_utc": "2026-06-06T20:05:54Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000j8lp/REPORT.html"
+        "report": null
       }
     },
     {
@@ -15774,11 +15774,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T04:08:41Z",
+      "pipeline_run_utc": "2026-06-02T04:08:21Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000ja1a/REPORT.html"
+        "report": null
       }
     },
     {
@@ -16451,11 +16451,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-02T04:12:17Z",
+      "pipeline_run_utc": "2026-06-02T04:11:43Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000k9mb/REPORT.html"
+        "report": null
       }
     },
     {
@@ -18126,11 +18126,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-26T02:23:45Z",
+      "pipeline_run_utc": "2026-05-26T02:23:16Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000q5q8/REPORT.html"
+        "report": null
       }
     },
     {
@@ -19511,11 +19511,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-04T03:08:42Z",
+      "pipeline_run_utc": "2026-06-04T03:08:08Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us6000rsy1/REPORT.html"
+        "report": null
       }
     },
     {
@@ -20428,11 +20428,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T04:50:40Z",
+      "pipeline_run_utc": "2026-06-02T04:50:12Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us70003gig/REPORT.html"
+        "report": null
       }
     },
     {
@@ -20578,11 +20578,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-05-26T16:43:37Z",
+      "pipeline_run_utc": "2026-05-26T16:43:09Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us70004ejm/REPORT.html"
+        "report": null
       }
     },
     {
@@ -20774,11 +20774,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-04T07:48:59Z",
+      "pipeline_run_utc": "2026-06-04T07:48:39Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us70005nie/REPORT.html"
+        "report": null
       }
     },
     {
@@ -20892,11 +20892,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T21:19:08Z",
+      "pipeline_run_utc": "2026-06-07T21:18:41Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us70005ulm/REPORT.html"
+        "report": null
       }
     },
     {
@@ -21157,11 +21157,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-05-25T09:14:12Z",
+      "pipeline_run_utc": "2026-05-25T09:13:53Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us70006a4q/REPORT.html"
+        "report": null
       }
     },
     {
@@ -21755,11 +21755,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-07T03:07:10Z",
+      "pipeline_run_utc": "2026-06-07T03:06:44Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us70006vkq/REPORT.html"
+        "report": null
       }
     },
     {
@@ -22558,11 +22558,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T23:16:45Z",
+      "pipeline_run_utc": "2026-06-02T23:16:29Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us70008xhp/REPORT.html"
+        "report": null
       }
     },
     {
@@ -22915,11 +22915,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-02T23:50:21Z",
+      "pipeline_run_utc": "2026-06-02T23:50:05Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000bfjr/REPORT.html"
+        "report": null
       }
     },
     {
@@ -23163,11 +23163,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T00:06:37Z",
+      "pipeline_run_utc": "2026-06-03T00:06:20Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000bg4v/REPORT.html"
+        "report": null
       }
     },
     {
@@ -23560,11 +23560,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-07T20:35:30Z",
+      "pipeline_run_utc": "2026-06-07T20:35:07Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000d030/REPORT.html"
+        "report": null
       }
     },
     {
@@ -23658,11 +23658,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-27T10:21:34Z",
+      "pipeline_run_utc": "2026-05-27T10:20:53Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000d18q/REPORT.html"
+        "report": null
       }
     },
     {
@@ -23869,11 +23869,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_multiple_critical_railed",
-      "pipeline_run_utc": "2026-06-03T03:07:39Z",
+      "pipeline_run_utc": "2026-06-03T03:07:20Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000dimf/REPORT.html"
+        "report": null
       }
     },
     {
@@ -25091,11 +25091,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T03:16:43Z",
+      "pipeline_run_utc": "2026-06-03T03:16:27Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000gaex/REPORT.html"
+        "report": null
       }
     },
     {
@@ -25475,11 +25475,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-03T03:19:13Z",
+      "pipeline_run_utc": "2026-06-03T03:18:56Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000gxlu/REPORT.html"
+        "report": null
       }
     },
     {
@@ -26365,11 +26365,11 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T23:42:34Z",
+      "pipeline_run_utc": "2026-05-22T21:21:52Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000ia36/REPORT.html"
+        "report": null
       }
     },
     {
@@ -26604,11 +26604,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T03:23:36Z",
+      "pipeline_run_utc": "2026-06-03T03:23:20Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000imgl/REPORT.html"
+        "report": null
       }
     },
     {
@@ -26980,11 +26980,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T03:42:39Z",
+      "pipeline_run_utc": "2026-06-03T03:42:21Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000irjd/REPORT.html"
+        "report": null
       }
     },
     {
@@ -27882,11 +27882,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-05-25T21:22:21Z",
+      "pipeline_run_utc": "2026-05-25T21:21:58Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000kp2j/REPORT.html"
+        "report": null
       }
     },
     {
@@ -30263,11 +30263,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-06T21:36:19Z",
+      "pipeline_run_utc": "2026-06-06T21:36:04Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000pv06/REPORT.html"
+        "report": null
       }
     },
     {
@@ -30973,11 +30973,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-05-29T00:48:37Z",
+      "pipeline_run_utc": "2026-05-29T00:48:00Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/us7000rkjm/REPORT.html"
+        "report": null
       }
     },
     {
@@ -31547,11 +31547,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T04:52:52Z",
+      "pipeline_run_utc": "2026-06-03T04:52:34Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/usb000syy0/REPORT.html"
+        "report": null
       }
     },
     {
@@ -31626,11 +31626,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T04:59:07Z",
+      "pipeline_run_utc": "2026-06-03T04:58:48Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/usb000szw2/REPORT.html"
+        "report": null
       }
     },
     {
@@ -31734,11 +31734,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-03T05:05:28Z",
+      "pipeline_run_utc": "2026-06-03T05:05:06Z",
       "stale": false,
-      "has_report": true,
+      "has_report": false,
       "links": {
-        "report": "events/usc000tbve/REPORT.html"
+        "report": null
       }
     },
     {
