@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T10:01:31Z",
+  "generated_utc": "2026-06-08T10:01:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -21757,11 +21757,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-08T10:01:29Z",
+      "pipeline_run_utc": "2026-06-08T10:01:52Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us70006vkq/REPORT.html"
       }
     },
     {
