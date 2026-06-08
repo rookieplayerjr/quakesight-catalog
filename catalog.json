@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-08T23:26:02Z",
+  "generated_utc": "2026-06-08T23:48:04Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 592,
+  "n_events": 591,
   "events": [
     {
       "event_id": "ci38443183",
@@ -3616,35 +3616,6 @@
       "has_report": true,
       "links": {
         "report": "events/us1000780y/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us10007a0b",
-      "place": "76 km NE of Amberley, New Zealand",
-      "origin_utc": "2016-11-18T14:22:57Z",
-      "epi_lat": -42.591,
-      "epi_lon": 173.2622,
-      "depth_km": 6.85,
-      "Mw": 5.3,
-      "Mw_type": "Mww",
-      "faulting_class": "reverse",
-      "magnitude_band": "4p5_to_5p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 25.6,
-      "in_sequence": true,
-      "sequence_n_significant": 4,
-      "pair_contam_min": 2,
-      "pair_contam_max": 5,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
       }
     },
     {
