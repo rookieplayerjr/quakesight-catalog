@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T10:45:52Z",
+  "generated_utc": "2026-06-08T10:46:15Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -6985,7 +6985,7 @@
         "strike": 221.7,
         "Mw_post": 7.25,
         "VR": {
-          "t121_dsc": 0.6
+          "t121_dsc": 0.51
         },
         "fmech": {
           "strike": 41.7,
@@ -7002,12 +7002,12 @@
         "grades": {
           "ess": "C",
           "acceptance": "B",
-          "geweke": "B",
+          "geweke": "D",
           "vr_min": "B",
           "vr_mean": "B",
           "railed": "D",
           "delta_mw": "D",
-          "delta_strike": "A"
+          "delta_strike": "C"
         },
         "flags": [
           "single_los_pattern_D",
@@ -7020,11 +7020,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
-      "pipeline_run_utc": "2026-06-08T10:45:50Z",
+      "pipeline_run_utc": "2026-06-08T10:46:11Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us200029bt/REPORT.html"
       }
     },
     {
