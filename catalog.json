@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T06:57:30Z",
+  "generated_utc": "2026-06-08T06:57:52Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -9857,11 +9857,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-08T06:57:27Z",
+      "pipeline_run_utc": "2026-06-08T06:57:50Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000cl83/REPORT.html"
       }
     },
     {
