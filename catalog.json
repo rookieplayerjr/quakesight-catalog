@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T08:38:05Z",
+  "generated_utc": "2026-06-08T08:38:39Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -26947,7 +26947,7 @@
         "strike": 218.6,
         "Mw_post": 6.8,
         "VR": {
-          "t173_dsc": 0.35
+          "t173_dsc": 0.45
         },
         "fmech": {
           "strike": 218.6,
@@ -26964,8 +26964,8 @@
         "grades": {
           "ess": "A",
           "acceptance": "B",
-          "geweke": "A",
-          "vr_min": "C",
+          "geweke": "B",
+          "vr_min": "B",
           "vr_mean": "C",
           "railed": "D",
           "delta_mw": "D",
@@ -26981,12 +26981,12 @@
         "sequence_n_ge_5": 0
       },
       "status": "escalated",
-      "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-08T08:38:03Z",
+      "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
+      "pipeline_run_utc": "2026-06-08T08:38:35Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000irjd/REPORT.html"
       }
     },
     {
