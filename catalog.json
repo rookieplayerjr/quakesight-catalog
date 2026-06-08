@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T13:20:35Z",
+  "generated_utc": "2026-06-08T13:48:26Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -19511,11 +19511,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-04T03:08:08Z",
+      "pipeline_run_utc": "2026-06-08T13:48:24Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000rsy1/REPORT.html"
       }
     },
     {
