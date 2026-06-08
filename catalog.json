@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T03:13:11Z",
+  "generated_utc": "2026-06-08T03:13:37Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -14571,8 +14571,8 @@
         "strike": 97.4,
         "Mw_post": 6.84,
         "VR": {
-          "t29_asc": 0.17,
-          "t36_dsc": 0.15
+          "t29_asc": 0.44,
+          "t36_dsc": 0.27
         },
         "fmech": {
           "strike": 277.4,
@@ -14590,13 +14590,16 @@
           "ess": "B",
           "acceptance": "B",
           "geweke": "A",
-          "vr_min": "D",
-          "vr_mean": "D",
-          "railed": "A",
-          "delta_mw": "A",
-          "delta_strike": "B"
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "C"
         },
-        "flags": [],
+        "flags": [
+          "demoted_all_coh_subnoise",
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
@@ -14604,11 +14607,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-08T03:13:08Z",
+      "pipeline_run_utc": "2026-06-08T03:13:35Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000ftxu/REPORT.html"
       }
     },
     {
