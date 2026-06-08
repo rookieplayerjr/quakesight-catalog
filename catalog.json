@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T02:17:07Z",
+  "generated_utc": "2026-06-08T02:17:36Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -12776,7 +12776,7 @@
         "Mw_post": 5.88,
         "VR": {
           "t123_dsc": 0.74,
-          "t50_dsc": 0.83
+          "t50_dsc": 0.82
         },
         "fmech": {
           "strike": 255.7,
@@ -12793,7 +12793,7 @@
         "grades": {
           "ess": "B",
           "acceptance": "B",
-          "geweke": "A",
+          "geweke": "B",
           "vr_min": "A",
           "vr_mean": "A",
           "railed": "A",
@@ -12808,11 +12808,11 @@
       },
       "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-08T02:17:04Z",
+      "pipeline_run_utc": "2026-06-08T02:17:32Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000abnv/REPORT.html"
       }
     },
     {
