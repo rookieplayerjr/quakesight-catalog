@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T10:18:32Z",
+  "generated_utc": "2026-06-08T10:18:54Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -14607,11 +14607,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-08T10:18:30Z",
+      "pipeline_run_utc": "2026-06-08T10:18:52Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000ftxu/REPORT.html"
       }
     },
     {
