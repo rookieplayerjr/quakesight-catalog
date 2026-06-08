@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-08T23:50:57Z",
+  "generated_utc": "2026-06-08T23:51:44Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 590,
+  "n_events": 589,
   "events": [
     {
       "event_id": "ci38443183",
@@ -13987,35 +13987,6 @@
       "has_report": true,
       "links": {
         "report": "events/us6000dxge/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us6000dyuk",
-      "place": "68 km NNW of Khorixas, Namibia",
-      "origin_utc": "2021-04-04T01:41:02Z",
-      "epi_lat": -19.8215,
-      "epi_lon": 14.6631,
-      "depth_km": 6.0,
-      "Mw": 5.4,
-      "Mw_type": "Mww",
-      "faulting_class": "oblique",
-      "magnitude_band": "4p5_to_5p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 30.1,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 0,
-      "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
       }
     },
     {
