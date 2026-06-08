@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T07:25:44Z",
+  "generated_utc": "2026-06-08T07:26:09Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -13659,7 +13659,7 @@
         "strike": 80.0,
         "Mw_post": 6.47,
         "VR": {
-          "t164_asc": 0.25
+          "t164_asc": 0.14
         },
         "fmech": {
           "strike": 260.0,
@@ -13674,10 +13674,10 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "A",
+          "ess": "B",
           "acceptance": "B",
-          "geweke": "B",
-          "vr_min": "C",
+          "geweke": "D",
+          "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
           "delta_mw": "D",
@@ -13693,11 +13693,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-08T07:25:42Z",
+      "pipeline_run_utc": "2026-06-08T07:26:05Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000ddge/REPORT.html"
       }
     },
     {
