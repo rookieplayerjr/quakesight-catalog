@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T11:58:30Z",
+  "generated_utc": "2026-06-08T11:59:04Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -25445,7 +25445,7 @@
         "strike": 165.8,
         "Mw_post": 6.65,
         "VR": {
-          "t40_dsc": 0.19
+          "t40_dsc": 0.2
         },
         "fmech": {
           "strike": 345.8,
@@ -25460,9 +25460,9 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "B",
+          "ess": "A",
           "acceptance": "B",
-          "geweke": "B",
+          "geweke": "D",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
@@ -25476,12 +25476,12 @@
         "sequence_n_ge_5": 2
       },
       "status": "escalated",
-      "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-08T11:58:28Z",
+      "escalation_reason": "gbis_multiple_critical_railed",
+      "pipeline_run_utc": "2026-06-08T11:59:01Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000gxlu/REPORT.html"
       }
     },
     {
