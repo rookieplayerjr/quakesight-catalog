@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T18:17:03Z",
+  "generated_utc": "2026-06-08T18:17:29Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -3664,8 +3664,8 @@
         "strike": 263.0,
         "Mw_post": 6.71,
         "VR": {
-          "t141_asc": 0.01,
-          "t46_dsc": 0.0
+          "t141_asc": 0.0,
+          "t46_dsc": 0.01
         },
         "fmech": {
           "strike": 83.0,
@@ -3680,9 +3680,9 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
-          "acceptance": "B",
-          "geweke": "D",
+          "ess": "B",
+          "acceptance": "C",
+          "geweke": "B",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
@@ -3697,11 +3697,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-08T18:17:01Z",
+      "pipeline_run_utc": "2026-06-08T18:17:26Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us10007bwb/REPORT.html"
       }
     },
     {
