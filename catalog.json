@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T13:08:24Z",
+  "generated_utc": "2026-06-08T13:08:47Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -15740,7 +15740,7 @@
         "strike": 347.2,
         "Mw_post": 6.52,
         "VR": {
-          "t163_dsc": 0.0
+          "t163_dsc": 0.03
         },
         "fmech": {
           "strike": 167.2,
@@ -15755,14 +15755,14 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
-          "acceptance": "B",
+          "ess": "B",
+          "acceptance": "C",
           "geweke": "D",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
           "delta_mw": "D",
-          "delta_strike": "B"
+          "delta_strike": "C"
         },
         "flags": [
           "single_los_pattern_D"
@@ -15774,11 +15774,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-08T13:08:21Z",
+      "pipeline_run_utc": "2026-06-08T13:08:45Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000ja1a/REPORT.html"
       }
     },
     {
