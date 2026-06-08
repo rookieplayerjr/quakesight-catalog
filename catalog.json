@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T22:50:19Z",
+  "generated_utc": "2026-06-08T22:51:33Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -383,22 +383,31 @@
         "acceptance": 0.206,
         "ess": 153,
         "geweke": 17.63,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
         "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "catalog_disagreement": true,
+        "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-08T22:50:15Z",
+      "pipeline_run_utc": "2026-06-08T22:51:29Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/ci39919392/REPORT.html"
       }
     },
     {
