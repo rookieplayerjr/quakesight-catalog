@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T07:55:23Z",
+  "generated_utc": "2026-06-08T07:55:46Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -26572,7 +26572,7 @@
         "strike": 341.6,
         "Mw_post": 6.84,
         "VR": {
-          "t27_dsc": 0.02
+          "t27_dsc": 0.03
         },
         "fmech": {
           "strike": 161.6,
@@ -26594,7 +26594,7 @@
           "vr_mean": "D",
           "railed": "D",
           "delta_mw": "D",
-          "delta_strike": "A"
+          "delta_strike": "C"
         },
         "flags": [
           "single_los_pattern_D"
@@ -26606,11 +26606,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-08T07:55:20Z",
+      "pipeline_run_utc": "2026-06-08T07:55:43Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000imgl/REPORT.html"
       }
     },
     {
