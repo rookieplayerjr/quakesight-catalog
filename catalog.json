@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T15:02:45Z",
+  "generated_utc": "2026-06-08T15:03:11Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -20394,7 +20394,7 @@
         "strike": 125.7,
         "Mw_post": 6.59,
         "VR": {
-          "t32_dsc": 0.04
+          "t32_dsc": 0.05
         },
         "fmech": {
           "strike": 305.7,
@@ -20409,14 +20409,14 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "C",
-          "acceptance": "B",
-          "geweke": "D",
+          "ess": "A",
+          "acceptance": "C",
+          "geweke": "B",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
           "delta_mw": "D",
-          "delta_strike": "C"
+          "delta_strike": "A"
         },
         "flags": [
           "single_los_pattern_D"
@@ -20428,11 +20428,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-08T15:02:42Z",
+      "pipeline_run_utc": "2026-06-08T15:03:09Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us70003gig/REPORT.html"
       }
     },
     {
