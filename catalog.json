@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-08T18:47:03Z",
+  "generated_utc": "2026-06-08T19:15:52Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 593,
   "events": [
@@ -4508,11 +4508,11 @@
       },
       "status": "escalated",
       "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-01T22:20:33Z",
+      "pipeline_run_utc": "2026-06-08T19:14:49Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us10008fsd/REPORT.html"
       }
     },
     {
