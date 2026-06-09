@@ -483,37 +483,18 @@ function setView(v){
 let VIEWER=null;
 function buildGlobe(){
   if(VIEWER||!CAT) return;
-  // Use built-in Cesium Ion default token (works for non-commercial)
-  // For production usage, register at https://cesium.com/ion/ and set:
-  //   Cesium.Ion.defaultAccessToken = 'YOUR_TOKEN';
-  // NASA GIBS Blue Marble Next Generation — fully free, no token, satellite-look
-  const gibs = new Cesium.WebMapTileServiceImageryProvider({
-    url: 'https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/' +
-         'BlueMarble_NextGeneration/default/500m/{TileMatrix}/{TileRow}/{TileCol}.jpeg',
-    layer: 'BlueMarble_NextGeneration',
-    style: 'default',
-    format: 'image/jpeg',
-    tileMatrixSetID: '500m',
-    maximumLevel: 8,
-    credit: 'NASA Blue Marble',
-    tilingScheme: new Cesium.GeographicTilingScheme(),
-  });
-  // OSM as fallback / overlay for labels
-  const osm = new Cesium.OpenStreetMapImageryProvider({
-    url: 'https://a.tile.openstreetmap.org/',
-    credit: 'OpenStreetMap',
-  });
+  // Cesium Ion token (registered account — enables World Terrain + Bing imagery)
+  Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlNzQ5YjU2NC01YzYwLTQzMWQtOTFjOS1iNDUxOTVjMmZlZTEiLCJpZCI6NDQyMzQ1LCJpc3MiOiJodHRwczovL2FwaS5jZXNpdW0uY29tIiwiYXVkIjoidW5kZWZpbmVkX2RlZmF1bHQiLCJpYXQiOjE3ODEwMjkxMjB9.J2BlF1v6XNEJMC2CFl7UgNeDh1jGplzKOY6IZQRpRY8';
+  // Cesium World Terrain + default Bing imagery (Ion token enables both)
   VIEWER = new Cesium.Viewer('globe', {
-    baseLayer: new Cesium.ImageryLayer(gibs),
+    terrain: Cesium.Terrain.fromWorldTerrain(),
     baseLayerPicker: true,
     timeline: true, animation: true,
-    geocoder: false,
+    geocoder: true,
     homeButton: true, sceneModePicker: true,
     navigationHelpButton: false, fullscreenButton: true,
     selectionIndicator: true, infoBox: true,
   });
-  // Add OSM as switchable layer
-  VIEWER.imageryLayers.addImageryProvider(osm).show = false;
   VIEWER.scene.globe.enableLighting = false;
 
   const times = CAT.events.map(e=>Date.parse(e.origin_utc)).filter(t=>!isNaN(t)).sort();
