@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-09T01:31:45Z",
+  "generated_utc": "2026-06-09T02:02:51Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 589,
+  "n_events": 588,
   "events": [
     {
       "event_id": "ci38443183",
@@ -28857,35 +28857,6 @@
       "has_report": true,
       "links": {
         "report": "events/us7000lsze/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us7000lt2y",
-      "place": "119 km WNW of Aykol, China",
-      "origin_utc": "2024-01-23T01:18:40Z",
-      "epi_lat": 41.2353,
-      "epi_lon": 78.7576,
-      "depth_km": 3.426,
-      "Mw": 5.3,
-      "Mw_type": "Mww",
-      "faulting_class": "oblique",
-      "magnitude_band": "4p5_to_5p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 30.5,
-      "in_sequence": true,
-      "sequence_n_significant": 1,
-      "pair_contam_min": 39,
-      "pair_contam_max": 39,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
       }
     },
     {
