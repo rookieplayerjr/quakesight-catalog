@@ -6,6 +6,8 @@
 <title>QuakeSight — event catalog</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.122/Build/Cesium/Widgets/widgets.css">
+<script src="https://cesium.com/downloads/cesiumjs/releases/1.122/Build/Cesium/Cesium.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
@@ -33,6 +35,8 @@
   /* ---- body split ---- */
   #body{flex:1;display:flex;min-height:0}
   #map{flex:1;height:100%}
+  #globe{flex:1;height:100%;position:relative;background:#000}
+  #globe .cesium-viewer-bottom{display:none}
   /* ---- sidebar list ---- */
   aside{flex:0 0 372px;background:#fff;border-left:1px solid var(--line);
         display:flex;flex-direction:column;min-height:0}
@@ -90,6 +94,7 @@
   <div class="logo">QuakeSight <span>· event catalog</span></div>
   <div class="tabs">
     <button id="tabMap" class="on" onclick="setView('map')">Map</button>
+    <button id="tabGlobe" onclick="setView('globe')">🌐 3D</button>
     <button id="tabTable" onclick="setView('table')">Table</button>
   </div>
   <div class="meta" id="meta">loading…</div>
@@ -97,6 +102,7 @@
 
 <div id="body">
   <div id="map"></div>
+  <div id="globe" class="hidden"></div>
   <aside id="aside">
     <div class="side-top">
       <input id="filter" placeholder="Filter by id, place, mechanism…"
@@ -465,9 +471,90 @@ function setView(v){
   document.getElementById('map').classList.toggle('hidden',v!=='map');
   document.getElementById('aside').classList.toggle('hidden',v!=='map');
   document.getElementById('tablewrap').classList.toggle('hidden',v!=='table');
+  document.getElementById('globe').classList.toggle('hidden',v!=='globe');
   document.getElementById('tabMap').classList.toggle('on',v==='map');
   document.getElementById('tabTable').classList.toggle('on',v==='table');
+  document.getElementById('tabGlobe').classList.toggle('on',v==='globe');
   if(v==='map'&&MAP) setTimeout(()=>MAP.invalidateSize(),60);
+  if(v==='globe') buildGlobe();
+}
+
+// ---- Cesium 3D globe (built lazily on first activation) ----
+let VIEWER=null;
+function buildGlobe(){
+  if(VIEWER||!CAT) return;
+  // Use built-in Cesium Ion default token (works for non-commercial)
+  // For production usage, register at https://cesium.com/ion/ and set:
+  //   Cesium.Ion.defaultAccessToken = 'YOUR_TOKEN';
+  VIEWER = new Cesium.Viewer('globe', {
+    terrain: Cesium.Terrain.fromWorldTerrain(),
+    timeline: true, animation: true,
+    baseLayerPicker: true, geocoder: false,
+    homeButton: true, sceneModePicker: true,
+    navigationHelpButton: false, fullscreenButton: true,
+    selectionIndicator: true, infoBox: true,
+  });
+  VIEWER.scene.globe.enableLighting = false;
+
+  const times = CAT.events.map(e=>Date.parse(e.origin_utc)).filter(t=>!isNaN(t)).sort();
+  if(times.length){
+    const tMin = new Date(times[0]), tMax = new Date(times[times.length-1]);
+    VIEWER.clock.startTime = Cesium.JulianDate.fromDate(tMin);
+    VIEWER.clock.stopTime = Cesium.JulianDate.fromDate(tMax);
+    VIEWER.clock.currentTime = VIEWER.clock.stopTime.clone();
+    VIEWER.clock.clockRange = Cesium.ClockRange.LOOP_STOP;
+    VIEWER.clock.multiplier = 86400*30; // 30 days/sec when playing
+    VIEWER.timeline.zoomTo(VIEWER.clock.startTime, VIEWER.clock.stopTime);
+  }
+
+  const zoneColor = z =>
+    z==='GREEN'  ? Cesium.Color.fromCssColorString('#28a745') :
+    z==='YELLOW' ? Cesium.Color.fromCssColorString('#e8b400') :
+    z==='RED'    ? Cesium.Color.fromCssColorString('#dc3545') :
+                   Cesium.Color.fromCssColorString('#7d8a99');
+
+  CAT.events.forEach(e=>{
+    const lat=e.epi_lat, lon=e.epi_lon;
+    if(lat==null||lon==null) return;
+    const z=(e.diagnostics||{}).zone;
+    const mw=e.Mw||5;
+    const size=Math.max(8, Math.min(28, (mw-3)*5));
+    const t=Date.parse(e.origin_utc);
+    const props={
+      id: e.event_id,
+      position: Cesium.Cartesian3.fromDegrees(lon, lat, 0),
+      point:{
+        pixelSize: size,
+        color: zoneColor(z),
+        outlineColor: Cesium.Color.WHITE,
+        outlineWidth: 1.5,
+        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+      },
+      description: `
+        <table style="font-size:13px">
+        <tr><td><b>Event</b></td><td>${e.event_id}</td></tr>
+        <tr><td><b>Place</b></td><td>${e.place||''}</td></tr>
+        <tr><td><b>Time</b></td><td>${e.origin_utc||''}</td></tr>
+        <tr><td><b>Mw</b></td><td>${mw}</td></tr>
+        <tr><td><b>Depth</b></td><td>${e.depth_km||'?'} km</td></tr>
+        <tr><td><b>Zone</b></td><td>${z||'NONE'}</td></tr>
+        <tr><td><b>Mechanism</b></td><td>${e.faulting_class||''}</td></tr>
+        </table>
+        <p><a href="events/${e.event_id}/REPORT.html" target="_blank"
+              style="color:#1b4b73;font-weight:600">Open full REPORT →</a></p>`,
+    };
+    if(!isNaN(t)){
+      // Only appear after origin time (lets timeline scrub through history)
+      props.availability = new Cesium.TimeIntervalCollection([new Cesium.TimeInterval({
+        start: Cesium.JulianDate.fromDate(new Date(t)),
+        stop: VIEWER.clock.stopTime,
+      })]);
+    }
+    VIEWER.entities.add(props);
+  });
+
+  // Default home view = whole globe
+  VIEWER.camera.flyHome(0);
 }
 
 fetch('catalog.json').then(r=>r.json()).then(c=>{
