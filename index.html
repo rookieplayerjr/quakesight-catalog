@@ -486,10 +486,15 @@ function buildGlobe(){
   // Use built-in Cesium Ion default token (works for non-commercial)
   // For production usage, register at https://cesium.com/ion/ and set:
   //   Cesium.Ion.defaultAccessToken = 'YOUR_TOKEN';
+  // OSM imagery — no Ion token needed
+  const osm = new Cesium.OpenStreetMapImageryProvider({
+    url: 'https://a.tile.openstreetmap.org/',
+  });
   VIEWER = new Cesium.Viewer('globe', {
-    terrain: Cesium.Terrain.fromWorldTerrain(),
+    baseLayer: Cesium.ImageryLayer.fromProviderAsync(Promise.resolve(osm)),
+    baseLayerPicker: false,
     timeline: true, animation: true,
-    baseLayerPicker: true, geocoder: false,
+    geocoder: false,
     homeButton: true, sceneModePicker: true,
     navigationHelpButton: false, fullscreenButton: true,
     selectionIndicator: true, infoBox: true,
