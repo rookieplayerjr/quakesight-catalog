@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-09T02:15:58Z",
+  "generated_utc": "2026-06-09T02:16:29Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 588,
   "events": [
@@ -29246,22 +29246,34 @@
         "acceptance": 0.211,
         "ess": 177,
         "geweke": 8.04,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "A",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_atm_dominates_signal"
+        ],
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 3
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-09T02:15:56Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-06-09T02:16:25Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000mb76/REPORT.html"
       }
     },
     {
