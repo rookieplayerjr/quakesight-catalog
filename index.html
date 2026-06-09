@@ -486,19 +486,34 @@ function buildGlobe(){
   // Use built-in Cesium Ion default token (works for non-commercial)
   // For production usage, register at https://cesium.com/ion/ and set:
   //   Cesium.Ion.defaultAccessToken = 'YOUR_TOKEN';
-  // OSM imagery — no Ion token needed
+  // NASA GIBS Blue Marble Next Generation — fully free, no token, satellite-look
+  const gibs = new Cesium.WebMapTileServiceImageryProvider({
+    url: 'https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/' +
+         'BlueMarble_NextGeneration/default/500m/{TileMatrix}/{TileRow}/{TileCol}.jpeg',
+    layer: 'BlueMarble_NextGeneration',
+    style: 'default',
+    format: 'image/jpeg',
+    tileMatrixSetID: '500m',
+    maximumLevel: 8,
+    credit: 'NASA Blue Marble',
+    tilingScheme: new Cesium.GeographicTilingScheme(),
+  });
+  // OSM as fallback / overlay for labels
   const osm = new Cesium.OpenStreetMapImageryProvider({
     url: 'https://a.tile.openstreetmap.org/',
+    credit: 'OpenStreetMap',
   });
   VIEWER = new Cesium.Viewer('globe', {
-    baseLayer: Cesium.ImageryLayer.fromProviderAsync(Promise.resolve(osm)),
-    baseLayerPicker: false,
+    baseLayer: new Cesium.ImageryLayer(gibs),
+    baseLayerPicker: true,
     timeline: true, animation: true,
     geocoder: false,
     homeButton: true, sceneModePicker: true,
     navigationHelpButton: false, fullscreenButton: true,
     selectionIndicator: true, infoBox: true,
   });
+  // Add OSM as switchable layer
+  VIEWER.imageryLayers.addImageryProvider(osm).show = false;
   VIEWER.scene.globe.enableLighting = false;
 
   const times = CAT.events.map(e=>Date.parse(e.origin_utc)).filter(t=>!isNaN(t)).sort();
