@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-10T22:06:45Z",
+  "generated_utc": "2026-06-10T22:14:07Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 582,
+  "n_events": 581,
   "events": [
     {
       "event_id": "ci38443183",
@@ -10305,35 +10305,6 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us2000a5x1",
-      "place": "168 km SW of Mawu, China",
-      "origin_utc": "2017-08-08T13:19:49Z",
-      "epi_lat": 33.1926,
-      "epi_lon": 103.8552,
-      "depth_km": 9.0,
-      "Mw": 6.5,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 80.0,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 4,
-      "pair_contam_max": 4,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -32299,39 +32270,11 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
-      "result": {
-        "L_km": 40.02,
-        "W_km": 15.72,
-        "Z_top_km": 4.39,
-        "dip": -18.7,
-        "strike": 61.1,
-        "Mw_post": 6.31,
-        "VR": {
-          "t113_dsc": 0.24,
-          "t150_asc": 0.45
-        },
-        "fmech": {
-          "strike": 241.1,
-          "dip": 18.7,
-          "rake": 168.1
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.208,
-        "ess": 334,
-        "geweke": 1.62,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
-        "in_sequence": false,
-        "sequence_n_ge_5": 1
-      },
-      "status": "done",
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-10T22:06:41Z",
+      "pipeline_run_utc": null,
       "stale": false,
       "has_report": false,
       "links": {
