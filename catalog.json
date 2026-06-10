@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-10T22:23:00Z",
+  "generated_utc": "2026-06-10T23:13:10Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 581,
   "events": [
@@ -8601,13 +8601,13 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-10T22:02:25Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-06-10T23:12:58Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us20003nqr/REPORT.html"
       }
     },
     {
