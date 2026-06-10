@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-10T23:24:12Z",
+  "generated_utc": "2026-06-10T23:31:47Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 581,
   "events": [
@@ -32125,11 +32125,38 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 27.04,
+        "W_km": 12.79,
+        "Z_top_km": 3.14,
+        "dip": -47.3,
+        "strike": 36.4,
+        "Mw_post": 6.2,
+        "VR": {
+          "t79_asc": 0.34
+        },
+        "fmech": {
+          "strike": 216.4,
+          "dip": 47.3,
+          "rake": 174.3
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.209,
+        "ess": 130,
+        "geweke": 3.39,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-10T23:31:44Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -32362,7 +32389,7 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-10T23:19:15Z",
+      "pipeline_run_utc": "2026-06-10T23:31:45Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -32933,8 +32960,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "133",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-05-13",
+            "2025-05-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.164,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 56.2,
       "in_sequence": false,
       "sequence_n_significant": 0,
