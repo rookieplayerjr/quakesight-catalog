@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-10T23:44:32Z",
+  "generated_utc": "2026-06-10T23:52:39Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 580,
   "events": [
@@ -32974,11 +32974,51 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 20.54,
+        "W_km": 9.72,
+        "Z_top_km": 6.92,
+        "dip": -51.6,
+        "strike": 224.9,
+        "Mw_post": 6.8,
+        "VR": {
+          "t133_dsc": 0.43
+        },
+        "fmech": {
+          "strike": 44.9,
+          "dip": 51.6,
+          "rake": -47.5
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.209,
+        "ess": 163,
+        "geweke": 3.73,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "B",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise",
+          "mw_disagreement_review"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-10T23:52:36Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -33719,8 +33759,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "171",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2026-01-05",
+            "2026-01-17"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.177,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 50.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
