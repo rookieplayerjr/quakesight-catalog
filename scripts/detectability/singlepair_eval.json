@@ -1,0 +1,2666 @@
+[
+ {
+  "id": "us7000ne51",
+  "Mw": 6.5,
+  "depth_km": 3.766,
+  "fc": "strike-slip",
+  "peak_cm": 36.44,
+  "snr": 72.9
+ },
+ {
+  "id": "us1000731j",
+  "Mw": 6.6,
+  "depth_km": 8.0,
+  "fc": "normal",
+  "peak_cm": 30.71,
+  "snr": 61.4
+ },
+ {
+  "id": "pr2020007007",
+  "Mw": 6.4,
+  "depth_km": 6.0,
+  "fc": "oblique",
+  "peak_cm": 25.95,
+  "snr": 51.9
+ },
+ {
+  "id": "us20005iis",
+  "Mw": 7.0,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 25.19,
+  "snr": 50.4
+ },
+ {
+  "id": "us2000292y",
+  "Mw": 6.6,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 24.75,
+  "snr": 49.5
+ },
+ {
+  "id": "us10006g7d",
+  "Mw": 6.2,
+  "depth_km": 4.44,
+  "fc": "normal",
+  "peak_cm": 23.19,
+  "snr": 46.4
+ },
+ {
+  "id": "us1000gda5",
+  "Mw": 6.9,
+  "depth_km": 21.0,
+  "fc": "reverse",
+  "peak_cm": 21.54,
+  "snr": 43.1
+ },
+ {
+  "id": "us6000rdrz",
+  "Mw": 6.9,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 18.94,
+  "snr": 37.9
+ },
+ {
+  "id": "us20003k7w",
+  "Mw": 7.0,
+  "depth_km": 28.41,
+  "fc": "reverse",
+  "peak_cm": 18.8,
+  "snr": 37.6
+ },
+ {
+  "id": "us10005i5t",
+  "Mw": 6.7,
+  "depth_km": 16.0,
+  "fc": "reverse",
+  "peak_cm": 18.47,
+  "snr": 36.9
+ },
+ {
+  "id": "us10007ghm",
+  "Mw": 6.5,
+  "depth_km": 13.0,
+  "fc": "oblique",
+  "peak_cm": 14.71,
+  "snr": 29.4
+ },
+ {
+  "id": "us6000gzyg",
+  "Mw": 6.1,
+  "depth_km": 4.0,
+  "fc": "strike-slip",
+  "peak_cm": 14.68,
+  "snr": 29.4
+ },
+ {
+  "id": "us1000ayz8",
+  "Mw": 6.1,
+  "depth_km": 6.0,
+  "fc": "reverse",
+  "peak_cm": 14.12,
+  "snr": 28.2
+ },
+ {
+  "id": "us2000dcx1",
+  "Mw": 6.7,
+  "depth_km": 20.49,
+  "fc": "reverse",
+  "peak_cm": 13.49,
+  "snr": 27.0
+ },
+ {
+  "id": "us10005i9n",
+  "Mw": 6.9,
+  "depth_km": 29.95,
+  "fc": "reverse",
+  "peak_cm": 13.36,
+  "snr": 26.7
+ },
+ {
+  "id": "us2000d3m0",
+  "Mw": 5.8,
+  "depth_km": 3.48,
+  "fc": "reverse",
+  "peak_cm": 12.67,
+  "snr": 25.3
+ },
+ {
+  "id": "us20003nqr",
+  "Mw": 6.6,
+  "depth_km": 18.0,
+  "fc": "reverse",
+  "peak_cm": 12.42,
+  "snr": 24.8
+ },
+ {
+  "id": "us200066x9",
+  "Mw": 6.4,
+  "depth_km": 13.0,
+  "fc": "reverse",
+  "peak_cm": 11.49,
+  "snr": 23.0
+ },
+ {
+  "id": "us6000ez5x",
+  "Mw": 6.3,
+  "depth_km": 11.0,
+  "fc": "oblique",
+  "peak_cm": 11.12,
+  "snr": 22.2
+ },
+ {
+  "id": "pr2020011010",
+  "Mw": 5.9,
+  "depth_km": 5.0,
+  "fc": "normal",
+  "peak_cm": 11.06,
+  "snr": 22.1
+ },
+ {
+  "id": "us1000ayz3",
+  "Mw": 5.8,
+  "depth_km": 4.0,
+  "fc": "reverse",
+  "peak_cm": 11.05,
+  "snr": 22.1
+ },
+ {
+  "id": "us2000ggbs",
+  "Mw": 6.4,
+  "depth_km": 14.0,
+  "fc": "reverse",
+  "peak_cm": 10.42,
+  "snr": 20.8
+ },
+ {
+  "id": "us2000haxi",
+  "Mw": 6.2,
+  "depth_km": 10.0,
+  "fc": "oblique",
+  "peak_cm": 9.81,
+  "snr": 19.6
+ },
+ {
+  "id": "us7000nr0v",
+  "Mw": 6.8,
+  "depth_km": 14.0,
+  "fc": "strike-slip",
+  "peak_cm": 9.28,
+  "snr": 18.6
+ },
+ {
+  "id": "us1000bjnz",
+  "Mw": 6.1,
+  "depth_km": 9.0,
+  "fc": "reverse",
+  "peak_cm": 8.76,
+  "snr": 17.5
+ },
+ {
+  "id": "us2000d855",
+  "Mw": 6.1,
+  "depth_km": 9.0,
+  "fc": "reverse",
+  "peak_cm": 8.76,
+  "snr": 17.5
+ },
+ {
+  "id": "us10006g7w",
+  "Mw": 5.6,
+  "depth_km": 3.25,
+  "fc": "normal",
+  "peak_cm": 8.66,
+  "snr": 17.3
+ },
+ {
+  "id": "us6000h48e",
+  "Mw": 6.7,
+  "depth_km": 28.0,
+  "fc": "reverse",
+  "peak_cm": 8.47,
+  "snr": 16.9
+ },
+ {
+  "id": "us2000a5x1",
+  "Mw": 6.5,
+  "depth_km": 9.0,
+  "fc": "strike-slip",
+  "peak_cm": 8.15,
+  "snr": 16.3
+ },
+ {
+  "id": "us700034xq",
+  "Mw": 6.8,
+  "depth_km": 15.46,
+  "fc": "strike-slip",
+  "peak_cm": 8.12,
+  "snr": 16.2
+ },
+ {
+  "id": "us2000c3mi",
+  "Mw": 6.0,
+  "depth_km": 8.0,
+  "fc": "reverse",
+  "peak_cm": 7.95,
+  "snr": 15.9
+ },
+ {
+  "id": "us2000atjv",
+  "Mw": 6.1,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 7.53,
+  "snr": 15.1
+ },
+ {
+  "id": "us6000rq2x",
+  "Mw": 5.5,
+  "depth_km": 3.0,
+  "fc": "oblique",
+  "peak_cm": 7.53,
+  "snr": 15.1
+ },
+ {
+  "id": "us10007naf",
+  "Mw": 5.9,
+  "depth_km": 7.0,
+  "fc": "normal",
+  "peak_cm": 7.36,
+  "snr": 14.7
+ },
+ {
+  "id": "us7000edf6",
+  "Mw": 5.9,
+  "depth_km": 7.0,
+  "fc": "normal",
+  "peak_cm": 7.36,
+  "snr": 14.7
+ },
+ {
+  "id": "us20002ek5",
+  "Mw": 6.3,
+  "depth_km": 15.0,
+  "fc": "reverse",
+  "peak_cm": 7.18,
+  "snr": 14.4
+ },
+ {
+  "id": "us7000le6w",
+  "Mw": 6.5,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 6.96,
+  "snr": 13.9
+ },
+ {
+  "id": "us10006qas",
+  "Mw": 6.0,
+  "depth_km": 9.0,
+  "fc": "normal",
+  "peak_cm": 6.71,
+  "snr": 13.4
+ },
+ {
+  "id": "us1000ha6q",
+  "Mw": 6.0,
+  "depth_km": 9.0,
+  "fc": "reverse",
+  "peak_cm": 6.71,
+  "snr": 13.4
+ },
+ {
+  "id": "us200050wc",
+  "Mw": 6.0,
+  "depth_km": 9.0,
+  "fc": "oblique",
+  "peak_cm": 6.71,
+  "snr": 13.4
+ },
+ {
+  "id": "us2000cifa",
+  "Mw": 6.0,
+  "depth_km": 9.0,
+  "fc": "reverse",
+  "peak_cm": 6.71,
+  "snr": 13.4
+ },
+ {
+  "id": "us1000gcvr",
+  "Mw": 6.3,
+  "depth_km": 16.0,
+  "fc": "reverse",
+  "peak_cm": 6.49,
+  "snr": 13.0
+ },
+ {
+  "id": "us6000rq2y",
+  "Mw": 5.4,
+  "depth_km": 3.0,
+  "fc": "oblique",
+  "peak_cm": 6.2,
+  "snr": 12.4
+ },
+ {
+  "id": "us7000qu91",
+  "Mw": 5.4,
+  "depth_km": 3.061,
+  "fc": "reverse",
+  "peak_cm": 6.09,
+  "snr": 12.2
+ },
+ {
+  "id": "us10002n4w",
+  "Mw": 6.4,
+  "depth_km": 20.0,
+  "fc": "reverse",
+  "peak_cm": 6.07,
+  "snr": 12.1
+ },
+ {
+  "id": "us20005k37",
+  "Mw": 6.2,
+  "depth_km": 14.0,
+  "fc": "reverse",
+  "peak_cm": 6.02,
+  "snr": 12.0
+ },
+ {
+  "id": "us20005kb6",
+  "Mw": 6.0,
+  "depth_km": 10.0,
+  "fc": "oblique",
+  "peak_cm": 5.74,
+  "snr": 11.5
+ },
+ {
+  "id": "us20005kqh",
+  "Mw": 6.0,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 5.74,
+  "snr": 11.5
+ },
+ {
+  "id": "us2000dc52",
+  "Mw": 6.0,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 5.74,
+  "snr": 11.5
+ },
+ {
+  "id": "us6000nps8",
+  "Mw": 6.2,
+  "depth_km": 7.0,
+  "fc": "strike-slip",
+  "peak_cm": 5.44,
+  "snr": 10.9
+ },
+ {
+  "id": "us2000dc23",
+  "Mw": 5.7,
+  "depth_km": 6.0,
+  "fc": "reverse",
+  "peak_cm": 5.41,
+  "snr": 10.8
+ },
+ {
+  "id": "us2000dvwq",
+  "Mw": 6.3,
+  "depth_km": 18.07,
+  "fc": "reverse",
+  "peak_cm": 5.33,
+  "snr": 10.7
+ },
+ {
+  "id": "us7000rn2z",
+  "Mw": 6.4,
+  "depth_km": 22.0,
+  "fc": "reverse",
+  "peak_cm": 5.19,
+  "snr": 10.4
+ },
+ {
+  "id": "us70005lfd",
+  "Mw": 6.5,
+  "depth_km": 12.26,
+  "fc": "strike-slip",
+  "peak_cm": 5.16,
+  "snr": 10.3
+ },
+ {
+  "id": "us10004fv5",
+  "Mw": 5.9,
+  "depth_km": 9.0,
+  "fc": "reverse",
+  "peak_cm": 5.08,
+  "snr": 10.2
+ },
+ {
+  "id": "us2000d80x",
+  "Mw": 5.9,
+  "depth_km": 9.0,
+  "fc": "reverse",
+  "peak_cm": 5.08,
+  "snr": 10.2
+ },
+ {
+  "id": "us10008ei0",
+  "Mw": 6.1,
+  "depth_km": 13.0,
+  "fc": "reverse",
+  "peak_cm": 5.07,
+  "snr": 10.1
+ },
+ {
+  "id": "us2000d867",
+  "Mw": 6.3,
+  "depth_km": 19.0,
+  "fc": "reverse",
+  "peak_cm": 4.91,
+  "snr": 9.8
+ },
+ {
+  "id": "us10003r43",
+  "Mw": 5.8,
+  "depth_km": 8.0,
+  "fc": "normal",
+  "peak_cm": 4.61,
+  "snr": 9.2
+ },
+ {
+  "id": "us6000r1n3",
+  "Mw": 5.8,
+  "depth_km": 8.0,
+  "fc": "reverse",
+  "peak_cm": 4.61,
+  "snr": 9.2
+ },
+ {
+  "id": "us7000crdx",
+  "Mw": 6.1,
+  "depth_km": 14.0,
+  "fc": "reverse",
+  "peak_cm": 4.49,
+  "snr": 9.0
+ },
+ {
+  "id": "us20003kkw",
+  "Mw": 5.9,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 4.32,
+  "snr": 8.6
+ },
+ {
+  "id": "us2000j94v",
+  "Mw": 5.9,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 4.32,
+  "snr": 8.6
+ },
+ {
+  "id": "us6000f6ez",
+  "Mw": 5.8,
+  "depth_km": 8.32,
+  "fc": "reverse",
+  "peak_cm": 4.32,
+  "snr": 8.6
+ },
+ {
+  "id": "us2000c3ag",
+  "Mw": 6.0,
+  "depth_km": 12.0,
+  "fc": "reverse",
+  "peak_cm": 4.31,
+  "snr": 8.6
+ },
+ {
+  "id": "us10007twj",
+  "Mw": 5.7,
+  "depth_km": 7.0,
+  "fc": "normal",
+  "peak_cm": 4.29,
+  "snr": 8.6
+ },
+ {
+  "id": "us7000hsg4",
+  "Mw": 5.9,
+  "depth_km": 5.0,
+  "fc": "strike-slip",
+  "peak_cm": 4.19,
+  "snr": 8.4
+ },
+ {
+  "id": "us100062hg",
+  "Mw": 6.3,
+  "depth_km": 21.0,
+  "fc": "reverse",
+  "peak_cm": 4.14,
+  "snr": 8.3
+ },
+ {
+  "id": "us20005kqp",
+  "Mw": 5.9,
+  "depth_km": 10.29,
+  "fc": "reverse",
+  "peak_cm": 4.13,
+  "snr": 8.3
+ },
+ {
+  "id": "us10007ca5",
+  "Mw": 6.6,
+  "depth_km": 17.0,
+  "fc": "strike-slip",
+  "peak_cm": 4.1,
+  "snr": 8.2
+ },
+ {
+  "id": "us6000ahkh",
+  "Mw": 5.4,
+  "depth_km": 4.21,
+  "fc": "oblique",
+  "peak_cm": 4.0,
+  "snr": 8.0
+ },
+ {
+  "id": "us20003luw",
+  "Mw": 6.2,
+  "depth_km": 18.0,
+  "fc": "reverse",
+  "peak_cm": 3.97,
+  "snr": 7.9
+ },
+ {
+  "id": "us7000s1ln",
+  "Mw": 6.2,
+  "depth_km": 18.0,
+  "fc": "reverse",
+  "peak_cm": 3.97,
+  "snr": 7.9
+ },
+ {
+  "id": "us100095nr",
+  "Mw": 6.0,
+  "depth_km": 13.0,
+  "fc": "reverse",
+  "peak_cm": 3.77,
+  "snr": 7.5
+ },
+ {
+  "id": "us20008ixa",
+  "Mw": 6.5,
+  "depth_km": 15.0,
+  "fc": "strike-slip",
+  "peak_cm": 3.77,
+  "snr": 7.5
+ },
+ {
+  "id": "us20005hzn",
+  "Mw": 6.2,
+  "depth_km": 9.0,
+  "fc": "strike-slip",
+  "peak_cm": 3.66,
+  "snr": 7.3
+ },
+ {
+  "id": "us2000d90d",
+  "Mw": 6.1,
+  "depth_km": 16.0,
+  "fc": "oblique",
+  "peak_cm": 3.58,
+  "snr": 7.2
+ },
+ {
+  "id": "us6000phrk",
+  "Mw": 5.7,
+  "depth_km": 8.0,
+  "fc": "normal",
+  "peak_cm": 3.45,
+  "snr": 6.9
+ },
+ {
+  "id": "us6000jp76",
+  "Mw": 6.1,
+  "depth_km": 8.0,
+  "fc": "strike-slip",
+  "peak_cm": 3.36,
+  "snr": 6.7
+ },
+ {
+  "id": "us6000ez2l",
+  "Mw": 5.8,
+  "depth_km": 9.75,
+  "fc": "normal",
+  "peak_cm": 3.35,
+  "snr": 6.7
+ },
+ {
+  "id": "us6000j5n4",
+  "Mw": 5.3,
+  "depth_km": 4.0,
+  "fc": "reverse",
+  "peak_cm": 3.3,
+  "snr": 6.6
+ },
+ {
+  "id": "us1000bkjh",
+  "Mw": 6.1,
+  "depth_km": 17.0,
+  "fc": "oblique",
+  "peak_cm": 3.22,
+  "snr": 6.4
+ },
+ {
+  "id": "us10008pk9",
+  "Mw": 5.8,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 3.21,
+  "snr": 6.4
+ },
+ {
+  "id": "us6000rgrd",
+  "Mw": 5.8,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 3.21,
+  "snr": 6.4
+ },
+ {
+  "id": "us2000314h",
+  "Mw": 5.9,
+  "depth_km": 12.0,
+  "fc": "oblique",
+  "peak_cm": 3.19,
+  "snr": 6.4
+ },
+ {
+  "id": "us6000q78l",
+  "Mw": 5.9,
+  "depth_km": 12.0,
+  "fc": "reverse",
+  "peak_cm": 3.19,
+  "snr": 6.4
+ },
+ {
+  "id": "us7000ljvg",
+  "Mw": 5.9,
+  "depth_km": 12.0,
+  "fc": "reverse",
+  "peak_cm": 3.19,
+  "snr": 6.4
+ },
+ {
+  "id": "us7000q0bm",
+  "Mw": 6.5,
+  "depth_km": 16.819,
+  "fc": "strike-slip",
+  "peak_cm": 3.13,
+  "snr": 6.3
+ },
+ {
+  "id": "us20007guy",
+  "Mw": 5.5,
+  "depth_km": 6.0,
+  "fc": "normal",
+  "peak_cm": 3.09,
+  "snr": 6.2
+ },
+ {
+  "id": "nc73886731",
+  "Mw": 5.48,
+  "depth_km": 5.85,
+  "fc": "oblique",
+  "peak_cm": 3.04,
+  "snr": 6.1
+ },
+ {
+  "id": "us1000dym9",
+  "Mw": 6.1,
+  "depth_km": 18.0,
+  "fc": "reverse",
+  "peak_cm": 2.91,
+  "snr": 5.8
+ },
+ {
+  "id": "us6000plql",
+  "Mw": 5.7,
+  "depth_km": 9.0,
+  "fc": "oblique",
+  "peak_cm": 2.84,
+  "snr": 5.7
+ },
+ {
+  "id": "us2000d8q3",
+  "Mw": 5.2,
+  "depth_km": 3.7,
+  "fc": "normal",
+  "peak_cm": 2.81,
+  "snr": 5.6
+ },
+ {
+  "id": "us70003j46",
+  "Mw": 6.2,
+  "depth_km": 22.0,
+  "fc": "reverse",
+  "peak_cm": 2.78,
+  "snr": 5.6
+ },
+ {
+  "id": "us7000e532",
+  "Mw": 6.1,
+  "depth_km": 9.0,
+  "fc": "strike-slip",
+  "peak_cm": 2.77,
+  "snr": 5.5
+ },
+ {
+  "id": "us10007tmh",
+  "Mw": 5.8,
+  "depth_km": 11.0,
+  "fc": "reverse",
+  "peak_cm": 2.73,
+  "snr": 5.5
+ },
+ {
+  "id": "us7000ne1t",
+  "Mw": 5.5,
+  "depth_km": 6.526,
+  "fc": "reverse",
+  "peak_cm": 2.68,
+  "snr": 5.4
+ },
+ {
+  "id": "us7000maw0",
+  "Mw": 5.9,
+  "depth_km": 6.66,
+  "fc": "strike-slip",
+  "peak_cm": 2.58,
+  "snr": 5.2
+ },
+ {
+  "id": "us7000infp",
+  "Mw": 5.6,
+  "depth_km": 8.0,
+  "fc": "reverse",
+  "peak_cm": 2.56,
+  "snr": 5.1
+ },
+ {
+  "id": "us20005i1a",
+  "Mw": 6.0,
+  "depth_km": 8.0,
+  "fc": "strike-slip",
+  "peak_cm": 2.52,
+  "snr": 5.0
+ },
+ {
+  "id": "us1000ayz4",
+  "Mw": 5.6,
+  "depth_km": 8.14,
+  "fc": "oblique",
+  "peak_cm": 2.48,
+  "snr": 5.0
+ },
+ {
+  "id": "us20004zp9",
+  "Mw": 6.3,
+  "depth_km": 28.0,
+  "fc": "reverse",
+  "peak_cm": 2.47,
+  "snr": 4.9
+ },
+ {
+  "id": "us10008iq5",
+  "Mw": 5.9,
+  "depth_km": 14.0,
+  "fc": "reverse",
+  "peak_cm": 2.43,
+  "snr": 4.9
+ },
+ {
+  "id": "us7000p0uj",
+  "Mw": 5.9,
+  "depth_km": 7.0,
+  "fc": "strike-slip",
+  "peak_cm": 2.38,
+  "snr": 4.8
+ },
+ {
+  "id": "us100029rn",
+  "Mw": 5.5,
+  "depth_km": 7.0,
+  "fc": "reverse",
+  "peak_cm": 2.37,
+  "snr": 4.7
+ },
+ {
+  "id": "us6000kynh",
+  "Mw": 5.5,
+  "depth_km": 7.0,
+  "fc": "normal",
+  "peak_cm": 2.37,
+  "snr": 4.7
+ },
+ {
+  "id": "us10006em9",
+  "Mw": 5.7,
+  "depth_km": 10.0,
+  "fc": "oblique",
+  "peak_cm": 2.36,
+  "snr": 4.7
+ },
+ {
+  "id": "us20005ija",
+  "Mw": 5.7,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 2.36,
+  "snr": 4.7
+ },
+ {
+  "id": "us20005l3v",
+  "Mw": 5.7,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 2.36,
+  "snr": 4.7
+ },
+ {
+  "id": "usb000smff",
+  "Mw": 5.7,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 2.36,
+  "snr": 4.7
+ },
+ {
+  "id": "us20005hux",
+  "Mw": 6.0,
+  "depth_km": 17.0,
+  "fc": "reverse",
+  "peak_cm": 2.35,
+  "snr": 4.7
+ },
+ {
+  "id": "usc000tlui",
+  "Mw": 5.3,
+  "depth_km": 5.0,
+  "fc": "reverse",
+  "peak_cm": 2.32,
+  "snr": 4.6
+ },
+ {
+  "id": "pr2020006006",
+  "Mw": 5.8,
+  "depth_km": 6.0,
+  "fc": "strike-slip",
+  "peak_cm": 2.3,
+  "snr": 4.6
+ },
+ {
+  "id": "us20007z2r",
+  "Mw": 6.0,
+  "depth_km": 17.55,
+  "fc": "reverse",
+  "peak_cm": 2.22,
+  "snr": 4.4
+ },
+ {
+  "id": "us6000bdg8",
+  "Mw": 6.0,
+  "depth_km": 17.55,
+  "fc": "normal",
+  "peak_cm": 2.22,
+  "snr": 4.4
+ },
+ {
+  "id": "us1000g5n1",
+  "Mw": 5.9,
+  "depth_km": 15.0,
+  "fc": "reverse",
+  "peak_cm": 2.14,
+  "snr": 4.3
+ },
+ {
+  "id": "us10006pdp",
+  "Mw": 6.0,
+  "depth_km": 18.0,
+  "fc": "oblique",
+  "peak_cm": 2.12,
+  "snr": 4.2
+ },
+ {
+  "id": "us6000sgrt",
+  "Mw": 5.8,
+  "depth_km": 12.664,
+  "fc": "oblique",
+  "peak_cm": 2.12,
+  "snr": 4.2
+ },
+ {
+  "id": "nc73821036",
+  "Mw": 6.4,
+  "depth_km": 17.91,
+  "fc": "strike-slip",
+  "peak_cm": 2.09,
+  "snr": 4.2
+ },
+ {
+  "id": "us2000czig",
+  "Mw": 5.8,
+  "depth_km": 13.0,
+  "fc": "reverse",
+  "peak_cm": 2.02,
+  "snr": 4.0
+ },
+ {
+  "id": "us7000kubt",
+  "Mw": 5.8,
+  "depth_km": 13.0,
+  "fc": "reverse",
+  "peak_cm": 2.02,
+  "snr": 4.0
+ },
+ {
+  "id": "pr2020185017",
+  "Mw": 5.3,
+  "depth_km": 3.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.93,
+  "snr": 3.9
+ },
+ {
+  "id": "us6000s4xz",
+  "Mw": 5.9,
+  "depth_km": 16.0,
+  "fc": "reverse",
+  "peak_cm": 1.91,
+  "snr": 3.8
+ },
+ {
+  "id": "us7000rps1",
+  "Mw": 5.1,
+  "depth_km": 2.286,
+  "fc": "strike-slip",
+  "peak_cm": 1.87,
+  "snr": 3.7
+ },
+ {
+  "id": "us6000rdta",
+  "Mw": 6.0,
+  "depth_km": 19.498,
+  "fc": "oblique",
+  "peak_cm": 1.83,
+  "snr": 3.7
+ },
+ {
+  "id": "us7000ecyk",
+  "Mw": 5.7,
+  "depth_km": 5.86,
+  "fc": "strike-slip",
+  "peak_cm": 1.79,
+  "snr": 3.6
+ },
+ {
+  "id": "us2000jcbz",
+  "Mw": 6.0,
+  "depth_km": 20.0,
+  "fc": "reverse",
+  "peak_cm": 1.74,
+  "snr": 3.5
+ },
+ {
+  "id": "us6000jj8s",
+  "Mw": 5.4,
+  "depth_km": 7.0,
+  "fc": "normal",
+  "peak_cm": 1.74,
+  "snr": 3.5
+ },
+ {
+  "id": "us10006rrf",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us10007twn",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us1000d19r",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us1000dstu",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us1000jhbv",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us20003lv1",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us200082s5",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "oblique",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us2000dveh",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us6000jnqz",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us6000rglb",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us70006vm9",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "oblique",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us70007lf3",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "oblique",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us70007r1x",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us7000kga2",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "oblique",
+  "peak_cm": 1.72,
+  "snr": 3.4
+ },
+ {
+  "id": "us100062hd",
+  "Mw": 5.9,
+  "depth_km": 17.0,
+  "fc": "reverse",
+  "peak_cm": 1.7,
+  "snr": 3.4
+ },
+ {
+  "id": "us2000apwd",
+  "Mw": 5.9,
+  "depth_km": 17.0,
+  "fc": "reverse",
+  "peak_cm": 1.7,
+  "snr": 3.4
+ },
+ {
+  "id": "us2000d8my",
+  "Mw": 5.7,
+  "depth_km": 12.0,
+  "fc": "oblique",
+  "peak_cm": 1.7,
+  "snr": 3.4
+ },
+ {
+  "id": "us6000f155",
+  "Mw": 5.6,
+  "depth_km": 10.13,
+  "fc": "oblique",
+  "peak_cm": 1.68,
+  "snr": 3.4
+ },
+ {
+  "id": "us6000mjux",
+  "Mw": 5.3,
+  "depth_km": 6.0,
+  "fc": "reverse",
+  "peak_cm": 1.68,
+  "snr": 3.4
+ },
+ {
+  "id": "us20008jcc",
+  "Mw": 5.3,
+  "depth_km": 6.01,
+  "fc": "oblique",
+  "peak_cm": 1.67,
+  "snr": 3.3
+ },
+ {
+  "id": "us2000bu6g",
+  "Mw": 5.2,
+  "depth_km": 5.17,
+  "fc": "normal",
+  "peak_cm": 1.61,
+  "snr": 3.2
+ },
+ {
+  "id": "usb000tii2",
+  "Mw": 5.7,
+  "depth_km": 12.58,
+  "fc": "reverse",
+  "peak_cm": 1.56,
+  "snr": 3.1
+ },
+ {
+  "id": "us2000jccs",
+  "Mw": 5.9,
+  "depth_km": 18.0,
+  "fc": "reverse",
+  "peak_cm": 1.53,
+  "snr": 3.1
+ },
+ {
+  "id": "us7000ef1g",
+  "Mw": 5.5,
+  "depth_km": 9.03,
+  "fc": "oblique",
+  "peak_cm": 1.51,
+  "snr": 3.0
+ },
+ {
+  "id": "us10008rah",
+  "Mw": 5.4,
+  "depth_km": 7.62,
+  "fc": "normal",
+  "peak_cm": 1.5,
+  "snr": 3.0
+ },
+ {
+  "id": "us7000pemi",
+  "Mw": 5.7,
+  "depth_km": 13.0,
+  "fc": "reverse",
+  "peak_cm": 1.47,
+  "snr": 2.9
+ },
+ {
+  "id": "us10003qv5",
+  "Mw": 5.6,
+  "depth_km": 11.0,
+  "fc": "reverse",
+  "peak_cm": 1.45,
+  "snr": 2.9
+ },
+ {
+  "id": "us20005jyu",
+  "Mw": 5.6,
+  "depth_km": 11.0,
+  "fc": "reverse",
+  "peak_cm": 1.45,
+  "snr": 2.9
+ },
+ {
+  "id": "us10008npq",
+  "Mw": 6.0,
+  "depth_km": 11.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.44,
+  "snr": 2.9
+ },
+ {
+  "id": "us10006k8f",
+  "Mw": 5.8,
+  "depth_km": 16.0,
+  "fc": "normal",
+  "peak_cm": 1.38,
+  "snr": 2.8
+ },
+ {
+  "id": "us1000jb24",
+  "Mw": 5.8,
+  "depth_km": 16.0,
+  "fc": "reverse",
+  "peak_cm": 1.38,
+  "snr": 2.8
+ },
+ {
+  "id": "us2000br1i",
+  "Mw": 5.8,
+  "depth_km": 8.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.38,
+  "snr": 2.8
+ },
+ {
+  "id": "us7000i9hm",
+  "Mw": 5.8,
+  "depth_km": 16.0,
+  "fc": "normal",
+  "peak_cm": 1.38,
+  "snr": 2.8
+ },
+ {
+  "id": "us20002pln",
+  "Mw": 5.4,
+  "depth_km": 8.0,
+  "fc": "reverse",
+  "peak_cm": 1.37,
+  "snr": 2.7
+ },
+ {
+  "id": "us2000638s",
+  "Mw": 5.4,
+  "depth_km": 8.0,
+  "fc": "reverse",
+  "peak_cm": 1.37,
+  "snr": 2.7
+ },
+ {
+  "id": "usc000tumx",
+  "Mw": 6.1,
+  "depth_km": 28.0,
+  "fc": "reverse",
+  "peak_cm": 1.28,
+  "snr": 2.6
+ },
+ {
+  "id": "us100048hc",
+  "Mw": 6.1,
+  "depth_km": 14.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.27,
+  "snr": 2.5
+ },
+ {
+  "id": "us10007tii",
+  "Mw": 5.6,
+  "depth_km": 6.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.26,
+  "snr": 2.5
+ },
+ {
+  "id": "us2000jfb2",
+  "Mw": 5.9,
+  "depth_km": 20.0,
+  "fc": "normal",
+  "peak_cm": 1.26,
+  "snr": 2.5
+ },
+ {
+  "id": "us60006470",
+  "Mw": 5.9,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.26,
+  "snr": 2.5
+ },
+ {
+  "id": "us70008hvb",
+  "Mw": 5.9,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.26,
+  "snr": 2.5
+ },
+ {
+  "id": "us7000k58h",
+  "Mw": 5.9,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.26,
+  "snr": 2.5
+ },
+ {
+  "id": "us7000nhk8",
+  "Mw": 5.9,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.26,
+  "snr": 2.5
+ },
+ {
+  "id": "us7000pp13",
+  "Mw": 5.6,
+  "depth_km": 11.867,
+  "fc": "normal",
+  "peak_cm": 1.26,
+  "snr": 2.5
+ },
+ {
+  "id": "us1000dqk1",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us1000jkv5",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us20004g1p",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us20005imz",
+  "Mw": 5.4,
+  "depth_km": 4.35,
+  "fc": "strike-slip",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us2000bnrs",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us2000dvvi",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us2000e1b6",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us6000jbsk",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us6000phnz",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "oblique",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us6000qulb",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "oblique",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us6000s799",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us6000smm5",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us70006d2z",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us7000gmnq",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "reverse",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "usb000sl3m",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "normal",
+  "peak_cm": 1.25,
+  "snr": 2.5
+ },
+ {
+  "id": "us20007ga1",
+  "Mw": 5.6,
+  "depth_km": 12.0,
+  "fc": "reverse",
+  "peak_cm": 1.23,
+  "snr": 2.5
+ },
+ {
+  "id": "us7000ppfy",
+  "Mw": 6.1,
+  "depth_km": 29.0,
+  "fc": "reverse",
+  "peak_cm": 1.2,
+  "snr": 2.4
+ },
+ {
+  "id": "us10007piy",
+  "Mw": 5.5,
+  "depth_km": 10.26,
+  "fc": "oblique",
+  "peak_cm": 1.19,
+  "snr": 2.4
+ },
+ {
+  "id": "us20003mcj",
+  "Mw": 6.1,
+  "depth_km": 30.0,
+  "fc": "reverse",
+  "peak_cm": 1.13,
+  "snr": 2.3
+ },
+ {
+  "id": "us1000bmdw",
+  "Mw": 5.1,
+  "depth_km": 2.87,
+  "fc": "strike-slip",
+  "peak_cm": 1.12,
+  "snr": 2.2
+ },
+ {
+  "id": "us6000pzdn",
+  "Mw": 5.8,
+  "depth_km": 18.0,
+  "fc": "oblique",
+  "peak_cm": 1.1,
+  "snr": 2.2
+ },
+ {
+  "id": "us6000q4lv",
+  "Mw": 5.8,
+  "depth_km": 18.0,
+  "fc": "reverse",
+  "peak_cm": 1.1,
+  "snr": 2.2
+ },
+ {
+  "id": "us6000r3bg",
+  "Mw": 5.8,
+  "depth_km": 18.0,
+  "fc": "reverse",
+  "peak_cm": 1.1,
+  "snr": 2.2
+ },
+ {
+  "id": "nn00495477",
+  "Mw": 5.3,
+  "depth_km": 4.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.08,
+  "snr": 2.2
+ },
+ {
+  "id": "us2000d4lg",
+  "Mw": 5.9,
+  "depth_km": 22.0,
+  "fc": "reverse",
+  "peak_cm": 1.05,
+  "snr": 2.1
+ },
+ {
+  "id": "us6000b35c",
+  "Mw": 5.5,
+  "depth_km": 11.0,
+  "fc": "reverse",
+  "peak_cm": 1.04,
+  "snr": 2.1
+ },
+ {
+  "id": "us1000az05",
+  "Mw": 5.7,
+  "depth_km": 15.77,
+  "fc": "reverse",
+  "peak_cm": 1.02,
+  "snr": 2.0
+ },
+ {
+  "id": "us70005q83",
+  "Mw": 5.6,
+  "depth_km": 13.26,
+  "fc": "reverse",
+  "peak_cm": 1.02,
+  "snr": 2.0
+ },
+ {
+  "id": "us2000hat7",
+  "Mw": 5.7,
+  "depth_km": 8.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.01,
+  "snr": 2.0
+ },
+ {
+  "id": "us7000f3zp",
+  "Mw": 5.7,
+  "depth_km": 8.0,
+  "fc": "strike-slip",
+  "peak_cm": 1.01,
+  "snr": 2.0
+ },
+ {
+  "id": "us70003um7",
+  "Mw": 5.8,
+  "depth_km": 19.0,
+  "fc": "oblique",
+  "peak_cm": 0.99,
+  "snr": 2.0
+ },
+ {
+  "id": "us2000atpb",
+  "Mw": 5.7,
+  "depth_km": 8.18,
+  "fc": "strike-slip",
+  "peak_cm": 0.97,
+  "snr": 1.9
+ },
+ {
+  "id": "us1000ghbd",
+  "Mw": 5.5,
+  "depth_km": 11.58,
+  "fc": "reverse",
+  "peak_cm": 0.95,
+  "snr": 1.9
+ },
+ {
+  "id": "us7000kub5",
+  "Mw": 5.6,
+  "depth_km": 14.0,
+  "fc": "oblique",
+  "peak_cm": 0.92,
+  "snr": 1.8
+ },
+ {
+  "id": "us7000qx1z",
+  "Mw": 6.0,
+  "depth_km": 28.0,
+  "fc": "reverse",
+  "peak_cm": 0.92,
+  "snr": 1.8
+ },
+ {
+  "id": "us20002pyz",
+  "Mw": 5.8,
+  "depth_km": 20.0,
+  "fc": "reverse",
+  "peak_cm": 0.9,
+  "snr": 1.8
+ },
+ {
+  "id": "us2000bvsl",
+  "Mw": 5.7,
+  "depth_km": 16.87,
+  "fc": "oblique",
+  "peak_cm": 0.9,
+  "snr": 1.8
+ },
+ {
+  "id": "us6000f1nr",
+  "Mw": 5.8,
+  "depth_km": 20.0,
+  "fc": "reverse",
+  "peak_cm": 0.9,
+  "snr": 1.8
+ },
+ {
+  "id": "us1000h8an",
+  "Mw": 5.9,
+  "depth_km": 24.0,
+  "fc": "reverse",
+  "peak_cm": 0.89,
+  "snr": 1.8
+ },
+ {
+  "id": "us700068sr",
+  "Mw": 5.9,
+  "depth_km": 24.0,
+  "fc": "reverse",
+  "peak_cm": 0.89,
+  "snr": 1.8
+ },
+ {
+  "id": "us1000i36p",
+  "Mw": 5.5,
+  "depth_km": 12.0,
+  "fc": "reverse",
+  "peak_cm": 0.88,
+  "snr": 1.8
+ },
+ {
+  "id": "us6000jn9h",
+  "Mw": 5.9,
+  "depth_km": 25.0,
+  "fc": "reverse",
+  "peak_cm": 0.82,
+  "snr": 1.6
+ },
+ {
+  "id": "us7000pdu6",
+  "Mw": 5.9,
+  "depth_km": 25.0,
+  "fc": "normal",
+  "peak_cm": 0.82,
+  "snr": 1.6
+ },
+ {
+  "id": "us1000jccx",
+  "Mw": 6.0,
+  "depth_km": 30.0,
+  "fc": "oblique",
+  "peak_cm": 0.81,
+  "snr": 1.6
+ },
+ {
+  "id": "us6000hywe",
+  "Mw": 6.0,
+  "depth_km": 30.0,
+  "fc": "reverse",
+  "peak_cm": 0.81,
+  "snr": 1.6
+ },
+ {
+  "id": "us6000sr5z",
+  "Mw": 5.7,
+  "depth_km": 18.0,
+  "fc": "reverse",
+  "peak_cm": 0.79,
+  "snr": 1.6
+ },
+ {
+  "id": "us7000fraj",
+  "Mw": 5.7,
+  "depth_km": 18.0,
+  "fc": "oblique",
+  "peak_cm": 0.79,
+  "snr": 1.6
+ },
+ {
+  "id": "nn00782942",
+  "Mw": 5.3,
+  "depth_km": 4.8,
+  "fc": "strike-slip",
+  "peak_cm": 0.75,
+  "snr": 1.5
+ },
+ {
+  "id": "us10005ftw",
+  "Mw": 5.8,
+  "depth_km": 22.0,
+  "fc": "reverse",
+  "peak_cm": 0.75,
+  "snr": 1.5
+ },
+ {
+  "id": "us2000d83z",
+  "Mw": 5.8,
+  "depth_km": 22.0,
+  "fc": "reverse",
+  "peak_cm": 0.75,
+  "snr": 1.5
+ },
+ {
+  "id": "us1000j9yd",
+  "Mw": 5.6,
+  "depth_km": 15.68,
+  "fc": "oblique",
+  "peak_cm": 0.74,
+  "snr": 1.5
+ },
+ {
+  "id": "us10008s7b",
+  "Mw": 5.6,
+  "depth_km": 8.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.73,
+  "snr": 1.5
+ },
+ {
+  "id": "us6000gf1y",
+  "Mw": 5.7,
+  "depth_km": 9.48,
+  "fc": "strike-slip",
+  "peak_cm": 0.73,
+  "snr": 1.5
+ },
+ {
+  "id": "us6000df9r",
+  "Mw": 6.0,
+  "depth_km": 16.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.72,
+  "snr": 1.4
+ },
+ {
+  "id": "us200067az",
+  "Mw": 5.7,
+  "depth_km": 19.0,
+  "fc": "reverse",
+  "peak_cm": 0.71,
+  "snr": 1.4
+ },
+ {
+  "id": "us1000h8pv",
+  "Mw": 5.5,
+  "depth_km": 7.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.69,
+  "snr": 1.4
+ },
+ {
+  "id": "us6000hljt",
+  "Mw": 5.8,
+  "depth_km": 23.0,
+  "fc": "reverse",
+  "peak_cm": 0.69,
+  "snr": 1.4
+ },
+ {
+  "id": "us7000gcfq",
+  "Mw": 5.5,
+  "depth_km": 7.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.69,
+  "snr": 1.4
+ },
+ {
+  "id": "us10008usv",
+  "Mw": 5.7,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.66,
+  "snr": 1.3
+ },
+ {
+  "id": "us1000hrxp",
+  "Mw": 5.5,
+  "depth_km": 14.01,
+  "fc": "oblique",
+  "peak_cm": 0.66,
+  "snr": 1.3
+ },
+ {
+  "id": "us6000a89s",
+  "Mw": 5.7,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.66,
+  "snr": 1.3
+ },
+ {
+  "id": "us70006anm",
+  "Mw": 5.7,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.66,
+  "snr": 1.3
+ },
+ {
+  "id": "us7000dl4v",
+  "Mw": 5.7,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.66,
+  "snr": 1.3
+ },
+ {
+  "id": "us7000h0jz",
+  "Mw": 5.7,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.66,
+  "snr": 1.3
+ },
+ {
+  "id": "us7000rmqv",
+  "Mw": 5.7,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.66,
+  "snr": 1.3
+ },
+ {
+  "id": "us20009mji",
+  "Mw": 5.5,
+  "depth_km": 14.03,
+  "fc": "normal",
+  "peak_cm": 0.65,
+  "snr": 1.3
+ },
+ {
+  "id": "us10007snb",
+  "Mw": 5.5,
+  "depth_km": 7.26,
+  "fc": "strike-slip",
+  "peak_cm": 0.64,
+  "snr": 1.3
+ },
+ {
+  "id": "us20005j62",
+  "Mw": 5.8,
+  "depth_km": 23.95,
+  "fc": "reverse",
+  "peak_cm": 0.64,
+  "snr": 1.3
+ },
+ {
+  "id": "us7000gmmb",
+  "Mw": 5.7,
+  "depth_km": 20.0,
+  "fc": "reverse",
+  "peak_cm": 0.64,
+  "snr": 1.3
+ },
+ {
+  "id": "us10009757",
+  "Mw": 5.8,
+  "depth_km": 12.18,
+  "fc": "strike-slip",
+  "peak_cm": 0.63,
+  "snr": 1.3
+ },
+ {
+  "id": "us700069f4",
+  "Mw": 5.9,
+  "depth_km": 14.45,
+  "fc": "strike-slip",
+  "peak_cm": 0.63,
+  "snr": 1.3
+ },
+ {
+  "id": "us1000870s",
+  "Mw": 5.7,
+  "depth_km": 10.51,
+  "fc": "strike-slip",
+  "peak_cm": 0.6,
+  "snr": 1.2
+ },
+ {
+  "id": "us20005jr8",
+  "Mw": 5.3,
+  "depth_km": 5.4,
+  "fc": "strike-slip",
+  "peak_cm": 0.59,
+  "snr": 1.2
+ },
+ {
+  "id": "us2000frwr",
+  "Mw": 5.9,
+  "depth_km": 15.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.59,
+  "snr": 1.2
+ },
+ {
+  "id": "us6000dk70",
+  "Mw": 5.8,
+  "depth_km": 25.0,
+  "fc": "reverse",
+  "peak_cm": 0.59,
+  "snr": 1.2
+ },
+ {
+  "id": "us6000n1gi",
+  "Mw": 5.7,
+  "depth_km": 21.0,
+  "fc": "reverse",
+  "peak_cm": 0.59,
+  "snr": 1.2
+ },
+ {
+  "id": "pr2020007010",
+  "Mw": 5.6,
+  "depth_km": 9.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.58,
+  "snr": 1.2
+ },
+ {
+  "id": "us70004nrn",
+  "Mw": 5.5,
+  "depth_km": 15.0,
+  "fc": "reverse",
+  "peak_cm": 0.58,
+  "snr": 1.2
+ },
+ {
+  "id": "us20008lww",
+  "Mw": 5.9,
+  "depth_km": 30.0,
+  "fc": "normal",
+  "peak_cm": 0.57,
+  "snr": 1.1
+ },
+ {
+  "id": "us6000s7cl",
+  "Mw": 5.7,
+  "depth_km": 22.0,
+  "fc": "reverse",
+  "peak_cm": 0.54,
+  "snr": 1.1
+ },
+ {
+  "id": "us6000e1bu",
+  "Mw": 5.3,
+  "depth_km": 5.7,
+  "fc": "strike-slip",
+  "peak_cm": 0.53,
+  "snr": 1.1
+ },
+ {
+  "id": "us6000jkpr",
+  "Mw": 6.0,
+  "depth_km": 19.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.52,
+  "snr": 1.0
+ },
+ {
+  "id": "pr2025124000",
+  "Mw": 5.63,
+  "depth_km": 20.0,
+  "fc": "normal",
+  "peak_cm": 0.51,
+  "snr": 1.0
+ },
+ {
+  "id": "us10006gf0",
+  "Mw": 5.6,
+  "depth_km": 19.0,
+  "fc": "reverse",
+  "peak_cm": 0.51,
+  "snr": 1.0
+ },
+ {
+  "id": "us6000s4jy",
+  "Mw": 5.6,
+  "depth_km": 19.0,
+  "fc": "reverse",
+  "peak_cm": 0.51,
+  "snr": 1.0
+ },
+ {
+  "id": "nc73201181",
+  "Mw": 5.58,
+  "depth_km": 9.44,
+  "fc": "strike-slip",
+  "peak_cm": 0.5,
+  "snr": 1.0
+ },
+ {
+  "id": "pr2020015008",
+  "Mw": 5.2,
+  "depth_km": 5.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.5,
+  "snr": 1.0
+ },
+ {
+  "id": "us10004077",
+  "Mw": 5.8,
+  "depth_km": 27.0,
+  "fc": "reverse",
+  "peak_cm": 0.5,
+  "snr": 1.0
+ },
+ {
+  "id": "us6000qhaf",
+  "Mw": 5.8,
+  "depth_km": 27.0,
+  "fc": "reverse",
+  "peak_cm": 0.5,
+  "snr": 1.0
+ },
+ {
+  "id": "us1000erwa",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.48,
+  "snr": 1.0
+ },
+ {
+  "id": "us20005bft",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.48,
+  "snr": 1.0
+ },
+ {
+  "id": "us6000mkej",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.48,
+  "snr": 1.0
+ },
+ {
+  "id": "us6000qv9l",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.48,
+  "snr": 1.0
+ },
+ {
+  "id": "us7000eik4",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.48,
+  "snr": 1.0
+ },
+ {
+  "id": "usb000sp80",
+  "Mw": 5.6,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.48,
+  "snr": 1.0
+ },
+ {
+  "id": "us10002mb3",
+  "Mw": 5.8,
+  "depth_km": 28.0,
+  "fc": "reverse",
+  "peak_cm": 0.47,
+  "snr": 0.9
+ },
+ {
+  "id": "us60005lrf",
+  "Mw": 5.6,
+  "depth_km": 20.0,
+  "fc": "reverse",
+  "peak_cm": 0.46,
+  "snr": 0.9
+ },
+ {
+  "id": "us6000c9ci",
+  "Mw": 5.6,
+  "depth_km": 20.0,
+  "fc": "reverse",
+  "peak_cm": 0.46,
+  "snr": 0.9
+ },
+ {
+  "id": "us70004j9u",
+  "Mw": 5.8,
+  "depth_km": 14.29,
+  "fc": "strike-slip",
+  "peak_cm": 0.46,
+  "snr": 0.9
+ },
+ {
+  "id": "nn00916980",
+  "Mw": 5.17,
+  "depth_km": 5.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.45,
+  "snr": 0.9
+ },
+ {
+  "id": "us10004c96",
+  "Mw": 5.7,
+  "depth_km": 24.03,
+  "fc": "reverse",
+  "peak_cm": 0.45,
+  "snr": 0.9
+ },
+ {
+  "id": "us1000d1cy",
+  "Mw": 5.5,
+  "depth_km": 17.0,
+  "fc": "normal",
+  "peak_cm": 0.45,
+  "snr": 0.9
+ },
+ {
+  "id": "us6000c9cs",
+  "Mw": 5.5,
+  "depth_km": 17.03,
+  "fc": "reverse",
+  "peak_cm": 0.45,
+  "snr": 0.9
+ },
+ {
+  "id": "us6000s711",
+  "Mw": 5.7,
+  "depth_km": 24.03,
+  "fc": "reverse",
+  "peak_cm": 0.45,
+  "snr": 0.9
+ },
+ {
+  "id": "us7000fq2q",
+  "Mw": 5.5,
+  "depth_km": 17.43,
+  "fc": "oblique",
+  "peak_cm": 0.43,
+  "snr": 0.9
+ },
+ {
+  "id": "us10003mxa",
+  "Mw": 5.6,
+  "depth_km": 21.0,
+  "fc": "reverse",
+  "peak_cm": 0.42,
+  "snr": 0.8
+ },
+ {
+  "id": "us2000jdgj",
+  "Mw": 5.4,
+  "depth_km": 7.73,
+  "fc": "strike-slip",
+  "peak_cm": 0.4,
+  "snr": 0.8
+ },
+ {
+  "id": "us6000ipri",
+  "Mw": 5.9,
+  "depth_km": 18.363,
+  "fc": "strike-slip",
+  "peak_cm": 0.4,
+  "snr": 0.8
+ },
+ {
+  "id": "us7000si51",
+  "Mw": 5.5,
+  "depth_km": 18.0,
+  "fc": "reverse",
+  "peak_cm": 0.4,
+  "snr": 0.8
+ },
+ {
+  "id": "us2000a1qs",
+  "Mw": 5.8,
+  "depth_km": 15.58,
+  "fc": "strike-slip",
+  "peak_cm": 0.39,
+  "snr": 0.8
+ },
+ {
+  "id": "us7000ltpz",
+  "Mw": 5.6,
+  "depth_km": 21.643,
+  "fc": "reverse",
+  "peak_cm": 0.39,
+  "snr": 0.8
+ },
+ {
+  "id": "us10003mxv",
+  "Mw": 5.6,
+  "depth_km": 22.0,
+  "fc": "reverse",
+  "peak_cm": 0.38,
+  "snr": 0.8
+ },
+ {
+  "id": "us200029gw",
+  "Mw": 5.6,
+  "depth_km": 22.0,
+  "fc": "reverse",
+  "peak_cm": 0.38,
+  "snr": 0.8
+ },
+ {
+  "id": "us2000iy0q",
+  "Mw": 5.4,
+  "depth_km": 8.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.38,
+  "snr": 0.8
+ },
+ {
+  "id": "us6000nq9a",
+  "Mw": 5.0,
+  "depth_km": 4.096,
+  "fc": "strike-slip",
+  "peak_cm": 0.38,
+  "snr": 0.8
+ },
+ {
+  "id": "us7000nr0n",
+  "Mw": 5.9,
+  "depth_km": 19.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.37,
+  "snr": 0.7
+ },
+ {
+  "id": "us7000mqdw",
+  "Mw": 5.5,
+  "depth_km": 19.0,
+  "fc": "reverse",
+  "peak_cm": 0.36,
+  "snr": 0.7
+ },
+ {
+  "id": "us2000j0yp",
+  "Mw": 5.5,
+  "depth_km": 19.43,
+  "fc": "reverse",
+  "peak_cm": 0.35,
+  "snr": 0.7
+ },
+ {
+  "id": "us10005h1j",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.34,
+  "snr": 0.7
+ },
+ {
+  "id": "us1000e952",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.34,
+  "snr": 0.7
+ },
+ {
+  "id": "us2000k8e8",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.34,
+  "snr": 0.7
+ },
+ {
+  "id": "us6000gdng",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.34,
+  "snr": 0.7
+ },
+ {
+  "id": "us7000h035",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.34,
+  "snr": 0.7
+ },
+ {
+  "id": "us7000s2x6",
+  "Mw": 5.5,
+  "depth_km": 10.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.34,
+  "snr": 0.7
+ },
+ {
+  "id": "us20003lsq",
+  "Mw": 5.7,
+  "depth_km": 28.0,
+  "fc": "reverse",
+  "peak_cm": 0.33,
+  "snr": 0.7
+ },
+ {
+  "id": "us7000k9ti",
+  "Mw": 5.5,
+  "depth_km": 19.993,
+  "fc": "reverse",
+  "peak_cm": 0.33,
+  "snr": 0.7
+ },
+ {
+  "id": "us6000r1qp",
+  "Mw": 5.5,
+  "depth_km": 20.1,
+  "fc": "oblique",
+  "peak_cm": 0.32,
+  "snr": 0.6
+ },
+ {
+  "id": "us7000qd6b",
+  "Mw": 5.6,
+  "depth_km": 24.0,
+  "fc": "reverse",
+  "peak_cm": 0.32,
+  "snr": 0.6
+ },
+ {
+  "id": "us1000e1yr",
+  "Mw": 5.7,
+  "depth_km": 29.0,
+  "fc": "oblique",
+  "peak_cm": 0.31,
+  "snr": 0.6
+ },
+ {
+  "id": "us20005jgz",
+  "Mw": 5.5,
+  "depth_km": 10.46,
+  "fc": "strike-slip",
+  "peak_cm": 0.31,
+  "snr": 0.6
+ },
+ {
+  "id": "us6000ii2v",
+  "Mw": 5.5,
+  "depth_km": 10.482,
+  "fc": "strike-slip",
+  "peak_cm": 0.31,
+  "snr": 0.6
+ },
+ {
+  "id": "us1000454p",
+  "Mw": 5.6,
+  "depth_km": 25.0,
+  "fc": "reverse",
+  "peak_cm": 0.3,
+  "snr": 0.6
+ },
+ {
+  "id": "us1000e7fh",
+  "Mw": 5.7,
+  "depth_km": 30.0,
+  "fc": "oblique",
+  "peak_cm": 0.29,
+  "snr": 0.6
+ },
+ {
+  "id": "us20007eec",
+  "Mw": 5.5,
+  "depth_km": 22.0,
+  "fc": "reverse",
+  "peak_cm": 0.27,
+  "snr": 0.5
+ },
+ {
+  "id": "us6000lp06",
+  "Mw": 5.7,
+  "depth_km": 15.733,
+  "fc": "strike-slip",
+  "peak_cm": 0.27,
+  "snr": 0.5
+ },
+ {
+  "id": "us10003xzv",
+  "Mw": 5.6,
+  "depth_km": 27.0,
+  "fc": "reverse",
+  "peak_cm": 0.25,
+  "snr": 0.5
+ },
+ {
+  "id": "us70005ej7",
+  "Mw": 5.6,
+  "depth_km": 27.0,
+  "fc": "reverse",
+  "peak_cm": 0.25,
+  "snr": 0.5
+ },
+ {
+  "id": "us20003mjn",
+  "Mw": 5.6,
+  "depth_km": 28.36,
+  "fc": "reverse",
+  "peak_cm": 0.23,
+  "snr": 0.5
+ },
+ {
+  "id": "us6000a2n5",
+  "Mw": 5.6,
+  "depth_km": 28.61,
+  "fc": "reverse",
+  "peak_cm": 0.23,
+  "snr": 0.5
+ },
+ {
+  "id": "us60003qg7",
+  "Mw": 5.6,
+  "depth_km": 29.0,
+  "fc": "oblique",
+  "peak_cm": 0.22,
+  "snr": 0.4
+ },
+ {
+  "id": "us6000h49u",
+  "Mw": 5.6,
+  "depth_km": 29.19,
+  "fc": "reverse",
+  "peak_cm": 0.22,
+  "snr": 0.4
+ },
+ {
+  "id": "us20005gs0",
+  "Mw": 5.5,
+  "depth_km": 25.0,
+  "fc": "reverse",
+  "peak_cm": 0.21,
+  "snr": 0.4
+ },
+ {
+  "id": "us7000nz8f",
+  "Mw": 5.5,
+  "depth_km": 24.808,
+  "fc": "oblique",
+  "peak_cm": 0.21,
+  "snr": 0.4
+ },
+ {
+  "id": "us20005inz",
+  "Mw": 5.5,
+  "depth_km": 13.22,
+  "fc": "strike-slip",
+  "peak_cm": 0.2,
+  "snr": 0.4
+ },
+ {
+  "id": "us200067p3",
+  "Mw": 5.5,
+  "depth_km": 13.59,
+  "fc": "strike-slip",
+  "peak_cm": 0.19,
+  "snr": 0.4
+ },
+ {
+  "id": "us20003mis",
+  "Mw": 5.5,
+  "depth_km": 26.95,
+  "fc": "reverse",
+  "peak_cm": 0.18,
+  "snr": 0.4
+ },
+ {
+  "id": "us7000gkf7",
+  "Mw": 5.5,
+  "depth_km": 28.22,
+  "fc": "reverse",
+  "peak_cm": 0.17,
+  "snr": 0.3
+ },
+ {
+  "id": "us6000px0a",
+  "Mw": 5.5,
+  "depth_km": 28.681,
+  "fc": "reverse",
+  "peak_cm": 0.16,
+  "snr": 0.3
+ },
+ {
+  "id": "us6000svp9",
+  "Mw": 5.5,
+  "depth_km": 29.0,
+  "fc": "reverse",
+  "peak_cm": 0.16,
+  "snr": 0.3
+ },
+ {
+  "id": "us7000qw56",
+  "Mw": 5.5,
+  "depth_km": 29.0,
+  "fc": "oblique",
+  "peak_cm": 0.16,
+  "snr": 0.3
+ },
+ {
+  "id": "us6000r1mt",
+  "Mw": 5.5,
+  "depth_km": 30.0,
+  "fc": "reverse",
+  "peak_cm": 0.15,
+  "snr": 0.3
+ },
+ {
+  "id": "us7000rpq8",
+  "Mw": 5.5,
+  "depth_km": 30.0,
+  "fc": "reverse",
+  "peak_cm": 0.15,
+  "snr": 0.3
+ },
+ {
+  "id": "us70008l5g",
+  "Mw": 5.5,
+  "depth_km": 16.19,
+  "fc": "strike-slip",
+  "peak_cm": 0.13,
+  "snr": 0.3
+ },
+ {
+  "id": "us10007d73",
+  "Mw": 5.7,
+  "depth_km": 24.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.12,
+  "snr": 0.2
+ },
+ {
+  "id": "us1000bx7a",
+  "Mw": 5.7,
+  "depth_km": 23.79,
+  "fc": "strike-slip",
+  "peak_cm": 0.12,
+  "snr": 0.2
+ },
+ {
+  "id": "us70005v4h",
+  "Mw": 5.5,
+  "depth_km": 20.12,
+  "fc": "strike-slip",
+  "peak_cm": 0.09,
+  "snr": 0.2
+ },
+ {
+  "id": "us1000jjp9",
+  "Mw": 5.5,
+  "depth_km": 22.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.07,
+  "snr": 0.1
+ },
+ {
+  "id": "us20009pf9",
+  "Mw": 5.6,
+  "depth_km": 27.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.07,
+  "snr": 0.1
+ },
+ {
+  "id": "us6000q6n2",
+  "Mw": 5.5,
+  "depth_km": 21.676,
+  "fc": "strike-slip",
+  "peak_cm": 0.07,
+  "snr": 0.1
+ },
+ {
+  "id": "us2000dxxe",
+  "Mw": 5.5,
+  "depth_km": 25.6,
+  "fc": "strike-slip",
+  "peak_cm": 0.05,
+  "snr": 0.1
+ },
+ {
+  "id": "us1000bms0",
+  "Mw": 5.5,
+  "depth_km": 28.0,
+  "fc": "strike-slip",
+  "peak_cm": 0.04,
+  "snr": 0.1
+ }
+]

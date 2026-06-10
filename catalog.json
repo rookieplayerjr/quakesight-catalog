@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-09T18:24:53Z",
+  "generated_utc": "2026-06-10T22:06:45Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 585,
+  "n_events": 582,
   "events": [
     {
       "event_id": "ci38443183",
@@ -42,6 +42,12 @@
       "aoi_half_km": 72.7,
       "in_sequence": true,
       "sequence_n_significant": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 7.1
+      },
       "result": {
         "L_km": 19.84,
         "W_km": 9.99,
@@ -131,6 +137,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 29,
       "pair_contam_max": 30,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 7.1
+      },
       "result": {
         "L_km": 7.4,
         "W_km": 7.07,
@@ -220,6 +232,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 29,
       "pair_contam_max": 31,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 7.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -687,22 +705,99 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "4p5_to_5p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "115",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-05-11",
+            "2023-05-23"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.251,
+          "status": "ready"
+        },
+        {
+          "track": "137",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-05-01",
+            "2023-05-13"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.35,
+          "status": "ready"
+        },
+        {
+          "track": "42",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-05-06",
+            "2023-05-18"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.245,
+          "status": ""
+        }
+      ],
+      "n_tracks": 3,
       "aoi_half_km": 33.3,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
+      "result": {
+        "L_km": 8.45,
+        "W_km": 7.53,
+        "Z_top_km": 29.88,
+        "dip": -0.3,
+        "strike": 86.2,
+        "Mw_post": 6.26,
+        "VR": {
+          "t115_dsc": -0.84,
+          "t137_asc": 0.1
+        },
+        "fmech": {
+          "strike": 266.2,
+          "dip": 0.3,
+          "rake": -23.7
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.203,
+        "ess": 179,
+        "geweke": 3.02,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_multiple_critical_railed",
+      "pipeline_run_utc": "2026-06-09T21:54:34Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/nc73886731/REPORT.html"
       }
     },
     {
@@ -784,6 +879,12 @@
       "aoi_half_km": 80.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 7.89,
         "W_km": 3.73,
@@ -989,6 +1090,12 @@
       "aoi_half_km": 43.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 11.39,
         "W_km": 8.97,
@@ -1055,6 +1162,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -1084,6 +1197,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 21,
       "pair_contam_max": 21,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 10,
+        "max_neighbor_mw": 6.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -1113,6 +1232,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 21,
       "pair_contam_max": 21,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 10,
+        "max_neighbor_mw": 5.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -1142,6 +1267,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 21,
       "pair_contam_max": 21,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 10,
+        "max_neighbor_mw": 6.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -1171,6 +1302,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 21,
       "pair_contam_max": 21,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 11,
+        "max_neighbor_mw": 6.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -1200,6 +1337,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 6,
       "pair_contam_max": 21,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 11,
+        "max_neighbor_mw": 6.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -1287,6 +1430,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 1,
       "pair_contam_max": 30,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 9,
+        "max_neighbor_mw": 7.3
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -1328,35 +1477,6 @@
       }
     },
     {
-      "event_id": "us10002n4w",
-      "place": "57 km WNW of Zangguy, China",
-      "origin_utc": "2015-07-03T01:07:47Z",
-      "epi_lat": 37.4593,
-      "epi_lon": 78.1542,
-      "depth_km": 20.0,
-      "Mw": 6.4,
-      "Mw_type": "Mww",
-      "faulting_class": "reverse",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 50.1,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 10,
-      "pair_contam_max": 10,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
       "event_id": "us10002zzn",
       "place": "37 km N of Cyangugu, Rwanda",
       "origin_utc": "2015-08-07T01:25:02Z",
@@ -1386,6 +1506,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.5
+      },
       "result": {
         "L_km": 13.43,
         "W_km": 9.82,
@@ -1465,6 +1591,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.8
+      },
       "result": {
         "L_km": 8.94,
         "W_km": 7.87,
@@ -1963,6 +2095,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -2004,6 +2142,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 10,
       "pair_contam_max": 11,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.3
+      },
       "result": {
         "L_km": 26.41,
         "W_km": 14.15,
@@ -2100,64 +2244,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us10005i5t",
-      "place": "32 km SE of Muisne, Ecuador",
-      "origin_utc": "2016-05-18T07:57:02Z",
-      "epi_lat": 0.4261,
-      "epi_lon": -79.7899,
-      "depth_km": 16.0,
-      "Mw": 6.7,
-      "Mw_type": "Mww",
-      "faulting_class": "reverse",
-      "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 70.8,
-      "in_sequence": true,
-      "sequence_n_significant": 2,
-      "pair_contam_min": 4,
-      "pair_contam_max": 4,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us10005i9n",
-      "place": "24 km NW of Rosa Zarate, Ecuador",
-      "origin_utc": "2016-05-18T16:46:43Z",
-      "epi_lat": 0.4947,
-      "epi_lon": -79.616,
-      "depth_km": 29.95,
-      "Mw": 6.9,
-      "Mw_type": "Mww",
-      "faulting_class": "reverse",
-      "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 80.0,
-      "in_sequence": true,
-      "sequence_n_significant": 1,
-      "pair_contam_min": 4,
-      "pair_contam_max": 4,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -2219,6 +2311,12 @@
       "aoi_half_km": 24.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 2.33,
         "W_km": 2.18,
@@ -2541,6 +2639,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -2570,6 +2674,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 4,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 6.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -2628,6 +2738,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -2686,6 +2802,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 13,
       "pair_contam_max": 13,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 7,
+        "max_neighbor_mw": 5.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -2708,22 +2830,87 @@
       "Mw_type": "Mww",
       "faulting_class": "normal",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "174",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2016-09-12",
+            "2016-09-24"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.409,
+          "status": "ready"
+        },
+        {
+          "track": "72",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2016-09-17",
+            "2016-09-29"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.358,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 5.7,
+        "W_km": 4.72,
+        "Z_top_km": 10.6,
+        "dip": -63.5,
+        "strike": 285.0,
+        "Mw_post": 5.98,
+        "VR": {
+          "t174_asc": 0.42,
+          "t72_asc": 0.15
+        },
+        "fmech": {
+          "strike": 105.0,
+          "dip": 63.5,
+          "rake": -177.7
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.207,
+        "ess": 185,
+        "geweke": 3.51,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "C",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "C",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "mw_disagreement_review",
+          "bad_track_contaminates",
+          "drop_candidate:t72_asc"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-09T22:43:03Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us10006rrf/REPORT.html"
       }
     },
     {
@@ -2767,6 +2954,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 2,
       "pair_contam_max": 9,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 6.6
+      },
       "result": {
         "L_km": 20.19,
         "W_km": 12.25,
@@ -2835,6 +3028,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 7,
       "pair_contam_max": 9,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 6.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -2887,6 +3086,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 52,
       "pair_contam_max": 58,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 15,
+        "max_neighbor_mw": 6.2
+      },
       "result": {
         "L_km": 34.76,
         "W_km": 16.45,
@@ -2977,6 +3182,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 49,
       "pair_contam_max": 53,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 15,
+        "max_neighbor_mw": 6.5
+      },
       "result": {
         "L_km": 20.19,
         "W_km": 12.25,
@@ -3068,6 +3279,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 51,
       "pair_contam_max": 56,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 16,
+        "max_neighbor_mw": 6.5
+      },
       "result": {
         "L_km": 23.12,
         "W_km": 13.18,
@@ -3159,6 +3376,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 47,
       "pair_contam_max": 52,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 12,
+        "max_neighbor_mw": 6.5
+      },
       "result": {
         "L_km": 11.72,
         "W_km": 9.12,
@@ -3239,6 +3462,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 32,
       "pair_contam_max": 32,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 7,
+        "max_neighbor_mw": 5.7
+      },
       "result": {
         "L_km": 34.76,
         "W_km": 16.45,
@@ -3329,6 +3558,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 49,
       "pair_contam_max": 54,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 12,
+        "max_neighbor_mw": 6.5
+      },
       "result": {
         "L_km": 11.73,
         "W_km": 9.12,
@@ -3419,6 +3654,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 43,
       "pair_contam_max": 49,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 7,
+        "max_neighbor_mw": 5.8
+      },
       "result": {
         "L_km": 8.94,
         "W_km": 7.87,
@@ -3510,6 +3751,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 8,
       "pair_contam_max": 49,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 5.8
+      },
       "result": {
         "L_km": 8.94,
         "W_km": 7.87,
@@ -3601,6 +3848,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 52,
       "pair_contam_max": 61,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 5.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "escalated",
@@ -3742,6 +3995,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 52,
       "pair_contam_max": 60,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 6.9
+      },
       "result": {
         "L_km": 15.38,
         "W_km": 10.57,
@@ -3808,6 +4067,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 11,
       "pair_contam_max": 12,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -3955,6 +4220,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -4013,6 +4284,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 8,
       "pair_contam_max": 8,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -4129,6 +4406,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -4158,6 +4441,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -4396,6 +4685,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 19.42,
         "W_km": 9.19,
@@ -4457,22 +4752,112 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "13",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.349,
+          "status": "ready"
+        },
+        {
+          "track": "20",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.541,
+          "status": "ready"
+        },
+        {
+          "track": "86",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.58,
+          "status": "ready"
+        },
+        {
+          "track": 93,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.631,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 4,
       "aoi_half_km": 42.6,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
+      "result": {
+        "L_km": 20.19,
+        "W_km": 12.25,
+        "Z_top_km": 0.1,
+        "dip": -2.2,
+        "strike": 73.3,
+        "Mw_post": 6.52,
+        "VR": {
+          "t20_dsc": 0.14,
+          "t86_asc": -0.03
+        },
+        "fmech": {
+          "strike": 253.3,
+          "dip": 2.2,
+          "rake": -62.6
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.214,
+        "ess": 150,
+        "geweke": 1140.6,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "mw_disagreement_review"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 2
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_ambiguous",
+      "pipeline_run_utc": "2026-06-09T22:44:18Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us10008ei0/REPORT.html"
       }
     },
     {
@@ -4516,6 +4901,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 7,
       "pair_contam_max": 7,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 5.9
+      },
       "result": {
         "L_km": 8.94,
         "W_km": 7.87,
@@ -4605,6 +4996,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 7,
       "pair_contam_max": 7,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 5.5
+      },
       "result": {
         "L_km": 15.39,
         "W_km": 10.57,
@@ -4693,6 +5090,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 6,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.5
+      },
       "result": {
         "L_km": 13.43,
         "W_km": 9.82,
@@ -4783,6 +5186,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 6,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.8
+      },
       "result": {
         "L_km": 8.94,
         "W_km": 7.87,
@@ -4892,6 +5301,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 25,
       "pair_contam_max": 25,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.4
+      },
       "result": {
         "L_km": 17.63,
         "W_km": 11.38,
@@ -4971,6 +5386,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 25,
       "pair_contam_max": 25,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.4
+      },
       "result": {
         "L_km": 59.86,
         "W_km": 22.09,
@@ -5050,6 +5471,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 15,
       "pair_contam_max": 15,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.4
+      },
       "result": {
         "L_km": 15.23,
         "W_km": 10.46,
@@ -5130,6 +5557,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 15,
       "pair_contam_max": 15,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.4
+      },
       "result": {
         "L_km": 11.54,
         "W_km": 8.43,
@@ -5366,6 +5799,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 12,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -5395,6 +5834,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 5,
       "pair_contam_max": 12,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -5424,6 +5869,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -5523,6 +5974,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 14,
       "pair_contam_max": 14,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 5.3
+      },
       "result": {
         "L_km": 39.82,
         "W_km": 17.71,
@@ -5619,6 +6076,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -5660,6 +6123,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.8
+      },
       "result": {
         "L_km": 34.76,
         "W_km": 16.45,
@@ -5739,6 +6208,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 6.5
+      },
       "result": {
         "L_km": 13.43,
         "W_km": 9.82,
@@ -5806,6 +6281,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 12,
       "pair_contam_max": 12,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 6.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -5835,6 +6316,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 11,
       "pair_contam_max": 11,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 6.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -5864,6 +6351,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 12,
       "pair_contam_max": 12,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -5893,6 +6386,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 12,
       "pair_contam_max": 12,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 7,
+        "max_neighbor_mw": 6.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -5915,22 +6414,99 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "166",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.82,
+          "status": "ready"
+        },
+        {
+          "track": 57,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.843,
+          "status": "ready"
+        },
+        {
+          "track": "93",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.851,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
       "aoi_half_km": 56.8,
       "in_sequence": true,
       "sequence_n_significant": 2,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
-      "result": null,
-      "diagnostics": null,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 6
+      },
+      "result": {
+        "L_km": 20.19,
+        "W_km": 12.25,
+        "Z_top_km": 0.1,
+        "dip": -54.0,
+        "strike": 221.1,
+        "Mw_post": 6.53,
+        "VR": {
+          "t166_dsc": 0.12,
+          "t57_asc": -1.7
+        },
+        "fmech": {
+          "strike": 41.1,
+          "dip": 54.0,
+          "rake": 27.7
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.21,
+        "ess": 150,
+        "geweke": 40.77,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "D"
+        },
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 7
+      },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-09T22:43:52Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us1000bjnz/REPORT.html"
       }
     },
     {
@@ -6067,6 +6643,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -6125,6 +6707,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -6270,6 +6858,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 54,
       "pair_contam_max": 54,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 8,
+        "max_neighbor_mw": 5.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -6417,6 +7011,12 @@
       "sequence_n_significant": 4,
       "pair_contam_min": 4,
       "pair_contam_max": 26,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 8,
+        "max_neighbor_mw": 6.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -6446,6 +7046,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 22,
       "pair_contam_max": 32,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 11,
+        "max_neighbor_mw": 5.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -6475,6 +7081,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 22,
       "pair_contam_max": 32,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 12,
+        "max_neighbor_mw": 5.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -6504,6 +7116,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 2,
       "pair_contam_max": 30,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 9,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -6578,6 +7196,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.3
+      },
       "result": {
         "L_km": 5.06,
         "W_km": 3.27,
@@ -6731,6 +7355,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -6805,6 +7435,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 7,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 26.32,
         "W_km": 14.1,
@@ -6987,6 +7623,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.3
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7074,6 +7716,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 10,
       "pair_contam_max": 11,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 7.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7115,6 +7763,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 33,
       "pair_contam_max": 33,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 14,
+        "max_neighbor_mw": 7.3
+      },
       "result": {
         "L_km": 45.62,
         "W_km": 19.06,
@@ -7291,6 +7945,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 30,
       "pair_contam_max": 31,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 12,
+        "max_neighbor_mw": 7.3
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7349,6 +8009,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7407,6 +8073,12 @@
       "sequence_n_significant": 9,
       "pair_contam_min": 11,
       "pair_contam_max": 50,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7448,6 +8120,12 @@
       "sequence_n_significant": 10,
       "pair_contam_min": 93,
       "pair_contam_max": 93,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 7,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 34.76,
         "W_km": 16.45,
@@ -7527,6 +8205,12 @@
       "sequence_n_significant": 9,
       "pair_contam_min": 100,
       "pair_contam_max": 100,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 11,
+        "max_neighbor_mw": 5.9
+      },
       "result": {
         "L_km": 45.62,
         "W_km": 19.06,
@@ -7623,6 +8307,12 @@
       "sequence_n_significant": 4,
       "pair_contam_min": 19,
       "pair_contam_max": 91,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7652,6 +8342,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 6,
       "pair_contam_max": 23,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 6.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7681,6 +8377,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 18,
       "pair_contam_max": 18,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7710,6 +8412,12 @@
       "sequence_n_significant": 9,
       "pair_contam_min": 21,
       "pair_contam_max": 107,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 9,
+        "max_neighbor_mw": 5.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7739,6 +8447,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 18,
       "pair_contam_max": 88,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7768,6 +8482,12 @@
       "sequence_n_significant": 9,
       "pair_contam_min": 14,
       "pair_contam_max": 77,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -7790,18 +8510,100 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "119",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2015-09-02",
+            "2015-09-26"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.169,
+          "status": "ready"
+        },
+        {
+          "track": "24",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2015-09-08",
+            "2015-10-02"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.166,
+          "status": "ready"
+        },
+        {
+          "track": "46",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2015-09-21",
+            "2015-10-15"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.19,
+          "status": "ready"
+        },
+        {
+          "track": "97",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2015-09-13",
+            "2015-10-07"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.181,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 4,
       "aoi_half_km": 63.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 4,
-      "result": null,
-      "diagnostics": null,
+      "result": {
+        "L_km": 39.66,
+        "W_km": 17.63,
+        "Z_top_km": 14.32,
+        "dip": -80.9,
+        "strike": 258.9,
+        "Mw_post": 6.59,
+        "VR": {
+          "t119_dsc": 0.22,
+          "t24_asc": 0.3
+        },
+        "fmech": {
+          "strike": 78.9,
+          "dip": 80.9,
+          "rake": 179.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.211,
+        "ess": 202,
+        "geweke": 1.81,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "C",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "C"
+        },
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-10T22:02:25Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -8237,6 +9039,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 51,
       "pair_contam_max": 51,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 12,
+        "max_neighbor_mw": 7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8266,6 +9074,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 48,
       "pair_contam_max": 48,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 12,
+        "max_neighbor_mw": 7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8295,6 +9109,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 51,
       "pair_contam_max": 51,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 12,
+        "max_neighbor_mw": 6.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8324,6 +9144,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 52,
       "pair_contam_max": 52,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 13,
+        "max_neighbor_mw": 7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8353,6 +9179,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 50,
       "pair_contam_max": 50,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 13,
+        "max_neighbor_mw": 7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8382,6 +9214,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 30,
       "pair_contam_max": 30,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8411,6 +9249,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 9,
       "pair_contam_max": 13,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8440,6 +9284,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 39,
       "pair_contam_max": 39,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 7,
+        "max_neighbor_mw": 5.7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8469,6 +9319,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 42,
       "pair_contam_max": 42,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 10,
+        "max_neighbor_mw": 7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8498,6 +9354,12 @@
       "sequence_n_significant": 5,
       "pair_contam_min": 11,
       "pair_contam_max": 13,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 6.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8527,6 +9389,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 12,
       "pair_contam_max": 14,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8556,6 +9424,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 10,
       "pair_contam_max": 12,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 6.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8585,6 +9459,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 17,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8614,6 +9494,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 5,
       "pair_contam_max": 17,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8643,6 +9529,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 1,
       "pair_contam_max": 14,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 6.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8780,6 +9672,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 20,
       "pair_contam_max": 20,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8838,6 +9736,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 20,
       "pair_contam_max": 20,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 6.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -8946,6 +9850,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 10,
       "pair_contam_max": 10,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -9095,6 +10005,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 2,
       "pair_contam_max": 9,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 6.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -9182,35 +10098,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 6,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us20008jcc",
-      "place": "24 km WNW of Behram, Turkey",
-      "origin_utc": "2017-02-12T13:48:16Z",
-      "epi_lat": 39.6004,
-      "epi_lon": 26.0884,
-      "depth_km": 6.01,
-      "Mw": 5.3,
-      "Mw_type": "Mww",
-      "faulting_class": "oblique",
-      "magnitude_band": "4p5_to_5p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 26.8,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 1,
-      "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -9339,6 +10232,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 39.82,
         "W_km": 17.71,
@@ -9507,6 +10406,12 @@
       "aoi_half_km": 44.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.3
+      },
       "result": {
         "L_km": 26.11,
         "W_km": 13.99,
@@ -9630,6 +10535,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -9700,6 +10611,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 30.35,
         "W_km": 15.28,
@@ -9767,6 +10684,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 7,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -9796,6 +10719,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -9847,22 +10776,89 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 57,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.788,
+          "status": "ready"
+        },
+        {
+          "track": "93",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.847,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 41.1,
       "in_sequence": true,
       "sequence_n_significant": 2,
       "pair_contam_min": 5,
       "pair_contam_max": 6,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 7,
+        "max_neighbor_mw": 6.1
+      },
+      "result": {
+        "L_km": 6.43,
+        "W_km": 4.15,
+        "Z_top_km": 1.27,
+        "dip": -83.2,
+        "strike": 266.5,
+        "Mw_post": 5.81,
+        "VR": {
+          "t166_dsc": 0.72
+        },
+        "fmech": {
+          "strike": 86.5,
+          "dip": 83.2,
+          "rake": 148.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.209,
+        "ess": 469,
+        "geweke": 1.99,
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "A",
+          "vr_mean": "A",
+          "railed": "A",
+          "delta_mw": "B",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "demoted_in_sequence"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 8
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-10T17:58:50Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000c3ag/REPORT.html"
       }
     },
     {
@@ -9876,22 +10872,89 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 57,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.788,
+          "status": "ready"
+        },
+        {
+          "track": "93",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.847,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 53.8,
       "in_sequence": true,
       "sequence_n_significant": 2,
       "pair_contam_min": 5,
       "pair_contam_max": 6,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 7,
+        "max_neighbor_mw": 6.1
+      },
+      "result": {
+        "L_km": 6.58,
+        "W_km": 4.25,
+        "Z_top_km": 1.19,
+        "dip": -84.1,
+        "strike": 268.1,
+        "Mw_post": 5.78,
+        "VR": {
+          "t166_dsc": 0.69
+        },
+        "fmech": {
+          "strike": 88.1,
+          "dip": 84.1,
+          "rake": 147.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.2,
+        "ess": 600,
+        "geweke": 1.5,
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "A",
+          "acceptance": "C",
+          "geweke": "A",
+          "vr_min": "A",
+          "vr_mean": "B",
+          "railed": "A",
+          "delta_mw": "B",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "demoted_in_sequence"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": true,
+        "sequence_n_ge_5": 8
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-09T22:40:27Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000c3mi/REPORT.html"
       }
     },
     {
@@ -9912,6 +10975,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 7,
       "pair_contam_max": 10,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10078,6 +11147,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 4,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10107,6 +11182,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 76,
       "pair_contam_max": 86,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 22,
+        "max_neighbor_mw": 5.7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10136,6 +11217,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 46,
       "pair_contam_max": 48,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 8,
+        "max_neighbor_mw": 5.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10165,6 +11252,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10194,6 +11287,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 69,
       "pair_contam_max": 78,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 19,
+        "max_neighbor_mw": 5.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10223,6 +11322,12 @@
       "sequence_n_significant": 4,
       "pair_contam_min": 85,
       "pair_contam_max": 108,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 30,
+        "max_neighbor_mw": 5.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10252,6 +11357,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 85,
       "pair_contam_max": 98,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 23,
+        "max_neighbor_mw": 5.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10281,6 +11392,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 57,
       "pair_contam_max": 87,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 23,
+        "max_neighbor_mw": 6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10310,6 +11427,12 @@
       "sequence_n_significant": 4,
       "pair_contam_min": 50,
       "pair_contam_max": 109,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 33,
+        "max_neighbor_mw": 6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10339,6 +11462,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 49,
       "pair_contam_max": 65,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 29,
+        "max_neighbor_mw": 5.7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10368,6 +11497,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 49,
       "pair_contam_max": 65,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 34,
+        "max_neighbor_mw": 6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10397,6 +11532,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10426,6 +11567,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10602,6 +11749,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -10885,6 +12038,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 9,
       "pair_contam_max": 10,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -11073,6 +12232,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.6
+      },
       "result": {
         "L_km": 15.39,
         "W_km": 10.57,
@@ -11438,6 +12603,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.5
+      },
       "result": {
         "L_km": 10.23,
         "W_km": 8.47,
@@ -11504,6 +12675,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 11,
       "pair_contam_max": 11,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 5.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -11533,6 +12710,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 11,
       "pair_contam_max": 11,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 5.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -11591,6 +12774,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 42,
       "pair_contam_max": 45,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -11630,6 +12819,12 @@
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 23.1,
         "W_km": 13.17,
@@ -11698,6 +12893,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 38,
       "pair_contam_max": 38,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 17,
+        "max_neighbor_mw": 5.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -11727,6 +12928,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -11869,6 +13076,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 10,
       "pair_contam_max": 15,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.3
+      },
       "result": {
         "L_km": 13.41,
         "W_km": 9.81,
@@ -12036,6 +13249,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.4
+      },
       "result": {
         "L_km": 50.21,
         "W_km": 19.72,
@@ -12103,6 +13322,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -12153,6 +13378,12 @@
       "aoi_half_km": 63.1,
       "in_sequence": true,
       "sequence_n_significant": 2,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 16,
+        "max_neighbor_mw": 6.5
+      },
       "result": {
         "L_km": 33.62,
         "W_km": 14.95,
@@ -12222,6 +13453,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 30,
       "pair_contam_max": 30,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 15,
+        "max_neighbor_mw": 6.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -12351,6 +13588,12 @@
       "aoi_half_km": 79.4,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 8,
+        "max_neighbor_mw": 5.6
+      },
       "result": {
         "L_km": 14.93,
         "W_km": 5.86,
@@ -12432,6 +13675,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 46,
       "pair_contam_max": 55,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 8,
+        "max_neighbor_mw": 5.4
+      },
       "result": {
         "L_km": 10.24,
         "W_km": 8.47,
@@ -12520,6 +13769,12 @@
       "aoi_half_km": 61.5,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.3
+      },
       "result": {
         "L_km": 13.71,
         "W_km": 8.85,
@@ -12609,6 +13864,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 10.24,
         "W_km": 8.47,
@@ -12706,6 +13967,12 @@
       "aoi_half_km": 80.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 12.94,
         "W_km": 5.4,
@@ -12876,6 +14143,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.5
+      },
       "result": {
         "L_km": 8.31,
         "W_km": 5.71,
@@ -13082,6 +14355,12 @@
       "aoi_half_km": 67.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 11.93,
         "W_km": 6.39,
@@ -13294,6 +14573,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -13516,6 +14801,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 6,
       "pair_contam_max": 13,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -13545,6 +14836,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 6,
       "pair_contam_max": 13,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -13681,6 +14978,12 @@
       "aoi_half_km": 80.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.4
+      },
       "result": {
         "L_km": 22.52,
         "W_km": 9.41,
@@ -14060,6 +15363,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -14296,6 +15605,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 6.3
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -14325,6 +15640,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -14354,6 +15675,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -14383,6 +15710,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -14412,6 +15745,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 6,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -14782,6 +16121,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 6,
       "pair_contam_max": 6,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -14804,22 +16149,84 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "142",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-03-07",
+            "2022-03-19"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.163,
+          "status": "ready"
+        },
+        {
+          "track": "164",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2022-03-08",
+            "2022-03-20"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.172,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 70.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 4,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "result": {
+        "L_km": 35.6,
+        "W_km": 14.87,
+        "Z_top_km": 12.3,
+        "dip": -55.5,
+        "strike": 64.9,
+        "Mw_post": 6.38,
+        "VR": {
+          "t142_asc": 0.19,
+          "t164_dsc": 0.17
+        },
+        "fmech": {
+          "strike": 244.9,
+          "dip": 55.5,
+          "rake": 6.4
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.205,
+        "ess": 194,
+        "geweke": 1.56,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "mw_disagreement_review"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 3
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_multiple_critical_railed",
+      "pipeline_run_utc": "2026-06-10T21:58:26Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000h48e/REPORT.html"
       }
     },
     {
@@ -15114,6 +16521,12 @@
       "aoi_half_km": 31.6,
       "in_sequence": true,
       "sequence_n_significant": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 6
+      },
       "result": {
         "L_km": 10.83,
         "W_km": 6.99,
@@ -15201,6 +16614,12 @@
       "aoi_half_km": 50.6,
       "in_sequence": true,
       "sequence_n_significant": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.7
+      },
       "result": {
         "L_km": 15.63,
         "W_km": 10.09,
@@ -15385,6 +16804,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -15459,6 +16884,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 10.2,
         "W_km": 8.45,
@@ -15891,6 +17322,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -15992,6 +17429,12 @@
       "aoi_half_km": 28.2,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 9.36,
         "W_km": 6.43,
@@ -16200,6 +17643,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 32,
       "pair_contam_max": 34,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -16258,6 +17707,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -16337,6 +17792,12 @@
       "aoi_half_km": 44.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.5
+      },
       "result": {
         "L_km": 14.49,
         "W_km": 7.76,
@@ -16434,6 +17895,12 @@
       "aoi_half_km": 80.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 17.11,
         "W_km": 6.31,
@@ -16512,6 +17979,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 6,
       "pair_contam_max": 6,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.6
+      },
       "result": {
         "L_km": 23.12,
         "W_km": 13.18,
@@ -16603,6 +18076,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 6,
       "pair_contam_max": 6,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 6.2
+      },
       "result": {
         "L_km": 6.88,
         "W_km": 5.7,
@@ -16814,6 +18293,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 11.71,
         "W_km": 9.11,
@@ -16840,8 +18325,8 @@
           "ess": "B",
           "acceptance": "B",
           "geweke": "C",
-          "vr_min": "B",
-          "vr_mean": "B",
+          "vr_min": "D",
+          "vr_mean": "C",
           "railed": "C",
           "delta_mw": "D",
           "delta_strike": "C"
@@ -16900,6 +18385,12 @@
       "aoi_half_km": 49.1,
       "in_sequence": true,
       "sequence_n_significant": 3,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 9,
+        "max_neighbor_mw": 6.3
+      },
       "result": {
         "L_km": 25.18,
         "W_km": 13.49,
@@ -16988,6 +18479,12 @@
       "aoi_half_km": 75.9,
       "in_sequence": true,
       "sequence_n_significant": 3,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 9,
+        "max_neighbor_mw": 6.3
+      },
       "result": {
         "L_km": 9.42,
         "W_km": 5.05,
@@ -17064,6 +18561,12 @@
       "aoi_half_km": 35.3,
       "in_sequence": true,
       "sequence_n_significant": 4,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 9,
+        "max_neighbor_mw": 6.3
+      },
       "result": {
         "L_km": 15.97,
         "W_km": 10.97,
@@ -17166,6 +18669,12 @@
       "sequence_n_significant": 3,
       "pair_contam_min": 9,
       "pair_contam_max": 19,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 10,
+        "max_neighbor_mw": 6.3
+      },
       "result": {
         "L_km": 13.96,
         "W_km": 7.48,
@@ -17278,6 +18787,12 @@
       "aoi_half_km": 71.5,
       "in_sequence": true,
       "sequence_n_significant": 3,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 10,
+        "max_neighbor_mw": 6.3
+      },
       "result": {
         "L_km": 8.12,
         "W_km": 4.35,
@@ -17479,6 +18994,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 24,
       "pair_contam_max": 28,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 6.2
+      },
       "result": {
         "L_km": 5.15,
         "W_km": 4.83,
@@ -17558,6 +19079,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 14.11,
         "W_km": 9.69,
@@ -17619,22 +19146,89 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "4p5_to_5p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "42",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.51,
+          "status": "ready"
+        },
+        {
+          "track": 49,
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.435,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 26.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.5
+      },
+      "result": {
+        "L_km": 1.99,
+        "W_km": 1.99,
+        "Z_top_km": 4.08,
+        "dip": -100.5,
+        "strike": 299.1,
+        "Mw_post": 5.63,
+        "VR": {
+          "t42_asc": 0.79
+        },
+        "fmech": {
+          "strike": 299.1,
+          "dip": 79.5,
+          "rake": 132.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.198,
+        "ess": 194,
+        "geweke": 5.68,
+        "zone": "YELLOW",
+        "verdict": "PASS",
+        "grades": {
+          "ess": "B",
+          "acceptance": "C",
+          "geweke": "D",
+          "vr_min": "A",
+          "vr_mean": "A",
+          "railed": "A",
+          "delta_mw": "C",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "mw_disagreement_review"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": true,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-10T05:38:36Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000mjux/REPORT.html"
       }
     },
     {
@@ -17655,6 +19249,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 6,
       "pair_contam_max": 6,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 6.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -17705,6 +19305,12 @@
       "aoi_half_km": 53.2,
       "in_sequence": true,
       "sequence_n_significant": 3,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 20,
+        "max_neighbor_mw": 6.1
+      },
       "result": {
         "L_km": 20.03,
         "W_km": 12.16,
@@ -18050,6 +19656,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 45,
       "pair_contam_max": 45,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 5.7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -18072,22 +19684,80 @@
       "Mw_type": "Mww",
       "faulting_class": "normal",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "79",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2024-12-29",
+            "2025-01-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.518,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 38.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 46,
       "pair_contam_max": 46,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 7,
+        "max_neighbor_mw": 5.5
+      },
+      "result": {
+        "L_km": 11.73,
+        "W_km": 9.12,
+        "Z_top_km": 2.19,
+        "dip": -45.5,
+        "strike": 211.3,
+        "Mw_post": 6.59,
+        "VR": {
+          "t79_dsc": 0.57
+        },
+        "fmech": {
+          "strike": 31.3,
+          "dip": 45.5,
+          "rake": 135.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.207,
+        "ess": 1236,
+        "geweke": 1.36,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "B",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_critical_rail",
+          "normal_fault_dual_plane_ambiguous"
+        ],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 10
+      },
+      "status": "escalated",
+      "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
+      "pipeline_run_utc": "2026-06-09T22:42:39Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000phrk/REPORT.html"
       }
     },
     {
@@ -18345,6 +20015,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -18489,6 +20165,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -18778,6 +20460,12 @@
       "aoi_half_km": 49.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 26.16,
         "W_km": 14.02,
@@ -18983,6 +20671,12 @@
       "aoi_half_km": 63.7,
       "in_sequence": true,
       "sequence_n_significant": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 6.3
+      },
       "result": {
         "L_km": 12.77,
         "W_km": 7.28,
@@ -19072,6 +20766,12 @@
       "aoi_half_km": 49.1,
       "in_sequence": true,
       "sequence_n_significant": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 6.2
+      },
       "result": {
         "L_km": 26.43,
         "W_km": 14.16,
@@ -19138,6 +20838,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 28,
       "pair_contam_max": 29,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 9,
+        "max_neighbor_mw": 5.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -19196,6 +20902,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -19225,6 +20937,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 9,
+        "max_neighbor_mw": 6.9
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -19387,6 +21105,12 @@
       "aoi_half_km": 53.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 16.52,
         "W_km": 10.66,
@@ -19535,22 +21259,90 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "14",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-11-19",
+            "2025-11-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.865,
+          "status": "ready"
+        },
+        {
+          "track": "79",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-11-18",
+            "2025-11-30"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.786,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 39.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.4
+      },
+      "result": {
+        "L_km": 5.58,
+        "W_km": 4.91,
+        "Z_top_km": 0.01,
+        "dip": -43.4,
+        "strike": 315.5,
+        "Mw_post": 5.42,
+        "VR": {
+          "t14_asc": 0.4,
+          "t79_dsc": 0.28
+        },
+        "fmech": {
+          "strike": 135.5,
+          "dip": 43.4,
+          "rake": -147.6
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.206,
+        "ess": 164,
+        "geweke": 5.42,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "C",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "demoted_critical_rail"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-10T16:48:07Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000rq2x/REPORT.html"
       }
     },
     {
@@ -19564,22 +21356,88 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "4p5_to_5p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "14",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-11-13",
+            "2025-11-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.812,
+          "status": "ready"
+        },
+        {
+          "track": "79",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-11-18",
+            "2025-11-30"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.807,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 34.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.5
+      },
+      "result": {
+        "L_km": 7.68,
+        "W_km": 7.2,
+        "Z_top_km": 28.17,
+        "dip": -21.8,
+        "strike": 29.5,
+        "Mw_post": 6.26,
+        "VR": {
+          "t14_asc": 0.34,
+          "t79_dsc": 0.12
+        },
+        "fmech": {
+          "strike": 209.5,
+          "dip": 21.8,
+          "rake": 177.5
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.203,
+        "ess": 108,
+        "geweke": 2.27,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "C",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [],
+        "catalog_disagreement": true,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-09T22:43:26Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000rq2y/REPORT.html"
       }
     },
     {
@@ -19632,6 +21490,12 @@
       "aoi_half_km": 80.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.8
+      },
       "result": {
         "L_km": 68.57,
         "W_km": 6.96,
@@ -19730,6 +21594,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 42,
       "pair_contam_max": 43,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 17,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -19959,6 +21829,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -20067,6 +21943,12 @@
       "aoi_half_km": 23.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 11.71,
         "W_km": 9.11,
@@ -20261,6 +22143,12 @@
       "aoi_half_km": 19.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 1.48,
         "W_km": 1.68,
@@ -20328,6 +22216,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 12,
       "pair_contam_max": 14,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 5.7
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -20618,6 +22512,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -20647,6 +22547,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -20854,6 +22760,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -20895,6 +22807,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 45.62,
         "W_km": 19.06,
@@ -21013,6 +22931,12 @@
       "aoi_half_km": 50.1,
       "in_sequence": true,
       "sequence_n_significant": 2,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 17,
+        "max_neighbor_mw": 6.6
+      },
       "result": {
         "L_km": 30.34,
         "W_km": 15.28,
@@ -21131,6 +23055,12 @@
       "aoi_half_km": 80.0,
       "in_sequence": true,
       "sequence_n_significant": 2,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 15,
+        "max_neighbor_mw": 6.6
+      },
       "result": {
         "L_km": 19.16,
         "W_km": 9.06,
@@ -21197,6 +23127,12 @@
       "sequence_n_significant": 2,
       "pair_contam_min": 70,
       "pair_contam_max": 70,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.3
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -21348,6 +23284,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 6.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -21398,6 +23340,12 @@
       "aoi_half_km": 59.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.7
+      },
       "result": {
         "L_km": 8.54,
         "W_km": 4.87,
@@ -21497,6 +23445,12 @@
       "aoi_half_km": 50.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.5
+      },
       "result": {
         "L_km": 25.02,
         "W_km": 12.6,
@@ -21563,6 +23517,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 15,
       "pair_contam_max": 16,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 5.3
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -21602,6 +23562,12 @@
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 5.7
+      },
       "result": {
         "L_km": 15.5,
         "W_km": 10.01,
@@ -21680,6 +23646,12 @@
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 6
+      },
       "result": {
         "L_km": 11.71,
         "W_km": 9.11,
@@ -21946,6 +23918,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 16,
       "pair_contam_max": 21,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 10,
+        "max_neighbor_mw": 6.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -22257,6 +24235,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 6
+      },
       "result": {
         "L_km": 6.84,
         "W_km": 5.0,
@@ -22357,6 +24341,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.8
+      },
       "result": {
         "L_km": 5.54,
         "W_km": 3.58,
@@ -22961,6 +24951,12 @@
       "aoi_half_km": 67.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 10.64,
         "W_km": 5.7,
@@ -23683,6 +25679,12 @@
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 23.09,
         "W_km": 13.16,
@@ -23783,6 +25785,12 @@
       "aoi_half_km": 50.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.3
+      },
       "result": {
         "L_km": 30.34,
         "W_km": 15.28,
@@ -23892,6 +25900,12 @@
       "aoi_half_km": 75.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 5.8
+      },
       "result": {
         "L_km": 12.95,
         "W_km": 6.94,
@@ -23994,6 +26008,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 6.3
+      },
       "result": {
         "L_km": 10.24,
         "W_km": 8.47,
@@ -24081,6 +26101,12 @@
       "aoi_half_km": 38.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 9.97,
         "W_km": 7.76,
@@ -24196,6 +26222,12 @@
       "aoi_half_km": 28.5,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.3
+      },
       "result": {
         "L_km": 7.78,
         "W_km": 7.29,
@@ -24261,6 +26293,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 9,
       "pair_contam_max": 9,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -24290,6 +26328,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.3
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -24813,6 +26857,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 19.85,
         "W_km": 10.0,
@@ -25051,6 +27101,12 @@
       "aoi_half_km": 75.2,
       "in_sequence": true,
       "sequence_n_significant": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 10.64,
         "W_km": 5.36,
@@ -25137,6 +27193,12 @@
       "aoi_half_km": 75.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 19.08,
         "W_km": 8.48,
@@ -25429,6 +27491,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 18,
       "pair_contam_max": 24,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -25458,6 +27526,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 23,
       "pair_contam_max": 24,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.3
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -25510,6 +27584,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 9.33,
         "W_km": 7.26,
@@ -25666,6 +27746,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 5.4
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -25695,6 +27781,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 12,
       "pair_contam_max": 12,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.3
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -25747,6 +27839,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.3
+      },
       "result": {
         "L_km": 11.29,
         "W_km": 8.26,
@@ -25848,6 +27946,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 6,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.9
+      },
       "result": {
         "L_km": 10.12,
         "W_km": 8.38,
@@ -25948,6 +28052,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 6,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.6
+      },
       "result": {
         "L_km": 15.38,
         "W_km": 10.57,
@@ -26360,6 +28470,12 @@
       "aoi_half_km": 80.0,
       "in_sequence": true,
       "sequence_n_significant": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 9,
+        "max_neighbor_mw": 6.5
+      },
       "result": {
         "L_km": 17.12,
         "W_km": 6.32,
@@ -26427,6 +28543,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.3
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -26568,6 +28690,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 20,
       "pair_contam_max": 20,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.8
+      },
       "result": {
         "L_km": 15.07,
         "W_km": 10.35,
@@ -26647,6 +28775,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 20,
       "pair_contam_max": 20,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 3,
+        "max_neighbor_mw": 5.9
+      },
       "result": {
         "L_km": 5.22,
         "W_km": 3.82,
@@ -26818,6 +28952,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 11.73,
         "W_km": 9.12,
@@ -27216,6 +29356,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 17.22,
         "W_km": 13.4,
@@ -27294,6 +29440,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.6
+      },
       "result": {
         "L_km": 6.28,
         "W_km": 4.31,
@@ -27374,6 +29526,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.4
+      },
       "result": {
         "L_km": 6.88,
         "W_km": 5.69,
@@ -27589,6 +29747,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 5.33,
         "W_km": 4.41,
@@ -27669,6 +29833,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": {
         "L_km": 34.36,
         "W_km": 16.26,
@@ -27787,6 +29957,12 @@
       "aoi_half_km": 39.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 22.79,
         "W_km": 12.99,
@@ -27885,6 +30061,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -27926,6 +30108,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.6
+      },
       "result": {
         "L_km": 15.71,
         "W_km": 9.53,
@@ -28005,6 +30193,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 6.1
+      },
       "result": {
         "L_km": 10.23,
         "W_km": 8.47,
@@ -28085,6 +30279,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 11.57,
         "W_km": 9.0,
@@ -28152,6 +30352,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -28181,6 +30387,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.6
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -28540,6 +30752,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 4,
       "pair_contam_max": 4,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.1
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -28581,6 +30799,12 @@
       "sequence_n_significant": 6,
       "pair_contam_min": 242,
       "pair_contam_max": 242,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 4,
+        "max_neighbor_mw": 6
+      },
       "result": {
         "L_km": 18.99,
         "W_km": 8.44,
@@ -28660,6 +30884,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 65,
       "pair_contam_max": 65,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 6
+      },
       "result": {
         "L_km": 59.56,
         "W_km": 21.98,
@@ -28864,6 +31094,12 @@
       "aoi_half_km": 80.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 12,
+        "max_neighbor_mw": 5.8
+      },
       "result": {
         "L_km": 35.02,
         "W_km": 15.08,
@@ -28982,6 +31218,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 12,
       "pair_contam_max": 16,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 12,
+        "max_neighbor_mw": 7
+      },
       "result": {
         "L_km": 6.09,
         "W_km": 4.74,
@@ -29172,6 +31414,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.4
+      },
       "result": {
         "L_km": 8.38,
         "W_km": 6.94,
@@ -29238,6 +31486,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -29279,6 +31533,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 2,
+        "max_neighbor_mw": 5.1
+      },
       "result": {
         "L_km": 7.73,
         "W_km": 7.24,
@@ -29701,6 +31961,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -29975,6 +32241,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 6.8
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -29997,18 +32269,69 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "6p5_to_7",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "113",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2024-11-01",
+            "2024-11-13"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.171,
+          "status": "ready"
+        },
+        {
+          "track": "150",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2024-11-03",
+            "2024-11-15"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.176,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 80.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 2,
       "pair_contam_max": 2,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 40.02,
+        "W_km": 15.72,
+        "Z_top_km": 4.39,
+        "dip": -18.7,
+        "strike": 61.1,
+        "Mw_post": 6.31,
+        "VR": {
+          "t113_dsc": 0.24,
+          "t150_asc": 0.45
+        },
+        "fmech": {
+          "strike": 241.1,
+          "dip": 18.7,
+          "rake": 168.1
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 334,
+        "geweke": 1.62,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-10T22:06:41Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -30200,6 +32523,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 3,
       "pair_contam_max": 3,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -30261,6 +32590,12 @@
       "aoi_half_km": 80.0,
       "in_sequence": true,
       "sequence_n_significant": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 7.7
+      },
       "result": {
         "L_km": 76.77,
         "W_km": 32.08,
@@ -30675,6 +33010,12 @@
       "aoi_half_km": 53.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 5,
+        "max_neighbor_mw": 5.3
+      },
       "result": {
         "L_km": 12.14,
         "W_km": 7.84,
@@ -30775,6 +33116,12 @@
       "sequence_n_significant": 1,
       "pair_contam_min": 9,
       "pair_contam_max": 15,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 6,
+        "max_neighbor_mw": 6
+      },
       "result": {
         "L_km": 10.38,
         "W_km": 8.59,
@@ -30898,6 +33245,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -30948,6 +33301,12 @@
       "aoi_half_km": 50.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": {
         "L_km": 30.34,
         "W_km": 15.28,
@@ -31478,6 +33837,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.2
+      },
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -31548,6 +33913,58 @@
       }
     },
     {
+      "event_id": "us7000sp82",
+      "place": "106 km SW of Turpan, China",
+      "origin_utc": "2026-05-29T06:55:52Z",
+      "epi_lat": 42.2295,
+      "epi_lon": 88.3187,
+      "depth_km": 10.0,
+      "Mw": 5.3,
+      "Mw_type": "Mww",
+      "faulting_class": "unknown",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [
+        {
+          "track": "19",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2026-05-19",
+            "2026-05-31"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.918,
+          "status": "ready"
+        },
+        {
+          "track": "41",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2026-05-26",
+            "2026-06-07"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.874,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": 21.2,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 0,
+      "pair_contam_max": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: signal_below_threshold",
+      "pipeline_run_utc": "2026-06-10T00:18:04Z",
+      "stale": false,
+      "has_report": false,
+      "links": {
+        "report": null
+      }
+    },
+    {
       "event_id": "usb000sl3m",
       "place": "1 km E of San Pedro Huamelula, Mexico",
       "origin_utc": "2014-10-11T16:46:02Z",
@@ -31596,13 +34013,13 @@
       "pair_contam_max": 3,
       "result": null,
       "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "status": "escalated",
+      "escalation_reason": "Escalation: no_licsar_tracks",
+      "pipeline_run_utc": "2026-06-09T22:44:26Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/usb000smff/REPORT.html"
       }
     },
     {
@@ -31664,6 +34081,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "minor",
+        "separability": "single",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.6
+      },
       "result": {
         "L_km": 15.39,
         "W_km": 10.57,
@@ -31743,6 +34166,12 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "separable",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.9
+      },
       "result": {
         "L_km": 10.24,
         "W_km": 8.47,

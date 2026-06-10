@@ -523,15 +523,16 @@ function buildGlobe(){
     const t=Date.parse(e.origin_utc);
     const props={
       id: e.event_id,
-      position: Cesium.Cartesian3.fromDegrees(lon, lat, 0),
+      // Float marker 8 km above ground so it sits on top of nearby mountains
+      // without disabling depth test (which would make back-of-globe markers
+      // show through, looking like a transparent globe).
+      position: Cesium.Cartesian3.fromDegrees(lon, lat, 8000),
       point:{
         pixelSize: size,
         color: zoneColor(z),
         outlineColor: Cesium.Color.WHITE,
         outlineWidth: 1.5,
-        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
-        // Always render on top — prevents marker from being occluded by mountains
-        disableDepthTestDistance: Number.POSITIVE_INFINITY,
+        heightReference: Cesium.HeightReference.RELATIVE_TO_GROUND,
         // Scale by distance so far-away markers shrink slightly (less clutter)
         scaleByDistance: new Cesium.NearFarScalar(1.5e5, 1.0, 3e7, 0.55),
       },
