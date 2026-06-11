@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T09:35:51Z",
+  "generated_utc": "2026-06-11T09:39:14Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 572,
   "events": [
@@ -8626,11 +8626,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T09:25:37Z",
+      "pipeline_run_utc": "2026-06-11T09:39:10Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us20003kkw/REPORT.html"
       }
     },
     {
@@ -10600,16 +10600,28 @@
         "acceptance": 0.207,
         "ess": 370,
         "geweke": 1.61,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "mw_disagreement_review",
+          "normal_fault_dual_plane_ambiguous"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-11T09:35:48Z",
       "stale": false,
@@ -10915,8 +10927,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "18",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2017-09-14",
+            "2017-09-26"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.172,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 28.2,
       "in_sequence": false,
       "sequence_n_significant": 0,
