@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T06:41:46Z",
+  "generated_utc": "2026-06-11T07:13:01Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 572,
   "events": [
@@ -5297,18 +5297,57 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "69",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2017-04-15",
+            "2017-04-27"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.182,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 31.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 15.29,
+        "W_km": 10.51,
+        "Z_top_km": 27.12,
+        "dip": -64.6,
+        "strike": 85.2,
+        "Mw_post": 6.53,
+        "VR": {
+          "t69_dsc": 0.58
+        },
+        "fmech": {
+          "strike": 265.2,
+          "dip": 64.6,
+          "rake": 162.7
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.209,
+        "ess": 288,
+        "geweke": 4.22,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-11T07:12:58Z",
       "stale": false,
       "has_report": false,
       "links": {
