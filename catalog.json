@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-11T02:23:31Z",
+  "generated_utc": "2026-06-11T02:34:32Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 578,
+  "n_events": 577,
   "events": [
     {
       "event_id": "ci38443183",
@@ -2012,9 +2012,20 @@
           "backend": "sp2",
           "median_coh": 0.172,
           "status": "ready"
+        },
+        {
+          "track": "32",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2015-12-13",
+            "2016-01-06"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.181,
+          "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 39.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -6691,6 +6702,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "134",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2018-05-02",
+            "2018-05-14"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.159,
+          "status": "ready"
+        },
+        {
           "track": "69",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -6702,7 +6724,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 35.5,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -10447,35 +10469,6 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us2000atjv",
-      "place": "7 km NNE of Ixtepec, Mexico",
-      "origin_utc": "2017-09-23T12:53:01Z",
-      "epi_lat": 16.6258,
-      "epi_lon": -95.0778,
-      "depth_km": 10.0,
-      "Mw": 6.1,
-      "Mw_type": "Mww",
-      "faulting_class": "normal",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 53.2,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 6,
-      "pair_contam_max": 7,
       "result": null,
       "diagnostics": null,
       "status": "partial",
