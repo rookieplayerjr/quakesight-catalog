@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T19:12:18Z",
+  "generated_utc": "2026-06-11T19:47:26Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -17589,18 +17589,57 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "69",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2022-05-13",
+            "2022-05-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.162,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 25.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 8.64,
+        "W_km": 6.32,
+        "Z_top_km": 3.08,
+        "dip": -46.5,
+        "strike": 122.9,
+        "Mw_post": 5.79,
+        "VR": {
+          "t69_asc": 0.39
+        },
+        "fmech": {
+          "strike": 302.9,
+          "dip": 46.5,
+          "rake": -38.5
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.212,
+        "ess": 271,
+        "geweke": 4.22,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-11T19:47:23Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -21171,8 +21210,20 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "119",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2025-03-13",
+            "2025-03-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.165,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 25.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
