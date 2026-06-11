@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T08:01:59Z",
+  "generated_utc": "2026-06-11T08:13:53Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 572,
   "events": [
@@ -7411,16 +7411,27 @@
         "acceptance": 0.197,
         "ess": 164,
         "geweke": 6.19,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "B",
+          "acceptance": "C",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
-        "np_likely_wrong": false,
+        "np_likely_wrong": true,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-11T08:01:56Z",
       "stale": false,
@@ -21266,11 +21277,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 7.61,
+        "W_km": 4.91,
+        "Z_top_km": 21.36,
+        "dip": -8.4,
+        "strike": 204.6,
+        "Mw_post": 6.26,
+        "VR": {
+          "t105_dsc": 0.01,
+          "t54_asc": 0.46
+        },
+        "fmech": {
+          "strike": 24.6,
+          "dip": 8.4,
+          "rake": 49.8
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.204,
+        "ess": 231,
+        "geweke": 2.96,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-11T08:13:50Z",
       "stale": false,
       "has_report": false,
       "links": {
