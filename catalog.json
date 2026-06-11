@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T15:24:10Z",
+  "generated_utc": "2026-06-11T15:24:36Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -2456,22 +2456,33 @@
         "acceptance": 0.205,
         "ess": 182,
         "geweke": 13.11,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "C",
+          "vr_mean": "D",
+          "railed": "A",
+          "delta_mw": "B",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T15:24:07Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-11T15:24:33Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us10005ftw/REPORT.html"
       }
     },
     {
