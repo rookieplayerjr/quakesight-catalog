@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T09:25:40Z",
+  "generated_utc": "2026-06-11T09:35:51Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 572,
   "events": [
@@ -8604,16 +8604,27 @@
         "acceptance": 0.206,
         "ess": 205,
         "geweke": 2.43,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "C",
+          "delta_mw": "C",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-11T09:25:37Z",
       "stale": false,
@@ -10568,11 +10579,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 15.35,
+        "W_km": 10.54,
+        "Z_top_km": 7.73,
+        "dip": -77.8,
+        "strike": 269.2,
+        "Mw_post": 6.23,
+        "VR": {
+          "t123_dsc": -0.18,
+          "t72_asc": -0.04
+        },
+        "fmech": {
+          "strike": 89.2,
+          "dip": 77.8,
+          "rake": 19.7
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.207,
+        "ess": 370,
+        "geweke": 1.61,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-11T09:35:48Z",
       "stale": false,
       "has_report": false,
       "links": {
