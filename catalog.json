@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-11T11:05:25Z",
+  "generated_utc": "2026-06-11T11:18:39Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 571,
+  "n_events": 570,
   "events": [
     {
       "event_id": "ci38443183",
@@ -25336,35 +25336,6 @@
       "has_report": true,
       "links": {
         "report": "events/us70008cld/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us70008hvb",
-      "place": "73 km WSW of Poso, Indonesia",
-      "origin_utc": "2020-03-28T15:43:17Z",
-      "epi_lat": -1.7144,
-      "epi_lon": 120.1775,
-      "depth_km": 10.0,
-      "Mw": 5.9,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 42.3,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 0,
-      "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
       }
     },
     {
