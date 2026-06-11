@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T16:18:12Z",
+  "generated_utc": "2026-06-11T16:49:22Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -11114,18 +11114,69 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "68",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2017-07-26",
+            "2017-08-07"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.165,
+          "status": "ready"
+        },
+        {
+          "track": "90",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2017-07-27",
+            "2017-08-08"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.17,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 25.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 13.34,
+        "W_km": 9.75,
+        "Z_top_km": 26.64,
+        "dip": -99.7,
+        "strike": 1.2,
+        "Mw_post": 6.51,
+        "VR": {
+          "t68_asc": 0.44,
+          "t90_dsc": -0.07
+        },
+        "fmech": {
+          "strike": 1.2,
+          "dip": 80.3,
+          "rake": 8.4
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.213,
+        "ess": 215,
+        "geweke": 2.55,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-11T16:49:20Z",
       "stale": false,
       "has_report": false,
       "links": {
