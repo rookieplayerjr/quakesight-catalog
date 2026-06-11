@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T13:55:16Z",
+  "generated_utc": "2026-06-11T14:10:53Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -1884,22 +1884,35 @@
         "acceptance": 0.208,
         "ess": 304,
         "geweke": 1.72,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "B",
+          "vr_mean": "C",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise",
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T13:55:13Z",
+      "pipeline_run_utc": "2026-06-11T14:10:49Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us10003r43/REPORT.html"
       }
     },
     {
@@ -33721,9 +33734,20 @@
           "backend": "sp2",
           "median_coh": 0.181,
           "status": "ready"
+        },
+        {
+          "track": "77",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2024-12-16",
+            "2024-12-28"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.166,
+          "status": "ready"
         }
       ],
-      "n_tracks": 2,
+      "n_tracks": 3,
       "aoi_half_km": 50.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
