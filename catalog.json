@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-11T04:04:00Z",
+  "generated_utc": "2026-06-11T04:27:44Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 577,
+  "n_events": 576,
   "events": [
     {
       "event_id": "ci38443183",
@@ -2771,8 +2771,42 @@
       "Mw_type": "Mww",
       "faulting_class": "oblique",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "142",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2016-08-29",
+            "2016-09-22"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.197,
+          "status": "ready"
+        },
+        {
+          "track": "150",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2016-09-10",
+            "2016-09-28"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.188,
+          "status": "ready"
+        },
+        {
+          "track": "48",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2016-09-03",
+            "2016-09-27"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.207,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 3,
       "aoi_half_km": 31.6,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -6032,35 +6066,6 @@
       "has_report": true,
       "links": {
         "report": "events/us10008w1z/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us100095nr",
-      "place": "35 km NNW of Bah\u00eda de Car\u00e1quez, Ecuador",
-      "origin_utc": "2017-06-30T22:29:45Z",
-      "epi_lat": -0.2849,
-      "epi_lon": -80.4927,
-      "depth_km": 13.0,
-      "Mw": 6.0,
-      "Mw_type": "Mww",
-      "faulting_class": "reverse",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 37.9,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 0,
-      "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
       }
     },
     {
