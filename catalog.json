@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T21:38:03Z",
+  "generated_utc": "2026-06-11T21:52:46Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -21313,22 +21313,34 @@
         "acceptance": 0.213,
         "ess": 286,
         "geweke": 3.2,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "A",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
+        ],
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T21:38:00Z",
+      "pipeline_run_utc": "2026-06-11T21:52:39Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000q4lv/REPORT.html"
       }
     },
     {
@@ -22034,8 +22046,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "112",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2025-08-16",
+            "2025-08-28"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.191,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 42.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
