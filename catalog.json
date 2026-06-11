@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T08:38:20Z",
+  "generated_utc": "2026-06-11T08:38:52Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 572,
   "events": [
@@ -21274,8 +21274,8 @@
         "strike": 205.2,
         "Mw_post": 6.38,
         "VR": {
-          "t105_dsc": 0.01,
-          "t54_asc": 0.46
+          "t156_asc": -0.34,
+          "t54_asc": 0.36
         },
         "fmech": {
           "strike": 25.2,
@@ -21292,29 +21292,29 @@
         "grades": {
           "ess": "B",
           "acceptance": "B",
-          "geweke": "B",
+          "geweke": "A",
           "vr_min": "D",
           "vr_mean": "D",
           "railed": "D",
-          "delta_mw": "B",
-          "delta_strike": "C"
+          "delta_mw": "C",
+          "delta_strike": "D"
         },
         "flags": [
-          "bad_track_contaminates",
-          "drop_candidate:t105_dsc"
+          "single_los_pattern_D",
+          "mw_disagreement_review"
         ],
-        "catalog_disagreement": false,
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T08:38:17Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-11T08:38:49Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000rdta/REPORT.html"
       }
     },
     {
