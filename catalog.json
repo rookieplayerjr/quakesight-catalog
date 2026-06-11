@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-11T10:53:19Z",
+  "generated_utc": "2026-06-11T10:58:49Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 572,
+  "n_events": 571,
   "events": [
     {
       "event_id": "ci38443183",
@@ -18367,16 +18367,27 @@
         "acceptance": 0.208,
         "ess": 253,
         "geweke": 2.04,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "A",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-11T10:53:17Z",
       "stale": false,
@@ -24003,35 +24014,6 @@
         "n_neighbors": 3,
         "max_neighbor_mw": 5.3
       },
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us700069f4",
-      "place": "2 km N of Kadingilan, Philippines",
-      "origin_utc": "2019-11-18T13:22:10Z",
-      "epi_lat": 7.6222,
-      "epi_lon": 124.9103,
-      "depth_km": 14.45,
-      "Mw": 5.9,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 29.7,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 2,
-      "pair_contam_max": 2,
       "result": null,
       "diagnostics": null,
       "status": "partial",
