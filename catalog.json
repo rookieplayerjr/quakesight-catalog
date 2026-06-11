@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T10:44:49Z",
+  "generated_utc": "2026-06-11T10:45:27Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 572,
   "events": [
@@ -13130,8 +13130,7 @@
         "strike": 219.5,
         "Mw_post": 6.56,
         "VR": {
-          "t148_dsc": -0.12,
-          "t24_asc": 0.45
+          "t24_asc": 0.52
         },
         "fmech": {
           "strike": 39.5,
@@ -13146,33 +13145,32 @@
         "zone": "RED",
         "verdict": "FAIL",
         "grades": {
-          "ess": "B",
+          "ess": "A",
           "acceptance": "B",
-          "geweke": "B",
-          "vr_min": "D",
-          "vr_mean": "D",
+          "geweke": "A",
+          "vr_min": "B",
+          "vr_mean": "B",
           "railed": "D",
-          "delta_mw": "C",
+          "delta_mw": "D",
           "delta_strike": "A"
         },
         "flags": [
-          "mw_disagreement_review",
-          "bad_track_contaminates",
-          "drop_candidate:t148_dsc",
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise",
           "normal_fault_dual_plane_ambiguous"
         ],
-        "catalog_disagreement": false,
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T10:44:44Z",
+      "pipeline_run_utc": "2026-06-11T10:45:23Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000j94v/REPORT.html"
       }
     },
     {
