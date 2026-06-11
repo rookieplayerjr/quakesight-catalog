@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T02:48:03Z",
+  "generated_utc": "2026-06-11T03:03:33Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 577,
   "events": [
@@ -6791,22 +6791,33 @@
         "acceptance": 0.203,
         "ess": 178,
         "geweke": 7.14,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "C",
+          "delta_mw": "C",
+          "delta_strike": "B"
+        },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T02:48:00Z",
+      "pipeline_run_utc": "2026-06-11T03:03:30Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us1000dym9/REPORT.html"
       }
     },
     {
@@ -17812,8 +17823,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "69",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-02-13",
+            "2023-02-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.181,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 60.3,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -25759,8 +25782,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "163",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2020-12-07",
+            "2020-12-19"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.163,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 39.0,
       "in_sequence": false,
       "sequence_n_significant": 0,
