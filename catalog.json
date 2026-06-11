@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T09:49:53Z",
+  "generated_utc": "2026-06-11T10:04:40Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 572,
   "events": [
@@ -10957,11 +10957,39 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 4.54,
+        "W_km": 3.12,
+        "Z_top_km": 5.05,
+        "dip": -44.2,
+        "strike": 138.6,
+        "Mw_post": 5.58,
+        "VR": {
+          "t156_dsc": 0.28,
+          "t18_asc": 0.22
+        },
+        "fmech": {
+          "strike": 318.6,
+          "dip": 44.2,
+          "rake": -180.0
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.21,
+        "ess": 201,
+        "geweke": 2.22,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-11T10:04:37Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -12262,8 +12290,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "12",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2018-06-29",
+            "2018-07-11"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.177,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 28.2,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -13030,8 +13070,20 @@
       "Mw_type": "Mww",
       "faulting_class": "normal",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "148",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2019-01-22",
+            "2019-02-03"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.165,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 42.3,
       "in_sequence": false,
       "sequence_n_significant": 0,
