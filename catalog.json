@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T22:50:53Z",
+  "generated_utc": "2026-06-11T23:05:14Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -24423,11 +24423,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T22:44:37Z",
+      "pipeline_run_utc": "2026-06-11T23:05:11Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us70004j9u/REPORT.html"
       }
     },
     {
