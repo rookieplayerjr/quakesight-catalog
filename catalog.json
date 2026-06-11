@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-11T05:38:25Z",
+  "generated_utc": "2026-06-11T05:50:04Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 575,
+  "n_events": 573,
   "events": [
     {
       "event_id": "ci38443183",
@@ -9166,6 +9166,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "134",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2016-04-06",
+            "2016-04-18"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.173,
+          "status": "ready"
+        },
+        {
           "track": "142",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -9177,7 +9188,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 31.6,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -10184,35 +10195,6 @@
         "n_neighbors": 2,
         "max_neighbor_mw": 6.6
       },
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us20007z2r",
-      "place": "58 km SSE of Shihezi, China",
-      "origin_utc": "2016-12-08T05:15:04Z",
-      "epi_lat": 43.8229,
-      "epi_lon": 86.3451,
-      "depth_km": 17.55,
-      "Mw": 6.0,
-      "Mw_type": "Mww",
-      "faulting_class": "reverse",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 31.6,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 3,
-      "pair_contam_max": 3,
       "result": null,
       "diagnostics": null,
       "status": "partial",
@@ -15271,35 +15253,6 @@
       "has_report": true,
       "links": {
         "report": "events/us6000ddge/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us6000df9r",
-      "place": "9 km W of Magsaysay, Philippines",
-      "origin_utc": "2021-02-07T04:22:56Z",
-      "epi_lat": 6.7693,
-      "epi_lon": 125.1011,
-      "depth_km": 16.0,
-      "Mw": 6.0,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 31.6,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 1,
-      "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
       }
     },
     {
