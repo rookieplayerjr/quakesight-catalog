@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T14:48:36Z",
+  "generated_utc": "2026-06-11T15:15:41Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -2405,8 +2405,31 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "143",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2016-05-01",
+            "2016-05-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.203,
+          "status": "ready"
+        },
+        {
+          "track": "70",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2016-04-26",
+            "2016-05-20"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.209,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 25.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -33867,11 +33890,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T14:48:02Z",
+      "pipeline_run_utc": "2026-06-11T15:15:38Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us7000p0uj/REPORT.html"
       }
     },
     {
