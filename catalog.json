@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T11:04:54Z",
+  "generated_utc": "2026-06-11T11:05:25Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 571,
   "events": [
@@ -18387,9 +18387,9 @@
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T11:04:51Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-11T11:05:20Z",
       "stale": false,
       "has_report": true,
       "links": {
