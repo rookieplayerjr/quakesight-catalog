@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T12:32:37Z",
+  "generated_utc": "2026-06-11T12:47:10Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -32063,18 +32063,30 @@
         "acceptance": 0.213,
         "ess": 437,
         "geweke": 2.35,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "B",
+          "vr_min": "A",
+          "vr_mean": "B",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_critical_rail"
+        ],
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T12:32:34Z",
+      "pipeline_run_utc": "2026-06-11T12:47:07Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -33559,8 +33571,20 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "150",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2024-12-21",
+            "2025-01-02"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.181,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 50.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
