@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T12:23:56Z",
+  "generated_utc": "2026-06-11T12:32:37Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -32043,11 +32043,38 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 5,
       "pair_contam_max": 5,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 14.89,
+        "W_km": 10.23,
+        "Z_top_km": 29.5,
+        "dip": -44.3,
+        "strike": 36.4,
+        "Mw_post": 6.56,
+        "VR": {
+          "t135_dsc": 0.69
+        },
+        "fmech": {
+          "strike": 216.4,
+          "dip": 44.3,
+          "rake": -8.2
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.213,
+        "ess": 437,
+        "geweke": 2.35,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-05-25T03:51:06Z",
+      "pipeline_run_utc": "2026-06-11T12:32:34Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -33197,38 +33224,11 @@
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": {
-        "L_km": 14.78,
-        "W_km": 10.16,
-        "Z_top_km": 24.79,
-        "dip": -93.7,
-        "strike": 69.5,
-        "Mw_post": 6.51,
-        "VR": {
-          "t61_dsc": 0.59
-        },
-        "fmech": {
-          "strike": 69.5,
-          "dip": 86.3,
-          "rake": -44.9
-        }
-      },
-      "diagnostics": {
-        "acceptance": 0.204,
-        "ess": 300,
-        "geweke": 3.09,
-        "zone": null,
-        "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
-        "np_likely_wrong": false,
-        "in_sequence": false,
-        "sequence_n_ge_5": 0
-      },
-      "status": "done",
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T12:23:54Z",
+      "pipeline_run_utc": null,
       "stale": false,
       "has_report": false,
       "links": {
