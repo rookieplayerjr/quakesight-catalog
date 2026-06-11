@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T19:47:26Z",
+  "generated_utc": "2026-06-11T19:48:12Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -17628,22 +17628,34 @@
         "acceptance": 0.212,
         "ess": 271,
         "geweke": 4.22,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "C",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "A",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "single_los_pattern_D",
+          "demoted_all_coh_subnoise"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T19:47:23Z",
+      "status": "escalated",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-11T19:48:08Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000hljt/REPORT.html"
       }
     },
     {
