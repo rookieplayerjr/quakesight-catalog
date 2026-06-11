@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T18:50:56Z",
+  "generated_utc": "2026-06-11T19:11:43Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -16386,22 +16386,31 @@
         "acceptance": 0.207,
         "ess": 170,
         "geweke": 12.14,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "C",
+          "vr_mean": "D",
+          "railed": "C",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
         "flags": [],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T18:50:52Z",
+      "pipeline_run_utc": "2026-06-11T19:11:39Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us6000dk70/REPORT.html"
       }
     },
     {
