@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-11T09:39:44Z",
+  "generated_utc": "2026-06-11T09:49:23Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 572,
   "events": [
@@ -10623,11 +10623,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-11T09:35:48Z",
+      "pipeline_run_utc": "2026-06-11T09:49:20Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us20008lww/REPORT.html"
       }
     },
     {
@@ -10929,6 +10929,17 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
+          "track": "156",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2017-09-12",
+            "2017-09-24"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.173,
+          "status": "ready"
+        },
+        {
           "track": "18",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -10940,7 +10951,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 28.2,
       "in_sequence": false,
       "sequence_n_significant": 0,
