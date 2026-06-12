@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-12T16:02:30Z",
+  "generated_utc": "2026-06-12T16:03:28Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 563,
+  "n_events": 562,
   "events": [
     {
       "event_id": "ci38443183",
@@ -28668,35 +28668,6 @@
       "has_report": true,
       "links": {
         "report": "events/us7000edf6/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us7000ef1g",
-      "place": "20 km SSW of Mandr\u00e1ki, Greece",
-      "origin_utc": "2021-06-21T22:14:13Z",
-      "epi_lat": 36.4391,
-      "epi_lon": 27.0416,
-      "depth_km": 9.03,
-      "Mw": 5.5,
-      "Mw_type": "Mww",
-      "faulting_class": "oblique",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 28.4,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 0,
-      "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
       }
     },
     {
