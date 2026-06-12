@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-12T15:57:31Z",
+  "generated_utc": "2026-06-12T15:58:33Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 568,
+  "n_events": 567,
   "events": [
     {
       "event_id": "ci38443183",
@@ -23096,41 +23096,6 @@
       "has_report": true,
       "links": {
         "report": "events/us6000rdta/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us6000rglb",
-      "place": "55 km NE of Mek'ele, Ethiopia",
-      "origin_utc": "2025-10-11T16:18:25Z",
-      "epi_lat": 13.8064,
-      "epi_lon": 39.8822,
-      "depth_km": 10.0,
-      "Mw": 5.6,
-      "Mw_type": "Mww",
-      "faulting_class": "normal",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 29.9,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 5,
-      "pair_contam_max": 5,
-      "multievent": {
-        "severity": "minor",
-        "separability": "single",
-        "n_neighbors": 1,
-        "max_neighbor_mw": 5.2
-      },
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
       }
     },
     {
