@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-12T08:40:58Z",
+  "generated_utc": "2026-06-12T08:49:42Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -10372,11 +10372,11 @@
       },
       "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-12T08:30:54Z",
+      "pipeline_run_utc": "2026-06-12T08:49:39Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us20005kqh/REPORT.html"
       }
     },
     {
