@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-12T16:04:25Z",
+  "generated_utc": "2026-06-12T16:05:24Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 561,
+  "n_events": 560,
   "events": [
     {
       "event_id": "ci38443183",
@@ -18884,41 +18884,6 @@
       "has_report": true,
       "links": {
         "report": "events/us6000ja1a/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us6000jbsk",
-      "place": "66 km ENE of ?d?grat, Ethiopia",
-      "origin_utc": "2022-12-26T12:21:07Z",
-      "epi_lat": 14.5212,
-      "epi_lon": 40.0211,
-      "depth_km": 10.0,
-      "Mw": 5.5,
-      "Mw_type": "Mww",
-      "faulting_class": "normal",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 26.7,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 0,
-      "pair_contam_max": 1,
-      "multievent": {
-        "severity": "minor",
-        "separability": "single",
-        "n_neighbors": 1,
-        "max_neighbor_mw": 5.1
-      },
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
       }
     },
     {
