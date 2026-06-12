@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-12T08:50:21Z",
+  "generated_utc": "2026-06-12T09:26:19Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -2891,11 +2891,38 @@
         "n_neighbors": 1,
         "max_neighbor_mw": 5.6
       },
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 7.22,
+        "W_km": 4.11,
+        "Z_top_km": 8.0,
+        "dip": -13.0,
+        "strike": 285.0,
+        "Mw_post": 6.17,
+        "VR": {
+          "t117_asc": 0.74
+        },
+        "fmech": {
+          "strike": 105.0,
+          "dip": 13.0,
+          "rake": -148.6
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.208,
+        "ess": 330,
+        "geweke": 1.66,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-12T09:26:16Z",
       "stale": false,
       "has_report": false,
       "links": {
@@ -16987,8 +17014,42 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "142",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2021-08-15",
+            "2021-08-27"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.177,
+          "status": ""
+        },
+        {
+          "track": "4",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2021-08-05",
+            "2021-08-17"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.171,
+          "status": "ready"
+        },
+        {
+          "track": "77",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2021-08-10",
+            "2021-08-22"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.177,
+          "status": ""
+        }
+      ],
+      "n_tracks": 3,
       "aoi_half_km": 41.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
