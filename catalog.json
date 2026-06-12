@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-12T13:48:29Z",
+  "generated_utc": "2026-06-12T14:55:48Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 568,
   "events": [
@@ -19441,8 +19441,53 @@
       "Mw_type": "Mww",
       "faulting_class": "normal",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "102",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-02-03",
+            "2023-02-15"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.224,
+          "status": "ready"
+        },
+        {
+          "track": "29",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2023-02-10",
+            "2023-02-22"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.199,
+          "status": "ready"
+        },
+        {
+          "track": "7",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-02-09",
+            "2023-02-21"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.218,
+          "status": "ready"
+        },
+        {
+          "track": "80",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2023-02-14",
+            "2023-02-26"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.188,
+          "status": ""
+        }
+      ],
+      "n_tracks": 4,
       "aoi_half_km": 29.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -19454,11 +19499,39 @@
         "n_neighbors": 1,
         "max_neighbor_mw": 5
       },
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 10.14,
+        "W_km": 8.39,
+        "Z_top_km": 25.68,
+        "dip": -75.3,
+        "strike": 55.5,
+        "Mw_post": 6.45,
+        "VR": {
+          "t102_asc": 0.27,
+          "t29_asc": 0.02
+        },
+        "fmech": {
+          "strike": 235.5,
+          "dip": 75.3,
+          "rake": 31.8
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.203,
+        "ess": 261,
+        "geweke": 2.05,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-12T14:55:45Z",
       "stale": false,
       "has_report": false,
       "links": {
