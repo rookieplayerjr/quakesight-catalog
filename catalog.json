@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-12T11:21:03Z",
+  "generated_utc": "2026-06-12T11:40:57Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -6562,17 +6562,6 @@
           "status": "ready"
         },
         {
-          "track": "173",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            "2017-07-03",
-            "2017-07-15"
-          ],
-          "backend": "sp2",
-          "median_coh": 0.38,
-          "status": "ready"
-        },
-        {
           "track": "20",
           "orbit_dir": "asc",
           "pair_dates": [
@@ -6584,7 +6573,7 @@
           "status": "ready"
         }
       ],
-      "n_tracks": 3,
+      "n_tracks": 2,
       "aoi_half_km": 32.2,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -6597,38 +6586,50 @@
         "max_neighbor_mw": 5
       },
       "result": {
-        "L_km": 13.32,
-        "W_km": 9.74,
-        "Z_top_km": 29.99,
-        "dip": -91.3,
-        "strike": 273.0,
-        "Mw_post": 6.6,
+        "L_km": 13.4,
+        "W_km": 9.8,
+        "Z_top_km": 28.89,
+        "dip": -86.8,
+        "strike": 285.2,
+        "Mw_post": 6.61,
         "VR": {
           "t122_asc": 0.48,
           "t173_dsc": -0.79
         },
         "fmech": {
-          "strike": 273.0,
-          "dip": 88.7,
-          "rake": -38.0
+          "strike": 105.2,
+          "dip": 86.8,
+          "rake": 47.4
         }
       },
       "diagnostics": {
-        "acceptance": 0.202,
-        "ess": 375,
-        "geweke": 1.15,
-        "zone": null,
+        "acceptance": 0.205,
+        "ess": 374,
+        "geweke": 1.99,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
-        "catalog_disagreement": false,
+        "grades": {
+          "ess": "A",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "D",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "bad_track_contaminates",
+          "drop_candidate:t173_dsc"
+        ],
+        "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-12T11:21:01Z",
+      "pipeline_run_utc": "2026-06-12T11:40:54Z",
       "stale": false,
       "has_report": false,
       "links": {
