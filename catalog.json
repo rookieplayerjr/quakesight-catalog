@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-12T16:05:24Z",
+  "generated_utc": "2026-06-12T16:07:08Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 560,
+  "n_events": 559,
   "events": [
     {
       "event_id": "ci38443183",
@@ -16941,47 +16941,6 @@
       "has_report": true,
       "links": {
         "report": "events/us6000e2k3/REPORT.html"
-      }
-    },
-    {
-      "event_id": "us6000epst",
-      "place": "eastern Turkey",
-      "origin_utc": "2021-06-25T18:28:37Z",
-      "epi_lat": 39.1868,
-      "epi_lon": 40.1667,
-      "depth_km": 3.07,
-      "Mw": 5.4,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "4p5_to_5p5",
-      "data_used": [
-        {
-          "track": "123",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.675,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 1,
-      "aoi_half_km": 34.8,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 0,
-      "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-09T00:26:46Z",
-      "stale": false,
-      "has_report": true,
-      "links": {
-        "report": "events/us6000epst/REPORT.html"
       }
     },
     {
