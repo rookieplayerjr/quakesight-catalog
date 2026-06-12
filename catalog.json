@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-12T16:07:08Z",
+  "generated_utc": "2026-06-12T16:08:07Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 559,
+  "n_events": 558,
   "events": [
     {
       "event_id": "ci38443183",
@@ -6378,41 +6378,6 @@
         "separability": "co-located",
         "n_neighbors": 3,
         "max_neighbor_mw": 6
-      },
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us10008rah",
-      "place": "131 km ESE of Murghob, Tajikistan",
-      "origin_utc": "2017-05-10T21:58:21Z",
-      "epi_lat": 37.6433,
-      "epi_lon": 75.3098,
-      "depth_km": 7.62,
-      "Mw": 5.4,
-      "Mw_type": "Mww",
-      "faulting_class": "normal",
-      "magnitude_band": "4p5_to_5p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 27.5,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 2,
-      "pair_contam_max": 2,
-      "multievent": {
-        "severity": "minor",
-        "separability": "single",
-        "n_neighbors": 1,
-        "max_neighbor_mw": 5
       },
       "result": null,
       "diagnostics": null,
