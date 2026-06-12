@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-12T16:41:59Z",
+  "generated_utc": "2026-06-12T16:42:59Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 554,
+  "n_events": 553,
   "events": [
     {
       "event_id": "ci38443183",
@@ -21198,35 +21198,6 @@
       ],
       "n_tracks": 1,
       "aoi_half_km": 71.7,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 0,
-      "pair_contam_max": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us6000nq9a",
-      "place": "28 km SW of Pazarc\u0131k, Turkey",
-      "origin_utc": "2024-09-07T06:31:10Z",
-      "epi_lat": 37.3103,
-      "epi_lon": 37.0627,
-      "depth_km": 4.096,
-      "Mw": 5.0,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "4p5_to_5p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 20.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
