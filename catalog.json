@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-12T14:56:16Z",
+  "generated_utc": "2026-06-12T15:35:30Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 568,
   "events": [
@@ -1816,18 +1816,68 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "5",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2015-10-01",
+            "2015-10-25"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.349,
+          "status": "ready"
+        },
+        {
+          "track": "71",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2015-10-17",
+            "2015-11-10"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.288,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 27.9,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 6.96,
+        "W_km": 5.76,
+        "Z_top_km": 11.26,
+        "dip": -32.2,
+        "strike": 232.3,
+        "Mw_post": 6.14,
+        "VR": {
+          "t5_dsc": 0.75
+        },
+        "fmech": {
+          "strike": 52.3,
+          "dip": 32.2,
+          "rake": 172.3
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.209,
+        "ess": 327,
+        "geweke": 2.98,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-12T15:35:27Z",
       "stale": false,
       "has_report": false,
       "links": {
