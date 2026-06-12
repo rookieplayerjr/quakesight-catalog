@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-12T15:58:33Z",
+  "generated_utc": "2026-06-12T15:59:35Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 567,
+  "n_events": 566,
   "events": [
     {
       "event_id": "ci38443183",
@@ -6443,35 +6443,6 @@
         "n_neighbors": 1,
         "max_neighbor_mw": 5
       },
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us10008s7b",
-      "place": "34 km NNW of Bojn?rd, Iran",
-      "origin_utc": "2017-05-13T18:00:59Z",
-      "epi_lat": 37.7693,
-      "epi_lon": 57.2058,
-      "depth_km": 8.0,
-      "Mw": 5.6,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 33.9,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 0,
-      "pair_contam_max": 0,
       "result": null,
       "diagnostics": null,
       "status": "partial",
