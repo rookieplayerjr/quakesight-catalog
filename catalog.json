@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-12T12:19:48Z",
+  "generated_utc": "2026-06-12T12:20:20Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -13530,22 +13530,33 @@
         "acceptance": 0.211,
         "ess": 179,
         "geweke": 1.96,
-        "zone": null,
+        "zone": "RED",
         "verdict": "FAIL",
-        "grades": {},
-        "flags": [],
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "A",
+          "vr_min": "D",
+          "vr_mean": "D",
+          "railed": "D",
+          "delta_mw": "C",
+          "delta_strike": "C"
+        },
+        "flags": [
+          "mw_disagreement_review"
+        ],
         "catalog_disagreement": false,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
-      "pipeline_run_utc": "2026-06-12T12:19:45Z",
+      "pipeline_run_utc": "2026-06-12T12:20:16Z",
       "stale": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null
+        "report": "events/us2000hat7/REPORT.html"
       }
     },
     {
