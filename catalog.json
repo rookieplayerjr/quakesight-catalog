@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-12T11:42:04Z",
+  "generated_utc": "2026-06-12T12:19:48Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 569,
   "events": [
@@ -13468,18 +13468,80 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "26",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2018-09-04",
+            "2018-09-16"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.212,
+          "status": "ready"
+        },
+        {
+          "track": "62",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "2018-09-06",
+            "2018-09-18"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.213,
+          "status": "ready"
+        },
+        {
+          "track": "99",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "2018-08-28",
+            "2018-09-09"
+          ],
+          "backend": "sp2",
+          "median_coh": 0.213,
+          "status": ""
+        }
+      ],
+      "n_tracks": 3,
       "aoi_half_km": 38.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 1,
       "pair_contam_max": 1,
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
+      "result": {
+        "L_km": 5.35,
+        "W_km": 4.16,
+        "Z_top_km": 16.07,
+        "dip": -61.8,
+        "strike": 87.0,
+        "Mw_post": 6.04,
+        "VR": {
+          "t26_asc": -0.06,
+          "t62_dsc": 0.34
+        },
+        "fmech": {
+          "strike": 267.0,
+          "dip": 61.8,
+          "rake": -150.9
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.211,
+        "ess": 179,
+        "geweke": 1.96,
+        "zone": null,
+        "verdict": "FAIL",
+        "grades": {},
+        "flags": [],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 0
+      },
+      "status": "done",
       "escalation_reason": null,
-      "pipeline_run_utc": null,
+      "pipeline_run_utc": "2026-06-12T12:19:45Z",
       "stale": false,
       "has_report": false,
       "links": {
