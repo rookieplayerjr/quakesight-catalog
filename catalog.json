@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-12T16:01:33Z",
+  "generated_utc": "2026-06-12T16:02:30Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 564,
+  "n_events": 563,
   "events": [
     {
       "event_id": "ci38443183",
@@ -4736,35 +4736,6 @@
         "n_neighbors": 1,
         "max_neighbor_mw": 5.6
       },
-      "result": null,
-      "diagnostics": null,
-      "status": "partial",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "stale": false,
-      "has_report": false,
-      "links": {
-        "report": null
-      }
-    },
-    {
-      "event_id": "us10007snb",
-      "place": "41 km SSW of Betafo, Madagascar",
-      "origin_utc": "2017-01-11T22:06:58Z",
-      "epi_lat": -20.16,
-      "epi_lon": 46.6469,
-      "depth_km": 7.26,
-      "Mw": 5.5,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": 31.5,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 0,
-      "pair_contam_max": 0,
       "result": null,
       "diagnostics": null,
       "status": "partial",
