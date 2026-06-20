@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuakeSight — Recent Activity</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#1b4b73; --ink:#1b252f; --mut:#5c6b7a; --line:#d9dee4;
+    --bg:#f4f6f8; --sel:#e7f0fb; --accent:#3a82c4;
+    --ok:#1f883d; --warn:#a60; --bad:#c00; --grey:#666;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;min-height:100%;background:var(--bg)}
+  body{font-family:'Source Sans 3',system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink)}
+  header{background:#0f2a43;color:#fff;height:54px;display:flex;align-items:center;
+         padding:0 18px;gap:14px}
+  header .logo{font-weight:700;font-size:18px}
+  header .logo span{font-weight:400;opacity:.7}
+  header .tabs{display:flex;gap:0;margin-left:auto}
+  header .tabs a{font-size:13px;font-weight:600;padding:8px 16px;color:#cfe0f0;
+       text-decoration:none;border:1px solid #2c4d6e;background:#16395a}
+  header .tabs a:first-child{border-radius:4px 0 0 4px}
+  header .tabs a:last-child{border-radius:0 4px 4px 0;border-left:0}
+  header .tabs a.on{background:#3a82c4;color:#fff;border-color:#3a82c4}
+
+  main{max-width:1200px;margin:24px auto;padding:0 18px}
+  h1{font-size:24px;margin:8px 0 4px}
+  .subtle{color:var(--mut);font-size:13px;margin-bottom:18px}
+
+  .window-switch{display:flex;gap:0;margin-bottom:20px}
+  .window-switch button{font-family:inherit;font-size:14px;font-weight:600;
+       padding:9px 22px;border:1px solid #c4ccd5;background:#fff;color:var(--ink);
+       cursor:pointer}
+  .window-switch button:first-child{border-radius:5px 0 0 5px}
+  .window-switch button:last-child{border-radius:0 5px 5px 0;border-left:0}
+  .window-switch button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+  .stat-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px}
+  .stat{background:#fff;border:1px solid var(--line);border-radius:8px;
+        padding:12px 18px;min-width:155px;flex:1}
+  .stat .label{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.4px}
+  .stat .num{font-size:28px;font-weight:700;line-height:1.1;margin:2px 0 0}
+  .stat .sub{font-size:12px;color:var(--mut);margin-top:2px}
+
+  .section{background:#fff;border:1px solid var(--line);border-radius:8px;margin-bottom:18px;
+           overflow:hidden}
+  .section-head{padding:12px 18px;border-bottom:1px solid var(--line);background:#fafbfc;
+                font-size:14px;font-weight:600;display:flex;align-items:center;gap:12px}
+  .section-head .badge{background:var(--accent);color:#fff;border-radius:10px;
+        padding:2px 9px;font-size:11px;font-weight:700}
+  .section-head .badge.warn{background:var(--warn)}
+  .section-head .badge.grey{background:var(--grey)}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th{text-align:left;padding:9px 14px;background:#f6f8fa;color:var(--mut);font-weight:600;
+     border-bottom:1px solid var(--line);font-size:11.5px;text-transform:uppercase}
+  td{padding:9px 14px;border-bottom:1px solid #eef1f4;vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  td.mw{font-weight:700;color:var(--blue)}
+  td.mono{font-family:'SF Mono',Consolas,monospace;font-size:12.5px}
+  .stage-pill{display:inline-block;padding:2px 9px;border-radius:10px;font-size:11px;
+              font-weight:600;letter-spacing:.2px;color:#fff;text-transform:uppercase}
+  .stage-pill.predicted{background:#a60}
+  .stage-pill.waiting_for_data{background:#a60}
+  .stage-pill.ready_for_insar{background:#3a82c4}
+  .stage-pill.insar_done{background:var(--ok)}
+  .stage-pill.handoff_ready{background:var(--ok)}
+  .stage-pill.escalated{background:var(--bad)}
+  .stage-pill.merged_into{background:var(--grey)}
+  .stage-pill.pending_briefing,.stage-pill.briefing_done{background:#666}
+
+  .small{font-size:11.5px;color:var(--mut)}
+  .empty{padding:24px;text-align:center;color:var(--mut);font-style:italic}
+
+  footer{margin:30px auto 24px;padding:0 18px;max-width:1200px;font-size:11.5px;
+         color:var(--mut);text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">QuakeSight <span>· Recent Activity</span></div>
+  <nav class="tabs">
+    <a href="./">Catalog</a>
+    <a href="./recent.html" class="on">Recent</a>
+  </nav>
+</header>
+
+<main>
+  <h1 id="title">Recent Earthquake Activity</h1>
+  <div class="subtle" id="meta">Loading...</div>
+
+  <div class="window-switch">
+    <button id="btn-week" class="on" data-window="this_week">📅 Last 7 days</button>
+    <button id="btn-month" data-window="this_month">📆 Last 30 days</button>
+  </div>
+
+  <div class="stat-row" id="stats"></div>
+
+  <div class="section">
+    <div class="section-head">
+      ✅ Accepted into pipeline <span class="badge" id="badge-acc">0</span>
+      <span class="small" style="margin-left:auto">passes Mw + depth + on-land + dedup filter</span>
+    </div>
+    <table id="tbl-accepted">
+      <thead><tr>
+        <th>Mw</th><th>Depth</th><th>Origin (UTC)</th><th>Place</th>
+        <th>Expected LOS</th><th>Pipeline stage</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      🚫 Near-miss <span class="badge warn" id="badge-nm">0</span>
+      <span class="small" style="margin-left:auto">Mw ≥ 5.3 but skipped (ocean / too deep / Mw under regional threshold)</span>
+    </div>
+    <table id="tbl-near"><thead><tr>
+      <th>Mw</th><th>Depth</th><th>Place</th><th>Skip reason</th>
+    </tr></thead><tbody></tbody></table>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      📊 Skip-reason breakdown
+    </div>
+    <table id="tbl-skip"><thead><tr>
+      <th>Reason</th><th style="text-align:right">Count</th>
+    </tr></thead><tbody></tbody></table>
+  </div>
+</main>
+
+<footer>
+  Auto-generated by the QuakeSight monitor pipeline ·
+  <a href="https://github.com/rookieplayerjr/quakesight-monitor" target="_blank">source on GitHub</a>
+</footer>
+
+<script>
+let DATA = null;
+let WINDOW = 'this_week';
+
+function fmtMw(e){return 'M'+(e.Mw||0).toFixed(1)}
+function fmtDepth(e){return (e.depth_km||0).toFixed(0)+' km'}
+function fmtOrigin(e){return (e.origin_utc||'').replace('T',' ').replace('Z','')}
+function fmtLOS(e){return e.expected_max_los_cm!=null?(e.expected_max_los_cm+' cm'):'—'}
+function fmtPlace(e){
+  let en = e.place || '';
+  let local = e.place_local || '';
+  if(!local || local === en) return en;
+  return en + '<div class="small" style="margin-top:2px">'+local+'</div>';
+}
+
+function stagePill(p){
+  if(!p) return '<span class="small">not in pipeline</span>';
+  let stg = p.stage || '?';
+  let extra = p.owner_eid ? ` <span class="small">→ ${p.owner_eid.slice(-6)}</span>` : '';
+  let merged = p.merged_count>0 ? ` <span class="small">+${p.merged_count} merged</span>` : '';
+  return `<span class="stage-pill ${stg}">${stg}</span>${extra}${merged}`;
+}
+
+function render(){
+  if(!DATA) return;
+  const w = DATA[WINDOW];
+  document.getElementById('meta').innerHTML =
+    `Generated ${DATA.generated_utc} · ${WINDOW==='this_week'?'last 7 days':'last 30 days'} · `+
+    `pipeline has <b>${DATA.pipeline_summary.active_events}</b> active events`;
+
+  const stats = document.getElementById('stats');
+  stats.innerHTML = '';
+  function addStat(label, num, sub){
+    const d = document.createElement('div'); d.className='stat';
+    d.innerHTML = `<div class="label">${label}</div><div class="num">${num}</div>`+
+                  (sub?`<div class="sub">${sub}</div>`:'');
+    stats.appendChild(d);
+  }
+  addStat('USGS total', w.total, 'M ≥ 4.5 worldwide');
+  addStat('Accepted', w.accepted.length, 'in our pipeline');
+  addStat('Near-miss', w.near_miss.length, 'Mw ≥ 5.3 skipped');
+  let byStage = DATA.pipeline_summary.by_stage;
+  let actSum = Object.keys(byStage).map(k=>`${byStage[k]} ${k}`).join(', ') || 'none';
+  addStat('Pipeline state', DATA.pipeline_summary.active_events, actSum);
+
+  // Accepted
+  const tbA = document.querySelector('#tbl-accepted tbody');
+  document.getElementById('badge-acc').textContent = w.accepted.length;
+  tbA.innerHTML = w.accepted.length===0 ?
+    `<tr><td colspan=6 class="empty">no accepted events in this window</td></tr>` :
+    w.accepted.map(e=>`
+      <tr><td class="mw">${fmtMw(e)}</td><td>${fmtDepth(e)}</td>
+      <td class="mono">${fmtOrigin(e)}</td>
+      <td>${fmtPlace(e)}</td><td>${fmtLOS(e)}</td>
+      <td>${stagePill(e.pipeline)}</td></tr>`).join('');
+
+  // Near-miss
+  const tbN = document.querySelector('#tbl-near tbody');
+  document.getElementById('badge-nm').textContent = w.near_miss.length;
+  tbN.innerHTML = w.near_miss.length===0 ?
+    `<tr><td colspan=4 class="empty">no near-miss events</td></tr>` :
+    w.near_miss.map(e=>`
+      <tr><td class="mw">${fmtMw(e)}</td><td>${fmtDepth(e)}</td>
+      <td>${fmtPlace(e)}</td><td class="mono small">${e.skip_reason||''}</td></tr>`).join('');
+
+  // Skip breakdown
+  const tbS = document.querySelector('#tbl-skip tbody');
+  const breakdown = w.skip_breakdown || {};
+  const entries = Object.entries(breakdown).sort((a,b)=>b[1]-a[1]);
+  tbS.innerHTML = entries.length===0 ?
+    `<tr><td colspan=2 class="empty">no skips</td></tr>` :
+    entries.map(([r,n])=>`<tr><td class="mono">${r}</td><td style="text-align:right">${n}</td></tr>`).join('');
+}
+
+document.querySelectorAll('.window-switch button').forEach(b=>{
+  b.addEventListener('click', ()=>{
+    document.querySelectorAll('.window-switch button').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); WINDOW = b.dataset.window; render();
+  });
+});
+
+fetch('./recent.json?_=' + Date.now())
+  .then(r=>r.json())
+  .then(j=>{DATA=j; render()})
+  .catch(e=>{
+    document.getElementById('meta').innerHTML =
+      '<span style="color:#c00">failed to load recent.json: '+e+'</span>';
+  });
+</script>
+</body>
+</html>
