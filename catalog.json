@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-24T05:37:20Z",
+  "generated_utc": "2026-06-24T05:39:38Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 565,
   "events": [
@@ -14389,17 +14389,15 @@
           "delta_mw": "D",
           "delta_strike": "C"
         },
-        "flags": [
-          "single_los_pattern_D"
-        ],
+        "flags": [],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 0
       },
-      "status": "escalated",
-      "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-12T19:03:07Z",
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-24T05:39:36Z",
       "stale": false,
       "has_report": true,
       "links": {
