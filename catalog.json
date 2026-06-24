@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-24T08:19:53Z",
+  "generated_utc": "2026-06-24T08:27:21Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 565,
   "events": [
@@ -3901,8 +3901,31 @@
       "Mw_type": "Mww",
       "faulting_class": "normal",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "141",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.435,
+          "status": "ready"
+        },
+        {
+          "track": "39",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.29,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 50.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -3916,8 +3939,7 @@
         "strike": 183.7,
         "Mw_post": 6.64,
         "VR": {
-          "t39_asc": 0.04,
-          "t46_dsc": 0.08
+          "t39_asc": 0.04
         },
         "fmech": {
           "strike": 3.7,
@@ -3941,15 +3963,17 @@
           "delta_mw": "D",
           "delta_strike": "B"
         },
-        "flags": [],
+        "flags": [
+          "single_los_pattern_D"
+        ],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
       "status": "escalated",
-      "escalation_reason": "gbis_coherence_collapse_after_pass3",
-      "pipeline_run_utc": "2026-06-11T09:14:02Z",
+      "escalation_reason": "gbis_single_los_pattern_D",
+      "pipeline_run_utc": "2026-06-24T08:26:50Z",
       "stale": false,
       "has_report": true,
       "links": {
@@ -4496,8 +4520,31 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "86",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.58,
+          "status": "ready"
+        },
+        {
+          "track": "93",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.631,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 42.6,
       "in_sequence": false,
       "sequence_n_significant": 0,
