@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-24T04:43:41Z",
+  "generated_utc": "2026-06-24T05:21:54Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 565,
   "events": [
@@ -14248,18 +14248,29 @@
       "magnitude_band": "4p5_to_5p5",
       "data_used": [
         {
+          "track": "123",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            "20210615",
+            "20210627"
+          ],
+          "backend": "s1ot_single",
+          "median_coh": 0.501,
+          "status": "ready"
+        },
+        {
           "track": "43",
           "orbit_dir": "asc",
           "pair_dates": [
-            "2021-06-15",
-            "2021-06-27"
+            "20210615",
+            "20210627"
           ],
-          "backend": "sp2",
-          "median_coh": 0.65,
+          "backend": "s1ot_single",
+          "median_coh": 0.571,
           "status": "ready"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": 34.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
