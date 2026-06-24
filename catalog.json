@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-24T06:56:09Z",
+  "generated_utc": "2026-06-24T07:11:09Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 565,
   "events": [
@@ -1292,7 +1292,7 @@
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": 174,
+          "track": "174",
           "orbit_dir": "asc",
           "pair_dates": [
             null,
