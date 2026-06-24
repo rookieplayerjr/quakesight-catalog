@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-24T08:56:15Z",
+  "generated_utc": "2026-06-24T08:57:43Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 565,
   "events": [
@@ -3923,9 +3923,20 @@
           "backend": "licsar",
           "median_coh": 0.29,
           "status": "ready"
+        },
+        {
+          "track": "46",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.122,
+          "status": "ready"
         }
       ],
-      "n_tracks": 2,
+      "n_tracks": 3,
       "aoi_half_km": 50.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -3939,7 +3950,8 @@
         "strike": 183.7,
         "Mw_post": 6.64,
         "VR": {
-          "t39_asc": 0.04
+          "t39_asc": 0.04,
+          "t46_dsc": 0.08
         },
         "fmech": {
           "strike": 3.7,
@@ -3963,17 +3975,15 @@
           "delta_mw": "D",
           "delta_strike": "B"
         },
-        "flags": [
-          "single_los_pattern_D"
-        ],
+        "flags": [],
         "catalog_disagreement": true,
         "np_likely_wrong": false,
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
       "status": "escalated",
-      "escalation_reason": "gbis_single_los_pattern_D",
-      "pipeline_run_utc": "2026-06-24T08:27:42Z",
+      "escalation_reason": "gbis_coherence_collapse_after_pass3",
+      "pipeline_run_utc": "2026-06-24T08:57:39Z",
       "stale": false,
       "has_report": true,
       "links": {
