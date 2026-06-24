@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-24T09:01:45Z",
+  "generated_utc": "2026-06-24T09:05:58Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 565,
   "events": [
@@ -6213,8 +6213,20 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "57",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.733,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": 56.8,
       "in_sequence": true,
       "sequence_n_significant": 2,
@@ -6760,8 +6772,31 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "10",
+          "orbit_dir": "asc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.078,
+          "status": "ready"
+        },
+        {
+          "track": "17",
+          "orbit_dir": "dsc",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "licsar",
+          "median_coh": 0.082,
+          "status": "ready"
+        }
+      ],
+      "n_tracks": 2,
       "aoi_half_km": 26.1,
       "in_sequence": false,
       "sequence_n_significant": 0,
