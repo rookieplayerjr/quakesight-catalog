@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-25T01:42:36Z",
+  "generated_utc": "2026-06-25T03:37:55Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -3434,7 +3434,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3503,7 +3503,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
