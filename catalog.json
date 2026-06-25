@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-25T21:38:26Z",
+  "generated_utc": "2026-06-25T21:44:24Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 255,
+  "n_events": 258,
   "events": [
     {
       "event_id": "ak01649w95tp",
@@ -279,6 +279,64 @@
       "has_report": true,
       "links": {
         "report": "events/ci39919392/REPORT.html"
+      }
+    },
+    {
+      "event_id": "hv61792931",
+      "place": "15 km S of Fern Forest, Hawaii",
+      "origin_utc": "2017-06-08T17:01:19Z",
+      "epi_lat": 19.33,
+      "epi_lon": -155.1206667,
+      "depth_km": 6.47,
+      "Mw": 5.28,
+      "Mw_type": "Mwr",
+      "faulting_class": "oblique",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "has_v2": true,
+      "has_report": true,
+      "links": {
+        "report": "events/hv61792931/REPORT.html"
+      }
+    },
+    {
+      "event_id": "hv70863117",
+      "place": "13 km SSE of Volcano, Hawaii",
+      "origin_utc": "2019-03-13T10:55:13Z",
+      "epi_lat": 19.3258333,
+      "epi_lon": -155.2005,
+      "depth_km": 6.97,
+      "Mw": 5.54,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "has_v2": true,
+      "has_report": true,
+      "links": {
+        "report": "events/hv70863117/REPORT.html"
       }
     },
     {
@@ -15109,6 +15167,37 @@
       "has_report": true,
       "links": {
         "report": "events/usb000szw2/REPORT.html"
+      }
+    },
+    {
+      "event_id": "uu60363602",
+      "place": "5 km NNE of Magna, Utah",
+      "origin_utc": "2020-03-18T13:09:31Z",
+      "epi_lat": 40.751,
+      "epi_lon": -112.0783333,
+      "depth_km": 11.9,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 29.3,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 2,
+      "pair_contam_max": 2,
+      "result": null,
+      "diagnostics": null,
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "has_v2": true,
+      "has_report": true,
+      "links": {
+        "report": "events/uu60363602/REPORT.html"
       }
     }
   ]
