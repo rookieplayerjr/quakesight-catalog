@@ -234,12 +234,6 @@ function buildMap(){
         color:'#2b3640',weight:1,fillColor:statusColor(e),fillOpacity:.85
       }).addTo(MAP);
     }
-    if(e.stacking){               // green ring marks multi-pair stacked events
-      const ringR=(hasFm?(18+Math.max(0,(e.Mw||4)-4)*7)/2:(4+Math.max(0,(e.Mw||4)-4)*3.4))+4;
-      L.circleMarker([e.epi_lat,e.epi_lon],{
-        radius:ringR,color:'#2a9d4a',weight:2,fill:false,opacity:.9,interactive:false
-      }).addTo(MAP);
-    }
     m.bindPopup(popupHtml(e),{maxWidth:265});
     m.on('click',()=>selectEvent(e.event_id,false));
     MARKERS[e.event_id]=m;
