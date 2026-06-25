@@ -301,7 +301,7 @@ function filtered(){
   const q=(document.getElementById('filter').value||'').toLowerCase();
   let rows=CAT.events.slice();
   if(q) rows=rows.filter(e=>(e.event_id+' '+(e.place||'')+' '
-      +(e.faulting_class||'')+' '+statusLabel(e)).toLowerCase().includes(q));
+      +(e.faulting_class||'')+' '+statusLabel(e)+(e.stacking?' stacking stack':'')).toLowerCase().includes(q));
   return rows;
 }
 function renderList(){
@@ -360,6 +360,7 @@ function renderTable(){
     ['_strike','strike'],['_dip','dip'],['_rake','rake'],
     ['_vrMin','vr_min'],['_vrMean','vr_mean'],['_nTr','n_tr'],
     ['_seqN','obs⊇seq'],
+    ['stacking','stack'],
     ['_zone','zone'],['origin_utc','origin (UTC)'],['place','place']
   ];
   const getVal=(e,k)=>{
@@ -430,6 +431,7 @@ function renderTable(){
       h+=`<td title="single-event observation (no other significant EQ in SAR window)" `
         +`style="color:#5c6b7a">single</td>`;
     }
+    h+=`<td style="text-align:center" title="${e.stacking?'multi-pair stacked observation':'single-pair'}">${e.stacking?'<span style="color:#2a9d4a;font-weight:700">⊞ stack</span>':'<span style="color:#aaa">—</span>'}</td>`;
     h+=`<td>${_zonePill(_zone(e))}${e.stale?' <span style="color:#c0392b">⟲</span>':''}</td>`;
     h+=`<td>${fmtTime(e.origin_utc)}</td>`;
     h+=`<td>${e.place||''}</td>`;
