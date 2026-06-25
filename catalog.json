@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-25T01:08:47Z",
+  "generated_utc": "2026-06-25T01:42:36Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
   "n_events": 80,
   "events": [
@@ -68,7 +68,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:35Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -133,7 +133,7 @@
       "escalation_reason": "gbis_ambiguous",
       "pipeline_run_utc": "2026-05-25T23:39:51Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -558,7 +558,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-12T15:57:29Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -997,7 +997,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-27T10:22:12Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -1072,7 +1072,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-10T17:58:50Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -1147,7 +1147,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-09T22:40:27Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -1431,7 +1431,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T08:41:43Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -1647,7 +1647,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T23:14:20Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -1720,7 +1720,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-27T10:23:10Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -1794,7 +1794,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-08T02:17:32Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -1869,7 +1869,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T10:16:03Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -2004,7 +2004,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T06:50:10Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -2077,7 +2077,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-27T06:00:53Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -2142,7 +2142,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-06T20:20:50Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -2495,7 +2495,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T20:02:47Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -2642,7 +2642,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T05:00:27Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -2713,7 +2713,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -2785,7 +2785,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-04T06:03:10Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3003,7 +3003,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T15:53:32Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3080,7 +3080,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3155,7 +3155,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-08T01:12:13Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3295,7 +3295,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T12:04:18Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3434,7 +3434,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3503,7 +3503,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3571,7 +3571,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T02:55:27Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3643,7 +3643,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T08:01:06Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3862,7 +3862,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-02T05:18:56Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3930,7 +3930,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T13:59:15Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -3999,7 +3999,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-08T04:48:59Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -4067,7 +4067,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:35Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -4141,7 +4141,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T23:49:37Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -4215,7 +4215,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T07:51:09Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -4426,7 +4426,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T20:17:46Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -4500,7 +4500,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T18:19:28Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -4571,7 +4571,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-06T21:19:28Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -4642,7 +4642,7 @@
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
       "pipeline_run_utc": "2026-05-25T23:49:05Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -4713,7 +4713,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T22:08:31Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -4784,7 +4784,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-27T10:21:47Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -4994,7 +4994,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T09:12:08Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5070,7 +5070,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T10:58:00Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5142,7 +5142,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5215,7 +5215,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T22:03:29Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5289,7 +5289,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T22:00:13Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5356,7 +5356,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-12T00:50:44Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5428,7 +5428,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-04T06:28:07Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5500,7 +5500,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5573,7 +5573,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T19:01:35Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5639,7 +5639,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-29T01:07:45Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "has_v2": true,
       "has_report": true,
       "links": {
