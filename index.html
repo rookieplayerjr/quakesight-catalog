@@ -359,12 +359,11 @@ function _zonePill(z){
 function renderTable(){
   const cols=[
     ['event_id','event'],['Mw','Mw'],['_mwPost','Mw_post'],['_dMw','ΔMw'],
-    ['depth_km','dep km'],['faulting_class','mech'],
-    ['_strike','strike'],['_dip','dip'],['_rake','rake'],
+    ['depth_km','dep km'],
     ['_vrMin','vr_min'],['_vrMean','vr_mean'],['_nTr','n_tr'],
     ['_seqN','obs⊇seq'],
     ['stacking','stack'],
-    ['_zone','zone'],['origin_utc','origin (UTC)'],['place','place']
+    ['origin_utc','origin (UTC)'],['place','place']
   ];
   const getVal=(e,k)=>{
     switch(k){
@@ -407,7 +406,7 @@ function renderTable(){
     const tip=COL_TIPS[c[0]]?` title="${COL_TIPS[c[0]]}"`:'';
     h+=`<th${tip} onclick="sortBy('${c[0]}')">${c[1]}</th>`;
   });
-  h+='<th>flags</th><th>report</th></tr></thead><tbody>';
+  h+='<th>report</th></tr></thead><tbody>';
   rows.forEach(e=>{
     h+='<tr>';
     h+=`<td><b>${e.event_id}</b></td>`;
@@ -416,11 +415,6 @@ function renderTable(){
     const dmw=_dMw(e);
     h+=`<td style="color:${dmw!=null&&Math.abs(dmw)>=0.3?'#c47800':'inherit'}">${dmw!=null?(dmw>0?'+'+dmw:dmw):'—'}</td>`;
     h+=`<td>${e.depth_km??''}</td>`;
-    const mcol=mechColor(e);
-    h+=`<td><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${mcol};margin-right:5px;vertical-align:middle"></span>${e.faulting_class||'—'}</td>`;
-    h+=`<td>${_f1(_fm(e,'strike'),0)}°</td>`;
-    h+=`<td>${_f1(_fm(e,'dip'),0)}°</td>`;
-    h+=`<td>${_f1(_fm(e,'rake'),0)}°</td>`;
     h+=`<td>${_f1(_vrMin(e),2)}</td>`;
     h+=`<td>${_f1(_vrMean(e),2)}</td>`;
     h+=`<td>${_nTr(e)??'—'}</td>`;
@@ -435,33 +429,8 @@ function renderTable(){
         +`style="color:#5c6b7a">single</td>`;
     }
     h+=`<td style="text-align:center" title="${e.stacking?'multi-pair stacked observation':'single-pair'}">${e.stacking?'<span style="color:#2a9d4a;font-weight:700">⊞ stack</span>':'<span style="color:#aaa">—</span>'}</td>`;
-    h+=`<td>${_zonePill(_zone(e))}${e.stale?' <span style="color:#c0392b">⟲</span>':''}</td>`;
     h+=`<td>${fmtTime(e.origin_utc)}</td>`;
     h+=`<td>${e.place||''}</td>`;
-    // flags column: badges for all notable conditions
-    let badges='';
-    const flags=((e.diagnostics||{}).flags)||[];
-    if(e.in_sequence){
-      const n=e.sequence_n_significant||0;
-      badges+=`<span title="in sequence (${n} significant)" style="color:#2a76d2;font-weight:600">🔗</span> `;
-    }
-    if((e.diagnostics||{}).catalog_disagreement)
-      badges+=`<span title="catalog Δ (|ΔMw|≥0.5 or Δstrike≥60°)" style="color:#d138ab;font-weight:600">⚠</span> `;
-    if(flags.includes('mw_disagreement_review'))
-      badges+=`<span title="Mw disagreement 0.3-0.5 (soft)" style="color:#b87333;font-weight:600">m</span> `;
-    if(flags.includes('bad_track_contaminates')){
-      const drops=flags.filter(f=>f.startsWith('drop_candidate:')).map(f=>f.split(':')[1]).join(',');
-      badges+=`<span title="bad track — drop ${drops}" style="color:#c47800;font-weight:600">🪓</span> `;
-    }
-    if(flags.includes('normal_fault_dual_plane_ambiguous'))
-      badges+=`<span title="dual NP ambiguous (normal fault)" style="color:#7d3c98;font-weight:600">⚖</span> `;
-    if((e.diagnostics||{}).np_likely_wrong)
-      badges+=`<span title="NP likely wrong — retry_np2 needed" style="color:#a04000;font-weight:600">↻</span> `;
-    if(flags.includes('single_los_pattern_D')||flags.includes('demoted_single_los_geom'))
-      badges+=`<span title="single LOS — strike ambiguous" style="color:#555555;font-weight:600">1L</span> `;
-    if(flags.includes('demoted_atm_dominates_signal'))
-      badges+=`<span title="atmosphere ≥ signal — noise dominates" style="color:#c0392b;font-weight:600">☁</span> `;
-    h+=`<td>${badges||'—'}</td>`;
     h+=e.links&&e.links.report
       ?`<td><a href="${e.links.report}" target="_blank">report →</a></td>`
       :'<td>—</td>';
