@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-25T22:17:12Z",
+  "generated_utc": "2026-06-27T11:10:10Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 258,
+  "n_events": 259,
   "events": [
     {
       "event_id": "ak01649w95tp",
@@ -155,7 +155,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:35Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -572,7 +572,7 @@
       "escalation_reason": "gbis_multiple_critical_railed",
       "pipeline_run_utc": "2026-06-24T07:11:44Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -1484,7 +1484,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-12T15:57:29Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5272,7 +5272,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T23:14:20Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5448,7 +5448,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-08T02:17:32Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -5592,7 +5592,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T10:16:03Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -9352,6 +9352,82 @@
       }
     },
     {
+      "event_id": "us6000rq2x",
+      "place": "116 km WSW of Edd, Eritrea",
+      "origin_utc": "2025-11-23T12:21:17Z",
+      "epi_lat": 13.588,
+      "epi_lon": 40.672,
+      "depth_km": 3.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": 39.1,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "pair_contam_min": 1,
+      "pair_contam_max": 1,
+      "multievent": {
+        "severity": "severe",
+        "separability": "co-located",
+        "n_neighbors": 1,
+        "max_neighbor_mw": 5.4
+      },
+      "result": {
+        "L_km": 5.58,
+        "W_km": 4.91,
+        "Z_top_km": 0.01,
+        "dip": -43.4,
+        "strike": 315.5,
+        "Mw_post": 5.42,
+        "VR": {
+          "t14_asc": 0.4,
+          "t79_dsc": 0.28
+        },
+        "fmech": {
+          "strike": 135.5,
+          "dip": 43.4,
+          "rake": -147.6
+        }
+      },
+      "diagnostics": {
+        "acceptance": 0.206,
+        "ess": 164,
+        "geweke": 5.42,
+        "zone": "RED",
+        "verdict": "FAIL",
+        "grades": {
+          "ess": "B",
+          "acceptance": "B",
+          "geweke": "D",
+          "vr_min": "C",
+          "vr_mean": "C",
+          "railed": "C",
+          "delta_mw": "A",
+          "delta_strike": "A"
+        },
+        "flags": [
+          "demoted_critical_rail"
+        ],
+        "catalog_disagreement": false,
+        "np_likely_wrong": false,
+        "in_sequence": false,
+        "sequence_n_ge_5": 1
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": "2026-06-10T16:48:07Z",
+      "stale": false,
+      "stacking": true,
+      "has_v2": true,
+      "has_report": true,
+      "links": {
+        "report": "events/us6000rq2x/REPORT.html"
+      }
+    },
+    {
       "event_id": "us6000ssxt",
       "place": "170 km SE of Khovd, Mongolia",
       "origin_utc": "2026-04-26T04:23:24Z",
@@ -9899,7 +9975,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T08:01:06Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -10498,7 +10574,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:35Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -10572,7 +10648,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T23:49:37Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -10646,7 +10722,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T07:51:09Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -11259,7 +11335,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T20:17:46Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -11434,7 +11510,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T18:19:28Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -11505,7 +11581,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-06T21:19:28Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -11636,7 +11712,7 @@
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
       "pipeline_run_utc": "2026-05-25T23:49:05Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -12047,7 +12123,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T22:08:31Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -13414,7 +13490,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T09:12:08Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -13490,7 +13566,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T10:58:00Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -14316,7 +14392,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T22:00:13Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -14659,7 +14735,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-12T00:50:44Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -14803,7 +14879,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -14876,7 +14952,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T19:01:35Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
@@ -14942,7 +15018,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-29T01:07:45Z",
       "stale": false,
-      "stacking": false,
+      "stacking": true,
       "has_v2": true,
       "has_report": true,
       "links": {
