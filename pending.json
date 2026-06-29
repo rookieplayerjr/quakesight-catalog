@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-28T23:52:02Z",
+  "generated_utc": "2026-06-29T00:07:03Z",
   "n_pending": 7,
   "events": [
     {
@@ -128,7 +128,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "waiting_for_data",
-      "next_check_utc": "2026-06-28T23:55:04Z",
+      "next_check_utc": "2026-06-29T06:00:05Z",
       "expected_max_los_cm": 3.2,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382936",
       "escalation_reason": null,
