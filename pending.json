@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-01T15:07:06Z",
+  "generated_utc": "2026-07-01T15:22:04Z",
   "n_pending": 8,
   "events": [
     {
@@ -60,7 +60,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-07-01T15:05:05Z",
+      "next_check_utc": "2026-07-01T15:25:04Z",
       "expected_max_los_cm": 1.3,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8u3",
       "escalation_reason": null,
@@ -100,6 +100,16 @@
           "status": ""
         },
         {
+          "track": 106,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "20260623",
+            "20260630"
+          ],
+          "median_coh": 0.361,
+          "status": ""
+        },
+        {
           "track": "DES_T025",
           "orbit_dir": "DES",
           "pair_dates": [
@@ -110,7 +120,7 @@
           "status": ""
         }
       ],
-      "n_tracks": 2,
+      "n_tracks": 3,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
