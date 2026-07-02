@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-02T15:55:54Z",
+  "generated_utc": "2026-07-02T16:07:03Z",
   "n_pending": 8,
   "events": [
     {
@@ -23,7 +23,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-07-02T15:50:05Z",
+      "next_check_utc": "2026-07-02T16:10:59Z",
       "expected_max_los_cm": 1.3,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9bg",
       "escalation_reason": null,
@@ -51,8 +51,19 @@
       "Mw_type": "mww",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 128,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "20260613",
+            "20260702"
+          ],
+          "median_coh": 0.367,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
