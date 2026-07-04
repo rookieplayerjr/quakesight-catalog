@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-04T06:52:03Z",
+  "generated_utc": "2026-07-04T07:07:03Z",
   "n_pending": 8,
   "events": [
     {
@@ -101,13 +101,13 @@
       "magnitude_band": "",
       "data_used": [
         {
-          "track": 33,
+          "track": 106,
           "orbit_dir": "asc",
           "pair_dates": [
             "20260618",
-            "20260625"
+            "20260630"
           ],
-          "median_coh": 0.362,
+          "median_coh": 0.343,
           "status": ""
         },
         {
