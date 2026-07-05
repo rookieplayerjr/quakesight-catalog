@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-05T16:22:03Z",
+  "generated_utc": "2026-07-05T16:37:03Z",
   "n_pending": 9,
   "events": [
     {
@@ -23,7 +23,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-07-05T16:20:20Z",
+      "next_check_utc": "2026-07-05T16:40:05Z",
       "expected_max_los_cm": 0.8,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taaa",
       "escalation_reason": null,
