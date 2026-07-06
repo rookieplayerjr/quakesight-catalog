@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-06T08:06:11Z",
+  "generated_utc": "2026-07-06T16:04:17Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 259,
+  "n_events": 261,
   "events": [
     {
       "event_id": "ak01649w95tp",
@@ -43,6 +43,12 @@
       "vr": 0.857,
       "mw_insar": 6.09,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/ak01649w95tp/REPORT.html",
         "solution": "events/ak01649w95tp/solution.json"
@@ -88,6 +94,12 @@
       "vr": 0.695,
       "mw_insar": 5.9,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/ak019g6hzf53/REPORT.html",
         "solution": "events/ak019g6hzf53/solution.json"
@@ -133,6 +145,12 @@
       "vr": 0.746,
       "mw_insar": 6.24,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/ci38385946/REPORT.html",
         "solution": "events/ci38385946/solution.json"
@@ -190,6 +208,12 @@
       "vr": 0.637,
       "mw_insar": 6.82,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/ci38443183/REPORT.html",
         "solution": "events/ci38443183/solution.json"
@@ -235,6 +259,12 @@
       "vr": 0.992,
       "mw_insar": 5.77,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/ci39645386/REPORT.html",
         "solution": "events/ci39645386/solution.json"
@@ -323,6 +353,12 @@
       "vr": 0.996,
       "mw_insar": 6.59,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/ci39919392/REPORT.html",
         "solution": "events/ci39919392/solution.json"
@@ -368,6 +404,12 @@
       "vr": 0.76,
       "mw_insar": 6.64,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/hv61792931/REPORT.html",
         "solution": "events/hv61792931/solution.json"
@@ -413,6 +455,12 @@
       "vr": 0.877,
       "mw_insar": 6.34,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/hv70863117/REPORT.html",
         "solution": "events/hv70863117/solution.json"
@@ -467,6 +515,12 @@
       "vr": 0.794,
       "mw_insar": 5.91,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/nc73584926/REPORT.html",
         "solution": "events/nc73584926/solution.json"
@@ -524,6 +578,12 @@
       "vr": 0.841,
       "mw_insar": 6.28,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/nn00725272/REPORT.html",
         "solution": "events/nn00725272/solution.json"
@@ -614,6 +674,12 @@
       "vr": 0.86,
       "mw_insar": 5.88,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/nn00782942/REPORT.html",
         "solution": "events/nn00782942/solution.json"
@@ -670,6 +736,12 @@
       "vr": 0.968,
       "mw_insar": 5.61,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/nn00888580/REPORT.html",
         "solution": "events/nn00888580/solution.json"
@@ -727,6 +799,12 @@
       "vr": 0.918,
       "mw_insar": 5.86,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/nn00914068/REPORT.html",
         "solution": "events/nn00914068/solution.json"
@@ -777,6 +855,12 @@
       "vr": 0.94,
       "mw_insar": 6.36,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/pr2020006006/REPORT.html",
         "solution": "events/pr2020006006/solution.json"
@@ -827,6 +911,12 @@
       "vr": 0.913,
       "mw_insar": 6.74,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/pr2020007007/REPORT.html",
         "solution": "events/pr2020007007/solution.json"
@@ -877,6 +967,12 @@
       "vr": 0.697,
       "mw_insar": 6.4,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/pr2020007010/REPORT.html",
         "solution": "events/pr2020007010/solution.json"
@@ -927,6 +1023,12 @@
       "vr": 0.935,
       "mw_insar": 6.52,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/pr2020011010/REPORT.html",
         "solution": "events/pr2020011010/solution.json"
@@ -977,6 +1079,12 @@
       "vr": 0.708,
       "mw_insar": 5.91,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/pr2020015008/REPORT.html",
         "solution": "events/pr2020015008/solution.json"
@@ -1059,6 +1167,12 @@
       "vr": 0.84,
       "mw_insar": 6.57,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10002zzn/REPORT.html",
         "solution": "events/us10002zzn/solution.json"
@@ -1141,6 +1255,12 @@
       "vr": 0.755,
       "mw_insar": 6.27,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10002zzr/REPORT.html",
         "solution": "events/us10002zzr/solution.json"
@@ -1186,6 +1306,12 @@
       "vr": 0.938,
       "mw_insar": 5.87,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10003mgj/REPORT.html",
         "solution": "events/us10003mgj/solution.json"
@@ -1242,6 +1368,12 @@
       "vr": 0.972,
       "mw_insar": 6.3,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10003qv5/REPORT.html",
         "solution": "events/us10003qv5/solution.json"
@@ -1287,6 +1419,12 @@
       "vr": 0.961,
       "mw_insar": 6.66,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us100042v4/REPORT.html",
         "solution": "events/us100042v4/solution.json"
@@ -1334,6 +1472,12 @@
       "vr": 0.87,
       "mw_insar": 6.15,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000454p/REPORT.html",
         "solution": "events/us1000454p/solution.json"
@@ -1384,6 +1528,12 @@
       "vr": 0.98,
       "mw_insar": 6.61,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10004fv5/REPORT.html",
         "solution": "events/us10004fv5/solution.json"
@@ -1443,6 +1593,12 @@
       "vr": 0.713,
       "mw_insar": 7.1,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10004gy9/REPORT.html",
         "solution": "events/us10004gy9/solution.json"
@@ -1500,6 +1656,12 @@
       "vr": 0.781,
       "mw_insar": 5.64,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10005j6b/REPORT.html",
         "solution": "events/us10005j6b/solution.json"
@@ -1559,6 +1721,12 @@
       "vr": 0.97,
       "mw_insar": 6.46,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10006g7d/REPORT.html",
         "solution": "events/us10006g7d/solution.json"
@@ -1618,6 +1786,12 @@
       "vr": 0.976,
       "mw_insar": 6.6,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000725y/REPORT.html",
         "solution": "events/us1000725y/solution.json"
@@ -1711,6 +1885,12 @@
       "vr": null,
       "mw_insar": 0.0,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000780y/REPORT.html",
         "solution": "events/us1000780y/solution.json"
@@ -1761,6 +1941,12 @@
       "vr": 0.726,
       "mw_insar": 5.89,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10007twj/REPORT.html",
         "solution": "events/us10007twj/solution.json"
@@ -1811,6 +1997,12 @@
       "vr": 0.858,
       "mw_insar": 5.82,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10007twn/REPORT.html",
         "solution": "events/us10007twn/solution.json"
@@ -1890,6 +2082,12 @@
       "vr": null,
       "mw_insar": 0.0,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10007wew/REPORT.html",
         "solution": "events/us10007wew/solution.json"
@@ -1969,6 +2167,12 @@
       "vr": 0.997,
       "mw_insar": 6.19,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us100086gw/REPORT.html",
         "solution": "events/us100086gw/solution.json"
@@ -2028,6 +2232,12 @@
       "vr": 0.993,
       "mw_insar": 6.39,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10008e3k/REPORT.html",
         "solution": "events/us10008e3k/solution.json"
@@ -2087,6 +2297,12 @@
       "vr": 1.0,
       "mw_insar": 5.98,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10008h1u/REPORT.html",
         "solution": "events/us10008h1u/solution.json"
@@ -2141,6 +2357,12 @@
       "vr": 0.695,
       "mw_insar": 5.3,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10008m7l/REPORT.html",
         "solution": "events/us10008m7l/solution.json"
@@ -2200,6 +2422,12 @@
       "vr": null,
       "mw_insar": 0.0,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10008rah/REPORT.html",
         "solution": "events/us10008rah/solution.json"
@@ -2245,6 +2473,12 @@
       "vr": 0.75,
       "mw_insar": 6.19,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us10008ssf/REPORT.html",
         "solution": "events/us10008ssf/solution.json"
@@ -2316,6 +2550,12 @@
       "vr": 0.953,
       "mw_insar": 6.51,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us100098gc/REPORT.html",
         "solution": "events/us100098gc/solution.json"
@@ -2387,6 +2627,12 @@
       "vr": 0.861,
       "mw_insar": 6.48,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000bjnz/REPORT.html",
         "solution": "events/us1000bjnz/solution.json"
@@ -2486,6 +2732,12 @@
       "vr": 0.772,
       "mw_insar": 5.61,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000bmdw/REPORT.html",
         "solution": "events/us1000bmdw/solution.json"
@@ -2531,6 +2783,12 @@
       "vr": 0.834,
       "mw_insar": 6.28,
       "n_railed": 7,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000dngn/REPORT.html",
         "solution": "events/us1000dngn/solution.json"
@@ -2576,6 +2834,12 @@
       "vr": 0.942,
       "mw_insar": 6.18,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000f22r/REPORT.html",
         "solution": "events/us1000f22r/solution.json"
@@ -2635,6 +2899,12 @@
       "vr": 0.891,
       "mw_insar": 5.62,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000ghda/REPORT.html",
         "solution": "events/us1000ghda/solution.json"
@@ -2694,6 +2964,12 @@
       "vr": 0.888,
       "mw_insar": 6.22,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000hwdw/REPORT.html",
         "solution": "events/us1000hwdw/solution.json"
@@ -2741,6 +3017,12 @@
       "vr": 0.066,
       "mw_insar": 5.82,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000i36p/REPORT.html",
         "solution": "events/us1000i36p/solution.json"
@@ -2786,6 +3068,12 @@
       "vr": 0.842,
       "mw_insar": 6.58,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000j8dg/REPORT.html",
         "solution": "events/us1000j8dg/solution.json"
@@ -2831,6 +3119,12 @@
       "vr": 0.985,
       "mw_insar": 7.15,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us1000jaaq/REPORT.html",
         "solution": "events/us1000jaaq/solution.json"
@@ -2887,6 +3181,12 @@
       "vr": 0.924,
       "mw_insar": 6.83,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20002b38/REPORT.html",
         "solution": "events/us20002b38/solution.json"
@@ -2937,6 +3237,12 @@
       "vr": 0.987,
       "mw_insar": 7.12,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20002pyz/REPORT.html",
         "solution": "events/us20002pyz/solution.json"
@@ -2993,6 +3299,12 @@
       "vr": 0.932,
       "mw_insar": 6.7,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20003kkw/REPORT.html",
         "solution": "events/us20003kkw/solution.json"
@@ -3049,6 +3361,12 @@
       "vr": 0.75,
       "mw_insar": 6.45,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20003nqr/REPORT.html",
         "solution": "events/us20003nqr/solution.json"
@@ -3096,6 +3414,12 @@
       "vr": 0.997,
       "mw_insar": 6.94,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20004g1p/REPORT.html",
         "solution": "events/us20004g1p/solution.json"
@@ -3141,6 +3465,12 @@
       "vr": 0.876,
       "mw_insar": 6.92,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20004y6h/REPORT.html",
         "solution": "events/us20004y6h/solution.json"
@@ -3197,6 +3527,12 @@
       "vr": 0.669,
       "mw_insar": 6.48,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us200050iw/REPORT.html",
         "solution": "events/us200050iw/solution.json"
@@ -3253,6 +3589,12 @@
       "vr": 0.478,
       "mw_insar": 6.3,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20005ate/REPORT.html",
         "solution": "events/us20005ate/solution.json"
@@ -3309,6 +3651,12 @@
       "vr": 0.971,
       "mw_insar": 7.31,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20005bft/REPORT.html",
         "solution": "events/us20005bft/solution.json"
@@ -3365,6 +3713,12 @@
       "vr": 0.987,
       "mw_insar": 7.04,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us200062bu/REPORT.html",
         "solution": "events/us200062bu/solution.json"
@@ -3415,6 +3769,12 @@
       "vr": 0.931,
       "mw_insar": 7.1,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us200066x9/REPORT.html",
         "solution": "events/us200066x9/solution.json"
@@ -3465,6 +3825,12 @@
       "vr": 0.958,
       "mw_insar": 6.3,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us200067p3/REPORT.html",
         "solution": "events/us200067p3/solution.json"
@@ -3521,6 +3887,12 @@
       "vr": 0.796,
       "mw_insar": 7.73,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20006fpn/REPORT.html",
         "solution": "events/us20006fpn/solution.json"
@@ -3577,6 +3949,12 @@
       "vr": 0.178,
       "mw_insar": 6.88,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20007fta/REPORT.html",
         "solution": "events/us20007fta/solution.json"
@@ -3624,6 +4002,12 @@
       "vr": 0.94,
       "mw_insar": 6.4,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20007ga1/REPORT.html",
         "solution": "events/us20007ga1/solution.json"
@@ -3674,6 +4058,12 @@
       "vr": 0.988,
       "mw_insar": 6.27,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us20007guy/REPORT.html",
         "solution": "events/us20007guy/solution.json"
@@ -3731,6 +4121,12 @@
       "vr": 0.933,
       "mw_insar": 6.74,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000a65e/REPORT.html",
         "solution": "events/us2000a65e/solution.json"
@@ -3781,6 +4177,12 @@
       "vr": 0.793,
       "mw_insar": 7.09,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000atpb/REPORT.html",
         "solution": "events/us2000atpb/solution.json"
@@ -3840,6 +4242,12 @@
       "vr": 0.554,
       "mw_insar": 7.38,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000bqsn/REPORT.html",
         "solution": "events/us2000bqsn/solution.json"
@@ -3890,6 +4298,12 @@
       "vr": 0.883,
       "mw_insar": 6.0,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000bu6g/REPORT.html",
         "solution": "events/us2000bu6g/solution.json"
@@ -3949,6 +4363,12 @@
       "vr": 0.959,
       "mw_insar": 6.07,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000c3ag/REPORT.html",
         "solution": "events/us2000c3ag/solution.json"
@@ -4008,6 +4428,12 @@
       "vr": 0.87,
       "mw_insar": 6.3,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000c3mi/REPORT.html",
         "solution": "events/us2000c3mi/solution.json"
@@ -4058,6 +4484,12 @@
       "vr": 0.98,
       "mw_insar": 5.92,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000cifa/REPORT.html",
         "solution": "events/us2000cifa/solution.json"
@@ -4105,6 +4537,12 @@
       "vr": 0.904,
       "mw_insar": 6.22,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000czig/REPORT.html",
         "solution": "events/us2000czig/solution.json"
@@ -4161,6 +4599,12 @@
       "vr": 0.318,
       "mw_insar": 6.29,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000dwh6/REPORT.html",
         "solution": "events/us2000dwh6/solution.json"
@@ -4217,6 +4661,12 @@
       "vr": 0.988,
       "mw_insar": 7.74,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000frwr/REPORT.html",
         "solution": "events/us2000frwr/solution.json"
@@ -4262,6 +4712,12 @@
       "vr": 0.825,
       "mw_insar": 6.2,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000gb1e/REPORT.html",
         "solution": "events/us2000gb1e/solution.json"
@@ -4318,6 +4774,12 @@
       "vr": 0.741,
       "mw_insar": 5.98,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000gb4d/REPORT.html",
         "solution": "events/us2000gb4d/solution.json"
@@ -4374,6 +4836,12 @@
       "vr": 0.864,
       "mw_insar": 6.28,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000gi03/REPORT.html",
         "solution": "events/us2000gi03/solution.json"
@@ -4419,6 +4887,12 @@
       "vr": 0.945,
       "mw_insar": 6.37,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000ha5b/REPORT.html",
         "solution": "events/us2000ha5b/solution.json"
@@ -4478,6 +4952,12 @@
       "vr": 0.945,
       "mw_insar": 6.7,
       "n_railed": 7,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000i6sc/REPORT.html",
         "solution": "events/us2000i6sc/solution.json"
@@ -4534,6 +5014,12 @@
       "vr": 0.681,
       "mw_insar": 5.47,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000iws8/REPORT.html",
         "solution": "events/us2000iws8/solution.json"
@@ -4590,6 +5076,12 @@
       "vr": 0.98,
       "mw_insar": 6.19,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000j0th/REPORT.html",
         "solution": "events/us2000j0th/solution.json"
@@ -4649,6 +5141,12 @@
       "vr": 0.775,
       "mw_insar": 6.28,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000j967/REPORT.html",
         "solution": "events/us2000j967/solution.json"
@@ -4699,6 +5197,12 @@
       "vr": 0.597,
       "mw_insar": 7.44,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000jcbz/REPORT.html",
         "solution": "events/us2000jcbz/solution.json"
@@ -4749,6 +5253,12 @@
       "vr": 0.959,
       "mw_insar": 7.17,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us2000jccs/REPORT.html",
         "solution": "events/us2000jccs/solution.json"
@@ -4808,6 +5318,12 @@
       "vr": 0.603,
       "mw_insar": 5.96,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us600041ry/REPORT.html",
         "solution": "events/us600041ry/solution.json"
@@ -4853,6 +5369,12 @@
       "vr": 0.337,
       "mw_insar": 5.3,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us600053z3/REPORT.html",
         "solution": "events/us600053z3/solution.json"
@@ -4903,6 +5425,12 @@
       "vr": 0.303,
       "mw_insar": 6.73,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us60005lrf/REPORT.html",
         "solution": "events/us60005lrf/solution.json"
@@ -4948,6 +5476,12 @@
       "vr": 0.992,
       "mw_insar": 6.15,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us60005mqp/REPORT.html",
         "solution": "events/us60005mqp/solution.json"
@@ -5005,6 +5539,12 @@
       "vr": 0.64,
       "mw_insar": 6.47,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000645n/REPORT.html",
         "solution": "events/us6000645n/solution.json"
@@ -5055,6 +5595,12 @@
       "vr": 0.16,
       "mw_insar": 6.66,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us60006470/REPORT.html",
         "solution": "events/us60006470/solution.json"
@@ -5111,6 +5657,12 @@
       "vr": 0.978,
       "mw_insar": 6.12,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us600068w0/REPORT.html",
         "solution": "events/us600068w0/solution.json"
@@ -5170,6 +5722,12 @@
       "vr": 0.674,
       "mw_insar": 6.23,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us60006rpn/REPORT.html",
         "solution": "events/us60006rpn/solution.json"
@@ -5227,6 +5785,12 @@
       "vr": 0.955,
       "mw_insar": 5.93,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us60007anp/REPORT.html",
         "solution": "events/us60007anp/solution.json"
@@ -5284,6 +5848,12 @@
       "vr": 0.691,
       "mw_insar": 6.85,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us60007ewc/REPORT.html",
         "solution": "events/us60007ewc/solution.json"
@@ -5329,6 +5899,12 @@
       "vr": 0.574,
       "mw_insar": 6.06,
       "n_railed": 7,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us600087il/REPORT.html",
         "solution": "events/us600087il/solution.json"
@@ -5388,6 +5964,12 @@
       "vr": 0.918,
       "mw_insar": 5.95,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000abnv/REPORT.html",
         "solution": "events/us6000abnv/solution.json"
@@ -5444,6 +6026,12 @@
       "vr": 0.279,
       "mw_insar": 5.75,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ag4u/REPORT.html",
         "solution": "events/us6000ag4u/solution.json"
@@ -5501,6 +6089,12 @@
       "vr": 0.989,
       "mw_insar": 6.3,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000b26j/REPORT.html",
         "solution": "events/us6000b26j/solution.json"
@@ -5557,6 +6151,12 @@
       "vr": 0.911,
       "mw_insar": 7.05,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000b930/REPORT.html",
         "solution": "events/us6000b930/solution.json"
@@ -5607,6 +6207,12 @@
       "vr": 0.961,
       "mw_insar": 6.62,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000bdg8/REPORT.html",
         "solution": "events/us6000bdg8/solution.json"
@@ -5663,6 +6269,12 @@
       "vr": 0.809,
       "mw_insar": 5.92,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000bdq8/REPORT.html",
         "solution": "events/us6000bdq8/solution.json"
@@ -5708,6 +6320,12 @@
       "vr": 0.944,
       "mw_insar": 6.21,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000bzek/REPORT.html",
         "solution": "events/us6000bzek/solution.json"
@@ -5758,6 +6376,12 @@
       "vr": 0.019,
       "mw_insar": 6.4,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000c9ci/REPORT.html",
         "solution": "events/us6000c9ci/solution.json"
@@ -5808,6 +6432,12 @@
       "vr": 0.026,
       "mw_insar": 6.59,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000c9cs/REPORT.html",
         "solution": "events/us6000c9cs/solution.json"
@@ -5862,6 +6492,12 @@
       "vr": 0.9,
       "mw_insar": 6.69,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000d3zh/REPORT.html",
         "solution": "events/us6000d3zh/solution.json"
@@ -5919,6 +6555,12 @@
       "vr": 0.924,
       "mw_insar": 6.3,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000d7ix/REPORT.html",
         "solution": "events/us6000d7ix/solution.json"
@@ -5975,6 +6617,12 @@
       "vr": 0.91,
       "mw_insar": 5.97,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ddge/REPORT.html",
         "solution": "events/us6000ddge/solution.json"
@@ -6022,6 +6670,12 @@
       "vr": 0.163,
       "mw_insar": 6.79,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000df9r/REPORT.html",
         "solution": "events/us6000df9r/solution.json"
@@ -6078,6 +6732,12 @@
       "vr": 0.293,
       "mw_insar": 6.44,
       "n_railed": 7,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000dk70/REPORT.html",
         "solution": "events/us6000dk70/solution.json"
@@ -6132,6 +6792,12 @@
       "vr": 0.863,
       "mw_insar": 5.6,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000dxge/REPORT.html",
         "solution": "events/us6000dxge/solution.json"
@@ -6186,6 +6852,12 @@
       "vr": 0.995,
       "mw_insar": 5.99,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000e2k3/REPORT.html",
         "solution": "events/us6000e2k3/solution.json"
@@ -6274,6 +6946,12 @@
       "vr": 0.663,
       "mw_insar": 6.11,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000epst/REPORT.html",
         "solution": "events/us6000epst/solution.json"
@@ -6330,6 +7008,12 @@
       "vr": 0.916,
       "mw_insar": 6.5,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000etys/REPORT.html",
         "solution": "events/us6000etys/solution.json"
@@ -6380,6 +7064,12 @@
       "vr": 0.768,
       "mw_insar": 7.01,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ez2l/REPORT.html",
         "solution": "events/us6000ez2l/solution.json"
@@ -6430,6 +7120,12 @@
       "vr": 0.545,
       "mw_insar": 6.84,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ez5x/REPORT.html",
         "solution": "events/us6000ez5x/solution.json"
@@ -6480,6 +7176,12 @@
       "vr": 0.548,
       "mw_insar": 6.15,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000f155/REPORT.html",
         "solution": "events/us6000f155/solution.json"
@@ -6527,6 +7229,12 @@
       "vr": 0.042,
       "mw_insar": 6.42,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000f1ea/REPORT.html",
         "solution": "events/us6000f1ea/solution.json"
@@ -6577,6 +7285,12 @@
       "vr": 0.995,
       "mw_insar": 6.44,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000f1nr/REPORT.html",
         "solution": "events/us6000f1nr/solution.json"
@@ -6622,6 +7336,12 @@
       "vr": 0.935,
       "mw_insar": 5.91,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000f2r5/REPORT.html",
         "solution": "events/us6000f2r5/solution.json"
@@ -6667,6 +7387,12 @@
       "vr": 0.83,
       "mw_insar": 6.68,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000fr6u/REPORT.html",
         "solution": "events/us6000fr6u/solution.json"
@@ -6723,6 +7449,12 @@
       "vr": 0.795,
       "mw_insar": 7.19,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000fsg9/REPORT.html",
         "solution": "events/us6000fsg9/solution.json"
@@ -6777,6 +7509,12 @@
       "vr": 0.491,
       "mw_insar": 7.87,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ftxu/REPORT.html",
         "solution": "events/us6000ftxu/solution.json"
@@ -6833,6 +7571,12 @@
       "vr": 0.987,
       "mw_insar": 7.2,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000gdng/REPORT.html",
         "solution": "events/us6000gdng/solution.json"
@@ -6889,6 +7633,12 @@
       "vr": 0.922,
       "mw_insar": 6.34,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000hfqj/REPORT.html",
         "solution": "events/us6000hfqj/solution.json"
@@ -6934,6 +7684,12 @@
       "vr": null,
       "mw_insar": 0.0,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000hn0i/REPORT.html",
         "solution": "events/us6000hn0i/solution.json"
@@ -6991,6 +7747,12 @@
       "vr": 0.887,
       "mw_insar": 6.51,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000hz8x/REPORT.html",
         "solution": "events/us6000hz8x/solution.json"
@@ -7048,6 +7810,12 @@
       "vr": 0.861,
       "mw_insar": 6.44,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000hz9v/REPORT.html",
         "solution": "events/us6000hz9v/solution.json"
@@ -7095,6 +7863,12 @@
       "vr": null,
       "mw_insar": 0.0,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ii2v/REPORT.html",
         "solution": "events/us6000ii2v/solution.json"
@@ -7154,6 +7928,12 @@
       "vr": 0.756,
       "mw_insar": 5.24,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000iqx6/REPORT.html",
         "solution": "events/us6000iqx6/solution.json"
@@ -7208,6 +7988,12 @@
       "vr": 0.947,
       "mw_insar": 7.13,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000iwds/REPORT.html",
         "solution": "events/us6000iwds/solution.json"
@@ -7264,6 +8050,12 @@
       "vr": 0.075,
       "mw_insar": 5.94,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000j6u0/REPORT.html",
         "solution": "events/us6000j6u0/solution.json"
@@ -7318,6 +8110,12 @@
       "vr": 0.985,
       "mw_insar": 7.72,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000j8lp/REPORT.html",
         "solution": "events/us6000j8lp/solution.json"
@@ -7374,6 +8172,12 @@
       "vr": 0.219,
       "mw_insar": 7.43,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ja1a/REPORT.html",
         "solution": "events/us6000ja1a/solution.json"
@@ -7433,6 +8237,12 @@
       "vr": 0.949,
       "mw_insar": 5.67,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000jbsk/REPORT.html",
         "solution": "events/us6000jbsk/solution.json"
@@ -7480,6 +8290,12 @@
       "vr": 0.96,
       "mw_insar": 6.15,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000jj8s/REPORT.html",
         "solution": "events/us6000jj8s/solution.json"
@@ -7537,6 +8353,12 @@
       "vr": 0.963,
       "mw_insar": 5.77,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000jk0t/REPORT.html",
         "solution": "events/us6000jk0t/solution.json"
@@ -7596,6 +8418,12 @@
       "vr": 0.987,
       "mw_insar": 5.84,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000jnqz/REPORT.html",
         "solution": "events/us6000jnqz/solution.json"
@@ -7653,6 +8481,12 @@
       "vr": 0.986,
       "mw_insar": 6.26,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000jqcn/REPORT.html",
         "solution": "events/us6000jqcn/solution.json"
@@ -7710,6 +8544,12 @@
       "vr": 0.754,
       "mw_insar": 6.9,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000jqxc/REPORT.html",
         "solution": "events/us6000jqxc/solution.json"
@@ -7769,6 +8609,12 @@
       "vr": 0.923,
       "mw_insar": 6.54,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000k9mb/REPORT.html",
         "solution": "events/us6000k9mb/solution.json"
@@ -7828,6 +8674,12 @@
       "vr": 0.9,
       "mw_insar": 5.9,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000k9rh/REPORT.html",
         "solution": "events/us6000k9rh/solution.json"
@@ -7884,6 +8736,12 @@
       "vr": 0.95,
       "mw_insar": 6.28,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000kx3e/REPORT.html",
         "solution": "events/us6000kx3e/solution.json"
@@ -7943,6 +8801,12 @@
       "vr": 0.792,
       "mw_insar": 6.18,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000lcgj/REPORT.html",
         "solution": "events/us6000lcgj/solution.json"
@@ -8000,6 +8864,12 @@
       "vr": 0.931,
       "mw_insar": 6.52,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ldpg/REPORT.html",
         "solution": "events/us6000ldpg/solution.json"
@@ -8057,6 +8927,12 @@
       "vr": 0.809,
       "mw_insar": 6.48,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ldpm/REPORT.html",
         "solution": "events/us6000ldpm/solution.json"
@@ -8114,6 +8990,12 @@
       "vr": 0.978,
       "mw_insar": 6.04,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ldpv/REPORT.html",
         "solution": "events/us6000ldpv/solution.json"
@@ -8173,6 +9055,12 @@
       "vr": 0.843,
       "mw_insar": 6.37,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000len8/REPORT.html",
         "solution": "events/us6000len8/solution.json"
@@ -8230,6 +9118,12 @@
       "vr": 0.791,
       "mw_insar": 6.35,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000lfn5/REPORT.html",
         "solution": "events/us6000lfn5/solution.json"
@@ -8286,6 +9180,12 @@
       "vr": 0.781,
       "mw_insar": 6.11,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000lgpg/REPORT.html",
         "solution": "events/us6000lgpg/solution.json"
@@ -8345,6 +9245,12 @@
       "vr": 0.66,
       "mw_insar": 5.1,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000mjux/REPORT.html",
         "solution": "events/us6000mjux/solution.json"
@@ -8401,6 +9307,12 @@
       "vr": 0.98,
       "mw_insar": 6.17,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000mvya/REPORT.html",
         "solution": "events/us6000mvya/solution.json"
@@ -8446,6 +9358,12 @@
       "vr": 0.986,
       "mw_insar": 5.66,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000njq1/REPORT.html",
         "solution": "events/us6000njq1/solution.json"
@@ -8502,6 +9420,12 @@
       "vr": 0.977,
       "mw_insar": 5.8,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000nq9a/REPORT.html",
         "solution": "events/us6000nq9a/solution.json"
@@ -8547,6 +9471,12 @@
       "vr": 0.88,
       "mw_insar": 5.88,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000nyau/REPORT.html",
         "solution": "events/us6000nyau/solution.json"
@@ -8601,6 +9531,12 @@
       "vr": 0.96,
       "mw_insar": 6.31,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000nyzk/REPORT.html",
         "solution": "events/us6000nyzk/solution.json"
@@ -8648,6 +9584,12 @@
       "vr": 0.661,
       "mw_insar": 6.22,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000q6n2/REPORT.html",
         "solution": "events/us6000q6n2/solution.json"
@@ -8702,6 +9644,12 @@
       "vr": 0.934,
       "mw_insar": 6.52,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000qixr/REPORT.html",
         "solution": "events/us6000qixr/solution.json"
@@ -8756,6 +9704,12 @@
       "vr": 0.894,
       "mw_insar": 6.04,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000qznb/REPORT.html",
         "solution": "events/us6000qznb/solution.json"
@@ -8803,6 +9757,12 @@
       "vr": 1.0,
       "mw_insar": 5.75,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000r1mt/REPORT.html",
         "solution": "events/us6000r1mt/solution.json"
@@ -8860,6 +9820,12 @@
       "vr": 0.945,
       "mw_insar": 6.25,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000rjsu/REPORT.html",
         "solution": "events/us6000rjsu/solution.json"
@@ -8914,6 +9880,12 @@
       "vr": 0.508,
       "mw_insar": 5.53,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000rl31/REPORT.html",
         "solution": "events/us6000rl31/solution.json"
@@ -8973,6 +9945,12 @@
       "vr": 0.974,
       "mw_insar": 5.78,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000rq2x/REPORT.html",
         "solution": "events/us6000rq2x/solution.json"
@@ -9027,9 +10005,78 @@
       "vr": 0.669,
       "mw_insar": 5.54,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us6000ssxt/REPORT.html",
         "solution": "events/us6000ssxt/solution.json"
+      }
+    },
+    {
+      "event_id": "us6000t8u3",
+      "place": "8 km WNW of Changning, China",
+      "origin_utc": "2026-06-28T16:12:08Z",
+      "epi_lat": 28.6031,
+      "epi_lon": 104.8416,
+      "depth_km": 10.0,
+      "Mw": 5.2,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [
+        {
+          "track": "t128_asc",
+          "orbit_dir": "",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "monitor_s1ot",
+          "median_coh": 0.0,
+          "status": "ok"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 3.9,
+          "dip": 88.8,
+          "rake": -47.4
+        },
+        "Mw_post": 5.79
+      },
+      "diagnostics": {
+        "zone": "YELLOW",
+        "source": "quality_v2"
+      },
+      "status": "done",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "YELLOW",
+      "vr": 0.782,
+      "mw_insar": 5.79,
+      "n_railed": 0,
+      "centroid_depth_km": 12.23,
+      "centroid_depth_sigma_km": 2.51,
+      "stress_drop_mpa": 8.967,
+      "stress_drop_sigma_mpa": 3.406,
+      "stress_drop_valid": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us6000t8u3/REPORT.html",
+        "solution": "events/us6000t8u3/solution.json"
       }
     },
     {
@@ -9083,6 +10130,12 @@
       "vr": 0.517,
       "mw_insar": 7.76,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70003a63/REPORT.html",
         "solution": "events/us70003a63/solution.json"
@@ -9139,6 +10192,12 @@
       "vr": 0.906,
       "mw_insar": 6.69,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70003axc/REPORT.html",
         "solution": "events/us70003axc/solution.json"
@@ -9189,6 +10248,12 @@
       "vr": 0.947,
       "mw_insar": 6.8,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70003j46/REPORT.html",
         "solution": "events/us70003j46/solution.json"
@@ -9245,6 +10310,12 @@
       "vr": 0.865,
       "mw_insar": 6.22,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70004nrn/REPORT.html",
         "solution": "events/us70004nrn/solution.json"
@@ -9290,6 +10361,12 @@
       "vr": null,
       "mw_insar": 0.0,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70005alm/REPORT.html",
         "solution": "events/us70005alm/solution.json"
@@ -9335,6 +10412,12 @@
       "vr": 0.835,
       "mw_insar": 6.08,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70005drn/REPORT.html",
         "solution": "events/us70005drn/solution.json"
@@ -9385,6 +10468,12 @@
       "vr": 0.288,
       "mw_insar": 6.4,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70005ge3/REPORT.html",
         "solution": "events/us70005ge3/solution.json"
@@ -9442,6 +10531,12 @@
       "vr": 0.397,
       "mw_insar": 7.0,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70005ulm/REPORT.html",
         "solution": "events/us70005ulm/solution.json"
@@ -9499,6 +10594,12 @@
       "vr": 0.586,
       "mw_insar": 6.47,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us700061e9/REPORT.html",
         "solution": "events/us700061e9/solution.json"
@@ -9555,6 +10656,12 @@
       "vr": 0.877,
       "mw_insar": 5.49,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70006a4q/REPORT.html",
         "solution": "events/us70006a4q/solution.json"
@@ -9612,6 +10719,12 @@
       "vr": 0.893,
       "mw_insar": 6.15,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70006ara/REPORT.html",
         "solution": "events/us70006ara/solution.json"
@@ -9669,6 +10782,12 @@
       "vr": 0.697,
       "mw_insar": 6.3,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70006d0m/REPORT.html",
         "solution": "events/us70006d0m/solution.json"
@@ -9726,6 +10845,12 @@
       "vr": 0.998,
       "mw_insar": 5.95,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70006qnn/REPORT.html",
         "solution": "events/us70006qnn/solution.json"
@@ -9782,6 +10907,12 @@
       "vr": 0.769,
       "mw_insar": 5.36,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70006sj8/REPORT.html",
         "solution": "events/us70006sj8/solution.json"
@@ -9836,6 +10967,12 @@
       "vr": 0.961,
       "mw_insar": 7.08,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70006vkq/REPORT.html",
         "solution": "events/us70006vkq/solution.json"
@@ -9886,6 +11023,12 @@
       "vr": 0.877,
       "mw_insar": 6.3,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70006vm9/REPORT.html",
         "solution": "events/us70006vm9/solution.json"
@@ -9940,6 +11083,12 @@
       "vr": 0.936,
       "mw_insar": 7.1,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70006wuf/REPORT.html",
         "solution": "events/us70006wuf/solution.json"
@@ -9994,6 +11143,12 @@
       "vr": 0.967,
       "mw_insar": 5.15,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us700070sc/REPORT.html",
         "solution": "events/us700070sc/solution.json"
@@ -10053,6 +11208,12 @@
       "vr": 0.907,
       "mw_insar": 5.98,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70007v29/REPORT.html",
         "solution": "events/us70007v29/solution.json"
@@ -10112,6 +11273,12 @@
       "vr": 0.858,
       "mw_insar": 6.22,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70007v9g/REPORT.html",
         "solution": "events/us70007v9g/solution.json"
@@ -10168,6 +11335,12 @@
       "vr": 0.944,
       "mw_insar": 6.12,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70008cld/REPORT.html",
         "solution": "events/us70008cld/solution.json"
@@ -10213,6 +11386,12 @@
       "vr": 0.904,
       "mw_insar": 5.81,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70008kd8/REPORT.html",
         "solution": "events/us70008kd8/solution.json"
@@ -10260,6 +11439,12 @@
       "vr": 0.913,
       "mw_insar": 6.3,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70008l5g/REPORT.html",
         "solution": "events/us70008l5g/solution.json"
@@ -10316,6 +11501,12 @@
       "vr": 0.923,
       "mw_insar": 7.75,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us70008xhp/REPORT.html",
         "solution": "events/us70008xhp/solution.json"
@@ -10373,6 +11564,12 @@
       "vr": 0.991,
       "mw_insar": 6.07,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000abmk/REPORT.html",
         "solution": "events/us7000abmk/solution.json"
@@ -10420,6 +11617,12 @@
       "vr": 0.037,
       "mw_insar": 6.52,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000apd0/REPORT.html",
         "solution": "events/us7000apd0/solution.json"
@@ -10476,6 +11679,12 @@
       "vr": 0.725,
       "mw_insar": 6.94,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000bg4v/REPORT.html",
         "solution": "events/us7000bg4v/solution.json"
@@ -10530,6 +11739,12 @@
       "vr": 0.961,
       "mw_insar": 7.68,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000biqb/REPORT.html",
         "solution": "events/us7000biqb/solution.json"
@@ -10580,6 +11795,12 @@
       "vr": 0.157,
       "mw_insar": 6.4,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000bql2/REPORT.html",
         "solution": "events/us7000bql2/solution.json"
@@ -10636,6 +11857,12 @@
       "vr": 0.724,
       "mw_insar": 5.48,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000c6p3/REPORT.html",
         "solution": "events/us7000c6p3/solution.json"
@@ -10692,6 +11919,12 @@
       "vr": 0.828,
       "mw_insar": 6.54,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000ckx5/REPORT.html",
         "solution": "events/us7000ckx5/solution.json"
@@ -10737,6 +11970,12 @@
       "vr": 0.637,
       "mw_insar": 6.29,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000d0gn/REPORT.html",
         "solution": "events/us7000d0gn/solution.json"
@@ -10794,6 +12033,12 @@
       "vr": 0.859,
       "mw_insar": 6.96,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000d18q/REPORT.html",
         "solution": "events/us7000d18q/solution.json"
@@ -10851,6 +12096,12 @@
       "vr": 0.909,
       "mw_insar": 6.0,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000df40/REPORT.html",
         "solution": "events/us7000df40/solution.json"
@@ -10908,6 +12159,12 @@
       "vr": 0.944,
       "mw_insar": 5.69,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000dkv0/REPORT.html",
         "solution": "events/us7000dkv0/solution.json"
@@ -10955,6 +12212,12 @@
       "vr": 0.988,
       "mw_insar": 7.0,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000dl4v/REPORT.html",
         "solution": "events/us7000dl4v/solution.json"
@@ -11000,6 +12263,12 @@
       "vr": 0.977,
       "mw_insar": 6.2,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000e2bt/REPORT.html",
         "solution": "events/us7000e2bt/solution.json"
@@ -11057,6 +12326,12 @@
       "vr": 0.937,
       "mw_insar": 5.45,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000e3n6/REPORT.html",
         "solution": "events/us7000e3n6/solution.json"
@@ -11116,6 +12391,12 @@
       "vr": 0.913,
       "mw_insar": 6.81,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000e532/REPORT.html",
         "solution": "events/us7000e532/solution.json"
@@ -11166,6 +12447,12 @@
       "vr": 0.485,
       "mw_insar": 5.55,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000ecyk/REPORT.html",
         "solution": "events/us7000ecyk/solution.json"
@@ -11211,6 +12498,12 @@
       "vr": 0.978,
       "mw_insar": 6.42,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000f3w2/REPORT.html",
         "solution": "events/us7000f3w2/solution.json"
@@ -11267,6 +12560,12 @@
       "vr": 0.994,
       "mw_insar": 7.3,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000f6uy/REPORT.html",
         "solution": "events/us7000f6uy/solution.json"
@@ -11312,6 +12611,12 @@
       "vr": 0.935,
       "mw_insar": 6.18,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000fbky/REPORT.html",
         "solution": "events/us7000fbky/solution.json"
@@ -11368,6 +12673,12 @@
       "vr": 0.978,
       "mw_insar": 6.56,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000fd9v/REPORT.html",
         "solution": "events/us7000fd9v/solution.json"
@@ -11415,6 +12726,12 @@
       "vr": 0.959,
       "mw_insar": 6.07,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000fq2q/REPORT.html",
         "solution": "events/us7000fq2q/solution.json"
@@ -11472,6 +12789,12 @@
       "vr": 0.387,
       "mw_insar": 7.11,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000fu12/REPORT.html",
         "solution": "events/us7000fu12/solution.json"
@@ -11517,6 +12840,12 @@
       "vr": 0.979,
       "mw_insar": 6.22,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000fvfl/REPORT.html",
         "solution": "events/us7000fvfl/solution.json"
@@ -11574,6 +12903,12 @@
       "vr": 0.84,
       "mw_insar": 6.69,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000g9zq/REPORT.html",
         "solution": "events/us7000g9zq/solution.json"
@@ -11630,6 +12965,12 @@
       "vr": 0.917,
       "mw_insar": 6.3,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000gaex/REPORT.html",
         "solution": "events/us7000gaex/solution.json"
@@ -11680,6 +13021,12 @@
       "vr": 0.222,
       "mw_insar": 6.45,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000gmmb/REPORT.html",
         "solution": "events/us7000gmmb/solution.json"
@@ -11730,6 +13077,12 @@
       "vr": 0.945,
       "mw_insar": 6.3,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000gmnq/REPORT.html",
         "solution": "events/us7000gmnq/solution.json"
@@ -11789,6 +13142,12 @@
       "vr": 0.912,
       "mw_insar": 6.79,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000gx8m/REPORT.html",
         "solution": "events/us7000gx8m/solution.json"
@@ -11848,6 +13207,12 @@
       "vr": 0.274,
       "mw_insar": 5.57,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000he1h/REPORT.html",
         "solution": "events/us7000he1h/solution.json"
@@ -11907,6 +13272,12 @@
       "vr": 0.857,
       "mw_insar": 6.11,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000hg9p/REPORT.html",
         "solution": "events/us7000hg9p/solution.json"
@@ -11963,6 +13334,12 @@
       "vr": 0.932,
       "mw_insar": 6.46,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000htbb/REPORT.html",
         "solution": "events/us7000htbb/solution.json"
@@ -12017,6 +13394,12 @@
       "vr": 0.707,
       "mw_insar": 6.57,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000i59t/REPORT.html",
         "solution": "events/us7000i59t/solution.json"
@@ -12076,6 +13459,12 @@
       "vr": 0.973,
       "mw_insar": 6.7,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000il1g/REPORT.html",
         "solution": "events/us7000il1g/solution.json"
@@ -12135,6 +13524,12 @@
       "vr": 0.87,
       "mw_insar": 6.6,
       "n_railed": 6,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000il35/REPORT.html",
         "solution": "events/us7000il35/solution.json"
@@ -12191,6 +13586,12 @@
       "vr": 0.988,
       "mw_insar": 7.86,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000imgl/REPORT.html",
         "solution": "events/us7000imgl/solution.json"
@@ -12250,6 +13651,12 @@
       "vr": 0.842,
       "mw_insar": 7.16,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000incn/REPORT.html",
         "solution": "events/us7000incn/solution.json"
@@ -12297,6 +13704,12 @@
       "vr": 0.435,
       "mw_insar": 6.4,
       "n_railed": 7,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000infp/REPORT.html",
         "solution": "events/us7000infp/solution.json"
@@ -12353,6 +13766,12 @@
       "vr": 0.925,
       "mw_insar": 7.0,
       "n_railed": 7,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000ipe4/REPORT.html",
         "solution": "events/us7000ipe4/solution.json"
@@ -12409,6 +13828,12 @@
       "vr": 0.93,
       "mw_insar": 6.72,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000ir9t/REPORT.html",
         "solution": "events/us7000ir9t/solution.json"
@@ -12468,6 +13893,12 @@
       "vr": 0.928,
       "mw_insar": 6.08,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000j56z/REPORT.html",
         "solution": "events/us7000j56z/solution.json"
@@ -12527,6 +13958,12 @@
       "vr": 0.911,
       "mw_insar": 6.6,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000jhtd/REPORT.html",
         "solution": "events/us7000jhtd/solution.json"
@@ -12586,6 +14023,12 @@
       "vr": 0.719,
       "mw_insar": 6.16,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000jhuv/REPORT.html",
         "solution": "events/us7000jhuv/solution.json"
@@ -12642,6 +14085,12 @@
       "vr": 0.673,
       "mw_insar": 5.56,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000jm0r/REPORT.html",
         "solution": "events/us7000jm0r/solution.json"
@@ -12701,6 +14150,12 @@
       "vr": 0.562,
       "mw_insar": 5.22,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000jmbi/REPORT.html",
         "solution": "events/us7000jmbi/solution.json"
@@ -12758,6 +14213,12 @@
       "vr": 0.765,
       "mw_insar": 6.03,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000k9jv/REPORT.html",
         "solution": "events/us7000k9jv/solution.json"
@@ -12817,6 +14278,12 @@
       "vr": 0.955,
       "mw_insar": 6.12,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000kp2j/REPORT.html",
         "solution": "events/us7000kp2j/solution.json"
@@ -12876,6 +14343,12 @@
       "vr": 0.389,
       "mw_insar": 5.66,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000kre0/REPORT.html",
         "solution": "events/us7000kre0/solution.json"
@@ -12926,6 +14399,12 @@
       "vr": 0.855,
       "mw_insar": 6.37,
       "n_railed": 5,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000kub5/REPORT.html",
         "solution": "events/us7000kub5/solution.json"
@@ -12976,6 +14455,12 @@
       "vr": 0.935,
       "mw_insar": 6.96,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000kubt/REPORT.html",
         "solution": "events/us7000kubt/solution.json"
@@ -13032,6 +14517,12 @@
       "vr": 0.55,
       "mw_insar": 5.87,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000kulj/REPORT.html",
         "solution": "events/us7000kulj/solution.json"
@@ -13088,6 +14579,12 @@
       "vr": 0.956,
       "mw_insar": 6.3,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000l76s/REPORT.html",
         "solution": "events/us7000l76s/solution.json"
@@ -13144,6 +14641,12 @@
       "vr": 0.948,
       "mw_insar": 6.5,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000lhwv/REPORT.html",
         "solution": "events/us7000lhwv/solution.json"
@@ -13201,6 +14704,12 @@
       "vr": 0.986,
       "mw_insar": 7.03,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000lsze/REPORT.html",
         "solution": "events/us7000lsze/solution.json"
@@ -13248,6 +14757,12 @@
       "vr": 0.889,
       "mw_insar": 6.31,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000ltpz/REPORT.html",
         "solution": "events/us7000ltpz/solution.json"
@@ -13307,6 +14822,12 @@
       "vr": 0.817,
       "mw_insar": 5.57,
       "n_railed": 2,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000luuy/REPORT.html",
         "solution": "events/us7000luuy/solution.json"
@@ -13363,6 +14884,12 @@
       "vr": 0.982,
       "mw_insar": 5.69,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000lz23/REPORT.html",
         "solution": "events/us7000lz23/solution.json"
@@ -13422,6 +14949,12 @@
       "vr": 0.77,
       "mw_insar": 5.3,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000m3ur/REPORT.html",
         "solution": "events/us7000m3ur/solution.json"
@@ -13472,6 +15005,12 @@
       "vr": 0.766,
       "mw_insar": 6.23,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000maw0/REPORT.html",
         "solution": "events/us7000maw0/solution.json"
@@ -13528,6 +15067,12 @@
       "vr": 0.96,
       "mw_insar": 5.88,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000mpe2/REPORT.html",
         "solution": "events/us7000mpe2/solution.json"
@@ -13584,6 +15129,12 @@
       "vr": 0.967,
       "mw_insar": 5.93,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000mppu/REPORT.html",
         "solution": "events/us7000mppu/solution.json"
@@ -13640,6 +15191,12 @@
       "vr": 0.809,
       "mw_insar": 6.5,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000nu90/REPORT.html",
         "solution": "events/us7000nu90/solution.json"
@@ -13685,6 +15242,12 @@
       "vr": 0.668,
       "mw_insar": 5.85,
       "n_railed": 3,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000nx79/REPORT.html",
         "solution": "events/us7000nx79/solution.json"
@@ -13741,6 +15304,12 @@
       "vr": 0.861,
       "mw_insar": 6.6,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000pdu6/REPORT.html",
         "solution": "events/us7000pdu6/solution.json"
@@ -13798,6 +15367,12 @@
       "vr": 0.804,
       "mw_insar": 6.69,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000pn9z/REPORT.html",
         "solution": "events/us7000pn9z/solution.json"
@@ -13855,6 +15430,12 @@
       "vr": 0.869,
       "mw_insar": 5.99,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000qsvj/REPORT.html",
         "solution": "events/us7000qsvj/solution.json"
@@ -13914,6 +15495,12 @@
       "vr": 0.576,
       "mw_insar": 6.3,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000qtst/REPORT.html",
         "solution": "events/us7000qtst/solution.json"
@@ -13968,9 +15555,81 @@
       "vr": 0.742,
       "mw_insar": 6.18,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/us7000rm3k/REPORT.html",
         "solution": "events/us7000rm3k/solution.json"
+      }
+    },
+    {
+      "event_id": "us7000st95",
+      "place": "43 km ESE of Palu, Indonesia",
+      "origin_utc": "2026-06-16T03:27:44Z",
+      "epi_lat": -1.1173,
+      "epi_lon": 120.199,
+      "depth_km": 10.0,
+      "Mw": 6.7,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": "t112_asc",
+          "orbit_dir": "",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "monitor_s1ot",
+          "median_coh": 0.0,
+          "status": "ok"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "multievent": "minor",
+      "result": {
+        "fmech": {
+          "strike": 13.6,
+          "dip": 43.4,
+          "rake": 178.8
+        },
+        "Mw_post": 6.37
+      },
+      "diagnostics": {
+        "zone": "YELLOW",
+        "source": "quality_v2"
+      },
+      "status": "done",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "multievent_n": 1,
+      "multievent_max_mw": 5.1,
+      "multievent_sep": "single",
+      "has_v2": true,
+      "has_report": true,
+      "zone": "YELLOW",
+      "vr": 0.515,
+      "mw_insar": 6.37,
+      "n_railed": 0,
+      "centroid_depth_km": 7.16,
+      "centroid_depth_sigma_km": 0.82,
+      "stress_drop_mpa": 0.624,
+      "stress_drop_sigma_mpa": 0.129,
+      "stress_drop_valid": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us7000st95/REPORT.html",
+        "solution": "events/us7000st95/solution.json"
       }
     },
     {
@@ -14024,6 +15683,12 @@
       "vr": 0.731,
       "mw_insar": 6.13,
       "n_railed": 0,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/usb000smff/REPORT.html",
         "solution": "events/usb000smff/solution.json"
@@ -14083,6 +15748,12 @@
       "vr": 0.852,
       "mw_insar": 6.7,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/usb000syy0/REPORT.html",
         "solution": "events/usb000syy0/solution.json"
@@ -14142,6 +15813,12 @@
       "vr": 0.958,
       "mw_insar": 6.17,
       "n_railed": 4,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/usb000szw2/REPORT.html",
         "solution": "events/usb000szw2/solution.json"
@@ -14189,6 +15866,12 @@
       "vr": 0.974,
       "mw_insar": 6.64,
       "n_railed": 1,
+      "centroid_depth_km": null,
+      "centroid_depth_sigma_km": null,
+      "stress_drop_mpa": null,
+      "stress_drop_sigma_mpa": null,
+      "stress_drop_valid": null,
+      "pipeline_rev": null,
       "links": {
         "report": "events/uu60363602/REPORT.html",
         "solution": "events/uu60363602/solution.json"
