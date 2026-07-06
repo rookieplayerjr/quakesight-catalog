@@ -163,6 +163,7 @@ function statusColor(e){
   if(z==='RED') return '#d64545';
   if(e.status==='escalated') return '#f0820a';
   if(e.status==='partial') return '#9aa5b1';
+  if(e.status==='monitoring') return '#3b82f6';
   return '#9aa5b1';
 }
 function statusLabel(e){
@@ -172,6 +173,7 @@ function statusLabel(e){
   if(z==='RED') return 'Model · low fit';
   if(e.status==='escalated') return 'No model';
   if(e.status==='partial') return 'In progress';
+  if(e.status==='monitoring') return e.monitor_stage==='predicted'?'Briefing · awaiting SAR':((e.monitor_stage==='downloaded'||e.monitor_stage==='waiting_for_data')?'Briefing · data pending':(e.has_report?'Briefing ready':'Monitoring'));
   return 'In progress';
 }
 function fmtTime(s){ return (s||'').replace('T',' ').replace(/:\d\d\.?\d*Z?$/,''); }
@@ -539,11 +541,17 @@ function buildGlobe(){
   VIEWER.camera.flyHome(0);
 }
 
-fetch('catalog.json').then(r=>r.json()).then(c=>{
+Promise.all([
+  fetch('catalog.json').then(r=>r.json()),
+  fetch('pending.json').then(r=>r.ok?r.json():{events:[]}).catch(()=>({events:[]}))
+]).then(([c,p])=>{
+  const have=new Set(c.events.map(e=>e.event_id));
+  const pend=(p.events||[]).filter(e=>!have.has(e.event_id));
+  c.events=pend.concat(c.events);
   CAT=c;
   const ns=c.events.filter(e=>e.stale).length;
   document.getElementById('meta').textContent=
-    `${c.n_events} events · ${ns} stale · updated ${fmtTime(c.generated_utc)} UTC`;
+    `${c.n_events} events · ${pend.length} monitoring · ${ns} stale · updated ${fmtTime(c.generated_utc)} UTC`;
   buildMap();
   render();
 }).catch(err=>{
