@@ -1,0 +1,28 @@
+{
+  "Mw": 6.6998220136681175,
+  "Mw_catalog": 5.9,
+  "VR": 0.6096105581255129,
+  "VR_round1": 0.280021189863221,
+  "dMw": 0.7998220136681171,
+  "d_dip_np1": 69.72316867471795,
+  "d_strike_np1": 12.288017393018862,
+  "dip": 1.3668313252820496,
+  "n_railed": 7,
+  "n_tracks": 2,
+  "phase_sign": -1.0,
+  "railed": [
+    "FAUL Length",
+    "FAUL Width",
+    "FAUL Depth",
+    "FAUL Dip",
+    "FAUL Y",
+    "FAUL StrSlip",
+    "FAUL DipSlip"
+  ],
+  "rake": 45.0,
+  "recentered": true,
+  "round2_used": true,
+  "stacked": false,
+  "strike": 163.80801739301887,
+  "zone": "RED"
+}
