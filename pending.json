@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-06T16:07:05Z",
-  "n_pending": 7,
+  "generated_utc": "2026-07-06T17:07:17Z",
+  "n_pending": 6,
   "events": [
     {
       "event_id": "us6000taaa",
@@ -23,7 +23,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-07-06T16:15:11Z",
+      "next_check_utc": "2026-07-06T17:15:04Z",
       "expected_max_los_cm": 0.8,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taaa",
       "escalation_reason": null,
@@ -236,64 +236,6 @@
       "links": {
         "report": "events/us6000t7ll/briefing/briefing.html",
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7ll"
-      }
-    },
-    {
-      "event_id": "us7000stbz",
-      "place": "260 km SSE of Dunhuang, China",
-      "origin_utc": "2026-06-16T09:06:55Z",
-      "detected_utc": "2026-06-17T06:27:05Z",
-      "epi_lat": 37.8888,
-      "epi_lon": 95.4028,
-      "depth_km": 10,
-      "Mw": 6.3,
-      "Mw_type": "mww",
-      "faulting_class": null,
-      "magnitude_band": "",
-      "data_used": [
-        {
-          "track": 172,
-          "orbit_dir": "asc",
-          "pair_dates": [
-            "20260611",
-            "20260623"
-          ],
-          "median_coh": 0.614,
-          "status": ""
-        },
-        {
-          "track": 77,
-          "orbit_dir": "des",
-          "pair_dates": [
-            "20260604",
-            "20260616"
-          ],
-          "median_coh": 0.478,
-          "status": ""
-        }
-      ],
-      "n_tracks": 2,
-      "aoi_half_km": null,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "monitoring",
-      "monitor_stage": "downloaded",
-      "next_check_utc": "2026-07-09T01:10:03Z",
-      "expected_max_los_cm": 16.0,
-      "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stbz",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "preliminary": true,
-      "stale": false,
-      "stacking": false,
-      "multievent": null,
-      "has_v2": false,
-      "has_report": true,
-      "links": {
-        "report": "events/us7000stbz/briefing/briefing.html",
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stbz"
       }
     },
     {
