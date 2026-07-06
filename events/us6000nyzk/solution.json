@@ -1,0 +1,20 @@
+{
+  "Mw": 6.305699817985985,
+  "Mw_catalog": 6.0,
+  "VR": 0.959973286773101,
+  "VR_round1": 0.8216309510109538,
+  "dMw": 0.30569981798598533,
+  "d_dip_np1": 2.569024197155443,
+  "d_strike_np1": 136.22122438973364,
+  "dip": 81.79097580284456,
+  "n_railed": 0,
+  "n_tracks": 1,
+  "phase_sign": -1.0,
+  "railed": [],
+  "rake": 168.30597541002817,
+  "recentered": false,
+  "round2_used": true,
+  "stacked": false,
+  "strike": 203.6887756102664,
+  "zone": "GREEN"
+}

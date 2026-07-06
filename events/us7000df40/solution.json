@@ -1,0 +1,22 @@
+{
+ "Mw": 6.0,
+ "Mw_catalog": 6.3,
+ "VR": 0.9087431805729649,
+ "VR_round1": 0.7747971978958954,
+ "dMw": 0.1539356827029188,
+ "d_dip_np1": 2.0107375421877265,
+ "d_strike_np1": 39.37724187503795,
+ "dip": 38.01073754218773,
+ "n_railed": 1,
+ "n_tracks": 4,
+ "phase_sign": 1.0,
+ "railed": [],
+ "rake": -92.54405151599032,
+ "recentered": false,
+ "round2_used": true,
+ "stacked": false,
+ "strike": 346.13724187503794,
+ "zone": "YELLOW",
+ "method": "uniform_resample_r5.0km",
+ "updated_utc": "2026-07-06T02:41:07Z"
+}

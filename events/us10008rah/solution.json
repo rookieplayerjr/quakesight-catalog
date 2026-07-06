@@ -1,0 +1,20 @@
+{
+  "Mw": 0.0,
+  "Mw_catalog": 5.4,
+  "VR": NaN,
+  "VR_round1": NaN,
+  "dMw": 5.4,
+  "d_dip_np1": 3.552713678800501e-15,
+  "d_strike_np1": 2.842170943040401e-14,
+  "dip": 30.519999999999996,
+  "n_railed": 0,
+  "n_tracks": 1,
+  "phase_sign": 1.0,
+  "railed": [],
+  "rake": -180.0,
+  "recentered": false,
+  "round2_used": true,
+  "stacked": false,
+  "strike": 168.73000000000002,
+  "zone": "RED"
+}

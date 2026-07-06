@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>QuakeSight — event catalog</title>
+<title>QuakeSight — InSAR earthquake source catalog</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.122/Build/Cesium/Widgets/widgets.css">
@@ -12,73 +12,107 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --blue:#1b4b73; --ink:#1b252f; --mut:#5c6b7a; --line:#d9dee4;
-    --bg:#f4f6f8; --sel:#e7f0fb;
+    --navy:#0e2438; --navy2:#16395a; --blue:#1b4b73; --accent:#3a82c4;
+    --ink:#1b252f; --mut:#5c6b7a; --line:#dde3e9; --bg:#f4f6f8; --sel:#e7f0fb;
+    --green:#1a9850; --yellow:#e0a008; --red:#d64545; --orange:#f0820a;
+    --gray:#9aa5b1; --mon:#3b82f6;
   }
   *{box-sizing:border-box}
   html,body{height:100%;margin:0}
   body{font-family:'Source Sans 3',system-ui,-apple-system,Segoe UI,sans-serif;
        color:var(--ink);background:var(--bg);display:flex;flex-direction:column}
+
   /* ---- header ---- */
-  header{background:#0f2a43;color:#fff;height:54px;flex:0 0 54px;
-         display:flex;align-items:center;padding:0 18px;gap:14px}
-  header .logo{font-weight:700;font-size:18px;letter-spacing:.2px}
-  header .logo span{font-weight:400;opacity:.7}
-  header .meta{font-size:12.5px;opacity:.78;margin-left:auto}
-  header .tabs{display:flex;gap:0}
+  header{background:var(--navy);color:#fff;flex:0 0 auto;
+         display:flex;align-items:center;padding:9px 18px;gap:16px;flex-wrap:wrap}
+  header .logo{font-weight:700;font-size:18.5px;letter-spacing:.2px;line-height:1.15}
+  header .logo small{display:block;font-weight:400;font-size:11px;opacity:.62;letter-spacing:.4px}
+  header .tabs{display:flex}
   header .tabs button{font-family:inherit;font-size:13px;font-weight:600;
-       padding:7px 16px;border:1px solid #2c4d6e;background:#16395a;color:#cfe0f0;
-       cursor:pointer}
-  header .tabs button:first-child{border-radius:4px 0 0 4px}
-  header .tabs button:last-child{border-radius:0 4px 4px 0;border-left:0}
-  header .tabs button.on{background:#3a82c4;color:#fff;border-color:#3a82c4}
+       padding:7px 16px;border:1px solid #2c4d6e;background:var(--navy2);color:#cfe0f0;
+       cursor:pointer;transition:background .15s}
+  header .tabs button:first-child{border-radius:6px 0 0 6px}
+  header .tabs button:last-child{border-radius:0 6px 6px 0;border-left:0}
+  header .tabs button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  /* status chips = live stats + one-click filters */
+  .chips{display:flex;gap:7px;flex-wrap:wrap}
+  .chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;
+        padding:4px 11px;border-radius:14px;background:#1d3d5e;color:#dbe7f3;
+        border:1px solid #2c4d6e;cursor:pointer;transition:all .15s;user-select:none}
+  .chip:hover{background:#25507c}
+  .chip.on{background:#fff;color:var(--navy);border-color:#fff}
+  .chip .dot{width:8px;height:8px;border-radius:50%}
+  .chip.mon .dot{animation:pulse 1.6s infinite}
+  @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(59,130,246,.55)}50%{box-shadow:0 0 0 5px rgba(59,130,246,0)}}
+  header .right{margin-left:auto;display:flex;align-items:center;gap:14px}
+  header .dl{font-size:12px}
+  header .dl a{color:#9cc4e8;text-decoration:none;font-weight:600;margin-left:9px}
+  header .dl a:hover{color:#fff}
+  header .meta{font-size:11.5px;opacity:.72}
+
   /* ---- body split ---- */
   #body{flex:1;display:flex;min-height:0}
   #map{flex:1;height:100%}
   #globe{flex:1;height:100%;position:relative;background:#000}
   #globe .cesium-viewer-bottom{display:none}
-  /* ---- sidebar list ---- */
-  aside{flex:0 0 372px;background:#fff;border-left:1px solid var(--line);
+
+  /* ---- sidebar ---- */
+  aside{flex:0 0 384px;background:#fff;border-left:1px solid var(--line);
         display:flex;flex-direction:column;min-height:0}
-  .side-top{padding:10px 14px;border-bottom:1px solid var(--line)}
-  .side-top input{width:100%;font-family:inherit;font-size:13.5px;padding:7px 10px;
-        border:1px solid #c4ccd5;border-radius:5px}
-  .side-top .legend{display:flex;flex-wrap:wrap;gap:9px;margin-top:8px;
-        font-size:11.5px;color:var(--mut)}
+  .side-top{padding:10px 14px 8px;border-bottom:1px solid var(--line)}
+  .side-row{display:flex;gap:8px;align-items:center}
+  .side-top input{flex:1;font-family:inherit;font-size:13.5px;padding:7px 11px;
+        border:1px solid #c4ccd5;border-radius:7px;outline:none}
+  .side-top input:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(58,130,196,.15)}
+  .side-top select{font-family:inherit;font-size:12.5px;padding:7px 8px;
+        border:1px solid #c4ccd5;border-radius:7px;background:#fff;color:var(--ink)}
+  .side-top .legend{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:8px;
+        font-size:11.3px;color:var(--mut)}
   .legend span{display:inline-flex;align-items:center;gap:4px}
   .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
   .side-count{font-size:12px;color:var(--mut);padding:6px 14px;
         border-bottom:1px solid var(--line);background:#fafbfc}
   #list{overflow-y:auto;flex:1}
   .item{display:flex;gap:11px;padding:10px 14px;border-bottom:1px solid #eef1f4;
-        cursor:pointer;align-items:flex-start}
+        cursor:pointer;align-items:flex-start;transition:background .12s}
   .item:hover{background:#f0f4f8}
   .item.sel{background:var(--sel);box-shadow:inset 3px 0 0 var(--blue)}
-  .badge{flex:0 0 42px;height:42px;border-radius:7px;display:flex;
+  .badge{flex:0 0 44px;height:44px;border-radius:9px;display:flex;
         flex-direction:column;align-items:center;justify-content:center;
-        color:#fff;font-weight:700;line-height:1}
+        color:#fff;font-weight:700;line-height:1;box-shadow:0 1px 3px rgba(0,0,0,.18)}
   .badge .m{font-size:16px}
   .badge .ml{font-size:8.5px;font-weight:600;opacity:.85;margin-top:1px}
   .it-main{min-width:0;flex:1}
   .it-place{font-weight:600;font-size:13.5px}
   .it-sub{font-size:11.8px;color:var(--mut);margin-top:1px}
   .it-status{font-size:11.5px;font-weight:600;margin-top:3px;
-        display:flex;align-items:center;gap:5px}
+        display:flex;align-items:center;gap:5px;flex-wrap:wrap}
   .it-status .stale{color:#c0392b}
+  .vrchip{font-size:11px;font-weight:700;padding:1px 7px;border-radius:9px;color:#fff}
+  .tag{font-size:10.5px;font-weight:700;padding:1px 6px;border-radius:8px}
+  .tag.stack{color:#1c7c3c;background:#e2f4e8}
+  .tag.multi{color:#b13230;background:#fbe7e6}
+  .tag.seq{color:#215fa8;background:#e3eefb}
+  .tag.mon{color:#1d4ed8;background:#dbeafe}
+  .pulse-dot{width:8px;height:8px;border-radius:50%;background:var(--mon);
+             display:inline-block;animation:pulse 1.6s infinite}
+
   /* ---- table ---- */
   #tablewrap{flex:1;overflow:auto;padding:0 20px 30px;background:#fff}
   table{border-collapse:collapse;font-size:13px;width:100%;margin-top:14px}
-  th,td{border-bottom:1px solid #e3e7ec;padding:7px 11px;text-align:left}
-  th{background:#0f2a43;color:#fff;cursor:pointer;position:sticky;top:0;
-     font-weight:600;font-size:12.5px}
-  th:hover{background:#1b4b73}
+  th,td{border-bottom:1px solid #e3e7ec;padding:7px 10px;text-align:left;white-space:nowrap}
+  th{background:var(--navy);color:#fff;cursor:pointer;position:sticky;top:0;
+     font-weight:600;font-size:12.3px;z-index:5}
+  th:hover{background:var(--blue)}
   tbody tr:hover{background:#f0f4f8}
   .pill{padding:2px 9px;border-radius:11px;font-size:11px;color:#fff;font-weight:600}
   a{color:var(--blue);text-decoration:none}
   a:hover{text-decoration:underline}
   .hidden{display:none}
+
   /* ---- leaflet popup ---- */
   .leaflet-popup-content{margin:11px 13px;font-size:12.5px;line-height:1.55}
+  .leaflet-popup-content-wrapper{border-radius:9px}
   .pop .eid{font-size:14px;font-weight:700;color:var(--blue)}
   .pop .place{font-weight:600}
   .pop .time{color:var(--mut)}
@@ -86,18 +120,29 @@
   .pop .st{font-weight:700}
   .pop .stale{color:#c0392b;font-weight:600}
   .pop .esc{color:#b06000}
-  .pop a{display:inline-block;margin-top:3px;font-weight:600}
+  .pop a{display:inline-block;margin-top:3px;font-weight:600;margin-right:10px}
+  .pop table.kv{border-collapse:collapse;font-size:12px;margin:2px 0}
+  .pop table.kv td{padding:1px 8px 1px 0;border:0;color:var(--ink)}
+  .pop table.kv td:first-child{color:var(--mut)}
 </style>
 </head>
 <body>
 <header>
-  <div class="logo">QuakeSight <span>· event catalog</span></div>
+  <div class="logo">QuakeSight
+    <small>automated InSAR earthquake source models</small></div>
   <div class="tabs">
     <button id="tabMap" class="on" onclick="setView('map')">Map</button>
     <button id="tabGlobe" onclick="setView('globe')">🌐 3D</button>
     <button id="tabTable" onclick="setView('table')">Table</button>
   </div>
-  <div class="meta" id="meta">loading…</div>
+  <div class="chips" id="chips"></div>
+  <div class="right">
+    <div class="dl">download:
+      <a href="catalog.json" download>JSON</a>
+      <a href="catalog.csv" download>CSV</a>
+    </div>
+    <div class="meta" id="meta">loading…</div>
+  </div>
 </header>
 
 <div id="body">
@@ -105,20 +150,27 @@
   <div id="globe" class="hidden"></div>
   <aside id="aside">
     <div class="side-top">
-      <input id="filter" placeholder="Filter by id, place, mechanism…"
-             oninput="render()">
+      <div class="side-row">
+        <input id="filter" placeholder="Search id, place, mechanism…" oninput="render()">
+        <select id="sortsel" onchange="render()" title="sidebar sort">
+          <option value="time">newest</option>
+          <option value="mw">Mw ↓</option>
+          <option value="vr">VR ↓</option>
+        </select>
+      </div>
       <div class="legend">
         <b style="color:#1b252f;width:100%;margin-top:2px">Mechanism (beachball)</b>
         <span><i class="dot" style="background:#fbc02d"></i>Strike-slip</span>
         <span><i class="dot" style="background:#1976d2"></i>Normal</span>
         <span><i class="dot" style="background:#d32f2f"></i>Reverse</span>
         <span><i class="dot" style="background:#7b1fa2"></i>Oblique</span>
-        <b style="color:#1b252f;width:100%;margin-top:5px">Status (dot · pill)</b>
-        <span><i class="dot" style="background:#1a9850"></i>GREEN</span>
-        <span><i class="dot" style="background:#e0a008"></i>YELLOW</span>
-        <span><i class="dot" style="background:#d64545"></i>RED</span>
-        <span><i class="dot" style="background:#f0820a"></i>Escalated</span>
-        <span><i class="dot" style="background:#9aa5b1"></i>In progress</span>
+        <b style="color:#1b252f;width:100%;margin-top:5px">Status</b>
+        <span><i class="dot" style="background:var(--green)"></i>GREEN</span>
+        <span><i class="dot" style="background:var(--yellow)"></i>YELLOW</span>
+        <span><i class="dot" style="background:var(--red)"></i>RED</span>
+        <span><i class="dot" style="background:var(--orange)"></i>Escalated</span>
+        <span><i class="dot" style="background:var(--gray)"></i>In progress</span>
+        <span><i class="dot" style="background:var(--mon)"></i>Monitoring (live)</span>
       </div>
     </div>
     <div class="side-count" id="count"></div>
@@ -128,67 +180,68 @@
 </div>
 
 <script>
-let CAT=null, MAP=null, MARKERS={}, SORT={key:'Mw',dir:-1}, SEL=null;
+let CAT=null, MAP=null, MARKERS={}, SEL=null;
+let SORT={key:'origin_utc',dir:-1};
+let STATUS_FILTER='all';
 
-// Coloring policy (2026-05-25):
-//   • Map marker: beachball whenever GBIS produced a focal mechanism (any
-//     zone). Beachball color = faulting mechanism. No-GBIS events get a
-//     neutral dot. mechColor() classifies by GBIS rake, else faulting_class.
-//   • statusColor()/statusLabel() drive the sidebar/table status pill and
-//     the no-GBIS dot, so users still see GREEN/YELLOW/RED quality.
+/* ---------- semantics ---------- */
 function mechColor(e){
-  let m=e.faulting_class||null;
+  const cls=e.faulting_class;
   const r=e.result&&e.result.fmech&&e.result.fmech.rake;
   if(r!=null&&isFinite(r)){
     const a=Math.abs(r);
-    if(a<=30||a>=150) m='strike-slip';
-    else if(r>30&&r<150) m='reverse';
-    else if(r<-30&&r>-150) m='normal';
-    else m='oblique';
+    if(a<=30||a>=150) return '#fbc02d';        // strike-slip
+    if(r>0) return '#d32f2f';                  // reverse
+    return '#1976d2';                          // normal
   }
-  switch((m||'').toLowerCase()){
-    case 'strike-slip': return '#fbc02d';
-    case 'normal':      return '#1976d2';
-    case 'reverse':
-    case 'thrust':      return '#d32f2f';
-    case 'oblique':     return '#7b1fa2';
-    default:            return '#9aa5b1';
-  }
+  return {['strike-slip']:'#fbc02d',normal:'#1976d2',reverse:'#d32f2f',
+          oblique:'#7b1fa2'}[cls]||'#7b1fa2';
+}
+function zoneOf(e){ return e.zone||(e.diagnostics&&e.diagnostics.zone)||null; }
+function vrOf(e){
+  if(e.vr!=null&&isFinite(e.vr)) return e.vr;
+  const raw=(e.diagnostics||{}).raw;
+  return raw&&isFinite(raw.vr_mean)?raw.vr_mean:null;
+}
+function mwInsar(e){
+  if(e.mw_insar!=null&&isFinite(e.mw_insar)) return e.mw_insar;
+  return e.result&&e.result.Mw_post;
 }
 function statusColor(e){
-  if(e.stale) return '#d64545';
-  const z=e.diagnostics&&e.diagnostics.zone;
-  if(z==='GREEN') return '#1a9850';
-  if(z==='YELLOW') return '#e0a008';
-  if(z==='RED') return '#d64545';
-  if(e.status==='escalated') return '#f0820a';
-  if(e.status==='partial') return '#9aa5b1';
-  if(e.status==='monitoring') return '#3b82f6';
-  return '#9aa5b1';
+  if(e.status==='monitoring') return 'var(--mon)';
+  const z=zoneOf(e);
+  if(z==='GREEN') return 'var(--green)';
+  if(z==='YELLOW') return 'var(--yellow)';
+  if(z==='RED') return 'var(--red)';
+  if(e.status==='escalated') return 'var(--orange)';
+  if(e.status==='done') return 'var(--green)';
+  return 'var(--gray)';
+}
+function statusColorRaw(e){   // hex (for canvas/pills that can't take var())
+  return {['var(--mon)']:'#3b82f6',['var(--green)']:'#1a9850',['var(--yellow)']:'#e0a008',
+          ['var(--red)']:'#d64545',['var(--orange)']:'#f0820a',['var(--gray)']:'#9aa5b1'}[statusColor(e)];
 }
 function statusLabel(e){
-  const z=e.diagnostics&&e.diagnostics.zone;
-  if(z==='GREEN') return 'Validated';
-  if(z==='YELLOW') return 'Validated · caveats';
-  if(z==='RED') return 'Model · low fit';
-  if(e.status==='escalated') return 'No model';
-  if(e.status==='partial') return 'In progress';
-  if(e.status==='monitoring') return e.monitor_stage==='predicted'?'Briefing · awaiting SAR':((e.monitor_stage==='downloaded'||e.monitor_stage==='waiting_for_data')?'Briefing · data pending':(e.has_report?'Briefing ready':'Monitoring'));
+  if(e.status==='monitoring')
+    return e.monitor_stage==='predicted'?'Briefing · awaiting SAR'
+      :((e.monitor_stage==='downloaded'||e.monitor_stage==='waiting_for_data')?'Briefing · data pending'
+      :(e.has_report?'Briefing ready':'Monitoring'));
+  const z=zoneOf(e);
+  if(z) return z+(e.status==='escalated'?' · escalated':'');
+  if(e.status==='escalated') return 'Escalated';
+  if(e.status==='done') return 'Done';
   return 'In progress';
 }
+function vrColor(v){ return v>=0.7?'#1a9850':(v>=0.5?'#e0a008':'#d64545'); }
 function fmtTime(s){ return (s||'').replace('T',' ').replace(/:\d\d\.?\d*Z?$/,''); }
 
-/* ---------- beachball (focal mechanism from InSAR strike/dip/rake) ---------- */
+/* ---------- beachball (lower-hemisphere P/T fill) ---------- */
 function _hexRgb(h){h=h.replace('#','');if(h.length===3)h=h.split('').map(c=>c+c).join('');
   return [parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)];}
-// Lower-hemisphere equal-area beachball drawn by P-wave first-motion polarity
-// (Aki & Richards): compressional quadrants filled with `fill`, dilatational
-// white. strike/dip/rake in degrees (USGS convention). Returns a dataURL.
 function beachballDataURL(strike,dip,rake,size,fill){
   const c=document.createElement('canvas');c.width=size;c.height=size;
   const ctx=c.getContext('2d');const R=size/2,cx=R,cy=R,d2r=Math.PI/180;
   const ph=strike*d2r,dl=dip*d2r,lm=rake*d2r;
-  // x=North, y=East, z=Down
   const n=[-Math.sin(dl)*Math.sin(ph), Math.sin(dl)*Math.cos(ph), -Math.cos(dl)];
   const s=[Math.cos(lm)*Math.cos(ph)+Math.cos(dl)*Math.sin(lm)*Math.sin(ph),
            Math.cos(lm)*Math.sin(ph)-Math.cos(dl)*Math.sin(lm)*Math.cos(ph),
@@ -196,16 +249,17 @@ function beachballDataURL(strike,dip,rake,size,fill){
   const fc=_hexRgb(fill),img=ctx.createImageData(size,size);
   for(let py=0;py<size;py++)for(let px=0;px<size;px++){
     const dx=px-cx,dy=py-cy,rho=Math.hypot(dx,dy),idx=(py*size+px)*4;
-    if(rho>R-0.5){img.data[idx+3]=0;continue;}
-    const ih=2*Math.asin(Math.min(1,rho/(R*Math.SQRT2)));   // takeoff from vertical
-    const az=Math.atan2(dx,-dy);                            // clockwise from North(up)
+    if(rho>R-0.5)continue;
+    const ih=2*Math.asin(Math.min(1,rho/(R*Math.SQRT2)));
+    const az=Math.atan2(dx,-dy);
     const r=[Math.sin(ih)*Math.cos(az),Math.sin(ih)*Math.sin(az),Math.cos(ih)];
     const pol=(r[0]*n[0]+r[1]*n[1]+r[2]*n[2])*(r[0]*s[0]+r[1]*s[1]+r[2]*s[2]);
     const col=pol>=0?fc:[255,255,255];
     img.data[idx]=col[0];img.data[idx+1]=col[1];img.data[idx+2]=col[2];img.data[idx+3]=255;
   }
   ctx.putImageData(img,0,0);
-  ctx.beginPath();ctx.arc(cx,cy,R-0.6,0,2*Math.PI);ctx.strokeStyle='#1b2733';ctx.lineWidth=1.1;ctx.stroke();
+  ctx.beginPath();ctx.arc(cx,cy,R-0.75,0,2*Math.PI);
+  ctx.strokeStyle='#2b3640';ctx.lineWidth=1;ctx.stroke();
   return c.toDataURL();
 }
 
@@ -218,10 +272,6 @@ function buildMap(){
   const pts=[];
   CAT.events.forEach(e=>{
     if(e.epi_lat==null||e.epi_lon==null) return;
-    // Beachball whenever GBIS produced a focal mechanism (any zone — GREEN,
-    // YELLOW, or RED). Color = faulting MECHANISM (mechColor), not the
-    // quality zone — zone is shown in popup, sidebar pill, and table pill.
-    // Events with no GBIS fmech (escalated / partial) → status-color dot.
     const fm=e.result&&e.result.fmech;
     const hasFm=fm&&isFinite(fm.strike)&&isFinite(fm.dip)&&isFinite(fm.rake);
     let m;
@@ -233,61 +283,65 @@ function buildMap(){
     }else{
       m=L.circleMarker([e.epi_lat,e.epi_lon],{
         radius:4+Math.max(0,(e.Mw||4)-4)*3.4,
-        color:'#2b3640',weight:1,fillColor:statusColor(e),fillOpacity:.85
+        color:'#2b3640',weight:1,fillColor:statusColorRaw(e),fillOpacity:.85
       }).addTo(MAP);
     }
-    m.bindPopup(popupHtml(e),{maxWidth:265});
+    m.bindPopup(popupHtml(e),{maxWidth:280});
     m.on('click',()=>selectEvent(e.event_id,false));
     MARKERS[e.event_id]=m;
     pts.push([e.epi_lat,e.epi_lon]);
   });
   if(pts.length) MAP.fitBounds(pts,{padding:[50,50],maxZoom:6});
 }
+
 function popupHtml(e){
   const t=fmtTime(e.origin_utc);
+  const fm=e.result&&e.result.fmech;
+  const vr=vrOf(e), mwp=mwInsar(e);
   let h='<div class="pop">';
   h+=`<span class="eid">${e.event_id}</span><br>`;
   h+=`M ${e.Mw}`;
   if(e.faulting_class) h+=` · ${e.faulting_class}`;
   h+='<br>';
   h+=`<span class="place">${e.place||''}</span><br>`;
-  if(t) h+=`<span class="time">${t} UTC</span>`;
+  if(t) h+=`<span class="time">${t} UTC · depth ${e.depth_km??'?'} km</span>`;
   h+='<hr>';
-  h+=`<span class="st" style="color:${statusColor(e)}">${statusLabel(e)}</span>`;
-  if(e.stacking){
-    h+=` <span style="color:#2a9d4a;font-weight:600" title="multi-pair stacked InSAR observation (vs single-pair)">⊞ stacked</span>`;
-  }
+  h+=`<span class="st" style="color:${statusColorRaw(e)}">${statusLabel(e)}</span>`;
+  if(e.stacking) h+=` <span class="tag stack" title="multi-pair stacked InSAR observation">⊞ stacked</span>`;
+  if(e.multievent==='severe') h+=` <span class="tag multi" title="comparable/larger neighbour in window — single-fault model unreliable">⚠ multi-event</span>`;
   if(e.in_sequence){
     const n=e.sequence_n_significant||0;
-    h+=` <span style="color:#2a76d2;font-weight:600" title="${n} other InSAR-observable events (Mw ≥ 5.5 or within 0.3 of target) within ±30d ±50km">🔗 sequence (${n})</span>`;
+    h+=` <span class="tag seq" title="${n} other InSAR-observable events within ±30d ±50km">🔗 seq (${n})</span>`;
   }
-  if(e.diagnostics&&e.diagnostics.catalog_disagreement){
-    h+=` <span style="color:#d138ab;font-weight:600">⚠ USGS Δ</span>`;
+  // v2 solution mini-table
+  if(vr!=null||mwp!=null||fm){
+    h+='<table class="kv">';
+    if(vr!=null) h+=`<tr><td>fit VR</td><td><b style="color:${vrColor(vr)}">${Number(vr).toFixed(2)}</b></td></tr>`;
+    if(mwp!=null) h+=`<tr><td>Mw (InSAR)</td><td><b>${Number(mwp).toFixed(2)}</b> vs USGS ${e.Mw}</td></tr>`;
+    if(fm) h+=`<tr><td>strike/dip/rake</td><td>${Math.round(fm.strike)}° / ${Math.round(fm.dip)}° / ${Math.round(fm.rake)}°</td></tr>`;
+    if(e.n_tracks) h+=`<tr><td>tracks</td><td>${e.n_tracks}</td></tr>`;
+    h+='</table>';
   }
-  if(e.diagnostics&&e.diagnostics.flags&&e.diagnostics.flags.includes('bad_track_contaminates')){
-    const drops=(e.diagnostics.flags||[]).filter(f=>f.startsWith('drop_candidate:')).map(f=>f.split(':')[1]);
-    h+=` <span style="color:#c47800;font-weight:600" title="One or more tracks have very low VR; suggest drop+retry: ${drops.join(', ')}">🪓 bad track</span>`;
-  }
-  if(e.diagnostics&&e.diagnostics.flags&&e.diagnostics.flags.includes('normal_fault_dual_plane_ambiguous')){
-    h+=` <span style="color:#7d3c98;font-weight:600" title="Normal fault: both NP1 and NP2 fit the data — needs dual-plane review">⚖ dual-NP</span>`;
-  }
-  h+='<br>';
+  if(e.status==='monitoring'&&e.expected_max_los_cm!=null)
+    h+=`<span class="time">expected LOS ≤ ~${e.expected_max_los_cm} cm</span><br>`;
   if(e.status==='escalated'&&e.escalation_reason)
     h+=`<span class="esc">stopped: ${e.escalation_reason}</span><br>`;
   if(e.stale) h+='<span class="stale">⚠ predates critical fix — re-run</span><br>';
   if(e.links&&e.links.report)
-    h+=`<a href="${e.links.report}" target="_blank">Open full report →</a>`;
+    h+=`<a href="${e.links.report}" target="_blank">Report →</a>`;
+  if(e.links&&e.links.solution)
+    h+=`<a href="${e.links.solution}" target="_blank">solution.json</a>`;
   return h+'</div>';
 }
 
 /* ---------- selection sync ---------- */
 function selectEvent(id, fromList){
   SEL=id;
+  try{history.replaceState(null,'','?id='+id);}catch(_){}
   Object.entries(MARKERS).forEach(([k,m])=>{
-    const e=CAT.events.find(x=>x.event_id===k);
     if(m.setStyle)m.setStyle({weight:k===id?3:1,color:k===id?'#1b4b73':'#2b3640'});
     else if(k===id)m.setZIndexOffset(1000);else m.setZIndexOffset(0);
-    if(k===id) m.bringToFront();
+    if(k===id&&m.bringToFront) m.bringToFront();
   });
   document.querySelectorAll('.item').forEach(el=>
     el.classList.toggle('sel',el.dataset.id===id));
@@ -301,36 +355,94 @@ function selectEvent(id, fromList){
   if(li) li.scrollIntoView({block:'nearest',behavior:'smooth'});
 }
 
-/* ---------- list ---------- */
+/* ---------- filtering ---------- */
+function passStatus(e){
+  switch(STATUS_FILTER){
+    case 'all': return true;
+    case 'done': return e.status==='done';
+    case 'monitoring': return e.status==='monitoring';
+    case 'partial': return e.status==='partial';
+    case 'escalated': return e.status==='escalated';
+    case 'stacked': return !!e.stacking;
+    case 'multievent': return e.multievent==='severe';
+    default: return true;
+  }
+}
 function filtered(){
   const q=(document.getElementById('filter').value||'').toLowerCase();
-  let rows=CAT.events.slice();
+  let rows=CAT.events.filter(passStatus);
   if(q) rows=rows.filter(e=>(e.event_id+' '+(e.place||'')+' '
-      +(e.faulting_class||'')+' '+statusLabel(e)+(e.stacking?' stacking stack':'')+(e.multievent?' multievent multi-event sequence '+e.multievent:'')).toLowerCase().includes(q));
+      +(e.faulting_class||'')+' '+statusLabel(e)
+      +(e.stacking?' stacking stack':'')
+      +(e.multievent?' multievent multi-event '+e.multievent:'')
+      +(e.status==='monitoring'?' monitoring live':'')).toLowerCase().includes(q));
   return rows;
 }
+
+/* ---------- header chips ---------- */
+function renderChips(){
+  const evs=CAT.events;
+  const n={all:evs.length,
+    monitoring:evs.filter(e=>e.status==='monitoring').length,
+    done:evs.filter(e=>e.status==='done').length,
+    partial:evs.filter(e=>e.status==='partial').length,
+    escalated:evs.filter(e=>e.status==='escalated').length,
+    stacked:evs.filter(e=>e.stacking).length,
+    multievent:evs.filter(e=>e.multievent==='severe').length};
+  const defs=[
+    ['all','All',null],
+    ['monitoring','Monitoring','var(--mon)'],
+    ['done','Done','var(--green)'],
+    ['partial','Partial','var(--gray)'],
+    ['escalated','Escalated','var(--orange)'],
+    ['stacked','⊞ Stacked','#1c7c3c'],
+    ['multievent','⚠ Multi','#b13230']];
+  const box=document.getElementById('chips'); box.innerHTML='';
+  defs.forEach(([k,label,col])=>{
+    if(k!=='all'&&!n[k]) return;
+    const c=document.createElement('span');
+    c.className='chip'+(k==='monitoring'?' mon':'')+(STATUS_FILTER===k?' on':'');
+    c.innerHTML=(col?`<i class="dot" style="background:${col}"></i>`:'')+`${label} ${n[k]}`;
+    c.onclick=()=>{STATUS_FILTER=(STATUS_FILTER===k?'all':k);renderChips();render();};
+    box.appendChild(c);
+  });
+}
+
+/* ---------- sidebar list ---------- */
 function renderList(){
-  // sidebar sorted by origin time, most recent first
-  const rows=filtered().sort((a,b)=>
-    (b.origin_utc||'').localeCompare(a.origin_utc||''));
+  const mode=document.getElementById('sortsel').value;
+  const rows=filtered().sort((a,b)=>{
+    if(mode==='mw') return (b.Mw||0)-(a.Mw||0);
+    if(mode==='vr') return (vrOf(b)??-9)-(vrOf(a)??-9);
+    return (b.origin_utc||'').localeCompare(a.origin_utc||'');
+  });
   document.getElementById('count').textContent=
-    `${rows.length} event${rows.length!==1?'s':''} shown`;
+    `${rows.length} event${rows.length!==1?'s':''} shown`
+    +(STATUS_FILTER!=='all'?` · filter: ${STATUS_FILTER}`:'');
   const list=document.getElementById('list');
   list.innerHTML='';
   rows.forEach(e=>{
     const d=document.createElement('div');
     d.className='item'+(e.event_id===SEL?' sel':'');
     d.dataset.id=e.event_id;
-    const col=statusColor(e);
+    const col=statusColorRaw(e);
+    const vr=vrOf(e);
+    const isMon=e.status==='monitoring';
     d.innerHTML=
       `<div class="badge" style="background:${col}">`
       +`<div class="m">${e.Mw??'?'}</div><div class="ml">Mw</div></div>`
       +`<div class="it-main">`
       +`<div class="it-place">${e.place||e.event_id}</div>`
-      +`<div class="it-sub">${e.event_id} · ${e.faulting_class||'—'}${e.stacking?' · <span style="color:#2a9d4a;font-weight:600">⊞ stack</span>':''}${e.multievent==='severe'?` · <span style="color:#d9534f;font-weight:700" title="severe multievent: comparable/larger neighbour within stacking window — single-fault model unreliable">⚠ multi-event</span>`:''}</div>`
+      +`<div class="it-sub">${e.event_id} · ${e.faulting_class||'—'}`
+      +`${e.stacking?' <span class="tag stack">⊞</span>':''}`
+      +`${e.multievent==='severe'?' <span class="tag multi" title="severe multievent">⚠ multi</span>':''}`
+      +`${e.in_sequence?' <span class="tag seq">🔗</span>':''}`
+      +`</div>`
       +`<div class="it-sub">${fmtTime(e.origin_utc)||''} UTC</div>`
       +`<div class="it-status" style="color:${col}">`
-      +`<i class="dot" style="background:${col}"></i>${statusLabel(e)}`
+      +(isMon?'<span class="pulse-dot"></span>':`<i class="dot" style="background:${col}"></i>`)
+      +`${statusLabel(e)}`
+      +(vr!=null?` <span class="vrchip" style="background:${vrColor(vr)}">VR ${Number(vr).toFixed(2)}</span>`:'')
       +(e.stale?'<span class="stale">· re-run</span>':'')+`</div>`
       +`</div>`;
     d.onclick=()=>selectEvent(e.event_id,true);
@@ -343,14 +455,7 @@ function renderList(){
 }
 
 /* ---------- table ---------- */
-// helpers to read GBIS detail fields safely
 function _fm(e,k){return e.result&&e.result.fmech&&e.result.fmech[k];}
-function _vrMin(e){const v=(e.diagnostics||{}).raw;return v?v.vr_min:null;}
-function _vrMean(e){const v=(e.diagnostics||{}).raw;return v?v.vr_mean:null;}
-function _mwPost(e){return e.result&&e.result.Mw_post;}
-function _nTr(e){const v=(e.diagnostics||{}).raw;return v?v.n_tracks_in_gbis:null;}
-function _zone(e){return (e.diagnostics||{}).zone||null;}
-function _dMw(e){const mp=_mwPost(e);if(mp==null||e.Mw==null)return null;return +(mp-e.Mw).toFixed(2);}
 function _seqN(e){return e.in_sequence?(e.sequence_n_significant||1):0;}
 function _f1(v,n){if(v==null||!isFinite(v))return '—';return Number(v).toFixed(n);}
 function _zonePill(z){
@@ -360,26 +465,22 @@ function _zonePill(z){
 }
 function renderTable(){
   const cols=[
-    ['event_id','event'],['Mw','Mw'],['_mwPost','Mw_post'],['_dMw','ΔMw'],
-    ['depth_km','dep km'],
-    ['_vrMin','vr_min'],['_vrMean','vr_mean'],['_nTr','n_tr'],
-    ['_seqN','obs⊇seq'],
-    ['stacking','stack'],
-    ['multievent','multi-evt'],
-    ['origin_utc','origin (UTC)'],['place','place']
+    ['event_id','event'],['Mw','Mw'],['_mwPost','Mw_InSAR'],['_dMw','ΔMw'],
+    ['depth_km','dep km'],['_vr','VR'],['_zone','zone'],
+    ['_strike','strike'],['_dip','dip'],['_rake','rake'],
+    ['n_tracks','n_tr'],['_seqN','seq'],['stacking','stack'],
+    ['multievent','multi-evt'],['origin_utc','origin (UTC)'],['place','place']
   ];
   const getVal=(e,k)=>{
     switch(k){
-      case '_mwPost': return _mwPost(e);
-      case '_dMw':    return _dMw(e);
+      case '_mwPost': return mwInsar(e);
+      case '_dMw':   {const mp=mwInsar(e);return (mp==null||e.Mw==null)?null:+(mp-e.Mw).toFixed(2);}
       case '_strike': return _fm(e,'strike');
       case '_dip':    return _fm(e,'dip');
       case '_rake':   return _fm(e,'rake');
-      case '_vrMin':  return _vrMin(e);
-      case '_vrMean': return _vrMean(e);
-      case '_nTr':    return _nTr(e);
+      case '_vr':     return vrOf(e);
+      case '_zone':   return zoneOf(e);
       case '_seqN':   return _seqN(e);
-      case '_zone':   return _zone(e);
       default:        return e[k];
     }
   };
@@ -391,53 +492,44 @@ function renderTable(){
     if(vb==null)vb=(typeof va==='number')?-1e9:'';
     return (va<vb?-1:va>vb?1:0)*SORT.dir;
   });
-  // tooltips for any column whose meaning isn't self-evident
   const COL_TIPS={
-    '_dMw':'Mw_post − Mw_USGS; |Δ|≥0.3 highlighted',
-    '_vrMin':'min per-track variance reduction',
-    '_vrMean':'mean per-track variance reduction',
-    '_nTr':'tracks actually used inside GBIS (after internal cull)',
-    '_seqN':'InSAR co-seismic observation captures the target event PLUS '+
-            'N additional events within the same SAR window '+
-            '(±30d, ±50km, Mw≥5.5 or within 0.3 of target). '+
-            'When N>0 the recovered model is a sum of multiple sources — '+
-            'interpret strike/Mw_post with care.',
+    '_dMw':'Mw_InSAR − Mw_USGS; |Δ|≥0.3 highlighted',
+    '_vr':'variance reduction of the uniform-Okada fit',
     '_zone':'quality zone: GREEN/YELLOW pass, RED low-fit',
+    '_seqN':'other significant events inside the same SAR window — model = sum of sources',
+    'n_tracks':'InSAR tracks used in the inversion',
   };
   let h='<table><thead><tr>';
   cols.forEach(c=>{
     const tip=COL_TIPS[c[0]]?` title="${COL_TIPS[c[0]]}"`:'';
     h+=`<th${tip} onclick="sortBy('${c[0]}')">${c[1]}</th>`;
   });
-  h+='<th>report</th></tr></thead><tbody>';
+  h+='<th>links</th></tr></thead><tbody>';
   rows.forEach(e=>{
+    const mp=mwInsar(e), vr=vrOf(e);
+    const dmw=(mp==null||e.Mw==null)?null:+(mp-e.Mw).toFixed(2);
     h+='<tr>';
     h+=`<td><b>${e.event_id}</b></td>`;
     h+=`<td>${e.Mw??''}</td>`;
-    h+=`<td>${_f1(_mwPost(e),2)}</td>`;
-    const dmw=_dMw(e);
+    h+=`<td>${_f1(mp,2)}</td>`;
     h+=`<td style="color:${dmw!=null&&Math.abs(dmw)>=0.3?'#c47800':'inherit'}">${dmw!=null?(dmw>0?'+'+dmw:dmw):'—'}</td>`;
     h+=`<td>${e.depth_km??''}</td>`;
-    h+=`<td>${_f1(_vrMin(e),2)}</td>`;
-    h+=`<td>${_f1(_vrMean(e),2)}</td>`;
-    h+=`<td>${_nTr(e)??'—'}</td>`;
-    // obs⊇seq column: shows "+N" with explicit tooltip when InSAR captures
-    // the target plus N other significant events; "single" otherwise
+    h+=(vr!=null?`<td style="color:${vrColor(vr)};font-weight:700">${Number(vr).toFixed(2)}</td>`:'<td>—</td>');
+    h+=`<td>${_zonePill(zoneOf(e))}</td>`;
+    h+=`<td>${_f1(_fm(e,'strike'),0)}</td><td>${_f1(_fm(e,'dip'),0)}</td><td>${_f1(_fm(e,'rake'),0)}</td>`;
+    h+=`<td>${e.n_tracks||'—'}</td>`;
     const seqN=_seqN(e);
-    if(seqN>0){
-      h+=`<td title="InSAR observation = target + ${seqN} other significant event(s) in window" `
-        +`style="color:#2a76d2;font-weight:600">🔗 +${seqN}</td>`;
-    } else {
-      h+=`<td title="single-event observation (no other significant EQ in SAR window)" `
-        +`style="color:#5c6b7a">single</td>`;
-    }
-    h+=`<td style="text-align:center" title="${e.stacking?'multi-pair stacked observation':'single-pair'}">${e.stacking?'<span style="color:#2a9d4a;font-weight:700">⊞ stack</span>':'<span style="color:#aaa">—</span>'}</td>`;
-    h+=`<td style="text-align:center" title="${e.multievent?`${e.multievent} multievent: ${e.multievent_n} neighbour(s), max Mw ${e.multievent_max_mw} (${e.multievent_sep})`:'single event'}">${e.multievent==='severe'?'<span style="color:#d9534f;font-weight:700">⚠ multi</span>':(e.multievent?'<span style="color:#c47800">minor</span>':'<span style="color:#aaa">—</span>')}</td>`;
+    h+=seqN>0
+      ?`<td title="target + ${seqN} other significant event(s) in window" style="color:#2a76d2;font-weight:600">🔗 +${seqN}</td>`
+      :`<td style="color:#9aa5b1">—</td>`;
+    h+=`<td style="text-align:center">${e.stacking?'<span style="color:#1c7c3c;font-weight:700">⊞</span>':'<span style="color:#ccc">—</span>'}</td>`;
+    h+=`<td style="text-align:center" title="${e.multievent?`${e.multievent} multievent: ${e.multievent_n||'?'} neighbour(s), max Mw ${e.multievent_max_mw||'?'}`:'single event'}">${e.multievent==='severe'?'<span style="color:#b13230;font-weight:700">⚠</span>':(e.multievent?'<span style="color:#c47800">minor</span>':'<span style="color:#ccc">—</span>')}</td>`;
     h+=`<td>${fmtTime(e.origin_utc)}</td>`;
-    h+=`<td>${e.place||''}</td>`;
-    h+=e.links&&e.links.report
-      ?`<td><a href="${e.links.report}" target="_blank">report →</a></td>`
-      :'<td>—</td>';
+    h+=`<td style="white-space:normal">${e.place||''}</td>`;
+    let links=[];
+    if(e.links&&e.links.report) links.push(`<a href="${e.links.report}" target="_blank">report</a>`);
+    if(e.links&&e.links.solution) links.push(`<a href="${e.links.solution}" target="_blank">json</a>`);
+    h+=`<td>${links.join(' · ')||'—'}</td>`;
     h+='</tr>';
   });
   document.getElementById('tablewrap').innerHTML=h+'</tbody></table>';
@@ -457,13 +549,11 @@ function setView(v){
   if(v==='globe') buildGlobe();
 }
 
-// ---- Cesium 3D globe (built lazily on first activation) ----
+/* ---------- Cesium 3D globe (lazy) ---------- */
 let VIEWER=null;
 function buildGlobe(){
   if(VIEWER||!CAT) return;
-  // Cesium Ion token (registered account — enables World Terrain + Bing imagery)
   Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlNzQ5YjU2NC01YzYwLTQzMWQtOTFjOS1iNDUxOTVjMmZlZTEiLCJpZCI6NDQyMzQ1LCJpc3MiOiJodHRwczovL2FwaS5jZXNpdW0uY29tIiwiYXVkIjoidW5kZWZpbmVkX2RlZmF1bHQiLCJpYXQiOjE3ODEwMjkxMjB9.J2BlF1v6XNEJMC2CFl7UgNeDh1jGplzKOY6IZQRpRY8';
-  // Cesium World Terrain + default Bing imagery (Ion token enables both)
   VIEWER = new Cesium.Viewer('globe', {
     terrain: Cesium.Terrain.fromWorldTerrain(),
     baseLayerPicker: true,
@@ -482,36 +572,35 @@ function buildGlobe(){
     VIEWER.clock.stopTime = Cesium.JulianDate.fromDate(tMax);
     VIEWER.clock.currentTime = VIEWER.clock.stopTime.clone();
     VIEWER.clock.clockRange = Cesium.ClockRange.LOOP_STOP;
-    VIEWER.clock.multiplier = 86400*30; // 30 days/sec when playing
+    VIEWER.clock.multiplier = 86400*30;
     VIEWER.timeline.zoomTo(VIEWER.clock.startTime, VIEWER.clock.stopTime);
   }
 
-  const zoneColor = z =>
-    z==='GREEN'  ? Cesium.Color.fromCssColorString('#28a745') :
-    z==='YELLOW' ? Cesium.Color.fromCssColorString('#e8b400') :
-    z==='RED'    ? Cesium.Color.fromCssColorString('#dc3545') :
-                   Cesium.Color.fromCssColorString('#7d8a99');
+  const zoneColorC = e => {
+    if(e.status==='monitoring') return Cesium.Color.fromCssColorString('#3b82f6');
+    const z=zoneOf(e);
+    return z==='GREEN'  ? Cesium.Color.fromCssColorString('#28a745') :
+           z==='YELLOW' ? Cesium.Color.fromCssColorString('#e8b400') :
+           z==='RED'    ? Cesium.Color.fromCssColorString('#dc3545') :
+                          Cesium.Color.fromCssColorString('#7d8a99');
+  };
 
   CAT.events.forEach(e=>{
     const lat=e.epi_lat, lon=e.epi_lon;
     if(lat==null||lon==null) return;
-    const z=(e.diagnostics||{}).zone;
     const mw=e.Mw||5;
     const size=Math.max(8, Math.min(28, (mw-3)*5));
     const t=Date.parse(e.origin_utc);
+    const vr=vrOf(e), mp=mwInsar(e);
     const props={
       id: e.event_id,
-      // Float marker 8 km above ground so it sits on top of nearby mountains
-      // without disabling depth test (which would make back-of-globe markers
-      // show through, looking like a transparent globe).
       position: Cesium.Cartesian3.fromDegrees(lon, lat, 8000),
       point:{
         pixelSize: size,
-        color: zoneColor(z),
+        color: zoneColorC(e),
         outlineColor: Cesium.Color.WHITE,
         outlineWidth: 1.5,
         heightReference: Cesium.HeightReference.RELATIVE_TO_GROUND,
-        // Scale by distance so far-away markers shrink slightly (less clutter)
         scaleByDistance: new Cesium.NearFarScalar(1.5e5, 1.0, 3e7, 0.55),
       },
       description: `
@@ -519,16 +608,16 @@ function buildGlobe(){
         <tr><td><b>Event</b></td><td>${e.event_id}</td></tr>
         <tr><td><b>Place</b></td><td>${e.place||''}</td></tr>
         <tr><td><b>Time</b></td><td>${e.origin_utc||''}</td></tr>
-        <tr><td><b>Mw</b></td><td>${mw}</td></tr>
+        <tr><td><b>Mw</b></td><td>${mw}${mp!=null?` (InSAR ${Number(mp).toFixed(2)})`:''}</td></tr>
         <tr><td><b>Depth</b></td><td>${e.depth_km||'?'} km</td></tr>
-        <tr><td><b>Zone</b></td><td>${z||'NONE'}</td></tr>
+        <tr><td><b>Status</b></td><td>${statusLabel(e)}</td></tr>
+        ${vr!=null?`<tr><td><b>VR</b></td><td>${Number(vr).toFixed(2)}</td></tr>`:''}
         <tr><td><b>Mechanism</b></td><td>${e.faulting_class||''}</td></tr>
         </table>
-        <p><a href="events/${e.event_id}/REPORT.html" target="_blank"
-              style="color:#1b4b73;font-weight:600">Open full REPORT →</a></p>`,
+        ${e.links&&e.links.report?`<p><a href="${e.links.report}" target="_blank"
+              style="color:#1b4b73;font-weight:600">Open full REPORT →</a></p>`:''}`,
     };
     if(!isNaN(t)){
-      // Only appear after origin time (lets timeline scrub through history)
       props.availability = new Cesium.TimeIntervalCollection([new Cesium.TimeInterval({
         start: Cesium.JulianDate.fromDate(new Date(t)),
         stop: VIEWER.clock.stopTime,
@@ -536,11 +625,10 @@ function buildGlobe(){
     }
     VIEWER.entities.add(props);
   });
-
-  // Default home view = whole globe
   VIEWER.camera.flyHome(0);
 }
 
+/* ---------- boot: catalog.json + pending.json (live monitoring cards) ---------- */
 Promise.all([
   fetch('catalog.json').then(r=>r.json()),
   fetch('pending.json').then(r=>r.ok?r.json():{events:[]}).catch(()=>({events:[]}))
@@ -551,9 +639,12 @@ Promise.all([
   CAT=c;
   const ns=c.events.filter(e=>e.stale).length;
   document.getElementById('meta').textContent=
-    `${c.n_events} events · ${pend.length} monitoring · ${ns} stale · updated ${fmtTime(c.generated_utc)} UTC`;
+    `${c.n_events} events · ${pend.length} monitoring · updated ${fmtTime(c.generated_utc)} UTC`;
+  renderChips();
   buildMap();
   render();
+  const want=new URLSearchParams(location.search).get('id');
+  if(want&&MARKERS[want]) selectEvent(want,true);
 }).catch(err=>{
   document.getElementById('meta').textContent='failed to load catalog.json: '+err;
 });
