@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-08T02:37:02Z",
+  "generated_utc": "2026-07-08T07:22:03Z",
   "n_pending": 7,
   "events": [
     {
@@ -23,7 +23,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-07-08T02:50:10Z",
+      "next_check_utc": "2026-07-08T07:30:05Z",
       "expected_max_los_cm": 1.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tatd",
       "escalation_reason": null,
@@ -60,7 +60,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-07-08T02:50:12Z",
+      "next_check_utc": "2026-07-08T07:30:05Z",
       "expected_max_los_cm": 0.8,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taaa",
       "escalation_reason": null,
@@ -127,16 +127,6 @@
       "magnitude_band": "",
       "data_used": [
         {
-          "track": 33,
-          "orbit_dir": "asc",
-          "pair_dates": [
-            "20260618",
-            "20260625"
-          ],
-          "median_coh": 0.362,
-          "status": ""
-        },
-        {
           "track": 135,
           "orbit_dir": "asc",
           "pair_dates": [
@@ -177,7 +167,7 @@
           "status": ""
         }
       ],
-      "n_tracks": 5,
+      "n_tracks": 4,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -185,7 +175,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "downloaded",
-      "next_check_utc": "2026-07-08T07:05:25Z",
+      "next_check_utc": "2026-07-09T07:10:42Z",
       "expected_max_los_cm": 253.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp",
       "escalation_reason": null,
@@ -222,7 +212,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "escalated",
-      "next_check_utc": "2026-07-08T02:35:04Z",
+      "next_check_utc": "2026-07-09T02:40:04Z",
       "expected_max_los_cm": 3.2,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382936",
       "escalation_reason": null,
@@ -317,7 +307,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "escalated",
-      "next_check_utc": "2026-07-08T02:35:04Z",
+      "next_check_utc": "2026-07-09T02:40:04Z",
       "expected_max_los_cm": 3.2,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr9j",
       "escalation_reason": null,
