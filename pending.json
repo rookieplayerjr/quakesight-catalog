@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-23T10:52:03Z",
+  "generated_utc": "2026-07-23T15:37:04Z",
   "n_pending": 10,
   "events": [
     {
@@ -22,8 +22,8 @@
       "result": null,
       "diagnostics": null,
       "status": "monitoring",
-      "monitor_stage": "predicted",
-      "next_check_utc": "2026-07-23T11:05:22Z",
+      "monitor_stage": "waiting_for_data",
+      "next_check_utc": "2026-07-23T15:45:16Z",
       "expected_max_los_cm": 1.2,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ojlaky",
       "escalation_reason": null,
@@ -134,7 +134,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "escalated",
-      "next_check_utc": "2026-07-23T14:45:03Z",
+      "next_check_utc": "2026-07-24T14:50:03Z",
       "expected_max_los_cm": 1.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tatd",
       "escalation_reason": null,
@@ -171,7 +171,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "escalated",
-      "next_check_utc": "2026-07-23T14:50:02Z",
+      "next_check_utc": "2026-07-24T14:50:03Z",
       "expected_max_los_cm": 0.8,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taaa",
       "escalation_reason": null,
