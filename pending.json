@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-23T10:45:05Z",
+  "generated_utc": "2026-07-23T10:52:03Z",
   "n_pending": 10,
   "events": [
     {
@@ -22,8 +22,8 @@
       "result": null,
       "diagnostics": null,
       "status": "monitoring",
-      "monitor_stage": "detected",
-      "next_check_utc": "",
+      "monitor_stage": "predicted",
+      "next_check_utc": "2026-07-23T11:05:22Z",
       "expected_max_los_cm": 1.2,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ojlaky",
       "escalation_reason": null,
@@ -33,9 +33,9 @@
       "stacking": false,
       "multievent": null,
       "has_v2": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null,
+        "report": "events/us7000t2nb/briefing/briefing.html",
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ojlaky"
       }
     },
