@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-28T07:45:06Z",
+  "generated_utc": "2026-07-28T07:52:02Z",
   "n_pending": 14,
   "events": [
     {
@@ -22,8 +22,8 @@
       "result": null,
       "diagnostics": null,
       "status": "monitoring",
-      "monitor_stage": "detected",
-      "next_check_utc": "",
+      "monitor_stage": "predicted",
+      "next_check_utc": "2026-07-28T08:05:12Z",
       "expected_max_los_cm": 100.7,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26209004",
       "escalation_reason": null,
@@ -33,9 +33,9 @@
       "stacking": false,
       "multievent": null,
       "has_v2": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null,
+        "report": "events/pt26209004/briefing/briefing.html",
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26209004"
       }
     },
@@ -59,8 +59,8 @@
       "result": null,
       "diagnostics": null,
       "status": "monitoring",
-      "monitor_stage": "detected",
-      "next_check_utc": "",
+      "monitor_stage": "predicted",
+      "next_check_utc": "2026-07-28T08:05:12Z",
       "expected_max_los_cm": 100.7,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/attivjdk",
       "escalation_reason": null,
@@ -70,9 +70,9 @@
       "stacking": false,
       "multievent": null,
       "has_v2": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null,
+        "report": "events/attivjdk/briefing/briefing.html",
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/attivjdk"
       }
     },
