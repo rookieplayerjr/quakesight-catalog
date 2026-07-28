@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-28T07:52:02Z",
-  "n_pending": 14,
+  "generated_utc": "2026-07-28T08:00:07Z",
+  "n_pending": 15,
   "events": [
     {
       "event_id": "pt26209004",
@@ -77,6 +77,43 @@
       }
     },
     {
+      "event_id": "us6000tgb9",
+      "place": "5 km E of Uto, Japan",
+      "origin_utc": "2026-07-28T07:27:15Z",
+      "detected_utc": "2026-07-28T08:00:06Z",
+      "epi_lat": 32.6817,
+      "epi_lon": 130.7217,
+      "depth_km": 10,
+      "Mw": 6.8,
+      "Mw_type": "mww",
+      "faulting_class": null,
+      "magnitude_band": "",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "monitoring",
+      "monitor_stage": "detected",
+      "next_check_utc": "",
+      "expected_max_los_cm": 50.5,
+      "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "preliminary": true,
+      "stale": false,
+      "stacking": false,
+      "multievent": null,
+      "has_v2": false,
+      "has_report": false,
+      "links": {
+        "report": null,
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9"
+      }
+    },
+    {
       "event_id": "us6000tga6",
       "place": "190 km NW of Oula Xiuma, China",
       "origin_utc": "2026-07-28T03:16:08Z",
@@ -97,7 +134,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-07-28T07:50:06Z",
+      "next_check_utc": "2026-07-28T08:10:04Z",
       "expected_max_los_cm": 5.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tga6",
       "escalation_reason": null,
