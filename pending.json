@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-29T00:07:07Z",
+  "generated_utc": "2026-07-29T00:22:03Z",
   "n_pending": 15,
   "events": [
     {
@@ -14,8 +14,19 @@
       "Mw_type": "Mi",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "des",
+          "pair_dates": [
+            "20260716",
+            "20260728"
+          ],
+          "median_coh": 0.398,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -51,16 +62,27 @@
       "Mw_type": "mwp",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "des",
+          "pair_dates": [
+            "20260716",
+            "20260728"
+          ],
+          "median_coh": 0.398,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
       "status": "monitoring",
-      "monitor_stage": "waiting_for_data",
-      "next_check_utc": "2026-07-28T23:50:11Z",
+      "monitor_stage": "downloaded",
+      "next_check_utc": "2026-08-05T00:14:06Z",
       "expected_max_los_cm": 100.7,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/attivjdk",
       "escalation_reason": null,
@@ -88,8 +110,19 @@
       "Mw_type": "mww",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "des",
+          "pair_dates": [
+            "20260716",
+            "20260728"
+          ],
+          "median_coh": 0.398,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -134,7 +167,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-07-29T00:10:06Z",
+      "next_check_utc": "2026-07-29T00:30:05Z",
       "expected_max_los_cm": 5.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tga6",
       "escalation_reason": null,
