@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-03T07:52:05Z",
+  "generated_utc": "2026-08-03T08:07:03Z",
   "n_pending": 14,
   "events": [
     {
@@ -242,8 +242,19 @@
       "Mw_type": "mww",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": "NISAR_075_A",
+          "orbit_dir": "",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "median_coh": 0.679,
+          "status": "ok"
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
