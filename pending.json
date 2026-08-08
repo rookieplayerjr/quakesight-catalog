@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-08T05:15:10Z",
-  "n_pending": 18,
+  "generated_utc": "2026-08-08T05:22:05Z",
+  "n_pending": 17,
   "events": [
     {
       "event_id": "aka2026powmkf",
@@ -36,43 +36,6 @@
       "has_report": true,
       "links": {
         "report": "events/aka2026powmkf/briefing/briefing.html",
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026powmkf"
-      }
-    },
-    {
-      "event_id": "us6000tj6h",
-      "place": "57 km WNW of Skwentna, Alaska",
-      "origin_utc": "2026-08-08T04:50:34Z",
-      "detected_utc": "2026-08-08T05:15:08Z",
-      "epi_lat": 62.269,
-      "epi_lon": -152.314,
-      "depth_km": 10,
-      "Mw": 5.6,
-      "Mw_type": "ml",
-      "faulting_class": null,
-      "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
-      "aoi_half_km": null,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "result": null,
-      "diagnostics": null,
-      "status": "monitoring",
-      "monitor_stage": "detected",
-      "next_check_utc": "",
-      "expected_max_los_cm": 3.2,
-      "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026powmkf",
-      "escalation_reason": null,
-      "pipeline_run_utc": null,
-      "preliminary": true,
-      "stale": false,
-      "stacking": false,
-      "multievent": null,
-      "has_v2": false,
-      "has_report": false,
-      "links": {
-        "report": null,
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026powmkf"
       }
     },
