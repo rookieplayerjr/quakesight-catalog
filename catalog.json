@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-06T16:12:16Z",
+  "generated_utc": "2026-08-09T17:39:30Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 312,
+  "n_events": 316,
   "events": [
     {
       "event_id": "ak01649w95tp",
@@ -48,6 +48,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/ak01649w95tp/REPORT.html",
@@ -99,6 +101,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/ak019g6hzf53/REPORT.html",
@@ -150,6 +154,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/ci38385946/REPORT.html",
@@ -198,7 +204,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:35Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 4,
       "multievent_max_mw": 7.1,
       "multievent_sep": "separable",
@@ -213,6 +219,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/ci38443183/REPORT.html",
@@ -264,6 +272,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/ci39645386/REPORT.html",
@@ -281,30 +291,7 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "4p5_to_5p5",
-      "data_used": [
-        {
-          "track": "166",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.816,
-          "status": "ready"
-        },
-        {
-          "track": "173",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.882,
-          "status": "ready"
-        }
-      ],
+      "data_used": [],
       "n_tracks": 2,
       "aoi_half_km": 25.6,
       "in_sequence": false,
@@ -358,6 +345,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/ci39919392/REPORT.html",
@@ -409,6 +398,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/hv61792931/REPORT.html",
@@ -460,6 +451,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/hv70863117/REPORT.html",
@@ -507,7 +500,7 @@
       "escalation_reason": "gbis_ambiguous",
       "pipeline_run_utc": "2026-05-25T23:39:51Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -520,6 +513,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/nc73584926/REPORT.html",
@@ -573,6 +568,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/nc73821036/REPORT.html",
@@ -590,19 +587,7 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "64",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.353,
-          "status": "ready"
-        }
-      ],
+      "data_used": [],
       "n_tracks": 1,
       "aoi_half_km": 27.3,
       "in_sequence": false,
@@ -641,134 +626,12 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/nn00570709/REPORT.html",
         "solution": "events/nn00570709/solution.json"
-      }
-    },
-    {
-      "event_id": "nn00570710",
-      "place": "28 km WSW of Hawthorne, Nevada",
-      "origin_utc": "2016-12-28T08:22:12Z",
-      "epi_lat": 38.3904,
-      "epi_lon": -118.8972,
-      "depth_km": 12.2,
-      "Mw": 5.6,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 1,
-      "aoi_half_km": 25.5,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 2,
-      "pair_contam_max": 2,
-      "multievent": "severe",
-      "result": {
-        "fmech": {
-          "strike": 214.0,
-          "dip": 83.0,
-          "rake": -180.0
-        },
-        "Mw_post": 0.0
-      },
-      "diagnostics": {
-        "zone": "RED",
-        "source": "quality_v2"
-      },
-      "status": "escalated",
-      "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-06-24T06:04:02Z",
-      "stale": false,
-      "stacking": false,
-      "multievent_n": 1,
-      "multievent_max_mw": 5.5,
-      "multievent_sep": "co-located",
-      "has_v2": true,
-      "has_report": true,
-      "zone": "RED",
-      "vr": null,
-      "mw_insar": 0.0,
-      "n_railed": 0,
-      "centroid_depth_km": null,
-      "centroid_depth_sigma_km": null,
-      "stress_drop_mpa": null,
-      "stress_drop_sigma_mpa": null,
-      "stress_drop_valid": null,
-      "pipeline_rev": null,
-      "links": {
-        "report": "events/nn00570710/REPORT.html",
-        "solution": "events/nn00570710/solution.json"
-      }
-    },
-    {
-      "event_id": "nn00570744",
-      "place": "28 km SW of Hawthorne, Nevada",
-      "origin_utc": "2016-12-28T09:13:47Z",
-      "epi_lat": 38.3777,
-      "epi_lon": -118.8957,
-      "depth_km": 8.8,
-      "Mw": 5.5,
-      "Mw_type": "Mww",
-      "faulting_class": "strike-slip",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "64",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.353,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 1,
-      "aoi_half_km": 28.8,
-      "in_sequence": false,
-      "sequence_n_significant": 0,
-      "pair_contam_min": 2,
-      "pair_contam_max": 2,
-      "multievent": "severe",
-      "result": {
-        "fmech": {
-          "strike": 209.0,
-          "dip": 86.0,
-          "rake": -180.0
-        },
-        "Mw_post": 0.0
-      },
-      "diagnostics": {
-        "zone": "RED",
-        "source": "quality_v2"
-      },
-      "status": "escalated",
-      "escalation_reason": "Escalation: all_tracks_failed",
-      "pipeline_run_utc": "2026-06-24T06:49:50Z",
-      "stale": false,
-      "stacking": false,
-      "multievent_n": 2,
-      "multievent_max_mw": 5.6,
-      "multievent_sep": "co-located",
-      "has_v2": true,
-      "has_report": true,
-      "zone": "RED",
-      "vr": null,
-      "mw_insar": 0.0,
-      "n_railed": 0,
-      "centroid_depth_km": null,
-      "centroid_depth_sigma_km": null,
-      "stress_drop_mpa": null,
-      "stress_drop_sigma_mpa": null,
-      "stress_drop_valid": null,
-      "pipeline_rev": null,
-      "links": {
-        "report": "events/nn00570744/REPORT.html",
-        "solution": "events/nn00570744/solution.json"
       }
     },
     {
@@ -813,7 +676,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-27T10:20:15Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 3,
       "multievent_max_mw": 5.1,
       "multievent_sep": "single",
@@ -828,6 +691,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/nn00725272/REPORT.html",
@@ -845,42 +710,8 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "4p5_to_5p5",
-      "data_used": [
-        {
-          "track": 144,
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.455,
-          "status": "ready"
-        },
-        {
-          "track": "64",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.639,
-          "status": "ready"
-        },
-        {
-          "track": "71",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.62,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 3,
+      "data_used": [],
+      "n_tracks": 1,
       "aoi_half_km": 28.5,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -911,7 +742,7 @@
       "escalation_reason": "gbis_multiple_critical_railed",
       "pipeline_run_utc": "2026-06-24T07:11:44Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -924,6 +755,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/nn00782942/REPORT.html",
@@ -973,7 +806,7 @@
       "escalation_reason": "Escalation: insufficient_stack_data",
       "pipeline_run_utc": "2026-06-20T08:50:20Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -986,6 +819,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/nn00888580/REPORT.html",
@@ -1034,7 +869,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-03T03:44:53Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.2,
       "multievent_sep": "single",
@@ -1049,6 +884,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/nn00914068/REPORT.html",
@@ -1105,6 +942,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/pr2020006006/REPORT.html",
@@ -1161,6 +1000,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/pr2020007007/REPORT.html",
@@ -1217,6 +1058,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/pr2020007010/REPORT.html",
@@ -1273,6 +1116,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/pr2020011010/REPORT.html",
@@ -1329,6 +1174,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/pr2020015008/REPORT.html",
@@ -1382,6 +1229,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/pr2022128001/REPORT.html",
@@ -1399,19 +1248,7 @@
       "Mw_type": "Mww",
       "faulting_class": "normal",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "174",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.086,
-          "status": "ready"
-        }
-      ],
+      "data_used": [],
       "n_tracks": 1,
       "aoi_half_km": 35.2,
       "in_sequence": false,
@@ -1470,6 +1307,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10002zzn/REPORT.html",
@@ -1487,19 +1326,7 @@
       "Mw_type": "Mwc",
       "faulting_class": "normal",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "174",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.086,
-          "status": "ready"
-        }
-      ],
+      "data_used": [],
       "n_tracks": 1,
       "aoi_half_km": 26.7,
       "in_sequence": false,
@@ -1558,6 +1385,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10002zzr/REPORT.html",
@@ -1575,19 +1404,7 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "156",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.176,
-          "status": "ready"
-        }
-      ],
+      "data_used": [],
       "n_tracks": 1,
       "aoi_half_km": 26.3,
       "in_sequence": false,
@@ -1623,6 +1440,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10003jyn/REPORT.html",
@@ -1674,6 +1493,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10003mgj/REPORT.html",
@@ -1723,7 +1544,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-12T15:35:27Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -1736,6 +1557,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10003qv5/REPORT.html",
@@ -1792,6 +1615,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10003ywp/REPORT.html",
@@ -1843,6 +1668,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us100042v4/REPORT.html",
@@ -1896,6 +1723,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000454p/REPORT.html",
@@ -1952,6 +1781,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10004fv5/REPORT.html",
@@ -2017,6 +1848,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10004gy9/REPORT.html",
@@ -2065,7 +1898,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:35Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.1,
       "multievent_sep": "single",
@@ -2080,6 +1913,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10005j6b/REPORT.html",
@@ -2130,7 +1965,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-12T15:57:29Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.6,
       "multievent_sep": "single",
@@ -2145,6 +1980,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10006g7d/REPORT.html",
@@ -2195,7 +2032,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-01T18:47:58Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 2,
       "multievent_max_mw": 6.6,
       "multievent_sep": "separable",
@@ -2210,6 +2047,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000725y/REPORT.html",
@@ -2227,31 +2066,8 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "154",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.047,
-          "status": "ready"
-        },
-        {
-          "track": "52",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.122,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 2,
+      "data_used": [],
+      "n_tracks": 0,
       "aoi_half_km": 26.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -2259,12 +2075,21 @@
       "pair_contam_max": 49,
       "multievent": "severe",
       "result": {
-        "fmech": {
-          "strike": 142.0,
-          "dip": 78.0,
-          "rake": -180.0
+        "L_km": 8.94,
+        "W_km": 7.87,
+        "Z_top_km": 0.1,
+        "dip": -113.0,
+        "strike": 279.6,
+        "Mw_post": 6.42,
+        "VR": {
+          "t154_asc": 0.01,
+          "t52_asc": 0.02
         },
-        "Mw_post": 0.0
+        "fmech": {
+          "strike": 279.6,
+          "dip": 67.0,
+          "rake": -135.0
+        }
       },
       "diagnostics": {
         "acceptance": 0.199,
@@ -2302,17 +2127,10 @@
       "has_report": true,
       "zone": "RED",
       "vr": null,
-      "mw_insar": 0.0,
-      "n_railed": 0,
-      "centroid_depth_km": null,
-      "centroid_depth_sigma_km": null,
-      "stress_drop_mpa": null,
-      "stress_drop_sigma_mpa": null,
-      "stress_drop_valid": null,
-      "pipeline_rev": null,
+      "mw_insar": null,
       "links": {
         "report": "events/us1000780y/REPORT.html",
-        "solution": "events/us1000780y/solution.json"
+        "solution": null
       }
     },
     {
@@ -2365,6 +2183,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10007twj/REPORT.html",
@@ -2421,6 +2241,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10007twn/REPORT.html",
@@ -2438,32 +2260,28 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "40",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.039,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 1,
+      "data_used": [],
+      "n_tracks": 0,
       "aoi_half_km": 26.7,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
       "result": {
-        "fmech": {
-          "strike": 179.0,
-          "dip": 70.0,
-          "rake": -180.0
+        "L_km": 7.61,
+        "W_km": 6.7,
+        "Z_top_km": 0.1,
+        "dip": -105.0,
+        "strike": 307.4,
+        "Mw_post": 6.38,
+        "VR": {
+          "t40_dsc": -0.02
         },
-        "Mw_post": 0.0
+        "fmech": {
+          "strike": 307.4,
+          "dip": 75.0,
+          "rake": 135.0
+        }
       },
       "diagnostics": {
         "acceptance": 0.213,
@@ -2499,17 +2317,10 @@
       "has_report": true,
       "zone": "RED",
       "vr": null,
-      "mw_insar": 0.0,
-      "n_railed": 0,
-      "centroid_depth_km": null,
-      "centroid_depth_sigma_km": null,
-      "stress_drop_mpa": null,
-      "stress_drop_sigma_mpa": null,
-      "stress_drop_valid": null,
-      "pipeline_rev": null,
+      "mw_insar": null,
       "links": {
         "report": "events/us10007wew/REPORT.html",
-        "solution": "events/us10007wew/solution.json"
+        "solution": null
       }
     },
     {
@@ -2523,19 +2334,7 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "21",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.529,
-          "status": "ready"
-        }
-      ],
+      "data_used": [],
       "n_tracks": 1,
       "aoi_half_km": 29.9,
       "in_sequence": false,
@@ -2591,6 +2390,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us100086gw/REPORT.html",
@@ -2641,7 +2442,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-09T04:43:28Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5,
       "multievent_sep": "single",
@@ -2656,6 +2457,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10008e3k/REPORT.html",
@@ -2721,6 +2524,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10008h1u/REPORT.html",
@@ -2768,7 +2573,7 @@
       "escalation_reason": "gbis_single_los_pattern_D",
       "pipeline_run_utc": "2026-05-25T23:49:50Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -2781,6 +2586,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10008m7l/REPORT.html",
@@ -2799,7 +2606,7 @@
       "faulting_class": "normal",
       "magnitude_band": "4p5_to_5p5",
       "data_used": [],
-      "n_tracks": 1,
+      "n_tracks": 0,
       "aoi_half_km": 27.5,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -2807,18 +2614,27 @@
       "pair_contam_max": 2,
       "multievent": "minor",
       "result": {
-        "fmech": {
-          "strike": 168.7,
-          "dip": 30.5,
-          "rake": -180.0
+        "L_km": 3.13,
+        "W_km": 2.94,
+        "Z_top_km": 6.96,
+        "dip": -65.3,
+        "strike": 336.1,
+        "Mw_post": 5.59,
+        "VR": {
+          "t107_dsc": 0.25,
+          "t27_asc": 0.28
         },
-        "Mw_post": 0.0
+        "fmech": {
+          "strike": 156.1,
+          "dip": 65.3,
+          "rake": -119.4
+        }
       },
       "diagnostics": {
         "acceptance": 0.207,
         "ess": 119,
         "geweke": 1.25,
-        "zone": "RED",
+        "zone": null,
         "verdict": "FAIL",
         "grades": {},
         "flags": [],
@@ -2827,7 +2643,7 @@
         "in_sequence": false,
         "sequence_n_ge_5": 1
       },
-      "status": "escalated",
+      "status": "done",
       "escalation_reason": "gbis_weak_signal",
       "pipeline_run_utc": "2026-06-12T23:11:31Z",
       "stale": false,
@@ -2837,19 +2653,12 @@
       "multievent_sep": "single",
       "has_v2": true,
       "has_report": true,
-      "zone": "RED",
+      "zone": null,
       "vr": null,
-      "mw_insar": 0.0,
-      "n_railed": 0,
-      "centroid_depth_km": null,
-      "centroid_depth_sigma_km": null,
-      "stress_drop_mpa": null,
-      "stress_drop_sigma_mpa": null,
-      "stress_drop_valid": null,
-      "pipeline_rev": null,
+      "mw_insar": null,
       "links": {
         "report": "events/us10008rah/REPORT.html",
-        "solution": "events/us10008rah/solution.json"
+        "solution": null
       }
     },
     {
@@ -2897,6 +2706,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us10008ssf/REPORT.html",
@@ -2914,19 +2725,7 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "61",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.086,
-          "status": "ready"
-        }
-      ],
+      "data_used": [],
       "n_tracks": 1,
       "aoi_half_km": 45.0,
       "in_sequence": true,
@@ -2974,6 +2773,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us100098gc/REPORT.html",
@@ -2991,19 +2792,7 @@
       "Mw_type": "Mww",
       "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
-      "data_used": [
-        {
-          "track": "57",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.733,
-          "status": "ready"
-        }
-      ],
+      "data_used": [],
       "n_tracks": 1,
       "aoi_half_km": 56.8,
       "in_sequence": true,
@@ -3051,6 +2840,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000bjnz/REPORT.html",
@@ -3104,6 +2895,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000bkjh/REPORT.html",
@@ -3121,42 +2914,8 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "4p5_to_5p5",
-      "data_used": [
-        {
-          "track": 112,
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.114,
-          "status": "ready"
-        },
-        {
-          "track": 119,
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.082,
-          "status": "ready"
-        },
-        {
-          "track": "39",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            null,
-            null
-          ],
-          "backend": "licsar",
-          "median_coh": 0.294,
-          "status": "ready"
-        }
-      ],
-      "n_tracks": 3,
+      "data_used": [],
+      "n_tracks": 1,
       "aoi_half_km": 24.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -3209,6 +2968,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000bmdw/REPORT.html",
@@ -3260,6 +3021,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000dngn/REPORT.html",
@@ -3311,6 +3074,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000f22r/REPORT.html",
@@ -3361,7 +3126,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T08:56:09Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.3,
       "multievent_sep": "single",
@@ -3376,6 +3141,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000ghda/REPORT.html",
@@ -3426,7 +3193,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T13:29:20Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 2,
       "multievent_max_mw": 5.2,
       "multievent_sep": "single",
@@ -3441,6 +3208,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000hwdw/REPORT.html",
@@ -3494,6 +3263,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000i36p/REPORT.html",
@@ -3545,6 +3316,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000j8dg/REPORT.html",
@@ -3596,6 +3369,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us1000jaaq/REPORT.html",
@@ -3658,6 +3433,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20002b38/REPORT.html",
@@ -3714,6 +3491,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20002pyz/REPORT.html",
@@ -3776,6 +3555,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20003kkw/REPORT.html",
@@ -3838,6 +3619,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20003nqr/REPORT.html",
@@ -3891,6 +3674,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20004g1p/REPORT.html",
@@ -3942,6 +3727,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20004y6h/REPORT.html",
@@ -4004,6 +3791,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us200050iw/REPORT.html",
@@ -4066,6 +3855,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20005ate/REPORT.html",
@@ -4128,6 +3919,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20005bft/REPORT.html",
@@ -4181,6 +3974,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20005du0/REPORT.html",
@@ -4243,6 +4038,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us200062bu/REPORT.html",
@@ -4299,6 +4096,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us200066x9/REPORT.html",
@@ -4355,6 +4154,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us200067p3/REPORT.html",
@@ -4417,6 +4218,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20006fpn/REPORT.html",
@@ -4479,6 +4282,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20007fta/REPORT.html",
@@ -4532,6 +4337,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20007ga1/REPORT.html",
@@ -4588,6 +4395,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20007guy/REPORT.html",
@@ -4641,6 +4450,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us200082s5/REPORT.html",
@@ -4694,6 +4505,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us20009lwp/REPORT.html",
@@ -4742,7 +4555,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-27T10:22:12Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 2,
       "multievent_max_mw": 5.3,
       "multievent_sep": "single",
@@ -4757,6 +4570,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000a65e/REPORT.html",
@@ -4813,6 +4628,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000atpb/REPORT.html",
@@ -4878,6 +4695,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000bqsn/REPORT.html",
@@ -4934,6 +4753,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000bu6g/REPORT.html",
@@ -4984,7 +4805,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-10T17:58:50Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 7,
       "multievent_max_mw": 6.1,
       "multievent_sep": "co-located",
@@ -4999,6 +4820,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000c3ag/REPORT.html",
@@ -5049,7 +4872,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-09T22:40:27Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 7,
       "multievent_max_mw": 6.1,
       "multievent_sep": "separable",
@@ -5064,6 +4887,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000c3mi/REPORT.html",
@@ -5120,6 +4945,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000cifa/REPORT.html",
@@ -5173,6 +5000,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000czig/REPORT.html",
@@ -5235,6 +5064,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000dwh6/REPORT.html",
@@ -5297,6 +5128,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000frwr/REPORT.html",
@@ -5348,6 +5181,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000gb1e/REPORT.html",
@@ -5397,7 +5232,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T06:45:40Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -5410,6 +5245,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000gb4d/REPORT.html",
@@ -5472,6 +5309,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000gi03/REPORT.html",
@@ -5523,6 +5362,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000ha5b/REPORT.html",
@@ -5588,6 +5429,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000i6sc/REPORT.html",
@@ -5637,7 +5480,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-27T05:09:04Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -5650,6 +5493,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000iws8/REPORT.html",
@@ -5703,6 +5548,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000ixky/REPORT.html",
@@ -5765,6 +5612,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000j0th/REPORT.html",
@@ -5830,6 +5679,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000j967/REPORT.html",
@@ -5886,6 +5737,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000jcbz/REPORT.html",
@@ -5942,6 +5795,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us2000jccs/REPORT.html",
@@ -5992,7 +5847,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T08:41:43Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 3,
       "multievent_max_mw": 5.3,
       "multievent_sep": "single",
@@ -6007,6 +5862,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us600041ry/REPORT.html",
@@ -6060,6 +5917,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us600042fx/REPORT.html",
@@ -6116,6 +5975,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us60004ys7/REPORT.html",
@@ -6167,6 +6028,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us600053z3/REPORT.html",
@@ -6223,6 +6086,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us60005lrf/REPORT.html",
@@ -6274,6 +6139,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us60005mqp/REPORT.html",
@@ -6337,6 +6204,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000645n/REPORT.html",
@@ -6393,6 +6262,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us60006470/REPORT.html",
@@ -6442,7 +6313,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T19:33:19Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -6455,6 +6326,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us600068w0/REPORT.html",
@@ -6520,6 +6393,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us60006rpn/REPORT.html",
@@ -6568,7 +6443,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T23:14:20Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 2,
       "multievent_max_mw": 5.3,
       "multievent_sep": "single",
@@ -6583,6 +6458,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us60007anp/REPORT.html",
@@ -6646,6 +6523,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us60007ewc/REPORT.html",
@@ -6697,6 +6576,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us600087il/REPORT.html",
@@ -6747,7 +6628,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-08T02:17:32Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.5,
       "multievent_sep": "single",
@@ -6762,6 +6643,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000abnv/REPORT.html",
@@ -6824,6 +6707,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000ag4u/REPORT.html",
@@ -6872,7 +6757,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T10:16:03Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 2,
       "multievent_max_mw": 5.1,
       "multievent_sep": "single",
@@ -6887,6 +6772,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000b26j/REPORT.html",
@@ -6940,6 +6827,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000b7ai/REPORT.html",
@@ -7002,6 +6891,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000b930/REPORT.html",
@@ -7058,6 +6949,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000bdg8/REPORT.html",
@@ -7107,7 +7000,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T17:57:06Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -7120,6 +7013,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000bdq8/REPORT.html",
@@ -7171,6 +7066,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000bzek/REPORT.html",
@@ -7227,6 +7124,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000c9ci/REPORT.html",
@@ -7283,6 +7182,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000c9cs/REPORT.html",
@@ -7330,7 +7231,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T06:50:10Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -7343,6 +7244,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000d3zh/REPORT.html",
@@ -7406,6 +7309,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000d7ix/REPORT.html",
@@ -7468,6 +7373,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000ddge/REPORT.html",
@@ -7521,6 +7428,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000df9r/REPORT.html",
@@ -7583,6 +7492,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000dk70/REPORT.html",
@@ -7636,6 +7547,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000dx0m/REPORT.html",
@@ -7683,7 +7596,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-06T20:20:50Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -7696,6 +7609,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000dxge/REPORT.html",
@@ -7749,6 +7664,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000dyuk/REPORT.html",
@@ -7796,7 +7713,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:35Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -7809,6 +7726,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000e2k3/REPORT.html",
@@ -7826,30 +7745,7 @@
       "Mw_type": "Mww",
       "faulting_class": "strike-slip",
       "magnitude_band": "4p5_to_5p5",
-      "data_used": [
-        {
-          "track": "123",
-          "orbit_dir": "dsc",
-          "pair_dates": [
-            "20210615",
-            "20210627"
-          ],
-          "backend": "s1ot_single",
-          "median_coh": 0.501,
-          "status": "ready"
-        },
-        {
-          "track": "43",
-          "orbit_dir": "asc",
-          "pair_dates": [
-            "20210615",
-            "20210627"
-          ],
-          "backend": "s1ot_single",
-          "median_coh": 0.571,
-          "status": "ready"
-        }
-      ],
+      "data_used": [],
       "n_tracks": 2,
       "aoi_half_km": 34.8,
       "in_sequence": false,
@@ -7903,6 +7799,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000epst/REPORT.html",
@@ -7952,7 +7850,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T10:54:00Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -7965,6 +7863,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000etys/REPORT.html",
@@ -8021,6 +7921,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000ez2l/REPORT.html",
@@ -8077,6 +7979,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000ez5x/REPORT.html",
@@ -8133,6 +8037,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000f155/REPORT.html",
@@ -8186,6 +8092,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000f1ea/REPORT.html",
@@ -8242,6 +8150,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000f1nr/REPORT.html",
@@ -8293,6 +8203,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000f2r5/REPORT.html",
@@ -8344,6 +8256,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000fr6u/REPORT.html",
@@ -8406,6 +8320,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000fsg9/REPORT.html",
@@ -8466,6 +8382,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000ftxu/REPORT.html",
@@ -8519,6 +8437,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000g9zp/REPORT.html",
@@ -8581,6 +8501,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000gdng/REPORT.html",
@@ -8643,6 +8565,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000hfqj/REPORT.html",
@@ -8696,6 +8620,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000hmld/REPORT.html",
@@ -8714,22 +8640,12 @@
       "faulting_class": "strike-slip",
       "magnitude_band": "4p5_to_5p5",
       "data_used": [],
-      "n_tracks": 1,
+      "n_tracks": 0,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
-      "result": {
-        "fmech": {
-          "strike": 228.2,
-          "dip": 55.9,
-          "rake": -180.0
-        },
-        "Mw_post": 0.0
-      },
-      "diagnostics": {
-        "zone": "RED",
-        "source": "quality_v2"
-      },
+      "result": null,
+      "diagnostics": null,
       "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": null,
@@ -8738,19 +8654,12 @@
       "multievent": null,
       "has_v2": true,
       "has_report": true,
-      "zone": "RED",
+      "zone": null,
       "vr": null,
-      "mw_insar": 0.0,
-      "n_railed": 0,
-      "centroid_depth_km": null,
-      "centroid_depth_sigma_km": null,
-      "stress_drop_mpa": null,
-      "stress_drop_sigma_mpa": null,
-      "stress_drop_valid": null,
-      "pipeline_rev": null,
+      "mw_insar": null,
       "links": {
         "report": "events/us6000hn0i/REPORT.html",
-        "solution": "events/us6000hn0i/solution.json"
+        "solution": null
       }
     },
     {
@@ -8795,7 +8704,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 2,
       "multievent_max_mw": 6,
       "multievent_sep": "separable",
@@ -8810,6 +8719,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000hz8x/REPORT.html",
@@ -8858,7 +8769,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 2,
       "multievent_max_mw": 5.7,
       "multievent_sep": "separable",
@@ -8873,6 +8784,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000hz9v/REPORT.html",
@@ -8926,6 +8839,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000i7d8/REPORT.html",
@@ -8979,6 +8894,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000iag5/REPORT.html",
@@ -8997,24 +8914,14 @@
       "faulting_class": "strike-slip",
       "magnitude_band": "5p5_to_6p5",
       "data_used": [],
-      "n_tracks": 1,
+      "n_tracks": 0,
       "aoi_half_km": 25.8,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "pair_contam_min": 0,
       "pair_contam_max": 0,
-      "result": {
-        "fmech": {
-          "strike": 315.9,
-          "dip": 63.5,
-          "rake": -180.0
-        },
-        "Mw_post": 0.0
-      },
-      "diagnostics": {
-        "zone": "RED",
-        "source": "quality_v2"
-      },
+      "result": null,
+      "diagnostics": null,
       "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": null,
@@ -9023,19 +8930,12 @@
       "multievent": null,
       "has_v2": true,
       "has_report": true,
-      "zone": "RED",
+      "zone": null,
       "vr": null,
-      "mw_insar": 0.0,
-      "n_railed": 0,
-      "centroid_depth_km": null,
-      "centroid_depth_sigma_km": null,
-      "stress_drop_mpa": null,
-      "stress_drop_sigma_mpa": null,
-      "stress_drop_valid": null,
-      "pipeline_rev": null,
+      "mw_insar": null,
       "links": {
         "report": "events/us6000ii2v/REPORT.html",
-        "solution": "events/us6000ii2v/solution.json"
+        "solution": null
       }
     },
     {
@@ -9086,6 +8986,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000iika/REPORT.html",
@@ -9142,6 +9044,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000iikc/REPORT.html",
@@ -9196,66 +9100,12 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000iikp/REPORT.html",
         "solution": "events/us6000iikp/solution.json"
-      }
-    },
-    {
-      "event_id": "us6000iisb",
-      "place": "173 km WSW of Pariaman, Indonesia",
-      "origin_utc": "2022-09-10T23:10:43Z",
-      "epi_lat": -1.149,
-      "epi_lon": 98.654,
-      "depth_km": 20.0,
-      "Mw": 6.0,
-      "Mw_type": "Mww",
-      "faulting_class": "reverse",
-      "magnitude_band": "5p5_to_6p5",
-      "data_used": [],
-      "n_tracks": 1,
-      "aoi_half_km": 31.6,
-      "in_sequence": true,
-      "sequence_n_significant": 1,
-      "pair_contam_min": 2,
-      "pair_contam_max": 2,
-      "multievent": "severe",
-      "result": {
-        "fmech": {
-          "strike": 326.8,
-          "dip": 42.5,
-          "rake": -180.0
-        },
-        "Mw_post": 0.0
-      },
-      "diagnostics": {
-        "zone": "RED",
-        "source": "quality_v2"
-      },
-      "status": "escalated",
-      "escalation_reason": "Escalation: prep_no_tracks",
-      "pipeline_run_utc": "2026-06-02T23:06:07Z",
-      "stale": false,
-      "stacking": false,
-      "multievent_n": 1,
-      "multievent_max_mw": 5.7,
-      "multievent_sep": "separable",
-      "has_v2": true,
-      "has_report": true,
-      "zone": "RED",
-      "vr": null,
-      "mw_insar": 0.0,
-      "n_railed": 0,
-      "centroid_depth_km": null,
-      "centroid_depth_sigma_km": null,
-      "stress_drop_mpa": null,
-      "stress_drop_sigma_mpa": null,
-      "stress_drop_valid": null,
-      "pipeline_rev": null,
-      "links": {
-        "report": "events/us6000iisb/REPORT.html",
-        "solution": "events/us6000iisb/solution.json"
       }
     },
     {
@@ -9317,6 +9167,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000iqx6/REPORT.html",
@@ -9377,6 +9229,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000iwds/REPORT.html",
@@ -9439,6 +9293,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000j6u0/REPORT.html",
@@ -9499,6 +9355,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000j8lp/REPORT.html",
@@ -9561,6 +9419,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000ja1a/REPORT.html",
@@ -9611,7 +9471,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-12T23:20:46Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.1,
       "multievent_sep": "single",
@@ -9626,6 +9486,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000jbsk/REPORT.html",
@@ -9679,6 +9541,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000jj8s/REPORT.html",
@@ -9727,7 +9591,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T05:00:27Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.1,
       "multievent_sep": "single",
@@ -9742,6 +9606,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000jk0t/REPORT.html",
@@ -9807,6 +9673,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000jnqz/REPORT.html",
@@ -9855,7 +9723,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 2,
       "multievent_max_mw": 5.5,
       "multievent_sep": "single",
@@ -9870,6 +9738,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000jqcn/REPORT.html",
@@ -9933,6 +9803,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000jqxc/REPORT.html",
@@ -9986,6 +9858,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000k1gl/REPORT.html",
@@ -10051,6 +9925,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000k9mb/REPORT.html",
@@ -10116,6 +9992,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000k9rh/REPORT.html",
@@ -10178,6 +10056,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000kx3e/REPORT.html",
@@ -10228,7 +10108,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T14:00:39Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5,
       "multievent_sep": "single",
@@ -10243,6 +10123,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000lcgj/REPORT.html",
@@ -10291,7 +10173,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 9,
       "multievent_max_mw": 6.3,
       "multievent_sep": "separable",
@@ -10306,6 +10188,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000ldpg/REPORT.html",
@@ -10354,7 +10238,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T15:53:32Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 9,
       "multievent_max_mw": 6.3,
       "multievent_sep": "separable",
@@ -10369,6 +10253,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000ldpm/REPORT.html",
@@ -10432,6 +10318,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000ldpv/REPORT.html",
@@ -10497,6 +10385,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000len8/REPORT.html",
@@ -10545,7 +10435,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-08T01:12:13Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 10,
       "multievent_max_mw": 6.3,
       "multievent_sep": "separable",
@@ -10560,6 +10450,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000lfn5/REPORT.html",
@@ -10622,6 +10514,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000lgpg/REPORT.html",
@@ -10672,7 +10566,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-10T05:38:36Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.5,
       "multievent_sep": "separable",
@@ -10687,6 +10581,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000mjux/REPORT.html",
@@ -10749,6 +10645,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000mvya/REPORT.html",
@@ -10805,6 +10703,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000mwjd/REPORT.html",
@@ -10858,6 +10758,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000mwkd/REPORT.html",
@@ -10914,6 +10816,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000nht0/REPORT.html",
@@ -10965,6 +10869,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000njq1/REPORT.html",
@@ -11027,6 +10933,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000nq9a/REPORT.html",
@@ -11078,6 +10986,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000nyau/REPORT.html",
@@ -11138,6 +11048,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000nyzk/REPORT.html",
@@ -11194,6 +11106,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000nzyn/REPORT.html",
@@ -11250,6 +11164,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000p000/REPORT.html",
@@ -11306,6 +11222,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000pvgx/REPORT.html",
@@ -11362,6 +11280,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000q6br/REPORT.html",
@@ -11415,6 +11335,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000q6n2/REPORT.html",
@@ -11475,6 +11397,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000qixr/REPORT.html",
@@ -11522,7 +11446,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-06T22:55:24Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -11535,6 +11459,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000qznb/REPORT.html",
@@ -11588,6 +11514,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000r1mt/REPORT.html",
@@ -11636,7 +11564,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5,
       "multievent_sep": "single",
@@ -11651,6 +11579,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000rjsu/REPORT.html",
@@ -11698,7 +11628,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -11711,6 +11641,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000rl31/REPORT.html",
@@ -11761,7 +11693,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-10T16:48:07Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.4,
       "multievent_sep": "co-located",
@@ -11776,6 +11708,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000rq2x/REPORT.html",
@@ -11836,6 +11770,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us6000ssxt/REPORT.html",
@@ -11843,46 +11779,57 @@
       }
     },
     {
-      "event_id": "us6000t8u3",
-      "place": "8 km WNW of Changning, China",
-      "origin_utc": "2026-06-28T16:12:08Z",
-      "epi_lat": 28.6031,
-      "epi_lon": 104.8416,
-      "depth_km": 10.0,
-      "Mw": 5.2,
+      "event_id": "us6000t7uu",
+      "place": "11 km N of Redwood Valley, CA",
+      "origin_utc": "2026-06-24T15:10:40Z",
+      "epi_lat": 39.3623333333333,
+      "epi_lon": -123.228833333333,
+      "depth_km": 8.85,
+      "Mw": 5.59,
       "Mw_type": "Mww",
-      "faulting_class": "reverse",
-      "magnitude_band": "4p5_to_5p5",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": "t128_asc",
+          "track": "t9135_asc",
           "orbit_dir": "",
           "pair_dates": [
             null,
             null
           ],
-          "backend": "monitor_s1ot",
-          "median_coh": 0.0,
+          "backend": "nisar_gunw",
+          "median_coh": 0.812,
+          "status": "ok"
+        },
+        {
+          "track": "t9143_dsc",
+          "orbit_dir": "",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "nisar_gunw",
+          "median_coh": 0.696,
           "status": "ok"
         }
       ],
-      "n_tracks": 1,
+      "n_tracks": 2,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "result": {
         "fmech": {
-          "strike": 3.9,
-          "dip": 88.8,
-          "rake": -47.4
+          "strike": 276.0,
+          "dip": 11.3,
+          "rake": -45.0
         },
-        "Mw_post": 5.79
+        "Mw_post": 6.73
       },
       "diagnostics": {
-        "zone": "YELLOW",
+        "zone": "RED",
         "source": "quality_v2"
       },
-      "status": "done",
+      "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": null,
       "stale": false,
@@ -11890,19 +11837,304 @@
       "multievent": null,
       "has_v2": true,
       "has_report": true,
-      "zone": "YELLOW",
-      "vr": 0.782,
-      "mw_insar": 5.79,
+      "zone": "RED",
+      "vr": 0.939,
+      "mw_insar": 6.73,
       "n_railed": 0,
-      "centroid_depth_km": 12.23,
-      "centroid_depth_sigma_km": 2.51,
-      "stress_drop_mpa": 8.967,
-      "stress_drop_sigma_mpa": 3.406,
+      "centroid_depth_km": 32.8,
+      "centroid_depth_sigma_km": 1.24,
+      "stress_drop_mpa": 15.309,
+      "stress_drop_sigma_mpa": 1.05,
       "stress_drop_valid": true,
+      "signal_ratio": null,
+      "noise_dominated": null,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us6000t7uu/REPORT.html",
+        "solution": "events/us6000t7uu/solution.json"
+      }
+    },
+    {
+      "event_id": "us6000t8u3",
+      "place": "13 km WNW of Changning, China",
+      "origin_utc": "2026-06-28T16:12:09Z",
+      "epi_lat": 28.6413,
+      "epi_lon": 104.7997,
+      "depth_km": 10.0,
+      "Mw": 5.2,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [
+        {
+          "track": 128,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "20260613",
+            "20260702"
+          ],
+          "backend": "s1ot_single",
+          "median_coh": 0.367,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "multievent": "severe",
+      "result": {
+        "fmech": {
+          "strike": 146.1,
+          "dip": 26.2,
+          "rake": -175.7
+        },
+        "Mw_post": 5.9
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "multievent_n": 3,
+      "multievent_max_mw": 5,
+      "multievent_sep": "separable",
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.372,
+      "mw_insar": 5.9,
+      "n_railed": 1,
+      "centroid_depth_km": 13.98,
+      "centroid_depth_sigma_km": 0.77,
+      "stress_drop_mpa": 7.821,
+      "stress_drop_sigma_mpa": 0.6,
+      "stress_drop_valid": true,
+      "signal_ratio": 24.16,
+      "noise_dominated": true,
       "pipeline_rev": "4.0.0",
       "links": {
         "report": "events/us6000t8u3/REPORT.html",
         "solution": "events/us6000t8u3/solution.json"
+      }
+    },
+    {
+      "event_id": "us6000tatd",
+      "place": "13 km N of Xunchang, China",
+      "origin_utc": "2026-07-07T22:12:29Z",
+      "epi_lat": 28.574,
+      "epi_lon": 104.7111,
+      "depth_km": 10.0,
+      "Mw": 5.0,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [
+        {
+          "track": "t9004_dsc",
+          "orbit_dir": "",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "nisar_gunw",
+          "median_coh": 0.521,
+          "status": "ok"
+        },
+        {
+          "track": "t9054_asc",
+          "orbit_dir": "",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "nisar_gunw",
+          "median_coh": 0.51,
+          "status": "ok"
+        }
+      ],
+      "n_tracks": 2,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "multievent": "severe",
+      "result": {
+        "fmech": {
+          "strike": 157.5,
+          "dip": 46.8,
+          "rake": -119.6
+        },
+        "Mw_post": 5.42
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "multievent_n": 3,
+      "multievent_max_mw": 5.2,
+      "multievent_sep": "co-located",
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.969,
+      "mw_insar": 5.42,
+      "n_railed": 1,
+      "centroid_depth_km": 2.72,
+      "centroid_depth_sigma_km": 0.04,
+      "stress_drop_mpa": 13.182,
+      "stress_drop_sigma_mpa": 0.85,
+      "stress_drop_valid": true,
+      "signal_ratio": 29.48,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us6000tatd/REPORT.html",
+        "solution": "events/us6000tatd/solution.json"
+      }
+    },
+    {
+      "event_id": "us6000tga6",
+      "place": "192 km NW of Oula Xiuma, China",
+      "origin_utc": "2026-07-28T03:16:08Z",
+      "epi_lat": 35.3685,
+      "epi_lon": 99.5198,
+      "depth_km": 10.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 26,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "20260719",
+            "20260731"
+          ],
+          "backend": "s1ot_single",
+          "median_coh": 0.603,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "multievent": "severe",
+      "result": {
+        "fmech": {
+          "strike": 315.4,
+          "dip": 89.7,
+          "rake": -46.1
+        },
+        "Mw_post": 6.49
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "multievent_n": 2,
+      "multievent_max_mw": 5.8,
+      "multievent_sep": "separable",
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.857,
+      "mw_insar": 6.49,
+      "n_railed": 1,
+      "centroid_depth_km": 5.49,
+      "centroid_depth_sigma_km": 0.91,
+      "stress_drop_mpa": 12.012,
+      "stress_drop_sigma_mpa": 1.244,
+      "stress_drop_valid": true,
+      "signal_ratio": 6.95,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us6000tga6/REPORT.html",
+        "solution": "events/us6000tga6/solution.json"
+      }
+    },
+    {
+      "event_id": "us6000tgb9",
+      "place": "2026 Uto, Japan Earthquake\u00a0",
+      "origin_utc": "2026-07-28T07:27:15Z",
+      "epi_lat": 32.6817,
+      "epi_lon": 130.7217,
+      "depth_km": 10.0,
+      "Mw": 6.8,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "6p5_to_7",
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "des",
+          "pair_dates": [
+            "20260716",
+            "20260728"
+          ],
+          "backend": "s1ot_single",
+          "median_coh": 0.398,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "multievent": "minor",
+      "result": {
+        "fmech": {
+          "strike": 17.0,
+          "dip": 72.6,
+          "rake": -29.4
+        },
+        "Mw_post": 6.63
+      },
+      "diagnostics": {
+        "zone": "GREEN",
+        "source": "quality_v2"
+      },
+      "status": "done",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "multievent_n": 1,
+      "multievent_max_mw": 5.6,
+      "multievent_sep": "single",
+      "has_v2": true,
+      "has_report": true,
+      "zone": "GREEN",
+      "vr": 0.907,
+      "mw_insar": 6.63,
+      "n_railed": 1,
+      "centroid_depth_km": 11.55,
+      "centroid_depth_sigma_km": 0.66,
+      "stress_drop_mpa": 3.162,
+      "stress_drop_sigma_mpa": 0.377,
+      "stress_drop_valid": false,
+      "signal_ratio": null,
+      "noise_dominated": null,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us6000tgb9/REPORT.html",
+        "solution": "events/us6000tgb9/solution.json"
       }
     },
     {
@@ -11961,6 +12193,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70003a63/REPORT.html",
@@ -12023,6 +12257,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70003axc/REPORT.html",
@@ -12076,6 +12312,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70003ib5/REPORT.html",
@@ -12132,6 +12370,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70003j3g/REPORT.html",
@@ -12188,6 +12428,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70003j46/REPORT.html",
@@ -12250,6 +12492,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70004nrn/REPORT.html",
@@ -12268,22 +12512,12 @@
       "faulting_class": "strike-slip",
       "magnitude_band": "4p5_to_5p5",
       "data_used": [],
-      "n_tracks": 2,
+      "n_tracks": 0,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
-      "result": {
-        "fmech": {
-          "strike": 190.7,
-          "dip": 66.9,
-          "rake": -180.0
-        },
-        "Mw_post": 0.0
-      },
-      "diagnostics": {
-        "zone": "RED",
-        "source": "quality_v2"
-      },
+      "result": null,
+      "diagnostics": null,
       "status": "partial",
       "escalation_reason": null,
       "pipeline_run_utc": null,
@@ -12292,19 +12526,12 @@
       "multievent": null,
       "has_v2": true,
       "has_report": true,
-      "zone": "RED",
+      "zone": null,
       "vr": null,
-      "mw_insar": 0.0,
-      "n_railed": 0,
-      "centroid_depth_km": null,
-      "centroid_depth_sigma_km": null,
-      "stress_drop_mpa": null,
-      "stress_drop_sigma_mpa": null,
-      "stress_drop_valid": null,
-      "pipeline_rev": null,
+      "mw_insar": null,
       "links": {
         "report": "events/us70005alm/REPORT.html",
-        "solution": "events/us70005alm/solution.json"
+        "solution": null
       }
     },
     {
@@ -12352,6 +12579,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70005drn/REPORT.html",
@@ -12408,6 +12637,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70005ge3/REPORT.html",
@@ -12464,6 +12695,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70005lg7/REPORT.html",
@@ -12527,6 +12760,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70005ulm/REPORT.html",
@@ -12583,6 +12818,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70005xa1/REPORT.html",
@@ -12631,7 +12868,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T08:01:06Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 15,
       "multievent_max_mw": 6.6,
       "multievent_sep": "separable",
@@ -12646,6 +12883,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us700061e9/REPORT.html",
@@ -12699,6 +12938,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us700069f4/REPORT.html",
@@ -12761,6 +13002,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70006a4q/REPORT.html",
@@ -12824,6 +13067,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70006ara/REPORT.html",
@@ -12887,6 +13132,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70006d0m/REPORT.html",
@@ -12935,7 +13182,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-02T05:18:56Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 4,
       "multievent_max_mw": 5.7,
       "multievent_sep": "separable",
@@ -12950,6 +13197,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70006qnn/REPORT.html",
@@ -12999,7 +13248,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T13:59:15Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -13012,6 +13261,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70006sj8/REPORT.html",
@@ -13072,6 +13323,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70006vkq/REPORT.html",
@@ -13128,6 +13381,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70006vm9/REPORT.html",
@@ -13175,7 +13430,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-08T04:48:59Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -13188,6 +13443,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70006wuf/REPORT.html",
@@ -13235,7 +13492,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:35Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -13248,6 +13505,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us700070sc/REPORT.html",
@@ -13298,7 +13557,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T23:49:37Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 6,
       "multievent_sep": "separable",
@@ -13313,6 +13572,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70007v29/REPORT.html",
@@ -13363,7 +13624,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T07:51:09Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.8,
       "multievent_sep": "separable",
@@ -13378,6 +13639,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70007v9g/REPORT.html",
@@ -13440,6 +13703,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70008cld/REPORT.html",
@@ -13493,6 +13758,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70008hvb/REPORT.html",
@@ -13544,6 +13811,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70008kd8/REPORT.html",
@@ -13597,6 +13866,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70008l5g/REPORT.html",
@@ -13659,6 +13930,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us70008xhp/REPORT.html",
@@ -13707,7 +13980,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-18T16:21:19Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5,
       "multievent_sep": "single",
@@ -13722,6 +13995,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000abmk/REPORT.html",
@@ -13775,6 +14050,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000apd0/REPORT.html",
@@ -13828,6 +14105,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000bfq3/REPORT.html",
@@ -13890,6 +14169,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000bg4v/REPORT.html",
@@ -13950,6 +14231,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000biqb/REPORT.html",
@@ -14006,6 +14289,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000bql2/REPORT.html",
@@ -14068,6 +14353,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000c6p3/REPORT.html",
@@ -14117,7 +14404,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T20:17:46Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -14130,6 +14417,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000ckx5/REPORT.html",
@@ -14181,6 +14470,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000d0gn/REPORT.html",
@@ -14244,6 +14535,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000d18q/REPORT.html",
@@ -14292,7 +14585,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T18:19:28Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 6,
       "multievent_max_mw": 5.8,
       "multievent_sep": "single",
@@ -14307,6 +14600,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000df40/REPORT.html",
@@ -14363,6 +14658,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000dia5/REPORT.html",
@@ -14411,7 +14708,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-06T21:19:28Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5,
       "multievent_sep": "single",
@@ -14426,6 +14723,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000dkv0/REPORT.html",
@@ -14479,6 +14778,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000dl4v/REPORT.html",
@@ -14530,6 +14831,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000e2bt/REPORT.html",
@@ -14578,7 +14881,7 @@
       "escalation_reason": "gbis_catalog_mw_disagreement_needs_review",
       "pipeline_run_utc": "2026-05-25T23:49:05Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.3,
       "multievent_sep": "separable",
@@ -14593,6 +14896,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000e3n6/REPORT.html",
@@ -14658,6 +14963,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000e532/REPORT.html",
@@ -14714,6 +15021,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000ecyk/REPORT.html",
@@ -14767,6 +15076,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000ef1g/REPORT.html",
@@ -14818,6 +15129,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000f3w2/REPORT.html",
@@ -14871,6 +15184,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000f57q/REPORT.html",
@@ -14933,6 +15248,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000f6uy/REPORT.html",
@@ -14984,6 +15301,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000fbky/REPORT.html",
@@ -15046,6 +15365,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000fd9v/REPORT.html",
@@ -15099,6 +15420,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000fq2q/REPORT.html",
@@ -15147,7 +15470,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T22:08:31Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.2,
       "multievent_sep": "single",
@@ -15162,6 +15485,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000fu12/REPORT.html",
@@ -15213,6 +15538,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000fvfl/REPORT.html",
@@ -15276,6 +15603,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000g9zq/REPORT.html",
@@ -15338,6 +15667,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000gaex/REPORT.html",
@@ -15394,6 +15725,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000gjy1/REPORT.html",
@@ -15450,6 +15783,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000gmmb/REPORT.html",
@@ -15506,6 +15841,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000gmnq/REPORT.html",
@@ -15571,6 +15908,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000gx8m/REPORT.html",
@@ -15627,6 +15966,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000gzcf/REPORT.html",
@@ -15692,6 +16033,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000he1h/REPORT.html",
@@ -15745,6 +16088,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000hfu0/REPORT.html",
@@ -15810,6 +16155,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000hg9p/REPORT.html",
@@ -15872,6 +16219,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000htbb/REPORT.html",
@@ -15932,6 +16281,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000i59t/REPORT.html",
@@ -15997,6 +16348,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000il1g/REPORT.html",
@@ -16062,6 +16415,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000il35/REPORT.html",
@@ -16124,6 +16479,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000imgl/REPORT.html",
@@ -16189,6 +16546,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000incn/REPORT.html",
@@ -16242,6 +16601,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000infp/REPORT.html",
@@ -16304,6 +16665,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000ipe4/REPORT.html",
@@ -16366,6 +16729,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000ir9t/REPORT.html",
@@ -16431,6 +16796,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000j56z/REPORT.html",
@@ -16496,6 +16863,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000jhtd/REPORT.html",
@@ -16561,6 +16930,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000jhuv/REPORT.html",
@@ -16610,7 +16981,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T09:12:08Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -16623,6 +16994,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000jm0r/REPORT.html",
@@ -16673,7 +17046,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T10:58:00Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 1,
       "multievent_max_mw": 5.2,
       "multievent_sep": "single",
@@ -16688,6 +17061,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000jmbi/REPORT.html",
@@ -16751,6 +17126,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000k9jv/REPORT.html",
@@ -16816,6 +17193,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000kp2j/REPORT.html",
@@ -16881,6 +17260,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000kre0/REPORT.html",
@@ -16937,6 +17318,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000kub5/REPORT.html",
@@ -16993,6 +17376,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000kubt/REPORT.html",
@@ -17055,6 +17440,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000kulj/REPORT.html",
@@ -17117,6 +17504,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000l76s/REPORT.html",
@@ -17170,6 +17559,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000l89a/REPORT.html",
@@ -17226,6 +17617,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000l8p5/REPORT.html",
@@ -17288,6 +17681,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000lhwv/REPORT.html",
@@ -17344,6 +17739,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000ll6h/REPORT.html",
@@ -17407,6 +17804,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000lsze/REPORT.html",
@@ -17460,6 +17859,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000ltpz/REPORT.html",
@@ -17525,6 +17926,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000luuy/REPORT.html",
@@ -17587,6 +17990,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000lz23/REPORT.html",
@@ -17637,7 +18042,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-26T22:00:13Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 2,
       "multievent_max_mw": 5.4,
       "multievent_sep": "separable",
@@ -17652,6 +18057,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000m3ur/REPORT.html",
@@ -17708,6 +18115,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000maw0/REPORT.html",
@@ -17770,6 +18179,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000mpe2/REPORT.html",
@@ -17832,6 +18243,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000mppu/REPORT.html",
@@ -17894,6 +18307,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000nu90/REPORT.html",
@@ -17945,6 +18360,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000nx79/REPORT.html",
@@ -17994,7 +18411,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-12T00:50:44Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -18007,6 +18424,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000pdu6/REPORT.html",
@@ -18070,6 +18489,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000pn9z/REPORT.html",
@@ -18118,7 +18539,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-25T23:42:34Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 5,
       "multievent_max_mw": 5.3,
       "multievent_sep": "single",
@@ -18133,6 +18554,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000qsvj/REPORT.html",
@@ -18183,7 +18606,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-06-07T19:01:35Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent_n": 6,
       "multievent_max_mw": 6,
       "multievent_sep": "separable",
@@ -18198,6 +18621,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000qtst/REPORT.html",
@@ -18245,7 +18670,7 @@
       "escalation_reason": null,
       "pipeline_run_utc": "2026-05-29T01:07:45Z",
       "stale": false,
-      "stacking": true,
+      "stacking": false,
       "multievent": null,
       "has_v2": true,
       "has_report": true,
@@ -18258,6 +18683,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/us7000rm3k/REPORT.html",
@@ -18266,26 +18693,26 @@
     },
     {
       "event_id": "us7000st95",
-      "place": "43 km ESE of Palu, Indonesia",
+      "place": "42 km SE of Palu, Indonesia",
       "origin_utc": "2026-06-16T03:27:44Z",
-      "epi_lat": -1.1173,
-      "epi_lon": 120.199,
-      "depth_km": 10.0,
+      "epi_lat": -1.1245,
+      "epi_lon": 120.1842,
+      "depth_km": 11.0,
       "Mw": 6.7,
       "Mw_type": "Mww",
       "faulting_class": "normal",
       "magnitude_band": "6p5_to_7",
       "data_used": [
         {
-          "track": "t112_asc",
-          "orbit_dir": "",
+          "track": 112,
+          "orbit_dir": "asc",
           "pair_dates": [
-            null,
-            null
+            "20260607",
+            "20260619"
           ],
-          "backend": "monitor_s1ot",
-          "median_coh": 0.0,
-          "status": "ok"
+          "backend": "s1ot_single",
+          "median_coh": 0.335,
+          "status": ""
         }
       ],
       "n_tracks": 1,
@@ -18295,11 +18722,11 @@
       "multievent": "minor",
       "result": {
         "fmech": {
-          "strike": 13.6,
-          "dip": 43.4,
-          "rake": 178.8
+          "strike": 26.5,
+          "dip": 15.2,
+          "rake": 170.2
         },
-        "Mw_post": 6.37
+        "Mw_post": 5.98
       },
       "diagnostics": {
         "zone": "YELLOW",
@@ -18310,20 +18737,22 @@
       "pipeline_run_utc": null,
       "stale": false,
       "stacking": false,
-      "multievent_n": 1,
-      "multievent_max_mw": 5.1,
+      "multievent_n": 3,
+      "multievent_max_mw": 5.2,
       "multievent_sep": "single",
       "has_v2": true,
       "has_report": true,
       "zone": "YELLOW",
-      "vr": 0.515,
-      "mw_insar": 6.37,
-      "n_railed": 0,
-      "centroid_depth_km": 7.16,
-      "centroid_depth_sigma_km": 0.82,
-      "stress_drop_mpa": 0.624,
-      "stress_drop_sigma_mpa": 0.129,
+      "vr": 0.683,
+      "mw_insar": 5.98,
+      "n_railed": 1,
+      "centroid_depth_km": 2.88,
+      "centroid_depth_sigma_km": 0.72,
+      "stress_drop_mpa": 0.554,
+      "stress_drop_sigma_mpa": 0.128,
       "stress_drop_valid": true,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": "4.0.0",
       "links": {
         "report": "events/us7000st95/REPORT.html",
@@ -18339,30 +18768,30 @@
       "depth_km": 10.0,
       "Mw": 6.3,
       "Mw_type": "Mww",
-      "faulting_class": "oblique",
+      "faulting_class": "reverse",
       "magnitude_band": "5p5_to_6p5",
       "data_used": [
         {
-          "track": "t172_asc",
-          "orbit_dir": "",
+          "track": 172,
+          "orbit_dir": "asc",
           "pair_dates": [
-            null,
-            null
+            "20260611",
+            "20260623"
           ],
-          "backend": "monitor_s1ot",
-          "median_coh": 0.0,
-          "status": "ok"
+          "backend": "s1ot_single",
+          "median_coh": 0.614,
+          "status": ""
         },
         {
-          "track": "t77_dsc",
-          "orbit_dir": "",
+          "track": 77,
+          "orbit_dir": "des",
           "pair_dates": [
-            null,
-            null
+            "20260604",
+            "20260616"
           ],
-          "backend": "monitor_s1ot",
-          "median_coh": 0.0,
-          "status": "ok"
+          "backend": "s1ot_single",
+          "median_coh": 0.478,
+          "status": ""
         }
       ],
       "n_tracks": 2,
@@ -18372,11 +18801,11 @@
       "multievent": "minor",
       "result": {
         "fmech": {
-          "strike": 279.5,
-          "dip": 38.6,
-          "rake": 43.8
+          "strike": 279.9,
+          "dip": 32.7,
+          "rake": 47.2
         },
-        "Mw_post": 6.2
+        "Mw_post": 6.18
       },
       "diagnostics": {
         "zone": "GREEN",
@@ -18393,18 +18822,215 @@
       "has_v2": true,
       "has_report": true,
       "zone": "GREEN",
-      "vr": 0.882,
-      "mw_insar": 6.2,
+      "vr": 0.866,
+      "mw_insar": 6.18,
       "n_railed": 1,
-      "centroid_depth_km": 4.73,
-      "centroid_depth_sigma_km": 0.03,
-      "stress_drop_mpa": 7.12,
-      "stress_drop_sigma_mpa": 0.05,
+      "centroid_depth_km": 4.4,
+      "centroid_depth_sigma_km": 0.04,
+      "stress_drop_mpa": 6.532,
+      "stress_drop_sigma_mpa": 0.065,
       "stress_drop_valid": false,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": "4.0.0",
       "links": {
         "report": "events/us7000stbz/REPORT.html",
         "solution": "events/us7000stbz/solution.json"
+      }
+    },
+    {
+      "event_id": "us7000t1q7",
+      "place": "4 km SSW of Chupaca, Peru",
+      "origin_utc": "2026-07-19T02:24:35Z",
+      "epi_lat": -12.1036,
+      "epi_lon": -75.3034,
+      "depth_km": 10.0,
+      "Mw": 5.5,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": "t9075_asc",
+          "orbit_dir": "",
+          "pair_dates": [
+            null,
+            null
+          ],
+          "backend": "nisar_gunw",
+          "median_coh": 0.679,
+          "status": "ok"
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 112.4,
+          "dip": 77.8,
+          "rake": -143.1
+        },
+        "Mw_post": 6.18
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.435,
+      "mw_insar": 6.18,
+      "n_railed": 0,
+      "centroid_depth_km": 25.83,
+      "centroid_depth_sigma_km": 5.68,
+      "stress_drop_mpa": 8.272,
+      "stress_drop_sigma_mpa": 4.465,
+      "stress_drop_valid": true,
+      "signal_ratio": 2.51,
+      "noise_dominated": false,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us7000t1q7/REPORT.html",
+        "solution": "events/us7000t1q7/solution.json"
+      }
+    },
+    {
+      "event_id": "us7000t2nb",
+      "place": "38 km SSE of Spearman, Texas",
+      "origin_utc": "2026-07-23T10:21:43Z",
+      "epi_lat": 35.902,
+      "epi_lon": -100.976,
+      "depth_km": 5.6885,
+      "Mw": 5.0,
+      "Mw_type": "Mwr",
+      "faulting_class": "normal",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [
+        {
+          "track": 5,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "20260706",
+            "20260730"
+          ],
+          "backend": "s1ot_single",
+          "median_coh": 0.541,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 220.1,
+          "dip": 59.9,
+          "rake": -73.3
+        },
+        "Mw_post": 5.64
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.631,
+      "mw_insar": 5.64,
+      "n_railed": 0,
+      "centroid_depth_km": 10.09,
+      "centroid_depth_sigma_km": 0.83,
+      "stress_drop_mpa": 8.349,
+      "stress_drop_sigma_mpa": 1.327,
+      "stress_drop_valid": true,
+      "signal_ratio": 21.78,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us7000t2nb/REPORT.html",
+        "solution": "events/us7000t2nb/solution.json"
+      }
+    },
+    {
+      "event_id": "us7000t34g",
+      "place": "49 km W of Turangi, New Zealand",
+      "origin_utc": "2026-07-24T16:51:37Z",
+      "epi_lat": -38.9621,
+      "epi_lon": 175.2332,
+      "depth_km": 10.0,
+      "Mw": 5.7,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "5p5_to_6p5",
+      "data_used": [
+        {
+          "track": 73,
+          "orbit_dir": "des",
+          "pair_dates": [
+            "20260710",
+            "20260803"
+          ],
+          "backend": "s1ot_single",
+          "median_coh": 0.366,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 278.8,
+          "dip": 79.4,
+          "rake": -162.7
+        },
+        "Mw_post": 5.81
+      },
+      "diagnostics": {
+        "zone": "GREEN",
+        "source": "quality_v2"
+      },
+      "status": "done",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "GREEN",
+      "vr": 0.866,
+      "mw_insar": 5.81,
+      "n_railed": 1,
+      "centroid_depth_km": 6.69,
+      "centroid_depth_sigma_km": 0.38,
+      "stress_drop_mpa": 3.725,
+      "stress_drop_sigma_mpa": 0.769,
+      "stress_drop_valid": true,
+      "signal_ratio": 3.72,
+      "noise_dominated": false,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us7000t34g/REPORT.html",
+        "solution": "events/us7000t34g/solution.json"
       }
     },
     {
@@ -18463,6 +19089,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/usb000smff/REPORT.html",
@@ -18516,6 +19144,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/usb000sqgd/REPORT.html",
@@ -18581,6 +19211,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/usb000syy0/REPORT.html",
@@ -18646,6 +19278,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/usb000szw2/REPORT.html",
@@ -18699,6 +19333,8 @@
       "stress_drop_mpa": null,
       "stress_drop_sigma_mpa": null,
       "stress_drop_valid": null,
+      "signal_ratio": null,
+      "noise_dominated": null,
       "pipeline_rev": null,
       "links": {
         "report": "events/uu60363602/REPORT.html",
