@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-09T09:37:02Z",
+  "generated_utc": "2026-08-09T11:22:02Z",
   "n_pending": 17,
   "events": [
     {
@@ -23,7 +23,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-08-09T09:35:04Z",
+      "next_check_utc": "2026-08-09T11:35:05Z",
       "expected_max_los_cm": 4.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026powmkf",
       "escalation_reason": null,
@@ -223,26 +223,6 @@
       "magnitude_band": "",
       "data_used": [
         {
-          "track": 26,
-          "orbit_dir": "asc",
-          "pair_dates": [
-            "20260719",
-            "20260731"
-          ],
-          "median_coh": 0.603,
-          "status": ""
-        },
-        {
-          "track": 99,
-          "orbit_dir": "asc",
-          "pair_dates": [
-            "20260724",
-            "20260805"
-          ],
-          "median_coh": 0.62,
-          "status": ""
-        },
-        {
           "track": 33,
           "orbit_dir": "des",
           "pair_dates": [
@@ -253,7 +233,7 @@
           "status": ""
         }
       ],
-      "n_tracks": 3,
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -261,7 +241,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "downloaded",
-      "next_check_utc": "2026-08-09T10:55:08Z",
+      "next_check_utc": "2026-08-10T11:00:07Z",
       "expected_max_los_cm": 5.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tga6",
       "escalation_reason": null,
