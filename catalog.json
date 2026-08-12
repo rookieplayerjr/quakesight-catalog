@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-09T17:39:30Z",
+  "generated_utc": "2026-08-12T15:29:07Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 316,
+  "n_events": 317,
   "events": [
     {
       "event_id": "ak01649w95tp",
@@ -12129,12 +12129,80 @@
       "stress_drop_mpa": 3.162,
       "stress_drop_sigma_mpa": 0.377,
       "stress_drop_valid": false,
-      "signal_ratio": null,
-      "noise_dominated": null,
+      "signal_ratio": 1.34,
+      "noise_dominated": false,
       "pipeline_rev": "4.0.0",
       "links": {
         "report": "events/us6000tgb9/REPORT.html",
         "solution": "events/us6000tgb9/solution.json"
+      }
+    },
+    {
+      "event_id": "us6000tgmx",
+      "place": "11 km N of Tsunagi, Japan",
+      "origin_utc": "2026-07-29T13:19:36Z",
+      "epi_lat": 32.34,
+      "epi_lon": 130.4881,
+      "depth_km": 10.0,
+      "Mw": 5.4,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "des",
+          "pair_dates": [
+            "20260728",
+            "20260809"
+          ],
+          "backend": "s1ot_single",
+          "median_coh": 0.372,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": true,
+      "sequence_n_significant": 1,
+      "multievent": "severe",
+      "result": {
+        "fmech": {
+          "strike": 136.0,
+          "dip": 4.4,
+          "rake": 19.0
+        },
+        "Mw_post": 6.61
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": false,
+      "multievent_n": 1,
+      "multievent_max_mw": 5.6,
+      "multievent_sep": "separable",
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.77,
+      "mw_insar": 6.61,
+      "n_railed": 0,
+      "centroid_depth_km": 27.74,
+      "centroid_depth_sigma_km": 1.44,
+      "stress_drop_mpa": 20.91,
+      "stress_drop_sigma_mpa": 2.803,
+      "stress_drop_valid": true,
+      "signal_ratio": 28.11,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us6000tgmx/REPORT.html",
+        "solution": "events/us6000tgmx/solution.json"
       }
     },
     {
