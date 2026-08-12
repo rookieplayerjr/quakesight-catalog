@@ -2,7 +2,7 @@ event_id,origin_utc,epi_lat,epi_lon,depth_km,Mw,mw_insar,vr,zone,status,faulting
 ak01649w95tp,2016-04-02T05:50:00Z,57.008,-157.9322,11.4,6.2,6.09,0.857,GREEN,done,reverse,196.8,0.1,155.1,,,,,,,,1,False,,False,,"42 km E of Port Heiden, Alaska",events/ak01649w95tp/REPORT.html
 ak019g6hzf53,2019-12-18T21:52:04Z,58.5347,-137.6983,2.0,5.1,5.9,0.695,YELLOW,done,strike-slip,314.0,43.5,-45.0,,,,,,,,1,False,,False,,"87 km WNW of Elfin Cove, Alaska",events/ak019g6hzf53/REPORT.html
 ci38385946,2020-03-07T03:52:03Z,31.6893333,-114.5405,9.98,5.49,6.24,0.746,RED,partial,strike-slip,55.2,0.1,135.0,,,,,,,,2,False,,False,,"71km SE of Estacion Coahuila, B.C., MX",events/ci38385946/REPORT.html
-ci38443183,2019-07-04T17:33:49Z,35.7053333,-117.5038333,10.5,6.4,6.82,0.637,YELLOW,done,strike-slip,329.3,44.2,-173.5,,,,,,,,1,False,severe,True,,Ridgecrest Earthquake Sequence,events/ci38443183/REPORT.html
+ci38443183,2019-07-04T17:33:49Z,35.7053333,-117.5038333,10.5,6.4,6.82,0.637,YELLOW,done,strike-slip,329.3,44.2,-173.5,,,,,,,,1,True,severe,True,,Ridgecrest Earthquake Sequence,events/ci38443183/REPORT.html
 ci39645386,2023-08-20T21:41:00Z,34.4085,-119.1883333,4.84,5.08,5.77,0.992,YELLOW,done,strike-slip,17.3,33.3,16.9,,,,,,,,1,False,,False,,"7 km SE of Ojai, CA",events/ci39645386/REPORT.html
 ci39919392,2021-06-05T17:55:58Z,33.14,-115.6348333,5.78,5.25,6.59,0.996,RED,partial,strike-slip,92.2,20.9,149.8,,,,,,,,2,False,,False,,"11km W of Calipatria, CA",events/ci39919392/REPORT.html
 hv61792931,2017-06-08T17:01:19Z,19.33,-155.1206667,6.47,5.28,6.64,0.76,RED,partial,oblique,241.9,70.4,-45.0,,,,,,,,1,False,,False,,"15 km S of Fern Forest, Hawaii",events/hv61792931/REPORT.html
@@ -10,10 +10,10 @@ hv70863117,2019-03-13T10:55:13Z,19.3258333,-155.2005,6.97,5.54,6.34,0.877,RED,pa
 nc73584926,2021-07-08T22:49:48Z,38.5075,-119.4998333,7.45,6.0,5.91,0.794,GREEN,done,oblique,338.8,33.6,-114.5,,,,,,,,4,False,,False,,"Antelope Valley, CA",events/nc73584926/REPORT.html
 nc73821036,2022-12-20T10:34:24Z,40.525,-124.423,17.91,6.4,6.78,0.41,RED,escalated,strike-slip,3.5,70.1,96.4,,,,,,,,3,False,,False,,"15km WSW of Ferndale, CA",events/nc73821036/REPORT.html
 nn00570709,2016-12-28T08:18:00Z,38.3755,-118.8989,11.3,5.6,5.98,0.863,GREEN,done,strike-slip,286.9,63.4,-177.9,,,,,,,,1,False,severe,False,,"29 km SW of Hawthorne, Nevada",events/nn00570709/REPORT.html
-nn00725272,2020-05-15T11:03:27Z,38.1689,-117.8497,2.7,6.5,6.28,0.841,GREEN,done,strike-slip,38.6,20.7,-72.4,,,,,,,,3,False,minor,False,,"Monte Cristo Range, NV Earthquake",events/nn00725272/REPORT.html
+nn00725272,2020-05-15T11:03:27Z,38.1689,-117.8497,2.7,6.5,6.28,0.841,GREEN,done,strike-slip,38.6,20.7,-72.4,,,,,,,,3,True,minor,False,,"Monte Cristo Range, NV Earthquake",events/nn00725272/REPORT.html
 nn00782942,2020-11-13T09:13:51Z,38.1693,-117.8533,4.8,5.3,5.88,0.86,YELLOW,done,strike-slip,127.4,18.6,174.4,,,,,,,,1,False,,False,,"33 km SE of Mina, Nevada",events/nn00782942/REPORT.html
-nn00888580,2024-12-09T23:08:31Z,39.1675,-119.0238,8.0,5.71,5.61,0.968,GREEN,done,strike-slip,67.3,42.7,-7.7,,,,,,,,1,False,,False,,"2024 Parker Butte, Nevada Earthquake",events/nn00888580/REPORT.html
-nn00914068,2026-04-14T01:29:12Z,39.3345,-119.0075,5.0,5.68,5.86,0.918,GREEN,done,strike-slip,241.3,89.4,-12.9,,,,,,,,1,False,minor,False,,"20 km ESE of Silver Springs, Nevada",events/nn00914068/REPORT.html
+nn00888580,2024-12-09T23:08:31Z,39.1675,-119.0238,8.0,5.71,5.61,0.968,GREEN,done,strike-slip,67.3,42.7,-7.7,,,,,,,,1,True,,False,,"2024 Parker Butte, Nevada Earthquake",events/nn00888580/REPORT.html
+nn00914068,2026-04-14T01:29:12Z,39.3345,-119.0075,5.0,5.68,5.86,0.918,GREEN,done,strike-slip,241.3,89.4,-12.9,,,,,,,,1,True,minor,False,,"20 km ESE of Silver Springs, Nevada",events/nn00914068/REPORT.html
 pr2020006006,2020-01-06T10:32:18Z,17.8675,-66.8193,6.0,5.8,6.36,0.94,YELLOW,done,strike-slip,189.3,37.6,32.8,,,,,,,,1,False,severe,True,,"14 km S of Indios, Puerto Rico",events/pr2020006006/REPORT.html
 pr2020007007,2020-01-07T08:24:27Z,17.9578,-66.8113,6.0,6.4,6.74,0.913,GREEN,done,oblique,64.4,72.9,5.5,,,,,,,,1,False,minor,False,,"4 km SSE of Indios, Puerto Rico",events/pr2020007007/REPORT.html
 pr2020007010,2020-01-07T11:18:43Z,18.0223,-66.776,9.0,5.6,6.4,0.697,YELLOW,done,strike-slip,174.2,0.1,135.0,,,,,,,,1,False,severe,True,,"0 km NW of Magas Arriba, Puerto Rico",events/pr2020007010/REPORT.html
@@ -30,17 +30,17 @@ us100042v4,2015-12-02T23:27:09Z,39.2826,40.2553,10.0,5.4,6.66,0.961,RED,partial,
 us1000454p,2015-12-08T12:56:07Z,-30.8096,-71.7519,25.0,5.6,6.15,0.87,RED,partial,reverse,116.7,35.9,45.0,,,,,,,,1,False,,False,,"57 km WSW of Ovalle, Chile",events/us1000454p/REPORT.html
 us10004fv5,2016-01-20T17:13:13Z,37.6709,101.6409,9.0,5.9,6.61,0.98,YELLOW,done,reverse,42.5,2.1,125.9,,,,,,,,1,False,minor,False,,"91 km WSW of Wuwei, China",events/us10004fv5/REPORT.html
 us10004gy9,2016-01-25T04:22:02Z,35.6493,-3.6818,12.0,6.3,7.1,0.713,YELLOW,done,strike-slip,276.7,38.1,45.0,,,,,,,,1,False,minor,False,,"49 km NNE of Al Hoceïma, Morocco",events/us10004gy9/REPORT.html
-us10005j6b,2016-05-22T01:48:48Z,28.4538,87.5326,9.36,5.4,5.64,0.781,GREEN,done,normal,350.4,70.6,-88.7,,,,,,,,2,False,minor,False,,"89 km NE of Lobujya, Nepal",events/us10005j6b/REPORT.html
-us10006g7d,2016-08-24T01:36:32Z,42.723,13.1877,4.44,6.2,6.46,0.97,GREEN,done,normal,336.6,43.7,5.9,,,,,,,,1,False,minor,False,,"5 km WNW of Accumoli, Italy",events/us10006g7d/REPORT.html
-us1000725y,2016-10-26T19:18:08Z,42.9564,13.0666,10.0,6.1,6.6,0.976,YELLOW,done,normal,200.9,78.6,-42.1,,,,,,,,1,False,severe,True,,"2 km NNW of Visso, Italy",events/us1000725y/REPORT.html
+us10005j6b,2016-05-22T01:48:48Z,28.4538,87.5326,9.36,5.4,5.64,0.781,GREEN,done,normal,350.4,70.6,-88.7,,,,,,,,2,True,minor,False,,"89 km NE of Lobujya, Nepal",events/us10005j6b/REPORT.html
+us10006g7d,2016-08-24T01:36:32Z,42.723,13.1877,4.44,6.2,6.46,0.97,GREEN,done,normal,336.6,43.7,5.9,,,,,,,,1,True,minor,False,,"5 km WNW of Accumoli, Italy",events/us10006g7d/REPORT.html
+us1000725y,2016-10-26T19:18:08Z,42.9564,13.0666,10.0,6.1,6.6,0.976,YELLOW,done,normal,200.9,78.6,-42.1,,,,,,,,1,True,severe,True,,"2 km NNW of Visso, Italy",events/us1000725y/REPORT.html
 us1000780y,2016-11-15T01:34:44Z,-41.7875,174.3064,10.0,5.5,,,RED,escalated,strike-slip,279.6,67.0,-135.0,,,,,,,,0,False,severe,False,,"42 km SE of Blenheim, New Zealand",events/us1000780y/REPORT.html
 us10007twj,2017-01-18T10:14:10Z,42.6012,13.2268,7.0,5.7,5.89,0.726,GREEN,done,normal,333.0,61.8,-150.4,,,,,,,,1,False,severe,False,,"5 km ESE of Cittareale, Italy",events/us10007twj/REPORT.html
 us10007twn,2017-01-18T10:25:25Z,42.5855,13.1904,10.0,5.6,5.82,0.858,GREEN,done,normal,183.3,36.9,116.9,,,,,,,,1,False,severe,False,,"4 km SE of Cittareale, Italy",events/us10007twn/REPORT.html
 us10007wew,2017-01-31T14:22:38Z,0.702,-79.6769,10.0,5.5,,,RED,escalated,reverse,307.4,75.0,135.0,,,,,,,,0,False,,False,,"28 km S of Esmeraldas, Ecuador",events/us10007wew/REPORT.html
 us100086gw,2017-03-02T11:07:26Z,37.616,38.4305,10.0,5.6,6.19,0.997,RED,partial,strike-slip,298.8,16.2,-45.0,,,,,,,,1,False,,False,,"5 km NW of Samsat, Turkey",events/us100086gw/REPORT.html
-us10008e3k,2017-04-03T17:40:18Z,-22.6784,25.1558,29.0,6.5,6.39,0.993,GREEN,done,normal,303.4,21.9,-163.5,,,,,,,,1,False,minor,False,,"132 km WSW of Moijabana, Botswana",events/us10008e3k/REPORT.html
+us10008e3k,2017-04-03T17:40:18Z,-22.6784,25.1558,29.0,6.5,6.39,0.993,GREEN,done,normal,303.4,21.9,-163.5,,,,,,,,1,True,minor,False,,"132 km WSW of Moijabana, Botswana",events/us10008e3k/REPORT.html
 us10008h1u,2017-04-12T20:01:05Z,7.7228,124.8623,10.0,5.5,5.98,1.0,GREEN,done,strike-slip,274.4,60.7,45.0,,,,,,,,2,False,severe,False,,"9 km S of Adtugan, Philippines",events/us10008h1u/REPORT.html
-us10008m7l,2017-04-30T13:29:10Z,-15.7425,-71.8941,10.0,5.1,5.3,0.695,YELLOW,done,oblique,282.6,11.3,-104.6,,,,,,,,1,False,,False,,"17 km SW of Maca, Peru",events/us10008m7l/REPORT.html
+us10008m7l,2017-04-30T13:29:10Z,-15.7425,-71.8941,10.0,5.1,5.3,0.695,YELLOW,done,oblique,282.6,11.3,-104.6,,,,,,,,1,True,,False,,"17 km SW of Maca, Peru",events/us10008m7l/REPORT.html
 us10008rah,2017-05-10T21:58:21Z,37.6433,75.3098,7.62,5.4,,,,done,normal,156.1,65.3,-119.4,,,,,,,,0,False,minor,False,,"131 km ESE of Murghob, Tajikistan",events/us10008rah/REPORT.html
 us10008ssf,2017-05-16T17:09:05Z,-14.5332,-73.4098,10.0,5.4,6.19,0.75,RED,partial,strike-slip,149.6,0.1,-135.0,,,,,,,,1,False,,False,,"25 km WSW of Cotaruse, Peru",events/us10008ssf/REPORT.html
 us100098gc,2017-07-10T01:41:48Z,10.9893,124.784,7.1,5.8,6.51,0.953,YELLOW,done,strike-slip,45.9,15.1,45.0,,,,,,,,1,False,severe,True,,"5 km NW of San Pedro, Philippines",events/us100098gc/REPORT.html
@@ -84,7 +84,7 @@ us2000czig,2018-02-09T14:05:48Z,18.9311,-104.6522,13.0,5.8,6.22,0.904,GREEN,done
 us2000dwh6,2018-04-08T16:32:31Z,35.2588,132.5528,10.34,5.7,6.29,0.318,RED,escalated,strike-slip,248.8,23.7,135.0,,,,,,,,2,False,,False,,"8 km NNE of ?dach?-?da, Japan",events/us2000dwh6/REPORT.html
 us2000frwr,2018-06-30T03:56:49Z,19.0222,-105.119,15.0,5.9,7.74,0.988,RED,escalated,strike-slip,300.7,0.1,-135.0,,,,,,,,1,False,,False,,"43 km SSW of Emiliano Zapata, Mexico",events/us2000frwr/REPORT.html
 us2000gb1e,2018-07-22T05:07:02Z,27.6631,54.8786,8.0,5.4,6.2,0.825,RED,partial,reverse,89.5,0.1,-45.0,,,,,,,,3,False,,False,,"73 km E of Ger?sh, Iran",events/us2000gb1e/REPORT.html
-us2000gb4d,2018-07-22T10:07:27Z,34.5909,46.1661,12.0,5.8,5.98,0.741,GREEN,done,strike-slip,253.5,86.8,1.6,,,,,,,,3,False,,False,,"31 km ENE of Sarpol-e Z?ah?b, Iran",events/us2000gb4d/REPORT.html
+us2000gb4d,2018-07-22T10:07:27Z,34.5909,46.1661,12.0,5.8,5.98,0.741,GREEN,done,strike-slip,253.5,86.8,1.6,,,,,,,,3,True,,False,,"31 km ENE of Sarpol-e Z?ah?b, Iran",events/us2000gb4d/REPORT.html
 us2000gi03,2018-07-31T08:42:20Z,37.1788,141.0967,10.9,5.5,6.28,0.864,RED,escalated,normal,267.6,0.1,135.0,,,,,,,,2,False,,False,,"23 km NE of Iwaki, Japan",events/us2000gi03/REPORT.html
 us2000ha5b,2018-09-07T06:23:38Z,28.3261,59.3199,10.0,5.6,6.37,0.945,RED,partial,strike-slip,222.7,29.7,129.6,,,,,,,,2,False,,False,,"127 km SE of Bam, Iran",events/us2000ha5b/REPORT.html
 us2000i6sc,2018-11-04T19:26:03Z,44.5478,145.6552,9.0,5.9,6.7,0.945,RED,escalated,reverse,102.2,0.7,-135.0,,,,,,,,1,False,minor,False,,"55 km NNW of Otrada, Russia",events/us2000i6sc/REPORT.html
@@ -102,14 +102,14 @@ us60005lrf,2019-09-21T14:04:25Z,41.3375,19.5303,20.0,5.6,6.73,0.303,RED,escalate
 us60005mqp,2019-09-24T11:01:54Z,33.0779,73.7936,10.0,5.4,6.15,0.992,YELLOW,done,strike-slip,243.1,33.3,45.0,,,,,,,,2,False,,False,,"8 km SSE of New Mirpur, Pakistan",events/us60005mqp/REPORT.html
 us6000645n,2019-10-29T01:04:43Z,6.7567,125.0082,15.0,6.6,6.47,0.64,YELLOW,done,strike-slip,221.0,72.9,-170.0,,,,,,,,2,False,severe,True,,"10 km NE of Columbio, Philippines",events/us6000645n/REPORT.html
 us60006470,2019-10-29T02:42:38Z,6.8659,124.9846,10.0,5.9,6.66,0.16,RED,escalated,strike-slip,312.0,54.3,-54.1,,,,,,,,2,False,severe,True,,"8 km E of Bagontapay, Philippines",events/us60006470/REPORT.html
-us600068w0,2019-11-07T22:47:07Z,37.8026,47.5814,20.0,5.9,6.12,0.978,GREEN,done,strike-slip,300.2,89.6,172.0,,,,,,,,1,False,,False,,"59 km NE of Hashtr?d, Iran",events/us600068w0/REPORT.html
+us600068w0,2019-11-07T22:47:07Z,37.8026,47.5814,20.0,5.9,6.12,0.978,GREEN,done,strike-slip,300.2,89.6,172.0,,,,,,,,1,True,,False,,"59 km NE of Hashtr?d, Iran",events/us600068w0/REPORT.html
 us60006rpn,2019-12-15T07:09:20Z,6.5335,125.2599,10.0,5.6,6.23,0.674,RED,escalated,strike-slip,34.3,0.1,135.0,,,,,,,,2,False,severe,True,,"9 km SSE of Kiblawan, Philippines",events/us60006rpn/REPORT.html
-us60007anp,2020-01-19T13:27:56Z,39.8353,77.1084,5.55,6.0,5.93,0.955,GREEN,done,reverse,273.0,11.8,90.6,,,,,,,,1,False,minor,False,,"104 km ENE of Kashgar, China",events/us60007anp/REPORT.html
+us60007anp,2020-01-19T13:27:56Z,39.8353,77.1084,5.55,6.0,5.93,0.955,GREEN,done,reverse,273.0,11.8,90.6,,,,,,,,1,True,minor,False,,"104 km ENE of Kashgar, China",events/us60007anp/REPORT.html
 us60007ewc,2020-01-24T17:55:14Z,38.4312,39.0609,10.0,6.7,6.85,0.691,YELLOW,done,strike-slip,239.1,72.4,-3.1,,,,,,,,3,False,minor,False,,"13 km N of Do?anyol, Turkey",events/us60007ewc/REPORT.html
 us600087il,2020-03-01T21:19:20Z,11.3585,124.6838,10.0,5.4,6.06,0.574,RED,partial,strike-slip,326.0,0.1,45.0,,,,,,,,2,False,,False,,"6 km NNW of Guindapunan, Philippines",events/us600087il/REPORT.html
-us6000abnv,2020-06-14T14:24:29Z,39.4229,40.7073,10.0,5.9,5.95,0.918,GREEN,done,strike-slip,260.7,81.4,163.9,,,,,,,,3,False,minor,False,,"14 km E of Yedisu, Turkey",events/us6000abnv/REPORT.html
+us6000abnv,2020-06-14T14:24:29Z,39.4229,40.7073,10.0,5.9,5.95,0.918,GREEN,done,strike-slip,260.7,81.4,163.9,,,,,,,,3,True,minor,False,,"14 km E of Yedisu, Turkey",events/us6000abnv/REPORT.html
 us6000ag4u,2020-06-21T22:40:52Z,23.1449,93.2856,10.84,5.6,5.75,0.279,RED,escalated,strike-slip,31.3,27.8,-123.7,,,,,,,,1,False,,False,,"22 km E of North Vanlaiphai, India",events/us6000ag4u/REPORT.html
-us6000b26j,2020-07-22T20:07:19Z,33.1438,86.8637,10.0,6.3,6.3,0.989,GREEN,done,normal,31.5,46.0,-73.3,,,,,,,,2,False,minor,False,,western Xizang,events/us6000b26j/REPORT.html
+us6000b26j,2020-07-22T20:07:19Z,33.1438,86.8637,10.0,6.3,6.3,0.989,GREEN,done,normal,31.5,46.0,-73.3,,,,,,,,2,True,minor,False,,western Xizang,events/us6000b26j/REPORT.html
 us6000b7ai,2020-07-31T06:06:41Z,8.5416,126.5987,28.0,5.7,6.44,0.915,RED,escalated,reverse,293.7,0.1,-126.2,,,,,,,,2,False,,False,,"34 km ENE of Hinatuan, Philippines",events/us6000b7ai/REPORT.html
 us6000b930,2020-08-04T09:37:37Z,38.1878,38.698,10.0,5.6,7.05,0.911,RED,escalated,strike-slip,239.1,73.5,-45.0,,,,,,,,3,False,,False,,"18 km NNE of Sincik, Turkey",events/us6000b930/REPORT.html
 us6000bdg8,2020-08-12T17:13:16Z,-7.3327,39.8126,17.55,6.0,6.62,0.961,YELLOW,done,normal,313.5,87.2,-23.1,,,,,,,,1,False,minor,False,,"66 km NNE of Kilindoni, Tanzania",events/us6000bdg8/REPORT.html
@@ -155,7 +155,7 @@ us6000iwds,2022-10-25T14:59:00Z,17.6609,120.8147,6.0,6.4,7.13,0.947,YELLOW,done,
 us6000j6u0,2022-12-04T09:53:12Z,-1.0138,10.2364,10.0,5.5,5.94,0.075,RED,escalated,normal,232.2,88.7,-170.8,,,,,,,,1,False,,False,,"34 km S of Lambaréné, Gabon",events/us6000j6u0/REPORT.html
 us6000j8lp,2022-12-11T14:31:29Z,17.1801,-100.53,18.0,6.0,7.72,0.985,RED,partial,reverse,90.6,14.6,-94.0,,,,,,,,1,False,,False,,"7 km W of Corral Falso, Mexico",events/us6000j8lp/REPORT.html
 us6000ja1a,2022-12-17T18:06:02Z,31.7958,131.6429,30.0,5.6,7.43,0.219,RED,escalated,reverse,330.4,78.8,124.3,,,,,,,,1,False,,False,,"25 km ESE of Miyazaki, Japan",events/us6000ja1a/REPORT.html
-us6000jbsk,2022-12-26T12:21:07Z,14.5212,40.0211,10.0,5.5,5.67,0.949,GREEN,done,normal,148.0,28.4,-72.5,,,,,,,,2,False,minor,False,,"66 km ENE of ?d?grat, Ethiopia",events/us6000jbsk/REPORT.html
+us6000jbsk,2022-12-26T12:21:07Z,14.5212,40.0211,10.0,5.5,5.67,0.949,GREEN,done,normal,148.0,28.4,-72.5,,,,,,,,2,True,minor,False,,"66 km ENE of ?d?grat, Ethiopia",events/us6000jbsk/REPORT.html
 us6000jj8s,2023-01-25T19:49:44Z,29.7306,101.9935,7.0,5.4,6.15,0.96,RED,partial,normal,314.2,0.3,-135.0,,,,,,,,1,False,,False,,"Western Sichuan, China",events/us6000jj8s/REPORT.html
 us6000jk0t,2023-01-28T18:14:45Z,38.4199,44.9097,16.0,5.9,5.77,0.963,GREEN,done,strike-slip,196.3,13.9,4.1,,,,,,,,1,False,minor,False,,"14 km SSW of Khowy, Iran",events/us6000jk0t/REPORT.html
 us6000jnqz,2023-02-14T13:16:50Z,45.0998,23.2013,10.0,5.6,5.84,0.987,GREEN,done,normal,68.5,83.5,-153.5,,,,,,,,2,False,minor,False,,"0 km ESE of Lele?ti, Romania",events/us6000jnqz/REPORT.html
@@ -172,7 +172,7 @@ us6000ldpv,2023-10-07T07:40:30Z,34.6262,62.0006,12.48,5.9,6.04,0.978,GREEN,done,
 us6000len8,2023-10-11T00:41:55Z,34.5364,62.0509,8.0,6.3,6.37,0.843,GREEN,done,reverse,61.8,14.1,104.1,,,,,,,,3,False,severe,True,,"24 km NNW of Herāt, Afghanistan",events/us6000len8/REPORT.html
 us6000lfn5,2023-10-15T03:36:00Z,34.6529,62.1244,9.0,6.3,6.35,0.791,GREEN,done,reverse,68.9,30.1,124.5,,,,,,,,4,False,severe,True,,"34 km NNW of Herāt, Afghanistan",events/us6000lfn5/REPORT.html
 us6000lgpg,2023-10-19T18:58:51Z,7.4623,126.3516,8.494,5.9,6.11,0.781,GREEN,done,oblique,123.9,27.0,120.8,,,,,,,,1,False,,False,,"18 km WSW of Batiano, Philippines",events/us6000lgpg/REPORT.html
-us6000mjux,2024-03-19T21:27:01Z,29.7493,65.3531,6.0,5.3,5.1,0.66,YELLOW,done,reverse,198.6,0.1,98.1,,,,,,,,1,False,severe,False,,"68 km WNW of Nushki, Pakistan",events/us6000mjux/REPORT.html
+us6000mjux,2024-03-19T21:27:01Z,29.7493,65.3531,6.0,5.3,5.1,0.66,YELLOW,done,reverse,198.6,0.1,98.1,,,,,,,,1,True,severe,False,,"68 km WNW of Nushki, Pakistan",events/us6000mjux/REPORT.html
 us6000mvya,2024-05-03T10:16:23Z,10.8644,125.3349,10.208,5.7,6.17,0.98,GREEN,done,oblique,262.7,87.1,-19.4,,,,,,,,2,False,,False,,"27 km SSW of Balangiga, Philippines",events/us6000mvya/REPORT.html
 us6000mwjd,2024-05-05T18:33:11Z,-3.3167,130.9618,16.0,6.1,5.87,0.619,YELLOW,done,reverse,317.2,22.9,104.9,,,,,,,,1,False,minor,False,,"154 km WSW of Fakfak, Indonesia",events/us6000mwjd/REPORT.html
 us6000mwkd,2024-05-05T20:37:11Z,-3.3053,130.9364,10.0,5.5,1.46,1.0,RED,escalated,reverse,225.2,87.4,-54.5,,,,,,,,1,False,,True,,"157 km WSW of Fakfak, Indonesia",events/us6000mwkd/REPORT.html
@@ -191,7 +191,7 @@ us6000qznb,2025-08-10T16:53:47Z,39.3709,28.0168,10.0,6.1,6.04,0.894,GREEN,done,n
 us6000r1mt,2025-08-16T21:13:14Z,32.0131,131.811,30.0,5.5,5.75,1.0,GREEN,done,reverse,26.1,55.1,-32.4,,,,,,,,1,False,,False,,"32 km ESE of Takanabe, Japan",events/us6000r1mt/REPORT.html
 us6000rjsu,2025-10-27T19:48:28Z,39.1937,28.2425,8.0,6.0,6.25,0.945,GREEN,done,strike-slip,100.7,70.8,-127.2,,,,,,,,1,False,minor,False,,"7 km SE of Sındırgı, Turkey",events/us6000rjsu/REPORT.html
 us6000rl31,2025-11-02T20:29:02Z,36.5461,67.3886,28.0,6.2,5.53,0.508,YELLOW,done,oblique,282.9,75.2,71.9,,,,,,,,2,False,,False,,"30 km SE of Mazār-e Sharīf, Afghanistan",events/us6000rl31/REPORT.html
-us6000rq2x,2025-11-23T12:21:17Z,13.588,40.672,3.0,5.5,5.78,0.974,GREEN,done,oblique,134.6,9.8,71.5,,,,,,,,1,False,severe,False,,"116 km WSW of Edd, Eritrea",events/us6000rq2x/REPORT.html
+us6000rq2x,2025-11-23T12:21:17Z,13.588,40.672,3.0,5.5,5.78,0.974,GREEN,done,oblique,134.6,9.8,71.5,,,,,,,,1,True,severe,False,,"116 km WSW of Edd, Eritrea",events/us6000rq2x/REPORT.html
 us6000ssxt,2026-04-26T04:23:24Z,46.8137,93.0533,11.0,5.5,5.54,0.669,YELLOW,done,reverse,300.2,60.8,119.5,,,,,,,,1,False,,False,,"170 km SE of Khovd, Mongolia",events/us6000ssxt/REPORT.html
 us6000t7uu,2026-06-24T15:10:40Z,39.3623333333333,-123.228833333333,8.85,5.59,6.73,0.939,RED,partial,strike-slip,276.0,11.3,-45.0,32.8,1.24,15.309,1.05,True,,,2,False,,False,4.0.0,"11 km N of Redwood Valley, CA",events/us6000t7uu/REPORT.html
 us6000t8u3,2026-06-28T16:12:09Z,28.6413,104.7997,10.0,5.2,5.9,0.372,RED,partial,reverse,146.1,26.2,-175.7,13.98,0.77,7.821,0.6,True,24.16,True,1,False,severe,False,4.0.0,"13 km WNW of Changning, China",events/us6000t8u3/REPORT.html
@@ -229,7 +229,7 @@ us70008hvb,2020-03-28T15:43:17Z,-1.7144,120.1775,10.0,5.9,7.18,0.851,RED,escalat
 us70008kd8,2020-04-01T12:23:27Z,33.1265,98.9089,10.0,5.4,5.81,0.904,YELLOW,done,strike-slip,102.5,76.7,-20.8,,,,,,,,3,False,,False,,"274 km NE of Qamdo, China",events/us70008kd8/REPORT.html
 us70008l5g,2020-04-02T02:13:11Z,-7.9349,125.7018,16.19,5.5,6.3,0.913,YELLOW,done,strike-slip,332.7,11.2,-45.0,,,,,,,,1,False,,False,,"65 km N of Metinaro, Timor Leste",events/us70008l5g/REPORT.html
 us70008xhp,2020-04-16T11:45:23Z,22.8004,94.0292,10.0,5.9,7.75,0.923,RED,escalated,strike-slip,20.8,0.1,-26.2,,,,,,,,1,False,,False,,"38 km ESE of Falam, Myanmar",events/us70008xhp/REPORT.html
-us7000abmk,2020-06-25T21:05:18Z,35.5948,82.4158,10.0,6.3,6.07,0.991,GREEN,done,normal,187.7,65.6,-106.1,,,,,,,,1,False,minor,False,,"278 km SE of Hotan, China",events/us7000abmk/REPORT.html
+us7000abmk,2020-06-25T21:05:18Z,35.5948,82.4158,10.0,6.3,6.07,0.991,GREEN,done,normal,187.7,65.6,-106.1,,,,,,,,1,True,minor,False,,"278 km SE of Hotan, China",events/us7000abmk/REPORT.html
 us7000apd0,2020-07-15T21:39:40Z,7.4645,-81.91,6.59,5.8,6.52,0.037,RED,escalated,oblique,75.4,0.1,135.0,,,,,,,,1,False,,False,,"69 km WSW of Río Grande, Panama",events/us7000apd0/REPORT.html
 us7000bfq3,2020-09-01T10:31:52Z,-27.8691,-71.3922,22.0,5.7,6.37,0.993,YELLOW,done,reverse,26.8,0.8,145.2,,,,,,,,1,False,,True,,"99 km NW of Vallenar, Chile",events/us7000bfq3/REPORT.html
 us7000bg4v,2020-09-01T21:09:17Z,-27.9162,-71.3701,16.0,6.5,6.94,0.725,RED,escalated,oblique,47.8,2.4,135.0,,,,,,,,1,False,,True,,"94 km NW of Vallenar, Chile",events/us7000bg4v/REPORT.html
@@ -301,11 +301,11 @@ us7000mpe2,2024-06-01T00:46:38Z,34.1381,86.3128,20.71,5.9,5.88,0.96,GREEN,done,s
 us7000mppu,2024-06-02T21:31:39Z,37.4476,137.2681,9.0,5.7,5.93,0.967,GREEN,done,oblique,271.5,90.0,-170.8,,,,,,,,2,False,,False,,"40 km NE of Anamizu, Japan",events/us7000mppu/REPORT.html
 us7000nu90,2024-11-26T13:47:03Z,36.9549,136.3653,8.0,6.1,6.5,0.809,GREEN,done,reverse,178.0,88.9,7.5,,,,,,,,1,False,,False,,"38 km WNW of Hakui, Japan",events/us7000nu90/REPORT.html
 us7000nx79,2024-12-09T03:50:29Z,13.2899,-87.8532,10.0,5.6,5.85,0.668,YELLOW,done,strike-slip,99.1,0.1,129.6,,,,,,,,1,False,,False,,"2 km SSE of Conchagua, El Salvador",events/us7000nx79/REPORT.html
-us7000pdu6,2025-02-14T20:28:25Z,8.9453,39.9058,25.0,5.9,6.6,0.861,RED,partial,normal,27.7,70.1,175.1,,,,,,,,2,False,,False,,"5 km NNW of Metahāra, Ethiopia",events/us7000pdu6/REPORT.html
+us7000pdu6,2025-02-14T20:28:25Z,8.9453,39.9058,25.0,5.9,6.6,0.861,RED,partial,normal,27.7,70.1,175.1,,,,,,,,2,True,,False,,"5 km NNW of Metahāra, Ethiopia",events/us7000pdu6/REPORT.html
 us7000pn9z,2025-03-28T06:32:04Z,21.6975,95.969,10.0,6.7,6.69,0.804,GREEN,done,strike-slip,0.9,61.0,-179.9,,,,,,,,3,False,severe,True,,Burma (Myanmar),events/us7000pn9z/REPORT.html
 us7000qsvj,2025-08-31T19:17:34Z,34.7106,70.8087,8.0,6.0,5.99,0.869,GREEN,done,reverse,269.4,43.1,131.7,,,,,,,,2,False,minor,False,,"35 km WSW of Asadābād, Afghanistan",events/us7000qsvj/REPORT.html
 us7000qtst,2025-09-04T16:56:26Z,34.6972,70.758,16.505,5.6,6.3,0.576,YELLOW,done,reverse,21.2,67.8,-110.3,,,,,,,,3,False,severe,True,,"40 km WSW of Asadābād, Afghanistan",events/us7000qtst/REPORT.html
-us7000rm3k,2026-01-02T13:58:15Z,16.798,-99.3939,18.0,6.5,6.18,0.742,GREEN,done,reverse,91.2,0.1,82.1,,,,,,,,2,False,,False,,"0 km W of San Marcos, Mexico",events/us7000rm3k/REPORT.html
+us7000rm3k,2026-01-02T13:58:15Z,16.798,-99.3939,18.0,6.5,6.18,0.742,GREEN,done,reverse,91.2,0.1,82.1,,,,,,,,2,True,,False,,"0 km W of San Marcos, Mexico",events/us7000rm3k/REPORT.html
 us7000st95,2026-06-16T03:27:44Z,-1.1245,120.1842,11.0,6.7,5.98,0.683,YELLOW,done,normal,26.5,15.2,170.2,2.88,0.72,0.554,0.128,True,,,1,False,minor,False,4.0.0,"42 km SE of Palu, Indonesia",events/us7000st95/REPORT.html
 us7000stbz,2026-06-16T09:06:55Z,37.888,95.4919,10.0,6.3,6.18,0.866,GREEN,done,reverse,279.9,32.7,47.2,4.4,0.04,6.532,0.065,False,,,2,False,minor,False,4.0.0,"262 km SSE of Dunhuang, China",events/us7000stbz/REPORT.html
 us7000t1q7,2026-07-19T02:24:35Z,-12.1036,-75.3034,10.0,5.5,6.18,0.435,RED,partial,reverse,112.4,77.8,-143.1,25.83,5.68,8.272,4.465,True,2.51,False,1,False,,False,4.0.0,"4 km SSW of Chupaca, Peru",events/us7000t1q7/REPORT.html
