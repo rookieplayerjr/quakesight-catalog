@@ -1,0 +1,30 @@
+{
+  "Mw": 5.553322859813961,
+  "Mw_catalog": 5.4,
+  "VR": 0.7637933215251481,
+  "VR_round1": 0.6427595895964096,
+  "centroid_depth_km": 7.18,
+  "centroid_depth_sigma_km": 0.52,
+  "dMw": 0.15332285981396065,
+  "d_dip_np1": 62.92504301798539,
+  "d_strike_np1": 34.228229055035456,
+  "dip": 82.6850430179854,
+  "n_railed": 1,
+  "n_tracks": 2,
+  "noise_dominated": false,
+  "phase_sign": 1.0,
+  "pipeline_rev": "4.0.0",
+  "railed": [
+    "FAUL Length"
+  ],
+  "rake": 3.3686150580352145,
+  "recentered": false,
+  "round2_used": true,
+  "signal_ratio": 0.98,
+  "stacked": true,
+  "stress_drop_mpa": 0.768,
+  "stress_drop_sigma_mpa": 0.283,
+  "stress_drop_valid": false,
+  "strike": 237.83177094496455,
+  "zone": "GREEN"
+}

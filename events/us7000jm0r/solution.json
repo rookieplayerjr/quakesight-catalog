@@ -1,22 +1,30 @@
 {
-  "Mw": 5.5603023352504986,
+  "Mw": 5.61215409596725,
   "Mw_catalog": 5.8,
-  "VR": 0.6727290124741611,
-  "VR_round1": 0.35794737647387875,
-  "dMw": 0.23969766474950127,
-  "d_dip_np1": 9.267653930543744,
-  "d_strike_np1": 88.09811803211787,
-  "dip": 70.60765393054375,
+  "VR": 0.5198793373669954,
+  "VR_round1": 0.3526563921400523,
+  "centroid_depth_km": 6.43,
+  "centroid_depth_sigma_km": 0.78,
+  "dMw": 0.18784590403275025,
+  "d_dip_np1": 16.43873506493776,
+  "d_strike_np1": 169.12474381357563,
+  "dip": 77.77873506493776,
   "n_railed": 1,
   "n_tracks": 4,
-  "phase_sign": -1.0,
+  "noise_dominated": true,
+  "phase_sign": 1.0,
+  "pipeline_rev": "4.0.0",
   "railed": [
-    "FAUL Y"
+    "FAUL Length"
   ],
-  "rake": -164.89177490488984,
+  "rake": 6.368441676326009,
   "recentered": true,
   "round2_used": true,
-  "stacked": false,
-  "strike": 87.23188196788215,
-  "zone": "YELLOW"
+  "signal_ratio": 4.89,
+  "stacked": true,
+  "stress_drop_mpa": 0.695,
+  "stress_drop_sigma_mpa": 0.211,
+  "stress_drop_valid": false,
+  "strike": 344.45474381357565,
+  "zone": "RED"
 }
