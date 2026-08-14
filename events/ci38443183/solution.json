@@ -19,8 +19,10 @@
  "round2_used": true,
  "stacked": true,
  "strike": 329.2910324579017,
- "zone": "YELLOW",
+ "zone": "RED",
  "signal_ratio": 10.73,
  "noise_dominated": true,
- "signal_ratio_source": "retro_audit_2026-08-13 (recomputed from products; model unchanged)"
+ "signal_ratio_source": "retro_audit_2026-08-13 (recomputed from products; model unchanged)",
+ "zone_before_retro_gate": "YELLOW",
+ "zone_downgrade_reason": "signal_ratio 10.73 > 4.0: field dominated by non-tectonic signal; graded YELLOW before the signal-budget gate existed (retro-applied 2026-08-14)"
 }
