@@ -7,6 +7,7 @@ ci39645386,2023-08-20T21:41:00Z,34.4085,-119.1883333,4.84,5.08,5.77,0.992,YELLOW
 ci39919392,2021-06-05T17:55:58Z,33.14,-115.6348333,5.78,5.25,6.59,0.996,RED,partial,strike-slip,92.2,20.9,149.8,,,,,,,,2,False,,False,,"11km W of Calipatria, CA",events/ci39919392/REPORT.html
 hv61792931,2017-06-08T17:01:19Z,19.33,-155.1206667,6.47,5.28,6.64,0.76,RED,partial,oblique,241.9,70.4,-45.0,,,,,,,,1,False,,False,,"15 km S of Fern Forest, Hawaii",events/hv61792931/REPORT.html
 hv70863117,2019-03-13T10:55:13Z,19.3258333,-155.2005,6.97,5.54,6.34,0.877,RED,partial,reverse,99.8,63.5,45.0,,,,,,,,1,False,,False,,"13 km SSE of Volcano, Hawaii",events/hv70863117/REPORT.html
+nc73494405,2020-12-06T15:03:33Z,39.0376667,-123.0671667,4.95,4.39,4.81,0.75,RED,escalated,strike-slip,333.5,24.5,-29.0,17.4,9.64,9.621,4.171,True,73.5,True,1,True,,False,4.0.0,"13km W of Lakeport, CA",events/nc73494405/REPORT.html
 nc73584926,2021-07-08T22:49:48Z,38.5075,-119.4998333,7.45,6.0,5.85,0.954,GREEN,done,oblique,0.9,45.8,-111.4,7.95,0.08,4.322,0.159,True,3.15,False,4,True,,False,4.0.0,"Antelope Valley, CA",events/nc73584926/REPORT.html
 nc73821036,2022-12-20T10:34:24Z,40.525,-124.423,17.91,6.4,6.78,0.41,RED,escalated,strike-slip,3.5,70.1,96.4,,,,,,,,3,False,,False,,"15km WSW of Ferndale, CA",events/nc73821036/REPORT.html
 nn00570709,2016-12-28T08:18:00Z,38.3755,-118.8989,11.3,5.6,5.98,0.863,GREEN,done,strike-slip,286.9,63.4,-177.9,,,,,,,,1,False,severe,False,,"29 km SW of Hawthorne, Nevada",events/nn00570709/REPORT.html
@@ -83,6 +84,7 @@ us2000c3mi,2017-12-12T21:41:31Z,30.8275,57.2982,8.0,6.0,6.22,0.972,GREEN,done,re
 us2000cifa,2018-01-11T18:26:24Z,18.3719,96.0717,9.0,6.0,5.92,0.98,GREEN,done,reverse,196.8,54.7,-30.2,,,,,,,,2,False,minor,False,,"40 km WSW of Pyu, Myanmar",events/us2000cifa/REPORT.html
 us2000czig,2018-02-09T14:05:48Z,18.9311,-104.6522,13.0,5.8,6.22,0.904,GREEN,done,reverse,275.4,79.1,12.5,,,,,,,,1,False,,False,,"30 km S of Barra de Navidad, Mexico",events/us2000czig/REPORT.html
 us2000dwh6,2018-04-08T16:32:31Z,35.2588,132.5528,10.34,5.7,6.29,0.318,RED,escalated,strike-slip,248.8,23.7,135.0,,,,,,,,2,False,,False,,"8 km NNE of ?dach?-?da, Japan",events/us2000dwh6/REPORT.html
+us2000dzu5,2018-04-13T17:14:00Z,37.158,31.9355,10.0,4.8,5.17,0.541,RED,partial,strike-slip,53.9,35.7,154.3,18.72,8.79,7.488,3.455,True,7.44,True,1,True,,False,4.0.0,"17 km NE of Akseki, Turkey",events/us2000dzu5/REPORT.html
 us2000frwr,2018-06-30T03:56:49Z,19.0222,-105.119,15.0,5.9,7.74,0.988,RED,escalated,strike-slip,300.7,0.1,-135.0,,,,,,,,1,False,,False,,"43 km SSW of Emiliano Zapata, Mexico",events/us2000frwr/REPORT.html
 us2000gb1e,2018-07-22T05:07:02Z,27.6631,54.8786,8.0,5.4,6.2,0.825,RED,partial,reverse,89.5,0.1,-45.0,,,,,,,,3,False,,False,,"73 km E of Ger?sh, Iran",events/us2000gb1e/REPORT.html
 us2000gb4d,2018-07-22T10:07:27Z,34.5909,46.1661,12.0,5.8,5.98,0.741,GREEN,done,strike-slip,253.5,86.8,1.6,,,,,,,,3,True,,False,,"31 km ENE of Sarpol-e Z?ah?b, Iran",events/us2000gb4d/REPORT.html
@@ -92,9 +94,11 @@ us2000i6sc,2018-11-04T19:26:03Z,44.5478,145.6552,9.0,5.9,6.7,0.945,RED,escalated
 us2000iws8,2018-12-23T19:32:22Z,30.4079,87.62,10.0,5.8,5.78,0.96,GREEN,done,normal,197.0,64.2,102.0,6.59,0.08,4.345,0.259,True,2.53,False,2,True,,False,4.0.0,"177 km NW of Rikaze, China",events/us2000iws8/REPORT.html
 us2000ixky,2018-12-26T02:19:14Z,37.63,15.1,1.0,5.0,5.72,0.967,RED,escalated,strike-slip,294.9,0.1,45.0,,,,,,,,1,False,,False,,"1 km SSW of Lavinaio-Monterosso, Italy",events/us2000ixky/REPORT.html
 us2000j0th,2019-01-06T13:41:59Z,34.1248,45.6794,14.0,5.6,6.19,0.98,YELLOW,done,reverse,25.6,8.5,90.8,,,,,,,,1,False,,False,,"40 km SSW of Sarpol-e Z?ah?b, Iran",events/us2000j0th/REPORT.html
+us2000j4vp,2019-01-17T03:36:29Z,36.4365,22.32,10.0,4.5,4.62,0.792,RED,partial,strike-slip,206.6,13.9,-60.3,17.15,9.53,8.54,3.942,True,36.22,True,1,True,,False,4.0.0,"41 km SSW of Gýtheio, Greece",events/us2000j4vp/REPORT.html
 us2000j967,2019-01-26T12:32:26Z,3.0345,-75.7383,10.0,5.6,6.28,0.775,YELLOW,done,strike-slip,119.0,63.9,-149.0,,,,,,,,3,False,severe,False,,"13 km NW of Santa María, Colombia",events/us2000j967/REPORT.html
 us2000jcbz,2019-02-02T09:27:36Z,-2.8462,100.0743,20.0,6.0,7.44,0.597,RED,partial,reverse,313.9,90.0,-45.0,,,,,,,,1,False,severe,False,,"170 km WSW of Sungai Penuh, Indonesia",events/us2000jcbz/REPORT.html
 us2000jccs,2019-02-02T10:59:30Z,-2.8764,100.1326,18.0,5.9,7.17,0.959,RED,partial,reverse,214.5,22.2,-45.0,,,,,,,,1,False,severe,True,,"166 km WSW of Sungai Penuh, Indonesia",events/us2000jccs/REPORT.html
+us2000jgqe,2019-02-12T17:14:30Z,40.5807,32.9597,10.0,4.8,5.21,0.425,RED,partial,normal,40.6,5.7,-99.5,19.17,8.68,7.708,3.625,True,9.61,True,1,True,,False,4.0.0,"13 km WSW of Orta, Turkey",events/us2000jgqe/REPORT.html
 us600041ry,2019-06-17T14:55:44Z,28.4056,104.9333,6.0,5.8,5.5,0.495,RED,partial,oblique,300.5,82.8,-175.6,3.31,0.16,2.548,0.22,True,7.49,True,2,True,minor,False,4.0.0,"22 km ESE of Xunchang, China",events/us600041ry/REPORT.html
 us600042fx,2019-06-18T13:22:19Z,38.6391,139.4769,12.0,6.4,7.61,0.954,RED,escalated,reverse,61.4,22.3,-54.3,,,,,,,,2,False,,False,,"31 km WSW of Tsuruoka, Japan",events/us600042fx/REPORT.html
 us60004ys7,2019-08-01T20:01:28Z,-34.2812,-72.3734,15.41,5.6,6.84,0.989,RED,escalated,reverse,260.8,12.5,142.0,,,,,,,,1,False,severe,True,,"100 km WNW of Santa Cruz, Chile",events/us60004ys7/REPORT.html

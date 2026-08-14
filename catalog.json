@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-14T07:47:36Z",
+  "generated_utc": "2026-08-14T08:53:13Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 318,
+  "n_events": 322,
   "events": [
     {
       "event_id": "ak01649w95tp",
@@ -457,6 +457,59 @@
       "links": {
         "report": "events/hv70863117/REPORT.html",
         "solution": "events/hv70863117/solution.json"
+      }
+    },
+    {
+      "event_id": "nc73494405",
+      "place": "13km W of Lakeport, CA",
+      "origin_utc": "2020-12-06T15:03:33Z",
+      "epi_lat": 39.0376667,
+      "epi_lon": -123.0671667,
+      "depth_km": 4.95,
+      "Mw": 4.39,
+      "Mw_type": "Mwr",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4_to_4p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 333.5,
+          "dip": 24.5,
+          "rake": -29.0
+        },
+        "Mw_post": 4.81
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "escalated",
+      "escalation_reason": "Escalation: asf_query_failed",
+      "pipeline_run_utc": "2026-07-07T03:51:34Z",
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.75,
+      "mw_insar": 4.81,
+      "n_railed": 0,
+      "centroid_depth_km": 17.4,
+      "centroid_depth_sigma_km": 9.64,
+      "stress_drop_mpa": 9.621,
+      "stress_drop_sigma_mpa": 4.171,
+      "stress_drop_valid": true,
+      "signal_ratio": 73.5,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/nc73494405/REPORT.html",
+        "solution": "events/nc73494405/solution.json"
       }
     },
     {
@@ -5126,6 +5179,59 @@
       }
     },
     {
+      "event_id": "us2000dzu5",
+      "place": "17 km NE of Akseki, Turkey",
+      "origin_utc": "2018-04-13T17:14:00Z",
+      "epi_lat": 37.158,
+      "epi_lon": 31.9355,
+      "depth_km": 10.0,
+      "Mw": 4.8,
+      "Mw_type": "Mwr",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 53.9,
+          "dip": 35.7,
+          "rake": 154.3
+        },
+        "Mw_post": 5.17
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.541,
+      "mw_insar": 5.17,
+      "n_railed": 0,
+      "centroid_depth_km": 18.72,
+      "centroid_depth_sigma_km": 8.79,
+      "stress_drop_mpa": 7.488,
+      "stress_drop_sigma_mpa": 3.455,
+      "stress_drop_valid": true,
+      "signal_ratio": 7.44,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us2000dzu5/REPORT.html",
+        "solution": "events/us2000dzu5/solution.json"
+      }
+    },
+    {
       "event_id": "us2000frwr",
       "place": "43 km SSW of Emiliano Zapata, Mexico",
       "origin_utc": "2018-06-30T03:56:49Z",
@@ -5674,6 +5780,59 @@
       }
     },
     {
+      "event_id": "us2000j4vp",
+      "place": "41 km SSW of G\u00fdtheio, Greece",
+      "origin_utc": "2019-01-17T03:36:29Z",
+      "epi_lat": 36.4365,
+      "epi_lon": 22.32,
+      "depth_km": 10.0,
+      "Mw": 4.5,
+      "Mw_type": "Mwr",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 206.6,
+          "dip": 13.9,
+          "rake": -60.3
+        },
+        "Mw_post": 4.62
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.792,
+      "mw_insar": 4.62,
+      "n_railed": 0,
+      "centroid_depth_km": 17.15,
+      "centroid_depth_sigma_km": 9.53,
+      "stress_drop_mpa": 8.54,
+      "stress_drop_sigma_mpa": 3.942,
+      "stress_drop_valid": true,
+      "signal_ratio": 36.22,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us2000j4vp/REPORT.html",
+        "solution": "events/us2000j4vp/solution.json"
+      }
+    },
+    {
       "event_id": "us2000j967",
       "place": "13 km NW of Santa Mar\u00eda, Colombia",
       "origin_utc": "2019-01-26T12:32:26Z",
@@ -5854,6 +6013,59 @@
       "links": {
         "report": "events/us2000jccs/REPORT.html",
         "solution": "events/us2000jccs/solution.json"
+      }
+    },
+    {
+      "event_id": "us2000jgqe",
+      "place": "13 km WSW of Orta, Turkey",
+      "origin_utc": "2019-02-12T17:14:30Z",
+      "epi_lat": 40.5807,
+      "epi_lon": 32.9597,
+      "depth_km": 10.0,
+      "Mw": 4.8,
+      "Mw_type": "Mwr",
+      "faulting_class": "normal",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 40.6,
+          "dip": 5.7,
+          "rake": -99.5
+        },
+        "Mw_post": 5.21
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.425,
+      "mw_insar": 5.21,
+      "n_railed": 0,
+      "centroid_depth_km": 19.17,
+      "centroid_depth_sigma_km": 8.68,
+      "stress_drop_mpa": 7.708,
+      "stress_drop_sigma_mpa": 3.625,
+      "stress_drop_valid": true,
+      "signal_ratio": 9.61,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us2000jgqe/REPORT.html",
+        "solution": "events/us2000jgqe/solution.json"
       }
     },
     {
