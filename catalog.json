@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-14T08:53:13Z",
+  "generated_utc": "2026-08-14T17:33:33Z",
   "critical_fix_utc": "2026-05-19T17:10:00Z",
-  "n_events": 322,
+  "n_events": 336,
   "events": [
     {
       "event_id": "ak01649w95tp",
@@ -6069,6 +6069,59 @@
       }
     },
     {
+      "event_id": "us2000jjan",
+      "place": "17 km SW of G\u00e9fyra, Greece",
+      "origin_utc": "2019-02-17T19:07:41Z",
+      "epi_lat": 36.5701,
+      "epi_lon": 22.9012,
+      "depth_km": 10.0,
+      "Mw": 4.9,
+      "Mw_type": "Mww",
+      "faulting_class": "oblique",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 185.9,
+          "dip": 19.8,
+          "rake": -67.1
+        },
+        "Mw_post": 5.2
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.635,
+      "mw_insar": 5.2,
+      "n_railed": 2,
+      "centroid_depth_km": 6.41,
+      "centroid_depth_sigma_km": 0.74,
+      "stress_drop_mpa": 4.212,
+      "stress_drop_sigma_mpa": 2.807,
+      "stress_drop_valid": true,
+      "signal_ratio": 10.52,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us2000jjan/REPORT.html",
+        "solution": "events/us2000jjan/solution.json"
+      }
+    },
+    {
       "event_id": "us600041ry",
       "place": "22 km ESE of Xunchang, China",
       "origin_utc": "2019-06-17T14:55:44Z",
@@ -6413,6 +6466,59 @@
       }
     },
     {
+      "event_id": "us600062ps",
+      "place": "28 km S of Sarigerme, Turkey",
+      "origin_utc": "2019-10-24T21:06:47Z",
+      "epi_lat": 36.4616,
+      "epi_lon": 28.674,
+      "depth_km": 10.0,
+      "Mw": 4.6,
+      "Mw_type": "Mwr",
+      "faulting_class": "reverse",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 252.6,
+          "dip": 0.8,
+          "rake": 52.9
+        },
+        "Mw_post": 4.5
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.645,
+      "mw_insar": 4.5,
+      "n_railed": 0,
+      "centroid_depth_km": 17.97,
+      "centroid_depth_sigma_km": 8.87,
+      "stress_drop_mpa": 7.533,
+      "stress_drop_sigma_mpa": 3.397,
+      "stress_drop_valid": true,
+      "signal_ratio": 18.08,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us600062ps/REPORT.html",
+        "solution": "events/us600062ps/solution.json"
+      }
+    },
+    {
       "event_id": "us6000645n",
       "place": "10 km NE of Columbio, Philippines",
       "origin_utc": "2019-10-29T01:04:43Z",
@@ -6729,6 +6835,59 @@
       "links": {
         "report": "events/us60007anp/REPORT.html",
         "solution": "events/us60007anp/solution.json"
+      }
+    },
+    {
+      "event_id": "us60007eif",
+      "place": "17 km WSW of Jijel, Algeria",
+      "origin_utc": "2020-01-24T07:24:18Z",
+      "epi_lat": 36.7355,
+      "epi_lon": 5.6011,
+      "depth_km": 10.0,
+      "Mw": 4.9,
+      "Mw_type": "Mww",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 235.5,
+          "dip": 83.5,
+          "rake": 45.0
+        },
+        "Mw_post": 5.7
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.787,
+      "mw_insar": 5.7,
+      "n_railed": 0,
+      "centroid_depth_km": 12.53,
+      "centroid_depth_sigma_km": 0.77,
+      "stress_drop_mpa": 9.237,
+      "stress_drop_sigma_mpa": 1.377,
+      "stress_drop_valid": true,
+      "signal_ratio": 12.46,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us60007eif/REPORT.html",
+        "solution": "events/us60007eif/solution.json"
       }
     },
     {
@@ -7287,6 +7446,59 @@
       }
     },
     {
+      "event_id": "us6000bf5r",
+      "place": "45 km E of Chicureo Abajo, Chile",
+      "origin_utc": "2020-08-15T11:11:58Z",
+      "epi_lat": -33.223,
+      "epi_lon": -70.167,
+      "depth_km": 10.0,
+      "Mw": 4.8,
+      "Mw_type": "Mwr",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 222.6,
+          "dip": 75.4,
+          "rake": -169.0
+        },
+        "Mw_post": 4.99
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.55,
+      "mw_insar": 4.99,
+      "n_railed": 1,
+      "centroid_depth_km": 4.01,
+      "centroid_depth_sigma_km": 0.61,
+      "stress_drop_mpa": 4.079,
+      "stress_drop_sigma_mpa": 2.39,
+      "stress_drop_valid": true,
+      "signal_ratio": 27.1,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us6000bf5r/REPORT.html",
+        "solution": "events/us6000bf5r/solution.json"
+      }
+    },
+    {
       "event_id": "us6000bzek",
       "place": "21 km NW of Kultuk, Russia",
       "origin_utc": "2020-09-21T18:04:57Z",
@@ -7647,6 +7859,59 @@
       }
     },
     {
+      "event_id": "us6000dds6",
+      "place": "9 km SSE of Gemerek, Turkey",
+      "origin_utc": "2021-02-02T00:02:45Z",
+      "epi_lat": 39.1013,
+      "epi_lon": 36.0983,
+      "depth_km": 10.0,
+      "Mw": 4.5,
+      "Mw_type": "Mwr",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 86.8,
+          "dip": 67.3,
+          "rake": 138.6
+        },
+        "Mw_post": 5.24
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.647,
+      "mw_insar": 5.24,
+      "n_railed": 0,
+      "centroid_depth_km": 17.69,
+      "centroid_depth_sigma_km": 9.0,
+      "stress_drop_mpa": 8.471,
+      "stress_drop_sigma_mpa": 3.812,
+      "stress_drop_valid": true,
+      "signal_ratio": 43.72,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us6000dds6/REPORT.html",
+        "solution": "events/us6000dds6/solution.json"
+      }
+    },
+    {
       "event_id": "us6000df9r",
       "place": "9 km W of Magsaysay, Philippines",
       "origin_utc": "2021-02-07T04:22:56Z",
@@ -7699,6 +7964,59 @@
       "links": {
         "report": "events/us6000df9r/REPORT.html",
         "solution": "events/us6000df9r/solution.json"
+      }
+    },
+    {
+      "event_id": "us6000dhd5",
+      "place": "0 km NNE of Hovtashen, Armenia",
+      "origin_utc": "2021-02-13T11:29:23Z",
+      "epi_lat": 40.0309,
+      "epi_lon": 44.4522,
+      "depth_km": 10.0,
+      "Mw": 4.9,
+      "Mw_type": "Mwr",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 10.1,
+          "dip": 15.2,
+          "rake": 93.3
+        },
+        "Mw_post": 4.6
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.717,
+      "mw_insar": 4.6,
+      "n_railed": 1,
+      "centroid_depth_km": 6.39,
+      "centroid_depth_sigma_km": 2.24,
+      "stress_drop_mpa": 3.957,
+      "stress_drop_sigma_mpa": 2.888,
+      "stress_drop_valid": true,
+      "signal_ratio": 11.44,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us6000dhd5/REPORT.html",
+        "solution": "events/us6000dhd5/solution.json"
       }
     },
     {
@@ -8474,6 +8792,59 @@
       "links": {
         "report": "events/us6000f2r5/REPORT.html",
         "solution": "events/us6000f2r5/solution.json"
+      }
+    },
+    {
+      "event_id": "us6000f6s8",
+      "place": "21 km W of Metsavan, Armenia",
+      "origin_utc": "2021-08-16T01:44:05Z",
+      "epi_lat": 41.1691,
+      "epi_lon": 43.9722,
+      "depth_km": 10.0,
+      "Mw": 4.8,
+      "Mw_type": "Mwr",
+      "faulting_class": "oblique",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 250.8,
+          "dip": 85.0,
+          "rake": 17.2
+        },
+        "Mw_post": 5.28
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.78,
+      "mw_insar": 5.28,
+      "n_railed": 0,
+      "centroid_depth_km": 18.39,
+      "centroid_depth_sigma_km": 8.92,
+      "stress_drop_mpa": 7.629,
+      "stress_drop_sigma_mpa": 3.359,
+      "stress_drop_valid": true,
+      "signal_ratio": 15.11,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us6000f6s8/REPORT.html",
+        "solution": "events/us6000f6s8/solution.json"
       }
     },
     {
@@ -12770,6 +13141,112 @@
       }
     },
     {
+      "event_id": "us70003uej",
+      "place": "3 km ESE of Hendek, Turkey",
+      "origin_utc": "2019-06-02T13:08:47Z",
+      "epi_lat": 40.7824,
+      "epi_lon": 30.7838,
+      "depth_km": 5.39,
+      "Mw": 4.5,
+      "Mw_type": "Mwr",
+      "faulting_class": "oblique",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 174.0,
+          "dip": 0.1,
+          "rake": 35.3
+        },
+        "Mw_post": 4.79
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.578,
+      "mw_insar": 4.79,
+      "n_railed": 0,
+      "centroid_depth_km": 17.44,
+      "centroid_depth_sigma_km": 9.61,
+      "stress_drop_mpa": 8.469,
+      "stress_drop_sigma_mpa": 3.719,
+      "stress_drop_valid": true,
+      "signal_ratio": 46.32,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us70003uej/REPORT.html",
+        "solution": "events/us70003uej/solution.json"
+      }
+    },
+    {
+      "event_id": "us70004jiv",
+      "place": "30 km N of Jijel, Algeria",
+      "origin_utc": "2019-07-13T09:56:35Z",
+      "epi_lat": 37.0991,
+      "epi_lon": 5.7497,
+      "depth_km": 10.0,
+      "Mw": 4.9,
+      "Mw_type": "Mww",
+      "faulting_class": "reverse",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 48.9,
+          "dip": 83.1,
+          "rake": 173.0
+        },
+        "Mw_post": 5.29
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.387,
+      "mw_insar": 5.29,
+      "n_railed": 0,
+      "centroid_depth_km": 4.7,
+      "centroid_depth_sigma_km": 0.53,
+      "stress_drop_mpa": 9.187,
+      "stress_drop_sigma_mpa": 2.132,
+      "stress_drop_valid": true,
+      "signal_ratio": 11.55,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us70004jiv/REPORT.html",
+        "solution": "events/us70004jiv/solution.json"
+      }
+    },
+    {
       "event_id": "us70004nrn",
       "place": "64 km NE of Bomdila, India",
       "origin_utc": "2019-07-19T09:22:15Z",
@@ -12831,6 +13308,59 @@
       "links": {
         "report": "events/us70004nrn/REPORT.html",
         "solution": "events/us70004nrn/solution.json"
+      }
+    },
+    {
+      "event_id": "us7000594r",
+      "place": "43 km ENE of Karpathos, Greece",
+      "origin_utc": "2019-08-28T11:58:18Z",
+      "epi_lat": 35.6836,
+      "epi_lon": 27.636,
+      "depth_km": 10.0,
+      "Mw": 4.9,
+      "Mw_type": "Mww",
+      "faulting_class": "normal",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 250.5,
+          "dip": 58.7,
+          "rake": -27.9
+        },
+        "Mw_post": 5.15
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.51,
+      "mw_insar": 5.15,
+      "n_railed": 0,
+      "centroid_depth_km": 5.8,
+      "centroid_depth_sigma_km": 0.71,
+      "stress_drop_mpa": 4.008,
+      "stress_drop_sigma_mpa": 1.798,
+      "stress_drop_valid": true,
+      "signal_ratio": 7.22,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us7000594r/REPORT.html",
+        "solution": "events/us7000594r/solution.json"
       }
     },
     {
@@ -14208,6 +14738,59 @@
       }
     },
     {
+      "event_id": "us70008mc2",
+      "place": "24 km SE of Erci?, Turkey",
+      "origin_utc": "2020-04-03T05:44:26Z",
+      "epi_lat": 38.8489,
+      "epi_lon": 43.523,
+      "depth_km": 10.0,
+      "Mw": 4.7,
+      "Mw_type": "Mwr",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 256.8,
+          "dip": 25.7,
+          "rake": -162.6
+        },
+        "Mw_post": 5.41
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.491,
+      "mw_insar": 5.41,
+      "n_railed": 0,
+      "centroid_depth_km": 18.17,
+      "centroid_depth_sigma_km": 8.88,
+      "stress_drop_mpa": 7.331,
+      "stress_drop_sigma_mpa": 3.279,
+      "stress_drop_valid": true,
+      "signal_ratio": 20.83,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us70008mc2/REPORT.html",
+        "solution": "events/us70008mc2/solution.json"
+      }
+    },
+    {
       "event_id": "us70008xhp",
       "place": "38 km ESE of Falam, Myanmar",
       "origin_utc": "2020-04-16T11:45:23Z",
@@ -14573,6 +15156,59 @@
       }
     },
     {
+      "event_id": "us7000bnxn",
+      "place": "15 km N of G\u00fcroymak, Turkey",
+      "origin_utc": "2020-09-16T14:48:21Z",
+      "epi_lat": 38.7152,
+      "epi_lon": 42.0276,
+      "depth_km": 10.0,
+      "Mw": 4.6,
+      "Mw_type": "Mwr",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 82.0,
+          "dip": 14.7,
+          "rake": 12.4
+        },
+        "Mw_post": 4.6
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.487,
+      "mw_insar": 4.6,
+      "n_railed": 0,
+      "centroid_depth_km": 16.96,
+      "centroid_depth_sigma_km": 9.8,
+      "stress_drop_mpa": 7.584,
+      "stress_drop_sigma_mpa": 3.274,
+      "stress_drop_valid": true,
+      "signal_ratio": 20.8,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us7000bnxn/REPORT.html",
+        "solution": "events/us7000bnxn/solution.json"
+      }
+    },
+    {
       "event_id": "us7000bql2",
       "place": "54 km E of Cortes, Philippines",
       "origin_utc": "2020-09-20T22:13:15Z",
@@ -14692,6 +15328,59 @@
       "links": {
         "report": "events/us7000c6p3/REPORT.html",
         "solution": "events/us7000c6p3/solution.json"
+      }
+    },
+    {
+      "event_id": "us7000c6pg",
+      "place": "8 km NW of Tercan, Turkey",
+      "origin_utc": "2020-10-28T09:16:15Z",
+      "epi_lat": 39.8266,
+      "epi_lon": 40.2951,
+      "depth_km": 10.0,
+      "Mw": 4.5,
+      "Mw_type": "Mwr",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 73.8,
+          "dip": 0.1,
+          "rake": -84.3
+        },
+        "Mw_post": 4.36
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "escalated",
+      "escalation_reason": "Escalation: asf_query_failed",
+      "pipeline_run_utc": "2026-07-07T04:09:48Z",
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.762,
+      "mw_insar": 4.36,
+      "n_railed": 0,
+      "centroid_depth_km": 16.78,
+      "centroid_depth_sigma_km": 9.78,
+      "stress_drop_mpa": 8.569,
+      "stress_drop_sigma_mpa": 3.748,
+      "stress_drop_valid": true,
+      "signal_ratio": 81.23,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us7000c6pg/REPORT.html",
+        "solution": "events/us7000c6pg/solution.json"
       }
     },
     {
@@ -15824,6 +16513,59 @@
       "links": {
         "report": "events/us7000fu12/REPORT.html",
         "solution": "events/us7000fu12/solution.json"
+      }
+    },
+    {
+      "event_id": "us7000futw",
+      "place": "14 km W of D\u00fczce, Turkey",
+      "origin_utc": "2021-11-17T12:40:16Z",
+      "epi_lat": 40.8642,
+      "epi_lon": 30.9954,
+      "depth_km": 7.19,
+      "Mw": 4.8,
+      "Mw_type": "Mwr",
+      "faulting_class": "strike-slip",
+      "magnitude_band": "4p5_to_5p5",
+      "data_used": [],
+      "n_tracks": 1,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": {
+        "fmech": {
+          "strike": 150.5,
+          "dip": 50.6,
+          "rake": 169.5
+        },
+        "Mw_post": 5.0
+      },
+      "diagnostics": {
+        "zone": "RED",
+        "source": "quality_v2"
+      },
+      "status": "partial",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "stale": false,
+      "stacking": true,
+      "multievent": null,
+      "has_v2": true,
+      "has_report": true,
+      "zone": "RED",
+      "vr": 0.549,
+      "mw_insar": 5.0,
+      "n_railed": 0,
+      "centroid_depth_km": 1.81,
+      "centroid_depth_sigma_km": 0.22,
+      "stress_drop_mpa": 1.696,
+      "stress_drop_sigma_mpa": 0.396,
+      "stress_drop_valid": true,
+      "signal_ratio": 28.06,
+      "noise_dominated": true,
+      "pipeline_rev": "4.0.0",
+      "links": {
+        "report": "events/us7000futw/REPORT.html",
+        "solution": "events/us7000futw/solution.json"
       }
     },
     {
