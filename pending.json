@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-15T17:00:04Z",
+  "generated_utc": "2026-08-15T17:07:02Z",
   "n_pending": 11,
   "events": [
     {
@@ -195,16 +195,27 @@
       "Mw_type": "mww",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 128,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "20260726",
+            "20260807"
+          ],
+          "median_coh": 0.364,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
       "result": null,
       "diagnostics": null,
       "status": "monitoring",
-      "monitor_stage": "detected",
-      "next_check_utc": "",
+      "monitor_stage": "downloaded",
+      "next_check_utc": "2026-08-22T17:05:13Z",
       "expected_max_los_cm": 0.8,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thn0",
       "escalation_reason": null,
@@ -214,9 +225,9 @@
       "stacking": false,
       "multievent": null,
       "has_v2": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null,
+        "report": "events/us6000thn0/briefing/briefing.html",
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thn0"
       }
     },
