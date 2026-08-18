@@ -1,22 +1,31 @@
 {
-  "Mw": 5.641201688052688,
-  "Mw_catalog": 5.4,
-  "VR": 0.7808701044927018,
-  "VR_round1": 0.819264759122583,
-  "dMw": 0.24120168805268793,
-  "d_dip_np1": 12.590046366865636,
-  "d_strike_np1": 7.589182422484896,
-  "dip": 70.59004636686564,
-  "n_railed": 1,
-  "n_tracks": 2,
-  "phase_sign": -1.0,
-  "railed": [
-    "FAUL X"
-  ],
-  "rake": -88.67502216350012,
-  "recentered": false,
-  "round2_used": true,
-  "stacked": true,
-  "strike": 350.4108175775151,
-  "zone": "GREEN"
+ "Mw": 5.641201688052688,
+ "Mw_catalog": 5.4,
+ "VR": 0.7808701044927018,
+ "VR_round1": 0.819264759122583,
+ "dMw": 0.24120168805268793,
+ "d_dip_np1": 12.590046366865636,
+ "d_strike_np1": 7.589182422484896,
+ "dip": 70.59004636686564,
+ "n_railed": 1,
+ "n_tracks": 2,
+ "phase_sign": -1.0,
+ "railed": [
+  "FAUL X"
+ ],
+ "rake": -88.67502216350012,
+ "recentered": false,
+ "round2_used": true,
+ "stacked": true,
+ "strike": 350.4108175775151,
+ "zone": "GREEN",
+ "signal_ratio": 2.3,
+ "signal_ratio_source": "retro_audit_v2_2026-08-17 (majority rule + amplitude gate; model unchanged)",
+ "signal_budget_verdict": "OK",
+ "signal_ratio_per_track": {
+  "t121_dsc": 3.27,
+  "t12_asc": 1.97,
+  "t48_dsc": 2.3
+ },
+ "noise_dominated": false
 }

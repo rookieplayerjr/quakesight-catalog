@@ -1,22 +1,32 @@
 {
-  "Mw": 5.562108075888151,
-  "Mw_catalog": 5.6,
-  "VR": 0.5294162511925108,
-  "VR_round1": 0.15430257017469085,
-  "dMw": 0.037891924111848496,
-  "d_dip_np1": 11.952148430285932,
-  "d_strike_np1": 17.05492197985359,
-  "dip": 3.017851569714068,
-  "n_railed": 1,
-  "n_tracks": 1,
-  "phase_sign": -1.0,
-  "railed": [
-    "FAUL Y"
-  ],
-  "rake": 143.5610216003439,
-  "recentered": true,
-  "round2_used": true,
-  "stacked": false,
-  "strike": 134.2449219798536,
-  "zone": "YELLOW"
+ "Mw": 5.562108075888151,
+ "Mw_catalog": 5.6,
+ "VR": 0.5294162511925108,
+ "VR_round1": 0.15430257017469085,
+ "dMw": 0.037891924111848496,
+ "d_dip_np1": 11.952148430285932,
+ "d_strike_np1": 17.05492197985359,
+ "dip": 3.017851569714068,
+ "n_railed": 1,
+ "n_tracks": 1,
+ "phase_sign": -1.0,
+ "railed": [
+  "FAUL Y"
+ ],
+ "rake": 143.5610216003439,
+ "recentered": true,
+ "round2_used": true,
+ "stacked": false,
+ "strike": 134.2449219798536,
+ "zone": "RED",
+ "signal_ratio": 4.29,
+ "signal_ratio_source": "retro_audit_v2_2026-08-17 (majority rule + amplitude gate; model unchanged)",
+ "signal_budget_verdict": "NOISE_DOMINATED",
+ "signal_ratio_per_track": {
+  "t104_dsc": 4.29
+ },
+ "zone_before_retro_gate": "YELLOW",
+ "noise_dominated": true,
+ "zone_downgrade_reason": "signal_ratio 4.29 > 4 on the majority of tracks: field dominated by non-tectonic signal (retro audit 2026-08-17)",
+ "stress_drop_valid": false
 }

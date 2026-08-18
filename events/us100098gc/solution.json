@@ -1,24 +1,35 @@
 {
-  "Mw": 6.514782011378338,
-  "Mw_catalog": 5.8,
-  "VR": 0.952870033487681,
-  "VR_round1": 0.2940793758964151,
-  "dMw": 0.7147820113783379,
-  "d_dip_np1": 57.13902934832238,
-  "d_strike_np1": 170.32509619474231,
-  "dip": 15.080970651677617,
-  "n_railed": 3,
-  "n_tracks": 1,
-  "phase_sign": -1.0,
-  "railed": [
-    "FAUL X",
-    "FAUL StrSlip",
-    "FAUL DipSlip"
-  ],
-  "rake": 45.0,
-  "recentered": true,
-  "round2_used": true,
-  "stacked": false,
-  "strike": 45.91509619474232,
-  "zone": "YELLOW"
+ "Mw": 6.514782011378338,
+ "Mw_catalog": 5.8,
+ "VR": 0.952870033487681,
+ "VR_round1": 0.2940793758964151,
+ "dMw": 0.7147820113783379,
+ "d_dip_np1": 57.13902934832238,
+ "d_strike_np1": 170.32509619474231,
+ "dip": 15.080970651677617,
+ "n_railed": 3,
+ "n_tracks": 1,
+ "phase_sign": -1.0,
+ "railed": [
+  "FAUL X",
+  "FAUL StrSlip",
+  "FAUL DipSlip"
+ ],
+ "rake": 45.0,
+ "recentered": true,
+ "round2_used": true,
+ "stacked": false,
+ "strike": 45.91509619474232,
+ "zone": "RED",
+ "signal_ratio": 657.58,
+ "signal_ratio_source": "retro_audit_v2_2026-08-17 (majority rule + amplitude gate; model unchanged)",
+ "signal_budget_verdict": "BROKEN_PRODUCT",
+ "signal_ratio_per_track": {
+  "t61_dsc": 657.58
+ },
+ "zone_before_retro_gate": "YELLOW",
+ "noise_dominated": false,
+ "product_broken": true,
+ "zone_downgrade_reason": "BROKEN_PRODUCT: data p95 reaches 300 cm on a Mw 5.8 event \u2014 an unwrapping blow-up, not deformation. Model is fitted to an artefact; the track needs reprocessing (retro audit 2026-08-17)",
+ "stress_drop_valid": false
 }
