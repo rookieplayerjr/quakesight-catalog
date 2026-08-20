@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-20T20:37:03Z",
+  "generated_utc": "2026-08-20T20:52:02Z",
   "n_pending": 13,
   "events": [
     {
@@ -23,7 +23,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-08-20T20:40:06Z",
+      "next_check_utc": "2026-08-20T21:00:09Z",
       "expected_max_los_cm": 5.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm0u",
       "escalation_reason": null,
@@ -60,7 +60,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-08-20T20:40:06Z",
+      "next_check_utc": "2026-08-20T21:00:10Z",
       "expected_max_los_cm": 6.4,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlrj",
       "escalation_reason": null,
@@ -146,8 +146,19 @@
       "Mw_type": "ml",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 131,
+          "orbit_dir": "des",
+          "pair_dates": [
+            "20260726",
+            "20260819"
+          ],
+          "median_coh": 0.243,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
