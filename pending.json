@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-20T23:52:03Z",
+  "generated_utc": "2026-08-21T02:37:02Z",
   "n_pending": 13,
   "events": [
     {
@@ -23,7 +23,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "waiting_for_data",
-      "next_check_utc": "2026-08-21T00:00:12Z",
+      "next_check_utc": "2026-08-21T02:40:06Z",
       "expected_max_los_cm": 5.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm0u",
       "escalation_reason": null,
@@ -59,8 +59,8 @@
       "result": null,
       "diagnostics": null,
       "status": "monitoring",
-      "monitor_stage": "predicted",
-      "next_check_utc": "2026-08-21T00:00:05Z",
+      "monitor_stage": "waiting_for_data",
+      "next_check_utc": "2026-08-21T02:40:10Z",
       "expected_max_los_cm": 6.4,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlrj",
       "escalation_reason": null,
