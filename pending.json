@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-31T11:22:03Z",
+  "generated_utc": "2026-08-31T11:37:02Z",
   "n_pending": 16,
   "events": [
     {
@@ -51,8 +51,19 @@
       "Mw_type": "mb",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 121,
+          "orbit_dir": "des",
+          "pair_dates": [
+            "20260819",
+            "20260831"
+          ],
+          "median_coh": 0.727,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
