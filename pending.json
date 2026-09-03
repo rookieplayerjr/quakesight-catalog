@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-03T12:00:10Z",
+  "generated_utc": "2026-09-03T12:07:02Z",
   "n_pending": 18,
   "events": [
     {
@@ -22,8 +22,8 @@
       "result": null,
       "diagnostics": null,
       "status": "monitoring",
-      "monitor_stage": "detected",
-      "next_check_utc": "",
+      "monitor_stage": "predicted",
+      "next_check_utc": "2026-09-03T12:20:09Z",
       "expected_max_los_cm": 2.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdw6",
       "escalation_reason": null,
@@ -33,9 +33,9 @@
       "stacking": false,
       "multievent": null,
       "has_v2": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null,
+        "report": "events/us7000tdw6/briefing/briefing.html",
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdw6"
       }
     },
