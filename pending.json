@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-15T11:15:04Z",
+  "generated_utc": "2026-10-15T11:22:03Z",
   "n_pending": 25,
   "events": [
     {
@@ -22,8 +22,8 @@
       "result": null,
       "diagnostics": null,
       "status": "monitoring",
-      "monitor_stage": "detected",
-      "next_check_utc": "",
+      "monitor_stage": "predicted",
+      "next_check_utc": "2026-10-15T11:35:36Z",
       "expected_max_los_cm": 4.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukynnb",
       "escalation_reason": null,
@@ -33,9 +33,9 @@
       "stacking": false,
       "multievent": null,
       "has_v2": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null,
+        "report": "events/aka2026ukynnb/briefing/briefing.html",
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukynnb"
       }
     },
@@ -97,7 +97,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "waiting_for_data",
-      "next_check_utc": "2026-10-15T11:15:18Z",
+      "next_check_utc": "2026-10-15T17:20:06Z",
       "expected_max_los_cm": 16.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xi",
       "escalation_reason": null,
