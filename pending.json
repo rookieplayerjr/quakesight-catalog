@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-15T11:22:03Z",
-  "n_pending": 25,
+  "generated_utc": "2026-10-15T11:30:06Z",
+  "n_pending": 26,
   "events": [
     {
       "event_id": "aka2026ukynnb",
@@ -36,6 +36,43 @@
       "has_report": true,
       "links": {
         "report": "events/aka2026ukynnb/briefing/briefing.html",
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukynnb"
+      }
+    },
+    {
+      "event_id": "us6000u2g7",
+      "place": "43 km NNW of Lake Minchumina, Alaska",
+      "origin_utc": "2026-10-15T11:07:01Z",
+      "detected_utc": "2026-10-15T11:30:06Z",
+      "epi_lat": 64.22,
+      "epi_lon": -152.746,
+      "depth_km": 4.5,
+      "Mw": 5.6,
+      "Mw_type": "ml",
+      "faulting_class": null,
+      "magnitude_band": "",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "monitoring",
+      "monitor_stage": "detected",
+      "next_check_utc": "",
+      "expected_max_los_cm": 4.0,
+      "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukynnb",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "preliminary": true,
+      "stale": false,
+      "stacking": false,
+      "multievent": null,
+      "has_v2": false,
+      "has_report": false,
+      "links": {
+        "report": null,
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukynnb"
       }
     },
