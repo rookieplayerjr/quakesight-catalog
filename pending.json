@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-05T10:07:07Z",
+  "generated_utc": "2026-11-05T10:22:07Z",
   "n_pending": 32,
   "events": [
     {
@@ -62,8 +62,19 @@
       "Mw_type": "mb",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 31,
+          "orbit_dir": "des",
+          "pair_dates": [
+            "20261023",
+            "20261104"
+          ],
+          "median_coh": 0.192,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -347,7 +358,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "waiting_for_data",
-      "next_check_utc": "2026-11-05T10:10:05Z",
+      "next_check_utc": "2026-11-05T11:15:09Z",
       "expected_max_los_cm": 3.2,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2un",
       "escalation_reason": null,
