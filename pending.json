@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T17:45:19Z",
+  "generated_utc": "2026-11-18T17:52:08Z",
   "n_pending": 35,
   "events": [
     {
@@ -22,8 +22,8 @@
       "result": null,
       "diagnostics": null,
       "status": "monitoring",
-      "monitor_stage": "detected",
-      "next_check_utc": "",
+      "monitor_stage": "failed_predict",
+      "next_check_utc": "2026-11-18T23:50:35Z",
       "expected_max_los_cm": 1.6,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n",
       "escalation_reason": null,
@@ -33,9 +33,9 @@
       "stacking": false,
       "multievent": null,
       "has_v2": false,
-      "has_report": false,
+      "has_report": true,
       "links": {
-        "report": null,
+        "report": "events/us7000tz1n/briefing/briefing.html",
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n"
       }
     },
