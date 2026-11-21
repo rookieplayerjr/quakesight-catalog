@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-21T20:52:08Z",
+  "generated_utc": "2026-11-21T21:07:05Z",
   "n_pending": 37,
   "events": [
     {
@@ -14,8 +14,19 @@
       "Mw_type": "mb",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 99,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "20261109",
+            "20261121"
+          ],
+          "median_coh": 0.875,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -60,7 +71,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "predicted",
-      "next_check_utc": "2026-11-21T21:00:04Z",
+      "next_check_utc": "2026-11-21T21:20:06Z",
       "expected_max_los_cm": 1.2,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702",
       "escalation_reason": null,
