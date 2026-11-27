@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T09:07:06Z",
+  "generated_utc": "2026-11-27T09:22:03Z",
   "n_pending": 39,
   "events": [
     {
@@ -222,6 +222,16 @@
           "status": ""
         },
         {
+          "track": 173,
+          "orbit_dir": "asc",
+          "pair_dates": [
+            "20261114",
+            "20261126"
+          ],
+          "median_coh": 0.312,
+          "status": ""
+        },
+        {
           "track": 78,
           "orbit_dir": "des",
           "pair_dates": [
@@ -232,7 +242,7 @@
           "status": ""
         }
       ],
-      "n_tracks": 2,
+      "n_tracks": 3,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
@@ -1076,7 +1086,7 @@
       "diagnostics": null,
       "status": "monitoring",
       "monitor_stage": "downloaded",
-      "next_check_utc": "2026-11-27T09:15:05Z",
+      "next_check_utc": "2026-12-04T09:20:04Z",
       "expected_max_los_cm": 2.0,
       "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdw6",
       "escalation_reason": null,
