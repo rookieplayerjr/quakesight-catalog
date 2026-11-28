@@ -1,7 +1,44 @@
 {
-  "generated_utc": "2026-11-28T01:37:02Z",
-  "n_pending": 39,
+  "generated_utc": "2026-11-28T01:45:05Z",
+  "n_pending": 40,
   "events": [
+    {
+      "event_id": "us6000ue1b",
+      "place": "73 km NNW of Phôngsali, Laos",
+      "origin_utc": "2026-11-28T01:17:42Z",
+      "detected_utc": "2026-11-28T01:45:03Z",
+      "epi_lat": 22.2546,
+      "epi_lon": 101.7463,
+      "depth_km": 10,
+      "Mw": 5.1,
+      "Mw_type": "mww",
+      "faulting_class": null,
+      "magnitude_band": "",
+      "data_used": [],
+      "n_tracks": 0,
+      "aoi_half_km": null,
+      "in_sequence": false,
+      "sequence_n_significant": 0,
+      "result": null,
+      "diagnostics": null,
+      "status": "monitoring",
+      "monitor_stage": "detected",
+      "next_check_utc": "",
+      "expected_max_los_cm": 1.0,
+      "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1b",
+      "escalation_reason": null,
+      "pipeline_run_utc": null,
+      "preliminary": true,
+      "stale": false,
+      "stacking": false,
+      "multievent": null,
+      "has_v2": false,
+      "has_report": false,
+      "links": {
+        "report": null,
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1b"
+      }
+    },
     {
       "event_id": "us6000ud3i",
       "place": "67 km WNW of Mangan, India",
@@ -173,8 +210,19 @@
       "Mw_type": "mww",
       "faulting_class": null,
       "magnitude_band": "",
-      "data_used": [],
-      "n_tracks": 0,
+      "data_used": [
+        {
+          "track": 163,
+          "orbit_dir": "des",
+          "pair_dates": [
+            "20261113",
+            "20261125"
+          ],
+          "median_coh": 0.242,
+          "status": ""
+        }
+      ],
+      "n_tracks": 1,
       "aoi_half_km": null,
       "in_sequence": false,
       "sequence_n_significant": 0,
